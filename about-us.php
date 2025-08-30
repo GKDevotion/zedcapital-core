@@ -321,7 +321,7 @@ include_once ('elements/header.php');
 <section class="key-feature-service">
     <div class="container p-5">
         <div class="position-relative set-diamond-image">
-            <img src="assets/images/black-diamond.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 40px; height: 40px;margin: -15px -80px; z-index: 1;">
+            <img src="assets/images/2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 100px; height: 70px;margin: -15px -80px; z-index: 1;">
         </div>
         <div class="row">
             <h2 class="h2 text-center">Key Features and Services</h2>
