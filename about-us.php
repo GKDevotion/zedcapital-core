@@ -1,0 +1,947 @@
+<?php
+include_once ('elements/header.php');
+?>
+
+<style>
+
+    .section {
+        padding: 100px 0 0 0; /* Adjust padding as needed */
+        background-image: url('assets/images/background/about-us-background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        min-height: 75vh;
+        display: flex;
+        align-items: center;   /* Vertical center */
+        justify-content: center; /* Horizontal center */
+        /* margin: 40px 0 -85px 0; */
+    }
+
+    .section-text .underline {
+        display: block;
+        width: 50px;
+        height: 8px;
+        background-color: var(--zed-primary);
+        margin: 40px 0;
+    }
+
+    .section-bottom {
+        background-color: var(--zed-primary);
+        color: #fff;
+        padding: 20px 0;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .set-diamond-image img{
+        transition-delay: .1s;
+        transition-timing-function: ease-in-out;
+        transition-duration: .7s;
+        transition-property: all;
+    }
+
+    @media (max-width: 767.9px) {
+        .section-text h1 {
+            font-size: 28px;
+        }
+
+        .set-diamond-image{
+            display: none;
+        }
+    }
+</style>
+
+<section class="section">
+    <div class="container section-text">
+        <p class="mb-4">Leadership & Mission</p>
+        <h1 class="display-6 fw-bold">Get to know<br>to Zed Capital</h1>
+        <span class="underline"></span>
+        <p class="mb-4">Our promise to perform responsibly as a leading, global company.</p>
+    </div>
+</section>
+
+<div class="section-bottom">
+    <div class="container">
+        <p class="mb-0">
+            Zed Capital is a world-leading leveraged products broker in online trading of the global markets.
+            Zed Capital offers 130+ leveraged product instruments for global investors to trade. We became
+            the preferred brand of many traders by putting the funds safety as a top priority and providing
+            an efficient, simple trading journey.
+        </p>
+    </div>
+</div>
+
+<style>
+    .mission-value {
+        padding: 100px 0 90px 0;
+    }
+
+    .mission-value-hover-effect {
+        position: relative;
+        text-decoration: none;
+        color: #000;
+        font-size: 2rem;
+    }
+
+    .mission-value-hover-effect::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -20px; /* distance below text */
+        width: 100%;
+        height: 2px;
+        background: var(--zed-primary);
+        transform: scaleX(0);
+        transform-origin: left; /* start from left */
+        transition: transform 0.3s ease;
+    }
+
+    .mission-value .card:hover .mission-value-hover-effect::after {
+        transform: scaleX(1);
+    }
+
+    .card {
+        background: var(--zed-white-glass-effect);
+        border: 1px solid #ddd;
+        flex: 1 1 300px;
+        position: relative;
+        /* box-shadow: 0 2px 8px rgba(0,0,0,0.05); */
+        overflow: hidden;
+        border-radius: 25px;
+        padding: 3rem;
+    }
+
+    .card img {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        max-width: 100px;
+        opacity: 0.8;
+    }
+
+    .card p {
+        font-size: 15px;
+        color: #666;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .card p.bold {
+        font-weight: bold;
+        color: #000;
+    }
+
+    .about-mission-img{
+        transition: transform 0.8s ease;
+        width: 160px;
+        height: 130px; 
+        margin: -36px 15px;
+    }
+
+    .about-vision-img{
+        transition: transform 0.8s ease;
+        width: 140px;
+        height: 150px; 
+        margin: -45px 15px;
+    }
+
+    .mission-value .hover-translateY:hover .about-mission-img, .mission-value .hover-translateY:hover .about-vision-img{
+        transform: translateY(-50px);
+    }
+
+    @media (max-width: 768px) {
+        .mission-value {
+            padding: 100px 0 0 0;
+        }
+
+        .card img {
+            position: static;
+            display: block;
+            margin: 0 auto 15px;
+            max-width: 80px;
+        }
+        .card {
+            padding: 30px !important;
+            margin-bottom: 50px;
+        }
+    }
+</style>
+
+<section class="mission-value">
+    <div class="container">
+        <div class="row">
+            <!-- Mission -->
+            <div class="col-md-6 hover-translateY">
+                <div class="position-relative set-diamond-image">
+                    <img src="assets/images/about-mission.png" alt="Mission Image" class="position-absolute bottom-30 end-0 about-mission-img">
+                </div>
+                <div class="card">
+                    <h2 class="h2 pb-5 mb-0">
+                        <a href="javascript:void(0)" class="mission-value-hover-effect">
+                            Mission
+                        </a>
+                    </h2>
+                    <p class="text-gray">We envision Zed Capital as a thriving international financial trading entity, delivering steadfast brokerage services while maximizing benefits</p>
+                    <p>delivering steadfast brokerage services while maximizing benefits</p>
+                    <p class="bold">We envision Zed Capital as a thriving international financial trading entity, delivering steadfast brokerage services while maximizing benefits</p>
+                </div>
+            </div>
+
+            <!-- Vision -->
+             <div class="col-md-6 hover-translateY">
+                <div class="position-relative set-diamond-image">
+                    <img src="assets/images/about-vision.png" alt="Vision Image" class="position-absolute bottom-30 end-0 about-vision-img">
+                </div>
+                <div class="card">
+                    <h2 class="h2 pb-5 mb-0">
+                        <a href="javascript:void(0)" class="mission-value-hover-effect">
+                            Vision
+                        </a>
+                    </h2>
+                    <p class="text-gray">We envision Zed Capital as a thriving international financial trading entity, delivering steadfast brokerage services while maximizing benefits</p>
+                    <p>delivering steadfast brokerage services while maximizing benefits</p>
+                    <p class="bold">We envision Zed Capital as a thriving international financial trading entity, delivering steadfast brokerage services while maximizing benefits</p>
+                </div>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<style>
+    .key-feature-service{
+        background-image: url('assets/images/background/key-feature-service.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: round;
+        position: relative;
+    }
+    
+    .key-feature-service h2{
+        margin-bottom: 3rem;
+    }
+
+    .set-card-border{
+        padding: 15px 140px;
+    }
+
+    .set-card-border-left{
+        padding: 0px 80px 80px 200px;
+    }
+
+    .set-card-border-right{
+        padding: 0 200px 80px 80px;
+    }
+
+    .card-background{
+        background-color: #ffffffbf;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        margin: 10px 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+    }
+
+    .card-background:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+
+    .text-hover-effect {
+        display: inline-block;
+        position: relative;
+        /* margin-bottom: 15px */
+    }
+
+    .text-hover-effect::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -15px;
+        height: 3px;
+        background-color: var(--zed-primary);
+        width: 0;
+        transition: width 0.3s ease;
+    }
+
+    .card-background:hover .text-hover-effect::after {
+        width: 50%;
+    }
+
+    .text-hover-effect::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        border-radius: 4px;
+        background-color: var(--zed-primary-hover);
+        bottom: -5px;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+    }
+
+    .desktop-view {
+        display: flex;
+    }
+
+    .mobile-view {
+        display: none;
+    }
+
+    @media (max-width: 767.9px) {
+
+        .key-feature-service h2{
+            margin-bottom: 0;
+        }
+
+        .desktop-view {
+            display: none;
+        }
+
+        .mobile-view {
+            display: block;
+        }
+
+        .set-card-border-left, .set-card-border-right {
+            padding: 0;
+        }
+
+        .text-hover-effect{
+            text-align: center;
+        }
+
+        .card-background p{
+            text-align: justify;
+        }
+    }
+</style>
+
+<section class="key-feature-service">
+    <div class="container p-5">
+        <div class="position-relative set-diamond-image">
+            <img src="assets/images/black-diamond.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 40px; height: 40px;margin: -15px -80px; z-index: 1;">
+        </div>
+        <div class="row">
+            <h2 class="h2 text-center">Key Features and Services</h2>
+        </div>
+        <div class="row desktop-view">
+            <div class="col-md-6 set-card-border-left">
+                <div class="card-background">
+                    <h5 class="fw-bold w-75 mb-4 text-hover-effect">Comprehensive Trading Platforms</h5>
+                    <p class="text-gray">
+                        Access leading-edge trading platforms such as Meta Trader 5 (MT5), renowned for their robust functionality, advanced charting tools, and automated trading.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 set-card-border-right">
+                <div class="card-background">
+                    <h5 class="fw-bold w-75 mb-4 text-hover-effect">Wide Range of Instruments</h5>
+                    <p class="text-gray">
+                        Trade a diverse range of forex currency pairs, commodities, indices, and cryptocurrencies, catering to diverse trading strategies and preferences.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 set-card-border-left">
+                <div class="card-background">
+                    <h5 class="fw-bold w-75 mb-4 text-hover-effect">Educational Resources</h5>
+                    <p class="text-gray">
+                        Enhance your trading skills with our comprehensive educational resources, including webinars, tutorials, market analysis, and expert insights.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 set-card-border-right">
+                <div class="card-background">
+                    <h5 class="fw-bold w-75 mb-4 text-hover-effect">Secure and Transparent</h5>
+                    <p class="text-gray">
+                        Operate with confidence knowing that Zed Capital International Limited adheres to strict regulatory standards and employs cutting-edge security measures.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mobile-view">
+            <div class="col-md-6 set-card-border-left">
+                <div class="card-background">
+                    <h5 class="fw-bold mb-4 text-hover-effect">Comprehensive Trading Platforms</h5>
+                    <p class="text-gray">
+                        Access leading-edge trading platforms such as Meta Trader 5 (MT5), renowned for their robust functionality, advanced charting tools, and automated trading.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 set-card-border-right">
+                <div class="card-background">
+                    <h5 class="fw-bold mb-4 text-hover-effect">Wide Range of Instruments</h5>
+                    <p class="text-gray">
+                        Trade a diverse range of forex currency pairs, commodities, indices, and cryptocurrencies, catering to diverse trading strategies and preferences.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 set-card-border-left">
+                <div class="card-background">
+                    <h5 class="fw-bold mb-4 text-hover-effect">Educational Resources</h5>
+                    <p class="text-gray">
+                        Enhance your trading skills with our comprehensive educational resources, including webinars, tutorials, market analysis, and expert insights.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 set-card-border-right">
+                <div class="card-background">
+                    <h5 class="fw-bold mb-4 text-hover-effect">Secure and Transparent</h5>
+                    <p class="text-gray">
+                        Operate with confidence knowing that Zed Capital International Limited adheres to strict regulatory standards and employs cutting-edge security measures.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .contact-section {
+        background-color: var(--zed-primary); /* Red background */
+        color: #fff;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+        .contact-section {
+            padding: 40px 15px;
+        }
+
+        .contact-section p{
+            text-align: justify;
+        }
+    }
+</style>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <h2 class="h2 fw-bold mb-4">We'd Love To Hear From You</h2>
+            <p class="text-white m-auto">
+                Zed Capital operates globally with offices and teams around the world, offering localized support and tailored trading solutions. 
+                Our international reach allows us to understand and meet the unique needs of traders in different regions, making us a trusted partner in your financial journey.
+            </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .regulatory-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .regulatory-left img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .regulatory-right .underline {
+        display: block;
+        width: 80px;
+        height: 8px;
+        background: var(--zed-primary);
+        margin: 30px 0;
+    }
+
+    .regulatory-right ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+    }
+
+    .regulatory-right ul li {
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: #666;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .regulatory-right ul li::before {
+        content: "-";
+        position: absolute;
+        left: 0;
+        color: #666;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .regulatory-section {
+            flex-direction: column;
+            text-align: center;
+            padding: 100px 0 20px;
+        }
+        .regulatory-right {
+            padding-left: 0;
+            margin-top: 30px;
+        }
+    }
+</style>
+
+<section class="regulatory-section">
+    <div class="container">
+        <div class="row">
+            <!-- Left Image -->
+            <div class="col-md-7">
+                <div class="regulatory-left">
+                    <img src="assets/images/regulatory-assurance.png" alt="Regulatory Assurance">
+                </div>
+            </div>
+            <!-- Right Text -->
+            <div class="col-md-5 d-flex justify-content-center align-items-center">
+                <div class="regulatory-right">
+                    <h2 class="h1 fw-bold">Start trading the global markets with a regulated broker</h2>
+                    <span class="underline"></span>
+                    <ul>
+                        <li class="text-gray">Licensing Authority</li>
+                        <li class="text-gray">Safety in Trading</li>
+                        <li class="text-gray">Adherence to Regulations</li>
+                        <li class="text-gray">Client Trust</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+<style>
+    .global-present p{
+        width: 90%;
+    }
+
+    /* .card-background{
+        background-color: #ffffffbf;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        margin: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    } */
+
+    .card-background:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+</style>
+
+<section class="py-2 mb-5 global-present">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-md-6 ">
+                <div class="position-relative">
+                    <div class="row">
+                        <div class="col-md-12 text-end position-absolute set-diamond-image">
+                            <img src="assets/images/stand-by-users.png" alt="Client Icon" class="" style="width: 200px; margin: -75px -45px 0 0;">
+                        </div>
+                    </div>
+                    <div class="card-background position-relative">
+                        <!-- <div class="position-absolute top-0 end-0 mt-n4 me-n3"> -->
+                        <!-- </div> -->
+                        <h5 class="fw-bold mb-4">Client-Centric Approach</h5>
+                        <p class="text-gray mb-0">
+                            Our client support team is available around the clock to provide assistance and guidance, ensuring a seamless trading experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 ">
+                <div class="position-relative">
+                    <div class="row">
+                        <div class="col-md-12 text-end position-absolute set-diamond-image">
+                            <img src="assets/images/register-note.png" alt="Client Icon" class="" style="width: 120px; margin: -75px -45px 0 0;">
+                        </div>
+                    </div>
+                    <div class="card-background position-relative">
+                        <!-- <div class="position-absolute top-0 end-0 mt-n4 me-n3"> -->
+                        <!-- </div> -->
+                        <h5 class="fw-bold mb-4">Regulated and Reliable</h5>
+                        <p class="text-gray mb-0">
+                            We are committed to maintaining the highest standards of regulatory compliance, ensuring transparency and fairness in all client interactions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+    .presence-section {
+        background: url('assets/images/background/about-us-globe-background.png') no-repeat center top / cover;
+        text-align: center;
+        padding: 60px 20px;
+        position: relative;
+        min-height: 55vh;
+        display: flex;
+        align-items: center;   /* Vertical center */
+        justify-content: center; /* Horizontal center */
+        margin-top: 100px;
+    }
+
+    /* White fade overlay at bottom */
+    .presence-section::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(to bottom, transparent, white);
+        pointer-events: none;
+    }
+
+    /* Red underline under text */
+    .stat-box span::after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: var(--zed-primary);
+        margin: 15px 0;
+    }
+
+    .presence-stats div{
+        z-index: 1;
+    }
+</style>
+
+<section class="presence-section">
+    <div class="container">
+        <div class="row">
+            <h2 class="h2 fw-bold">Our Worldwide Presence</h2>
+            <p class="text-gray">We enable our investors with a safe and secure trading environment.</p>
+        </div>
+        
+        <div class="row presence-stats mt-5">
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="stat-box text-start">
+                    <h3 class="text-red h2 fw-bold">300+</h3>
+                    <span class="text-gray">TRADING INSTRUMENTS</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="stat-box text-start">
+                    <h3 class="text-red h2 fw-bold">5+</h3>
+                    <span class="text-gray">Global Offices</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="stat-box text-start">
+                    <h3 class="text-red h2 fw-bold">9+</h3>
+                    <span class="text-gray">Languages</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="stat-box text-start">
+                    <h3 class="text-red h2 fw-bold">200K+</h3>
+                    <span class="text-gray">Active Clients</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+   
+    .where-to-start{
+        background-color: var(--zed-banner-bg-start);
+    }
+
+    .where-to-start .underline {
+        width: 80px;
+        height: 8px;
+        background-color: red;
+        margin: 20px auto;
+    }
+    .highlight-box {
+        background: white;
+        padding: 25px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        font-weight: 600;
+        border-radius: 5px;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .where-to-start p{
+            text-align: justify;
+        }
+    }
+</style>
+
+<section class="where-to-start">
+    <div class="container py-5">
+        <div class="row text-center text-md-start">
+            <div class="col-12">
+                <h2 class="h2 fw-bold text-center">Where It All Started</h2>
+                <div class="underline mt-5"></div>
+            </div>
+        </div>
+
+        <div class="row align-items-center g-4">
+            <!-- Left Highlight -->
+            <div class="col-md-5 text-md-start p-5">
+                <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-11">
+                        <div class="highlight-box text-center px-5">
+                            The founding members of Zed Capital began as traders themselves.
+                        </div>
+                        <div class="position-relative set-diamond-image">
+                            <img src="assets/images/about-us-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 start-0 float-y" style="width: 160px; height: 90px; margin: -65px -65px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Paragraph -->
+            <div class="col-md-7">
+                <p class="text-gray">
+                    Their hands-on experience revealed the daily challenges, roadblocks, and pain points that traders face—issues the industry had yet to solve.
+                    Driven by a vision to eliminate these obstacles, they set out to create Zed Capital: a company built by traders, for traders.
+                    Zed Capital solves current trading problems and constantly innovates to stay one step ahead, delivering cutting-edge solutions to empower its clients worldwide.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .enjoy-global-market{
+        padding: 3rem;
+    }
+
+    .enjoy-global-market .underline {
+        width: 60px;
+        height: 8px;
+        background-color: red;
+        margin: 20px auto;
+    }
+
+    .stock-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70px;
+        height: 40px;
+        background: white;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .stock-card {
+        background-color: #f5f5f5;
+        border-radius: 12px;
+        padding: 40px 20px 20px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .stock-icon {
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: transform 0.5s ease;
+        width: 40px;
+    }
+
+    .stock-card:hover .stock-icon {
+        transform: translateX(-50%) translateY(-20px);
+    }
+
+    .stock-text {
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .stock-text a {
+        color: var(--zed-dark-text)
+    }
+
+    .stock-text:hover a {
+        color: var(--zed-primary)
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .enjoy-global-market {
+            padding: 0;
+        }
+    }
+
+</style>
+
+<section class="enjoy-global-market">
+    <div class="container p-5">
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="h2 fw-bold">Enjoy access to global markets</h2>
+                <div class="underline mt-4"></div>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="row">
+            <div class="col-md-2 col-6 col-sm-6">
+                <div class="stock-card">
+                    <img src="assets/images/about-us-stock.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <div class="stock-text">
+                        <a href="javascript:void(0)" class="text-decoration-none">
+                            Stock
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6 col-sm-6">
+                <div class="stock-card">
+                    <img src="assets/images/about-us-metal.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <div class="stock-text">
+                        <a href="javascript:void(0)" class="text-decoration-none">
+                            Metal
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6 col-sm-6">
+                <div class="stock-card">
+                    <img src="assets/images/about-us-indices.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <div class="stock-text">
+                        <a href="javascript:void(0)" class="text-decoration-none">
+                            Indices
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6 col-sm-6">
+                <div class="stock-card">
+                    <img src="assets/images/about-us-forex.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <div class="stock-text">
+                        <a href="javascript:void(0)" class="text-decoration-none">
+                            Forex
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6 col-sm-6">
+                <div class="stock-card">
+                    <img src="assets/images/about-us-commodities.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <div class="stock-text">
+                        <a href="javascript:void(0)" class="text-decoration-none">
+                            Commodities
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6 col-sm-6">
+                <div class="stock-card">
+                    <img src="assets/images/about-us-crypto.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <div class="stock-text">
+                        <a href="javascript:void(0)" class="text-decoration-none">
+                            Crypto
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+<style>
+  
+    .value-section {
+        position: relative;
+        background: url('assets/images/background/about-us-value-background.png') no-repeat center center/cover;
+        height: 500px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    /* Dark gradient overlay at bottom */
+    .value-section::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    }
+
+    .value-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .value-content h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .value-content p {
+        font-size: 16px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+        .value-section {
+            height: 300px;
+            padding: 0 20px;
+        }
+
+        .value-content h2 {
+            font-size: 28px;
+        }
+
+        .value-content p {
+            font-size: 14px;
+        }
+    }
+</style>
+
+<section class="value-section">
+    <div class="value-content">
+        <h2>Our Value</h2>
+        <p class="mb-5">We enable our investors with a safe and secure trading environment.</p>
+    </div>
+</section>
+
+<div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
+    <img src="assets/images/about-us-2-black-red-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 130px; height: 80px; margin: -55px 125px;">
+</div>
+
+<?php
+include_once ('elements/footer.php');
+?>

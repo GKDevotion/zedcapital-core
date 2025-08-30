@@ -1,0 +1,24 @@
+Dynamic Content Lockups V2 - Open Props: https://codepen.io/mobalti/pen/WNBZJdG
+Open Props - Dynamic Content Lockups with Scroll-Driven Animations: https://codepen.io/mobalti/pen/Jjxqjxe?editors=0100
+Steampunk Explorer Card - Interactive 3D Flip Design #CodePenChallenge: https://codepen.io/Avoloch/pen/zxYVGoj
+Hover Effects: https://prismic.io/blog/css-hover-effects
+    https://prismic.io/blog/css-animation-examples#3-hover-effect-for-headers
+    
+Translate up/down:
+    https://codepen.io/colorincode/pen/RwoEGRm
+    
+IHover Effects: https://gudh.github.io/ihover/dist/index.html
+Zoom Effects:
+    https://codepen.io/danwilson/pen/YXYWKK
+
+Round Animation:
+    https://codepen.io/andreruffert/pen/VwdPGZ
+
+Clock Animation:
+    https://codepen.io/yudizsolutions/pen/mdgpBZg
+    https://codepen.io/bchiang7/pen/QWOmmyN
+    https://codepen.io/Lorti/pen/XpQewQ
+
+Text Animation
+    https://prismic.io/blog/css-text-animations
+    https://dev.to/afif/a-multi-line-css-only-typewriter-effect-3op3
