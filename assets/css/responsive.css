@@ -1,5 +1,5 @@
 /* Below 768px - Mobile */
-@media (max-width: 767px) { 
+@media (max-width: 767.99px) { 
     #content canvas {
         width: 100%;
     }
@@ -10,7 +10,7 @@
 }
 
 /* 768px - 1024px - Tablet */
-@media (min-width: 768px) and (max-width: 1024px) { 
+@media (min-width: 768px) and (max-width: 1023.99px) { 
 
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
         --bs-gutter-x: 1.5rem !important;
@@ -40,16 +40,72 @@
 }
 
 /* 1025px - 1499px - Desktop */
-@media (min-width: 1025px) and (max-width: 1699px) { 
+@media (min-width: 1024px) and (max-width: 1699.99px) { 
+    body{
+        font-size: 0.85rem !important;
+    }
+    
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1400px;
+    }
+    
+    .h2{
+        font-size: 2.2rem !important;
+    }
+
+    .top-bar .flag-text, .top-bar{
+        font-size: 11px !important;
+    }
+
+    li.nav-item, .demo-account-btn, .live-account-btn{
+        font-size: 0.75rem !important;
+    }
+
+    .stock-tesla-icon{ 
+        width: 150px !important; 
+        height: 150px !important; 
+        margin: 50px 375px !important;
+    }
+
+    .stock-amazon-icon{
+        width: 150px !important; 
+        height: 150px !important; 
+        margin: -240px 375px !important;
+    }
+
+    .stock-nikkie-icon{
+        width: 120px !important; 
+        height: 120px !important; 
+        margin: 70px 0 !important;
+    }
+
+    .stock-apple-icon{
+        width: 100px !important; 
+        height: 100px !important; 
+        margin: -200px 0 !important;
     }
 }
 
 /* 1500px - 1999px - Large Screens */
-@media (min-width: 1700px) and (max-width: 1999px) {
+@media (min-width: 1700px) and (max-width: 1999.99px) {
     .nav-link {
         margin: 0 25px !important;
+    }
+
+    .stock-tesla-icon{ 
+        margin: 70px 325px !important;
+    }
+
+    .stock-amazon-icon{
+        margin: -250px 375px !important;
+    }
+
+    .stock-nikkie-icon{
+        margin: 70px -200px !important;
+    }
+
+    .stock-apple-icon{
+        margin: -200px -200px !important;
     }
 }
 

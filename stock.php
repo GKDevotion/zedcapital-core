@@ -431,19 +431,15 @@ include_once ('elements/header.php');
 
 <style>
     .stock-section {
-        /* background-color: var(--zed-primary);
         padding: 60px 0;
-        position: relative;
-        overflow: hidden; */
-        padding: 60px 0; /* Adjust padding as needed */
         background-image: url('assets/images/background/stock-trading-background.png');
         color: white;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         display: flex;
-        align-items: center;   /* Vertical center */
-        justify-content: center; /* Horizontal center */
+        align-items: center;
+        justify-content: center;
     }
 
     .stock-section h2 {
@@ -470,6 +466,31 @@ include_once ('elements/header.php');
         height: 8px; 
         background: white;
     }
+
+    .stock-tesla-icon{
+        width: 200px; 
+        height: 200px; 
+        margin: 70px 370px;
+    }
+
+    .stock-amazon-icon{
+        width: 200px; 
+        height: 200px; 
+        margin: -250px 400px;
+    }
+
+    .stock-nikkie-icon{
+        width: 200px; 
+        height: 200px; 
+        margin: 70px -50px;
+    }
+
+    .stock-apple-icon{
+        width: 150px; 
+        height: 150px; 
+        margin: -200px -100px;
+    }
+
 </style>
 
 <section class="stock-section">
@@ -498,7 +519,12 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
             <div class="col-lg-6 col-md-12 p-0">
-                
+                <div class="position-relative set-diamond-image">
+                    <img src="assets/images/stock-tesla-icon.png" alt="stock tesla icon" class="position-absolute bottom-0 end-0 float-y stock-tesla-icon">
+                    <img src="assets/images/stock-amazon-icon.png" alt="stock amazon icon" class="position-absolute bottom-0 end-0 float-y stock-amazon-icon">
+                    <img src="assets/images/stock-nikkie-icon.png" alt="stock nikkie icon" class="position-absolute bottom-0 end-0 float-y stock-nikkie-icon">
+                    <img src="assets/images/stock-apple-icon.png" alt="stock apple icon" class="position-absolute bottom-0 end-0 float-y stock-apple-icon">
+                </div>
             </div>
         </div>
     </div>
