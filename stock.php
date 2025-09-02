@@ -468,8 +468,8 @@ include_once ('elements/header.php');
     }
 
     .stock-tesla-icon{
-        width: 200px; 
-        height: 200px; 
+        width: 220px; 
+        height: 220px; 
         margin: 70px 370px;
     }
 

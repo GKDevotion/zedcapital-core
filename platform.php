@@ -343,8 +343,8 @@ include_once('elements/header.php');
 
 <style>
     .highlight-line {
-        width: 40px;
-        height: 4px;
+        width: 60px;
+        height: 8px;
         background-color: red;
         margin: 2.2rem 0;
     }
@@ -475,12 +475,6 @@ include_once ('elements/feature-trading-icons.php');
         color: var(--zed-primary);
     }
 
-    .features-divider {
-        width: 40%;
-        background-color: var(--zed-primary);
-        height: 4px;
-    }
-
     @media (max-width: 767.98px) {
 
         .platform-icons {
@@ -505,7 +499,6 @@ include_once ('elements/feature-trading-icons.php');
             <div class="platform-feature-box">
                 <div class="">
                     <h5 class="fw-bold text-black mb-3">MT5 platform features:</h5>
-                    <div class="features-divider"></div>                    
                     <ul class="mb-0 text-gray arrow-list">
                         <li>Depth, of market display</li>
                         <li>Six pending stop order types</li>
@@ -798,12 +791,12 @@ include_once ('elements/feature-trading-icons.php');
 </section>
 
 <style>
-    .highlight-line {
+    /* .highlight-line {
         width: 50px;
         height: 8px;
         background-color: var(--zed-light-bg);
         margin: 2rem 0;
-    }
+    } */
 
     .open-account-btn {
         padding: 15px 25px;
