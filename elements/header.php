@@ -1,5 +1,5 @@
 <?php
-    $version = 0.02;
+    $version = 0.03;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,9 +21,9 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        <link href="assets/css/style.css?v=<?$version;?>" rel="stylesheet">
-        <link href="assets/css/responsive.css?v=<?$version;?>" rel="stylesheet">
-        <link href="assets/css/keyframe.css" rel="stylesheet">
+        <link href="assets/css/style.css?v=<?php echo $version;?>" rel="stylesheet">
+        <link href="assets/css/responsive.css?v=<?php echo $version;?>" rel="stylesheet">
+        <link href="assets/css/keyframe.css?v=<?php echo $version;?>" rel="stylesheet">
 
         <!-- OwlCarousel CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>

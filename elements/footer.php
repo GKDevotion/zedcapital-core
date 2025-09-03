@@ -238,7 +238,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
         <!-- Custom JS -->
-        <script src="assets/js/zcapital.js?v=0.01"></script>
+        <script src="assets/js/zcapital.js?v=<?php echo $version;?>"></script>
 
         <script>
 
