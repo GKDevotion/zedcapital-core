@@ -20,7 +20,7 @@
 
             .footer-links {
                 border-top: 1px solid #ccc;
-                padding: 30px 0;
+                padding: 30px 0 20px;
             }
 
             .footer-links h6 {
@@ -31,6 +31,7 @@
             .footer-links ul {
                 list-style: none;
                 padding: 0;
+                margin: 0;
             }
 
             .footer-links ul li {
@@ -58,6 +59,7 @@
             }
 
             .footer-bottom {
+                border-top: 1px solid #ccc;
                 font-size: 13px;
                 text-align: center;
                 padding: 20px;
@@ -101,7 +103,8 @@
             }
 
             .icon {
-                font-size: 25px;
+                font-size: 30px;
+                margin: 8px 0;
             }
         </style>
 
@@ -166,17 +169,6 @@
                     </div>
                 </div>
 
-                <div class="footer-meta">
-                    <a href="#">Accessibility Policy</a> |
-                    <a href="#">Anti-Fraud Notice</a> |
-                    <a href="#">Customer Identification Program Notice</a> |
-                    <a href="#">Customer Relationship Summary</a> |
-                    <a href="#">Warning on Frauds and Scams</a> |
-                    <a href="#">Forms and Disclosures</a> |
-                    <a href="#">Privacy</a> |
-                    <a href="#">Site Map</a>
-                </div>
-
                 <div class="footer-bottom pb-0">
                     <p><strong>Zed Capital International Limited</strong></p>
                     <p><strong>Registered Office:</strong> Level 7, Iconebene, Lot 8441, Rue de l’Institut, Ebene, Mauritius.</p>
@@ -218,6 +210,16 @@
                     </div>
                 </div>
 
+                <div class="footer-meta">
+                    <a href="#">Accessibility Policy</a> |
+                    <a href="#">Anti-Fraud Notice</a> |
+                    <a href="#">Customer Identification Program Notice</a> |
+                    <a href="#">Customer Relationship Summary</a> |
+                    <a href="#">Warning on Frauds and Scams</a> |
+                    <a href="#">Forms and Disclosures</a> |
+                    <a href="#">Privacy</a> |
+                    <a href="#">Site Map</a>
+                </div>
             </div>
         </footer>
         <!-- End Footer Section -->

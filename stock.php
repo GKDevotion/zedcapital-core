@@ -48,6 +48,9 @@ include_once ('elements/header.php');
         width: 85%;
     }
 
+    .our-commitment-text-bg li{
+        font-size: 1rem;
+    }
 
     @media (max-width: 767.98px) {
         .set-diamond-image{
@@ -106,7 +109,7 @@ include_once ('elements/header.php');
             <!-- Right Column with Red Background & Angled Shape -->
             <div class="col-lg-7 position-relative text-white px-4 py-4 our-commitment-text-bg" data-aos="fade-up" data-aos-duration="850">
                 <ul class="mb-0 ps-5 mx-5 w-75">
-                    <li class="fs-6">
+                    <li class="">
                         Stocks, also known as equities or shares, represent ownership in a company. When you own stock in a company, you own a portion of that company's assets and earnings proportional to the number of shares you hold. 
                     </li>
                 </ul>

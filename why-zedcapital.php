@@ -355,11 +355,11 @@ include_once ('elements/header.php');
 
     .btn-learn {
         margin-top: 20px;
-        padding: 15px 20px;
+        padding: 10px 20px;
         font-weight: 600;
-        border-radius: 12px;
+        border-radius: 15px;
         background-color: white;
-        border: 1px solid #ddd;
+        border: 1px solid var(--zed-border-color);
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
         display: inline-flex;
         align-items: center;

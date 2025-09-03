@@ -13,6 +13,7 @@ Zoom Effects:
 
 Round Animation:
     https://codepen.io/andreruffert/pen/VwdPGZ
+    https://codepen.io/mymahesh11/pen/dyYyEB
 
 Clock Animation:
     https://codepen.io/yudizsolutions/pen/mdgpBZg
@@ -22,3 +23,7 @@ Clock Animation:
 Text Animation
     https://prismic.io/blog/css-text-animations
     https://dev.to/afif/a-multi-line-css-only-typewriter-effect-3op3
+
+Menu Animation:
+    https://codepen.io/mymahesh11/pen/vNxWOE
+    https://codepen.io/morningstar-the-typescripter/pen/ZYzMvpo

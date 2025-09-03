@@ -14,7 +14,6 @@
 
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
         --bs-gutter-x: 1.5rem !important;
-        max-width: 100%;
     }
     
     #content {
@@ -39,26 +38,26 @@
     }
 }
 
-/* 1025px - 1499px - Desktop */
-@media (min-width: 1024px) and (max-width: 1699.99px) { 
+/* 1024px - 1499px - Desktop */
+@media (min-width: 1024px) and (max-width: 1499.99px) { 
     body{
         font-size: 0.85rem !important;
-    }
-    
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1400px;
     }
     
     .h2{
         font-size: 2.2rem !important;
     }
 
+    .h3, h3{
+        font-size: 1.6rem !important;
+    }
+
     .top-bar .flag-text, .top-bar{
         font-size: 11px !important;
     }
 
-    li.nav-item, .demo-account-btn, .live-account-btn{
-        font-size: 0.73rem !important;
+    li.nav-item, .demo-account-btn, .live-account-btn, .menu li a{
+        font-size: 0.8rem !important;
     }
 
     .stock-tesla-icon{ 
@@ -84,12 +83,48 @@
         height: 100px !important; 
         margin: -200px 0 !important;
     }
+
+    .top-right{
+        right: 115px !important     ;
+    }
+
+    .bottom-right{
+        bottom: 145px !important;
+        right: -35 !important;
+    }
+
+    .top-left{
+        top: 100px !important;
+        left: 75px !important;
+    }
+
+    .bottom-left{
+        left: 205px !important;
+    }
+
+    .market-card .px-5{
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+
+    .demo-text{
+        font-size: 15px !important;
+    }
+
+    .step-desc {
+        font-size: 0.64rem !important;
+    }
+
+    .our-commitment-text-bg li{
+        font-size: 0.75rem !important;
+    }
+
 }
 
 /* 1500px - 1999px - Large Screens */
-@media (min-width: 1700px) and (max-width: 1999.99px) {
+@media (min-width: 1500px) and (max-width: 1999.99px) {
     .nav-link {
-        margin: 0 25px !important;
+        margin: 0 10px !important;
     }
 
     .stock-tesla-icon{ 
@@ -109,7 +144,7 @@
     }
 }
 
-/* 1500px - 2000px - Large Screens */
+/* 2000px - 2200px - Large Screens */
 @media (min-width: 2000px) and (max-width: 2200px) {
     .nav-link {
         margin: 0 20px !important;

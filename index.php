@@ -997,7 +997,7 @@ if( false ){
             </div>
         </div>
 
-        <div class="row p-0">
+        <div class="row p-0 justify-content-center">
             <div class="col-md-4 p-0">
                 <div class="row tech-feature" data-aos="fade-up" data-aos-duration="500">
                     <div class="col-md-12 set-m-bottom">
@@ -1029,7 +1029,7 @@ if( false ){
                                 <img src="assets/images/pamm-trade-icon.png" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1000">
-                                <h3 class="fw-bold">PAMM Trading</h3>
+                                <h3 class="fw-bold">NEED Change</h3>
                             </div>
                         </div>
                     </div>
@@ -1401,12 +1401,12 @@ if( false ){
 
     .step-desc {
         color: #666;
-        font-size: 0.9rem;
+        font-size: 0.71rem;
         margin-top: 5px;
     }
 
     .arrow-top-round {
-        width: 30%;
+        width: 28%;
         height: 30px;
         background: url('assets/images/step-top-connector.png') no-repeat center;
         background-size: contain;
@@ -1415,7 +1415,7 @@ if( false ){
     }
 
     .arrow-bottom-round {
-        width: 30%;
+        width: 28%;
         height: 30px;
         background: url('assets/images/step-bottom-connector.png') no-repeat center;
         background-size: contain;
@@ -1839,7 +1839,7 @@ if( false ){
 <!-- Start Client review -->
 <style>
     #client_review {
-        padding: 120px 0;
+        padding: 120px 0 0;
         /* min-height: 85vh; */
         width: 100%;
         overflow: visible !important;
@@ -1876,6 +1876,54 @@ if( false ){
         display: none;
     }
 
+    .trustpilot-widget{
+        display:inline-flex;
+        flex-direction:column;
+        align-items:center;
+        gap:6px;
+        font-family:system-ui,Arial,sans-serif;
+    }
+
+    .tp-header{
+        display:flex;
+        align-items:center;
+        gap:6px;
+    }
+
+    .tp-logo{
+        width:25px;
+        height:25px;
+        fill:#00b67a;
+    }
+
+    .tp-text{
+        font-weight:600;
+        color:#111;
+        font-size:18px;
+    }
+
+    .tp-stars{
+        display:flex;
+        gap:2px;
+    }
+
+    .tp-star{
+        font-size:16px;
+        line-height:1;
+        padding:3px;
+        background:#00b67a;
+        color:#fff;
+        border-radius:2px;
+        width:22px;
+        height:22px;
+        text-align:center;
+    }
+
+    .tp-star.half{
+        background:linear-gradient(90deg, #00b67a 50%, #dfeee9 50%);
+        color:#fff;
+    }
+    
     @media (max-width: 767.9px) {
         #client_review {
             padding: 60px 0;
@@ -2016,6 +2064,27 @@ if( false ){
             <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </button>
+        </div>
+
+        <!-- Trustpilot Dummy Widget -->
+        <div class="row justify-content-center p-5">
+            <div class="trustpilot-widget">
+                <div class="tp-header">
+                    <!-- Star icon -->
+                    <svg class="tp-logo" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2l2.9 6.6 7.1.6-5.3 4.6 1.7 7-6.4-3.9-6.4 3.9 1.7-7L2 9.2l7.1-.6L12 2z"/>
+                    </svg>
+                    <span class="tp-text">Trustpilot</span>
+                </div>
+
+                <div class="tp-stars">
+                    <span class="tp-star full">★</span>
+                    <span class="tp-star full">★</span>
+                    <span class="tp-star full">★</span>
+                    <span class="tp-star full">★</span>
+                    <span class="tp-star half">★</span>
+                </div>
+            </div>
         </div>
     </div>
 </section>
