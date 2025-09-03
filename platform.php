@@ -51,6 +51,7 @@ include_once('elements/header.php');
     .gray-border {
         border: 1px solid var(--zed-border-color);
         border-radius: 25px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
 
     .feature-access {
