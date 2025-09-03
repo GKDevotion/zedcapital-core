@@ -1420,7 +1420,7 @@ if( false ){
         background: url('assets/images/step-bottom-connector.png') no-repeat center;
         background-size: contain;
         padding: 0 0 100px;
-        margin: -10px 0px 100px 10px;
+        margin: -25px;
     }
 
     .step-desc p {
