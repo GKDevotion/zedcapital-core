@@ -227,7 +227,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
+        <img src="assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
     </div>
 
 </div>
@@ -694,7 +694,7 @@ include_once ('elements/faq-questions.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="assets/images/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

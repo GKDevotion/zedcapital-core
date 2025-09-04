@@ -87,7 +87,7 @@ include_once ('elements/header.php');
                 </a>
 
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 start-0" style="width: 100px; height: 60px; margin: -60px -15px;">
+                    <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 start-0" style="width: 100px; height: 60px; margin: -60px -15px;">
                 </div>
             </div>
             <div class="col-md-8">
@@ -127,7 +127,7 @@ include_once ('elements/header.php');
 <section class="py-5">
     <div class="container">
         <div class="position-relative set-diamond-image">
-            <img src="assets/images/black-diamond.png" alt="Corner Image" class="position-absolute top-0 end-0" style="width: 40px; height: 40px;margin: -15px -80px;">
+            <img src="assets/images/diamonds/black-diamond.png" alt="Corner Image" class="position-absolute top-0 end-0" style="width: 40px; height: 40px;margin: -15px -80px;">
         </div>
         <div class="row g-4">
             <!-- Types of Stocks -->
@@ -228,7 +228,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: -20px 75px;">
+        <img src="assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: -20px 75px;">
     </div>
 </section>
 

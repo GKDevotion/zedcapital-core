@@ -582,7 +582,7 @@ include_once ('elements/header.php');
         </div>
 
         <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-delay="800">
-            <img src="assets/images/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: 50px 75px;">
+            <img src="assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: 50px 75px;">
         </div>
     </div>
 </section>
@@ -658,7 +658,7 @@ include_once ('elements/header.php');
             </div>
 
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-delay="800">
-                <img src="assets/images/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 80px;height: 50px;margin: 20px 75px;">
+                <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 80px;height: 50px;margin: 20px 75px;">
             </div>
         </div>
     </div>

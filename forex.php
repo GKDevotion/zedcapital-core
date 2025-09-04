@@ -68,7 +68,7 @@ include_once ('elements/header.php');
         <div class="row align-items-center">
         
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/silver-diamond.png" alt="Corner Image" class="position-absolute start-50 top-0 float-y" style="width: 80px; height: 50px;margin: 0 -200px;">
+                <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-50 top-0 float-y" style="width: 80px; height: 50px;margin: 0 -200px;">
             </div>
 
             <!-- Text Column -->
@@ -103,7 +103,7 @@ include_once ('elements/header.php');
                 <li><strong>You buy one currency</strong> with the expectation that it will appreciate in value compared to the other currency in the pair.</li>
             </ul>
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 100px; height: 80px;margin: 15px -100px">
+                <img src="assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 100px; height: 80px;margin: 15px -100px">
             </div>
         </div>
     </div>
@@ -178,7 +178,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
+        <img src="assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
     </div>
 </div>
 
@@ -694,7 +694,7 @@ include_once ('elements/faq-questions.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="assets/images/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

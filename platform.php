@@ -263,7 +263,7 @@ include_once('elements/header.php');
                 <img src="assets/images/meta-trader-laptop-background.png" alt="Meta Trader 5 Platform Mockup" class="img-fluid d-none d-lg-block">
 
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/platform-2-diamonds.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 120px; height: 70px; margin: -85px -50px;">
+                    <img src="assets/images/diamonds/platform-2-diamonds.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 120px; height: 70px; margin: -85px -50px;">
                 </div>
             </div>
         </div>
@@ -326,7 +326,7 @@ include_once('elements/header.php');
                 <p class="mb-0 text-white small">Available for PC and Mac OS, and without having to download any additional software, the MT5 enables instant access to the global markets.</p>
 
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/silver-diamond.png" alt="Corner Image" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -140px -50px;">
+                    <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -140px -50px;">
                 </div>
             </div>
         </div>

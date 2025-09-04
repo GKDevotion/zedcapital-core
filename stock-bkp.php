@@ -88,7 +88,7 @@ include_once ('elements/header.php');
         <div class="row gx-0 align-items-center">
 
             <div class="position-relative set-diamond-image">
-                <img src="assets/images/stock-2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0" style="width: 100px; height: 80px;margin: -8px 45px;">
+                <img src="assets/images/diamonds/stock-2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0" style="width: 100px; height: 80px;margin: -8px 45px;">
             </div>
 
             <!-- Left Column -->
@@ -106,7 +106,7 @@ include_once ('elements/header.php');
             </div>
 
             <div class="position-relative set-diamond-image">
-                <img src="assets/images/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0" style="width: 100px; height: 60px;margin: -35px 45px;">
+                <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0" style="width: 100px; height: 60px;margin: -35px 45px;">
             </div>
         </div>
     </div>
@@ -238,7 +238,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0" style="width: 150px;height: 120px;margin: -20px 75px;">
+        <img src="assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0" style="width: 150px;height: 120px;margin: -20px 75px;">
     </div>
 </section>
 

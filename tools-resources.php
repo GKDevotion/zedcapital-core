@@ -199,7 +199,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="850">
-        <img src="assets/images/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px;height: 100px;margin: -85px 80px;">
+        <img src="assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px;height: 100px;margin: -85px 80px;">
     </div>
 </div>
 
@@ -429,7 +429,7 @@ include_once ('elements/header.php');
     </section>
 </main>
 
-    <!-- Traders' Gym Section -->
+<!-- Traders' Gym Section -->
 <main class="container-fluid p-0 pt-3">    
     <section class="traders-gym-section text-white">
         <div class="container py-5">
@@ -452,6 +452,185 @@ include_once ('elements/header.php');
 </main>
 <!-- End Trading view Integration -->
 
+<!-- Start Trading platform table view -->
+
+<style>
+    .card {
+        border: 1px solid var(--zed-border-color);
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .nav-tabs .nav-link.active {
+        font-weight: 600;
+        border-bottom: 2px solid #777;
+        background-color: var(--zed-border-color);
+        color: var(--zed-dark-text) !important;
+    }
+
+    .table td, .table th {
+        vertical-align: middle;
+    }
+
+    .price-down { color: var(--zed-primary) !important; }
+    .price-up { color: var(--zed-success) !important; }
+
+    .trading-btn{
+        border-radius: 25px;
+        color: var(--zed-dark-text);
+        background-color: var(--zed-banner-bg-end);
+        border: 0 solid;
+        padding: 5px 15px;
+    }
+
+    .trading-btn:hover{
+        color: var(--zed-secondary);
+    }
+</style>
+<div class="container py-4 mt-5">
+    <div class="row g-4">
+        <!-- Left Section -->
+        <div class="col-lg-7">
+            <div class="card shadow-sm p-3">
+                <!-- Tabs -->
+                <ul class="nav nav-tabs mb-3" id="marketTabs" role="tablist">
+                    <li class="nav-item py-3" role="presentation">
+                        <button class="nav-link text-gray active" id="popular-tab" data-bs-toggle="tab" data-bs-target="#popular" type="button">Popular</button>
+                    </li>
+                    <li class="nav-item py-3" role="presentation">
+                        <button class="nav-link text-gray" id="commodities-tab" data-bs-toggle="tab" data-bs-target="#commodities" type="button">Commodities</button>
+                    </li>
+                    <li class="nav-item py-3" role="presentation">
+                        <button class="nav-link text-gray" id="crypto-tab" data-bs-toggle="tab" data-bs-target="#crypto" type="button">Crypto</button>
+                    </li>
+                    <li class="nav-item py-3" role="presentation">
+                        <button class="nav-link text-gray" id="forex-tab" data-bs-toggle="tab" data-bs-target="#forex" type="button">Forex</button>
+                    </li>
+                    <li class="nav-item py-3" role="presentation">
+                        <button class="nav-link text-gray" id="stocks-tab" data-bs-toggle="tab" data-bs-target="#stocks" type="button">Stocks</button>
+                    </li>
+                    <li class="nav-item py-3" role="presentation">
+                        <button class="nav-link text-gray" id="indices-tab" data-bs-toggle="tab" data-bs-target="#indices" type="button">Indices</button>
+                    </li>
+                </ul>
+
+                <!-- Table -->
+                <div class="table-responsive">
+                    <table class="table align-middle">
+                        <thead>
+                            <tr>
+                                <td class="text-gray">Instrument</td>
+                                <td class="text-gray">Buy</td>
+                                <td class="text-gray">Spread</td>
+                                <td class="text-gray">Daily Change</td>
+                                <td class="text-gray"></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="py-4">
+                                    <img src="assets/images/cryptologos/xrp.png?v=040" width="20" alt="XRPUSD"> XRPUSD
+                                </td>
+                                <td class="price-up">3.0578</td>
+                                <td class="py-4">3.8</td>
+                                <td class="price-down">-6.67%</td>
+                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">
+                                    <img src="assets/images/cryptologos/bitcoin.png?v=040" width="20" alt="BTCUSD"> BTCUSD
+                                </td>
+                                <td class="price-down">118305.04</td>
+                                <td class="py-4">15.0</td>
+                                <td class="price-down">-4.11%</td>
+                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">
+                                    <img src="assets/images/cryptologos/litecoin.png?v=040" width="20" alt="LTCUSD"> LTCUSD
+                                </td>
+                                <td class="price-up">121.28</td>
+                                <td class="py-4">5.0</td>
+                                <td class="price-down">-7.39%</td>
+                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">
+                                    <img src="assets/images/cryptologos/ethereum.png?v=040" width="20" alt="ETHUSD"> ETHUSD
+                                </td>
+                                <td class="price-up">4493.3</td>
+                                <td class="py-4">5.7</td>
+                                <td class="price-down">-5.48%</td>
+                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">
+                                    <img src="assets/images/cryptologos/bnb.png?v=040" width="20" alt="BNBUSD"> BNBUSD
+                                </td>
+                                <td class="price-up">824.57</td>
+                                <td class="py-4">3.7</td>
+                                <td class="price-down">-2.80%</td>
+                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="small text-muted mt-1">Prices are indicative only. Live prices are only available for active traders. The instruments shown are for indication purposes only and are CFDs (contracts for difference) not physical instruments.</p>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="col-lg-5">
+            <div class="card p-3 mb-4 p-5">
+                <div class="mb-5">
+                    <div class="position-absolute w-100 text-end">
+                        <img src="assets/images/trading-platform.png" alt="Candlestick chart" class="" style="margin: 0 100px 0 0; width: 100px;">
+                    </div>
+                    <h3 class="fw-bold mb-4">Trading Platforms</h3>
+                    <p class="m-0"><strong>Meta Trader 4/5:</strong> 
+                        <span class="text-gray">Popular platforms <br>
+                            offering comprehensive trading tools, <br>
+                            indicators, and automated trading capabilities.
+                        </span>
+                    </p>
+                    <p class="m-0"><strong>cTrader:</strong> 
+                        <span class="text-gray">
+                            Known for its intuitive interface and advanced charting tools.
+                        </span>
+                    </p>
+                    <p class="m-0"><strong>NinjaTrader:</strong> 
+                        <span class="text-gray">
+                            Offers advanced charting, back testing, and trade simulation.
+                        </span>
+                    </p>
+                </div>
+
+                <div>
+                    <div class="position-absolute w-100 text-end">
+                        <img src="assets/images/trading-economic-calander.png" alt="Candlestick chart" class="" style="margin: -87px 30px 0 0; width: 200px;">
+                    </div>
+                    <h3 class="fw-bold mb-4 w-75">News and Economic Calendars</h3>
+                    <p class="m-0"><strong>Forex Factory:</strong> 
+                        <span class="text-gray">
+                            Offers an economic calendar, market news, and forums for trader discussions.
+                        </span>
+                    </p>
+                    <p class="m-0"><strong>Investing.com:</strong> 
+                        <span class="text-gray">
+                            Provides real-time news, analysis, economic calendar, and customizable alerts.
+                        </span>
+                    </p>
+                    <p class="m-0"><strong>Bloomberg:</strong> 
+                        <span class="text-gray">
+                            Comprehensive financial news and analysis platform.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Trading platform table view -->
 
 <style>
     .tools-resource-overview img{
@@ -471,19 +650,19 @@ include_once ('elements/header.php');
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Trading Platforms</h4>
-                            <p>
+                            <p class="m-0">
                                 <strong>Meta Trader 4/5:</strong> 
-                                <span class="text-gray">" platforms offering comprehensive trading tools, indicators, and automated trading capabilities.</span>
+                                <span class="text-gray">platforms offering comprehensive trading tools, indicators, and automated trading capabilities.</span>
                             </p>
                         </div>
                         <img src="assets/images/trading-platform.png" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
-                        <p>
+                        <p class="m-0">
                             <strong>cTrader:</strong> 
                             <span class="text-gray">"Known for its intuitive interface and advanced charting tools.</span>
                         </p>
-                        <p>
+                        <p class="m-0">
                             <strong>NinjaTrader:</strong> 
                             <span class="text-gray">"Offers advanced charting, back testing, and trade simulation.</span>
                         </p>
@@ -497,7 +676,7 @@ include_once ('elements/header.php');
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Charting and Analysis Tools</h4>
-                            <p>
+                            <p class="m-0">
                                 <strong>TradingView:</strong> 
                                 <span class="text-gray">"Web-based platform with powerful charting tools, social trading features, and a wide range of technical indicators. </span>
                             </p>
@@ -505,11 +684,11 @@ include_once ('elements/header.php');
                         <img src="assets/images/charting-analysis.png" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
-                        <p>
+                        <p class="m-0">
                             <strong>MetaTrader Charts:</strong> 
                             <span class="text-gray">"Integrated into MT4/MT5 platforms, providing customizable charting and technical analysis tools.</span>
                         </p>
-                        <p>
+                        <p class="m-0">
                             <strong>Thinkorswim:</strong> 
                             <span class="text-gray">"Provides advanced charting, technical analysis tools, and paper trading.</span>
                         </p>
@@ -523,7 +702,7 @@ include_once ('elements/header.php');
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">News and Economic Calendars</h4>
-                            <p>
+                            <p class="m-0">
                                 <strong>Forex Factory:</strong> 
                                 <span class="text-gray">"Offers an economic calendar, market news, and forums for trader discussions.</span>
                             </p>
@@ -532,11 +711,11 @@ include_once ('elements/header.php');
                         <img src="assets/images/news-calender.png" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
-                        <p>
+                        <p class="m-0">
                             <strong>Investing.com:</strong> 
                             <span class="text-gray">"Provides real-time news, analysis, economic calendar, and customizable alerts.</span>
                         </p>
-                        <p>
+                        <p class="m-0">
                             <strong>Bloomberg:</strong> 
                             <span class="text-gray">"Comprehensive financial news and analysis platform.</span>
                         </p>
@@ -550,7 +729,7 @@ include_once ('elements/header.php');
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Educational Resources</h4>
-                            <p>
+                            <p class="m-0">
                                 <strong>Babypips:</strong> 
                                 <span class="text-gray">"Offers a comprehensive beginner's guide to forex trading, educational articles, and a community forum. </span>
                             </p>
@@ -559,11 +738,11 @@ include_once ('elements/header.php');
                         <img src="assets/images/education-resources.png" alt="Book Icon" class="" />
                     </div>
                     <div class="col-12">
-                        <p>
+                        <p class="m-0">
                             <strong>Investopedia:</strong> 
                             <span class="text-gray">"Provides articles, tutorials, and a dictionary of financial terms relevant to forex trading.</span>
                         </p>
-                        <p>
+                        <p class="m-0">
                             <strong>Trading courses:</strong> 
                             <span class="text-gray">"Various online platforms offer courses on forex trading, technical analysis, and trading strategies. </span>
                         </p>
@@ -577,7 +756,7 @@ include_once ('elements/header.php');
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Risk Management Tools</h4>
-                            <p>
+                            <p class="m-0">
                                 <strong>Stop Loss/Take Profit Orders:</strong> 
                                 <span class="text-gray">"Automated orders to limit losses and secure profits.</span>
                             </p>
@@ -586,11 +765,11 @@ include_once ('elements/header.php');
                         <img src="assets/images/risk-management.png" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
-                        <p>
+                        <p class="m-0">
                             <strong>Position Size Calculators:</strong> 
                             <span class="text-gray">"Tools to determine the appropriate position size based on risk tolerance and account size.</span>
                         </p>
-                        <p>
+                        <p class="m-0">
                             <strong>Volatility Indicators:</strong> 
                             <span class="text-gray">"Help gauge market volatility and adjust trading strategies accordingly.</span>
                         </p>
@@ -604,7 +783,7 @@ include_once ('elements/header.php');
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Algorithmic Trading Tools</h4>
-                            <p>
+                            <p class="m-0">
                                 <strong>Expert Advisors (EAs):</strong> 
                                 <span class="text-gray">"Automated trading systems developed within MT4/MT5 platforms.</span>
                             </p>
@@ -613,7 +792,7 @@ include_once ('elements/header.php');
                         <img src="assets/images/charting-analysis.png" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
-                        <p>
+                        <p class="m-0">
                             <strong>Algorithmic Trading Platforms:</strong> 
                             <span class="text-gray">"Tools like QuantConnect or AlgoTrader for developing and deploying custom trading algorithms.</span>
                         </p>
@@ -627,7 +806,7 @@ include_once ('elements/header.php');
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Technical Analysis Software</h4>
-                            <p>
+                            <p class="m-0">
                                 <strong>Autochartist:</strong> 
                                 <span class="text-gray">"Provides automated technical analysis, pattern recognition, and trading signals.</span>
                             </p>
@@ -636,7 +815,7 @@ include_once ('elements/header.php');
                         <img src="assets/images/technocal-analysis.png" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
-                        <p>
+                        <p class="m-0">
                             <strong>Trading Central:</strong> 
                             <span class="text-gray">"Offers technical analysis and trading signals based on chart patterns and indicators.</span>
                         </p>
@@ -650,7 +829,7 @@ include_once ('elements/header.php');
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Community and Forums</h4>
-                            <p>
+                            <p class="m-0">
                                 <strong>Expert Advisors (EAs):</strong> 
                                 <span class="text-gray">"Automated trading systems developed within MT4/MT5 platforms.</span>
                             </p>
@@ -659,7 +838,7 @@ include_once ('elements/header.php');
                         <img src="assets/images/community-forum.png" alt="Book Icon" class="" />
                     </div>
                     <div class="col-12">
-                        <p>
+                        <p class="m-0">
                             <strong>Algorithmic Trading Platforms:</strong> 
                             <span class="text-gray">"Tools like QuantConnect or AlgoTrader for developing and deploying custom trading algorithms.</span>
                         </p>
@@ -698,15 +877,15 @@ include_once ('elements/header.php');
     }
 </style>
 
-<section class="mb-5">
-    <div class="container">
+<section class="mb-5 py-2">
+    <div class="container py-5">
         <div class="start-box" data-aos="fade-up" data-aos-duration="800">
             <div class="black-box d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center" data-aos="fade-up" data-aos-duration="1000">
                 <div class="mb-3 mb-md-0 w-50">
                     <h4>Tools & <br>Resources</h4>
                 </div>
                 <div>
-                    <p>
+                    <p class="m-0">
                         When using these tools and resources, it's essential to conduct thorough research, understand the risks involved in forex trading, and develop a sound trading strategy tailored to your financial goals and risk tolerance.
                     </p>
                 </div>
@@ -720,6 +899,10 @@ include_once ('elements/header.php');
         </div>
     </div>
 </section>
+
+<div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-delay="800">
+    <img src="assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: -80px 150px;">
+</div>
 
 <?php
 include_once ('elements/footer.php');

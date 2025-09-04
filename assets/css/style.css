@@ -16,7 +16,7 @@
     --zed-card-back: #f8f9fa; /* rgba(249, 249, 249, 0.6);*/
     --zed-green-text: #233f57;
     --zed-white-glass-effect: #f8f9facf;
-    --zed-success: #1cc88a; 
+    --zed-success: green; 
     --zed-success-hover: #19b57c;
     --float-distance: 14px;   /* how far it moves up/down */
     --float-duration: 4.5s;   /* how slow/fast the loop is */

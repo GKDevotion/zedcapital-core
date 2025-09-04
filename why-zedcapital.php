@@ -138,7 +138,7 @@ include_once ('elements/header.php');
 <section>
     <div class="container">
         <div class="position-relative set-diamond-image">
-            <img src="assets/images/why-zed-3-diamonds.png" alt="Corner Image" class="position-absolute top-0 end-0 float-y" style="width: 150px; height: 100px; margin: -60px -75px 0 0;">
+            <img src="assets/images/diamonds/why-zed-3-diamonds.png" alt="Corner Image" class="position-absolute top-0 end-0 float-y" style="width: 150px; height: 100px; margin: -60px -75px 0 0;">
         </div>
         <div class="row trust-section align-items-center">
             <div class="col-md-6"  data-aos="fade-up" data-aos-delay="500">

@@ -321,7 +321,7 @@ include_once ('elements/header.php');
 <section class="key-feature-service">
     <div class="container p-5">
         <div class="position-relative set-diamond-image">
-            <img src="assets/images/2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 100px; height: 70px;margin: -15px -80px; z-index: 1;">
+            <img src="assets/images/diamonds/2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 100px; height: 70px;margin: -15px -80px; z-index: 1;">
         </div>
         <div class="row">
             <h2 class="h2 text-center">Key Features and Services</h2>
@@ -703,7 +703,7 @@ include_once ('elements/header.php');
                             The founding members of Zed Capital began as traders themselves.
                         </div>
                         <div class="position-relative set-diamond-image">
-                            <img src="assets/images/about-us-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 start-0 float-y" style="width: 160px; height: 90px; margin: -65px -65px;">
+                            <img src="assets/images/diamonds/about-us-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 start-0 float-y" style="width: 160px; height: 90px; margin: -65px -65px;">
                         </div>
                     </div>
                 </div>
@@ -939,7 +939,7 @@ include_once ('elements/header.php');
 </section>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="assets/images/about-us-2-black-red-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 130px; height: 80px; margin: -55px 125px;">
+    <img src="assets/images/diamonds/about-us-2-black-red-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 130px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

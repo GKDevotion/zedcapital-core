@@ -114,14 +114,14 @@ include_once ('elements/header.php');
             </div>
 
             <div class="position-relative set-diamond-image">
-                <img src="assets/images/silver-diamond.png" alt="Corner Image" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -30px 50px;">
+                <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -30px 50px;">
             </div>
         </div>
 
         <!-- Right description -->
         <div class="col-md-7" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-                <img src="assets/images/best-commodity-red-black-diamonds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 120px; margin: -50px -70px;">
+                <img src="assets/images/diamonds/best-commodity-red-black-diamonds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 120px; margin: -50px -70px;">
             </div>
             <p class="mb-0 text-muted" data-aos="fade-up" data-aos-duration="800" >
                 Stocks, also known as equities or shares, represent ownership in a company.
@@ -201,7 +201,7 @@ include_once ('elements/header.php');
 
     </div>
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
+        <img src="assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
     </div>
 </div>
 
@@ -567,7 +567,7 @@ include_once ('elements/faq-questions.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="assets/images/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

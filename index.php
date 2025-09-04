@@ -1444,7 +1444,7 @@ if( false ){
 
 <div id="how_to_start">
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 100px; height: 80px;">
+        <img src="assets/images/diamonds/2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 100px; height: 80px;">
     </div>
     <div class="container py-5 pt-0">
         <h2 class="fw-bold text-center h2 mb-2">How to Start</h2>
@@ -1500,7 +1500,7 @@ if( false ){
         </div>
     </div>
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/3-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 130px; height: 100px;">
+        <img src="assets/images/diamonds/3-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 130px; height: 100px;">
     </div>
 </div>
 <!-- End How to start steps -->
@@ -1820,7 +1820,7 @@ if( false ){
                 </div>
 
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/fund-security-3-diamonds.png" alt="Corner Image" class="position-absolute bottom-10 end-50 float-y" style="width: 130px; height: 80px;">
+                    <img src="assets/images/diamonds/fund-security-3-diamonds.png" alt="Corner Image" class="position-absolute bottom-10 end-50 float-y" style="width: 130px; height: 80px;">
                 </div>
             </div>
 
