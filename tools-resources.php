@@ -86,7 +86,7 @@ include_once ('elements/header.php');
 
                 <div class="row position-absolute">
                     <div class="col text-center" data-aos="fade-up" data-aos-duration="600">
-                        <img src="assets/images/gear-up-stock-trading" alt="Calendar Icon" class="" style="margin: 28px 0 -150px -140px; width: 150px;" />
+                        <img src="assets/images/gear-up-stock-trading.png" alt="Calendar Icon" class="" style="margin: 28px 0 -150px -140px; width: 150px;" />
                     </div>
                     <div class="text-center" data-aos="fade-up" data-aos-duration="700">
                         <img src="assets/images/gear-up-candle.png" alt="Calendar Icon" style="margin: -220px 0 -150px 300px; width: 50px;" />
