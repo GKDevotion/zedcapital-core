@@ -312,7 +312,12 @@ include_once ('elements/header.php');
 <div class="container py-5">
     <div class="row align-items-center">
       <!-- Text Section -->
-        <div class="col-lg-5 mb-4 mb-lg-0">
+        <div class="col-lg-7 mb-4 mb-lg-0 p-0">
+            <img src="assets/images/bit-size-lesson.png" alt="Beginner Trading Course" class="lesson-image">
+        </div>
+
+      <!-- Image Section -->
+        <div class="col-lg-5 text-start" data-aos="fade-up" data-aos-delay="800">
             <h2 class="h2 fw-bold" data-aos="fade-up" data-aos-delay="200">Learn in <br> Bite-Sized Lessons</h2>
             <div class="divider" data-aos="fade-up" data-aos-delay="300"></div>
             <h6 class="fw-bold" data-aos="fade-up" data-aos-delay="400">Beginner Trading Course</h6>
@@ -322,11 +327,6 @@ include_once ('elements/header.php');
             <a href="#" class="btn-red" data-aos="fade-up" data-aos-delay="600">
                 See All Beginner Courses
             </a>
-        </div>
-
-      <!-- Image Section -->
-        <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="800">
-            <img src="assets/images/bit-size-lesson.png" alt="Beginner Trading Course" class="lesson-image">
         </div>
     </div>
 </div>
@@ -587,82 +587,35 @@ include_once ('elements/header.php');
     </div>
 </section>
 
-<style>
-    .trading-cource-section{
-        padding: 100px 0;
-    }
-    .course-card img {
-        width: 100%;
-        border-radius: 8px;
-    }
-    .course-title {
-        font-weight: bold;
-        font-size: 1.1rem;
-        margin-top: 10px;
-    }
-    .course-desc {
-        color: #666;
-        font-size: 0.95rem;
-    }
-    .play-now {
-        color: red;
-        font-weight: bold;
-        display: inline-flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 0.95rem;
-    }
-    .show-all {
-        color: red;
-        font-weight: bold;
-        font-size: 0.95rem;
-        text-decoration: none;
-    }
-</style>
+<?php
+$paramArr = [
+    'name' => "Stock"
+];
 
-<section class="trading-cource-section">
-    <div class="container">
-        <!-- Header -->
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h5 class="text-gray" data-aos="fade-up" data-aos-delay="800">UPCOMING LIVE COURSES</h5>
-            <a href="#" class="show-all" data-aos="fade-up" data-aos-delay="800">Show All →</a>
-        </div>
+$videoArr = [
+    [
+        'id' => "iBZcDvw8Fi8",
+        "title" => "Forex Trading for Beginners (Full Course)",
+        "description" => "Forex trading is a massively profitable skill that can bring you time, location & financial freedom when mastered.",
+    ],
+    [
+        'id' => "9tCR16dsb6M",
+        "title" => "Forex Course for Beginners 2025",
+        "description" => "Beginner to Profitable: Full Trading Roadmap (Step-by-Step Guide).",
+    ],
+    [
+        'id' => "eynxyoKgpng",
+        "title" => "The Only Technical Analysis Video You Will Ever Need...",
+        "description" => "Understanding how to implement technical analysis correctly in your trading is one of the most important things you need to create a profitable trading career. ",
+    ]
+];
 
-        <!-- Courses -->
-        <div class="row g-4">
-            <div class="col-12 col-md-4">
-                <div class="course-card">
-                    <img src="assets/images/technology-analysis.png" alt="Technical Analysis" data-aos="fade-up" data-aos-delay="600">
-                    <div class="course-title mb-3" data-aos="fade-up" data-aos-delay="600">Technical Analysis</div>
-                    <div class="course-desc mb-3" data-aos="fade-up" data-aos-delay="600">Join Sam & Mati as they discuss all things to do with technical analysis</div>
-                    <div class="play-now mt-2" data-aos="fade-up" data-aos-delay="600">Play Now →</div>
-                </div>
-            </div>
+include_once ('elements/explore-more-about.php');
+?>
 
-            <div class="col-12 col-md-4">
-                <div class="course-card">
-                    <img src="assets/images/fundamental-analysis.png" alt="Fundamental Analysis" data-aos="fade-up" data-aos-delay="700">
-                    <div class="course-title mb-3" data-aos="fade-up" data-aos-delay="700">Fundamental Analysis</div>
-                    <div class="course-desc mb-3" data-aos="fade-up" data-aos-delay="700">Join Sam & Mati as they discuss all things to do with technical analysis</div>
-                    <div class="play-now mt-2" data-aos="fade-up" data-aos-delay="700">Play Now →</div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="course-card">
-                    <img src="assets/images/build-your-analysis.png" alt="Building Your Portfolio" data-aos="fade-up" data-aos-delay="800">
-                    <div class="course-title mb-3" data-aos="fade-up" data-aos-delay="800">Building Your Portfolio</div>
-                    <div class="course-desc mb-3" data-aos="fade-up" data-aos-delay="800">Join Sam & Mati as they discuss all things to do with technical analysis</div>
-                    <div class="play-now mt-2" data-aos="fade-up" data-aos-delay="800">Play Now →</div>
-                </div>
-            </div>
-
-            <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-delay="800">
-                <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 80px;height: 50px;margin: 20px 75px;">
-            </div>
-        </div>
-    </div>
-</section>
+<div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="850">
+    <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 80px; height: 50px; margin: -30px 200px;">
+</div>
 
 <?php
 include_once ('elements/footer.php');
