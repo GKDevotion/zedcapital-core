@@ -120,14 +120,14 @@
     </div>
 </section>
 <script>
-  document.querySelectorAll('.video-thumbnail').forEach(el => {
-    el.addEventListener('click', function () {
-      const videoUrl = this.getAttribute('data-video');
-      const videoTitle = this.getAttribute('data-title');
-      this.innerHTML = `<iframe width="100%" height="250" src="${videoUrl}" 
-        title="${videoTitle}" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>`;
+    document.querySelectorAll('.video-thumbnail').forEach(el => {
+        el.addEventListener('click', function () {
+            const videoUrl = this.getAttribute('data-video');
+            const videoTitle = this.getAttribute('data-title');
+            this.innerHTML = `<iframe width="100%" height="250" src="${videoUrl}" 
+            title="${videoTitle}" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>`;
+        });
     });
-  });
 </script>

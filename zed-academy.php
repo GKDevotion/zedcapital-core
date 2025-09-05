@@ -588,31 +588,114 @@ include_once ('elements/header.php');
 </section>
 
 <?php
-$paramArr = [
-    'name' => "Stock"
-];
+if( false ){
+    $paramArr = [
+        'name' => "Stock"
+    ];
 
-$videoArr = [
-    [
-        'id' => "iBZcDvw8Fi8",
-        "title" => "Forex Trading for Beginners (Full Course)",
-        "description" => "Forex trading is a massively profitable skill that can bring you time, location & financial freedom when mastered.",
-    ],
-    [
-        'id' => "9tCR16dsb6M",
-        "title" => "Forex Course for Beginners 2025",
-        "description" => "Beginner to Profitable: Full Trading Roadmap (Step-by-Step Guide).",
-    ],
-    [
-        'id' => "eynxyoKgpng",
-        "title" => "The Only Technical Analysis Video You Will Ever Need...",
-        "description" => "Understanding how to implement technical analysis correctly in your trading is one of the most important things you need to create a profitable trading career. ",
-    ]
-];
+    $videoArr = [
+        [
+            'id' => "iBZcDvw8Fi8",
+            "title" => "Forex Trading for Beginners (Full Course)",
+            "description" => "Forex trading is a massively profitable skill that can bring you time, location & financial freedom when mastered.",
+        ],
+        [
+            'id' => "9tCR16dsb6M",
+            "title" => "Forex Course for Beginners 2025",
+            "description" => "Beginner to Profitable: Full Trading Roadmap (Step-by-Step Guide).",
+        ],
+        [
+            'id' => "eynxyoKgpng",
+            "title" => "The Only Technical Analysis Video You Will Ever Need...",
+            "description" => "Understanding how to implement technical analysis correctly in your trading is one of the most important things you need to create a profitable trading career. ",
+        ]
+    ];
 
-include_once ('elements/explore-more-about.php');
+    include_once ('elements/explore-more-about.php');
+}
 ?>
 
+<style>
+    .video-thumbnail {
+        position: relative;
+        text-align: center;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+    }
+    .video-thumbnail img {
+        max-width: 100%;
+        border-radius: 25px;
+    }
+    .play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255,255,255,0.85);
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 36px;
+        color: #e63946;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .play-btn:hover {
+        background: #e63946;
+        color: #fff;
+    }
+
+    .zed-academy-video-thumbnail .card-img-top {
+        height: 450px;
+        object-fit: cover;
+    }
+</style>
+<div class="container py-5">
+    <div class="row align-items-center mt-5">
+        <!-- Left Content -->
+        <div class="col-lg-4">
+            <h2 class="fw-bold">Explore more about Stock with Zed Capital</h2>
+            <div class="mt-2 mb-3" style="width:50px; height:4px; background:#e63946;"></div>
+            <p class="text-muted">
+                Zed Capital provides several resources to help you better understand Zed products 
+                and services, markets and technology.
+            </p>
+            <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center">
+                Learn more 
+            <span class="ms-2 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width:25px; height:25px;">
+                →
+            </span>
+            </a>
+        </div>
+
+        <!-- Right Video Section -->
+        <div class="col-lg-8">
+            <div class="video-thumbnail zed-academy-video-thumbnail" data-video="https://www.youtube.com/embed/iBZcDvw8Fi8?autoplay=1" data-title="Forex Trading for Beginners (Full Course)">
+                <img src="https://img.youtube.com/vi/iBZcDvw8Fi8/hqdefault.jpg" alt="iBZcDvw8Fi8" class="card-img-top">
+                <span class="play-btn">▶</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.video-thumbnail').forEach(el => {
+            el.addEventListener('click', function () {
+            const videoUrl = this.getAttribute('data-video');
+            const videoTitle = this.getAttribute('data-title');
+            this.innerHTML = `<iframe width="100%" height="450" style="border-radius: 25px;" src="${videoUrl}" 
+                title="${videoTitle}" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>`;
+
+            this.style = "border: 0";
+            });
+        });
+    </script>
+
+</div>
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="850">
     <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 80px; height: 50px; margin: -30px 200px;">
 </div>
