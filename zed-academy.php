@@ -128,150 +128,67 @@ include_once ('elements/header.php');
         margin: 25px auto;
     }
 
-    .trading-image {
-        position: relative;
-        overflow: hidden;
-        border-radius: 5px;
+     .committed-line {
+        width: 50px;
+        height: 8px;
+        background-color: red;
+        margin: 30px 0;
     }
 
-    .trading-caption {
-        position: absolute;
-        bottom: 15px;
-        left: 15px;
-        background: rgba(0, 0, 0, 0.6);
-        padding: 10px 15px;
-        border-radius: 5px;
-        color: white;
-        font-weight: bold;
-        font-size: 1rem;
+    .content-section {
+        padding: 60px 20px;
     }
-
-    .read-more {
-        font-weight: 500;
-        display: inline-flex;
-        align-items: center;
-        color: black;
-        text-decoration: none;
-    }
-
-    .read-more svg {
-        margin-left: 5px;
-        transition: transform 0.3s ease;
-    }
-
-    .read-more:hover svg {
-        transform: translateX(5px);
-    }
-
-    .trading-img img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .caption {
-        position: absolute;
-        bottom: 15px;
-        left: 15px;
-        background: rgba(0, 0, 0, 0.7);
-        padding: 10px 15px;
+    .btn-custom {
+        background: var(--zed-primary);
         color: #fff;
-        font-weight: bold;
-        border-radius: 4px;
+        padding: 12px 30px;
+        border-radius: 25px;
+        font-weight: 600;
+        margin: 20px 0;
     }
-
-    .read-more {
-        color: #000;
-        font-weight: 500;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
+    .btn-custom:hover {
+        background: var(--zed-primary-hover);
+        color: #fff;
     }
-
-    .read-more svg {
-        margin-left: 5px;
-        transition: transform 0.3s ease;
+    .image-section {
+        text-align: center;
     }
-
-    .read-more:hover svg {
-        transform: translateX(5px);
+    .image-section img {
+        max-width: 100%;
+        height: auto;
     }
 </style>
 
 <section class="trading-guide-section">
     <div class="container pb-0">
         <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="800">
-        <h2 class="fw-bold">Trading Guide for Beginner</h2>
-        <div class="highlight-line"></div>
-        <p class="fw-semibold mb-0">Kickstart Your Trading Journey!</p>
-        <p class="text-muted">
-            This guide is the perfect starting point whether you’re entirely new to trading or looking to strengthen your fundamentals.
-        </p>
+            <h2 class="h2">Trading Guide for Beginner</h2>
+            <div class="highlight-line"></div>
+            <p class="fw-semibold mb-0">Kickstart Your Trading Journey!</p>
+            <p class="text-muted">
+                This guide is the perfect starting point whether you’re entirely new to trading or looking to strengthen your fundamentals.
+            </p>
         </div>
 
-        <div class="row align-items-center pb-5">
-        <!-- Left Text -->
-            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="800">
-                <div class="mb-4" >
-                    <h6 class="fw-bold"># Asset Class</h6>
-                    <p class="text-muted">A category of financial instruments with similar characteristics, such as stocks, bonds, or commodities, governed by the same regulatory framework.</p>
-                </div>
-                <div class="mb-4" >
-                    <h6 class="fw-bold"># Aussie (Ozzie)</h6>
-                    <p class="text-muted">A commonly used term for the AUD/USD currency pair, known for its liquidity and connection to commodity markets.</p>
-                </div>
-                <div class="mb-4" >
-                    <h6 class="fw-bold"># Acquisition</h6>
-                    <p class="text-muted">The process where one company takes control of another, often as part of a growth or expansion strategy.</p>
-                </div>
-                <a href="#" class="read-more">
-                    Read More 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 1 1 .708-.708l4 4a.498.498 0 0 1 .146.354.498.498 0 0 1-.146.354l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
-                </a>
+        <div class="row align-items-center py-5">
+            <!-- Left Side Content -->
+            <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
+                <h2 class="h2 w-75">Committed to your success</h2>
+                <div class="committed-line"></div>
+                <p class="text-muted text-gray mb-3">
+                    At Zed Capital, we are committed to enhancing the trading journey of our clients by providing them with 
+                    excellent conditions, cutting-edge tools, in-depth educational resources and world-class customer support.
+                </p>
+                <p class="text-muted text-gray mb-3">
+                    Whether you're a new or experienced trader, Zed Capital is here to help you maximise your trading potential.
+                </p>
+                <a href="#" class="btn btn-custom">Trade With Us</a>
             </div>
 
-        <!-- Right Image -->
-            <div class="col-lg-5 mt-4 mt-lg-0">
-                <div class="trading-image text-end" data-aos="fade-up" data-aos-delay="800">
-                    <img src="assets/images/trading-platform-guidelines.png" alt="Trading Platform Guidelines" class="img-fluid" style="width: 85%;">
-                    <!-- <div class="trading-caption">Trading Platform Guidelines</div> -->
-                </div>
+            <!-- Right Side Image -->
+            <div class="col-lg-7 col-md-12 image-section">
+                <img src="assets/images/zed-academy-beginner.png" alt="Committed to success">
             </div>
-        </div>
-
-        <div class="row align-items-center pt-5">
-        <!-- Left Text -->
-            <div class="col-lg-5 mt-4 mt-lg-0" >
-                <div class="trading-image text-start" data-aos="fade-up" data-aos-delay="800">
-                    <img src="assets/images/trading-terminology.png" alt="Trading Terminology" class="img-fluid" style="width: 85%;">
-                    <!-- <div class="trading-caption">Trading Platform Guidelines</div> -->
-                </div>
-            </div>
-            
-            <!-- Right Image -->
-            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="800">
-                <div class="mb-4" >
-                    <h6 class="fw-bold"># Asset Class</h6>
-                    <p class="text-muted">A category of financial instruments with similar characteristics, such as stocks, bonds, or commodities, governed by the same regulatory framework.</p>
-                </div>
-                <div class="mb-4" >
-                    <h6 class="fw-bold"># Aussie (Ozzie)</h6>
-                    <p class="text-muted">A commonly used term for the AUD/USD currency pair, known for its liquidity and connection to commodity markets.</p>
-                </div>
-                <div class="mb-4" >
-                    <h6 class="fw-bold"># Acquisition</h6>
-                    <p class="text-muted">The process where one company takes control of another, often as part of a growth or expansion strategy.</p>
-                </div>
-                <a href="#" class="read-more" >
-                    Read More 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 1 1 .708-.708l4 4a.498.498 0 0 1 .146.354.498.498 0 0 1-.146.354l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
-                </a>
-            </div>
-            
         </div>
     </div>
 </section>
@@ -657,13 +574,13 @@ if( false ){
     <div class="row align-items-center mt-5">
         <!-- Left Content -->
         <div class="col-lg-4">
-            <h2 class="fw-bold">Explore more about Stock with Zed Capital</h2>
-            <div class="mt-2 mb-3" style="width:50px; height:4px; background:#e63946;"></div>
-            <p class="text-muted">
+            <h2 class="fw-bold w-75">Explore more about Stock with Zed Capital</h2>
+            <div class="my-5" style="width:50px; height:6px; background:#e63946;"></div>
+            <p class="text-muted w-75">
                 Zed Capital provides several resources to help you better understand Zed products 
                 and services, markets and technology.
             </p>
-            <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center">
+            <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center mt-2">
                 Learn more 
             <span class="ms-2 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width:25px; height:25px;">
                 →
@@ -689,7 +606,6 @@ if( false ){
                 title="${videoTitle}" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen></iframe>`;
-
             this.style = "border: 0";
             });
         });
