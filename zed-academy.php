@@ -166,7 +166,7 @@ include_once ('elements/header.php');
             <div class="highlight-line"></div>
             <p class="fw-semibold mb-0">Kickstart Your Trading Journey!</p>
             <p class="text-muted">
-                This guide is the perfect starting point whether you’re entirely new to trading or looking to strengthen your fundamentals.
+                This guide is the perfect starting point whether you're entirely new to trading or looking to strengthen your fundamentals.
             </p>
         </div>
 
