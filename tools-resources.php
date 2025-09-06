@@ -67,16 +67,16 @@ include_once ('elements/header.php');
 <section class="section-forex">
     <div class="container">
         <div class="row align-items-center flex-column-reverse flex-md-row">
-            <div class="col-md-6 text-center text-md-start mt-100">
-                <div class="subheading">Tools Overview</div>
-                <h2 class="h2">
+            <div class="col-md-6 text-center text-md-start mt-100" data-aos="fade-up" data-aos-delay="800">
+                <div class="subheading" data-aos="fade-up" data-aos-delay="800">Tools Overview</div>
+                <h2 class="h2" data-aos="fade-up" data-aos-delay="800">
                     IT'S TIME TO<br>
                     GEAR UP
                 </h2>
 
                 <div class="tools-res-divider" data-aos="fade-up" data-aos-duration="850"></div>
 
-                <p class="description w-75">
+                <p class="description w-75" data-aos="fade-up" data-aos-delay="800">
                     We match your ambition. Explore our suite of powerful, intuitive trading tools designed to unlock your fullest potential.
                 </p>
             </div>
@@ -157,41 +157,41 @@ include_once ('elements/header.php');
 
                 <!-- Item 1 -->
                 <div class="d-flex mb-4">
-                <div class="me-3">
-                    <h3 class="fw-bold text-secondary mb-0">1</h3>
-                </div>
-                <div>
-                    <h6 class="fw-bold mb-1">Tools That Work for Everyone</h6>
-                    <p class="mb-0 text-muted">
-                    Designed to suit any trader—whether you're just starting or refining your strategy.
-                    </p>
-                </div>
+                    <div class="me-3" data-aos="fade-up" data-aos-delay="800">
+                        <h3 class="fw-bold text-secondary mb-0">1</h3>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="800">
+                        <h6 class="fw-bold mb-1">Tools That Work for Everyone</h6>
+                        <p class="mb-0 text-muted" data-aos="fade-up" data-aos-delay="800">
+                        Designed to suit any trader—whether you're just starting or refining your strategy.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Item 2 -->
                 <div class="d-flex mb-4">
-                <div class="me-3">
-                    <h3 class="fw-bold text-secondary mb-0">2</h3>
-                </div>
-                <div>
-                    <h6 class="fw-bold mb-1">Actionable Insights</h6>
-                    <p class="mb-0 text-muted">
-                    Access real-time data and make smarter decisions with insights you can trust.
-                    </p>
-                </div>
+                    <div class="me-3" data-aos="fade-up" data-aos-delay="800">
+                        <h3 class="fw-bold text-secondary mb-0">2</h3>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="800">
+                        <h6 class="fw-bold mb-1">Actionable Insights</h6>
+                        <p class="mb-0 text-muted" data-aos="fade-up" data-aos-delay="800">
+                        Access real-time data and make smarter decisions with insights you can trust.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Item 3 -->
                 <div class="d-flex">
-                <div class="me-3">
-                    <h3 class="fw-bold text-secondary mb-0">3</h3>
-                </div>
-                <div>
-                    <h6 class="fw-bold mb-1">Dedicated Support</h6>
-                    <p class="mb-0 text-muted">
-                    Not sure how to use Zed Capital's suite of trading tools? Our expert team is here to help, 24/5.
-                    </p>
-                </div>
+                    <div class="me-3" data-aos="fade-up" data-aos-delay="800">
+                        <h3 class="fw-bold text-secondary mb-0">3</h3>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="800">
+                        <h6 class="fw-bold mb-1">Dedicated Support</h6>
+                        <p class="mb-0 text-muted" data-aos="fade-up" data-aos-delay="800">
+                        Not sure how to use Zed Capital's suite of trading tools? Our expert team is here to help, 24/5.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -257,10 +257,11 @@ include_once ('elements/header.php');
         width: 10%;
     }
 </style>
+
 <section class="py-5">
     <div class="container">
         <!-- Section Title -->
-        <div class="text-center mb-5">
+        <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="800">
             <h2 class="fw-bold">Tools of the Trade</h2>
             <div class="tools-res-divider" data-aos="fade-up" data-aos-duration="850" style="margin: 30px auto;"></div>
         </div>
@@ -270,19 +271,19 @@ include_once ('elements/header.php');
             
             <!-- Card 1 -->
             <div class="col-md-6">
-                <div class="gray-border p-4">
+                <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
                     
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h5 class="fw-bold mb-0">Economic Calendar</h5>
-                        <img src="assets/images/tools-calander.png" class="tools-trade-icon">
+                    <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
+                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Economic Calendar</h5>
+                        <img src="assets/images/tools-calander.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1">Know first. Act fast.</p>
-                    <p class="text-muted">
-                    Never miss an important economic event with up-to-date schedules and forecasts.
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Know first. Act fast.</p>
+                    <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
+                        Never miss an important economic event with up-to-date schedules and forecasts.
                     </p>
 
-                    <button class="demo-button btn">
+                    <button class="demo-button btn" data-aos="fade-up" data-aos-delay="800">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
                     </button>
@@ -291,18 +292,18 @@ include_once ('elements/header.php');
 
             <!-- Card 2 -->
             <div class="col-md-6">
-                <div class="gray-border p-4">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h5 class="fw-bold mb-0">Market Buzz</h5>
-                        <img src="assets/images/tools-valume.png" class="tools-trade-icon">
+                <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
+                    <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
+                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Market Buzz</h5>
+                        <img src="assets/images/tools-valume.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1">Cut through the noise</p>
-                    <p class="text-muted">
-                    Discover AI-driven market insights, real-time trends, and top topics—built for traders who stay ahead of the curve.
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Cut through the noise</p>
+                    <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
+                        Discover AI-driven market insights, real-time trends, and top topics—built for traders who stay ahead of the curve.
                     </p>
                     
-                    <button class="demo-button btn">
+                    <button class="demo-button btn" data-aos="fade-up" data-aos-delay="800">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
                     </button>
@@ -312,18 +313,18 @@ include_once ('elements/header.php');
 
             <!-- Card 3 -->
             <div class="col-md-6">
-                <div class="gray-border p-4">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h5 class="fw-bold mb-0">Trading Glossary</h5>
-                        <img src="assets/images/tools-desk-candle.png" class="tools-trade-icon">
+                <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
+                    <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
+                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Trading Glossary</h5>
+                        <img src="assets/images/tools-desk-candle.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1">Always world-class</p>
-                    <p class="text-muted">
-                    Experience world-class analytics and actionable insights for more than 35,000 tradable assets.
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Always world-class</p>
+                    <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
+                        Experience world-class analytics and actionable insights for more than 35,000 tradable assets.
                     </p>
 
-                    <button class="demo-button btn">
+                    <button class="demo-button btn" data-aos="fade-up" data-aos-delay="800">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
                     </button>
@@ -332,18 +333,18 @@ include_once ('elements/header.php');
 
             <!-- Card 4 -->
             <div class="col-md-6">
-                <div class="gray-border p-4">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h5 class="fw-bold mb-0">Expert Advisors</h5>
-                        <img src="assets/images/tools-message.png" class="tools-trade-icon">
+                <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
+                    <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
+                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Expert Advisors</h5>
+                        <img src="assets/images/tools-message.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1">Don't break a sweat</p>
-                    <p class="text-muted">
-                    Trade smarter with precision trading—now with effortless execution and performance on autopilot.
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Don't break a sweat</p>
+                    <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
+                        Trade smarter with precision trading—now with effortless execution and performance on autopilot.
                     </p>
                     
-                    <button class="demo-button btn">
+                    <button class="demo-button btn" data-aos="fade-up" data-aos-delay="800">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
                     </button>
@@ -397,29 +398,29 @@ include_once ('elements/header.php');
 
 <main class="container-fluid p-0 pb-3">
     <!-- Trading View Integration Section -->
-    <section class="hero-section text-white mb-5">
+    <section class="hero-section text-white mb-5" data-aos="fade-up" data-aos-delay="800">
         <div class="container py-5">
-            <div class="row align-items-center">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-delay="800">
                 <!-- Left-hand side content -->
-                <div class="col-12 col-md-8 text-center text-md-start mb-4 mb-md-0">
-                    <h2 class="h2">Trading View Integration</h2>
-                    <p class="mt-3">Connect Your Zed Capital Account to Trading View and Trade directly on one of the world's leading charting platforms.</p>
+                <div class="col-12 col-md-8 text-center text-md-start mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="800">
+                    <h2 class="h2" data-aos="fade-up" data-aos-delay="800">Trading View Integration</h2>
+                    <p class="mt-3" data-aos="fade-up" data-aos-delay="800">Connect Your Zed Capital Account to Trading View and Trade directly on one of the world's leading charting platforms.</p>
                     <button class="btn btn-light btn-lg fw-bold mt-3 rounded-pill">Trade Now</button>
                 </div>
                 <!-- Right-hand side card -->
-                <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="800">
                     <div class="trading-view-card p-4 text-center w-100 mx-auto" style="max-width: 400px;">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-4" data-aos="fade-up" data-aos-delay="800">
                                 <img src="assets/images/trading-integration-bulb.png" alt="Zed Capital Logo" class="w-100">
                             </div>
                             <div class="col-8">
-                                <h5 class="fw-bold text-black">Zed Capital</h5>
+                                <h5 class="fw-bold text-black" data-aos="fade-up" data-aos-delay="800">Zed Capital</h5>
                                 <!-- Star rating -->
-                                <div class="d-flex justify-content-center my-2">
+                                <div class="d-flex justify-content-center my-2" data-aos="fade-up" data-aos-delay="800">
                                     <span class="text-warning h5">★★★★★</span>
                                 </div>
-                                <button class="btn custom-button btn-lg w-100">Connect</button>
+                                <button class="btn custom-button btn-lg w-100" data-aos="fade-up" data-aos-delay="800">Connect</button>
                             </div>
                         </div>
                     </div>
@@ -431,20 +432,20 @@ include_once ('elements/header.php');
 
 <!-- Traders' Gym Section -->
 <main class="container-fluid p-0 pt-3">    
-    <section class="traders-gym-section text-white">
+    <section class="traders-gym-section text-white" data-aos="fade-up" data-aos-delay="800">
         <div class="container py-5">
-            <div class="row align-items-end">
+            <div class="row align-items-end" data-aos="fade-up" data-aos-delay="800">
                 <!-- Left-hand side image content -->
                 <div class="col-12 col-md-6 text-end text-md-start mb-4 mb-md-0">
-                    <div class="position-absolute">
+                    <div class="position-absolute" data-aos="fade-up" data-aos-delay="800">
                         <img src="assets/images/trader-gym-candle.png" alt="Candlestick chart" class="" style="margin: -430px 0 -150px 0; width: 300px;">
                     </div>
                 </div>
                 <!-- Right-hand side text content -->
-                <div class="col-12 col-md-6 text-end text-md-end">
-                    <h2 class="h2">Traders' Gym</h2>
-                    <p class=" mt-3">Develop, backtest and refine your strategies on real historical data in a risk-free environment.</p>
-                    <button class="btn btn-light btn-lg fw-bold mt-3 rounded-pill">Explore More</button>
+                <div class="col-12 col-md-6 text-end text-md-end" data-aos="fade-up" data-aos-delay="800">
+                    <h2 class="h2" data-aos="fade-up" data-aos-delay="800">Traders' Gym</h2>
+                    <p class=" mt-3" data-aos="fade-up" data-aos-delay="800">Develop, backtest and refine your strategies on real historical data in a risk-free environment.</p>
+                    <button class="btn btn-light btn-lg fw-bold mt-3 rounded-pill" data-aos="fade-up" data-aos-delay="800">Explore More</button>
                 </div>
             </div>
         </div>
@@ -486,38 +487,39 @@ include_once ('elements/header.php');
         color: var(--zed-secondary);
     }
 </style>
+
 <div class="container py-4 mt-5">
     <div class="row g-4">
         <!-- Left Section -->
-        <div class="col-lg-7">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="800">
             <div class="card shadow-sm p-3">
                 <!-- Tabs -->
                 <ul class="nav nav-tabs mb-3" id="marketTabs" role="tablist">
-                    <li class="nav-item py-3" role="presentation">
+                    <li class="nav-item py-3" role="presentation" data-aos="fade-up" data-aos-delay="800">
                         <button class="nav-link text-gray active" id="popular-tab" data-bs-toggle="tab" data-bs-target="#popular" type="button">Popular</button>
                     </li>
-                    <li class="nav-item py-3" role="presentation">
+                    <li class="nav-item py-3" role="presentation" data-aos="fade-up" data-aos-delay="800">
                         <button class="nav-link text-gray" id="commodities-tab" data-bs-toggle="tab" data-bs-target="#commodities" type="button">Commodities</button>
                     </li>
-                    <li class="nav-item py-3" role="presentation">
+                    <li class="nav-item py-3" role="presentation" data-aos="fade-up" data-aos-delay="800">
                         <button class="nav-link text-gray" id="crypto-tab" data-bs-toggle="tab" data-bs-target="#crypto" type="button">Crypto</button>
                     </li>
-                    <li class="nav-item py-3" role="presentation">
+                    <li class="nav-item py-3" role="presentation" data-aos="fade-up" data-aos-delay="800">
                         <button class="nav-link text-gray" id="forex-tab" data-bs-toggle="tab" data-bs-target="#forex" type="button">Forex</button>
                     </li>
-                    <li class="nav-item py-3" role="presentation">
+                    <li class="nav-item py-3" role="presentation" data-aos="fade-up" data-aos-delay="800">
                         <button class="nav-link text-gray" id="stocks-tab" data-bs-toggle="tab" data-bs-target="#stocks" type="button">Stocks</button>
                     </li>
-                    <li class="nav-item py-3" role="presentation">
+                    <li class="nav-item py-3" role="presentation" data-aos="fade-up" data-aos-delay="800">
                         <button class="nav-link text-gray" id="indices-tab" data-bs-toggle="tab" data-bs-target="#indices" type="button">Indices</button>
                     </li>
                 </ul>
 
                 <!-- Table -->
-                <div class="table-responsive">
+                <div class="table-responsive" data-aos="fade-up" data-aos-delay="800">
                     <table class="table align-middle">
                         <thead>
-                            <tr>
+                            <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="text-gray">Instrument</td>
                                 <td class="text-gray">Buy</td>
                                 <td class="text-gray">Spread</td>
@@ -526,7 +528,7 @@ include_once ('elements/header.php');
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
                                     <img src="assets/images/cryptologos/xrp.png?v=040" width="20" alt="XRPUSD"> XRPUSD
                                 </td>
@@ -535,7 +537,7 @@ include_once ('elements/header.php');
                                 <td class="price-down">-6.67%</td>
                                 <td class="py-4"><button class="trading-btn">Trade</button></td>
                             </tr>
-                            <tr>
+                            <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
                                     <img src="assets/images/cryptologos/bitcoin.png?v=040" width="20" alt="BTCUSD"> BTCUSD
                                 </td>
@@ -544,7 +546,7 @@ include_once ('elements/header.php');
                                 <td class="price-down">-4.11%</td>
                                 <td class="py-4"><button class="trading-btn">Trade</button></td>
                             </tr>
-                            <tr>
+                            <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
                                     <img src="assets/images/cryptologos/litecoin.png?v=040" width="20" alt="LTCUSD"> LTCUSD
                                 </td>
@@ -553,7 +555,7 @@ include_once ('elements/header.php');
                                 <td class="price-down">-7.39%</td>
                                 <td class="py-4"><button class="trading-btn">Trade</button></td>
                             </tr>
-                            <tr>
+                            <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
                                     <img src="assets/images/cryptologos/ethereum.png?v=040" width="20" alt="ETHUSD"> ETHUSD
                                 </td>
@@ -562,7 +564,7 @@ include_once ('elements/header.php');
                                 <td class="price-down">-5.48%</td>
                                 <td class="py-4"><button class="trading-btn">Trade</button></td>
                             </tr>
-                            <tr>
+                            <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
                                     <img src="assets/images/cryptologos/bnb.png?v=040" width="20" alt="BNBUSD"> BNBUSD
                                 </td>
@@ -575,7 +577,9 @@ include_once ('elements/header.php');
                     </table>
                 </div>
 
-                <p class="small text-muted mt-1">Prices are indicative only. Live prices are only available for active traders. The instruments shown are for indication purposes only and are CFDs (contracts for difference) not physical instruments.</p>
+                <p class="small text-muted mt-1" data-aos="fade-up" data-aos-delay="800">
+                    Prices are indicative only. Live prices are only available for active traders. The instruments shown are for indication purposes only and are CFDs (contracts for difference) not physical instruments.
+                </p>
             </div>
         </div>
 
@@ -583,22 +587,22 @@ include_once ('elements/header.php');
         <div class="col-lg-5">
             <div class="card p-3 mb-4 p-5">
                 <div class="mb-5">
-                    <div class="position-absolute w-100 text-end">
+                    <div class="position-absolute w-100 text-end" data-aos="fade-up" data-aos-delay="800">
                         <img src="assets/images/trading-platform.png" alt="Candlestick chart" class="" style="margin: 0 100px 0 0; width: 100px;">
                     </div>
-                    <h3 class="fw-bold mb-4">Trading Platforms</h3>
-                    <p class="m-0"><strong>Meta Trader 4/5:</strong> 
+                    <h3 class="fw-bold mb-4" data-aos="fade-up" data-aos-delay="800">Trading Platforms</h3>
+                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Meta Trader 4/5:</strong> 
                         <span class="text-gray">Popular platforms <br>
                             offering comprehensive trading tools, <br>
                             indicators, and automated trading capabilities.
                         </span>
                     </p>
-                    <p class="m-0"><strong>cTrader:</strong> 
+                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>cTrader:</strong> 
                         <span class="text-gray">
                             Known for its intuitive interface and advanced charting tools.
                         </span>
                     </p>
-                    <p class="m-0"><strong>NinjaTrader:</strong> 
+                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>NinjaTrader:</strong> 
                         <span class="text-gray">
                             Offers advanced charting, back testing, and trade simulation.
                         </span>
@@ -606,21 +610,21 @@ include_once ('elements/header.php');
                 </div>
 
                 <div>
-                    <div class="position-absolute w-100 text-end">
+                    <div class="position-absolute w-100 text-end" data-aos="fade-up" data-aos-delay="800">
                         <img src="assets/images/trading-economic-calander.png" alt="Candlestick chart" class="" style="margin: -87px 30px 0 0; width: 200px;">
                     </div>
-                    <h3 class="fw-bold mb-4 w-75">News and Economic Calendars</h3>
-                    <p class="m-0"><strong>Forex Factory:</strong> 
+                    <h3 class="fw-bold mb-4 w-75" data-aos="fade-up" data-aos-delay="800">News and Economic Calendars</h3>
+                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Forex Factory:</strong> 
                         <span class="text-gray">
                             Offers an economic calendar, market news, and forums for trader discussions.
                         </span>
                     </p>
-                    <p class="m-0"><strong>Investing.com:</strong> 
+                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Investing.com:</strong> 
                         <span class="text-gray">
                             Provides real-time news, analysis, economic calendar, and customizable alerts.
                         </span>
                     </p>
-                    <p class="m-0"><strong>Bloomberg:</strong> 
+                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Bloomberg:</strong> 
                         <span class="text-gray">
                             Comprehensive financial news and analysis platform.
                         </span>

@@ -170,23 +170,23 @@ include_once ('elements/header.php');
             </p>
         </div>
 
-        <div class="row align-items-center py-5">
+        <div class="row align-items-center py-5" data-aos="fade-up" data-aos-delay="800">
             <!-- Left Side Content -->
             <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
-                <h2 class="h2 w-75">Committed to your success</h2>
-                <div class="committed-line"></div>
-                <p class="text-muted text-gray mb-3">
+                <h2 class="h2 w-75" data-aos="fade-up" data-aos-delay="800">Committed to your success</h2>
+                <div class="committed-line" data-aos="fade-up" data-aos-delay="800"></div>
+                <p class="text-muted text-gray mb-3" data-aos="fade-up" data-aos-delay="800">
                     At Zed Capital, we are committed to enhancing the trading journey of our clients by providing them with 
                     excellent conditions, cutting-edge tools, in-depth educational resources and world-class customer support.
                 </p>
-                <p class="text-muted text-gray mb-3">
+                <p class="text-muted text-gray mb-3" data-aos="fade-up" data-aos-delay="800">
                     Whether you're a new or experienced trader, Zed Capital is here to help you maximise your trading potential.
                 </p>
-                <a href="#" class="btn btn-custom">Trade With Us</a>
+                <a href="#" class="btn btn-custom" data-aos="fade-up" data-aos-delay="800">Trade With Us</a>
             </div>
 
             <!-- Right Side Image -->
-            <div class="col-lg-7 col-md-12 image-section">
+            <div class="col-lg-7 col-md-12 image-section" data-aos="fade-up" data-aos-delay="800">
                 <img src="assets/images/zed-academy-beginner.png" alt="Committed to success">
             </div>
         </div>
@@ -570,26 +570,27 @@ if( false ){
         object-fit: cover;
     }
 </style>
+
 <div class="container py-5">
-    <div class="row align-items-center mt-5">
+    <div class="row align-items-center mt-5" data-aos="fade-up" data-aos-delay="800">
         <!-- Left Content -->
         <div class="col-lg-4">
-            <h2 class="fw-bold w-75">Explore more about Stock with Zed Capital</h2>
-            <div class="my-5" style="width:50px; height:6px; background:#e63946;"></div>
-            <p class="text-muted w-75">
+            <h2 class="fw-bold w-75" data-aos="fade-up" data-aos-delay="800">Explore more about Stock with Zed Capital</h2>
+            <div class="my-5" data-aos="fade-up" data-aos-delay="800" style="width:50px; height:6px; background:#e63946;"></div>
+            <p class="text-muted w-75" data-aos="fade-up" data-aos-delay="800">
                 Zed Capital provides several resources to help you better understand Zed products 
                 and services, markets and technology.
             </p>
-            <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center mt-2">
+            <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center mt-2" data-aos="fade-up" data-aos-delay="800">
                 Learn more 
-            <span class="ms-2 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width:25px; height:25px;">
+            <span class="ms-2 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width:25px; height:25px;" data-aos="fade-up" data-aos-delay="800">
                 →
             </span>
             </a>
         </div>
 
         <!-- Right Video Section -->
-        <div class="col-lg-8">
+        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="800">
             <div class="video-thumbnail zed-academy-video-thumbnail" data-video="https://www.youtube.com/embed/iBZcDvw8Fi8?autoplay=1" data-title="Forex Trading for Beginners (Full Course)">
                 <img src="https://img.youtube.com/vi/iBZcDvw8Fi8/hqdefault.jpg" alt="iBZcDvw8Fi8" class="card-img-top">
                 <span class="play-btn">▶</span>
