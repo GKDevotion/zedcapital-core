@@ -483,8 +483,8 @@ include_once ('elements/header.php');
     }
 
     .stock-nikkie-icon{
-        width: 200px; 
-        height: 200px; 
+        width: 180px; 
+        height: 180px; 
         margin: 70px -50px;
     }
 
