@@ -1049,7 +1049,7 @@ if( false ){
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="1200">
-                                <img src="assets/images/web-trade-icon.png" class="w-100">
+                                <img src="assets/images/web-trade-icon.png?v=0.01" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1300">
                                 <h3 class="fw-bold">Web Trading</h3>

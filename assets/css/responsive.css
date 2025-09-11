@@ -123,6 +123,11 @@
 
 /* 1500px - 1999px - Large Screens */
 @media (min-width: 1500px) and (max-width: 1999.99px) {
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width: 1530px
+    }
+
     .nav-link {
         margin: 0 10px !important;
     }

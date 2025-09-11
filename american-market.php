@@ -176,7 +176,7 @@ include_once ('elements/header.php');
                             <div class="text-muted small">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3">Trade</button>
                 </div>
 
                 <!-- Repeat more market cards as needed -->
@@ -188,7 +188,7 @@ include_once ('elements/header.php');
                             <div class="text-muted small">148.756</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
@@ -201,10 +201,7 @@ include_once ('elements/header.php');
                                 <div class="text-muted small">1.33984</div>
                             </div>
                         </div>
-                        <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
-                    </div>
-                    <div class="d-flex align-items-center mt-2">
-                        <span class="badge bg-danger-subtle text-danger small">↓ -0.100%</span>
+                        <button class="btn btn-sm btn-outline-danger rounded-pill px-3">Trade</button>
                     </div>
                 </div>
 
@@ -217,7 +214,7 @@ include_once ('elements/header.php');
                             <div class="text-muted small">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3">Trade</button>
                 </div>
 
                 <!-- Repeat more market cards as needed -->
@@ -229,7 +226,7 @@ include_once ('elements/header.php');
                             <div class="text-muted small">148.756</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3">Trade</button>
                 </div>
 
             </div>
