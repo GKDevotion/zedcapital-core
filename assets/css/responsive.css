@@ -121,16 +121,27 @@
 
 }
 
-/* 1500px - 1999px - Large Screens */
-@media (min-width: 1500px) and (max-width: 1999.99px) {
-
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
-        max-width: 1530px
+/* 1500px - 1699px - Large Screens */
+@media (min-width: 1500px) and (max-width: 1699.99px) {
+    .stock-tesla-icon{ 
+        margin: 70px 360px !important;
     }
 
-    .nav-link {
-        margin: 0 10px !important;
+    .stock-amazon-icon{
+        margin: -250px 400px !important;
     }
+
+    .stock-nikkie-icon{
+        margin: 70px -60px !important;
+    }
+
+    .stock-apple-icon{
+        margin: -200px -60px !important;
+    }
+}
+
+/* 1700px - 1999px - Large Screens */
+@media (min-width: 1700px) and (max-width: 1999.99px) {
 
     .stock-tesla-icon{ 
         margin: 70px 325px !important;
@@ -147,6 +158,19 @@
     .stock-apple-icon{
         margin: -200px -160px !important;
     }
+}
+
+/* 1500px - 1999px - Large Screens */
+@media (min-width: 1500px) and (max-width: 1999.99px) {
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width: 1530px
+    }
+
+    .nav-link {
+        margin: 0 10px !important;
+    }
+
 }
 
 /* 2000px - 2200px - Large Screens */
