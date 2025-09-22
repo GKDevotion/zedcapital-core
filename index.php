@@ -23,8 +23,8 @@ include_once('elements/header.php');
 
 <!-- ✅ Start Header Banner with Text Overlay -->
 <?php
-if( false ){
-    ?>
+if (false) {
+?>
     <header class="header-banner d-flex justify-content-center align-items-center text-center">
         <!-- Text at Top -->
         <div class="position-absolute top-0 start-50 translate-middle-x" style="margin-top: 5%;">
@@ -38,9 +38,9 @@ if( false ){
             <button class="btn btn-danger px-4 py-2">Get Started</button>
         </div>
     </header>
-    <?php
-} else if( true ){
-    ?>
+<?php
+} else if (true) {
+?>
     <div id="indexCarousel" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators -->
         <div class="carousel-indicators">
@@ -66,9 +66,9 @@ if( false ){
             <span class="carousel-control-next-icon"></span>
         </button>
     </div>
-    <?php
+<?php
 } else {
-    ?>
+?>
     <header class="header-banner position-relative d-flex justify-content-center align-items-center text-center">
         <!-- Background Video -->
         <video autoplay muted loop playsinline class="position-absolute w-100 object-fit-cover">
@@ -91,7 +91,7 @@ if( false ){
             <button class="btn btn-danger px-4 py-2">Get Started</button>
         </div>
     </header>
-    <?php
+<?php
 }
 ?>
 <!-- ✅ End Header Banner -->
@@ -412,7 +412,7 @@ if( false ){
                             Elite
                         </strong>
                         <p class="text-gray fw-400 mt-3">
-                            Forex, Metal, Energies, Indices, Crypto, US & UK Stocks
+                            Currency, Metal, Energies, Indices, Crypto, US, EU, UK & UAE Stocks
                         </p>
                         <div class="open-account-btn desktop-btn w-75">
                             <button>Open Account</button>
@@ -426,7 +426,7 @@ if( false ){
                             </tr>
                             <tr>
                                 <td class="text-start">Spreads</td>
-                                <td class="fw-400 theme-black-color text-end">From 0.2 pips</td>
+                                <td class="fw-400 theme-black-color text-end">From 1.5 pips</td>
                             </tr>
                             <tr>
                                 <td class="text-start">Leverage</td>
@@ -434,7 +434,7 @@ if( false ){
                             </tr>
                             <tr>
                                 <td class="text-start">Commission</td>
-                                <td class="fw-400 theme-black-color text-end">$8</td>
+                                <td class="fw-400 theme-black-color text-end">$0</td>
                             </tr>
                             <tr>
                                 <td class="text-start">Minimum Deposite</td>
@@ -1904,54 +1904,54 @@ if( false ){
         display: none;
     }
 
-    .trustpilot-widget{
-        display:inline-flex;
-        flex-direction:column;
-        align-items:center;
-        gap:6px;
-        font-family:system-ui,Arial,sans-serif;
+    .trustpilot-widget {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        font-family: system-ui, Arial, sans-serif;
     }
 
-    .tp-header{
-        display:flex;
-        align-items:center;
-        gap:6px;
+    .tp-header {
+        display: flex;
+        align-items: center;
+        gap: 6px;
     }
 
-    .tp-logo{
-        width:25px;
-        height:25px;
-        fill:#00b67a;
+    .tp-logo {
+        width: 25px;
+        height: 25px;
+        fill: #00b67a;
     }
 
-    .tp-text{
-        font-weight:600;
-        color:#111;
-        font-size:18px;
+    .tp-text {
+        font-weight: 600;
+        color: #111;
+        font-size: 18px;
     }
 
-    .tp-stars{
-        display:flex;
-        gap:2px;
+    .tp-stars {
+        display: flex;
+        gap: 2px;
     }
 
-    .tp-star{
-        font-size:16px;
-        line-height:1;
-        padding:3px;
-        background:#00b67a;
-        color:#fff;
-        border-radius:2px;
-        width:22px;
-        height:22px;
-        text-align:center;
+    .tp-star {
+        font-size: 16px;
+        line-height: 1;
+        padding: 3px;
+        background: #00b67a;
+        color: #fff;
+        border-radius: 2px;
+        width: 22px;
+        height: 22px;
+        text-align: center;
     }
 
-    .tp-star.half{
-        background:linear-gradient(90deg, #00b67a 50%, #dfeee9 50%);
-        color:#fff;
+    .tp-star.half {
+        background: linear-gradient(90deg, #00b67a 50%, #dfeee9 50%);
+        color: #fff;
     }
-    
+
     @media (max-width: 767.9px) {
         #client_review {
             padding: 60px 0;
@@ -2100,7 +2100,7 @@ if( false ){
                 <div class="tp-header">
                     <!-- Star icon -->
                     <svg class="tp-logo" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 2l2.9 6.6 7.1.6-5.3 4.6 1.7 7-6.4-3.9-6.4 3.9 1.7-7L2 9.2l7.1-.6L12 2z"/>
+                        <path d="M12 2l2.9 6.6 7.1.6-5.3 4.6 1.7 7-6.4-3.9-6.4 3.9 1.7-7L2 9.2l7.1-.6L12 2z" />
                     </svg>
                     <span class="tp-text">Trustpilot</span>
                 </div>
