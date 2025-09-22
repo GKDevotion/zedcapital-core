@@ -338,7 +338,7 @@ include_once ('elements/header.php');
 <div class="container py-5">
     <div class="row g-4 align-items-center">
       
-        <div class="col-md-10 offset-1 mb-5">
+        <div class="col-md-12 mb-5">
             <div class="card-custom text-dark">
                 <h4 class="fw-bold text-center mb-4">Zed Capital International Ltd — Understanding the World's Financial Epicenter</h4>
 
@@ -471,7 +471,7 @@ include_once ('elements/header.php');
 
     <div class="row g-4 align-items-center mt-5">
       
-        <div class="col-md-8 offset-2 mb-5">
+        <div class="col-md-12 mb-5">
             <div class="card-custom text-dark">
                 <h4 class="fw-bold mt-2 mb-4">5. Private Capital (Venture Capital & Private Equity)</h4>
                 <p class="text-muted">
@@ -488,13 +488,31 @@ include_once ('elements/header.php');
     </div>
 </div>
 
+<style>
+    .tech-feature {
+        padding: 40px 50px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle i{
+        font-size: 35px;
+    }
+    
+</style>
 <section id="opps" class="container mb-5">
     <h2 class="h4 mb-3">Opportunities for Investors</h2>
     <div class="row g-3">
         <div class="col-md-6">
-            <div class="card feature-card p-3">
+            <div class="card tech-feature p-4">
                 <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle"><i class="bi bi-grid-1x2-fill"></i></div>
+                    <div class="icon-circle mt-2"><i class="bi bi-grid-1x2-fill"></i></div>
                     <div>
                     <h5 class="mb-1">Diversified Access</h5>
                     <p class="mb-0 small-muted">Exposure to equities, bonds, ETFs, commodities, and alternative assets enables portfolio construction across risk premia.</p>
@@ -504,9 +522,9 @@ include_once ('elements/header.php');
         </div>
 
         <div class="col-md-6">
-            <div class="card feature-card p-3">
+            <div class="card tech-feature p-4">
                 <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle"><i class="bi bi-trend-up"></i></div>
+                    <div class="icon-circle mt-2"><i class="bi bi-graph-up-arrow"></i></div>
                     <div>
                     <h5 class="mb-1">Long-Term Growth</h5>
                     <p class="mb-0 small-muted">U.S. corporate earnings power and ongoing innovation drive sustainable returns over multi-year horizons.</p>
@@ -516,9 +534,9 @@ include_once ('elements/header.php');
         </div>
 
         <div class="col-md-6">
-            <div class="card feature-card p-3">
+            <div class="card tech-feature p-4">
                 <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle"><i class="bi bi-graph-up-arrow"></i></div>
+                    <div class="icon-circle mt-2"><i class="bi bi-graph-up-arrow"></i></div>
                     <div>
                     <h5 class="mb-1">Tactical Trading</h5>
                     <p class="mb-0 small-muted">Volatility around Fed policy, employment data, and earnings creates short-term trading and hedging opportunities.</p>
@@ -528,9 +546,9 @@ include_once ('elements/header.php');
         </div>
 
         <div class="col-md-6">
-            <div class="card feature-card p-3">
+            <div class="card tech-feature p-4">
                 <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle"><i class="bi bi-currency-dollar"></i></div>
+                    <div class="icon-circle mt-2"><i class="bi bi-currency-dollar"></i></div>
                     <div>
                     <h5 class="mb-1">Currency Advantage</h5>
                     <p class="mb-0 small-muted">Dollar-based assets can offer relative stability and diversification benefits for global investors.</p>
@@ -545,19 +563,19 @@ include_once ('elements/header.php');
     <h2 class="h4 mb-3">Risks and Considerations</h2>
     <div class="row">
         <div class="col-lg-4">
-            <div class="card p-3 mb-3">
+            <div class="tech-feature mb-3">
                 <h5>Market Volatility</h5>
                 <p class="small-muted mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics — prepare for drawdowns and use diversification and hedges.</p>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card p-3 mb-3">
+            <div class="tech-feature mb-3">
                 <h5>Regulatory Complexity</h5>
                 <p class="small-muted mb-0">U.S. markets operate under a robust and evolving compliance framework; tax, disclosure and cross-border rules may affect strategies.</p>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card p-3">
+            <div class="tech-feature">
                 <h5>Global Shocks</h5>
                 <p class="small-muted mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations — scenario-based planning is essential.</p>
             </div>
@@ -580,19 +598,19 @@ include_once ('elements/header.php');
     <h2 class="h4 mb-3">Zed Capital International Ltd — Your Guide to the U.S. Market</h2>
     <div class="row">
         <div class="col-md-4">
-            <div class="card p-3 mb-3">
+            <div class="tech-feature mb-3">
                 <h5>Client-Centric Approach</h5>
                 <p class="small-muted mb-0">Strategies aligned with objectives and risk tolerance.</p>
             </div>
         </div>
         <div class="col-lg-4">
-            <div class="card p-3 mb-3">
+            <div class="tech-feature mb-3">
                 <h5>Institutional Expertise</h5>
                 <p class="small-muted mb-0">Insights built to global standards.</p>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card p-3">
+            <div class="tech-feature">
                 <h5>Global Outlook</h5>
                 <p class="small-muted mb-0">Cross-market perspective and multi-jurisdiction experience.</p>
             </div>
