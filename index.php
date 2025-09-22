@@ -155,7 +155,7 @@ if (false) {
                     <p class="mb-0 pb-2">Support</p>
                 </h5>
                 <p class="mb-0 text-gray">
-                    Enjoy round-the-clock professional support — guiding, assisting, and solving issues anytime, anywhere for a seamless trading experience.
+                    Your trusted trading partner, with dedicated experts available around the clock to assist and resolve.
                 </p>
             </div>
 
@@ -355,6 +355,54 @@ if (false) {
         </div>
         <div class="row mt-5">
             <div class="col-md-6 col-lg-6 col-sm-12 px-2 py-2">
+                <div class="row account-type-table" style="padding-bottom: 40px;" data-aos="fade-up" data-aos-duration="800">
+                    <div class="position-absolute w-100 text-end" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="assets/images/most-popular-belt.png" alt="Most Popular Belt" />
+                    </div>
+                    <div class="col-12" style="height: 50px;">
+
+                    </div>
+                    <div class="col-md-5 col-sm-12 col-12 h-230px text-start position-relative">
+                        <strong class="raw-spreed-account-text mt-5">
+                            Premium Elite
+                        </strong>
+                        <p class="text-gray fw-400 mt-3">
+                            Currency, Metal, Energies, Indices, Crypto, US, EU, UK, HE and UAE Stocks
+                        </p>
+                        <div class="open-account-btn desktop-btn w-75">
+                            <button>Open Account</button>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12 col-12 account-type-detail" data-aos="fade-up" data-aos-duration="800">
+                        <table class="w-100">
+                            <tr>
+                                <td class="text-start">Platform</td>
+                                <td class="fw-400 theme-black-color text-end">MetaTraders 5</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start">Spreads</td>
+                                <td class="fw-400 theme-black-color text-end">From 1.5 pips</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start">Leverage</td>
+                                <td class="fw-400 theme-black-color text-end">Up to 1:500</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start">Commission</td>
+                                <td class="fw-400 theme-black-color text-end">$0</td>
+                            </tr>
+                            <tr>
+                                <td class="text-start">Minimum Deposite</td>
+                                <td class="fw-400 theme-black-color text-end">$100</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-12 text-center">
+                        <div class="open-account-btn mobile-btn"><button>Open Account</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 px-2 py-2">
                 <div class="row account-type-table m-2" style="padding-bottom: 40px;" data-aos="fade-up" data-aos-duration="800">
                     <div class="col-12" style="height: 50px;">
 
@@ -399,54 +447,7 @@ if (false) {
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-sm-12 px-2 py-2">
-                <div class="row account-type-table" style="padding-bottom: 40px;" data-aos="fade-up" data-aos-duration="800">
-                    <div class="position-absolute w-100 text-end" data-aos="zoom-in" data-aos-delay="400">
-                        <img src="assets/images/most-popular-belt.png" alt="Most Popular Belt" />
-                    </div>
-                    <div class="col-12" style="height: 50px;">
-
-                    </div>
-                    <div class="col-md-5 col-sm-12 col-12 h-230px text-start position-relative">
-                        <strong class="raw-spreed-account-text mt-5">
-                            Elite
-                        </strong>
-                        <p class="text-gray fw-400 mt-3">
-                            Currency, Metal, Energies, Indices, Crypto, US, EU, UK & UAE Stocks
-                        </p>
-                        <div class="open-account-btn desktop-btn w-75">
-                            <button>Open Account</button>
-                        </div>
-                    </div>
-                    <div class="col-md-7 col-sm-12 col-12 account-type-detail" data-aos="fade-up" data-aos-duration="800">
-                        <table class="w-100">
-                            <tr>
-                                <td class="text-start">Platform</td>
-                                <td class="fw-400 theme-black-color text-end">MetaTraders 5</td>
-                            </tr>
-                            <tr>
-                                <td class="text-start">Spreads</td>
-                                <td class="fw-400 theme-black-color text-end">From 1.5 pips</td>
-                            </tr>
-                            <tr>
-                                <td class="text-start">Leverage</td>
-                                <td class="fw-400 theme-black-color text-end">Up to 1:500</td>
-                            </tr>
-                            <tr>
-                                <td class="text-start">Commission</td>
-                                <td class="fw-400 theme-black-color text-end">$0</td>
-                            </tr>
-                            <tr>
-                                <td class="text-start">Minimum Deposite</td>
-                                <td class="fw-400 theme-black-color text-end">$100</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-12 text-center">
-                        <div class="open-account-btn mobile-btn"><button>Open Account</button></div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>
