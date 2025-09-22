@@ -87,3 +87,9 @@ if( $("#fund_security").length > 0 ){
 
     observer.observe(box);
 }
+
+$(document).ready(function() {
+    $('.openLiveAccount').on('click', function() {
+        window.open('https://cabinet.zedcapital.mu/register', '_blank');
+    });
+});

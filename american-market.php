@@ -169,41 +169,45 @@ include_once ('elements/header.php');
                 <h5 class="fw-bold mb-3">Related markets</h5>
 
                 <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/eu.png" width="24" alt="EUR/USD">
+                        <img src="https://flagcdn.com/24x18/eu.png" class="d-none" width="24" alt="EUR/USD">
                         <div>
-                            <div class="fw-semibold">EUR/USD</div>
-                            <div class="text-muted small">1.15894</div>
+                            <div class="fw-semibold">US30</div>
+                            <div class="text-muted small d-none">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/us.png" width="24" alt="USD/JPY">
                         <div>
-                            <div class="fw-semibold">USD/JPY</div>
-                            <div class="text-muted small">148.756</div>
+                            <div class="fw-semibold">US500</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
-                <div class="bg-light p-2 rounded mb-3">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center gap-2">
-                            <img src="https://flagcdn.com/24x18/gb.png" width="24" alt="GBP/USD">
-                            <div>
-                                <div class="fw-semibold">GBP/USD</div>
-                                <div class="text-muted small">1.33984</div>
-                            </div>
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                    <div class="d-flex align-items-center gap-2">
+                        <div>
+                            <div class="fw-semibold">SP500</div>
                         </div>
-                        <button class="btn btn-sm btn-outline-danger rounded-pill px-3">Trade</button>
                     </div>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                </div>
+
+                <!-- Chart Card -->
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                    <div class="d-flex align-items-center gap-2">
+                        <div>
+                            <div class="fw-semibold">NDAQ</div>
+                        </div>
+                    </div>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
                 </div>
 
             </div>
@@ -217,7 +221,7 @@ include_once ('elements/header.php');
     }
 </style>
 
-<div class="container py-4">
+<div class="container py-4 d-none">
   <div id="marketRows" class="row g-3"></div>
 </div>
 
@@ -340,14 +344,14 @@ include_once ('elements/header.php');
       
         <div class="col-md-12 mb-5">
             <div class="card-custom text-dark">
-                <h4 class="fw-bold text-center mb-4">Zed Capital International Ltd — Understanding the World's Financial Epicenter</h4>
+                <h4 class="fw-bold text-center mb-4">Zed Capital International Ltd, Understanding the World's Financial Epicenter</h4>
 
                 <p class="text-mute">
-                    At Zed Capital International Ltd, we view the American financial market as the heartbeat of the global economy. Its scale, diversity, and regulatory strength make it the most influential financial ecosystem worldwide. From Wall Street’s equity exchanges to Chicago’s commodity markets, the U.S. provides liquidity, innovation, and transparency that shape global capital flows
+                    At <b>Zed Capital International Ltd</b>, we view the American financial market as the heartbeat of the global economy. Its scale, diversity, and regulatory strength make it the most influential financial ecosystem worldwide. From Wall Street’s equity exchanges to Chicago’s commodity markets, the U.S. provides liquidity, innovation, and transparency that shape global capital flows
                 </p>
 
                 <p class="text-mute">
-                    Engaging with this market requires more than participation — it requires deep knowledge, disciplined strategies, and institutional insight.
+                    Engaging with this market requires more than participation it requires deep knowledge, disciplined strategies, and institutional insight.
                 </p>
             </div>
         </div>
@@ -377,7 +381,7 @@ include_once ('elements/header.php');
         <!-- Dow Jones Description -->
         <div class="col-lg-8 px-5">
             
-            <h4 class="fw-bold mt-2 mb-4">1. Equities (Stock Market)</h4>
+            <h4 class="fw-bold mt-2 mb-4">Equities (Stock Market)</h4>
             <p class="text-muted">
                 Anchored by the <b>New York Stock Exchange (NYSE)</b> and <b>NASDAQ</b>, the U.S. equity market accounts for <b>over half of global equity market capitalization.</b>
             </p>
@@ -388,7 +392,7 @@ include_once ('elements/header.php');
                 U.S. equities attract investors for their liquidity, transparency, and ability to generate long-term returns.
             </p>
 
-            <h4 class="fw-bold my-4">2. Fixed Income (Bond Market)</h4>
+            <h4 class="fw-bold my-4">Fixed Income (Bond Market)</h4>
             <p class="text-muted">
                 The <b>U.S. Treasury market</b> is the <b>global benchmark for risk-free investment</b>. Treasuries influence everything from mortgage rates to global central bank reserves.
             </p>
@@ -430,8 +434,8 @@ include_once ('elements/header.php');
     <div class="row align-items-center g-4 mt-5">
 
         <!-- Left Text Section -->
-        <div class="col-lg-8 px-5 text-section">
-            <h4 class="fw-bold mt-2 mb-4">3. Currencies (Foreign Exchange)</h4>
+        <div class="col-lg-8 px-5">
+            <h4 class="fw-bold mt-2 mb-4">Currencies (Foreign Exchange)</h4>
             <p class="text-muted">
                 The <b>U.S. dollar (USD)</b> is the reserve currency of choice, used in over <b>80% of all global forex transactions.</b>
             </p>
@@ -442,7 +446,7 @@ include_once ('elements/header.php');
                 Federal Reserve policy decisions directly move global currency markets, impacting trade balances and capital allocation.
             </p>
 
-            <h4 class="fw-bold my-4">4. Commodities & Derivatives</h4>
+            <h4 class="fw-bold my-4">Commodities & Derivatives</h4>
             <p class="text-muted">
                 U.S. commodity and futures markets, particularly the <b>Chicago Mercantile Exchange (CME)</b> and <b>Chicago Board of Trade (CBOT)</b>, set the <b>world's benchmark prices</b> for oil, gold, agricultural products, and interest rates.
             </p>
@@ -473,7 +477,7 @@ include_once ('elements/header.php');
       
         <div class="col-md-12 mb-5">
             <div class="card-custom text-dark">
-                <h4 class="fw-bold mt-2 mb-4">5. Private Capital (Venture Capital & Private Equity)</h4>
+                <h4 class="fw-bold mt-2 mb-4">Private Capital (Venture Capital & Private Equity)</h4>
                 <p class="text-muted">
                     The U.S. dominates the <b>venture capital and private equity industry</b>, particularly in Silicon Valley and New York.
                 </p>
@@ -489,6 +493,15 @@ include_once ('elements/header.php');
 </div>
 
 <style>
+
+    .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
+    }
+
+    .risks-considerations{
+        padding: 50px 0;
+    }
     .tech-feature {
         padding: 40px 50px;
         border: 1px solid var(--zed-border-color);
@@ -506,52 +519,54 @@ include_once ('elements/header.php');
     }
     
 </style>
-<section id="opps" class="container mb-5">
-    <h2 class="h4 mb-3">Opportunities for Investors</h2>
-    <div class="row g-3 pb-5 border-bottom border-2 border-secondary">
-        <div class="col-md-6">
-            <div class="card tech-feature p-4">
-                <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle mt-2"><i class="text-red bi bi-grid-1x2-fill"></i></div>
-                    <div>
-                    <h5 class="fw-bold mb-1">Diversified Access</h5>
-                    <p class="mb-0 small-muted">Exposure to equities, bonds, ETFs, commodities, and alternative assets enables portfolio construction across risk premia.</p>
+<section class="opportunities-for-investors">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Opportunities for Investors</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-shield-check"></i></div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Diversified Access</h5>
+                        <p class="mb-0 small-muted">Exposure to equities, bonds, ETFs, commodities, and alternative assets enables portfolio construction across risk premia.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-md-6">
-            <div class="card tech-feature p-4">
-                <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle mt-2"><i class="text-red bi bi-graph-up-arrow"></i></div>
-                    <div>
-                    <h5 class="fw-bold mb-1">Long-Term Growth</h5>
-                    <p class="mb-0 small-muted">U.S. corporate earnings power and ongoing innovation drive sustainable returns over multi-year horizons.</p>
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-graph-up-arrow"></i></div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Long-Term Growth</h5>
+                        <p class="mb-0 small-muted">U.S. corporate earnings power and ongoing innovation drive sustainable returns over multi-year horizons.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-md-6">
-            <div class="card tech-feature p-4">
-                <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle mt-2"><i class="text-red bi bi-graph-up-arrow"></i></div>
-                    <div>
-                    <h5 class="fw-bold mb-1">Tactical Trading</h5>
-                    <p class="mb-0 small-muted">Volatility around Fed policy, employment data, and earnings creates short-term trading and hedging opportunities.</p>
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-bar-chart-line"></i></div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Tactical Trading</h5>
+                        <p class="mb-0 small-muted">Volatility around Fed policy, employment data, and earnings creates short-term trading and hedging opportunities.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-md-6">
-            <div class="card tech-feature p-4">
-                <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle mt-2"><i class="text-red bi bi-currency-dollar"></i></div>
-                    <div>
-                    <h5 class="fw-bold mb-1">Currency Advantage</h5>
-                    <p class="mb-0 small-muted">Dollar-based assets can offer relative stability and diversification benefits for global investors.</p>
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-currency-dollar"></i></div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Currency Advantage</h5>
+                        <p class="mb-0 small-muted">Dollar-based assets can offer relative stability and diversification benefits for global investors.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -559,80 +574,84 @@ include_once ('elements/header.php');
     </div>
 </section>
 
-<section id="risks" class="container mb-5">
-    <h2 class="h4 mb-3">Risks and Considerations</h2>
-    <div class="row g-3 pb-5 border-bottom border-2 border-secondary">
-        <div class="col-lg-4">
-            <div class="tech-feature mb-3">
-                <div class="icon-circle text-center mb-4">
-                    <i class="text-red bi bi-shop"></i>
+<section class="risks-considerations">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Risks and Considerations</h2>
+        <div class="row g-3 pb-5 ">
+            <div class="col-lg-4">
+                <div class="tech-feature mb-3">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-shop"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Market Volatility</h5>
+                    <p class="small-muted mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics — prepare for drawdowns and use diversification and hedges.</p>
                 </div>
-                <h5 class="fw-bold text-center">Market Volatility</h5>
-                <p class="small-muted mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics — prepare for drawdowns and use diversification and hedges.</p>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="tech-feature mb-3">
-                <div class="icon-circle text-center mb-4">
-                    <i class="text-red bi bi-regex"></i>
+            <div class="col-md-4">
+                <div class="tech-feature mb-3">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-regex"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Regulatory Complexity</h5>
+                    <p class="small-muted mb-0">U.S. markets operate under a robust and evolving compliance framework; tax, disclosure and cross-border rules may affect strategies.</p>
                 </div>
-                <h5 class="fw-bold text-center">Regulatory Complexity</h5>
-                <p class="small-muted mb-0">U.S. markets operate under a robust and evolving compliance framework; tax, disclosure and cross-border rules may affect strategies.</p>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="tech-feature">
-                <div class="icon-circle text-center mb-4">
-                    <i class="text-red bi bi-globe"></i>
+            <div class="col-md-4">
+                <div class="tech-feature">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-globe"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Global Shocks</h5>
+                    <p class="small-muted mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations — scenario-based planning is essential.</p>
                 </div>
-                <h5 class="fw-bold text-center">Global Shocks</h5>
-                <p class="small-muted mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations — scenario-based planning is essential.</p>
             </div>
-        </div>
 
-        <div class="col-lg-12">
-            <div class="p-3 bg-white">
-                <h5>Zed Capital Risk Approach</h5>
-                <ul class="mb-0 small-muted">
-                    <li>Disciplined risk management</li>
-                    <li>Scenario analysis and stress-testing</li>
-                    <li>Global diversification and active rebalancing</li>
-                </ul>
+            <div class="col-lg-12">
+                <div class="p-3 bg-white">
+                    <h5>Zed Capital Risk Approach</h5>
+                    <ul class="mb-0 small-muted p-0">
+                        <li class="mx-4">Disciplined risk management</li>
+                        <li class="mx-4">Scenario analysis and stress-testing</li>
+                        <li class="mx-4">Global diversification and active rebalancing</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="risks" class="container mb-5">
-    <h2 class="h4 mb-3">Zed Capital International Ltd — Your Guide to the U.S. Market</h2>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="tech-feature mb-3">
-                <h5>Client-Centric Approach</h5>
-                <p class="small-muted mb-0">Strategies aligned with objectives and risk tolerance.</p>
+<section class="your-guide">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Zed Capital International Ltd — Your Guide to the U.S. Market</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="tech-feature mb-3">
+                    <h5>Client-Centric Approach</h5>
+                    <p class="small-muted mb-0">Strategies aligned with objectives and risk tolerance.</p>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="tech-feature mb-3">
-                <h5>Institutional Expertise</h5>
-                <p class="small-muted mb-0">Insights built to global standards.</p>
+            <div class="col-lg-4">
+                <div class="tech-feature mb-3">
+                    <h5>Institutional Expertise</h5>
+                    <p class="small-muted mb-0">Insights built to global standards.</p>
+                </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="tech-feature">
-                <h5>Global Outlook</h5>
-                <p class="small-muted mb-0">Cross-market perspective and multi-jurisdiction experience.</p>
+            <div class="col-md-4">
+                <div class="tech-feature">
+                    <h5>Global Outlook</h5>
+                    <p class="small-muted mb-0">Cross-market perspective and multi-jurisdiction experience.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="col-lg-12">
-            <div class="p-3 bg-white">
-                <h5>Conclusion</h5>
-                <ul class="mb-0 small-muted">
-                    <li>The American financial market is more than just the largest marketplace — it is the engine of global finance. Its movements determine the flow of capital, shape international policy, and influence economies worldwide.</li>
-                    <li>At Zed Capital International Ltd, we provide the knowledge, access, and institutional-level analysis our clients need to navigate this market with confidence. Whether your goal is growth, income, or risk management, our mission is to empower you to succeed in the world's most powerful financial arena.</li>
-                    <li> Zed Capital International Ltd — guiding investors through the American market with clarity, confidence, and expertise.</li>
-                </ul>
+            <div class="col-lg-12">
+                <div class="p-3 bg-white">
+                    <h5>Conclusion</h5>
+                    <ul class="mb-0 small-muted">
+                        <li>The American financial market is more than just the largest marketplace — it is the engine of global finance. Its movements determine the flow of capital, shape international policy, and influence economies worldwide.</li>
+                        <li>At Zed Capital International Ltd, we provide the knowledge, access, and institutional-level analysis our clients need to navigate this market with confidence. Whether your goal is growth, income, or risk management, our mission is to empower you to succeed in the world's most powerful financial arena.</li>
+                        <li> Zed Capital International Ltd — guiding investors through the American market with clarity, confidence, and expertise.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
