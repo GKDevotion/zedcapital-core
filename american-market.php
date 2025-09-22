@@ -508,13 +508,13 @@ include_once ('elements/header.php');
 </style>
 <section id="opps" class="container mb-5">
     <h2 class="h4 mb-3">Opportunities for Investors</h2>
-    <div class="row g-3">
+    <div class="row g-3 pb-5 border-bottom border-2 border-secondary">
         <div class="col-md-6">
             <div class="card tech-feature p-4">
                 <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle mt-2"><i class="bi bi-grid-1x2-fill"></i></div>
+                    <div class="icon-circle mt-2"><i class="text-red bi bi-grid-1x2-fill"></i></div>
                     <div>
-                    <h5 class="mb-1">Diversified Access</h5>
+                    <h5 class="fw-bold mb-1">Diversified Access</h5>
                     <p class="mb-0 small-muted">Exposure to equities, bonds, ETFs, commodities, and alternative assets enables portfolio construction across risk premia.</p>
                     </div>
                 </div>
@@ -524,9 +524,9 @@ include_once ('elements/header.php');
         <div class="col-md-6">
             <div class="card tech-feature p-4">
                 <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle mt-2"><i class="bi bi-graph-up-arrow"></i></div>
+                    <div class="icon-circle mt-2"><i class="text-red bi bi-graph-up-arrow"></i></div>
                     <div>
-                    <h5 class="mb-1">Long-Term Growth</h5>
+                    <h5 class="fw-bold mb-1">Long-Term Growth</h5>
                     <p class="mb-0 small-muted">U.S. corporate earnings power and ongoing innovation drive sustainable returns over multi-year horizons.</p>
                     </div>
                 </div>
@@ -536,9 +536,9 @@ include_once ('elements/header.php');
         <div class="col-md-6">
             <div class="card tech-feature p-4">
                 <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle mt-2"><i class="bi bi-graph-up-arrow"></i></div>
+                    <div class="icon-circle mt-2"><i class="text-red bi bi-graph-up-arrow"></i></div>
                     <div>
-                    <h5 class="mb-1">Tactical Trading</h5>
+                    <h5 class="fw-bold mb-1">Tactical Trading</h5>
                     <p class="mb-0 small-muted">Volatility around Fed policy, employment data, and earnings creates short-term trading and hedging opportunities.</p>
                     </div>
                 </div>
@@ -548,9 +548,9 @@ include_once ('elements/header.php');
         <div class="col-md-6">
             <div class="card tech-feature p-4">
                 <div class="d-flex gap-3 align-items-start">
-                    <div class="icon-circle mt-2"><i class="bi bi-currency-dollar"></i></div>
+                    <div class="icon-circle mt-2"><i class="text-red bi bi-currency-dollar"></i></div>
                     <div>
-                    <h5 class="mb-1">Currency Advantage</h5>
+                    <h5 class="fw-bold mb-1">Currency Advantage</h5>
                     <p class="mb-0 small-muted">Dollar-based assets can offer relative stability and diversification benefits for global investors.</p>
                     </div>
                 </div>
@@ -561,22 +561,31 @@ include_once ('elements/header.php');
 
 <section id="risks" class="container mb-5">
     <h2 class="h4 mb-3">Risks and Considerations</h2>
-    <div class="row">
+    <div class="row g-3 pb-5 border-bottom border-2 border-secondary">
         <div class="col-lg-4">
             <div class="tech-feature mb-3">
-                <h5>Market Volatility</h5>
+                <div class="icon-circle text-center mb-4">
+                    <i class="text-red bi bi-shop"></i>
+                </div>
+                <h5 class="fw-bold text-center">Market Volatility</h5>
                 <p class="small-muted mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics — prepare for drawdowns and use diversification and hedges.</p>
             </div>
         </div>
         <div class="col-md-4">
             <div class="tech-feature mb-3">
-                <h5>Regulatory Complexity</h5>
+                <div class="icon-circle text-center mb-4">
+                    <i class="text-red bi bi-regex"></i>
+                </div>
+                <h5 class="fw-bold text-center">Regulatory Complexity</h5>
                 <p class="small-muted mb-0">U.S. markets operate under a robust and evolving compliance framework; tax, disclosure and cross-border rules may affect strategies.</p>
             </div>
         </div>
         <div class="col-md-4">
             <div class="tech-feature">
-                <h5>Global Shocks</h5>
+                <div class="icon-circle text-center mb-4">
+                    <i class="text-red bi bi-globe"></i>
+                </div>
+                <h5 class="fw-bold text-center">Global Shocks</h5>
                 <p class="small-muted mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations — scenario-based planning is essential.</p>
             </div>
         </div>
