@@ -1837,7 +1837,8 @@ if (false) {
             <!-- Left Text Column -->
             <div class="col-md-6 security-text" data-aos="fade-up" data-aos-duration="800">
                 <h2>Fund Security</h2>
-                <p class="pt-4 text-gray">Invest globally in stocks, options, futures, currencies, bonds and funds from a single unified platform.
+                <p class="pt-4 text-gray">
+                    Protecting client funds is at the core of our operations. We maintain segregated accounts, partner with leading global banks, and comply with the highest regulatory standards. With advanced security systems and rigorous risk controls, your capital remains safe, transparent, and accessible at all times.
                     Fund your account in multiple currencies and trade assets denominated in multiple currencies.
                     Access market data 24 hours a day and six days a week.</p>
                 <div class="listed" data-aos="fade-up" data-aos-duration="800">
