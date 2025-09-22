@@ -694,6 +694,7 @@ if (false) {
         transform: scale(1);
         /* default scale */
         background-color: rgba(255, 255, 255, 0.7);
+        min-height: 225px;
     }
 
 
@@ -875,7 +876,7 @@ if (false) {
                     <h3 class="text-hover-effect">Stock</h3>
                 </div>
                 <div class="px-5">
-                    <p class="text-start text-gray">Invest in gold, silver, and<br> other safe-haven assets.</p>
+                    <p class="text-start text-gray">Invest in global leaders like Apple, Tesla, and Microsoft for long-term growth</p>
                 </div>
             </div>
             <img src="assets/images/apple-logo.png" class="icon apple" alt="Apple">
@@ -889,7 +890,7 @@ if (false) {
                     <h3 class="text-hover-effect">Metal</h3>
                 </div>
                 <div class="px-5">
-                    <p class="text-start text-gray">Invest in gold, silver, and<br> other safe-haven assets.</p>
+                    <p class="text-start text-gray">Protect your wealth with safe-haven assets such as gold and silver.</p>
                 </div>
             </div>
             <img src="assets/images/metal-brick.png" class="icon metal-brick" alt="Silver">
@@ -903,7 +904,7 @@ if (false) {
                     <h3 class="text-hover-effect">Indicies</h3>
                 </div>
                 <div class="px-5">
-                    <p class="text-start text-gray">Invest in gold, silver, and<br> other safe-haven assets.</p>
+                    <p class="text-start text-gray">Diversify with top indices including the NASDAQ and S&P 500.</p>
                 </div>
             </div>
             <img src="assets/images/s-p-500-logo.png" class="icon sp500" alt="NASDAQ">
@@ -914,10 +915,10 @@ if (false) {
             <img src="assets/images/doller-icon.png" class="icon doller" alt="USD Doller">
             <div class="market-card">
                 <div class="px-5 text-start">
-                    <h3 class="text-hover-effect">Forex</h3>
+                    <h3 class="text-hover-effect">Global Currency</h3>
                 </div>
                 <div class="px-5">
-                    <p class="text-start text-gray">Invest in gold, silver, and<br> other safe-haven assets.</p>
+                    <p class="text-start text-gray">Trade major currencies like the USD and Euro with high liquidity.</p>
                 </div>
             </div>
             <img src="assets/images/euro-icon.png" class="icon euro" alt="Euro">
@@ -930,7 +931,7 @@ if (false) {
                     <h3 class="text-hover-effect">Commodities</h3>
                 </div>
                 <div class="px-5">
-                    <p class="text-start text-gray">Invest in gold, silver, and<br> other safe-haven assets.</p>
+                    <p class="text-start text-gray">Seize opportunities in essential resources like oil and more.</p>
                 </div>
             </div>
             <img src="assets/images/oil-drum-icon.png" class="icon oil" alt="Oil">
@@ -944,7 +945,7 @@ if (false) {
                     <h3 class="text-hover-effect">Crypto</h3>
                 </div>
                 <div class="px-5">
-                    <p class="text-start text-gray">Invest in gold, silver, and<br> other safe-haven assets.</p>
+                    <p class="text-start text-gray">Explore the future of finance with leading crypto coins.</p>
                 </div>
             </div>
             <img src="assets/images/product-bitcoin-logo.png" class="icon btc" alt="Bitcoin">
