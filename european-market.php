@@ -148,17 +148,18 @@ include_once ('elements/header.php');
     <div class="row">
         <!-- Left Column -->
         <div class="col-lg-8 mb-4 px-5">
-            <h4 class="fw-bold">Dow Jones Industrial Average</h4>
+            <h3 class="fw-bold mb-5">Why the European Market Matters Globally</h3>
             <p class="text-muted text-gray">
-                The base currency is EUR and the counter currency is USD. The EUR/USD price shows how many American dollars are needed to buy one Eurozone's euro. Bringing together two largest global currencies, the pair belongs to Forex majors along with GBP/USD, USD/JPY and USD/CHFEUR/USD has quite a low bid-ask spread and is considered the world's most liquid currency pair. Traders buy or sell it heavily, provides for relatively high volatility levels. Liquidity coupled with volatility makes EUR/USD an attractive trading instrument for newcomers to Forex.
-            </p>
-
-            <h4 class="fw-bold mt-4">US-500</h4>
-            <p class="text-muted text-gray">
-                EUR is an official currency of the European Union. On 1 January 1999, it was released as a virtual currency unit for cashless transactions and accounting purposes. The euro banknotes and coins were issued on 1 January 2002. The euro is unique in that it's a common currency for 19 out of 28 members of the EU, which are referred to as the Eurozone. Every day, about 338.6 million people use the EUR for payments, making it the second most popular and heavily traded currency unit.
+                <b class="text-black">Diversity</b>: Multiple financial hubs offer unique strengths — equities in London, bonds in Frankfurt, banking in Zurich, asset management in Luxembourg.
             </p>
             <p class="text-muted text-gray">
-                The European Central Bank (ECB) is responsible for the monetary policy.
+                <b class="text-black">Regulatory Framework</b>: The European Securities and Markets Authority (ESMA) ensures harmonized financial regulation across the EU, fostering transparency and investor protection.
+            </p>
+            <p class="text-muted text-gray">
+                <b class="text-black">Global Impact</b>: Europe's role in energy markets, monetary policy, and trade agreements significantly influences global capital flows.
+            </p>
+            <p class="text-muted text-gray">
+                <b class="text-black">Stability & Innovation</b>: While rooted in history, European markets are also leaders in sustainable finance, ESG investing, and green bonds.
             </p>
         </div>
 
@@ -168,171 +169,57 @@ include_once ('elements/header.php');
                 <h5 class="fw-bold mb-3">Related markets</h5>
 
                 <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/eu.png" width="24" alt="EUR/USD">
+                        <img src="https://flagcdn.com/24x18/eu.png" class="d-none" width="24" alt="EUR/USD">
                         <div>
-                            <div class="fw-semibold">EUR/USD</div>
-                            <div class="text-muted small">1.15894</div>
+                            <div class="fw-semibold">CAC40</div>
+                            <div class="text-muted small d-none">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/us.png" width="24" alt="USD/JPY">
                         <div>
-                            <div class="fw-semibold">USD/JPY</div>
-                            <div class="text-muted small">148.756</div>
+                            <div class="fw-semibold">UK100</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
-                <div class="bg-light p-2 rounded mb-3">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center gap-2">
-                            <img src="https://flagcdn.com/24x18/gb.png" width="24" alt="GBP/USD">
-                            <div>
-                                <div class="fw-semibold">GBP/USD</div>
-                                <div class="text-muted small">1.33984</div>
-                            </div>
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                    <div class="d-flex align-items-center gap-2">
+                        <div>
+                            <div class="fw-semibold">FESX1</div>
                         </div>
-                        <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
                     </div>
-                    <div class="d-flex align-items-center mt-2">
-                        <span class="badge bg-danger-subtle text-danger small">↓ -0.100%</span>
-                    </div>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
                 </div>
 
-                <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
+                <!-- Chart Card -->
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/eu.png" width="24" alt="EUR/USD">
                         <div>
-                            <div class="fw-semibold">EUR/USD</div>
-                            <div class="text-muted small">1.15894</div>
+                            <div class="fw-semibold">DAX</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
-                </div>
-
-                <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/us.png" width="24" alt="USD/JPY">
-                        <div>
-                            <div class="fw-semibold">USD/JPY</div>
-                            <div class="text-muted small">148.756</div>
-                        </div>
-                    </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
                 </div>
 
             </div>
         </div>
+
+        <div class="col-12 px-5">
+            <p class="text-muted text-gray">
+                At <b>Zed Capital International Ltd</b>, we help clients interpret Europe's multi-faceted market landscape, identifying both traditional and emerging opportunities
+            </p>
+        </div>
     </div>
 </div>
-
-<style>
-    .progress-bar {
-        transition: width 0.2s ease;
-    }
-</style>
-
-<div class="container py-4">
-  <div id="marketRows" class="row g-3"></div>
-</div>
-
-<script>
-  const data = [
-    {
-      symbol: "EUR/USD",
-      name: "Euro / US Dollar",
-      flag: "https://flagcdn.com/24x18/eu.png",
-      price1: 1.15894,
-      price2: 1.15900,
-      changeValue: 0.00006,
-      changePercent: -0.35,
-      chart: "https://via.placeholder.com/60x20?text=↘",
-      sellPercent: 47.79,
-      buyPercent: 52.21
-    },
-    {
-      symbol: "USD/JPY",
-      name: "US Dollar / Japanese Yen",
-      flag: "https://flagcdn.com/24x18/us.png",
-      price1: 148.763,
-      price2: 148.773,
-      changeValue: 0.01,
-      changePercent: 0.54,
-      chart: "https://via.placeholder.com/60x20?text=↗",
-      sellPercent: 45.24,
-      buyPercent: 54.76
-    },
-    {
-      symbol: "GBP/USD",
-      name: "GBP / US Dollar",
-      flag: "https://flagcdn.com/24x18/eu.png",
-      price1: 1.15894,
-      price2: 1.15900,
-      changeValue: 0.00006,
-      changePercent: -0.35,
-      chart: "https://via.placeholder.com/60x20?text=↘",
-      sellPercent: 47.79,
-      buyPercent: 52.21
-    },
-    {
-      symbol: "USD/AUD",
-      name: "US Dollar / AUD",
-      flag: "https://flagcdn.com/24x18/us.png",
-      price1: 148.763,
-      price2: 148.773,
-      changeValue: 0.01,
-      changePercent: 0.54,
-      chart: "https://via.placeholder.com/60x20?text=↗",
-      sellPercent: 45.24,
-      buyPercent: 54.76
-    }
-  ];
-
-  const marketRows = document.getElementById('marketRows');
-
-  data.forEach(item => {
-    const changeColor = item.changePercent < 0 ? 'text-danger' : 'text-success';
-
-    const row = document.createElement('div');
-    row.className = "col-12";
-    row.innerHTML = `
-      <div class="d-flex align-items-center justify-content-between bg-light rounded-3 p-2 shadow-sm flex-wrap">
-        <div class="d-flex align-items-center gap-2" style="min-width: 200px;">
-          <img src="${item.flag}" width="24" alt="${item.symbol}">
-          <div>
-            <div class="fw-semibold">${item.symbol}</div>
-            <small class="text-muted">${item.name}</small>
-          </div>
-        </div>
-        <div class="text-primary fw-semibold">${item.price1}</div>
-        <div class="text-primary fw-semibold">${item.price2}</div>
-        <div class="text-secondary small">${item.changeValue}</div>
-        <div class="small fw-semibold ${changeColor}">${item.changePercent > 0 ? '+' : ''}${item.changePercent}%</div>
-        <div><img src="${item.chart}" alt="chart" class="img-fluid"></div>
-        <div class="d-flex align-items-center gap-2" style="min-width: 120px;">
-          <small>${item.sellPercent}%</small>
-          <div class="progress flex-grow-1" style="height: 6px;">
-            <div class="progress-bar bg-danger" style="width: ${item.sellPercent}%;"></div>
-            <div class="progress-bar bg-primary" style="width: ${item.buyPercent}%;"></div>
-          </div>
-          <small>${item.buyPercent}%</small>
-        </div>
-      </div>
-    `;
-    marketRows.appendChild(row);
-  });
-</script>
 
 <style>
     .card-custom {
@@ -364,6 +251,26 @@ include_once ('elements/header.php');
 <div class="container py-5">
     <div class="row g-4 align-items-center">
       
+        <div class="col-md-12 mb-5">
+            <div class="card-custom text-dark">
+                <h4 class="fw-bold text-center mb-4">Zed Capital International Ltd, Navigating Europe's Financial Landscape</h4>
+
+                <p class="text-mute">
+                    At <b>Zed Capital International Ltd</b>, we recognize the <b>European financial market</b> as one of the most diversified and sophisticated financial systems in the world. With its blend of historic financial centers, unified regulations, and innovative instruments, Europe plays a critical role in shaping global investment flows.
+                </p>
+
+                <p class="text-mute">
+                    From London's equity and forex dominance to Frankfurt's central banking leadership, and from Paris to Zurich's wealth management hubs, the European market provides investors with stability, depth, and global connectivity.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-0">
+        <h3 class="text-center my-5 fw-bold">The Structure of the European Market</h3>
+    </div>
+
+    <div class="row">
         <!-- Stock Market Card -->
         <div class="col-lg-4">
             <div class="card-custom text-dark">
@@ -382,57 +289,78 @@ include_once ('elements/header.php');
 
         <!-- Dow Jones Description -->
         <div class="col-lg-8 px-5">
-            <h3 class="fw-bold">Dow Jones Industrial Average</h3>
-            <p class="text-muted w-75">
-                The base currency is EUR and the counter currency is USD. The EUR/USD price shows how many American dollars are needed to buy one Eurozone's euro. Bringing together two largest global currencies, the pair belongs to Forex majors along with GBP/USD, USD/JPY and USD/CHF.
+            
+            <h4 class="fw-bold mt-2 mb-4">Equities (Stock Market)</h4>
+            <p class="text-muted">
+                Europe hosts some of the world's most prestigious exchanges, including the <b>London Stock Exchange (LSE), Euronext, Deutsche Börse (Frankfurt)</b>, and <b>SIX Swiss Exchange (Zurich)</b>.
             </p>
-            <p class="text-muted w-75">
-                EUR/USD has quite a low bid-ask spread and is considered the world's most liquid currency pair. Traders buy or sell it heavily, providing relatively high volatility levels. Liquidity coupled with volatility makes EUR/USD an attractive trading instrument for newcomers to Forex.
+            <p class="text-muted">
+                These markets represent a broad spectrum of industries — from energy and finance to luxury goods and technology.
             </p>
-            <p class="text-muted w-75">
-                American dollars are needed to buy one Eurozone's euro. Bringing together two largest global currencies, the pair belongs to Forex majors along with GBP/USD, USD/JPY and USD/CHF.
+            <p class="text-muted">
+                Blue-chip indices such as the <b>FTSE 100, DAX 40</b>, and <b>CAC 40</b> serve as key benchmarks for global investors.
+            </p>
+
+            <h4 class="fw-bold my-4">Fixed Income (Bond Market)</h4>
+            <p class="text-muted">
+                The European bond market is one of the deepest in the world, offering sovereign bonds, corporate debt, and supranational issuances.
+            </p>
+            <p class="text-muted">
+                <b>German Bunds</b> are regarded as the safe-haven benchmark across Europe, similar to U.S. Treasuries.
+            </p>
+            <p class="text-muted">
+                The market is further shaped by <b>European Central Bank (ECB)</b> monetary policy, which influences yields, credit spreads, and investor sentiment across the Eurozone.
             </p>
         </div>
 
     </div>
-</div>
 
-<style>
-   
-    .info-card {
-        border-radius: 15px;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
-        background-color: white;
-        padding: 30px;
-    }
-    .bull-bear-img {
-        width: 60%;
-        margin: -50px -30px 0 0;
-    }
-    .text-section {
-        color: #555;
-    }
-    .fw-bold-title {
-        font-weight: 700;
-    }
-    @media (max-width: 767.98px) {
-        .text-section {
-            margin-bottom: 30px;
+    <style>
+    
+        .info-card {
+            border-radius: 15px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            padding: 30px;
         }
-    }
-</style>
+        .bull-bear-img {
+            width: 60%;
+            margin: -50px -30px 0 0;
+        }
+        .text-section {
+            color: #555;
+        }
+        .fw-bold-title {
+            font-weight: 700;
+        }
+        @media (max-width: 767.98px) {
+            .text-section {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 
-<div class="container py-5">
-    <div class="row align-items-center g-4">
+    <div class="row align-items-center g-4 mt-5">
 
         <!-- Left Text Section -->
-        <div class="col-lg-8 px-5 text-section">
-            <h3 class="fw-bold-title">US-30</h3>
-            <p>
-                EUR is an official currency of the European Union. On 1 January 1999, it was released as a virtual currency unit for cashless transactions and accounting purposes. The euro banknotes and coins were issued on 1 January 2002. The euro is unique in that it’s a common currency for 19 out of 28 members of the EU, which are referred to as the Eurozone. Every day, about 338.6 million people use the EUR for payments, making it the second most popular and heavily traded currency unit.
+        <div class="col-lg-8 px-5">
+            <h4 class="fw-bold mt-2 mb-4">Currencies (Foreign Exchange)</h4>
+            <p class="text-muted">
+                The <b>Euro (EUR)</b> is the second most traded currency globally, accounting for nearly <b>30% of international reserves</b>.
             </p>
-            <p>
-                The European Central Bank (ECB) is responsible for the monetary policy in the EU, thus, controls all the euro-related issues. ECB is in charge of maintaining price stability and defining key interest rates for the Eurozone.
+            <p class="text-muted">
+                London remains the largest global foreign exchange hub, even post-Brexit, handling trillions of dollars in daily transactions.
+            </p>
+            <p class="text-muted">
+                The Swiss Franc (CHF) also plays a unique role as a safe-haven currency during times of global uncertainty.
+            </p>
+
+            <h4 class="fw-bold my-4">Commodities & Derivatives</h4>
+            <p class="text-muted">
+                European exchanges such as <b>Euronext</b> and the <b>London Metal Exchange (LME)</b> set global benchmarks for metals, energy, and agricultural products.
+            </p>
+            <p class="text-muted">
+                Derivatives such as futures and options provide investors with advanced tools for hedging, portfolio diversification, and tactical opportunities.
             </p>
         </div>
 
@@ -453,7 +381,227 @@ include_once ('elements/header.php');
         </div>
 
     </div>
+
+    <div class="row g-4 align-items-center mt-5">
+      
+        <div class="col-md-12 mb-5">
+            <div class="card-custom text-dark">
+                <h4 class="fw-bold mt-2 mb-4">Private Capital (Venture Capital & Private Equity)</h4>
+                <p class="text-muted">
+                    Europe is a global hub for private equity, venture capital, and hedge funds, particularly in London, Paris, and Luxembourg.
+                </p>
+                <p class="text-muted">
+                    Switzerland and Luxembourg remain world leaders in wealth management, private banking, and cross-border asset structuring.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
+
+<style>
+
+    .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
+    }
+
+    .risks-considerations{
+        padding: 50px 0;
+    }
+    .tech-feature {
+        padding: 35px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle i{
+        font-size: 35px;
+    }
+    
+    .opp-h-fix{
+        min-height: 300px;
+    }
+</style>
+
+<section class="opportunities-for-investors">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Opportunities for Investors</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-cpu"></i></div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Equities</h5>
+                        <p class="mb-0 small-muted">
+                            Exposure to European blue chips, luxury brands, energy firms, and global exporters.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-cash"></i></div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Fixed Income</h5>
+                        <p class="mb-0 small-muted">
+                            Sovereign bonds, corporate credit, and green bond investments.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-boxes"></i></div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Alternative Assets</h5>
+                        <p class="mb-0 small-muted">
+                            Access to private equity, hedge funds, and sustainable investment products
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-currency-dollar"></i></div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Currency</h5>
+                            <p class="mb-0 small-muted">
+                                Trading opportunities in the EUR, GBP, and CHF, influenced by ECB and Bank of England policy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="risks-considerations">
+    <div class="container py-5 pb-0">
+        <h2 class="h4 mb-3">Risks and Considerations</h2>
+        <div class="row g-3 ">
+            <div class="col-lg-3">
+                <div class="tech-feature opp-h-fix">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-shop"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Fragmentation</h5>
+                    <p class="small-muted mb-0">
+                        Europe is not a single unified market; regulatory and political differences between EU and non-EU states matter
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tech-feature opp-h-fix">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-regex"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Geopolitical Factors</h5>
+                    <p class="small-muted mb-0">
+                        Brexit, energy dependency, and regional tensions influence market sentiment
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tech-feature opp-h-fix">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-globe"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Monetary Policy Shifts</h5>
+                    <p class="small-muted mb-0">
+                        ECB and Bank of England decisions strongly impact bond yields, currencies, and equity valuations
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tech-feature opp-h-fix">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-arrow-repeat"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Economic Cycles</h5>
+                    <p class="small-muted mb-0">
+                        Slower growth or fiscal pressures in member states can create volatility across the bloc
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="p-3 bg-white">
+                    <p>
+                        At <b>Zed Capital International Ltd</b>, we provide structured risk analysis and balanced strategies to help investors navigate Europe's complexity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="your-guide">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Zed Capital International Ltd — Your Partner in Europe</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="tech-feature mb-3">
+                    <h5>Sustainable Focus</h5>
+                    <p class="small-muted mb-0">
+                        Guidance on ESG investing, green bonds, and sustainable asset allocation — areas where Europe leads globally
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="tech-feature mb-3">
+                    <h5>Comprehensive Coverage</h5>
+                    <p class="small-muted mb-0">
+                        From London to Frankfurt and Zurich to Paris, we analyze Europe's key markets
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="tech-feature">
+                    <h5>Tailored Strategies</h5>
+                    <p class="small-muted mb-0">
+                        Insights designed for long-term investors, active traders, and institutional clients alike
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="p-3 bg-white">
+                    <h5>Conclusion</h5>
+                    <ul class="mb-0 small-muted">
+                        <li>
+                            The <b>European financial market</b> is both diverse and influential — a blend of tradition, innovation, and regulatory strength. Its impact extends across currencies, commodities, equities, and alternative assets, making it a vital component of any global portfolio
+                        </li>
+                        <li>
+                            At <b>Zed Capital International Ltd</b>, we empower our clients with the knowledge, access, and strategies needed to engage effectively with Europe's financial ecosystem. Whether seeking growth, diversification, or stability, we provide the insights to help investors succeed
+                        </li>
+                        <li> 
+                            Zed Capital International Ltd — unlocking opportunities across Europe’s financial heartlands
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 include_once ('elements/footer.php');

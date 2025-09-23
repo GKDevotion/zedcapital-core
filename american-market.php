@@ -519,6 +519,7 @@ include_once ('elements/header.php');
     }
     
 </style>
+
 <section class="opportunities-for-investors">
     <div class="container py-5">
         <h2 class="h4 mb-3">Opportunities for Investors</h2>
