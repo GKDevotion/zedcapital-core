@@ -110,7 +110,7 @@ include_once ('elements/header.php');
             <div class="col-lg-7 position-relative text-white px-4 py-4 our-commitment-text-bg" data-aos="fade-up" data-aos-duration="850">
                 <ul class="mb-0 ps-5 mx-5 w-75">
                     <li class="">
-                        Stocks, also known as equities or shares, represent ownership in a company. When you own stock in a company, you own a portion of that company's assets and earnings proportional to the number of shares you hold. 
+                        Our stock trading services are designed for flexibility, allowing you to take advantage of both rising and falling markets with advanced tools and reliable execution. 
                     </li>
                 </ul>
             </div>
@@ -144,18 +144,29 @@ include_once ('elements/header.php');
         <!-- Right Side Text -->
         <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="850">
             <div class="info-section">
-                <h3 class="fw-bold mb-4">With Zed Capital, you benefit from:</h3>
+                <h3 class="fw-bold mb-4">Companies You Can Trade</h3>
                 
-                <h5># Asset Class</h5>
-                <p class="text-gray">A category of financial instruments with similar characteristics, such as stocks, bonds, or commodities, governed by the same regulatory framework.</p>
+                <h5>United States</h5>
+                <p class="text-gray">
+                    Apple, Microsoft, Tesla, Amazon, Meta
+                </p>
 
-                <h5># Aussie (Ozzie)</h5>
-                <p class="text-gray">A commonly used term for the AUD/USD currency pair, known for its liquidity and connection to commodity markets.</p>
+                <h5>Europe</h5>
+                <p class="text-gray">
+                    HSBC, Volkswagen, Siemens, LVMH, Barclays
+                </p>
 
-                <h5># Acquisition</h5>
-                <p class="text-gray">The process where one company takes control of another, often as part of a growth or expansion strategy.</p>
+                <h5>Asia Pacific</h5>
+                <p class="text-gray">
+                    Samsung, Toyota, Alibaba, Reliance Industries, Tata Group
+                </p>
 
-                <a href="#" class="show-all-btn w-100">
+                <h5>Middle East</h5>
+                <p class="text-gray">
+                    Saudi Aramco, Emirates NBD, ADNOC, Emaar Properties
+                </p>
+
+                <a href="#" class="show-all-btn w-100 d-none">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -434,10 +445,11 @@ include_once ('elements/header.php');
 
 <style>
     .stock-section {
-        padding: 60px 0;
+        padding: 80px 0;
+        background-color: #ed3b2a;
         background-image: url('assets/images/background/stock-trading-background.png');
         color: white;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         display: flex;
@@ -500,28 +512,42 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row align-items-center">
             <!-- Text Content -->
-            <div class="col-lg-6 col-md-12 pe-0" data-aos="fade-up" data-aos-duration="850">
-                <h2 class="h2">How Stock Trading Works with Zed Capital</h2>
+            <div class="col-lg-7 col-md-12 pe-0" data-aos="fade-up" data-aos-duration="850">
+                <h2 class="h2">Why Trade Stocks with Zed Capital International Ltd</h2>
                 <div class="my-5 stock-divider"></div>
-                <p class="fw-bold" data-aos="fade-up" data-aos-duration="850">
+                <p class="fw-bold d-none" data-aos="fade-up" data-aos-duration="850">
                     Stock trading allows you to buy and sell company stocks, enabling you to profit from 
                     changes in their market value. Unlike traditional investing, CFDs on shares let you trade 
                     without owning the underlying asset, offering greater flexibility and potential.
                 </p>
-                <p>
-                    One major advantage of share trading with Zed Capital is access to global markets. 
-                    With a small initial deposit, you can trade the world's leading stocks, taking advantage 
-                    of upward and downward price movements.
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Global Reach</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    Access equities listed on leading exchanges across the United States, Europe, Asia and the Middle East.
                 </p>
-                <p>
-                    At Zed Capital, leverage of up to 1 allows you to amplify your exposure. 
-                    For example, a $1,000 deposit can control up to $20,000 shares. While leverage can boost 
-                    profit potential, it also increases risk, so trading responsibly is essential.
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Flexibility</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    Position yourself for growth or decline based on your market outlook.
+                </p>
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Increased Access</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    Enhance your exposure with margin trading while applying disciplined risk management.
+                </p>
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">All in One Platform</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    Trade stocks alongside currencies, commodities and indices from a single professional system.
+                </p>
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Transparency and Reliability</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    Experience deep liquidity, fair pricing and execution built to institutional standards.
                 </p>
             </div>
 
             <!-- Floating Icons -->
-            <div class="col-lg-6 col-md-12 p-0">
+            <div class="col-lg-5 col-md-12 p-0 d-none">
                 <div class="position-relative set-diamond-image">
                     <img src="assets/images/stock-tesla-icon.png" alt="stock tesla icon" class="position-absolute bottom-0 end-0 float-y stock-tesla-icon">
                     <img src="assets/images/stock-amazon-icon.png" alt="stock amazon icon" class="position-absolute bottom-0 end-0 float-y stock-amazon-icon">
@@ -548,42 +574,47 @@ include_once ('elements/header.php');
         margin-bottom: 2rem;
     }
 
-    .right-left-height {
-        min-height: 400px;
-    }
 </style>
 
 <div class="container py-5 my-5">
 
     <!-- Title -->
-    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Stock Trading Example</h2>
+    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Key Advantages</h2>
     
     <!-- Responsive Card Layout -->
     <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
       <!-- Profit Calculation -->
       <div class="col-12 col-md-6 ">
             <div class="custom-section right-left-height">
-                <h4 class="mb-5 text-start text-gray fw-bold">How Profit is Calculated:</h4>
-                <p><span class="highlight">Opening Price</span><br>50 Stock x $200 = $10,000</p>
+                <h4 class="text-start fw-bold">Diversification</h4>
+                <p class="mb-4">
+                    Build a balanced portfolio across multiple industries including technology, healthcare, finance, energy and consumer goods.
+                </p>
                 <hr>
-                <p><span class="highlight">Closing Price</span><br>50 Stock x $220 = $11,000</p>
-                <hr>
-                <p><span class="highlight">Gross Profit on Trade</span><br>$1,000</p>
+                <h4 class="mt-4 text-start fw-bold">Efficiency</h4>
+                <p>
+                    Eliminate settlement delays and additional costs that come with traditional share ownership.
+                </p>
             </div>
       </div>
       <!-- Opening Position -->
         <div class="col-12 col-md-6">
             <div class="custom-section right-left-height">
-                <h4 class="mb-5 text-start fw-bold">Opening the Position</h4>
+                <h4 class="text-start fw-bold">Professional Tools</h4>
+                <p class="mb-4">
+                    Gain access to advanced charting, technical analysis and automated strategies to support your trading decisions.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Execution Speed</h4>
                 <p>
-                    You decide to trade <span class="highlight">50 stock</span> of Meta at an opening price of <span class="highlight">$200</span> per share. With Zed Capital's <span class="highlight">10% margin</span>, your required capital is only <span class="highlight">$1,000</span>, allowing you to control a larger position with a smaller deposit. The total value of the position is <span class="highlight">$10,000</span>.
+                    Rely on a secure and robust system that delivers accuracy and confidence with every trade.
                 </p>
             </div>
         </div>
     </div>
     
     <!-- Closing Position (Full width) -->
-    <div class="row mt-4" data-aos="fade-up" data-aos-duration="850">
+    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
         <div class="col-12">
             <div class="custom-section text-center">
                 <h4 class="mb-2 fw-bold">Closing the Position</h4>
