@@ -37,7 +37,7 @@ include_once ('elements/header.php');
     <!-- Financial Market Section -->
     <div class="bg-light text-dark mt-4 rounded-4 p-4 d-flex justify-content-between align-items-center flex-wrap">
         <div>
-            <h2 class="fw-bold">European Financial Market</h2>
+            <h2 class="fw-bold">Middle Estern Market</h2>
             <p class="text-secondary mb-0">U.S. stock market live Index news today</p>
         </div>
         <div class="mt-3 mt-md-0">
@@ -145,17 +145,18 @@ include_once ('elements/header.php');
     <div class="row">
         <!-- Left Column -->
         <div class="col-lg-8 mb-4 px-5">
-            <h4 class="fw-bold">Dow Jones Industrial Average</h4>
+            <h3 class="fw-bold mb-5">Why the Middle Eastern Market Matters Globally</h3>
             <p class="text-muted text-gray">
-                The base currency is EUR and the counter currency is USD. The EUR/USD price shows how many American dollars are needed to buy one Eurozone's euro. Bringing together two largest global currencies, the pair belongs to Forex majors along with GBP/USD, USD/JPY and USD/CHFEUR/USD has quite a low bid-ask spread and is considered the world's most liquid currency pair. Traders buy or sell it heavily, provides for relatively high volatility levels. Liquidity coupled with volatility makes EUR/USD an attractive trading instrument for newcomers to Forex.
-            </p>
-
-            <h4 class="fw-bold mt-4">US-500</h4>
-            <p class="text-muted text-gray">
-                EUR is an official currency of the European Union. On 1 January 1999, it was released as a virtual currency unit for cashless transactions and accounting purposes. The euro banknotes and coins were issued on 1 January 2002. The euro is unique in that it's a common currency for 19 out of 28 members of the EU, which are referred to as the Eurozone. Every day, about 338.6 million people use the EUR for payments, making it the second most popular and heavily traded currency unit.
+                <b class="text-black">Energy Leadership</b>: Oil and gas revenues underpin global energy security and pricing.
             </p>
             <p class="text-muted text-gray">
-                The European Central Bank (ECB) is responsible for the monetary policy.
+                <b class="text-black">Sovereign Wealth Funds</b>: With trillions in assets under management, Gulf sovereign funds are among the most influential global investors.
+            </p>
+            <p class="text-muted text-gray">
+                <b class="text-black">Diversification & Reform</b>: Initiatives like Saudi Vision 2030 and the UAE’s innovation-driven strategies are creating new growth sectors.
+            </p>
+            <p class="text-muted text-gray">
+                <b class="text-black">Strategic Location</b>: Positioned between Asia, Europe, and Africa, the Middle East is a natural hub for cross-border trade and capital flows.
             </p>
         </div>
 
@@ -165,171 +166,21 @@ include_once ('elements/header.php');
                 <h5 class="fw-bold mb-3">Related markets</h5>
 
                 <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/eu.png" width="24" alt="EUR/USD">
+                        <img src="https://flagcdn.com/24x18/eu.png" class="d-none" width="24" alt="EUR/USD">
                         <div>
-                            <div class="fw-semibold">EUR/USD</div>
-                            <div class="text-muted small">1.15894</div>
+                            <div class="fw-semibold">EGX30</div>
+                            <div class="text-muted small d-none">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
                 </div>
-
-                <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/us.png" width="24" alt="USD/JPY">
-                        <div>
-                            <div class="fw-semibold">USD/JPY</div>
-                            <div class="text-muted small">148.756</div>
-                        </div>
-                    </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
-                </div>
-
-                <!-- Chart Card -->
-                <div class="bg-light p-2 rounded mb-3">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center gap-2">
-                            <img src="https://flagcdn.com/24x18/gb.png" width="24" alt="GBP/USD">
-                            <div>
-                                <div class="fw-semibold">GBP/USD</div>
-                                <div class="text-muted small">1.33984</div>
-                            </div>
-                        </div>
-                        <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
-                    </div>
-                    <div class="d-flex align-items-center mt-2">
-                        <span class="badge bg-danger-subtle text-danger small">↓ -0.100%</span>
-                    </div>
-                </div>
-
-                <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/eu.png" width="24" alt="EUR/USD">
-                        <div>
-                            <div class="fw-semibold">EUR/USD</div>
-                            <div class="text-muted small">1.15894</div>
-                        </div>
-                    </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
-                </div>
-
-                <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-3 p-2 rounded bg-light">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/us.png" width="24" alt="USD/JPY">
-                        <div>
-                            <div class="fw-semibold">USD/JPY</div>
-                            <div class="text-muted small">148.756</div>
-                        </div>
-                    </div>
-                    <button class="btn btn-sm btn-outline-warning rounded-pill px-3">Trade</button>
-                </div>
-
             </div>
         </div>
+
     </div>
 </div>
-
-<style>
-    .progress-bar {
-        transition: width 0.2s ease;
-    }
-</style>
-
-<div class="container py-4">
-  <div id="marketRows" class="row g-3"></div>
-</div>
-
-<script>
-  const data = [
-    {
-      symbol: "EUR/USD",
-      name: "Euro / US Dollar",
-      flag: "https://flagcdn.com/24x18/eu.png",
-      price1: 1.15894,
-      price2: 1.15900,
-      changeValue: 0.00006,
-      changePercent: -0.35,
-      chart: "https://via.placeholder.com/60x20?text=↘",
-      sellPercent: 47.79,
-      buyPercent: 52.21
-    },
-    {
-      symbol: "USD/JPY",
-      name: "US Dollar / Japanese Yen",
-      flag: "https://flagcdn.com/24x18/us.png",
-      price1: 148.763,
-      price2: 148.773,
-      changeValue: 0.01,
-      changePercent: 0.54,
-      chart: "https://via.placeholder.com/60x20?text=↗",
-      sellPercent: 45.24,
-      buyPercent: 54.76
-    },
-    {
-      symbol: "GBP/USD",
-      name: "GBP / US Dollar",
-      flag: "https://flagcdn.com/24x18/eu.png",
-      price1: 1.15894,
-      price2: 1.15900,
-      changeValue: 0.00006,
-      changePercent: -0.35,
-      chart: "https://via.placeholder.com/60x20?text=↘",
-      sellPercent: 47.79,
-      buyPercent: 52.21
-    },
-    {
-      symbol: "USD/AUD",
-      name: "US Dollar / AUD",
-      flag: "https://flagcdn.com/24x18/us.png",
-      price1: 148.763,
-      price2: 148.773,
-      changeValue: 0.01,
-      changePercent: 0.54,
-      chart: "https://via.placeholder.com/60x20?text=↗",
-      sellPercent: 45.24,
-      buyPercent: 54.76
-    }
-  ];
-
-  const marketRows = document.getElementById('marketRows');
-
-  data.forEach(item => {
-    const changeColor = item.changePercent < 0 ? 'text-danger' : 'text-success';
-
-    const row = document.createElement('div');
-    row.className = "col-12";
-    row.innerHTML = `
-      <div class="d-flex align-items-center justify-content-between bg-light rounded-3 p-2 shadow-sm flex-wrap">
-        <div class="d-flex align-items-center gap-2" style="min-width: 200px;">
-          <img src="${item.flag}" width="24" alt="${item.symbol}">
-          <div>
-            <div class="fw-semibold">${item.symbol}</div>
-            <small class="text-muted">${item.name}</small>
-          </div>
-        </div>
-        <div class="text-primary fw-semibold">${item.price1}</div>
-        <div class="text-primary fw-semibold">${item.price2}</div>
-        <div class="text-secondary small">${item.changeValue}</div>
-        <div class="small fw-semibold ${changeColor}">${item.changePercent > 0 ? '+' : ''}${item.changePercent}%</div>
-        <div><img src="${item.chart}" alt="chart" class="img-fluid"></div>
-        <div class="d-flex align-items-center gap-2" style="min-width: 120px;">
-          <small>${item.sellPercent}%</small>
-          <div class="progress flex-grow-1" style="height: 6px;">
-            <div class="progress-bar bg-danger" style="width: ${item.sellPercent}%;"></div>
-            <div class="progress-bar bg-primary" style="width: ${item.buyPercent}%;"></div>
-          </div>
-          <small>${item.buyPercent}%</small>
-        </div>
-      </div>
-    `;
-    marketRows.appendChild(row);
-  });
-</script>
 
 <style>
     .card-custom {
@@ -361,6 +212,26 @@ include_once ('elements/header.php');
 <div class="container py-5">
     <div class="row g-4 align-items-center">
       
+        <div class="col-md-12 mb-5">
+            <div class="card-custom text-dark">
+                <h4 class="fw-bold text-center mb-4">Zed Capital International Ltd — Unlocking Opportunities in the Middle East</h4>
+
+                <p class="text-mute">
+                    At <b>Zed Capital International Ltd</b>, we recognize the Middle Eastern financial market as one of the fastest-growing and strategically significant regions in global finance. Anchored by energy wealth, sovereign investment funds, and ambitious economic diversification programs, the Middle East has transformed into a hub of capital markets, banking, and cross-border investment.
+                </p>
+
+                <p class="text-mute">
+                    From Dubai’s global financial center to Riyadh’s rapidly expanding stock exchange, and from Abu Dhabi’s sovereign funds to Qatar’s investment hubs, the Middle East is redefining its role in the global economy.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-0">
+        <h3 class="text-center my-5 fw-bold">Structure of the Middle Eastern Market</h3>
+    </div>
+
+    <div class="row">
         <!-- Stock Market Card -->
         <div class="col-lg-4">
             <div class="card-custom text-dark">
@@ -379,57 +250,78 @@ include_once ('elements/header.php');
 
         <!-- Dow Jones Description -->
         <div class="col-lg-8 px-5">
-            <h3 class="fw-bold">Dow Jones Industrial Average</h3>
-            <p class="text-muted w-75">
-                The base currency is EUR and the counter currency is USD. The EUR/USD price shows how many American dollars are needed to buy one Eurozone's euro. Bringing together two largest global currencies, the pair belongs to Forex majors along with GBP/USD, USD/JPY and USD/CHF.
+            
+            <h4 class="fw-bold mt-2 mb-4">Equities (Stock Market)</h4>
+            <p class="text-muted">
+                The <b>Saudi Stock Exchange (Tadawul)</b> is the largest in the region, with listings including Saudi Aramco, one of the world’s most valuable companies.
             </p>
-            <p class="text-muted w-75">
-                EUR/USD has quite a low bid-ask spread and is considered the world's most liquid currency pair. Traders buy or sell it heavily, providing relatively high volatility levels. Liquidity coupled with volatility makes EUR/USD an attractive trading instrument for newcomers to Forex.
+            <p class="text-muted">
+                The <b>Dubai Financial Market (DFM)</b> and <b>Abu Dhabi Securities Exchange (ADX)</b> attract international investors with growing liquidity and innovation.
             </p>
-            <p class="text-muted w-75">
-                American dollars are needed to buy one Eurozone's euro. Bringing together two largest global currencies, the pair belongs to Forex majors along with GBP/USD, USD/JPY and USD/CHF.
+            <p class="text-muted">
+                The <b>Qatar Stock Exchange (QSE)</b> and <b>Kuwait Stock Exchange (Boursa Kuwait)</b> also serve as key platforms for regional and international capital.
+            </p>
+
+            <h4 class="fw-bold my-4">Fixed Income (Bond Market)</h4>
+            <p class="text-muted">
+                Sovereign debt issuance is increasing as Gulf states finance diversification projects.
+            </p>
+            <p class="text-muted">
+                <b>Sukuk (Islamic bonds)</b> represent a distinctive and rapidly expanding segment, aligning investments with Sharia-compliant principles.
+            </p>
+            <p class="text-muted">
+                The UAE, Saudi Arabia, and Qatar are now among the leading global issuers of sukuk.
             </p>
         </div>
 
     </div>
-</div>
 
-<style>
-   
-    .info-card {
-        border-radius: 15px;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
-        background-color: white;
-        padding: 30px;
-    }
-    .bull-bear-img {
-        width: 60%;
-        margin: -50px -30px 0 0;
-    }
-    .text-section {
-        color: #555;
-    }
-    .fw-bold-title {
-        font-weight: 700;
-    }
-    @media (max-width: 767.98px) {
-        .text-section {
-            margin-bottom: 30px;
+    <style>
+    
+        .info-card {
+            border-radius: 15px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            padding: 30px;
         }
-    }
-</style>
+        .bull-bear-img {
+            width: 60%;
+            margin: -50px -30px 0 0;
+        }
+        .text-section {
+            color: #555;
+        }
+        .fw-bold-title {
+            font-weight: 700;
+        }
+        @media (max-width: 767.98px) {
+            .text-section {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 
-<div class="container py-5">
-    <div class="row align-items-center g-4">
+    <div class="row align-items-center g-4 mt-5">
 
         <!-- Left Text Section -->
-        <div class="col-lg-8 px-5 text-section">
-            <h3 class="fw-bold-title">US-30</h3>
-            <p>
-                EUR is an official currency of the European Union. On 1 January 1999, it was released as a virtual currency unit for cashless transactions and accounting purposes. The euro banknotes and coins were issued on 1 January 2002. The euro is unique in that it’s a common currency for 19 out of 28 members of the EU, which are referred to as the Eurozone. Every day, about 338.6 million people use the EUR for payments, making it the second most popular and heavily traded currency unit.
+        <div class="col-lg-8 px-5">
+            <h4 class="fw-bold mt-2 mb-4">Currencies (Foreign Exchange)</h4>
+            <p class="text-muted">
+                Regional currencies such as the <b>Saudi Riyal (SAR), UAE Dirham (AED)</b>, and <b>Qatari Riyal (QAR)</b> are often pegged to the U.S. dollar, ensuring exchange rate stability.
             </p>
-            <p>
-                The European Central Bank (ECB) is responsible for the monetary policy in the EU, thus, controls all the euro-related issues. ECB is in charge of maintaining price stability and defining key interest rates for the Eurozone.
+            <p class="text-muted">
+                Dubai has positioned itself as a hub for <b>forex and commodities trading</b>, offering access to both local and international markets.
+            </p>
+
+            <h4 class="fw-bold my-4">Commodities & Derivatives</h4>
+            <p class="text-muted">
+                The Middle East remains the <b>global leader in oil and gas</b>, with pricing power that directly influences global energy markets.
+            </p>
+            <p class="text-muted">
+                Exchanges such as the <b>Dubai Mercantile Exchange (DME)</b> offer futures trading on crude oil and related products.
+            </p>
+            <p class="text-muted">
+                Increasing focus on <b>renewable energy investments</b> reflects the region’s transition toward long-term sustainability.
             </p>
         </div>
 
@@ -450,8 +342,238 @@ include_once ('elements/header.php');
         </div>
 
     </div>
+
+    <div class="row g-4 align-items-center mt-5">
+      
+        <div class="col-md-12 mb-5">
+            <div class="card-custom text-dark">
+                <h4 class="fw-bold mt-2 mb-4">Sovereign Wealth & Private Capital</h4>
+                <p class="text-muted">
+                    The Middle East is home to some of the world's largest sovereign wealth funds, including.
+                </p>
+                    <ul>
+                        <li>
+                            Abu Dhabi Investment Authority (ADIA)
+                        </li>
+                        <li>
+                            Saudi Arabia's Public Investment Fund (PIF)
+                        </li>
+                        <li>
+                            Qatar Investment Authority (QIA)
+                        </li>
+                    </ul>
+                <p class="text-muted">
+                    These funds are reshaping global capital markets through large-scale investments in infrastructure, technology, real estate, and alternative assets.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 
+<style>
+
+    .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
+    }
+
+    .risks-considerations{
+        padding: 50px 0;
+    }
+    .tech-feature {
+        padding: 35px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle i{
+        font-size: 35px;
+    }
+    
+    .opp-h-fix{
+        min-height: 300px;
+    }
+</style>
+
+<section class="opportunities-for-investors">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Opportunities for Investors</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-cpu"></i></div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Equities</h5>
+                            <p class="mb-0 small-muted">
+                                Access to high-growth regional companies and IPOs, particularly in Saudi Arabia and the UAE.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-cash"></i></div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Fixed Income</h5>
+                            <p class="mb-0 small-muted">
+                                Growing opportunities in both conventional bonds and Sharia-compliant instruments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-boxes"></i></div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Real Assets</h5>
+                            <p class="mb-0 small-muted">
+                                Infrastructure, real estate, and energy diversification projects backed by sovereign capital
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2"><i class="text-red bi bi-currency-dollar"></i></div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Alternative Investments</h5>
+                            <p class="mb-0 small-muted">
+                                Private equity and venture capital in fintech, clean energy, and logistics
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="risks-considerations">
+    <div class="container py-5 pb-0">
+        <h2 class="h4 mb-3">Risks and Considerations</h2>
+        <div class="row g-3 ">
+            <div class="col-lg-3">
+                <div class="tech-feature opp-h-fix">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-shop"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Geopolitical Sensitivities</h5>
+                    <p class="small-muted mb-0">
+                        Regional conflicts and political shifts can affect investor sentiment
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tech-feature opp-h-fix">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-regex"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Oil Price Volatility</h5>
+                    <p class="small-muted mb-0">
+                        Energy markets remain a dominant driver of fiscal stability
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tech-feature opp-h-fix">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-globe"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Regulatory Variation</h5>
+                    <p class="small-muted mb-0">
+                        Differences in financial market regulations across GCC states require careful navigation
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tech-feature opp-h-fix">
+                    <div class="icon-circle text-center mb-4">
+                        <i class="text-red bi bi-arrow-repeat"></i>
+                    </div>
+                    <h5 class="fw-bold text-center">Liquidity</h5>
+                    <p class="small-muted mb-0">
+                        While growing, regional markets can be less liquid compared to U.S. and European counterparts
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="p-3 bg-white">
+                    <p>
+                        At <b>Zed Capital International Ltd</b>, we help clients evaluate these risks while positioning to capture the region’s growing opportunities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="your-guide">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Zed Capital International Ltd — Your Gateway to the Middle East</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="tech-feature mb-3">
+                    <h5>Regional Insight</h5>
+                    <p class="small-muted mb-0">
+                        Expertise in Gulf markets, exchanges, and sovereign fund strategies
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="tech-feature mb-3">
+                    <h5>Sharia-Compliant Solutions</h5>
+                    <p class="small-muted mb-0">
+                        Understanding of sukuk, Islamic finance, and investment frameworks
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="tech-feature">
+                    <h5>Global Perspective</h5>
+                    <p class="small-muted mb-0">
+                        Bridging Middle Eastern opportunities with international investor strategies
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="p-3 bg-white">
+                    <h5>Conclusion</h5>
+                    <ul class="mb-0 small-muted">
+                        <li>
+                            The <b>Middle Eastern financial market</b> is a dynamic blend of energy wealth, sovereign investment, and economic diversification. With expanding capital markets, ambitious reforms, and global-scale sovereign wealth funds, the region is set to play an increasingly pivotal role in the international financial system.
+                        </li>
+                        <li>
+                            At <b>Zed Capital International Ltd</b>, we provide clients with the insight, access, and strategies required to navigate this evolving market — from traditional energy-linked investments to emerging opportunities in technology, infrastructure, and sustainable finance.
+                        </li>
+                        <li> 
+                            Zed Capital International Ltd — connecting global investors to the opportunities of the Middle East.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php
 include_once ('elements/footer.php');
 ?>
