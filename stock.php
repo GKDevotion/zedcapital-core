@@ -79,10 +79,10 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-5 text-black" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="fw-bold h2 mb-5">What is Stock trading and how does it work?</h2>
+                <h2 class="fw-bold h2 mb-5">Trade Global Equities</h2>
                 <div class="p-1 divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-75" data-aos="fade-up" data-aos-delay="800">
-                    Forex, or foreign exchange, refers to the market where currencies are traded against each other.
+                    Access leading U.S., European, Asian, and Middle Eastern stocks with competitive pricing and deep liquidity. Benefit from transparent costs, robust risk controls, and fast, reliable execution.
                 </p>
             </div>
 
@@ -108,9 +108,9 @@ include_once ('elements/header.php');
 
             <!-- Right Column with Red Background & Angled Shape -->
             <div class="col-lg-7 position-relative text-white px-4 py-4 our-commitment-text-bg" data-aos="fade-up" data-aos-duration="850">
-                <ul class="mb-0 ps-5 mx-5 w-75">
+                <ul class="mb-0 ps-5 mx-5 w-75" style="list-style-type: none;">
                     <li class="">
-                        Our stock trading services are designed for flexibility, allowing you to take advantage of both rising and falling markets with advanced tools and reliable execution. 
+                        <b>Zed Capital International Ltd</b>, investors gain access to a broad spectrum of equities that represent innovation, resilience, and global economic growth. 
                     </li>
                 </ul>
             </div>
@@ -144,16 +144,16 @@ include_once ('elements/header.php');
         <!-- Right Side Text -->
         <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="850">
             <div class="info-section">
-                <h3 class="fw-bold mb-4">Companies You Can Trade</h3>
+                <h3 class="fw-bold mb-4">Why Choose Stock CFDs with Zed Capital?</h3>
                 
-                <h5>United States</h5>
+                <h5>Global Market Coverage</h5>
                 <p class="text-gray">
-                    Apple, Microsoft, Tesla, Amazon, Meta
+                    Access equities listed on major exchanges, including the NYSE, NASDAQ, LSE, DAX, CAC 40, and more
                 </p>
 
-                <h5>Europe</h5>
+                <h5>Two-Way Opportunities</h5>
                 <p class="text-gray">
-                    HSBC, Volkswagen, Siemens, LVMH, Barclays
+                    Capture potential gains in both rising and falling markets.
                 </p>
 
                 <h5>Asia Pacific</h5>
@@ -161,9 +161,19 @@ include_once ('elements/header.php');
                     Samsung, Toyota, Alibaba, Reliance Industries, Tata Group
                 </p>
 
-                <h5>Middle East</h5>
+                <h5>Leverage Advantage</h5>
                 <p class="text-gray">
-                    Saudi Aramco, Emirates NBD, ADNOC, Emaar Properties
+                    Increase market exposure with margin trading, while applying disciplined risk management.
+                </p>
+
+                <h5>Integrated Platform</h5>
+                <p class="text-gray">
+                    Trade stocks alongside forex, commodities, and indices on our advanced <b>MT5 platform</b>.
+                </p>
+
+                <h5>Transparent Pricing & Execution</h5>
+                <p class="text-gray">
+                    Competitive spreads, deep liquidity, and institutional-grade execution.
                 </p>
 
                 <a href="#" class="show-all-btn w-100 d-none">
@@ -513,37 +523,33 @@ include_once ('elements/header.php');
         <div class="row align-items-center">
             <!-- Text Content -->
             <div class="col-lg-7 col-md-12 pe-0" data-aos="fade-up" data-aos-duration="850">
-                <h2 class="h2">Why Trade Stocks with Zed Capital International Ltd</h2>
+                <h2 class="h2">Global Equities at Your Fingertips</h2>
                 <div class="my-5 stock-divider"></div>
                 <p class="fw-bold d-none" data-aos="fade-up" data-aos-duration="850">
                     Stock trading allows you to buy and sell company stocks, enabling you to profit from 
                     changes in their market value. Unlike traditional investing, CFDs on shares let you trade 
                     without owning the underlying asset, offering greater flexibility and potential.
                 </p>
-                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Global Reach</h5>
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">United States</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Access equities listed on leading exchanges across the United States, Europe, Asia and the Middle East.
+                    Apple, Microsoft, Tesla, Amazon, Meta, and more.
                 </p>
 
-                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Flexibility</h5>
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Europe</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Position yourself for growth or decline based on your market outlook.
+                    HSBC, Volkswagen, LVMH, Siemens, Barclays, and other blue-chip leaders.
                 </p>
 
-                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Increased Access</h5>
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Asia-Pacific</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Enhance your exposure with margin trading while applying disciplined risk management.
+                    Toyota, Samsung, Alibaba, Reliance Industries, Tata Group.
                 </p>
 
-                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">All in One Platform</h5>
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Middle East</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Trade stocks alongside currencies, commodities and indices from a single professional system.
+                    Saudi Aramco, Emirates NBD, Emaar Properties, ADNOC.
                 </p>
 
-                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Transparency and Reliability</h5>
-                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Experience deep liquidity, fair pricing and execution built to institutional standards.
-                </p>
             </div>
 
             <!-- Floating Icons -->
@@ -570,7 +576,7 @@ include_once ('elements/header.php');
         background-color: aliceblue;
         border-radius: 15px;
         border: 0;
-        padding: 3rem;
+        padding: 3rem 2.5rem;
         margin-bottom: 2rem;
     }
 
@@ -579,7 +585,7 @@ include_once ('elements/header.php');
 <div class="container py-5 my-5">
 
     <!-- Title -->
-    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Key Advantages</h2>
+    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Trading Stocks</h2>
     
     <!-- Responsive Card Layout -->
     <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
@@ -588,12 +594,12 @@ include_once ('elements/header.php');
             <div class="custom-section right-left-height">
                 <h4 class="text-start fw-bold">Diversification</h4>
                 <p class="mb-4">
-                    Build a balanced portfolio across multiple industries including technology, healthcare, finance, energy and consumer goods.
+                    Build a portfolio across sectors including technology, energy, finance, healthcare, and consumer goods.
                 </p>
                 <hr>
                 <h4 class="mt-4 text-start fw-bold">Efficiency</h4>
                 <p>
-                    Eliminate settlement delays and additional costs that come with traditional share ownership.
+                    Trade without custody fees, settlement delays, or ownership complexities.
                 </p>
             </div>
       </div>
@@ -602,12 +608,12 @@ include_once ('elements/header.php');
             <div class="custom-section right-left-height">
                 <h4 class="text-start fw-bold">Professional Tools</h4>
                 <p class="mb-4">
-                    Gain access to advanced charting, technical analysis and automated strategies to support your trading decisions.
+                    Advanced charting, technical analysis, and automated trading strategies.
                 </p>
                 <hr>
-                <h4 class="mt-4 text-start fw-bold">Execution Speed</h4>
+                <h4 class="mt-4 text-start fw-bold">Liquidity & Speed</h4>
                 <p>
-                    Rely on a secure and robust system that delivers accuracy and confidence with every trade.
+                    Reliable trade execution backed by institutional-grade infrastructure.
                 </p>
             </div>
         </div>
@@ -723,10 +729,20 @@ include_once ('elements/explore-more-about.php');
         <div class="col-12">
             <div class="info-card">
                 <div class="alert-custom" data-aos="fade-up" data-aos-duration="850">
-                    How do Dividends work? If you hold an open position from the day before the ex-dividend date, then you will receive the dividend payment on a buy position and be charged on a sell position.
+                    At <b>Zed Capital International Ltd</b>, we provide risk management tools including stop-loss and take-profit orders, ensuring that clients can trade responsibly and with confidence.
                 </div>
                 <p class="info-note" data-aos="fade-up" data-aos-duration="850">
-                    Please note that these are indicative rates only and are subject to change pending the final executed rate at midnight MT4 Server time. Dividends will be settled in your account balance and you will see the corresponding comment 'CFD Dividend'. We always recommend before trading such assets, that you monitor for any updates relevant to your trades.
+                    <ul class="mb-0 ps-5">
+                        <li class="">
+                            <b>Leverage Amplifies Risk:</b> While leverage enhances exposure, it also increases potential losses.
+                        </li>
+                        <li class="">
+                            <b>Volatility:</b> Equities are sensitive to earnings announcements, interest rates, and macroeconomic shifts.
+                        </li>
+                        <li class="">
+                            <b>No Ownership Rights:</b> As CFDs, stock trades do not include shareholder benefits such as dividends or voting rights.
+                        </li>
+                    </ul>
                 </p>
             </div>
         </div>
