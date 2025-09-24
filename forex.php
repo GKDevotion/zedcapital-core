@@ -496,21 +496,24 @@ include_once ('elements/header.php');
                     Forex trading involves exchanging one currency for another, allowing you to speculate on currency price movements. Unlike other financial instruments, you don't own the currency but profit from its value changes.
                 </p>
 
-                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Majors</h5>
-                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Majors</h3>
+                <h5 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="850">
                     EURUSD, GBPUSD, USDJPY, AUDUSD, USDCHF
-                </p>
+                </h5>
 
-                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Minors</h5>
-                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Minors</h3>
+                <h5 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="850">
                     EURGBP, GBPJPY, AUDNZD, CADJPY
-                </p>
+                </h5>
 
-                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Exotics</h5>
-                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Exotics</h3>
+                <h5 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="850">
                     USDTRY, USDSGD, USDZAR, EURMXN
-                </p>
+                </h5>
 
+                <p class="mt-5">
+                    From the most popular pairs to region specific currencies, Zed Capital International Ltd connects you to opportunities around the globe.
+                </p>
             </div>
 
             <!-- Floating Icons -->
