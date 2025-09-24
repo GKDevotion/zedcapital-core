@@ -98,9 +98,10 @@ include_once ('elements/header.php');
 
         <!-- Bullet Points -->
         <div class="col-md-10 p-0">
-            <ul class="mb-0" data-aos="fade-up" data-aos-duration="800">
-                <li><strong>Currencies are always traded in pairs,</strong> like <strong>EUR/USD</strong> (Euro vs. US Dollar) or <strong>GBP/JPY</strong> (British Pound vs. Japanese Yen).</li>
-                <li><strong>You buy one currency</strong> with the expectation that it will appreciate in value compared to the other currency in the pair.</li>
+            <ul class="mb-0" data-aos="fade-up" data-aos-duration="800" style="list-style-type: none;">
+                <li class="px-5">
+                    With our advanced platform, competitive trading conditions and institutional grade infrastructure, you can trade with speed, precision and confidence.
+                </li>
             </ul>
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 100px; height: 80px;margin: 15px -50px">
