@@ -37,9 +37,9 @@ include_once ('elements/header.php');
         width: 25%;
     }
 
-    .indices-header p{
+    /* .indices-header p{
         width: 75%;
-    }
+    } */
 
     @media (max-width: 767.98px) {
         .indices-header{
@@ -76,10 +76,10 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-5 text-black py-5 px-0" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="h2 mb-5">What is Indices trading and how does it work?</h2>
+                <h2 class="h2 mb-5">Trade Global Indices with Zed Capital International Ltd</h2>
                 <div class="p-1 indices-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-100" data-aos="fade-up" data-aos-delay="800">
-                    Trade global indices with leverage and enjoy zero commission—access leading global markets, from the S&P 500 to the NASDAQ, on Zed Capital award-winning platform.
+                    Access leading global indices with Zed Capital International Ltd. Trade broad market performance in a single instrument—capture trends, diversify efficiently, and express macro views without stock selection, with transparent execution.
                 </p>
             </div>
 
@@ -93,12 +93,12 @@ include_once ('elements/header.php');
         <div class="row mt-5">
             <div class="bottom-0 ">
                 <div class="position-relative set-diamond-image" >
-                    <img src="assets/images/best-of-indicies-diaminds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 100px;margin: -35px 100px;">
+                    <img src="assets/images/diamonds/best-of-indicies-diamonds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 100px;margin: -35px 100px;">
                 </div>
                 <div class="basic-of-indices col-md-12 text-center p-4" data-aos="fade-up" data-aos-duration="800" >
                     <h3 class="fw-bold">Basics of Indices</h3>
                     <p class="mb-0 small">
-                        Indices, also known as equities or shares, represent ownership in a company. When you own stock in a company, you own a portion of that company’s assets and earnings proportional to the number of shares you hold.
+                        With our advanced platform, you can trade leading global indices such as the S&P 500, NASDAQ 100, DAX 40, FTSE 100 and Nikkei 225 with competitive pricing and professional tools.
                     </p>
                 </div>
             </div>    
@@ -159,18 +159,29 @@ include_once ('elements/header.php');
         <!-- Right Side Text -->
         <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-section">
-                <h3 class="fw-bold mb-4">With Zed Capital, you benefit from:</h3>
+                <h3 class="fw-bold mb-4">Why Trade Indices with Zed Capital International Ltd</h3>
                 
-                <h5># Asset Class</h5>
-                <p>A category of financial instruments with similar characteristics, such as stocks, bonds, or commodities, governed by the same regulatory framework.</p>
+                <h5>Global Market Access</h5>
+                <p>
+                    Trade the most popular indices from the United States, Europe, Asia and the Middle East.
+                </p>
 
-                <h5># Aussie (Ozzie)</h5>
-                <p>A commonly used term for the AUD/USD currency pair, known for its liquidity and connection to commodity markets.</p>
+                <h5>Broad Exposure</h5>
+                <p>
+                    One position gives you access to the performance of an entire market or sector.
+                </p>
 
-                <h5># Acquisition</h5>
-                <p>The process where one company takes control of another, often as part of a growth or expansion strategy.</p>
+                <h5>Two Way Opportunities</h5>
+                <p>
+                    Capture potential gains in both rising and falling markets.
+                </p>
 
-                <a href="#" class="show-all-btn w-100">
+                <h5>Transparent Pricing</h5>
+                <p>
+                    Enjoy competitive spreads, strong liquidity and reliable execution at every step.
+                </p>
+
+                <a href="#" class="show-all-btn w-100 d-none">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -513,26 +524,109 @@ include_once ('elements/header.php');
         <div class="row align-items-center">
             <!-- Text Content -->
             <div class="col-lg-8 col-md-12" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="h2 w-75">How Indices Trading Works with Zed Capital</h2>
+                <h2 class="h2 w-75">Popular Indices You Can Trade</h2>
                 <div class="" style="width: 60px; height: 6px; background: white; margin: 50px 0;"></div>
-                <p class="fw-bold ">
-                    Indices trading involves speculating on the performance of a group of stocks that make up a specific index, such as the S&P 500 or the FTSE 100. This allows you to gain exposure to the broader market movements of an entire country or sector.
-                </p>
-                <p class="">
-                    One key advantage of indices trading is the ability to trade with leverage, enabling you to control larger positions with a smaller deposit. Zed Capital provides access to popular indices such as the Dow Jones (US30), DAX (GER40), and Nikkei (JPN225), giving you the flexibility to diversify your trading portfolio.
-                </p>
-                <p class="">
-                    At Zed Capital, leverage can reach up to 1:500, allowing traders to amplify their exposure. While leverage increases profit potential, it also carries risks, making responsible trading essential.
-                </p>
-            </div>
 
-            <!-- Floating Icons -->
-            <div class="col-lg-4 col-md-12 icons">
-                
-            </div>
+                <p class="fw-bold d-none" data-aos="fade-up" data-aos-duration="850">
+                    Stock trading allows you to buy and sell company stocks, enabling you to profit from 
+                    changes in their market value. Unlike traditional investing, CFDs on shares let you trade 
+                    without owning the underlying asset, offering greater flexibility and potential.
+                </p>
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">United States</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    S&P 500, NASDAQ 100, Dow Jones Industrial Average
+                </p>
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Europe</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    DAX 40, FTSE 100, CAC 40, Euro Stoxx 50
+                </p>
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Asia-Pacific</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    Nikkei 225, Hang Seng, ASX 200, Nifty 50
+                </p>
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Middle East</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    Tadawul, DFM Index, ADX General
+                </p>
+
+                <!-- Floating Icons -->
+                <div class="col-lg-4 col-md-12 icons">
+                    
+                </div>
         </div>
     </div>
 </section>
+
+<style>
+    
+    .highlight {
+        font-weight: bold;
+    }
+    
+    .custom-section {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+        background-color: aliceblue;
+        border-radius: 15px;
+        border: 0;
+        padding: 3rem 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+</style>
+
+<div class="container py-5 my-5">
+
+    <!-- Title -->
+    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Trading Stocks</h2>
+    
+    <!-- Responsive Card Layout -->
+    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
+      <!-- Profit Calculation -->
+      <div class="col-12 col-md-6 ">
+            <div class="custom-section right-left-height">
+                <h4 class="text-start fw-bold">Diversification</h4>
+                <p class="mb-4">
+                    Reduce risk by trading an entire basket of companies instead of individual stocks.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Efficiency</h4>
+                <p>
+                    React quickly to market news, sector performance and economic announcements.
+                </p>
+            </div>
+      </div>
+      <!-- Opening Position -->
+        <div class="col-12 col-md-6">
+            <div class="custom-section right-left-height">
+                <h4 class="text-start fw-bold">Professional Tools</h4>
+                <p class="mb-4">
+                    Rely on fast order execution and deep market liquidity.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Liquidity & Speed</h4>
+                <p>
+                    Use advanced features such as technical analysis, risk controls and automated trading systems.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Closing Position (Full width) -->
+    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
+        <div class="col-12">
+            <div class="custom-section text-center">
+                <h4 class="mb-2 fw-bold">Closing the Position</h4>
+                <p class="mb-0">
+                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 $featureIconArr = [
@@ -630,10 +724,18 @@ include_once ('elements/explore-more-about.php');
         <div class="col-12">
             <div class="info-card">
                 <div class="alert-custom" data-aos="fade-up" data-aos-duration="800" >
-                    How do Dividends work? If you hold an open position from the day before the ex-dividend date, then you will receive the dividend payment on a buy position and be charged on a sell position.
+                    <p class="fw-bold">Risks to Consider</p>
+                    <p>
+                        Index trading involves exposure to broad market volatility. Global events, economic data, central bank decisions and investor sentiment can all impact index prices. Leverage can increase profit potential but also magnifies losses.
+                    </p>
+                    <p>
+                        At <b>Zed Capital International Ltd</b>, we provide protective tools including stop loss and take profit orders to help clients manage positions with discipline and confidence.
+                    </p>
                 </div>
+
+                <p class="fw-bold">Index Trading, Simplified</p>
                 <p class="info-note" data-aos="fade-up" data-aos-duration="800" >
-                    Please note that these are indicative rates only and are subject to change pending the final executed rate at midnight MT4 Server time. Dividends will be settled in your account balance and you will see the corresponding comment 'CFD Dividend'. We always recommend before trading such assets, that you monitor for any updates relevant to your trades.
+                    Tap into global market performance with Zed Capital International Ltd. Trade major benchmarks in a single, efficient instrument—diversify instantly, capture trends with speed and clarity, and operate under transparent, professional conditions.
                 </p>
             </div>
         </div>

@@ -74,11 +74,11 @@ include_once ('elements/header.php');
             <!-- Text Column -->
             <div class="col-md-6 text-black"  >
                 <h2 class="fw-bold h2 mb-5 pe-5" data-aos="fade-up" data-aos-duration="800">
-                    What is Forex trading and how does it work?
+                    Trade the World's Largest Financial Market
                 </h2>
                 <div class="p-1 forex-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-75" data-aos="fade-up" data-aos-delay="800">
-                    Forex, or foreign exchange, refers to the market where currencies are traded against each other. It's the largest financial market globally, with trillions of dollars worth of transactions happening daily
+                    <b>Forex</b> is the world's largest financial market, where currencies trade continuously across major, minor, and exotic pairs—driven by macroeconomics, central-bank policy, and market sentiment.
                 </p>
 
             </div>
@@ -103,7 +103,7 @@ include_once ('elements/header.php');
                 <li><strong>You buy one currency</strong> with the expectation that it will appreciate in value compared to the other currency in the pair.</li>
             </ul>
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 100px; height: 80px;margin: 15px -100px">
+                <img src="assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 100px; height: 80px;margin: 15px -50px">
             </div>
         </div>
     </div>
@@ -157,18 +157,34 @@ include_once ('elements/header.php');
         <!-- Right Side Text -->
         <div class="col-lg-6 col-sm-12 px-5 pe-5">
             <div class="info-section" data-aos="fade-up" data-aos-duration="800">
-                <h4 class="fw-bold mb-4">With Zed Capital, you benefit from:</h4>
+                <h4 class="fw-bold mb-4">Why Trade Forex with Zed Capital International Ltd</h4>
                 
-                <h5># Asset Class</h5>
-                <p>A category of financial instruments with similar characteristics, such as stocks, bonds, or commodities, governed by the same regulatory framework.</p>
+                <h5>Global Market Access</h5>
+                <p>
+                    Trade all major and minor currency pairs including USD, EUR, GBP, JPY, AUD and more.
+                </p>
 
-                <h5># Aussie (Ozzie)</h5>
-                <p>A commonly used term for the AUD/USD currency pair, known for its liquidity and connection to commodity markets.</p>
+                <h5>High Liquidity</h5>
+                <p>
+                    Enter and exit trades at any time with seamless execution supported by deep liquidity.
+                </p>
 
-                <h5># Acquisition</h5>
-                <p>The process where one company takes control of another, often as part of a growth or expansion strategy.</p>
+                <h5>Flexibility</h5>
+                <p>
+                    Benefit from opportunities in both rising and falling markets across sessions worldwide.
+                </p>
 
-                <a href="#" class="show-all-btn w-100" data-aos="fade-up" data-aos-duration="800">
+                <h5>Professional Platform</h5>
+                <p>
+                    Use our MT5 system for advanced charting, technical indicators, analysis tools and automated strategies.
+                </p>
+
+                <h5>Transparent Trading Conditions</h5>
+                <p>
+                    Experience competitive spreads, fast execution and reliable pricing.
+                </p>
+
+                <a href="#" class="show-all-btn w-100 d-none" data-aos="fade-up" data-aos-duration="800">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -474,18 +490,25 @@ include_once ('elements/header.php');
         <div class="row align-items-center">
             <!-- Text Content -->
             <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="800">
-                <h2 class="h2">How Forex Trading Works with Zed Capital</h2>
+                <h2 class="h2">Currency Pairs at Your Fingertips</h2>
                 <div class="my-5" style="width: 60px; height: 8px; background: white;"></div>
-                <p class="fw-bold ">
+                <p class="fw-bold d-none">
                     Forex trading involves exchanging one currency for another, allowing you to speculate on currency price movements. Unlike other financial instruments, you don't own the currency but profit from its value changes.
                 </p>
 
-                <p class="mt-5">
-                    One key advantage of forex is the low entry point—you can trade micro-lots (1,000 units) and scale up as you grow. Forex trading also offers leverage, enabling you to control a larger position with a smaller deposit.
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Majors</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    EURUSD, GBPUSD, USDJPY, AUDUSD, USDCHF
                 </p>
 
-                <p class="mt-1">
-                    At Zed Capital, leverage can reach 1:1000, allowing a $1,000 deposit to control up to $1,000,000. While leverage increases profit potential, it also carries risk, so managing your trades responsibly is essential.
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Minors</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    EURGBP, GBPJPY, AUDNZD, CADJPY
+                </p>
+
+                <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Exotics</h5>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="850">
+                    USDTRY, USDSGD, USDZAR, EURMXN
                 </p>
 
             </div>
@@ -509,44 +532,60 @@ include_once ('elements/header.php');
         background-color: aliceblue;
         border-radius: 15px;
         border: 0;
-        padding: 3rem;
+        padding: 3rem 2.5rem;
         margin-bottom: 2rem;
     }
 
-    .right-left-height {
-        min-height: 400px;
-    }
 </style>
 
 <div class="container py-5 my-5">
 
     <!-- Title -->
-    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Forex Trading Example</h2>
+    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Key Benefits</h2>
     
     <!-- Responsive Card Layout -->
-    <div class="row g-4 align-items-stretch">
+    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
       <!-- Profit Calculation -->
-      <div class="col-12 col-md-6 " data-aos="fade-up" data-aos-duration="800">
+      <div class="col-12 col-md-6 ">
             <div class="custom-section right-left-height">
-                <h4 class="mb-5 text-start text-gray fw-bold">How Profit is Calculated:</h4>
-                <p><span class="highlight">Opening Price</span><br>50 Stock x $200 = $10,000</p>
+                <h4 class="text-start fw-bold">Diversification</h4>
+                <p class="mb-4">
+                    Expand your portfolio by adding Forex to stocks, commodities and indices.
+                </p>
                 <hr>
-                <p><span class="highlight">Closing Price</span><br>50 Stock x $220 = $11,000</p>
-                <hr>
-                <p><span class="highlight">Gross Profit on Trade</span><br>$1,000</p>
+                <h4 class="mt-4 text-start fw-bold">Efficiency</h4>
+                <p>
+                    Trade continuously five days a week without delays or additional settlement costs.
+                </p>
             </div>
       </div>
       <!-- Opening Position -->
-        <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="800">
+        <div class="col-12 col-md-6">
             <div class="custom-section right-left-height">
-                <h4 class="mb-5 text-start fw-bold">Opening the Position</h4>
+                <h4 class="text-start fw-bold">Advanced Tools</h4>
+                <p class="mb-4">
+                    Access professional features including technical analysis, indicators and automated systems.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Reliable Execution</h4>
                 <p>
-                    You decide to trade <span class="highlight">50 stock</span> of Meta at an opening price of <span class="highlight">$200</span> per share. With Zed Capital's <span class="highlight">10% margin</span>, your required capital is only <span class="highlight">$1,000</span>, allowing you to control a larger position with a smaller deposit. The total value of the position is <span class="highlight">$10,000</span>.
+                    Depend on fast and secure trade processing designed to meet institutional standards.
                 </p>
             </div>
         </div>
     </div>
     
+    <!-- Closing Position (Full width) -->
+    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
+        <div class="col-12">
+            <div class="custom-section text-center">
+                <h4 class="mb-2 fw-bold">Closing the Position</h4>
+                <p class="mb-0">
+                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php
@@ -633,29 +672,22 @@ include_once ('elements/feature-trading-icons.php');
     <div class="container my-5">
         <div class="row custom-card mx-auto">
             <div class="highlight-banner" data-aos="fade-up" data-aos-duration="800" >
-                Transparent Spreads
+                Forex—Trusted, Transparent, Professional 
                 <span class="sub-text">
-                    <strong>Trade with Confidence</strong><br>
-                    At Zed Capital, we pride ourselves on offering tight and transparent spreads, helping you trade major currency pairs at the most competitive rate.
+                    <b>Forex</b> is the cornerstone of modern financial markets, offering liquidity, flexibility and continuous opportunities. With Zed Capital International Ltd, you can trade the world’s largest financial market backed by professional tools, transparent conditions and a trusted partner.
                 </span>
             </div>
             <div class="row g-4" data-aos="fade-up" data-aos-duration="800" >
-                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="card-section-title">Major Currency Pairs</div>
+                <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="800" >
+                    <div class="card-section-title">Risks to Consider</div>
                     <div class="mt-2" style="color:#6c757d;">
-                        The most actively traded currency pairs are known as major pairs and include EUR/USD, USD/JPY, GBP/USD, and USD/CHF. These pairs typically have the highest liquidity and lowest spreads (the difference between buying and selling prices).
+                        Forex trading involves exposure to market volatility. Currency prices are influenced by central bank actions, interest rate changes, economic data and geopolitical events. Leverage enhances potential returns but also magnifies risks.
                     </div>
                 </div>
-                <div class="col-12 col-md-4 divider-col" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="card-section-title">Cross Currency Pairs</div>
-                    <div class="mt-2" style="color:#6c757d;">
-                        These pairs do not involve the US Dollar (USD) and include currencies such as EUR/GBP, AUD/JPY, and GBP/JPY.
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 divider-col" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="card-section-title">Currency Symbols</div>
-                    <div class="mt-2" style="color:#6c757d;">
-                        Each currency is represented by a three-letter code. For instance, USD for US Dollar, EUR for Euro, GBP for British Pound, JPY for Japanese Yen, and so on.
+                <div class="col-12 col-md-6 divider-col" data-aos="fade-up" data-aos-duration="800" >
+                    <div class="card-section-title">&nbsp;</div>
+                    <div class="mt-2 px-2" style="color:#6c757d;">
+                        To help manage exposure effectively, Zed Capital International Ltd offers stop loss, take profit and margin management tools within our trading platform.
                     </div>
                 </div>
             </div>
