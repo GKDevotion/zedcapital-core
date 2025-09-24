@@ -68,10 +68,10 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-6 text-black" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="fw-bold h2 mb-5">What is Metal trading and how does it work?</h2>
+                <h2 class="fw-bold h2 mb-5">Trade Precious and Industrial Metals</h2>
                 <div class="p-1 metal-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-75" data-aos="fade-up" data-aos-delay="800">
-                    Metal, or foreign exchange, refers to the market where currencies are traded against each other.
+                    Metals combine investment value with industrial demand. At Zed Capital International Ltd, trade gold, silver, and key metals with advanced technology, transparent conditions, and the support of a trusted global partner
                 </p>
             </div>
 
@@ -93,7 +93,7 @@ include_once ('elements/header.php');
             </div>
             <div class="col-md-8">
                 <p class="mb-0 small">
-                    Stocks, also known as equities or shares, represent ownership in a company. When you own stock in a company, you own a portion of that company’s assets and earnings proportional to the number of shares you hold.
+                    Our platform allows you to trade metals with competitive pricing, deep liquidity, and professional tools designed for precision and speed.
                 </p>
             </div>
         </div>    
@@ -144,24 +144,40 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800" >
-            <img src="assets/images/metal-benefit.png" class="w-100 ps-5" alt="Regulatory Assurance">
+            <img src="assets/images/metal-benefit.png" class="w-100" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
         <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-section">
-                <h4 class="fw-bold mb-4">With Zed Capital, you benefit from:</h4>
+                <h3 class="fw-bold mb-4">Why Trade Metals with us</h3>
                 
-                <h5># Asset Class</h5>
-                <p class="text-gray">A category of financial instruments with similar characteristics, such as stocks, bonds, or commodities, governed by the same regulatory framework.</p>
+                <h5>Diverse Opportunities</h5>
+                <p class="text-gray">
+                    Access both precious metals such as gold, silver and platinum, and industrial metals such as copper and aluminum.
+                </p>
 
-                <h5># Aussie (Ozzie)</h5>
-                <p class="text-gray">A commonly used term for the AUD/USD currency pair, known for its liquidity and connection to commodity markets.</p>
+                <h5>Safe Haven Advantage</h5>
+                <p class="text-gray">
+                    Gold and silver remain key assets during times of economic uncertainty, offering stability and value protection.
+                </p>
 
-                <h5># Acquisition</h5>
-                <p class="text-gray">The process where one company takes control of another, often as part of a growth or expansion strategy.</p>
+                <h5>Global Demand</h5>
+                <p class="text-gray">
+                    Industrial metals reflect growth in construction, technology and manufacturing sectors.
+                </p>
 
-                <a href="#" class="show-all-btn w-100">
+                <h5>Professional Platform</h5>
+                <p class="text-gray">
+                    Use MT5 for advanced charting, technical analysis and automated trading strategies.
+                </p>
+
+                <h5>Transparent Pricing</h5>
+                <p class="text-gray">
+                    Trade with competitive spreads, fast execution and institutional grade infrastructure.
+                </p>
+
+                <a href="#" class="show-all-btn w-100 d-none">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -267,7 +283,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
-                <img src="assets/images/metal-gold.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -80px 0px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="assets/images/metal-gold.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -100px 0px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card">
@@ -309,7 +325,7 @@ include_once ('elements/header.php');
         <!-- Repeat for other stocks -->
         <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
-                <img src="assets/images/metal-silver.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -80px 0px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="assets/images/metal-silver.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -100px 0px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card">
@@ -351,7 +367,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
-                <img src="assets/images/metal-platinum.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -80px 0px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="assets/images/metal-platinum.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -100px 0px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card" >
@@ -441,19 +457,24 @@ include_once ('elements/header.php');
         <div class="row align-items-center">
             <!-- Text Content -->
             <div class="col-lg-6 col-md-12 mt-5" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="h2 mt-5">How Metal Trading Works with Zed Capital</h2>
+                <h2 class="h2 mt-5">Metals You Can Trade</h2>
 
-                <div class="my-4" style="width: 60px; height: 8px; background: white;"></div>
+                <div class="my-5" style="width: 60px; height: 8px; background: white;"></div>
                 
-                <p class="mb-5">
-                    Precious metals trading involves speculating on the price movements of gold, silver, and platinum without physically owning them. These assets are highly regarded as 'safe-haven' investments, offering stability and diversification during market uncertainty.
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Precious Metals</h3>
+                <h5 class="mb-2 text-white" data-aos="fade-up" data-aos-duration="850">
+                    Gold, Silver, Palladium
+                </h5>
+
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Industrial Metals</h3>
+                <h5 class="mb-2 text-white" data-aos="fade-up" data-aos-duration="850">
+                    Copper, Aluminum, Zinc
+                </h5>
+
+                <p class="text-white mt-5" data-aos="fade-up" data-aos-duration="850">
+                    Trading metals at Zed Capital International Ltd gives you the flexibility to participate in markets that combine investment value with global industrial demand.
                 </p>
-                <p class="mb-4">
-                    <b>Gold (XAUUSD):</b> Trade with leverage of up to 1:1000, aligned with your account's leverage settings.
-                </p>
-                <p class="mb-4">
-                    <b>Silver (XAGUSD) and Platinum (XPTUSD):</b> Trade with leverage up to 1:200 (1/5 of your account's leverage).
-                </p>
+
             </div>
 
             <!-- Floating Icons -->
@@ -463,6 +484,73 @@ include_once ('elements/header.php');
         </div>
     </div>
 </section>
+
+<style>
+    
+    .highlight {
+        font-weight: bold;
+    }
+    
+    .custom-section {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+        background-color: aliceblue;
+        border-radius: 15px;
+        border: 0;
+        padding: 3rem 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+</style>
+
+<div class="container py-5 my-5">
+
+    <!-- Title -->
+    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Metals Trading</h2>
+    
+    <!-- Responsive Card Layout -->
+    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
+        <!-- Profit Calculation -->
+        <div class="col-12 col-md-6 ">
+                <div class="custom-section right-left-height">
+                    <h4 class="text-start fw-bold">Diversification</h4>
+                    <p class="mb-4">
+                        Balance your portfolio with assets that move differently from stocks or currencies.
+                    </p>
+                    <hr>
+                    <h4 class="mt-4 text-start fw-bold">Inflation Hedge</h4>
+                    <p>
+                        Precious metals such as gold often preserve value during inflationary periods.
+                    </p>
+                </div>
+        </div>
+        <!-- Opening Position -->
+        <div class="col-12 col-md-6">
+            <div class="custom-section right-left-height">
+                <h4 class="text-start fw-bold">Liquidity and Speed</h4>
+                <p class="mb-4">
+                    Trade metals with confidence, supported by strong market liquidity and secure infrastructure.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Advanced Tools</h4>
+                <p>
+                    Use indicators, analysis features and automated systems to manage trades effectively.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Closing Position (Full width) -->
+    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
+        <div class="col-12">
+            <div class="custom-section text-center">
+                <h4 class="mb-2 fw-bold">Closing the Position</h4>
+                <p class="mb-0">
+                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 $featureIconArr = [
@@ -560,10 +648,13 @@ include_once ('elements/explore-more-about.php');
         <div class="col-12">
             <div class="info-card" data-aos="fade-up" data-aos-duration="800" >
                 <div class="alert-custom">
-                    How do Dividends work? If you hold an open position from the day before the ex-dividend date, then you will receive the dividend payment on a buy position and be charged on a sell position.
+                    <b>Risks to Consider</b>
+                    <p>
+                        Metals trading involves exposure to price volatility driven by global supply and demand, geopolitical events, and shifts in investor sentiment. While leverage can enhance profit potential, it also increases risk
+                    </p>
                 </div>
                 <p class="info-note">
-                    Please note that these are indicative rates only and are subject to change pending the final executed rate at midnight MT4 Server time. Dividends will be settled in your account balance and you will see the corresponding comment 'CFD Dividend'. We always recommend before trading such assets, that you monitor for any updates relevant to your trades.
+                    Zed Capital International Ltd offers risk management tools including stop loss and take profit orders, allowing clients to manage exposure responsibly.
                 </p>
             </div>
         </div>

@@ -589,21 +589,21 @@ include_once ('elements/header.php');
     
     <!-- Responsive Card Layout -->
     <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
-      <!-- Profit Calculation -->
-      <div class="col-12 col-md-6 ">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Diversification</h4>
-                <p class="mb-4">
-                    Build a portfolio across sectors including technology, energy, finance, healthcare, and consumer goods.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Efficiency</h4>
-                <p>
-                    Trade without custody fees, settlement delays, or ownership complexities.
-                </p>
-            </div>
-      </div>
-      <!-- Opening Position -->
+        <!-- Profit Calculation -->
+        <div class="col-12 col-md-6 ">
+                <div class="custom-section right-left-height">
+                    <h4 class="text-start fw-bold">Diversification</h4>
+                    <p class="mb-4">
+                        Build a portfolio across sectors including technology, energy, finance, healthcare, and consumer goods.
+                    </p>
+                    <hr>
+                    <h4 class="mt-4 text-start fw-bold">Efficiency</h4>
+                    <p>
+                        Trade without custody fees, settlement delays, or ownership complexities.
+                    </p>
+                </div>
+        </div>
+        <!-- Opening Position -->
         <div class="col-12 col-md-6">
             <div class="custom-section right-left-height">
                 <h4 class="text-start fw-bold">Professional Tools</h4>

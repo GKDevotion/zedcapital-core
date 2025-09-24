@@ -157,7 +157,7 @@ include_once ('elements/header.php');
         <!-- Right Side Text -->
         <div class="col-lg-6 col-sm-12 px-5 pe-5">
             <div class="info-section" data-aos="fade-up" data-aos-duration="800">
-                <h4 class="fw-bold mb-4">Why Trade Forex with Zed Capital International Ltd</h4>
+                <h3 class="fw-bold mb-4">Why Trade Forex with us</h3>
                 
                 <h5>Global Market Access</h5>
                 <p>
