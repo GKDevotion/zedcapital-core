@@ -74,10 +74,10 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-6 text-black" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="fw-bold h2 mb-5">What is Stock trading and how does it work?</h2>
+                <h2 class="fw-bold h2 mb-5">Trade Global Commodities with us</h2>
                 <div class="p-1 divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray" data-aos="fade-up" data-aos-delay="800">
-                    Forex, or foreign exchange, refers to the market where currencies are traded against each other.
+                    The global commodities market is among the most vital and actively traded sectors, spanning energy that powers industries to agricultural products sustaining daily life, reflecting the true backbone of the world economy
                 </p>
             </div>
 
@@ -124,9 +124,7 @@ include_once ('elements/header.php');
                 <img src="assets/images/diamonds/best-commodity-red-black-diamonds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 120px; margin: -50px -70px;">
             </div>
             <p class="mb-0 text-muted" data-aos="fade-up" data-aos-duration="800" >
-                Stocks, also known as equities or shares, represent ownership in a company.
-                When you own stock in a company, you own a portion of that company’s assets and earnings
-                proportional to the number of shares you hold.
+                With our advanced trading platform, competitive conditions and institutional grade infrastructure, you can trade commodities across multiple sectors with precision and transparency
             </p>
         </div>
     </div>
@@ -181,18 +179,34 @@ include_once ('elements/header.php');
         <!-- Right Side Text -->
         <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-section" data-aos="fade-up" data-aos-duration="800" >
-                <h4 class="fw-bold mb-4">With Zed Capital, you benefit from:</h4>
+                <h3 class="fw-bold mb-4">Why Trade Commodities with us</h3>
                 
-                <h5># Asset Class</h5>
-                <p>A category of financial instruments with similar characteristics, such as stocks, bonds, or commodities, governed by the same regulatory framework.</p>
+                <h5>Diverse Market Access</h5>
+                <p>
+                    Trade energies and agricultural products from a single platform.
+                </p>
 
-                <h5># Aussie (Ozzie)</h5>
-                <p>A commonly used term for the AUD/USD currency pair, known for its liquidity and connection to commodity markets.</p>
+                <h5>Global Demand</h5>
+                <p>
+                    Commodities are essential to economies and households around the world.
+                </p>
 
-                <h5># Acquisition</h5>
-                <p>The process where one company takes control of another, often as part of a growth or expansion strategy.</p>
+                <h5>Two Way Opportunities</h5>
+                <p>
+                    Benefit from trading both rising and falling prices across global markets.
+                </p>
 
-                <a href="#" class="show-all-btn w-100">
+                <h5>Professional Platform</h5>
+                <p>
+                    Use MT5 for seamless execution, advanced charting and automated strategies.
+                </p>
+
+                <h5>Transparent Conditions</h5>
+                <p>
+                    Experience competitive spreads, deep liquidity and reliable pricing.
+                </p>
+
+                <a href="#" class="show-all-btn w-100 d-none">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -437,13 +451,21 @@ include_once ('elements/header.php');
         <div class="row align-items-center">
             <!-- Text Content -->
             <div class="col-lg-7 col-md-12" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="h2 mt-3" data-aos="fade-up" data-aos-duration="800" >How Energies Trading Works with Zed Capital</h2>
+                <h2 class="h2 mt-3" data-aos="fade-up" data-aos-duration="800" >Commodities You Can Trade</h2>
                 <div class="my-5 etw-divider"></div>
-                <p class="fw-bold mt-4">
-                    Without owning the physical product, energy trading lets you speculate on price movements in major energy markets, such as crude oil. These markets are crucial for global economies, offering traders opportunities to profit from supply and demand dynamics.
-                </p>
-                <p class="">
-                    One key advantage of trading energies with Zed Capital is the flexibility to trade CFDs, enabling you to benefit from rising and falling markets. With leverage up to 1:200, you can control larger positions with a smaller initial deposit.
+                
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Energies</h3>
+                <h5 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="850">
+                    Crude Oil, Brent Oil, Natural Gas
+                </h5>
+
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Agricultural Products</h3>
+                <h5 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="850">
+                    Coffee, Cocoa, Wheat, Corn, Soybeans, cotton, Sugar ,Wheat
+                </h5>
+
+                <p class="mt-5">
+                    Trading commodities with Zed Capital International Ltd gives you access to markets that directly reflect global growth, demand and supply shifts.
                 </p>
             </div>
 
@@ -454,6 +476,73 @@ include_once ('elements/header.php');
         </div>
     </div>
 </section>
+
+<style>
+    
+    .highlight {
+        font-weight: bold;
+    }
+    
+    .custom-section {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+        background-color: aliceblue;
+        border-radius: 15px;
+        border: 0;
+        padding: 3rem 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+</style>
+
+<div class="container py-5 my-5">
+
+    <!-- Title -->
+    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Commodities Trading</h2>
+    
+    <!-- Responsive Card Layout -->
+    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
+      <!-- Profit Calculation -->
+      <div class="col-12 col-md-6 ">
+            <div class="custom-section right-left-height">
+                <h4 class="text-start fw-bold">Diversification</h4>
+                <p class="mb-4">
+                    Commodities often move independently of stocks and currencies, reducing portfolio risk.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Hedge Against Inflation</h4>
+                <p>
+                    Assets like oil and agricultural goods can help preserve value during economic shifts.
+                </p>
+            </div>
+      </div>
+      <!-- Opening Position -->
+        <div class="col-12 col-md-6">
+            <div class="custom-section right-left-height">
+                <h4 class="text-start fw-bold">Liquidity and Speed</h4>
+                <p class="mb-4">
+                    Trade confidently with fast execution and reliable infrastructure.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Advanced Tools</h4>
+                <p>
+                    Access professional indicators, market analysis and automated trading features.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Closing Position (Full width) -->
+    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
+        <div class="col-12">
+            <div class="custom-section text-center">
+                <h4 class="mb-2 fw-bold">Closing the Position</h4>
+                <p class="mb-0">
+                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 $featureIconArr = [
@@ -530,7 +619,7 @@ include_once ('elements/explore-more-about.php');
         box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
     .alert-custom {
-        background: #000;
+        background: var(--zed-primary);
         color: #fff;
         font-weight: 600;
         font-size: 1.05rem;
@@ -552,10 +641,13 @@ include_once ('elements/explore-more-about.php');
         <div class="col-12" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-card">
                 <div class="alert-custom" data-aos="fade-up" data-aos-duration="800" >
-                    How do Dividends work? If you hold an open position from the day before the ex-dividend date, then you will receive the dividend payment on a buy position and be charged on a sell position.
+                    <b>Risks to Consider</b>
+                    <p>
+                        Commodities are influenced by global supply and demand, geopolitical events, weather conditions and economic developments. Price swings can be sharp and unpredictable. Leverage increases market exposure but also magnifies potential losses.
+                    </p>
                 </div>
                 <p class="info-note" data-aos="fade-up" data-aos-duration="800" >
-                    Please note that these are indicative rates only and are subject to change pending the final executed rate at midnight MT4 Server time. Dividends will be settled in your account balance and you will see the corresponding comment 'CFD Dividend'. We always recommend before trading such assets, that you monitor for any updates relevant to your trades.
+                    To support clients, Zed Capital International Ltd provides risk management features such as stop loss and take profit orders, helping you trade responsibly.
                 </p>
             </div>
         </div>

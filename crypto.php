@@ -122,11 +122,11 @@ include_once ('elements/header.php');
             <!-- Text Column -->
             <div class="col-md-6 text-black" data-aos="fade-up" data-aos-duration="800" >
                 <h2 class="fw-bold h2 mb-5">
-                    What is Crypto trading and how does it work?
+                    Trade the Future of Digital Assets with Zed Capital International Ltd
                 </h2>
                 <div class="p-1 crypto-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray" data-aos="fade-up" data-aos-delay="800">
-                    Cypto, or foreign exchange, refers to the market where currencies are traded against each other. It's the largest financial market globally, with trillions of dollars worth of transactions happening daily
+                    Cryptocurrencies are transforming modern finance, reshaping money, investment, and technology. A fast-growing, innovative market, they offer traders worldwide new opportunities and access to one of the most exciting financial frontiers.
                 </p>
             </div>
 
@@ -148,8 +148,7 @@ include_once ('elements/header.php');
 
             <!-- Right Text -->
             <div class="col-md-9 text-muted">
-                Stocks, also known as equities or shares, represent ownership in a company. When you own stock in a company,
-                you own a portion of that company’s assets and earnings proportional to the number of shares you hold.
+                Our platform allows you to trade leading digital assets with competitive pricing, advanced tools, and reliable execution, giving you the flexibility to capture opportunities in both rising and falling markets.
             </div>
         </div>
     </div>
@@ -206,18 +205,34 @@ include_once ('elements/header.php');
         <!-- Right Side Text -->
         <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-section">
-                <h4 class="fw-bold mb-4" data-aos="fade-up" data-aos-duration="800" >With Zed Capital, you benefit from:</h4>
+                <h3 class="fw-bold mb-4" data-aos="fade-up" data-aos-duration="800" >Why Trade Crypto with us</h3>
                 
-                <h5># Asset Class</h5>
-                <p>A category of financial instruments with similar characteristics, such as stocks, bonds, or commodities, governed by the same regulatory framework.</p>
+                <h5>Wide Market Access</h5>
+                <p>
+                    Trade major digital currencies including Bitcoin, Ethereum, Litecoin and Ripple.
+                </p>
 
-                <h5># Aussie (Ozzie)</h5>
-                <p>A commonly used term for the AUD/USD currency pair, known for its liquidity and connection to commodity markets.</p>
+                <h5>High Volatility, High Potential</h5>
+                <p>
+                    Cryptocurrencies are known for sharp movements, creating trading opportunities across all timeframes.
+                </p>
 
-                <h5># Acquisition</h5>
-                <p>The process where one company takes control of another, often as part of a growth or expansion strategy.</p>
+                <h5>Two Way Flexibility</h5>
+                <p>
+                    Go long or short to take advantage of market direction.
+                </p>
 
-                <a href="#" class="show-all-btn w-100">
+                <h5>Professional Technology</h5>
+                <p>
+                    Use our MT5 platform for advanced charting, technical indicators and automated strategies.
+                </p>
+
+                <h5>Transparent Trading</h5>
+                <p>
+                    Enjoy fair pricing, competitive spreads and secure infrastructure.
+                </p>
+
+                <a href="#" class="show-all-btn w-100 d-none">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -494,11 +509,11 @@ include_once ('elements/header.php');
 <style>
     .crypto-currency {
         color: white;
-        /* position: relative; */
+        position: relative;
         background-image: url('assets/images/background/crypto-currency-trading-background.png');
-        background-size: contain;
+        background-size: cover;
         background-position: center;
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
     }
     
     .crypto-currency .icons img {
@@ -534,17 +549,23 @@ include_once ('elements/header.php');
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800" >
             <!-- Text Content -->
             <div class="col-lg-8 col-md-12 my-4" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="h2 mt-5" data-aos="fade-up" data-aos-duration="800" >How Cryptocurrency Trading Works with Zed Capital</h2>
+                <h2 class="h2 mt-5" data-aos="fade-up" data-aos-duration="800" >Cryptocurrencies You Can Trade</h2>
                 <div class="my-5" style="width: 40px; height: 8px; background: white;"></div>
-                <p class="fw-bold">
-                    Cryptocurrency trading involves speculating on price movements of digital currencies like Bitcoin and Ethereum without owning the assets. Zed Capital allows you to trade on margin, providing greater flexibility and accessibility for all traders.
+                
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Major Coins</h3>
+                <h5 class="mb-2 text-white" data-aos="fade-up" data-aos-duration="850">
+                    Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Ripple (XRP)
+                </h5>
+
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Popular Altcoins</h3>
+                <h5 class="mb-2 text-white" data-aos="fade-up" data-aos-duration="850">
+                    Cardano (ADA), Polkadot (DOT), Solana (SOL), Dogecoin (DOGE)
+                </h5>
+
+                <p class="text-white mt-5" data-aos="fade-up" data-aos-duration="850">
+                    With Zed Capital International Ltd, you gain exposure to digital assets that are driving the future of finance and innovation.
                 </p>
-                <p class="">
-                    One key advantage of crypto trading is the opportunity to profit from volatility, with rapid price movements offering significant profit potential. Zed Capital powerful MetaTrader 4 (MT4) and MetaTrader 5 (MT5) platforms allow you to automate strategies, analyze markets, and trade faster and more efficiently.
-                </p>
-                <p class="">
-                    At Zed Capital, you can trade with the protection of ASIC and VFSC regulations, ensuring a secure trading environment. While the fast-paced nature of crypto markets presents opportunities, it also carries risks, so managing your trades responsibly is essential.
-                </p>
+                
             </div>
 
             <!-- Floating Icons -->
@@ -554,6 +575,73 @@ include_once ('elements/header.php');
         </div>
     </div>
 </section>
+
+<style>
+    
+    .highlight {
+        font-weight: bold;
+    }
+    
+    .custom-section {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+        background-color: aliceblue;
+        border-radius: 15px;
+        border: 0;
+        padding: 3rem 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+</style>
+
+<div class="container py-5 my-5">
+
+    <!-- Title -->
+    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Crypto Trading</h2>
+    
+    <!-- Responsive Card Layout -->
+    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
+      <!-- Profit Calculation -->
+      <div class="col-12 col-md-6 ">
+            <div class="custom-section right-left-height">
+                <h4 class="text-start fw-bold">Diversification</h4>
+                <p class="mb-4">
+                    Add digital assets to your portfolio alongside traditional markets like stocks, forex and commodities.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Around the Clock Access</h4>
+                <p>
+                    Cryptocurrencies trade twenty-four hours a day, seven days a week.
+                </p>
+            </div>
+      </div>
+      <!-- Opening Position -->
+        <div class="col-12 col-md-6">
+            <div class="custom-section right-left-height">
+                <h4 class="text-start fw-bold">Innovation and Growth</h4>
+                <p class="mb-4">
+                    Participate in a market that reflects global adoption of blockchain technology.
+                </p>
+                <hr>
+                <h4 class="mt-4 text-start fw-bold">Advanced Tools</h4>
+                <p>
+                    Analyze, automate and execute with precision using professional trading features.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Closing Position (Full width) -->
+    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
+        <div class="col-12">
+            <div class="custom-section text-center">
+                <h4 class="mb-2 fw-bold">Closing the Position</h4>
+                <p class="mb-0">
+                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 $featureIconArr = [
@@ -634,30 +722,14 @@ include_once ('elements/feature-trading-icons.php');
 <div class="container py-5">
     <div class="row custom-card mx-auto" data-aos="fade-up" data-aos-duration="800" >
         <div class="highlight-banner">
-            Transparent Spreads
+            Risks to Consider
             <span class="sub-text" data-aos="fade-up" data-aos-duration="800" >
-                <strong>Trade with Confidence</strong><br>
-                At Zed Capital, we pride ourselves on offering tight and transparent spreads, helping you trade major currency pairs at the most competitive rate.
+                Cryptocurrency trading carries higher volatility than most traditional markets. Prices are influenced by global adoption, regulation, technological changes and investor sentiment. Leverage can magnify potential returns but also increases risk.
             </span>
         </div>
         <div class="row g-4" data-aos="fade-up" data-aos-duration="800" >
-            <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="800" >
-                <div class="card-section-title">Major Currency Pairs</div>
-                <div class="mt-2" style="color:#6c757d;">
-                    The most actively traded currency pairs are known as major pairs and include EUR/USD, USD/JPY, GBP/USD, and USD/CHF. These pairs typically have the highest liquidity and lowest spreads (the difference between buying and selling prices).
-                </div>
-            </div>
-            <div class="col-12 col-md-4 divider-col" data-aos="fade-up" data-aos-duration="800" >
-                <div class="card-section-title">Cross Currency Pairs</div>
-                <div class="mt-2" style="color:#6c757d;">
-                    These pairs do not involve the US Dollar (USD) and include currencies such as EUR/GBP, AUD/JPY, and GBP/JPY.
-                </div>
-            </div>
-            <div class="col-12 col-md-4 divider-col" data-aos="fade-up" data-aos-duration="800" >
-                <div class="card-section-title">Currency Symbols</div>
-                <div class="mt-2" style="color:#6c757d;">
-                    Each currency is represented by a three-letter code. For instance, USD for US Dollar, EUR for Euro, GBP for British Pound, JPY for Japanese Yen, and so on.
-                </div>
+            <div class="col-12" data-aos="fade-up" data-aos-duration="800" >
+                To help clients trade responsibly, Zed Capital International Ltd provides risk management features such as stop loss and take profit orders.
             </div>
         </div>
     </div>
