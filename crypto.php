@@ -122,7 +122,7 @@ include_once ('elements/header.php');
             <!-- Text Column -->
             <div class="col-md-6 text-black" data-aos="fade-up" data-aos-duration="800" >
                 <h2 class="fw-bold h2 mb-5">
-                    Trade the Future of Digital Assets with Zed Capital International Ltd
+                    Trade the Future of <br>Digital Assets
                 </h2>
                 <div class="p-1 crypto-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray" data-aos="fade-up" data-aos-delay="800">
@@ -326,7 +326,7 @@ include_once ('elements/header.php');
                             EURUSD
                         </span>
                     </h5>
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
                             <div class="text-danger fw-bold">1.15959</div>
@@ -343,13 +343,12 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-
-                    <div class="mb-3">
+                    <div class="my-5">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
 
-                    <div class="d-flex justify-content-around gap-2">
+                    <div class="d-flex justify-content-around gap-2 mt-4">
                         <button class="btn btn-buy px-4">Buy</button>
                         <button class="btn btn-sell px-4">Sell</button>
                     </div>
@@ -364,7 +363,7 @@ include_once ('elements/header.php');
                             USDJYP
                         </span>
                     </h5>
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
                             <div class="text-success fw-bold">1.15959</div>
@@ -381,11 +380,11 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="mb-3">
+                    <div class="my-5">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around gap-2">
+                    <div class="d-flex justify-content-around gap-2 mt-4">
                         <button class="btn btn-buy px-4">Buy</button>
                         <button class="btn btn-sell px-4">Sell</button>
                     </div>
@@ -400,7 +399,7 @@ include_once ('elements/header.php');
                             GBPUSD
                         </span>
                     </h5>
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
                             <div class="text-danger fw-bold">1.15959</div>
@@ -417,11 +416,11 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="mb-3">
+                    <div class="my-5">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around gap-2">
+                    <div class="d-flex justify-content-around gap-2 mt-4">
                         <button class="btn btn-buy px-4">Buy</button>
                         <button class="btn btn-sell px-4">Sell</button>
                     </div>
@@ -436,7 +435,7 @@ include_once ('elements/header.php');
                             AUDUSD
                         </span>
                     </h5>
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
                             <div class="text-success fw-bold">1.15959</div>
@@ -453,11 +452,11 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="mb-3">
+                    <div class="my-5">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around gap-2">
+                    <div class="d-flex justify-content-around gap-2 mt-4">
                         <button class="btn btn-buy px-4">Buy</button>
                         <button class="btn btn-sell px-4">Sell</button>
                     </div>
@@ -472,7 +471,7 @@ include_once ('elements/header.php');
                             USDCAD
                         </span>
                     </h5>
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
                             <div class="text-danger fw-bold">1.15959</div>
@@ -489,11 +488,11 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="mb-3">
+                    <div class="my-5">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around gap-2">
+                    <div class="d-flex justify-content-around gap-2 mt-4">
                         <button class="btn btn-buy px-4">Buy</button>
                         <button class="btn btn-sell px-4">Sell</button>
                     </div>
@@ -557,7 +556,7 @@ include_once ('elements/header.php');
                     Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Ripple (XRP)
                 </h5>
 
-                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Popular Altcoins</h3>
+                <h3 class="fw-bold mt-3" data-aos="fade-up" data-aos-duration="850">Popular Altcoins</h3>
                 <h5 class="mb-2 text-white" data-aos="fade-up" data-aos-duration="850">
                     Cardano (ADA), Polkadot (DOT), Solana (SOL), Dogecoin (DOGE)
                 </h5>
@@ -577,71 +576,103 @@ include_once ('elements/header.php');
 </section>
 
 <style>
-    
-    .highlight {
-        font-weight: bold;
-    }
-    
-    .custom-section {
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-        background-color: aliceblue;
-        border-radius: 15px;
-        border: 0;
-        padding: 3rem 2.5rem;
-        margin-bottom: 2rem;
+
+    .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
     }
 
+    .risks-considerations{
+        padding: 50px 0;
+    }
+    .tech-feature {
+        padding: 40px 50px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle img{
+        width: 40px;
+    }
+    
 </style>
 
-<div class="container py-5 my-5">
+<section class="opportunities-for-investors">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Benefits of Crypto Trading</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Diversified-Access.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Diversified Access</h5>
+                        <p class="mb-0 small-muted">
+                            Add digital assets to your portfolio alongside traditional markets like stocks, forex and commodities.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Title -->
-    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Crypto Trading</h2>
-    
-    <!-- Responsive Card Layout -->
-    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
-      <!-- Profit Calculation -->
-      <div class="col-12 col-md-6 ">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Diversification</h4>
-                <p class="mb-4">
-                    Add digital assets to your portfolio alongside traditional markets like stocks, forex and commodities.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Around the Clock Access</h4>
-                <p>
-                    Cryptocurrencies trade twenty-four hours a day, seven days a week.
-                </p>
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/growth.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Innovation and Growth</h5>
+                        <p class="mb-0 small-muted">
+                            Participate in a market that reflects global adoption of blockchain technology.
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-      </div>
-      <!-- Opening Position -->
-        <div class="col-12 col-md-6">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Innovation and Growth</h4>
-                <p class="mb-4">
-                    Participate in a market that reflects global adoption of blockchain technology.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Advanced Tools</h4>
-                <p>
-                    Analyze, automate and execute with precision using professional trading features.
-                </p>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/clock.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Around the Clock Access</h5>
+                        <p class="mb-0 small-muted">
+                            Cryptocurrencies trade twenty-four hours a day, seven days a week.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Advaced-Tools.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Advanced Tools</h5>
+                        <p class="mb-0 small-muted">
+                            Analyze, automate and execute with precision using professional trading features.
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
-    <!-- Closing Position (Full width) -->
-    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
-        <div class="col-12">
-            <div class="custom-section text-center">
-                <h4 class="mb-2 fw-bold">Closing the Position</h4>
-                <p class="mb-0">
-                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 
 <?php
 $featureIconArr = [
@@ -675,61 +706,47 @@ include_once ('elements/feature-trading-icons.php');
 ?>
 
 <style>
-    body {
-        background: #fafafa;
-    }
-    .custom-card {
-        border: 1.5px solid #efefef;
+    .info-card {
+        border: 1.5px solid #e5e5e5;
         border-radius: 1rem;
         background: #fff;
-        padding: 2.4rem 2rem;
-        box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+        padding: 2rem 1.5rem;
+        margin-top: 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
-    .highlight-banner {
+    .alert-custom {
         background: #ea4335;
-        border-radius: 0.8rem;
-        padding: 1.2rem 1.8rem;
         color: #fff;
-        font-weight: 700;
-        font-size: 1.45rem;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
+        font-weight: 600;
+        font-size: 1.05rem;
+        line-height: 1.5;
+        border-radius: 0.75rem;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.8rem;
     }
-
-    .highlight-banner .sub-text {
-        font-size: 1rem;
-        font-weight: 400;
-        margin-left: 1.5rem;
-        margin-top: 0.20rem;
-    }
-    .card-section-title {
-        font-weight: 700;
-        font-size: 1.07rem;
-        color: #222;
-    }
-    .divider-col {
-        border-left: 1px solid #dedede;
-    }
-    @media (max-width: 991px) {
-        .custom-card { padding: 1.5rem 0.7rem; }
-        .highlight-banner { flex-direction: column; font-size: 1.15rem; }
-        .highlight-banner .sub-text { margin: 0.6rem 0 0 0;}
-        .divider-col { border-left: none; border-top: 1px solid #dedede; margin-top: 1rem; }
+    .info-note {
+        color: #757575;
+        font-size: 1.01rem;
+        line-height: 1.7;
+        margin: 0;
     }
 </style>
 
-<div class="container py-5">
-    <div class="row custom-card mx-auto" data-aos="fade-up" data-aos-duration="800" >
-        <div class="highlight-banner">
-            Risks to Consider
-            <span class="sub-text" data-aos="fade-up" data-aos-duration="800" >
-                Cryptocurrency trading carries higher volatility than most traditional markets. Prices are influenced by global adoption, regulation, technological changes and investor sentiment. Leverage can magnify potential returns but also increases risk.
-            </span>
-        </div>
-        <div class="row g-4" data-aos="fade-up" data-aos-duration="800" >
-            <div class="col-12" data-aos="fade-up" data-aos-duration="800" >
-                To help clients trade responsibly, Zed Capital International Ltd provides risk management features such as stop loss and take profit orders.
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="info-card">
+                <div class="alert-custom" data-aos="fade-up" data-aos-duration="800" >
+                    <p class="" data-aos="fade-up" data-aos-duration="800" >
+                        To help clients trade responsibly, Zed Capital International Ltd provides risk management features such as stop loss and take profit orders.
+                    </p>
+                </div>
+                <b class="mt-2 mx-3" data-aos="fade-up" data-aos-duration="800">
+                    Risks to Consider
+                </b>
+                <p class="mt-2 mx-3" data-aos="fade-up" data-aos-duration="800">
+                    Cryptocurrency trading carries higher volatility than most traditional markets. Prices are influenced by global adoption, regulation, technological changes and investor sentiment. Leverage can magnify potential returns but also increases risk.
+                </p>
             </div>
         </div>
     </div>

@@ -197,6 +197,7 @@ include_once ('elements/header.php');
         padding: 20px;
         text-align: center;
         background-color: aliceblue;
+        margin: 20px;
     }
     .btn-buy {
         background-color: var(--zed-success);
@@ -283,7 +284,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
-                <img src="assets/images/metal-gold.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -100px 0px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="assets/images/metal-gold.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card">
@@ -295,7 +296,7 @@ include_once ('elements/header.php');
                     
                     <div class="d-flex justify-content-between px-5">
                         <div>
-                            <p class="mb-0 fs-5">Bid</p>
+                            <p class="mb-0 fs-6">Bid</p>
                             <div class="text-success fw-bold">1.15959</div>
                         </div>
                         <div>
@@ -310,11 +311,11 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="mb-3">
-                        <p class="mb-0 fs-5">Leverage</p> 
-                        <div class="fw-bold mt-2 fs-5">Up to 1:500</div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around px-3">
+                    <div class="d-flex justify-content-around px-3 mb-3">
                         <button class="btn btn-buy">Buy</button>
                         <button class="btn btn-sell">Sell</button>
                     </div>
@@ -325,7 +326,7 @@ include_once ('elements/header.php');
         <!-- Repeat for other stocks -->
         <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
-                <img src="assets/images/metal-silver.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -100px 0px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="assets/images/metal-silver.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card">
@@ -337,7 +338,7 @@ include_once ('elements/header.php');
                     
                     <div class="d-flex justify-content-between px-5">
                         <div>
-                            <p class="mb-0 fs-5">Bid</p>
+                            <p class="mb-0 fs-6">Bid</p>
                             <div class="text-danger fw-bold">1.15959</div>
                         </div>
                         <div>
@@ -352,11 +353,11 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="mb-3">
-                        <p class="mb-0 fs-5">Leverage</p> 
-                        <div class="fw-bold mt-2 fs-5">Up to 1:500</div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around px-3">
+                    <div class="d-flex justify-content-around px-3 mb-3">
                         <button class="btn btn-buy">Buy</button>
                         <button class="btn btn-sell">Sell</button>
                     </div>
@@ -367,7 +368,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
-                <img src="assets/images/metal-platinum.png" alt="Corner Image" class="position-absolute" style="width: 100%; margin: -100px 0px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="assets/images/metal-platinum.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card" >
@@ -379,7 +380,7 @@ include_once ('elements/header.php');
                     
                     <div class="d-flex justify-content-between px-5">
                         <div>
-                            <p class="mb-0 fs-5">Bid</p>
+                            <p class="mb-0 fs-6">Bid</p>
                             <div class="text-danger fw-bold">1.15959</div>
                         </div>
                         <div>
@@ -394,11 +395,11 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="mb-3">
-                        <p class="mb-0 fs-5">Leverage</p> 
-                        <div class="fw-bold mt-2 fs-5">Up to 1:500</div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around px-3">
+                    <div class="d-flex justify-content-around px-3 mb-3">
                         <button class="btn btn-buy">Buy</button>
                         <button class="btn btn-sell">Sell</button>
                     </div>
@@ -486,71 +487,103 @@ include_once ('elements/header.php');
 </section>
 
 <style>
-    
-    .highlight {
-        font-weight: bold;
-    }
-    
-    .custom-section {
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-        background-color: aliceblue;
-        border-radius: 15px;
-        border: 0;
-        padding: 3rem 2.5rem;
-        margin-bottom: 2rem;
+
+    .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
     }
 
+    .risks-considerations{
+        padding: 50px 0;
+    }
+    .tech-feature {
+        padding: 40px 50px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle img{
+        width: 40px;
+    }
+    
 </style>
 
-<div class="container py-5 my-5">
-
-    <!-- Title -->
-    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Metals Trading</h2>
-    
-    <!-- Responsive Card Layout -->
-    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
-        <!-- Profit Calculation -->
-        <div class="col-12 col-md-6 ">
-                <div class="custom-section right-left-height">
-                    <h4 class="text-start fw-bold">Diversification</h4>
-                    <p class="mb-4">
-                        Balance your portfolio with assets that move differently from stocks or currencies.
-                    </p>
-                    <hr>
-                    <h4 class="mt-4 text-start fw-bold">Inflation Hedge</h4>
-                    <p>
-                        Precious metals such as gold often preserve value during inflationary periods.
-                    </p>
+<section class="opportunities-for-investors">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Benefits of Metals Trading</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Diversified-Access.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Diversified Access</h5>
+                        <p class="mb-0 small-muted">
+                            Balance your portfolio with assets that move differently from stocks or currencies.
+                        </p>
+                        </div>
+                    </div>
                 </div>
-        </div>
-        <!-- Opening Position -->
-        <div class="col-12 col-md-6">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Liquidity and Speed</h4>
-                <p class="mb-4">
-                    Trade metals with confidence, supported by strong market liquidity and secure infrastructure.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Advanced Tools</h4>
-                <p>
-                    Use indicators, analysis features and automated systems to manage trades effectively.
-                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/liquidity.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Liquidity and Speed</h5>
+                        <p class="mb-0 small-muted">
+                            Trade metals with confidence, supported by strong market liquidity and secure infrastructure.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/inflation.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Inflation Hedge</h5>
+                        <p class="mb-0 small-muted">
+                            Precious metals such as gold often preserve value during inflationary periods.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Advaced-Tools.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Advanced Tools</h5>
+                        <p class="mb-0 small-muted">
+                            Use indicators, analysis features and automated systems to manage trades effectively.
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
-    <!-- Closing Position (Full width) -->
-    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
-        <div class="col-12">
-            <div class="custom-section text-center">
-                <h4 class="mb-2 fw-bold">Closing the Position</h4>
-                <p class="mb-0">
-                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 
 <?php
 $featureIconArr = [
@@ -648,13 +681,14 @@ include_once ('elements/explore-more-about.php');
         <div class="col-12">
             <div class="info-card" data-aos="fade-up" data-aos-duration="800" >
                 <div class="alert-custom">
-                    <b>Risks to Consider</b>
-                    <p>
-                        Metals trading involves exposure to price volatility driven by global supply and demand, geopolitical events, and shifts in investor sentiment. While leverage can enhance profit potential, it also increases risk
+                    <p class="">
+                        Zed Capital International Ltd offers risk management tools including stop loss and take profit orders, allowing clients to manage exposure responsibly.
                     </p>
                 </div>
-                <p class="info-note">
-                    Zed Capital International Ltd offers risk management tools including stop loss and take profit orders, allowing clients to manage exposure responsibly.
+
+                <b class="mt-2 mx-3">Risks to Consider</b>
+                <p class="mt-2 mx-3" data-aos="fade-up" data-aos-duration="800">
+                    Metals trading involves exposure to price volatility driven by global supply and demand, geopolitical events, and shifts in investor sentiment. While leverage can enhance profit potential, it also increases risk
                 </p>
             </div>
         </div>

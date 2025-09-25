@@ -74,7 +74,7 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-6 text-black" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="fw-bold h2 mb-5">Trade Global Commodities with us</h2>
+                <h2 class="fw-bold h2 mb-5">Trade Global Commodities</h2>
                 <div class="p-1 divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray" data-aos="fade-up" data-aos-delay="800">
                     The global commodities market is among the most vital and actively traded sectors, spanning energy that powers industries to agricultural products sustaining daily life, reflecting the true backbone of the world economy
@@ -107,7 +107,7 @@ include_once ('elements/header.php');
         
         <!-- Left angled title -->
         <div class="col-md-5" data-aos="fade-up" data-aos-duration="800" >
-            <div class="angled-left d-flex align-items-center justify-content-center text-center">
+            <div class="angled-left d-flex align-items-center justify-content-center">
                 <div>
                     <h4 class="fw-bold mb-0">Basics of<br>Commodities</h4>
                 </div>
@@ -286,7 +286,7 @@ include_once ('elements/header.php');
         margin: 0 0.5rem;
     }
 
-    .metal-spread, .metal-leverage {
+    .metal-spread d-none, .metal-leverage {
         font-size: 0.98rem;
         color: #d2232a;
         font-weight: 600;
@@ -346,15 +346,25 @@ include_once ('elements/header.php');
                 <img src="assets/images/brent-oil.png" class="w-75" alt="Brent Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title text-green">Brent Crude Oil</div>
                 <div class="market-title fw-bold">XBRUSD</div>
-                <div>
-                    <span class="metal-label">Bid</span>
-                    <span class="metal-stats metal-stats-bid">1.15959</span>
-                    <span class="metal-label">Ask</span>
-                    <span class="metal-stats metal-stats-ask">1.15963</span>
+                <div class="d-flex justify-content-between px-5">
+                    <div>
+                        <p class="mb-0 fs-6">Bid</p>
+                        <div class="text-success fw-bold">1.15959</div>
+                    </div>
+                    <div>
+                        <p class="mb-0 fs-5">Ask</p>
+                        <div class="text-danger fw-bold">1.15963</div>
+                    </div>
                 </div>
-                <div class="metal-spread">Spread <span>0</span></div>
-                <div class="metal-leverage">Leverage <span>Up to 1:1000</span></div>
-                <div class="mt-3">
+                <div class="my-2 d-none">
+                    <small>Spread</small> 
+                    <div class="fw-bold">0</div>
+                </div>
+                <div class="my-4">
+                    <small>Leverage</small> 
+                    <div class="fw-bold">Up to 1:500</div>
+                </div>
+                <div class="mt-3 mb-3">
                     <button class="btn btn-buy">Buy</button>
                     <button class="btn btn-sell">Sell</button>
                 </div>
@@ -367,15 +377,25 @@ include_once ('elements/header.php');
                 <img src="assets/images/wti-oil.png" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">WTI Crude Oil</div>
                 <div class="market-title fw-bold">XTIUSD</div>
-                <div>
-                    <span class="metal-label">Bid</span>
-                    <span class="metal-stats metal-stats-bid">1.15959</span>
-                    <span class="metal-label">Ask</span>
-                    <span class="metal-stats metal-stats-ask">1.15963</span>
+                <div class="d-flex justify-content-between px-5">
+                    <div>
+                        <p class="mb-0 fs-6">Bid</p>
+                        <div class="text-success fw-bold">1.15959</div>
+                    </div>
+                    <div>
+                        <p class="mb-0 fs-5">Ask</p>
+                        <div class="text-danger fw-bold">1.15963</div>
+                    </div>
                 </div>
-                <div class="metal-spread">Spread <span>0</span></div>
-                <div class="metal-leverage">Leverage <span>Up to 1:1000</span></div>
-                <div class="mt-3">
+                <div class="my-2 d-none">
+                    <small>Spread</small> 
+                    <div class="fw-bold">0</div>
+                </div>
+                <div class="my-4">
+                    <small>Leverage</small> 
+                    <div class="fw-bold">Up to 1:500</div>
+                </div>
+                <div class="mt-3 mb-3">
                     <button class="btn btn-buy">Buy</button>
                     <button class="btn btn-sell">Sell</button>
                 </div>
@@ -388,15 +408,25 @@ include_once ('elements/header.php');
                 <img src="assets/images/natural-gas.png" class="w-75" alt="natural Gas" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">Natural Gas</div>
                 <div class="market-title fw-bold">XYIUSD</div>
-                <div>
-                    <span class="metal-label">Bid</span>
-                    <span class="metal-stats metal-stats-bid">1.15959</span>
-                    <span class="metal-label">Ask</span>
-                    <span class="metal-stats metal-stats-ask">1.15963</span>
+                <div class="d-flex justify-content-between px-5">
+                    <div>
+                        <p class="mb-0 fs-6">Bid</p>
+                        <div class="text-success fw-bold">1.15959</div>
+                    </div>
+                    <div>
+                        <p class="mb-0 fs-5">Ask</p>
+                        <div class="text-danger fw-bold">1.15963</div>
+                    </div>
                 </div>
-                <div class="metal-spread">Spread <span>0</span></div>
-                <div class="metal-leverage">Leverage <span>Up to 1:1000</span></div>
-                <div class="mt-3">
+                <div class="my-2 d-none">
+                    <small>Spread</small> 
+                    <div class="fw-bold">0</div>
+                </div>
+                <div class="my-4">
+                    <small>Leverage</small> 
+                    <div class="fw-bold">Up to 1:500</div>
+                </div>
+                <div class="mt-3 mb-3">
                     <button class="btn btn-buy">Buy</button>
                     <button class="btn btn-sell">Sell</button>
                 </div>
@@ -478,71 +508,103 @@ include_once ('elements/header.php');
 </section>
 
 <style>
-    
-    .highlight {
-        font-weight: bold;
-    }
-    
-    .custom-section {
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-        background-color: aliceblue;
-        border-radius: 15px;
-        border: 0;
-        padding: 3rem 2.5rem;
-        margin-bottom: 2rem;
+
+    .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
     }
 
+    .risks-considerations{
+        padding: 50px 0;
+    }
+    .tech-feature {
+        padding: 40px 50px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle img{
+        width: 40px;
+    }
+    
 </style>
 
-<div class="container py-5 my-5">
+<section class="opportunities-for-investors">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Benefits of Commodities Trading</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Diversified-Access.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Diversified Access</h5>
+                        <p class="mb-0 small-muted">
+                            Commodities often move independently of stocks and currencies, reducing portfolio risk.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Title -->
-    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Commodities Trading</h2>
-    
-    <!-- Responsive Card Layout -->
-    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
-      <!-- Profit Calculation -->
-      <div class="col-12 col-md-6 ">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Diversification</h4>
-                <p class="mb-4">
-                    Commodities often move independently of stocks and currencies, reducing portfolio risk.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Hedge Against Inflation</h4>
-                <p>
-                    Assets like oil and agricultural goods can help preserve value during economic shifts.
-                </p>
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/liquidity.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Liquidity and Speed</h5>
+                        <p class="mb-0 small-muted">
+                            Trade confidently with fast execution and reliable infrastructure.
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-      </div>
-      <!-- Opening Position -->
-        <div class="col-12 col-md-6">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Liquidity and Speed</h4>
-                <p class="mb-4">
-                    Trade confidently with fast execution and reliable infrastructure.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Advanced Tools</h4>
-                <p>
-                    Access professional indicators, market analysis and automated trading features.
-                </p>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/inflation.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Hedge Against Inflation</h5>
+                        <p class="mb-0 small-muted">
+                            Assets like oil and agricultural goods can help preserve value during economic shifts.  
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Advaced-Tools.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Advanced Tools</h5>
+                        <p class="mb-0 small-muted">
+                            Access professional indicators, market analysis and automated trading features.
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
-    <!-- Closing Position (Full width) -->
-    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
-        <div class="col-12">
-            <div class="custom-section text-center">
-                <h4 class="mb-2 fw-bold">Closing the Position</h4>
-                <p class="mb-0">
-                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 
 <?php
 $featureIconArr = [
@@ -641,13 +703,13 @@ include_once ('elements/explore-more-about.php');
         <div class="col-12" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-card">
                 <div class="alert-custom" data-aos="fade-up" data-aos-duration="800" >
-                    <b>Risks to Consider</b>
-                    <p>
-                        Commodities are influenced by global supply and demand, geopolitical events, weather conditions and economic developments. Price swings can be sharp and unpredictable. Leverage increases market exposure but also magnifies potential losses.
+                    <p class="">
+                        To support clients, Zed Capital International Ltd provides risk management features such as stop loss and take profit orders, helping you trade responsibly.
                     </p>
                 </div>
-                <p class="info-note" data-aos="fade-up" data-aos-duration="800" >
-                    To support clients, Zed Capital International Ltd provides risk management features such as stop loss and take profit orders, helping you trade responsibly.
+                <b class="mt-2 mx-3" data-aos="fade-up" data-aos-duration="800">Risks to Consider</b>
+                <p class="mt-2 mx-3" data-aos="fade-up" data-aos-duration="800">
+                    Commodities are influenced by global supply and demand, geopolitical events, weather conditions and economic developments. Price swings can be sharp and unpredictable. Leverage increases market exposure but also magnifies potential losses.
                 </p>
             </div>
         </div>

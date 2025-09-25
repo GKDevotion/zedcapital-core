@@ -73,7 +73,7 @@ include_once ('elements/header.php');
 
             <!-- Text Column -->
             <div class="col-md-6 text-black"  >
-                <h2 class="fw-bold h2 mb-5 pe-5" data-aos="fade-up" data-aos-duration="800">
+                <h2 class="fw-bold h2 mb-5 pe-2" data-aos="fade-up" data-aos-duration="800">
                     Trade the World's Largest Financial Market
                 </h2>
                 <div class="p-1 forex-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
@@ -277,7 +277,7 @@ include_once ('elements/header.php');
                         EURUSD
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-danger fw-bold">1.15959</div>
@@ -294,11 +294,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -313,7 +313,7 @@ include_once ('elements/header.php');
                         USDJYP
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-success fw-bold">1.15959</div>
@@ -330,11 +330,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -349,7 +349,7 @@ include_once ('elements/header.php');
                         GBPUSD
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-danger fw-bold">1.15959</div>
@@ -366,11 +366,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -385,7 +385,7 @@ include_once ('elements/header.php');
                         AUDUSD
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-success fw-bold">1.15959</div>
@@ -402,11 +402,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -421,7 +421,7 @@ include_once ('elements/header.php');
                         USDCAD
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-danger fw-bold">1.15959</div>
@@ -438,11 +438,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -502,12 +502,12 @@ include_once ('elements/header.php');
                     EURUSD, GBPUSD, USDJPY, AUDUSD, USDCHF
                 </h5>
 
-                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Minors</h3>
+                <h3 class="fw-bold mt-3" data-aos="fade-up" data-aos-duration="850">Minors</h3>
                 <h5 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="850">
                     EURGBP, GBPJPY, AUDNZD, CADJPY
                 </h5>
 
-                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Exotics</h3>
+                <h3 class="fw-bold mt-3" data-aos="fade-up" data-aos-duration="850">Exotics</h3>
                 <h5 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="850">
                     USDTRY, USDSGD, USDZAR, EURMXN
                 </h5>
@@ -526,71 +526,103 @@ include_once ('elements/header.php');
 </section>
 
 <style>
-    
-    .highlight {
-        font-weight: bold;
-    }
-    
-    .custom-section {
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-        background-color: aliceblue;
-        border-radius: 15px;
-        border: 0;
-        padding: 3rem 2.5rem;
-        margin-bottom: 2rem;
+
+    .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
     }
 
+    .risks-considerations{
+        padding: 50px 0;
+    }
+    .tech-feature {
+        padding: 40px 50px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle img{
+        width: 40px;
+    }
+    
 </style>
 
-<div class="container py-5 my-5">
+<section class="opportunities-for-investors">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Key Benefits</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Diversified-Access.svg">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Diversified Access</h5>
+                            <p class="mb-0 small-muted">
+                                Expand your portfolio by adding Forex to stocks, commodities and indices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Title -->
-    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Key Benefits</h2>
-    
-    <!-- Responsive Card Layout -->
-    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
-      <!-- Profit Calculation -->
-      <div class="col-12 col-md-6 ">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Diversification</h4>
-                <p class="mb-4">
-                    Expand your portfolio by adding Forex to stocks, commodities and indices.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Efficiency</h4>
-                <p>
-                    Trade continuously five days a week without delays or additional settlement costs.
-                </p>
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Advaced-Tools.svg">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Advanced Tools</h5>
+                            <p class="mb-0 small-muted">
+                                Access professional features including technical analysis, indicators and automated systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-      </div>
-      <!-- Opening Position -->
-        <div class="col-12 col-md-6">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Advanced Tools</h4>
-                <p class="mb-4">
-                    Access professional features including technical analysis, indicators and automated systems.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Reliable Execution</h4>
-                <p>
-                    Depend on fast and secure trade processing designed to meet institutional standards.
-                </p>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Efficiency.svg">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Efficiency</h5>
+                            <p class="mb-0 small-muted">
+                                Trade continuously five days a week without delays or additional settlement costs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/reliability.svg">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Reliable Execution</h5>
+                            <p class="mb-0 small-muted">
+                                Depend on fast and secure trade processing designed to meet institutional standards.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
-    <!-- Closing Position (Full width) -->
-    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
-        <div class="col-12">
-            <div class="custom-section text-center">
-                <h4 class="mb-2 fw-bold">Closing the Position</h4>
-                <p class="mb-0">
-                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 
 <?php
 $featureIconArr = [
@@ -676,19 +708,27 @@ include_once ('elements/feature-trading-icons.php');
     <div class="container my-5">
         <div class="row custom-card mx-auto">
             <div class="highlight-banner" data-aos="fade-up" data-aos-duration="800" >
-                Forex—Trusted, Transparent, Professional 
-                <span class="sub-text">
+                <p data-aos="fade-up" data-aos-duration="800">
+                    Forex—Trusted, Transparent, Professional 
+                </p>
+                <span class="fs-6" data-aos="fade-up" data-aos-duration="800">
                     <b>Forex</b> is the cornerstone of modern financial markets, offering liquidity, flexibility and continuous opportunities. With Zed Capital International Ltd, you can trade the world’s largest financial market backed by professional tools, transparent conditions and a trusted partner.
                 </span>
             </div>
             <div class="row g-4" data-aos="fade-up" data-aos-duration="800" >
-                <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="card-section-title">Risks to Consider</div>
-                    <div class="mt-2" style="color:#6c757d;">
-                        Forex trading involves exposure to market volatility. Currency prices are influenced by central bank actions, interest rate changes, economic data and geopolitical events. Leverage enhances potential returns but also magnifies risks.
+                <div class="col-12" data-aos="fade-up" data-aos-duration="800" >
+                    <div class="card-section-title mx-3">Risks to Consider</div>
+                    <div class="mt-2 mx-3" style="color:#6c757d;">
+                        <p data-aos="fade-up" data-aos-duration="800">
+                            Forex trading involves exposure to market volatility. Currency prices are influenced by central bank actions, interest rate changes, economic data and geopolitical events. Leverage enhances potential returns but also magnifies risks.
+                        </p>
+
+                        <p data-aos="fade-up" data-aos-duration="800">
+                            To help manage exposure effectively, Zed Capital International Ltd offers stop loss, take profit and margin management tools within our trading platform.
+                        </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 divider-col" data-aos="fade-up" data-aos-duration="800" >
+                <div class="d-none col-12 col-md-6 divider-col" data-aos="fade-up" data-aos-duration="800" >
                     <div class="card-section-title">&nbsp;</div>
                     <div class="mt-2 px-2" style="color:#6c757d;">
                         To help manage exposure effectively, Zed Capital International Ltd offers stop loss, take profit and margin management tools within our trading platform.

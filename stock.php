@@ -270,7 +270,7 @@ include_once ('elements/header.php');
                         NVDA
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-danger fw-bold">1.15959</div>
@@ -287,11 +287,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -306,7 +306,7 @@ include_once ('elements/header.php');
                         TSLA
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-success fw-bold">1.15959</div>
@@ -323,11 +323,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -342,7 +342,7 @@ include_once ('elements/header.php');
                         META
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-danger fw-bold">1.15959</div>
@@ -359,11 +359,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -378,7 +378,7 @@ include_once ('elements/header.php');
                         AAPL
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-success fw-bold">1.15959</div>
@@ -395,11 +395,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -414,7 +414,7 @@ include_once ('elements/header.php');
                         AMD
                     </span>
                 </h5>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
                         <div class="text-danger fw-bold">1.15959</div>
@@ -431,11 +431,11 @@ include_once ('elements/header.php');
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
                 </div>
-                <div class="mb-3">
+                <div class="my-5">
                     <small>Leverage</small> 
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
-                <div class="d-flex justify-content-around gap-2">
+                <div class="d-flex justify-content-around gap-2 mt-4">
                     <button class="btn btn-buy px-4">Buy</button>
                     <button class="btn btn-sell px-4">Sell</button>
                 </div>
@@ -448,7 +448,7 @@ include_once ('elements/header.php');
     <!-- Button -->
     <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="850">
         <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill">
-        Click here to view the Stock' Dividends
+            Click here to view the Stock
         </a>
     </div>
 </div>
@@ -566,71 +566,103 @@ include_once ('elements/header.php');
 </section>
 
 <style>
-    
-    .highlight {
-        font-weight: bold;
-    }
-    
-    .custom-section {
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-        background-color: aliceblue;
-        border-radius: 15px;
-        border: 0;
-        padding: 3rem 2.5rem;
-        margin-bottom: 2rem;
+
+    .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
     }
 
+    .risks-considerations{
+        padding: 50px 0;
+    }
+    .tech-feature {
+        padding: 40px 50px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle img{
+        width: 40px;
+    }
+    
 </style>
 
-<div class="container py-5 my-5">
-
-    <!-- Title -->
-    <h2 class="h2 mb-5" data-aos="fade-up" data-aos-duration="850">Benefits of Trading Stocks</h2>
-    
-    <!-- Responsive Card Layout -->
-    <div class="row g-4 align-items-stretch" data-aos="fade-up" data-aos-duration="850">
-        <!-- Profit Calculation -->
-        <div class="col-12 col-md-6 ">
-                <div class="custom-section right-left-height">
-                    <h4 class="text-start fw-bold">Diversification</h4>
-                    <p class="mb-4">
-                        Build a portfolio across sectors including technology, energy, finance, healthcare, and consumer goods.
-                    </p>
-                    <hr>
-                    <h4 class="mt-4 text-start fw-bold">Efficiency</h4>
-                    <p>
-                        Trade without custody fees, settlement delays, or ownership complexities.
-                    </p>
+<section class="opportunities-for-investors">
+    <div class="container py-5">
+        <h2 class="h4 mb-3">Benefits of Trading Stocks</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Diversification.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Diversified Access</h5>
+                        <p class="mb-0 small-muted">
+                            Build a portfolio across sectors including technology, energy, finance, healthcare, and consumer goods.
+                        </p>
+                        </div>
+                    </div>
                 </div>
-        </div>
-        <!-- Opening Position -->
-        <div class="col-12 col-md-6">
-            <div class="custom-section right-left-height">
-                <h4 class="text-start fw-bold">Professional Tools</h4>
-                <p class="mb-4">
-                    Advanced charting, technical analysis, and automated trading strategies.
-                </p>
-                <hr>
-                <h4 class="mt-4 text-start fw-bold">Liquidity & Speed</h4>
-                <p>
-                    Reliable trade execution backed by institutional-grade infrastructure.
-                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/Efficiency.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Efficiency</h5>
+                        <p class="mb-0 small-muted">
+                            Trade without custody fees, settlement delays, or ownership complexities.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/professional-tools.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Professional Tools</h5>
+                        <p class="mb-0 small-muted">
+                            Advanced charting, technical analysis, and automated trading strategies.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2">
+                            <img src="assets/images/svg/liquidity.svg">
+                        </div>
+                        <div>
+                        <h5 class="fw-bold mb-1">Liquidity & Speed</h5>
+                        <p class="mb-0 small-muted">
+                            Reliable trade execution backed by institutional-grade infrastructure.
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
-    <!-- Closing Position (Full width) -->
-    <div class="row mt-4 d-none" data-aos="fade-up" data-aos-duration="850">
-        <div class="col-12">
-            <div class="custom-section text-center">
-                <h4 class="mb-2 fw-bold">Closing the Position</h4>
-                <p class="mb-0">
-                    Two weeks later, the price of Meta shares rose to <span class="highlight">$220</span>. You close your position at this higher price, securing a gross profit of <span class="highlight">$1,000</span> from the price movement.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 
 <?php
 $featureIconArr = [
@@ -733,13 +765,13 @@ include_once ('elements/explore-more-about.php');
                 </div>
                 <p class="info-note" data-aos="fade-up" data-aos-duration="850">
                     <ul class="mb-0 ps-5">
-                        <li class="">
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="800">
                             <b>Leverage Amplifies Risk:</b> While leverage enhances exposure, it also increases potential losses.
                         </li>
-                        <li class="">
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="800">
                             <b>Volatility:</b> Equities are sensitive to earnings announcements, interest rates, and macroeconomic shifts.
                         </li>
-                        <li class="">
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="800">
                             <b>No Ownership Rights:</b> As CFDs, stock trades do not include shareholder benefits such as dividends or voting rights.
                         </li>
                     </ul>
