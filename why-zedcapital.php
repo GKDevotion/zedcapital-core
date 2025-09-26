@@ -65,7 +65,8 @@ include_once ('elements/header.php');
     }
 
     .trust-text {
-        width: 85%;
+        width: 90%;
+        text-align: justify;
     }
 
     @media (max-width: 767.98px) {
@@ -92,12 +93,15 @@ include_once ('elements/header.php');
 <section class="why-zed-capital-header" >
     <div class="container">
         <div class="row align-items-center">
+            <div class="position-relative">
+                <img src="assets/images/background/why-zed-header-white-dot-background.png" alt="Corner Image" class="position-absolute top-0 start-0 " style="width: 40px; height: 40px; margin: -45px 0 0 -30px;">
+            </div>
             <div class="col-lg-5 col-md-6 text-md-start text-center" data-aos="fade-up" data-aos-duration="800">
-                <h1 class="fw-bold text-white w-75">
-                    Why Choose Zed Capital
-                </h1>
+                <h2 class="fw-bold text-white mb-5" style="font-size: 2.8rem;">
+                    A Trusted Partner in Global Financial Markets
+                </h2>
                 <p class="text-white">
-                    Get the tools you need to succeed in the market.
+                    A trusted partner in global capital market solutions, we go beyond brokerage - delivering secure, innovative, and transparent trading built on integrity, trust, and a client-first approach to empower traders worldwide.
                 </p>
             </div>
         </div>
@@ -141,12 +145,29 @@ include_once ('elements/header.php');
             <img src="assets/images/diamonds/why-zed-3-diamonds.png" alt="Corner Image" class="position-absolute top-0 end-0 float-y" style="width: 150px; height: 100px; margin: -60px -75px 0 0;">
         </div>
         <div class="row trust-section align-items-center">
-            <div class="col-md-6"  data-aos="fade-up" data-aos-delay="500">
-                <h2 class="h2">A Broker You Can Trust</h2>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <h2 class="h2">Fund Security</h2>
                 <div class="underline"></div>
                 <p class="trust-text text-gray"  data-aos="fade-up" data-aos-delay="500">
-                    When placing your money with a broker, you need to make sure your broker is secure and can endure through good and bad times in the broader financial markets. Our strong capital position, conservative balance sheet and automated risk controls are designed to protect Zed capital from major market events that can threaten the stability of financial institutions.
+                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, advanced risk management, and bank-level data security, we ensure your capital remains protected at all times.
                 </p>
+                <ul>
+                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                        Segregated Client Accounts
+                    </li>
+                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                        FSC Regulated & Compliant
+                    </li>
+                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                        Negative Balance Protection
+                    </li>
+                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                        Advanced Risk Management
+                    </li>
+                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                        Bank-Level Security & Encryption
+                    </li>
+                </ul>
             </div>
             <div class="col-md-6 trust-image text-center" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/images/trust-lock.png" alt="Lock Security Image" class="w-100">
@@ -317,24 +338,42 @@ include_once ('elements/header.php');
 <section class="professional-pricing">
     <div class="container">
         <div class="pricing-section">
-            <h2 class="h2 fw-bold">Professional Pricing - Maximize Your Returns</h2>
+            <h2 class="h2 fw-bold">Global Capital Market Advantages</h2>
             <div class="underline"></div>
 
             <div class="row">
                 <div class="col-md-6 pricing-box mb-4" data-aos="fade-up" data-aos-duration="800">
-                    <p class="text-gray" style="width: 90%;">Commissions start at USD 0 on US listed stocks and ETFs,² with low commissions on other products. There are no added spreads, ticket charges or account minimums.</p>
-                    <a href="#" class="a-link-move-icon">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
-
-                    <p class="mt-4 text-gray" style="width: 85%;">Earn interest rates of up to USD 3.83% on instantly available cash.</p>
-                    <a href="#" class="a-link-move-icon">Compare Interest Rates <i class="fas fa-chevron-circle-right"></i></a>
+                    <p class="fw-bold fs-4">
+                        Competitive Pricing & Execution
+                    </p>
+                    <p class="text-gray" style="width: 90%;">
+                        Spreads starting from 0.2 pips, ultra-low latency execution, and transparent cost structures with no hidden fees.
+                    </p>
+                    <a href="#" class="d-none a-link-move-icon">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
+                    
+                    <p class="fw-bold fs-4">
+                        Regulatory Assurance
+                    </p>
+                    <p class="text-gray" style="width: 90%;">
+                        Fully licensed under FSC Mauritius, ensuring compliance with international standards. Client funds are safeguarded in segregated accounts with leading banking institutions.
+                    </p>
                 </div>
 
                 <div class="col-md-6 pricing-box mb-4" data-aos="fade-up" data-aos-duration="800">
-                    <p class="text-gray" style="width: 90%;">Commissions start at USD 0 on US listed stocks and ETFs,² with low commissions on other products. There are no added spreads, ticket charges or account minimums.</p>
-                    <a href="#" class="a-link-move-icon">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
+                    <p class="fw-bold fs-4">
+                        Global Market Access
+                    </p>
+                    <p class="text-gray" style="width: 90%;">
+                        Trade forex, commodities, indices, equities, and cryptocurrencies from a single account with institutional-grade liquidity and broad diversification.
+                    </p>
+                    <a href="#" class="d-none a-link-move-icon">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
 
-                    <p class="mt-4 text-gray" style="width: 85%;">Earn interest rates of up to USD 3.83% on instantly available cash.</p>
-                    <a href="#" class="a-link-move-icon">Compare Interest Rates <i class="fas fa-chevron-circle-right"></i></a>
+                    <p class="fw-bold fs-4">
+                        Advanced Technology
+                    </p>
+                    <p class="text-gray" style="width: 90%;">
+                        Powerful MT5 platform with enhanced analytics, algorithmic trading support, and seamless access across desktop, web, and mobile.
+                    </p>
                 </div>
             </div>
         </div>
@@ -394,7 +433,7 @@ include_once ('elements/header.php');
     }
 </style>
 
-<section class="on-demand-section">
+<section class="on-demand-section pb-0">
     <div class="container-fluid learning-section py-5 pt-0">
         <div class="row align-items-center">
             <div class="col-md-7 col-12 learning-div mb-4 mb-md-0 p-5" data-aos="fade-up" data-aos-duration="800">
@@ -402,17 +441,123 @@ include_once ('elements/header.php');
             </div>
             <div class="col-md-5 col-12">
                 <h2 class="h2 learning-heading" data-aos="fade-up" data-aos-duration="800">
-                    <p>On-Demand Educational Resources - Never Stop Learning</p>
+                    <p>Education <br>Clarity, Confidence, and Control</p>
                 </h2>
                 <div class="underline"></div>
                 <p class="learning-text" data-aos="fade-up" data-aos-duration="800">
-                    Zed Capital provides several resources to help you better understand Zed products and services, markets and technology.
+                    At Zed Capital International Ltd, we recognize that well-informed traders make better decisions. Our education program delivers the knowledge and tools required to navigate global markets with confidence.
                 </p>
 
-                <div class="text-start">
+                <div class="text-start d-none">
                     <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
                         Learn more <i class="fas fa-arrow-right"></i>
                     </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+
+    /* .opportunities-for-investors{
+        background-color: var(--zed-backgound-color);
+        padding: 50px 0;
+    } */
+
+    .risks-considerations{
+        padding: 50px 0;
+    }
+    .tech-feature {
+        padding: 40px 50px;
+        border: 1px solid var(--zed-border-color);
+        border-radius: 25px;
+        background-color: #fff;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        min-height: 125px;
+    }
+
+    .tech-feature:hover {
+        border: 1px solid var(--zed-secondary);
+    }
+    .icon-circle img{
+        width: 40px;
+    }
+    
+</style>
+
+<section class="opportunities-for-investors pb-5">
+    <div class="container py-5 pt-0">
+        <div class="row" data-aos="fade-up" data-aos-duration="800">
+            <div class="col-12 text-center">
+                <p>
+                    Education at Zed Capital is a strategic advantage, empowering clients with clarity, discipline, and long-term market confidence.
+                </p>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2" data-aos="fade-up" data-aos-duration="800">
+                            <img src="assets/images/svg/Diversification.svg">
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="800">
+                            <h5 class="fw-bold mb-1">Structured Learning</h5>
+                            <p class="mb-0 small-muted">
+                                Professional courses, guides, and tutorials tailored to all experience levels.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2" data-aos="fade-up" data-aos-duration="800">
+                            <img src="assets/images/svg/Efficiency.svg">
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="800">
+                            <h5 class="fw-bold mb-1">Expert Research</h5>
+                            <p class="mb-0 small-muted">
+                                Daily and weekly market insights across forex, commodities, indices, equities, and digital assets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2" data-aos="fade-up" data-aos-duration="800">
+                            <img src="assets/images/svg/professional-tools.svg">
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="800">
+                            <h5 class="fw-bold mb-1">Practical Resources</h5>
+                            <p class="mb-0 small-muted">
+                                Trading calculators, glossaries, and strategy frameworks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="card tech-feature p-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="icon-circle mt-2" data-aos="fade-up" data-aos-duration="800">
+                            <img src="assets/images/svg/liquidity.svg">
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="800">
+                            <h5 class="fw-bold mb-1">Interactive Training </h5>
+                            <p class="mb-0 small-muted">
+                                Live webinars and seminars with industry professionals.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -450,8 +595,39 @@ include_once ('elements/header.php');
  
 </style>
 
-<div class="container py-5 pt-0">
-    <h2 class="h2 section-title">Our latest wins</h2>
+<style>
+    .contact-section {
+        background-color: var(--zed-primary); /* Red background */
+        color: #fff;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+        .contact-section {
+            padding: 40px 15px;
+        }
+
+        .contact-section p{
+            text-align: justify;
+        }
+    }
+</style>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <h2 class="h2 fw-bold mb-4" data-aos="fade-up" data-aos-duration="800">Our Commitment</h2>
+            <p class="text-white text-center" data-aos="fade-up" data-aos-duration="800">
+                At Zed Capital, we are committed to empowering traders and investors with the tools, resources, and support they need to succeed in today's dynamic markets. Whether you are a retail client seeking access to opportunities, or a professional investor requiring institutional standards, Zed Capital provides the platform, expertise, and reliability to help you achieve your goals.
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="container py-5">
+    <h2 class="h2 section-title mt-5">Our latest wins</h2>
     <p class="text-center text-gray">
       Trade with confidence when you trade with Zed Capital,<br class="d-none d-md-block" />
       an award-winning global broker.
