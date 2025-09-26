@@ -139,6 +139,26 @@ include_once ('elements/header.php');
     </div>
 </section>
 
+<style>
+    .arrow-list {
+        list-style: none; /* remove default dots */
+        padding-left: 0; /* remove extra padding */
+    }
+
+    .arrow-list li {
+        position: relative;
+        padding-left: 20px; /* space for the arrow */
+    }
+
+    .arrow-list li::before {
+        content: "›"; /* or ">" */
+        position: absolute;
+        left: 0;
+        color: var(--zed-primary); /* Bootstrap primary color */
+        font-size: 45px;
+        margin: -20px 0 0 0;
+    }
+</style>
 <section>
     <div class="container">
         <div class="position-relative set-diamond-image">
@@ -151,7 +171,7 @@ include_once ('elements/header.php');
                 <p class="trust-text text-gray"  data-aos="fade-up" data-aos-delay="500">
                     At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, advanced risk management, and bank-level data security, we ensure your capital remains protected at all times.
                 </p>
-                <ul>
+                <ul class="arrow-list">
                     <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
                         Segregated Client Accounts
                     </li>
@@ -393,18 +413,19 @@ include_once ('elements/header.php');
     }
 
     .btn-learn {
-        margin-top: 20px;
+        margin: 10px 10px 10px 0;
         padding: 10px 20px;
         font-weight: 600;
         border-radius: 15px;
         background-color: white;
         border: 1px solid var(--zed-border-color);
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-        display: inline-flex;
+        /* display: inline-flex; */
         align-items: center;
         transition: all 0.3s ease;
         text-decoration: none;
         color: #000;
+        min-width: 210px;
     }
 
     .btn-learn i {
@@ -435,7 +456,7 @@ include_once ('elements/header.php');
 
 <section class="on-demand-section pb-0">
     <div class="container-fluid learning-section py-5 pt-0">
-        <div class="row align-items-center">
+        <div class="row">
             <div class="col-md-7 col-12 learning-div mb-4 mb-md-0 p-5" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/images/on-demand-learning.png" alt="Tablet with chart" class="learning-img">
             </div>
@@ -448,9 +469,21 @@ include_once ('elements/header.php');
                     At Zed Capital International Ltd, we recognize that well-informed traders make better decisions. Our education program delivers the knowledge and tools required to navigate global markets with confidence.
                 </p>
 
-                <div class="text-start d-none">
+                <div class="text-start">
                     <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
-                        Learn more <i class="fas fa-arrow-right"></i>
+                        Security & Risk Management <i class="fas fa-arrow-right d-none"></i>
+                    </button>
+
+                    <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
+                        Account Manager
+                    </button>
+
+                    <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
+                        Negative balance protection
+                    </button>
+
+                    <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
+                        Transparent policies 
                     </button>
                 </div>
             </div>
