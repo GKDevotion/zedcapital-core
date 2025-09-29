@@ -281,11 +281,11 @@ include_once ('elements/header.php');
                 <div class="d-flex justify-content-between px-2">
                     <div>
                         <small>Bid</small>
-                        <div class="text-danger fw-bold">1.15959</div>
+                        <div class="text-danger fw-bold US500---bid">0.00</div>
                     </div>
                     <div>
                         <small>Ask</small>
-                        <div class="text-danger fw-bold">1.15963</div>
+                        <div class="text-danger fw-bold US500---ask">0.00</div>
                     </div>
                 </div>
 
@@ -365,11 +365,11 @@ include_once ('elements/header.php');
                 <div class="d-flex justify-content-between px-2">
                     <div>
                         <small>Bid</small>
-                        <div class="text-danger fw-bold">1.15959</div>
+                        <div class="text-danger fw-bold Germany-40---bid">0.00</div>
                     </div>
                     <div>
                         <small>Ask</small>
-                        <div class="text-danger fw-bold">1.15963</div>
+                        <div class="text-danger fw-bold Germany-40---ask">0.00</div>
                     </div>
                 </div>
 
@@ -407,11 +407,11 @@ include_once ('elements/header.php');
                 <div class="d-flex justify-content-between px-2">
                     <div>
                         <small>Bid</small>
-                        <div class="text-success fw-bold">1.15959</div>
+                        <div class="text-success fw-bold UK100---bid">0.00</div>
                     </div>
                     <div>
                         <small>Ask</small>
-                        <div class="text-success fw-bold">1.15963</div>
+                        <div class="text-success fw-bold UK100---ask">0.00</div>
                     </div>
                 </div>
 
@@ -449,11 +449,11 @@ include_once ('elements/header.php');
                 <div class="d-flex justify-content-between px-2">
                     <div>
                         <small>Bid</small>
-                        <div class="text-danger fw-bold">1.15959</div>
+                        <div class="text-danger fw-bold JAPAN-225---bid">0.00</div>
                     </div>
                     <div>
                         <small>Ask</small>
-                        <div class="text-danger fw-bold">1.15963</div>
+                        <div class="text-danger fw-bold JAPAN-225---ask">0.00</div>
                     </div>
                 </div>
 
@@ -484,6 +484,49 @@ include_once ('elements/header.php');
         </a>
     </div>
 </div>
+
+<script>
+    // List of symbols to fetch
+    const symbols = ["US500", "Germany 40", "UK100", "JAPAN 225"];
+
+    function fetchMarketData() {
+        $.ajax({
+            url: 'https://93.190.139.146:5000/data',
+            method: 'GET',
+            dataType: 'json',
+            success: function(response) {
+
+                // Filter objects that match any of the symbols
+                const filteredData = response.filter(item => 
+                    symbols.some( symbol => item.Symbol.includes( symbol ) )
+                );
+
+                if (filteredData.length > 0) {
+                    // $('#companyData').text( JSON.stringify( filteredData, null, 2 ) );
+
+                    // Loop through filteredData with $.each
+                    $.each(filteredData, function(index, company) {
+
+                        // Remove trailing dots (.) from Symbol
+                        const cleanedSymbol = company.Symbol.replace(/[.\s]/g, '-');
+                        console.log(cleanedSymbol);
+
+                        // Append each company's data to the div
+                        $("."+cleanedSymbol+"-bid").text( company.Bid );
+                        $("."+cleanedSymbol+"-ask").text( company.Ask );
+                    });
+                } else {
+                    $('#companyData').text('No matching company data found.');
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('Error fetching data:', error);
+            }
+        });
+    }
+
+    setInterval(fetchMarketData, 1000); // Fetch every 1 second
+</script>
 
 <style>
     .stock-section {

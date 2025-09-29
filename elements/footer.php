@@ -436,9 +436,11 @@
             }
 
             // Render initial market cards
-            renderMarkets();
-            setInterval(renderMarkets, 60000);
-
+            if( $("#market-slides").length > 0 ){
+                renderMarkets();
+                setInterval(renderMarkets, 60000);
+            }
+            
             $(document).ready(function(){
                 $(".owl-carousel").owlCarousel({
                     loop: true,
