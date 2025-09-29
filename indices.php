@@ -323,11 +323,11 @@ include_once ('elements/header.php');
                 <div class="d-flex justify-content-between px-2">
                     <div>
                         <small>Bid</small>
-                        <div class="text-success fw-bold">1.15959</div>
+                        <div class="text-success fw-bold US-Wall-Street-30-bid">0.00</div>
                     </div>
                     <div>
                         <small>Ask</small>
-                        <div class="text-success fw-bold">1.15963</div>
+                        <div class="text-success fw-bold US-Wall-Street-30-ask">0.00</div>
                     </div>
                 </div>
 
@@ -487,7 +487,7 @@ include_once ('elements/header.php');
 
 <script>
     // List of symbols to fetch
-    const symbols = ["US500", "Germany 40", "UK100", "JAPAN 225"];
+    const symbols = ["US500", "Germany 40", "UK100", "JAPAN 225", "US Wall Street 30"];
 
     function fetchMarketData() {
         $.ajax({
