@@ -380,7 +380,7 @@ include_once ('elements/header.php');
     <div class="row g-4 align-items-center mt-5">
       
         <div class="col-md-12 mb-5">
-            <div class="card-custom text-dark">
+            <div class="info-card text-dark">
                 <h4 class="fw-bold mt-2 mb-4">Private Capital (Venture Capital & Private Equity)</h4>
                 <p class="text-muted">
                     Europe is a global hub for private equity, venture capital, and hedge funds, particularly in London, Paris, and Luxembourg.

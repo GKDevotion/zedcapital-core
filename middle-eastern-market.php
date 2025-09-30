@@ -341,7 +341,7 @@ include_once ('elements/header.php');
     <div class="row g-4 align-items-center mt-5">
       
         <div class="col-md-12 mb-5">
-            <div class="card-custom text-dark">
+            <div class="info-card text-dark">
                 <h4 class="fw-bold mt-2 mb-4">Sovereign Wealth & Private Capital</h4>
                 <p class="text-muted">
                     The Middle East is home to some of the world's largest sovereign wealth funds, including.
