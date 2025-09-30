@@ -227,6 +227,7 @@ include_once ('elements/header.php');
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         padding: 30px;
         background: #fff;
+        min-height: 450px;
     }
     .img-icon {
         width: 60px;
@@ -234,7 +235,7 @@ include_once ('elements/header.php');
     }
     .stock-img {
         width: 75%;
-        margin: -100px 0 -38px 125px;
+        margin: 0px 0 0 100px;
     }
     .chart-img {
         width: 60px;
@@ -279,7 +280,7 @@ include_once ('elements/header.php');
                     One of the oldest and most international markets, listing companies from across the globe.
                 </p>
                 <div class="d-flex align-items-center mt-4">
-                    <img src="assets/images/stock-market-nasdaq.png" class="stock-img" alt="NYSE">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Coat_of_arms_of_the_London_Stock_Exchange.svg" class="stock-img" alt="NYSE">
                 </div>
             </div>
         </div>
@@ -322,7 +323,7 @@ include_once ('elements/header.php');
         }
         .bull-bear-img {
             width: 60%;
-            margin: -50px -30px 0 0;
+            margin: 0 -15px 0 0;
         }
         .text-section {
             color: #555;
@@ -363,13 +364,13 @@ include_once ('elements/header.php');
 
         <!-- Right Card Section -->
         <div class="col-lg-4">
-            <div class="info-card text-dark pb-0">
+            <div class="card-custom text-dark pb-0">
                 <h3 class="fw-bold">Euronext</h3>
                 <p class="mt-5 text-muted">
                     Europe's largest integrated exchange, spanning multiple financial hubs including Amsterdam, Paris, and Milan.
                 </p>
                 <div class="mt-4 text-end">
-                    <img src="assets/images/nyse-market.png" alt="Bull and Bear" class="bull-bear-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Euronext_logo.svg" alt="Bull and Bear" class="bull-bear-img">
                 </div>
             </div>
         </div>

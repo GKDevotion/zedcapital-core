@@ -207,6 +207,7 @@ include_once ('elements/header.php');
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         padding: 30px;
         background: #fff;
+        min-height: 430px;
     }
     .img-icon {
         width: 60px;
@@ -214,7 +215,7 @@ include_once ('elements/header.php');
     }
     .stock-img {
         width: 75%;
-        margin: -100px 0 -38px 125px;
+        margin: -170px 0 0 220px;
     }
     .chart-img {
         width: 60px;
@@ -255,12 +256,24 @@ include_once ('elements/header.php');
         <div class="col-lg-4">
             <div class="card-custom text-dark">
                 <h3 class="fw-bold">Tokyo Stock Exchange (TSE)</h3>
-                <p class="mt-5 text-muted w-75">
-                    Asia’s largest exchange, best known for the <b>Nikkei 225 Index</b> and global leaders like Toyota and Sony.
+                <p class="mt-5 text-gray">
+                    Asia's largest exchange, best known for the <b>Nikkei 225 Index</b> and global leaders like Toyota and Sony.
                 </p>
-                <div class="d-flex align-items-center mt-4">
-                    <img src="assets/images/stock-market-nasdaq.png" class="stock-img" alt="NYSE">
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="fs-6 text-black">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="text-end">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Tokyo_Stock_Exchange_logo.svg" class="w-75" alt="NYSE">
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
 
@@ -308,7 +321,7 @@ include_once ('elements/header.php');
         }
         .bull-bear-img {
             width: 60%;
-            margin: -50px -30px 0 0;
+            margin: 0;
         }
         .text-section {
             color: #555;
@@ -355,13 +368,17 @@ include_once ('elements/header.php');
 
         <!-- Right Card Section -->
         <div class="col-lg-4">
-            <div class="info-card text-dark pb-0">
+            <div class="card-custom text-dark pb-0">
                 <h3 class="fw-bold">Shanghai Stock Exchange (SSE)</h3>
-                <p class="mt-5 text-muted">
-                    Among the world’s largest by market cap, featuring major Chinese state-owned enterprises.
+                <p class="mt-5 text-gray">
+                    Among the world's largest by market cap, featuring major Chinese state-owned enterprises.
+                </p>
+
+                <p class="w-75 text-black">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
                 <div class="mt-4 text-end">
-                    <img src="assets/images/nyse-market.png" alt="Bull and Bear" class="bull-bear-img">
+                    <img src="assets/images/shanghai.png" alt="Bull and Bear" class="bull-bear-img">
                 </div>
             </div>
         </div>
