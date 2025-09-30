@@ -223,6 +223,7 @@ include_once ('elements/header.php');
 
 <div class="container py-4 d-none">
   <div id="marketRows" class="row g-3"></div>
+  <div id="marketRows" class="row g-3"></div>
 </div>
 
 <script>
@@ -364,16 +365,13 @@ include_once ('elements/header.php');
     <div class="row">
         <!-- Stock Market Card -->
         <div class="col-lg-4">
-            <div class="card-custom text-dark">
-                <h3 class="fw-bold">Stock Market<br>(<span class="text-uppercase">NASDAQ</span>)</h3>
-                <p class="mt-5 text-muted w-75">
-                    The New York Stock Exchange (NYSE) and NASDAQ are the two major exchanges where publicly traded companies list their shares.
+            <div class="info-card text-dark pb-0">
+                <h3 class="fw-bold">New York Stock Exchange (NYSE)</h3>
+                <p class="mt-5 text-muted">
+                    The NYSE is the largest stock exchange in the world by market capitalization. It is home to many of the world’s most established corporations, offering investors deep liquidity, transparent pricing, and a highly regulated trading environment.
                 </p>
-                <p class="text-dark fw-medium w-75">
-                    Major stock indices include the S&P 500 (top 500 US companies)
-                </p>
-                <div class="d-flex align-items-center mt-4">
-                    <img src="assets/images/stock-market-nasdaq.png" class="stock-img" alt="NYSE">
+                <div class="mt-4 text-end">
+                    <img src="assets/images/nyse-market.png" alt="Bull and Bear" class="bull-bear-img">
                 </div>
             </div>
         </div>
@@ -457,16 +455,14 @@ include_once ('elements/header.php');
 
         <!-- Right Card Section -->
         <div class="col-lg-4">
-            <div class="info-card text-dark pb-0">
-                <h3 class="fw-bold">NYSE Market<br>(US30-500)</h3>
-                <p class="mt-5 text-muted">
-                    The New York Stock Exchange (NYSE) and NASDAQ are the two major exchanges where publicly traded companies list their shares.
+            
+            <div class="card-custom text-dark">
+                <h3 class="fw-bold"><span class="text-uppercase">NASDAQ</span></h3>
+                <p class="mt-5 text-muted w-75">
+                    NASDAQ is the leading electronic marketplace, renowned for its focus on innovation and technology-driven companies. It lists global leaders such as Apple, Microsoft, and Amazon, providing investors with access to high-growth opportunities in the digital economy.
                 </p>
-                <p class="fw-medium w-75">
-                    Major stock indices include the S&P 500 (top 500 US companies)
-                </p>
-                <div class="mt-4 text-end">
-                    <img src="assets/images/nyse-market.png" alt="Bull and Bear" class="bull-bear-img">
+                <div class="d-flex align-items-center mt-4">
+                    <img src="assets/images/stock-market-nasdaq.png" class="stock-img" alt="NYSE">
                 </div>
             </div>
         </div>

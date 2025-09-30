@@ -358,7 +358,7 @@ include_once ('elements/header.php');
 <section class="professional-pricing">
     <div class="container">
         <div class="pricing-section">
-            <h2 class="h2 fw-bold">Global Capital Market Advantages</h2>
+            <h2 class="h2 fw-bold">Zed Capital Market Advantages</h2>
             <div class="underline"></div>
 
             <div class="row">
@@ -469,7 +469,7 @@ include_once ('elements/header.php');
                     At Zed Capital International Ltd, we recognize that well-informed traders make better decisions. Our education program delivers the knowledge and tools required to navigate global markets with confidence.
                 </p>
 
-                <div class="text-start">
+                <div class="text-start d-none">
                     <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
                         Security & Risk Management <i class="fas fa-arrow-right d-none"></i>
                     </button>
@@ -628,38 +628,7 @@ include_once ('elements/header.php');
  
 </style>
 
-<style>
-    .contact-section {
-        background-color: var(--zed-primary); /* Red background */
-        color: #fff;
-        text-align: center;
-        padding: 60px 20px;
-    }
-
-    /* Mobile responsive */
-    @media (max-width: 768px) {
-        .contact-section {
-            padding: 40px 15px;
-        }
-
-        .contact-section p{
-            text-align: justify;
-        }
-    }
-</style>
-
-<section class="contact-section">
-    <div class="container">
-        <div class="row">
-            <h2 class="h2 fw-bold mb-4" data-aos="fade-up" data-aos-duration="800">Our Commitment</h2>
-            <p class="text-white text-center" data-aos="fade-up" data-aos-duration="800">
-                At Zed Capital, we are committed to empowering traders and investors with the tools, resources, and support they need to succeed in today's dynamic markets. Whether you are a retail client seeking access to opportunities, or a professional investor requiring institutional standards, Zed Capital provides the platform, expertise, and reliability to help you achieve your goals.
-            </p>
-        </div>
-    </div>
-</section>
-
-<div class="container py-5">
+<div class="container py-5 pt-0">
     <h2 class="h2 section-title mt-5">Our latest wins</h2>
     <p class="text-center text-gray">
       Trade with confidence when you trade with Zed Capital,<br class="d-none d-md-block" />
@@ -706,6 +675,36 @@ include_once ('elements/header.php');
     </div>
 </div>
 
+<style>
+    .contact-section {
+        background-color: var(--zed-primary); /* Red background */
+        color: #fff;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+        .contact-section {
+            padding: 40px 15px;
+        }
+
+        .contact-section p{
+            text-align: justify;
+        }
+    }
+</style>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <h2 class="h2 fw-bold mb-4" data-aos="fade-up" data-aos-duration="800">Our Commitment</h2>
+            <p class="text-white text-center" data-aos="fade-up" data-aos-duration="800">
+                At Zed Capital, we are committed to empowering traders and investors with the tools, resources, and support they need to succeed in today's dynamic markets. Whether you are a retail client seeking access to opportunities, or a professional investor requiring institutional standards, Zed Capital provides the platform, expertise, and reliability to help you achieve your goals.
+            </p>
+        </div>
+    </div>
+</section>
 <?php
 include_once ('elements/footer.php');
 ?>

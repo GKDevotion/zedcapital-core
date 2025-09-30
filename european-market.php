@@ -274,12 +274,9 @@ include_once ('elements/header.php');
         <!-- Stock Market Card -->
         <div class="col-lg-4">
             <div class="card-custom text-dark">
-                <h3 class="fw-bold">Stock Market<br>(<span class="text-uppercase">NASDAQ</span>)</h3>
+                <h3 class="fw-bold">London Stock Exchange (LSE)</h3>
                 <p class="mt-5 text-muted w-75">
-                    The New York Stock Exchange (NYSE) and NASDAQ are the two major exchanges where publicly traded companies list their shares.
-                </p>
-                <p class="text-dark fw-medium w-75">
-                    Major stock indices include the S&P 500 (top 500 US companies)
+                    One of the oldest and most international markets, listing companies from across the globe.
                 </p>
                 <div class="d-flex align-items-center mt-4">
                     <img src="assets/images/stock-market-nasdaq.png" class="stock-img" alt="NYSE">
@@ -367,12 +364,9 @@ include_once ('elements/header.php');
         <!-- Right Card Section -->
         <div class="col-lg-4">
             <div class="info-card text-dark pb-0">
-                <h3 class="fw-bold">NYSE Market<br>(US30-500)</h3>
+                <h3 class="fw-bold">Euronext</h3>
                 <p class="mt-5 text-muted">
-                    The New York Stock Exchange (NYSE) and NASDAQ are the two major exchanges where publicly traded companies list their shares.
-                </p>
-                <p class="fw-medium w-75">
-                    Major stock indices include the S&P 500 (top 500 US companies)
+                    Europe's largest integrated exchange, spanning multiple financial hubs including Amsterdam, Paris, and Milan.
                 </p>
                 <div class="mt-4 text-end">
                     <img src="assets/images/nyse-market.png" alt="Bull and Bear" class="bull-bear-img">
