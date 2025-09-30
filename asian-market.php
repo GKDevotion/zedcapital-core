@@ -388,7 +388,7 @@ include_once ('elements/header.php');
     <div class="row g-4 align-items-center mt-5">
       
         <div class="col-md-12 mb-5">
-            <div class="card-custom text-dark">
+            <div class="info-card text-dark">
                 <h4 class="fw-bold mt-2 mb-4">Private Capital & Technology Investment</h4>
                 <p class="text-muted">
                     Asia is home to fast-growing <b>venture capital and private equity ecosystems</b>, especially in China, India, and Southeast Asia.
