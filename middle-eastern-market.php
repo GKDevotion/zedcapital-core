@@ -214,7 +214,7 @@ include_once ('elements/header.php');
     <div class="row g-4 align-items-center">
       
         <div class="col-md-12 mb-5">
-            <div class="card-custom text-dark">
+            <div class="info-card text-dark">
                 <h4 class="fw-bold text-center mb-4">Zed Capital International Ltd — Unlocking Opportunities in the Middle East</h4>
 
                 <p class="text-mute">
