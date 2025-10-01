@@ -14,7 +14,7 @@ include_once('elements/header.php');
 <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5">
     <div class="carousel-indicators">
         <?php
-        for( $i=0;$i<=20;$i++ ){
+        for( $i=0;$i<20;$i++ ){
             if( $i==0 ){?>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="<?php echo $i; ?>" aria-label="Slide <?php echo $i; ?>" class="active" aria-current="true"></button>
             <?php } else { ?>
@@ -27,7 +27,7 @@ include_once('elements/header.php');
     </div>
     <div class="carousel-inner">
         <?php
-        for( $i=0;$i<=20;$i++ ){
+        for( $i=0;$i<20;$i++ ){
             if( $i==0 ){?>
                 <div class="carousel-item active">
                     <img src="assets/images/slider/<?php echo $i+1; ?>.jpg" alt="Slider <?php echo $i; ?>" class="w-100">
