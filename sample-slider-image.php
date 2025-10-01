@@ -3,7 +3,7 @@ include_once('elements/header.php');
 ?>
 <style>
     #carouselExampleDark{
-        padding: 120px 0 0 0;
+        padding: 75px 0 0 0;
     }
     .carousel-indicators{
         bottom: -32px;
