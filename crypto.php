@@ -717,33 +717,43 @@ include_once ('elements/header.php');
 </section>
 
 <?php
+$featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
+
 $featureIconArr = [
     [
         'icon' => 'assets/images/education-daily-analysis.png',
-        'title' => 'Access to a wideRange of Instruments'
+        'title' => 'Trade 24/7 without market closures'
     ],
     [
         'icon' => 'assets/images/news-live-market.png',
-        'title' => 'Advance Charting and Analytical Tools'
+        'title' => 'High volatility for profit potential'
     ],
     [
         'icon' => 'assets/images/account-setup.png',
-        'title' => 'Fast Execution with Low Latency'
+        'title' => 'Low entry cost for all traders'
     ],
     [
         'icon' => 'assets/images/instant-deposite.png',
-        'title' => 'Improved Market Depth'
+        'title' => 'Diversify beyond traditional assets'
     ],
     [
         'icon' => 'assets/images/withdrawals.png',
-        'title' => 'Supports Both Hedging and Netting'
+        'title' => 'Wide range of coins and tokens'
     ],
     [
         'icon' => 'assets/images/competitive-commission.png',
-        'title' => 'Built-in Trading Calendar'
+        'title' => 'Fast blockchain settlements'
+    ],
+    [
+        'icon' => 'assets/images/withdrawals.png',
+        'title' => 'Transparent and decentralized markets'
+    ],
+    [
+        'icon' => 'assets/images/competitive-commission.png',
+        'title' => 'Growing global adoption and demand'
     ],
 ];
-$class = 'col-md-4 col-lg-4';
+$class = 'col-md-4 col-lg-3';
 include_once ('elements/feature-trading-icons.php');
 ?>
 

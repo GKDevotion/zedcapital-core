@@ -411,17 +411,17 @@ include_once ('elements/header.php');
             <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
                 <h5 class="fw-bold mb-4">
                     <span class="text-shadow">
-                        AMD
+                        VISA
                     </span>
                 </h5>
                 <div class="d-flex justify-content-between px-2 mt-3">
                     <div>
                         <small>Bid</small>
-                        <div class="text-danger fw-bold">1.15959</div>
+                        <div class="text-danger fw-bold Visa-bid">0.00</div>
                     </div>
                     <div>
                         <small>Ask</small>
-                        <div class="text-danger fw-bold">1.15963</div>
+                        <div class="text-danger fw-bold Visa-ask">0.00</div>
                     </div>
                 </div>
 
@@ -455,7 +455,7 @@ include_once ('elements/header.php');
 
 <script>
     // List of symbols to fetch
-    const symbols = ["NVIDIA", "Tesla", "Facebook", "Apple"];
+    const symbols = ["NVIDIA", "Tesla", "Facebook", "Apple", "Visa"];
 
     function fetchMarketData() {
         $.ajax({
@@ -707,38 +707,40 @@ include_once ('elements/header.php');
 </section>
 
 <?php
+$featureIconTitle = "Advanced Market Access to Global Equities";
+
 $featureIconArr = [
     [
         'icon' => 'assets/images/diverse-global-stocks.png',
-        'title' => 'Diverse Global Stocks'
+        'title' => 'Access global stocks'
     ],
     [
         'icon' => 'assets/images/low-commission.png',
-        'title' => 'Low Commission'
+        'title' => 'No ownership required'
     ],
     [
         'icon' => 'assets/images/leverage.png',
-        'title' => 'Laverage upto 1'
+        'title' => 'Trade both directions'
     ],
     [
         'icon' => 'assets/images/instant-execution.png',
-        'title' => 'Instant Execution'
+        'title' => 'Low capital entry'
     ],
     [
         'icon' => 'assets/images/dividends-passes-on.png',
-        'title' => 'Dividends Passes On'
+        'title' => 'Quick execution'
     ],
     [
         'icon' => 'assets/images/mt5-platform.png',
-        'title' => 'MT5 Platform'
+        'title' => 'Hedge portfolios'
     ],
     [
         'icon' => 'assets/images/competitive-pricing.png',
-        'title' => 'Competitive Pricing'
+        'title' => 'No custody fees'
     ],
     [
         'icon' => 'assets/images/trusted-ragulated.png',
-        'title' => 'Trusted & Ragulated'
+        'title' => 'Flexible lot sizes'
     ],
 ];
 

@@ -292,16 +292,16 @@ include_once ('elements/header.php');
                 <div class="">
                     <div class="metal-title">Gold</div>
 
-                    <div class="market-title">S&amp;P 500</div>
+                    <div class="market-title">XAUUSD</div>
                     
-                    <div class="d-flex justify-content-between px-5">
+                    <div class="d-flex justify-content-between px-5 mt-2">
                         <div>
                             <p class="mb-0 fs-6">Bid</p>
-                            <div class="text-success fw-bold">1.15959</div>
+                            <div class="text-success fw-bold XAUUSD-bid">0.00</div>
                         </div>
                         <div>
                             <p class="mb-0 fs-5">Ask</p>
-                            <div class="text-danger fw-bold">1.15963</div>
+                            <div class="text-danger fw-bold XAUUSD-ask">0.00</div>
                         </div>
                     </div>
 
@@ -334,16 +334,16 @@ include_once ('elements/header.php');
                 <div class="">
                     <div class="metal-title">Silver</div>
 
-                    <div class="market-title">S&amp;P 500</div>
+                    <div class="market-title">XAGUSD</div>
                     
-                    <div class="d-flex justify-content-between px-5">
+                    <div class="d-flex justify-content-between px-5 mt-2">
                         <div>
                             <p class="mb-0 fs-6">Bid</p>
-                            <div class="text-danger fw-bold">1.15959</div>
+                            <div class="text-danger fw-bold XAGUSD-bid">0.00</div>
                         </div>
                         <div>
                             <p class="mb-0 fs-5">Ask</p>
-                            <div class="text-danger fw-bold">1.15963</div>
+                            <div class="text-danger fw-bold XAGUSD-ask">0.00</div>
                         </div>
                     </div>
 
@@ -374,18 +374,18 @@ include_once ('elements/header.php');
             <div class="stock-card" >
 
                 <div class="">
-                    <div class="metal-title">Platinum</div>
+                    <div class="metal-title">Copper</div>
 
-                    <div class="market-title">S&amp;P 500</div>
+                    <div class="market-title ">COPPER</div>
                     
-                    <div class="d-flex justify-content-between px-5">
+                    <div class="d-flex justify-content-between px-5 mt-2">
                         <div>
                             <p class="mb-0 fs-6">Bid</p>
-                            <div class="text-danger fw-bold">1.15959</div>
+                            <div class="text-danger fw-bold COPPER-bid">0.00</div>
                         </div>
                         <div>
                             <p class="mb-0 fs-5">Ask</p>
-                            <div class="text-success fw-bold">1.15963</div>
+                            <div class="text-success fw-bold COPPER-ask">0.00</div>
                         </div>
                     </div>
 
@@ -417,6 +417,48 @@ include_once ('elements/header.php');
         </a>
     </div>
 </div>
+
+<script>
+    // List of symbols to fetch
+    const symbols = ["COPPER", "XAUUSD", "XAGUSD"];
+
+    function fetchMarketData() {
+        $.ajax({
+            url: 'https://93.190.139.146:5000/data',
+            method: 'GET',
+            dataType: 'json',
+            success: function(response) {
+
+                // Filter objects that match any of the symbols
+                const filteredData = response.filter(item => 
+                    symbols.some( symbol => item.Symbol.includes( symbol ) )
+                );
+
+                if (filteredData.length > 0) {
+                    // $('#companyData').text( JSON.stringify( filteredData, null, 2 ) );
+
+                    // Loop through filteredData with $.each
+                    $.each(filteredData, function(index, company) {
+
+                        // Remove trailing dots (.) from Symbol
+                        const cleanedSymbol = company.Symbol.replace(/\.+$/, '');
+                        
+                        // Append each company's data to the div
+                        $("."+cleanedSymbol+"-bid").text( company.Bid );
+                        $("."+cleanedSymbol+"-ask").text( company.Ask );
+                    });
+                } else {
+                    $('#companyData').text('No matching company data found.');
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('Error fetching data:', error);
+            }
+        });
+    }
+
+    setInterval(fetchMarketData, 1000); // Fetch every 1 second
+</script>
 
 <style>
     .stock-section {
@@ -586,38 +628,40 @@ include_once ('elements/header.php');
 </section>
 
 <?php
+$featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
+
 $featureIconArr = [
     [
         'icon' => 'assets/images/gold-silver-platinum.png',
-        'title' => 'Gold, Silver, Platinum'
+        'title' => 'Safe-haven assets'
     ],
     [
         'icon' => 'assets/images/leverage.png',
-        'title' => 'Up to 1:500 Leverage'
+        'title' => 'Hedge against inflation'
     ],
     [
         'icon' => 'assets/images/0-commission.png',
-        'title' => '0 Commission'
+        'title' => 'High global demand'
     ],
     [
         'icon' => 'assets/images/spread-pips.png',
-        'title' => 'Spread from 0.1 Pips'
+        'title' => 'High liquidity in gold & silver'
     ],
     [
         'icon' => 'assets/images/10-tier-provider.png',
-        'title' => '10+ Tier 1 Liquidity provider'
+        'title' => 'Store of long-term value'
     ],
     [
         'icon' => 'assets/images/all-stratagies.png',
-        'title' => 'All Stratagies Allowed'
+        'title' => 'Leverage opportunities'
     ],
     [
         'icon' => 'assets/images/ny4-server.png',
-        'title' => 'NY4 Servers'
+        'title' => 'Crisis and recession protection'
     ],
     [
         'icon' => 'assets/images/trusted-ragulated.png',
-        'title' => 'Trusted & Regulated'
+        'title' => 'Benchmark commodities'
     ],
 ];
 

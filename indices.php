@@ -704,38 +704,40 @@ include_once ('elements/header.php');
 </section>
 
 <?php
+$featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
+
 $featureIconArr = [
     [
         'icon' => 'assets/images/over-15+indicies.png',
-        'title' => 'Over 15+ Indices'
+        'title' => 'Built-in diversification'
     ],
     [
         'icon' => 'assets/images/leverage.png',
-        'title' => 'Leverage'
+        'title' => 'Lower single-stock risk'
     ],
     [
         'icon' => 'assets/images/0-commission.png',
-        'title' => '0 Commission'
+        'title' => 'Cost-efficient'
     ],
     [
         'icon' => 'assets/images/spread-pips.png',
-        'title' => 'Spread 0.0 Pips'
+        'title' => 'Leverage available'
     ],
     [
         'icon' => 'assets/images/10-tier-provider.png',
-        'title' => '10+ Tier liquidity Providers'
+        'title' => 'Transparent pricing'
     ],
     [
         'icon' => 'assets/images/ny4-server.png',
-        'title' => 'NY4 Servers'
+        'title' => 'Volatile & active markets'
     ],
     [
         'icon' => 'assets/images/all-stratagies.png',
-        'title' => 'All Stratagies'
+        'title' => 'Portfolio hedging'
     ],
     [
         'icon' => 'assets/images/trusted-ragulated.png',
-        'title' => 'Trusted Regulated'
+        'title' => 'Wide global choices'
     ],
 ];
 

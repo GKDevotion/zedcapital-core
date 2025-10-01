@@ -394,6 +394,8 @@ include_once('elements/header.php');
 </div>
 
 <?php
+$featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
+
 $featureIconArr = [
     [
         'icon' => 'assets/images/education-daily-analysis.png',

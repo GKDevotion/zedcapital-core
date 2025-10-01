@@ -321,6 +321,13 @@ include_once ('elements/header.php');
         margin-bottom: 2rem;
     }
 
+    .sl-divider {
+        height: 1px;
+        width: 80px;
+        background-color: var(--zed-dark-text);
+        margin: 25px auto;
+    }
+
     @media (max-width: 767px) {
         .commodoties-card {
             min-height: 370px;
@@ -341,21 +348,24 @@ include_once ('elements/header.php');
     <!-- Card group row -->
     <div class="row justify-content-center card-group-row">
         <!-- GOLD CARD -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-md-6 col-lg-4 d-flex px-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
                 <img src="assets/images/brent-oil.png" class="w-75" alt="Brent Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title text-green">Brent Crude Oil</div>
-                <div class="market-title fw-bold">XBRUSD</div>
-                <div class="d-flex justify-content-between px-5">
+                <div class="market-title fw-bold d-none">XBRUSD</div>
+                <div class="d-flex justify-content-between px-5 mt-4">
                     <div>
                         <p class="mb-0 fs-6">Bid</p>
-                        <div class="text-success fw-bold">1.15959</div>
+                        <div class="text-success fw-bold BRENT-bid">0.00</div>
                     </div>
                     <div>
                         <p class="mb-0 fs-5">Ask</p>
-                        <div class="text-danger fw-bold">1.15963</div>
+                        <div class="text-danger fw-bold BRENT-ask">0.00</div>
                     </div>
                 </div>
+
+                <div class="sl-divider"></div>
+
                 <div class="my-2 d-none">
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
@@ -372,21 +382,24 @@ include_once ('elements/header.php');
         </div>
 
         <!-- SILVER CARD -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-md-6 col-lg-4 d-flex px-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
                 <img src="assets/images/wti-oil.png" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">WTI Crude Oil</div>
-                <div class="market-title fw-bold">XTIUSD</div>
-                <div class="d-flex justify-content-between px-5">
+                <div class="market-title fw-bold d-none">XTIUSD</div>
+                <div class="d-flex justify-content-between px-5 mt-4">
                     <div>
                         <p class="mb-0 fs-6">Bid</p>
-                        <div class="text-success fw-bold">1.15959</div>
+                        <div class="text-success fw-bold WTI-bid">0.00</div>
                     </div>
                     <div>
                         <p class="mb-0 fs-5">Ask</p>
-                        <div class="text-danger fw-bold">1.15963</div>
+                        <div class="text-danger fw-bold WTI-ask">0.00</div>
                     </div>
                 </div>
+
+                <div class="sl-divider"></div>
+                
                 <div class="my-2 d-none">
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
@@ -403,21 +416,24 @@ include_once ('elements/header.php');
         </div>
 
         <!-- PLATINUM CARD -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-md-6 col-lg-4 d-flex px-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
                 <img src="assets/images/natural-gas.png" class="w-75" alt="natural Gas" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">Natural Gas</div>
-                <div class="market-title fw-bold">XYIUSD</div>
-                <div class="d-flex justify-content-between px-5">
+                <div class="market-title fw-bold d-none">XYIUSD</div>
+                <div class="d-flex justify-content-between px-5 mt-4">
                     <div>
                         <p class="mb-0 fs-6">Bid</p>
-                        <div class="text-success fw-bold">1.15959</div>
+                        <div class="text-success fw-bold NGAS-bid">0.00</div>
                     </div>
                     <div>
                         <p class="mb-0 fs-5">Ask</p>
-                        <div class="text-danger fw-bold">1.15963</div>
+                        <div class="text-danger fw-bold NGAS-ask">0.00</div>
                     </div>
                 </div>
+
+                <div class="sl-divider"></div>
+
                 <div class="my-2 d-none">
                     <small>Spread</small> 
                     <div class="fw-bold">0</div>
@@ -436,6 +452,47 @@ include_once ('elements/header.php');
 
 </div>
 
+<script>
+    // List of symbols to fetch
+    const symbols = ["NGAS", "WTI", "BRENT"];
+
+    function fetchMarketData() {
+        $.ajax({
+            url: 'https://93.190.139.146:5000/data',
+            method: 'GET',
+            dataType: 'json',
+            success: function(response) {
+
+                // Filter objects that match any of the symbols
+                const filteredData = response.filter(item => 
+                    symbols.some( symbol => item.Symbol.includes( symbol ) )
+                );
+
+                if (filteredData.length > 0) {
+                    // $('#companyData').text( JSON.stringify( filteredData, null, 2 ) );
+
+                    // Loop through filteredData with $.each
+                    $.each(filteredData, function(index, company) {
+
+                        // Remove trailing dots (.) from Symbol
+                        const cleanedSymbol = company.Symbol.replace(/\.+$/, '');
+                        
+                        // Append each company's data to the div
+                        $("."+cleanedSymbol+"-bid").text( company.Bid );
+                        $("."+cleanedSymbol+"-ask").text( company.Ask );
+                    });
+                } else {
+                    $('#companyData').text('No matching company data found.');
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('Error fetching data:', error);
+            }
+        });
+    }
+
+    setInterval(fetchMarketData, 1000); // Fetch every 1 second
+</script>
 <style>
     .commodities-section {
         color: white;
@@ -607,38 +664,39 @@ include_once ('elements/header.php');
 </section>
 
 <?php
+$featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
 $featureIconArr = [
     [
         'icon' => 'assets/images/education-daily-analysis.png',
-        'title' => 'Access to a wideRange of Instruments'
+        'title' => 'Exposure to real assets'
     ],
     [
         'icon' => 'assets/images/news-live-market.png',
-        'title' => 'Advance Charting and Analytical Tools'
+        'title' => 'Safe-haven during uncertainty'
     ],
     [
         'icon' => 'assets/images/account-setup.png',
-        'title' => 'Fast Execution with Low Latency'
+        'title' => 'Global supply & demand driven'
     ],
     [
         'icon' => 'assets/images/instant-deposite.png',
-        'title' => 'Improved Market Depth'
+        'title' => 'Portfolio diversification'
     ],
     [
         'icon' => 'assets/images/withdrawals.png',
-        'title' => 'Supports Both Hedging and Netting'
+        'title' => 'High liquidity in key contracts'
     ],
     [
         'icon' => 'assets/images/competitive-commission.png',
-        'title' => 'Built-in Trading Calendar'
+        'title' => 'Transparent international pricing'
     ],
     [
         'icon' => 'assets/images/top-tier-liquidity.png',
-        'title' => 'Available Across Multiple Devices'
+        'title' => 'Profit both long & short'
     ],
     [
         'icon' => 'assets/images/user-friendly.png',
-        'title' => 'Effective Hedging Ability'
+        'title' => 'Active & volatile markets'
     ],
 ];
 

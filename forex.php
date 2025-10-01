@@ -668,38 +668,40 @@ include_once ('elements/header.php');
 </section>
 
 <?php
+$featureIconTitle = "Professional Trading Solutions for Global Currencies";
+
 $featureIconArr = [
     [
         'icon' => 'assets/images/50+fx-pairs.png',
-        'title' => '50+ FX Pairs at Your Fingertips'
+        'title' => 'High liquidity'
     ],
     [
         'icon' => 'assets/images/unbeatable-spread.png',
-        'title' => 'Unbeatable Spreads from 0.0 Pipes'
+        'title' => 'Low entry capital'
     ],
     [
         'icon' => 'assets/images/10-tier-provider.png',
-        'title' => '10+ Tier Liquidity Provider'
+        'title' => 'Profit both ways'
     ],
     [
         'icon' => 'assets/images/ny4-server.png',
-        'title' => 'Lighting-Fast NY4 Servers'
+        'title' => 'Wide currency pairs'
     ],
     [
         'icon' => 'assets/images/leverage.png',
-        'title' => 'Upto 1:1000 Leverage'
+        'title' => 'Tight spreads'
     ],
     [
         'icon' => 'assets/images/all-stratagies.png',
-        'title' => 'All Strategies Welcome'
+        'title' => 'Hedging options'
     ],
     [
         'icon' => 'assets/images/no-requotes.png',
-        'title' => 'No Requotes-Ever'
+        'title' => 'Flexible lot sizes'
     ],
     [
         'icon' => 'assets/images/trusted-ragulated.png',
-        'title' => 'Trusted & Regulated'
+        'title' => 'Mobile & algo trading'
     ],
 ];
 
