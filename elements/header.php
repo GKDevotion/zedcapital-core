@@ -128,7 +128,7 @@
                                         </a>
                                         </li>
                                         <li>
-                                        <a class="dropdown-item" href="trading-view-market.php">
+                                        <a class="dropdown-item d-none" href="trading-view-market.php">
                                             <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                             Trading View Market
                                         </a>

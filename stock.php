@@ -711,35 +711,35 @@ $featureIconTitle = "Advanced Market Access to Global Equities";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/diverse-global-stocks.png',
+        'icon' => 'assets/images/flat-icon/Access-global-stocks.png',
         'title' => 'Access global stocks'
     ],
     [
-        'icon' => 'assets/images/low-commission.png',
+        'icon' => 'assets/images/flat-icon/No-ownership-required.png',
         'title' => 'No ownership required'
     ],
     [
-        'icon' => 'assets/images/leverage.png',
+        'icon' => 'assets/images/flat-icon/Trade-both-directions.png',
         'title' => 'Trade both directions'
     ],
     [
-        'icon' => 'assets/images/instant-execution.png',
+        'icon' => 'assets/images/flat-icon/Low-capital-entry.png',
         'title' => 'Low capital entry'
     ],
     [
-        'icon' => 'assets/images/dividends-passes-on.png',
+        'icon' => 'assets/images/flat-icon/Quick-execution.png',
         'title' => 'Quick execution'
     ],
     [
-        'icon' => 'assets/images/mt5-platform.png',
+        'icon' => 'assets/images/flat-icon/Hedge-portfolios.png',
         'title' => 'Hedge portfolios'
     ],
     [
-        'icon' => 'assets/images/competitive-pricing.png',
+        'icon' => 'assets/images/flat-icon/No-custody-fees.png',
         'title' => 'No custody fees'
     ],
     [
-        'icon' => 'assets/images/trusted-ragulated.png',
+        'icon' => 'assets/images/flat-icon/Flexible-lot-sizes.png',
         'title' => 'Flexible lot sizes'
     ],
 ];

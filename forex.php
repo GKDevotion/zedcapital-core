@@ -672,35 +672,35 @@ $featureIconTitle = "Professional Trading Solutions for Global Currencies";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/50+fx-pairs.png',
+        'icon' => 'assets/images/flat-icon/High-liquidity.png',
         'title' => 'High liquidity'
     ],
     [
-        'icon' => 'assets/images/unbeatable-spread.png',
+        'icon' => 'assets/images/flat-icon/Low-entry-capital.png',
         'title' => 'Low entry capital'
     ],
     [
-        'icon' => 'assets/images/10-tier-provider.png',
+        'icon' => 'assets/images/flat-icon/Profit-both-ways.png',
         'title' => 'Profit both ways'
     ],
     [
-        'icon' => 'assets/images/ny4-server.png',
+        'icon' => 'assets/images/flat-icon/Wide-currency-pairs.png',
         'title' => 'Wide currency pairs'
     ],
     [
-        'icon' => 'assets/images/leverage.png',
+        'icon' => 'assets/images/flat-icon/Tight-spreads.png',
         'title' => 'Tight spreads'
     ],
     [
-        'icon' => 'assets/images/all-stratagies.png',
+        'icon' => 'assets/images/flat-icon/Hedging-options.png',
         'title' => 'Hedging options'
     ],
     [
-        'icon' => 'assets/images/no-requotes.png',
+        'icon' => 'assets/images/flat-icon/Flexible-lot-sizes.png',
         'title' => 'Flexible lot sizes'
     ],
     [
-        'icon' => 'assets/images/trusted-ragulated.png',
+        'icon' => 'assets/images/flat-icon/Mobile-algo-trading.png',
         'title' => 'Mobile & algo trading'
     ],
 ];

@@ -632,35 +632,35 @@ $featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/gold-silver-platinum.png',
+        'icon' => 'assets/images/flat-icon/Safe-haven-assets.png',
         'title' => 'Safe-haven assets'
     ],
     [
-        'icon' => 'assets/images/leverage.png',
+        'icon' => 'assets/images/flat-icon/Hedge-against-inflation.png',
         'title' => 'Hedge against inflation'
     ],
     [
-        'icon' => 'assets/images/0-commission.png',
+        'icon' => 'assets/images/flat-icon/High-global-demand.png',
         'title' => 'High global demand'
     ],
     [
-        'icon' => 'assets/images/spread-pips.png',
+        'icon' => 'assets/images/flat-icon/High-liquidity.png',
         'title' => 'High liquidity in gold & silver'
     ],
     [
-        'icon' => 'assets/images/10-tier-provider.png',
+        'icon' => 'assets/images/flat-icon/Store-of-long-term-value.png',
         'title' => 'Store of long-term value'
     ],
     [
-        'icon' => 'assets/images/all-stratagies.png',
+        'icon' => 'assets/images/flat-icon/Leverage-opportunities.png',
         'title' => 'Leverage opportunities'
     ],
     [
-        'icon' => 'assets/images/ny4-server.png',
+        'icon' => 'assets/images/flat-icon/Crisis-and-recession-protection.png',
         'title' => 'Crisis and recession protection'
     ],
     [
-        'icon' => 'assets/images/trusted-ragulated.png',
+        'icon' => 'assets/images/flat-icon/Benchmark-commodities.png',
         'title' => 'Benchmark commodities'
     ],
 ];

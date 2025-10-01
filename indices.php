@@ -708,35 +708,35 @@ $featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/over-15+indicies.png',
+        'icon' => 'assets/images/flat-icon/Built-in-diversification.png',
         'title' => 'Built-in diversification'
     ],
     [
-        'icon' => 'assets/images/leverage.png',
+        'icon' => 'assets/images/flat-icon/Lower-single-stock-risk.png',
         'title' => 'Lower single-stock risk'
     ],
     [
-        'icon' => 'assets/images/0-commission.png',
+        'icon' => 'assets/images/flat-icon/Cost-efficient.png',
         'title' => 'Cost-efficient'
     ],
     [
-        'icon' => 'assets/images/spread-pips.png',
+        'icon' => 'assets/images/flat-icon/Leverage-available.png',
         'title' => 'Leverage available'
     ],
     [
-        'icon' => 'assets/images/10-tier-provider.png',
+        'icon' => 'assets/images/flat-icon/Transparent-pricing.png',
         'title' => 'Transparent pricing'
     ],
     [
-        'icon' => 'assets/images/ny4-server.png',
+        'icon' => 'assets/images/flat-icon/Volatile-active-markets.png',
         'title' => 'Volatile & active markets'
     ],
     [
-        'icon' => 'assets/images/all-stratagies.png',
+        'icon' => 'assets/images/flat-icon/Hedging-options.png',
         'title' => 'Portfolio hedging'
     ],
     [
-        'icon' => 'assets/images/trusted-ragulated.png',
+        'icon' => 'assets/images/flat-icon/Wide-global-choices.png',
         'title' => 'Wide global choices'
     ],
 ];

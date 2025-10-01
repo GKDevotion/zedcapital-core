@@ -721,35 +721,35 @@ $featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/education-daily-analysis.png',
+        'icon' => 'assets/images/flat-icon/Trade-24-7without-market-closures.png',
         'title' => 'Trade 24/7 without market closures'
     ],
     [
-        'icon' => 'assets/images/news-live-market.png',
+        'icon' => 'assets/images/flat-icon/Volatile-active-markets.png',
         'title' => 'High volatility for profit potential'
     ],
     [
-        'icon' => 'assets/images/account-setup.png',
+        'icon' => 'assets/images/flat-icon/Low-entry-cost-for-all-traders.png',
         'title' => 'Low entry cost for all traders'
     ],
     [
-        'icon' => 'assets/images/instant-deposite.png',
+        'icon' => 'assets/images/flat-icon/Built-in-diversification.png',
         'title' => 'Diversify beyond traditional assets'
     ],
     [
-        'icon' => 'assets/images/withdrawals.png',
+        'icon' => 'assets/images/flat-icon/Wide-global-choices.png',
         'title' => 'Wide range of coins and tokens'
     ],
     [
-        'icon' => 'assets/images/competitive-commission.png',
+        'icon' => 'assets/images/flat-icon/Fast-blockchain-settlements.png',
         'title' => 'Fast blockchain settlements'
     ],
     [
-        'icon' => 'assets/images/withdrawals.png',
+        'icon' => 'assets/images/flat-icon/Transparent-pricing.png',
         'title' => 'Transparent and decentralized markets'
     ],
     [
-        'icon' => 'assets/images/competitive-commission.png',
+        'icon' => 'assets/images/flat-icon/Growing-global-adoption-and-demand.png',
         'title' => 'Growing global adoption and demand'
     ],
 ];

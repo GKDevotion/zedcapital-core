@@ -667,35 +667,35 @@ include_once ('elements/header.php');
 $featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
 $featureIconArr = [
     [
-        'icon' => 'assets/images/education-daily-analysis.png',
+        'icon' => 'assets/images/flat-icon/Exposure-to-real-assets.png',
         'title' => 'Exposure to real assets'
     ],
     [
-        'icon' => 'assets/images/news-live-market.png',
+        'icon' => 'assets/images/flat-icon/Safe-haven-during-uncertainty.png',
         'title' => 'Safe-haven during uncertainty'
     ],
     [
-        'icon' => 'assets/images/account-setup.png',
+        'icon' => 'assets/images/flat-icon/Global-supply-demand-drive.png',
         'title' => 'Global supply & demand driven'
     ],
     [
-        'icon' => 'assets/images/instant-deposite.png',
+        'icon' => 'assets/images/flat-icon/Built-in-diversification.png',
         'title' => 'Portfolio diversification'
     ],
     [
-        'icon' => 'assets/images/withdrawals.png',
+        'icon' => 'assets/images/flat-icon/High-liquidity.png',
         'title' => 'High liquidity in key contracts'
     ],
     [
-        'icon' => 'assets/images/competitive-commission.png',
+        'icon' => 'assets/images/flat-icon/Transparent-pricing.png',
         'title' => 'Transparent international pricing'
     ],
     [
-        'icon' => 'assets/images/top-tier-liquidity.png',
+        'icon' => 'assets/images/flat-icon/Profit-both-long-short.png',
         'title' => 'Profit both long & short'
     ],
     [
-        'icon' => 'assets/images/user-friendly.png',
+        'icon' => 'assets/images/flat-icon/Volatile-active-markets.png',
         'title' => 'Active & volatile markets'
     ],
 ];
