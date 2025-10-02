@@ -148,19 +148,6 @@ if (false) {
 
             <div class="col-md-3 col-lg-3 col-sm-12 px-4 py-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="img-div">
-                    <img src="assets/images/24x7-support.gif" />
-                </div>
-                <h5 class="mt-1 fw-bold">
-                    <p class="mb-0 pb-2">24x7</p>
-                    <p class="mb-0 pb-2">Support</p>
-                </h5>
-                <p class="mb-0 text-gray">
-                    Your trusted trading partner, with dedicated experts available around the clock to assist and resolve.
-                </p>
-            </div>
-
-            <div class="col-md-3 col-lg-3 col-sm-12 px-4 py-4" data-aos="fade-up" data-aos-duration="800">
-                <div class="img-div">
                     <img src="assets/images/nominee-fund-protection.gif" />
                 </div>
                 <h5 class="mt-1 fw-bold">
@@ -182,6 +169,19 @@ if (false) {
                 </h5>
                 <p class="mb-0 text-gray">
                     Access deep liquidity and tight spreads with top-tier global providers — ensuring fast execution and reliable market access.
+                </p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-12 px-4 py-4" data-aos="fade-up" data-aos-duration="800">
+                <div class="img-div">
+                    <img src="assets/images/24x7-support.gif" />
+                </div>
+                <h5 class="mt-1 fw-bold">
+                    <p class="mb-0 pb-2">24x7</p>
+                    <p class="mb-0 pb-2">Support</p>
+                </h5>
+                <p class="mb-0 text-gray">
+                    Your trusted trading partner, with dedicated experts available around the clock to assist and resolve.
                 </p>
             </div>
         </div>

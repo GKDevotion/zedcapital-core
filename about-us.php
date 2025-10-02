@@ -150,6 +150,9 @@ include_once ('elements/header.php');
         transform: translateY(-50px);
     }
 
+    .hover-translateY .card{
+        min-height: 450px;
+    }
     @media (max-width: 768px) {
         .mission-value {
             padding: 100px 0 0 0;
@@ -182,9 +185,12 @@ include_once ('elements/header.php');
                             Mission
                         </a>
                     </h2>
-                    <p class="text-gray">We envision Zed Capital as a thriving international financial trading entity, delivering steadfast brokerage services while maximizing benefits</p>
-                    <p>delivering steadfast brokerage services while maximizing benefits</p>
-                    <p class="bold">We envision Zed Capital as a thriving international financial trading entity, delivering steadfast brokerage services while maximizing benefits</p>
+                    <p class="text-gray justify-content">
+                        Our mission is to deliver secure, transparent, and comprehensive capital market solutions that empower clients to trade and invest with confidence, clarity, and control.
+                    </p>
+                    <p class=" justify-content">
+                        We are committed to offering equal access to global markets across diverse asset classes, while deploying innovative platforms and technologies that enhance both execution and decision-making. By promoting financial literacy and education, we enable clients to trade smarter and with greater assurance. Through industry-leading risk management, we safeguard client interests and build sustainable relationships founded on trust, performance, and transparency.
+                    </p>
                 </div>
             </div>
 
@@ -199,9 +205,12 @@ include_once ('elements/header.php');
                             Vision
                         </a>
                     </h2>
-                    <p class="text-gray">We envision Zed Capital as a thriving international financial trading entity, delivering steadfast brokerage services while maximizing benefits</p>
-                    <p>delivering steadfast brokerage services while maximizing benefits</p>
-                    <p class="bold">We envision Zed Capital as a thriving international financial trading entity, delivering steadfast brokerage services while maximizing benefits</p>
+                    <p class="text-gray justify-content">
+                        To be recognized as a trusted global leader in financial markets, admired for our integrity, innovation, and long-term value creation.
+                    </p>
+                    <p class=" justify-content">
+                        We aspire to become the preferred partner for individuals, corporates, and institutions worldwide, leading the way in digital transformation and next-generation trading technologies. By setting benchmarks in regulation, compliance, and ethical business practices, we aim to expand access to global markets while strengthening financial security and resilience. Ultimately, we seek to build a lasting legacy of growth and innovation that endures across generations
+                    </p>
                 </div>
              </div>
         </div>
@@ -500,14 +509,26 @@ include_once ('elements/header.php');
             <!-- Right Text -->
             <div class="col-md-5 d-flex justify-content-center align-items-center">
                 <div class="regulatory-right">
-                    <h2 class="h1 fw-bold">Start trading the global markets with a regulated broker</h2>
+                    <h2 class="h1 fw-bold">Operates under strict global regulatory and compliance standards:</h2>
                     <span class="underline"></span>
                     <ul>
-                        <li class="text-gray">Licensing Authority</li>
-                        <li class="text-gray">Safety in Trading</li>
-                        <li class="text-gray">Adherence to Regulations</li>
-                        <li class="text-gray">Client Trust</li>
+                        <li class="text-gray">
+                            Licensed and regulated by the Financial Services Commission (FSC), Mauritius.
+                        </li>
+                        <li class="text-gray">
+                            Client deposits maintained in segregated accounts with leading international banks.
+                        </li>
+                        <li class="text-gray">
+                            Full adherence to international financial standards and AML/CTF frameworks.
+                        </li>
+                        <li class="text-gray">
+                            Regular independent audits and transparent reporting.
+                        </li>
                     </ul>
+
+                    <p class="mt-4">
+                        This ensures that every client operates in a secure, compliant, and trustworthy environment.
+                    </p>
                 </div>
             </div>
         </div>
@@ -529,6 +550,10 @@ include_once ('elements/header.php');
 
     .card-background:hover {
         border: 1px solid var(--zed-secondary);
+    }
+
+    .position-relative .card-background{
+        min-height: 190px;
     }
 </style>
 
