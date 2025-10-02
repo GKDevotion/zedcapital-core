@@ -153,6 +153,10 @@ include_once ('elements/header.php');
     .hover-translateY .card{
         min-height: 450px;
     }
+
+    .text-justify{
+        text-align: justify;
+    }
     @media (max-width: 768px) {
         .mission-value {
             padding: 100px 0 0 0;
@@ -185,10 +189,10 @@ include_once ('elements/header.php');
                             Mission
                         </a>
                     </h2>
-                    <p class="text-gray justify-content">
+                    <p class="text-gray text-justify">
                         Our mission is to deliver secure, transparent, and comprehensive capital market solutions that empower clients to trade and invest with confidence, clarity, and control.
                     </p>
-                    <p class=" justify-content">
+                    <p class=" text-justify">
                         We are committed to offering equal access to global markets across diverse asset classes, while deploying innovative platforms and technologies that enhance both execution and decision-making. By promoting financial literacy and education, we enable clients to trade smarter and with greater assurance. Through industry-leading risk management, we safeguard client interests and build sustainable relationships founded on trust, performance, and transparency.
                     </p>
                 </div>
@@ -205,10 +209,10 @@ include_once ('elements/header.php');
                             Vision
                         </a>
                     </h2>
-                    <p class="text-gray justify-content">
+                    <p class="text-gray text-justify">
                         To be recognized as a trusted global leader in financial markets, admired for our integrity, innovation, and long-term value creation.
                     </p>
-                    <p class=" justify-content">
+                    <p class=" text-justify">
                         We aspire to become the preferred partner for individuals, corporates, and institutions worldwide, leading the way in digital transformation and next-generation trading technologies. By setting benchmarks in regulation, compliance, and ethical business practices, we aim to expand access to global markets while strengthening financial security and resilience. Ultimately, we seek to build a lasting legacy of growth and innovation that endures across generations
                     </p>
                 </div>
