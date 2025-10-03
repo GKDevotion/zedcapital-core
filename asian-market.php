@@ -202,11 +202,21 @@ include_once ('elements/header.php');
 </div>
 
 <style>
+
+    .tse-bg-market-image{
+        background-image: url('assets/images/markets/tokyo.jpg');
+        background-size: cover;
+    }
+
+    .sse-bg-market-image{
+        background-image: url('assets/images/markets/shanghai.jpg');
+        background-size: cover;
+    }
+
     .card-custom {
         border-radius: 15px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         padding: 30px;
-        background: #fff;
         min-height: 430px;
     }
     .img-icon {
@@ -254,26 +264,11 @@ include_once ('elements/header.php');
     <div class="row">
         <!-- Stock Market Card -->
         <div class="col-lg-4">
-            <div class="card-custom text-dark">
-                <h3 class="fw-bold">Tokyo Stock Exchange (TSE)</h3>
-                <p class="mt-5 text-gray">
+            <div class="card-custom text-dark tse-bg-market-image">
+                <h3 class="fw-bold p-3 m-0">Tokyo Stock Exchange (TSE)</h3>
+                <p class="mt-2 p-3 text-gray">
                     Asia's largest exchange, best known for the <b>Nikkei 225 Index</b> and global leaders like Toyota and Sony.
                 </p>
-
-                <div class="row">
-                    <div class="col-6">
-                        <p class="fs-6 text-black">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                    </div>
-
-                    <div class="col-6">
-                        <div class="text-end">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Tokyo_Stock_Exchange_logo.svg" class="w-75" alt="NYSE">
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
@@ -368,18 +363,11 @@ include_once ('elements/header.php');
 
         <!-- Right Card Section -->
         <div class="col-lg-4">
-            <div class="card-custom text-dark pb-0">
-                <h3 class="fw-bold">Shanghai Stock Exchange (SSE)</h3>
-                <p class="mt-5 text-gray">
+            <div class="card-custom text-dark pb-0 sse-bg-market-image">
+                <h3 class="fw-bold p-3 m-0">Shanghai Stock Exchange (SSE)</h3>
+                <p class="m-0 p-3 text-gray w-75">
                     Among the world's largest by market cap, featuring major Chinese state-owned enterprises.
                 </p>
-
-                <p class="w-75 text-black">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <div class="mt-4 text-end">
-                    <img src="assets/images/shanghai.png" alt="Bull and Bear" class="bull-bear-img">
-                </div>
             </div>
         </div>
 
@@ -428,6 +416,10 @@ include_once ('elements/header.php');
     }
     .icon-circle i{
         font-size: 35px;
+    }
+
+    .icon-circle img{
+        width: 50px;
     }
     
     .opp-h-fix{
@@ -488,7 +480,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold mb-1">Currency</h5>
                             <p class="mb-0 small-muted">
-                                Active trading opportunities in JPY, CNY, INR, and SGD.
+                                Tap into dynamic trading Opportunities to trade actively in JPY, CNY, INR, and SGD.
                             </p>
                         </div>
                     </div>
@@ -505,10 +497,11 @@ include_once ('elements/header.php');
             <div class="col-lg-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-shop"></i>
+                        <i class="text-red bi bi-shop d-none"></i>
+                        <img src="assets/images/flat-icon/Regulatory-Complexity.png" alt="Regulatory Complexity">
                     </div>
                     <h5 class="fw-bold text-center">Regulatory Shifts</h5>
-                    <p class="small-muted mb-0">
+                    <p class="small-muted mb-0 text-center">
                         Policy changes in China, India, and Japan can create uncertainty.
                     </p>
                 </div>
@@ -516,10 +509,11 @@ include_once ('elements/header.php');
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-regex"></i>
+                        <i class="text-red bi bi-regex d-none"></i>
+                        <img src="assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
                     </div>
                     <h5 class="fw-bold text-center">Geopolitical Tensions</h5>
-                    <p class="small-muted mb-0">
+                    <p class="small-muted mb-0 text-center">
                         Trade disputes, territorial conflicts, and U.S.-China relations impact sentiment.
                     </p>
                 </div>
@@ -527,10 +521,11 @@ include_once ('elements/header.php');
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-globe"></i>
+                        <i class="text-red bi bi-globe d-none"></i>
+                        <img src="assets/images/flat-icon/Currency-Volatility.png" alt="Currency Volatility">
                     </div>
                     <h5 class="fw-bold text-center">Currency Volatility</h5>
-                    <p class="small-muted mb-0">
+                    <p class="small-muted mb-0 text-center">
                         Asian currencies can fluctuate sharply in response to capital flows and central bank decisions.
                     </p>
                 </div>
@@ -538,17 +533,18 @@ include_once ('elements/header.php');
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-arrow-repeat"></i>
+                        <i class="text-red bi bi-arrow-repeat d-none"></i>
+                        <img src="assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
                     </div>
                     <h5 class="fw-bold text-center">Market Fragmentation</h5>
-                    <p class="small-muted mb-0">
+                    <p class="small-muted mb-0 text-center">
                         Diverse regulatory environments across Asia require careful market-by-market strategies.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-12">
-                <div class="p-3 bg-white">
+                <div class="p-3 pb-0 bg-white">
                     <p>
                         At <b>Zed Capital International Ltd</b>, we help clients evaluate these challenges with structured analysis and risk management frameworks.
                     </p>
@@ -559,12 +555,12 @@ include_once ('elements/header.php');
 </section>
 
 <section class="your-guide">
-    <div class="container py-5">
+    <div class="container border-top py-5">
         <h2 class="h4 mb-3">Zed Capital International Ltd — Your Partner in Asia</h2>
         <div class="row">
             <div class="col-lg-4">
                 <div class="tech-feature mb-3">
-                    <h5>Regional Expertise</h5>
+                    <h5 class="fw-bold">Regional Expertise</h5>
                     <p class="small-muted mb-0">
                         Coverage of Japan, China, India, and Southeast Asian markets.
                     </p>
@@ -573,7 +569,7 @@ include_once ('elements/header.php');
 
             <div class="col-md-4">
                 <div class="tech-feature mb-3">
-                    <h5>Growth Focus</h5>
+                    <h5 class="fw-bold">Growth Focus</h5>
                     <p class="small-muted mb-0">
                         Identification of high-potential sectors and instruments.
                     </p>
@@ -582,7 +578,7 @@ include_once ('elements/header.php');
             
             <div class="col-md-4">
                 <div class="tech-feature">
-                    <h5>Tailored Solutions</h5>
+                    <h5 class="fw-bold">Tailored Solutions</h5>
                     <p class="small-muted mb-0">
                         Strategies aligned with both institutional and private investor objectives.
                     </p>
@@ -591,7 +587,7 @@ include_once ('elements/header.php');
 
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
-                    <h5>Conclusion</h5>
+                    <h5 class="fw-bold">Conclusion</h5>
                     <ul class="mb-0 small-muted">
                         <li>
                             The <b>Asian financial market</b> is more than a regional player — it is the <b>center of global growth and innovation</b>. Its diversity, scale, and momentum make it an essential component of any global investment strategy.

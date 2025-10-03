@@ -1255,7 +1255,7 @@ if (false) {
                 <h2 class="h2">For biginners trader</h2>
             </div>
             <div class="col-12">
-                <p class="f-20 text-gray">stay your trading journey with <b>zedcapital.mu</b></p>
+                <p class="f-20 text-gray">stay your trading journey with <b>zedcapital.com</b></p>
             </div>
         </div>
 
@@ -1278,7 +1278,7 @@ if (false) {
                         </p>
 
                         <div class="w-100">
-                            <button class="demo-button btn">
+                            <button class="demo-button btn openLiveAccount">
                                 <span class="demo-text">Try Demo</span>
                                 <span class="demo-icon">→</span>
                             </button>

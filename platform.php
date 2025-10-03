@@ -253,8 +253,10 @@ include_once('elements/header.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 text-md-start text-center mb-4 mb-md-0" data-aos="fade-up" data-aos-duration="800">
-                <h1 class="display-6 fw-bold mb-3">Top Broker Platforms for <br> Meta Trader 5</h1>
-                <p class="text-gray mb-4">Forex, or foreign exchange, refers to the market where currencies are traded against each other.</p>
+                <h1 class="display-6 fw-bold mb-3">Top Broker Platforms for Meta Trader 5</h1>
+                <p class="text-gray mb-4">
+                    Trade with precision. Operate with confidence.
+                </p>
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start meta-trader-logo-container">
                     <img src="assets/images/meta-trader-5-logo.png" alt="Meta Trader 5 Logo" class="img-fluid me-2" style="width: 300px;" data-aos="fade-up" data-aos-duration="800">
                 </div>
@@ -323,7 +325,9 @@ include_once('elements/header.php');
             </div>
             <div class="col-md-6 d-flex align-items-center justify-content-center">
                 <span class="d-none me-2 arrow">&#9658;</span>
-                <p class="mb-0 text-white small">Available for PC and Mac OS, and without having to download any additional software, the MT5 enables instant access to the global markets.</p>
+                <p class="mb-0 text-white small">
+                    Zed Capital International Ltd (licensed and supervised by the FSC, Mauritius) provides a unified, multi-device trading environment engineered for stability, speed, and security. Execute, analyse, and manage risk seamlessly across desktop, web, and mobile.
+                </p>
 
                 <div class="position-relative set-diamond-image">
                     <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -140px -50px;">
@@ -374,15 +378,28 @@ include_once('elements/header.php');
     <div class="row align-items-center">
         <!-- Left Text Content -->
         <div class="col-lg-5 mb-4" data-aos="fade-up" data-aos-duration="100">
-            <h2 class="h2" data-aos="fade-up" data-aos-duration="250">Experience the Power of MetaTrader 5 with Zed Capital</h2>
+            <h2 class="h2" data-aos="fade-up" data-aos-duration="250">
+                What sets our platform suite apart
+            </h2>
             <div class="highlight-line" data-aos="fade-up" data-aos-duration="400"></div>
-            <p class="section-subtitle" data-aos="fade-up" data-aos-duration="650">
-                ZedCapital proudly presents MetaTrader 5, the industry-leading platform designed for modern traders.
-                With advanced charting tools and sophisticated order management systems, MetaTrader 5 helps you
-                monitor and control your trades efficiently and effectively.
+            <p class="" data-aos="fade-up" data-aos-duration="650">
+                <b>Institutional-grade connectivity:</b> Low-latency routing and resilient uptime for consistent execution.
             </p>
-            <p class="section-note fw-bold" data-aos="fade-up" data-aos-duration="800">
-                Whether you choose our Raw Spread or Standard account, you'll enjoy a seamless trading experience tailored to your needs.
+            <p class="" data-aos="fade-up" data-aos-duration="800">
+                <b>Security by default:</b> Strong encryption, secure authentication, and session controls.
+            </p>
+            <p class="" data-aos="fade-up" data-aos-duration="800">
+                <b>Professional toolset:</b> Advanced order types, Depth of Market, and one-click trading.
+            </p>
+            <p class="" data-aos="fade-up" data-aos-duration="800">
+                <b>Analytical depth:</b> multi-timeframe charting, rich indicators, and custom templates.
+            </p>
+            <p class="" data-aos="fade-up" data-aos-duration="800">
+                <b>True mobility:</b> Synchronized watchlists and preferences across Windows/Mac, Web Trader, and iOS/Android.
+            </p>
+
+            <p data-aos="fade-up" data-aos-duration="800">
+                Product availability, leverage, and margin profiles depend on your region and account classification.
             </p>
         </div>
 

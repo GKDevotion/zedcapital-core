@@ -222,11 +222,21 @@ include_once ('elements/header.php');
 </div>
 
 <style>
+
+    .lse-bg-market-image{
+        background-image: url('assets/images/markets/london-stock-exchange.jpg');
+        background-size: cover;
+    }
+
+    .euronext-bg-market-image{
+        background-image: url('assets/images/markets/euronext.jpg');
+        background-size: cover;
+    }
     .card-custom {
         border-radius: 15px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         padding: 30px;
-        background: #fff;
+        /* background: #fff; */
         min-height: 450px;
     }
     .img-icon {
@@ -274,14 +284,11 @@ include_once ('elements/header.php');
     <div class="row">
         <!-- Stock Market Card -->
         <div class="col-lg-4">
-            <div class="card-custom text-dark">
-                <h3 class="fw-bold">London Stock Exchange (LSE)</h3>
-                <p class="mt-5 text-muted w-75">
+            <div class="card-custom text-dark lse-bg-market-image">
+                <h3 class="fw-bold px-3">London Stock Exchange (LSE)</h3>
+                <p class="mt-3 p-3 text-muted w-75">
                     One of the oldest and most international markets, listing companies from across the globe.
                 </p>
-                <div class="d-flex align-items-center mt-4">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Coat_of_arms_of_the_London_Stock_Exchange.svg" class="stock-img" alt="NYSE">
-                </div>
             </div>
         </div>
 
@@ -364,14 +371,11 @@ include_once ('elements/header.php');
 
         <!-- Right Card Section -->
         <div class="col-lg-4">
-            <div class="card-custom text-dark pb-0">
-                <h3 class="fw-bold">Euronext</h3>
-                <p class="mt-5 text-muted">
+            <div class="card-custom text-dark pb-0 euronext-bg-market-image">
+                <h3 class="fw-bold p-3 m-0">Euronext</h3>
+                <p class="m-0 p-3 text-muted w-75">
                     Europe's largest integrated exchange, spanning multiple financial hubs including Amsterdam, Paris, and Milan.
                 </p>
-                <div class="mt-4 text-end">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Euronext_logo.svg" alt="Bull and Bear" class="bull-bear-img">
-                </div>
             </div>
         </div>
 
@@ -417,6 +421,10 @@ include_once ('elements/header.php');
     }
     .icon-circle i{
         font-size: 35px;
+    }
+
+    .icon-circle img{
+        width: 50px;
     }
     
     .opp-h-fix{
@@ -494,50 +502,54 @@ include_once ('elements/header.php');
             <div class="col-lg-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-shop"></i>
+                        <i class="text-red bi bi-shop d-none"></i>
+                        <img src="assets/images/flat-icon/Fragmentation.png" alt="Fragmentation">
                     </div>
                     <h5 class="fw-bold text-center">Fragmentation</h5>
-                    <p class="small-muted mb-0">
-                        Europe is not a single unified market; regulatory and political differences between EU and non-EU states matter
+                    <p class="small-muted mb-0 text-center">
+                        Europe is not a single unified market; regulatory and political differences between EU and non-EU states matter.
                     </p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-regex"></i>
+                        <i class="text-red bi bi-regex d-none"></i>
+                        <img src="assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
                     </div>
                     <h5 class="fw-bold text-center">Geopolitical Factors</h5>
-                    <p class="small-muted mb-0">
-                        Brexit, energy dependency, and regional tensions influence market sentiment
+                    <p class="small-muted mb-0 text-center">
+                        Market sentiment is influenced by regional tensions, oil dependency, and Brexit.
                     </p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-globe"></i>
+                        <i class="text-red bi bi-globe d-none"></i>
+                        <img src="assets/images/flat-icon/Monetary-Policy.png" alt="Monetary Policy Shift">
                     </div>
                     <h5 class="fw-bold text-center">Monetary Policy Shifts</h5>
-                    <p class="small-muted mb-0">
-                        ECB and Bank of England decisions strongly impact bond yields, currencies, and equity valuations
+                    <p class="small-muted mb-0 text-center">
+                        ECB and Bank of England decisions strongly impact bond yields, currencies, and equity valuations.
                     </p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-arrow-repeat"></i>
+                        <i class="text-red bi bi-arrow-repeat d-none"></i>
+                        <img src="assets/images/flat-icon/Economic-cycle.png" alt="Economic cycle">
                     </div>
                     <h5 class="fw-bold text-center">Economic Cycles</h5>
-                    <p class="small-muted mb-0">
-                        Slower growth or fiscal pressures in member states can create volatility across the bloc
+                    <p class="small-muted mb-0 text-center">
+                        Slower growth or fiscal pressures in member states can create volatility across the bloc.
                     </p>
                 </div>
             </div>
 
-            <div class="col-lg-12">
-                <div class="p-3 bg-white">
+            <div class="col-lg-12 pb-0">
+                <div class="p-3 pb-0 bg-white">
                     <p>
                         At <b>Zed Capital International Ltd</b>, we provide structured risk analysis and balanced strategies to help investors navigate Europe's complexity.
                     </p>
@@ -548,12 +560,12 @@ include_once ('elements/header.php');
 </section>
 
 <section class="your-guide">
-    <div class="container py-5">
+    <div class="container py-5 border-top">
         <h2 class="h4 mb-3">Zed Capital International Ltd — Your Partner in Europe</h2>
         <div class="row">
             <div class="col-lg-4">
                 <div class="tech-feature mb-3">
-                    <h5>Sustainable Focus</h5>
+                    <h5 class="fw-bold">Sustainable Focus</h5>
                     <p class="small-muted mb-0">
                         Guidance on ESG investing, green bonds, and sustainable asset allocation — areas where Europe leads globally
                     </p>
@@ -562,16 +574,16 @@ include_once ('elements/header.php');
 
             <div class="col-md-4">
                 <div class="tech-feature mb-3">
-                    <h5>Comprehensive Coverage</h5>
+                    <h5 class="fw-bold">Comprehensive Coverage</h5>
                     <p class="small-muted mb-0">
-                        From London to Frankfurt and Zurich to Paris, we analyze Europe's key markets
+                        We examine the major markets in Europe, from London to Frankfurt and Zurich to Paris.
                     </p>
                 </div>
             </div>
             
             <div class="col-md-4">
                 <div class="tech-feature">
-                    <h5>Tailored Strategies</h5>
+                    <h5 class="fw-bold">Tailored Strategies</h5>
                     <p class="small-muted mb-0">
                         Insights designed for long-term investors, active traders, and institutional clients alike
                     </p>
@@ -580,7 +592,7 @@ include_once ('elements/header.php');
 
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
-                    <h5>Conclusion</h5>
+                    <h5 class="fw-bold">Conclusion</h5>
                     <ul class="mb-0 small-muted">
                         <li>
                             The <b>European financial market</b> is both diverse and influential — a blend of tradition, innovation, and regulatory strength. Its impact extends across currencies, commodities, equities, and alternative assets, making it a vital component of any global portfolio

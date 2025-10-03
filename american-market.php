@@ -513,6 +513,10 @@ include_once ('elements/header.php');
     .icon-circle i{
         font-size: 35px;
     }
+
+    .icon-circle img{
+        width: 50px;
+    }
     
 </style>
 
@@ -572,40 +576,43 @@ include_once ('elements/header.php');
 </section>
 
 <section class="risks-considerations">
-    <div class="container py-5">
+    <div class="container py-5 pb-0">
         <h2 class="h4 mb-3">Risks and Considerations</h2>
-        <div class="row g-3 pb-5 ">
+        <div class="row g-3 pb-0">
             <div class="col-lg-4">
                 <div class="tech-feature mb-3">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-shop"></i>
+                        <i class="text-red bi bi-shop d-none"></i>
+                        <img src="assets/images/flat-icon/Market-Volatility.png" alt="Market Volatility">
                     </div>
                     <h5 class="fw-bold text-center">Market Volatility</h5>
-                    <p class="small-muted mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics — prepare for drawdowns and use diversification and hedges.</p>
+                    <p class="small-muted text-center mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics — prepare for drawdowns and use diversification and hedges.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="tech-feature mb-3">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-regex"></i>
+                        <i class="text-red bi bi-regex d-none"></i>
+                        <img src="assets/images/flat-icon/Regulatory-Complexity.png" alt="Regulatory Complexity">
                     </div>
                     <h5 class="fw-bold text-center">Regulatory Complexity</h5>
-                    <p class="small-muted mb-0">U.S. markets operate under a robust and evolving compliance framework; tax, disclosure and cross-border rules may affect strategies.</p>
+                    <p class="small-muted text-center mb-0">U.S. markets operate under a robust and evolving compliance framework; tax, disclosure and cross-border rules may affect strategies.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="tech-feature">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-globe"></i>
+                        <i class="text-red bi bi-globe d-none"></i>
+                        <img src="assets/images/flat-icon/Global-Shocks.png" alt="Global Shocks">
                     </div>
                     <h5 class="fw-bold text-center">Global Shocks</h5>
-                    <p class="small-muted mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations — scenario-based planning is essential.</p>
+                    <p class="small-muted text-center mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations — scenario-based planning is essential.</p>
                 </div>
             </div>
 
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
-                    <h5>Zed Capital Risk Approach</h5>
+                    <h5 class="fw-bold">Zed Capital Risk Approach</h5>
                     <ul class="mb-0 small-muted p-0">
                         <li class="mx-4">Disciplined risk management</li>
                         <li class="mx-4">Scenario analysis and stress-testing</li>
@@ -618,31 +625,43 @@ include_once ('elements/header.php');
 </section>
 
 <section class="your-guide">
-    <div class="container py-5">
+    <div class="container border-top py-5">
         <h2 class="h4 mb-3">Zed Capital International Ltd — Your Guide to the U.S. Market</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="tech-feature mb-3">
-                    <h5>Client-Centric Approach</h5>
-                    <p class="small-muted mb-0">Strategies aligned with objectives and risk tolerance.</p>
+                    <h5 class="fw-bold">
+                        Client-Centric Approach
+                    </h5>
+                    <p class="small-muted mb-0">
+                        Strategies aligned with objectives and risk tolerance.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="tech-feature mb-3">
-                    <h5>Institutional Expertise</h5>
-                    <p class="small-muted mb-0">Insights built to global standards.</p>
+                    <h5 class="fw-bold">
+                        Institutional Expertise
+                    </h5>
+                    <p class="small-muted mb-0">
+                        insights that meet international requirements.
+                    </p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="tech-feature">
-                    <h5>Global Outlook</h5>
-                    <p class="small-muted mb-0">Cross-market perspective and multi-jurisdiction experience.</p>
+                    <h5 class="fw-bold">
+                        Global Outlook
+                    </h5>
+                    <p class="small-muted mb-0">
+                        Cross-market perspective and multi-jurisdiction experience.
+                    </p>
                 </div>
             </div>
 
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
-                    <h5>Conclusion</h5>
+                    <h5 class="fw-bold">Conclusion</h5>
                     <ul class="mb-0 small-muted">
                         <li>The American financial market is more than just the largest marketplace — it is the engine of global finance. Its movements determine the flow of capital, shape international policy, and influence economies worldwide.</li>
                         <li>At Zed Capital International Ltd, we provide the knowledge, access, and institutional-level analysis our clients need to navigate this market with confidence. Whether your goal is growth, income, or risk management, our mission is to empower you to succeed in the world's most powerful financial arena.</li>

@@ -183,11 +183,21 @@ include_once ('elements/header.php');
 </div>
 
 <style>
+
+    .se-bg-market-image{
+        background-image: url('assets/images/markets/soudi-exchange.jpg');
+        background-size: cover;
+    }
+
+    .dfm-bg-market-image{
+        background-image: url('assets/images/markets/dfm.jpg');
+        background-size: cover;
+    }
+
     .card-custom {
         border-radius: 15px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         padding: 30px;
-        background: #fff;
         min-height: 450px;
     }
     .img-icon {
@@ -235,14 +245,11 @@ include_once ('elements/header.php');
     <div class="row">
         <!-- Stock Market Card -->
         <div class="col-lg-4">
-            <div class="card-custom text-dark">
-                <h3 class="fw-bold">Saudi Exchange (Tadawul)</h3>
-                <p class="mt-5 text-muted w-75">
+            <div class="card-custom text-dark se-bg-market-image">
+                <h3 class="fw-bold p-2 m-0">Saudi Exchange (Tadawul)</h3>
+                <p class="m-0 p-2 text-muted">
                     The biggest exchange in the Middle East, anchored by the TASI Index and Saudi Aramco.
                 </p>
-                <div class="d-flex align-items-center mt-4">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tadawul_logo.svg" class="stock-img" alt="NYSE">
-                </div>
             </div>
         </div>
 
@@ -325,14 +332,11 @@ include_once ('elements/header.php');
 
         <!-- Right Card Section -->
         <div class="col-lg-4">
-            <div class="card-custom text-dark pb-0">
-                <h3 class="fw-bold">Dubai Financial Market (DFM)</h3>
-                <p class="mt-5 text-muted">
+            <div class="card-custom text-dark pb-0 dfm-bg-market-image">
+                <h3 class="fw-bold p-3 m-0">Dubai Financial Market (DFM)</h3>
+                <p class="m-0 p-3 text-muted">
                     A key Gulf exchange offering equities, sukuk, bonds, and Sharia-compliant products.
                 </p>
-                <div class="mt-4 text-end">
-                    <img src="assets/images/svg/dfm-dubai-financial-market.svg" alt="Bull and Bear" class="bull-bear-img">
-                </div>
             </div>
         </div>
 
@@ -391,6 +395,10 @@ include_once ('elements/header.php');
         font-size: 35px;
     }
     
+    .icon-circle img{
+        width: 50px;
+    }
+
     .opp-h-fix{
         min-height: 300px;
     }
@@ -466,10 +474,11 @@ include_once ('elements/header.php');
             <div class="col-lg-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-shop"></i>
+                        <i class="text-red bi bi-shop d-none"></i>
+                        <img src="assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
                     </div>
                     <h5 class="fw-bold text-center">Geopolitical Sensitivities</h5>
-                    <p class="small-muted mb-0">
+                    <p class="small-muted mb-0 text-center">
                         Regional conflicts and political shifts can affect investor sentiment
                     </p>
                 </div>
@@ -477,10 +486,11 @@ include_once ('elements/header.php');
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-regex"></i>
+                        <i class="text-red bi bi-regex d-none"></i>
+                        <img src="assets/images/flat-icon/Oil-Price-Volatility.png" alt="Oil Price Volatility">
                     </div>
                     <h5 class="fw-bold text-center">Oil Price Volatility</h5>
-                    <p class="small-muted mb-0">
+                    <p class="small-muted mb-0 text-center">
                         Energy markets remain a dominant driver of fiscal stability
                     </p>
                 </div>
@@ -488,10 +498,11 @@ include_once ('elements/header.php');
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-globe"></i>
+                        <i class="text-red bi bi-globe d-none"></i>
+                        <img src="assets/images/flat-icon/Regulatory-Complexity.png" alt="Regulatory Complexity">
                     </div>
                     <h5 class="fw-bold text-center">Regulatory Variation</h5>
-                    <p class="small-muted mb-0">
+                    <p class="small-muted mb-0 text-center">
                         Differences in financial market regulations across GCC states require careful navigation
                     </p>
                 </div>
@@ -499,7 +510,8 @@ include_once ('elements/header.php');
             <div class="col-md-3">
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
-                        <i class="text-red bi bi-arrow-repeat"></i>
+                        <i class="text-red bi bi-arrow-repeat d-none"></i>
+                        <img src="assets/images/flat-icon/Liquidity.png" alt="Liquidity">
                     </div>
                     <h5 class="fw-bold text-center">Liquidity</h5>
                     <p class="small-muted mb-0">
@@ -509,7 +521,7 @@ include_once ('elements/header.php');
             </div>
 
             <div class="col-lg-12">
-                <div class="p-3 bg-white">
+                <div class="p-3 pb-0 bg-white">
                     <p>
                         At <b>Zed Capital International Ltd</b>, we help clients evaluate these risks while positioning to capture the region’s growing opportunities.
                     </p>
@@ -520,12 +532,12 @@ include_once ('elements/header.php');
 </section>
 
 <section class="your-guide">
-    <div class="container py-5">
+    <div class="container border-top py-5">
         <h2 class="h4 mb-3">Zed Capital International Ltd — Your Gateway to the Middle East</h2>
         <div class="row">
             <div class="col-lg-4">
                 <div class="tech-feature mb-3">
-                    <h5>Regional Insight</h5>
+                    <h5 class="fw-bold">Regional Insight</h5>
                     <p class="small-muted mb-0">
                         Expertise in Gulf markets, exchanges, and sovereign fund strategies
                     </p>
@@ -534,7 +546,7 @@ include_once ('elements/header.php');
 
             <div class="col-md-4">
                 <div class="tech-feature mb-3">
-                    <h5>Sharia-Compliant Solutions</h5>
+                    <h5 class="fw-bold">Sharia-Compliant Solutions</h5>
                     <p class="small-muted mb-0">
                         Understanding of sukuk, Islamic finance, and investment frameworks
                     </p>
@@ -543,7 +555,7 @@ include_once ('elements/header.php');
             
             <div class="col-md-4">
                 <div class="tech-feature">
-                    <h5>Global Perspective</h5>
+                    <h5 class="fw-bold">Global Perspective</h5>
                     <p class="small-muted mb-0">
                         Bridging Middle Eastern opportunities with international investor strategies
                     </p>

@@ -125,15 +125,15 @@
                     <div class="col-md-3 col-sm-6">
                         <h6>Account</h6>
                         <ul>
-                            <li><a href="#">Log In</a></li>
-                            <li><a href="#">Open an Account</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/login">Log In</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/register">Open an Account</a></li>
                             <li><a href="#">Finish an Application</a></li>
                             <li><a href="#">Account Types</a></li>
-                            <li><a href="#">Free Trial</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/register">Free Trial</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-6 d-none">
                         <h6>Software & Downloads</h6>
                         <ul>
                             <li><a href="#">Trader Workstation</a></li>
@@ -144,6 +144,16 @@
                     </div>
 
                     <div class="col-md-3 col-sm-6">
+                        <h6>Financial Market</h6>
+                        <ul>
+                            <li><a href="american-market.php">American Market</a></li>
+                            <li><a href="european-market.php">European Market</a></li>
+                            <li><a href="middle-eastern-market.php">Middle Eastern Market</a></li>
+                            <li><a href="asian-market.php">Asian Market</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 d-none">
                         <h6>Support</h6>
                         <ul>
                             <li><a href="#">Fund Your Account</a></li>
@@ -156,12 +166,22 @@
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                        <h6>About Us</h6>
+                        <h6>Product</h6>
                         <ul>
-                            <li><a href="#">Awards</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Information and History</a></li>
-                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="stock.php">Stock</a></li>
+                            <li><a href="forex.php">Forex</a></li>
+                            <li><a href="indices.php">Indices</a></li>
+                            <li><a href="metal.php">Metal</a></li>
+                            <li><a href="commodities.php">Commodities</a></li>
+                            <li><a href="crypto.php">Crypto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="about-us.php">About US</a></li>
+                            <li><a href="zed-academy.php">Zed Academy</a></li>
                             <li><a href="#">News</a></li>
                             <li><a href="#">Press and Media</a></li>
                             <li><a href="#">Regulatory Reports</a></li>
@@ -177,7 +197,7 @@
                         <strong>Call:</strong> 
                         <a href="tel:+97145727859" class="">+971 4572 7859 </a>
                         • <strong>Email:</strong> 
-                        <a href="mailto:hello@zedcapital.mu">hello@zedcapital.mu</a>
+                        <a href="mailto:hello@zedcapital.com">hello@zedcapital.com</a>
                     </p>
 
                     <div class="row">

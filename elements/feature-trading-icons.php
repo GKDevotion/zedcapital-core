@@ -44,7 +44,7 @@
                             <img src="<?php echo $featureIconArr[$i]['icon'];?>" alt="<?php echo $featureIconArr[$i]['title'];?>">
                         </div>
                         <div class="text-center feature-title">
-                            <p class="px-5">
+                            <p class="px-4">
                                 <?php echo $featureIconArr[$i]['title'];?>
                             </p>
                         </div>

@@ -491,7 +491,7 @@ include_once ('elements/header.php');
 
     function fetchMarketData() {
         $.ajax({
-            url: 'https://93.190.139.146:5000/data',
+            url: 'https://livechart.zedcapital.com:5000/data',
             method: 'GET',
             dataType: 'json',
             success: function(response) {
@@ -607,7 +607,7 @@ include_once ('elements/header.php');
 <style>
 
     .opportunities-for-investors{
-        background-color: var(--zed-backgound-color);
+        /* background-color: var(--zed-backgound-color); */
         padding: 50px 0;
     }
 
@@ -618,7 +618,7 @@ include_once ('elements/header.php');
         padding: 40px 50px;
         border: 1px solid var(--zed-border-color);
         border-radius: 25px;
-        background-color: #fff;
+        background-color: #fff !important;
         margin: 15px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
@@ -661,7 +661,7 @@ include_once ('elements/header.php');
                         <div>
                         <h5 class="fw-bold mb-1">Professional Tools</h5>
                         <p class="mb-0 small-muted">
-                            Rely on fast order execution and deep market liquidity.
+                            Trade with confidence backed by strong market liquidity and lightning-fast execution
                         </p>
                         </div>
                     </div>
@@ -704,7 +704,7 @@ include_once ('elements/header.php');
 </section>
 
 <?php
-$featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
+$featureIconTitle = "Why Indices Matter for Traders";
 
 $featureIconArr = [
     [

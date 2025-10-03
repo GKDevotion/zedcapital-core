@@ -64,10 +64,6 @@ include_once ('elements/header.php');
         padding: 70px 0;
     }
 
-    .trust-text {
-        width: 90%;
-        text-align: justify;
-    }
 
     @media (max-width: 767.98px) {
         .trust-image {
@@ -168,23 +164,23 @@ include_once ('elements/header.php');
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <h2 class="h2">Fund Security</h2>
                 <div class="underline"></div>
-                <p class="trust-text text-gray"  data-aos="fade-up" data-aos-delay="500">
+                <p class="trust-text text-gray mb-5" data-aos="fade-up" data-aos-delay="500">
                     At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, advanced risk management, and bank-level data security, we ensure your capital remains protected at all times.
                 </p>
                 <ul class="arrow-list">
-                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                    <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
                         Segregated Client Accounts
                     </li>
-                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                    <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
                         FSC Regulated & Compliant
                     </li>
-                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                    <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
                         Negative Balance Protection
                     </li>
-                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                    <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
                         Advanced Risk Management
                     </li>
-                    <li class="mb-2 fs-5" data-aos="fade-up" data-aos-delay="500">
+                    <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
                         Bank-Level Security & Encryption
                     </li>
                 </ul>
@@ -403,6 +399,7 @@ include_once ('elements/header.php');
 <style>
     .on-demand-section {
         padding: 80px 0;
+        display: flex;
     }
 
     .learning-text {
@@ -456,7 +453,7 @@ include_once ('elements/header.php');
 
 <section class="on-demand-section pb-0">
     <div class="container-fluid learning-section py-5 pt-0">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-7 col-12 learning-div mb-4 mb-md-0 p-5" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/images/on-demand-learning.png" alt="Tablet with chart" class="learning-img">
             </div>

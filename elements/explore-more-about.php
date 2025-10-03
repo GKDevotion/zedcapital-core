@@ -17,7 +17,7 @@
     }
 
     .card {
-        border: 0;
+        border: 1px;
         background-color: var(--zed-backgound-color);
     }
 
