@@ -26,7 +26,6 @@ include_once ('elements/header.php');
     .policy-section h2 {
       font-size: 1.3rem;
       font-weight: 600;
-      color: #0d6efd;
       margin-bottom: 15px;
     }
     .policy-section p, .policy-section li {
