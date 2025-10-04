@@ -284,16 +284,24 @@ include_once('elements/header.php');
 
                 <div class="desktop-view">
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="300">
-                        <img src="assets/images/win-logo-black.png" alt="Windows" style="width: 40px;">
+                        <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
+                            <img src="assets/images/win-logo-black.png" alt="Windows" style="width: 40px;">
+                        </a>
                     </div>
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="500">
-                        <img src="assets/images/android-logo-black.png" alt="Android" style="width: 40px;">
+                        <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
+                            <img src="assets/images/android-logo-black.png" alt="Android" style="width: 40px;">
+                        </a>
                     </div>
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="700">
-                        <img src="assets/images/apple-logo-black.png" alt="Apple" style="width: 40px;">
+                        <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
+                            <img src="assets/images/apple-logo-black.png" alt="Apple" style="width: 40px;">
+                        </a>
                     </div>
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="900">
-                        <img src="assets/images/desktop-logo-black.png" alt="Desktop" style="width: 40px;">
+                        <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
+                            <img src="assets/images/desktop-logo-black.png" alt="Desktop" style="width: 40px;">
+                        </a>
                     </div>
                 </div>
 
@@ -301,22 +309,30 @@ include_once('elements/header.php');
                     <div class="row">
                         <div class="col-3">
                             <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="300">
-                                <img src="assets/images/win-logo-black.png" alt="Windows" style="width: 30px;">
+                                <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
+                                    <img src="assets/images/win-logo-black.png" alt="Windows" style="width: 40px;">
+                                </a>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="500">
-                                <img src="assets/images/android-logo-black.png" alt="Android" style="width: 30px;">
+                                <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
+                                    <img src="assets/images/android-logo-black.png" alt="Android" style="width: 40px;">
+                                </a>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="700">
-                                <img src="assets/images/apple-logo-black.png" alt="Apple" style="width: 30px;">
+                                <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
+                                    <img src="assets/images/apple-logo-black.png" alt="Apple" style="width: 40px;">
+                                </a>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="900">
-                                <img src="assets/images/desktop-logo-black.png" alt="Desktop" style="width: 30px;">
+                                <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
+                                    <img src="assets/images/desktop-logo-black.png" alt="Desktop" style="width: 40px;">
+                                </a>
                             </div>
                         </div>
                     </div>
