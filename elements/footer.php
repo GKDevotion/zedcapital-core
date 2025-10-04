@@ -250,7 +250,7 @@
                     <a href="#">Customer Relationship Summary</a> |
                     <a href="#">Warning on Frauds and Scams</a> |
                     <a href="#">Forms and Disclosures</a> |
-                    <a href="#">Privacy</a> |
+                    <a href="privacy-policy.php">Privacy</a> |
                     <a href="cookie-policy.php">Cookie</a>
                 </div>
             </div>
