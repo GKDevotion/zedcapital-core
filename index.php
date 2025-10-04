@@ -103,7 +103,7 @@ if (false) {
 <!-- Start Support Benefit -->
 <style>
     #support_benefit {
-        padding: 120px 0;
+        padding: 80px 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -196,7 +196,7 @@ if (false) {
 <!-- Account Type -->
 <style>
     #account_type {
-        padding: 120px 0;
+        padding: 80px 0;
         /* min-height: 100vh; */
         background-color: var(--zed-backgound-color);
         display: flex;
@@ -460,7 +460,7 @@ if (false) {
 <!-- Start Meta Trader 5 -->
 <style>
     #meta_trader_5 {
-        padding: 120px 0;
+        padding: 80px 0;
         /* min-height: 100vh; */
         display: flex;
         align-items: center;
@@ -680,7 +680,7 @@ if (false) {
 <!-- Start Market access -->
 <style>
     #market_access {
-        padding: 120px 0;
+        padding: 80px 0;
         /* min-height: 100vh; */
         /* display: flex; */
         align-items: center;
@@ -968,7 +968,7 @@ if (false) {
 <!-- Start Pioneering technology feature-->
 <style>
     #technology_feature {
-        padding: 120px 0;
+        padding: 80px 0;
         /* min-height: 100vh; */
         display: flex;
         align-items: center;
@@ -1117,7 +1117,7 @@ if (false) {
 <!-- Start For Biginner Trader-->
 <style>
     #biginner_trader {
-        padding: 120px 0;
+        padding: 80px 0;
         /* min-height: 100vh; */
         /* display: flex; */
         align-items: center;
@@ -1379,7 +1379,7 @@ if (false) {
 <!-- Start How to start steps -->
 <style>
     #how_to_start {
-        padding: 120px 0;
+        padding: 80px 0;
         align-items: center;
         /* Vertical center */
         justify-content: center;
@@ -1721,7 +1721,7 @@ if (false) {
 <!-- Start Fund Security -->
 <style>
     #fund_security {
-        padding: 120px 0;
+        padding: 80px 0;
         /* min-height: 100vh; */
         display: flex;
         align-items: center;
@@ -1909,7 +1909,7 @@ if (false) {
 <!-- Start Client review -->
 <style>
     #client_review {
-        padding: 120px 0 0;
+        padding: 80px 0;
         /* min-height: 85vh; */
         width: 100%;
         overflow: visible !important;
