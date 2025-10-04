@@ -134,7 +134,89 @@
                     The ZedCapital website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our Cookie Policy.
                 </p>
 
-                <div class="row footer-links">
+                <div class="row g-3 footer-links">
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <h6>Account</h6>
+                        <ul>
+                            <li><a href="https://cabinet.zedcapital.mu/login">Log In</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/register">Open an Account</a></li>
+                            <li><a href="#">Account Types</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/register">Free Trial</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <h6>Financial Market</h6>
+                        <ul>
+                            <li><a href="american-market.php">American Market</a></li>
+                            <li><a href="european-market.php">European Market</a></li>
+                            <li><a href="middle-eastern-market.php">Middle Eastern Market</a></li>
+                            <li><a href="asian-market.php">Asian Market</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <h6>Platform</h6>
+                        <ul>
+                            <li>
+                                <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
+                                    Window
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
+                                    Android
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
+                                    Apple
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
+                                    Desktop
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <h6>Product</h6>
+                        <ul>
+                            <li><a href="stock.php">Stock</a></li>
+                            <li><a href="forex.php">Forex</a></li>
+                            <li><a href="indices.php">Indices</a></li>
+                            <li><a href="metal.php">Metal</a></li>
+                            <li><a href="commodities.php">Commodities</a></li>
+                            <li><a href="crypto.php">Crypto</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="about-us.php">About US</a></li>
+                            <li><a href="zed-academy.php">Zed Academy</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Press and Media</a></li>
+                            <li><a href="#">Regulatory Reports</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <h6>Tools & Resources</h6>
+                        <ul>
+                            <li><a href="#">Economic Calender</a></li>
+                            <li><a href="#">Pivot Point</a></li>
+                            <li><a href="#">Currency Converter</a></li>
+                            <li><a href="#">Profit Calculator</a></li>
+                            <li><a href="#">Regulatory Reports</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row footer-links d-none">
                     <div class="col-md-3 col-sm-6">
                         <h6>Account</h6>
                         <ul>
