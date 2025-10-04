@@ -46,15 +46,19 @@ if (false) {
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="2"></button>
         </div>
 
         <!-- Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/slider/Navigate-Market.png" class="d-block w-100" alt="Slide 1">
+                <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Slide 1">
             </div>
             <div class="carousel-item">
-                <img src="assets/images/slider/Navigate-Market-ZCapital.png" class="d-block w-100" alt="Slide 2">
+                <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Slide 2">
             </div>
         </div>
 
@@ -392,7 +396,7 @@ if (false) {
                                 <td class="fw-400 theme-black-color text-end">$0</td>
                             </tr>
                             <tr>
-                                <td class="text-start">Minimum Deposite</td>
+                                <td class="text-start">Minimum Deposit</td>
                                 <td class="fw-400 theme-black-color text-end">$100</td>
                             </tr>
                         </table>
@@ -408,7 +412,7 @@ if (false) {
 
                     </div>
                     <div class="col-md-5 col-sm-12 col-12 h-230px text-start position-relative" data-aos="fade-up" data-aos-duration="800">
-                        <strong class="raw-spreed-account-text mt-5">Row Spread</strong>
+                        <strong class="raw-spreed-account-text mt-5">Raw Spread</strong>
                         <p class="text-gray fw-400 mt-3">Forex, Metal, Energies</p>
                         <div class="open-account-btn desktop-btn w-75">
                             <button>Open Account</button>
@@ -433,7 +437,7 @@ if (false) {
                                 <td class="fw-400 theme-black-color text-end">$8</td>
                             </tr>
                             <tr>
-                                <td class="text-start">Minimum Deposite</td>
+                                <td class="text-start">Minimum Deposit</td>
                                 <td class="fw-400 theme-black-color text-end">$100</td>
                             </tr>
                         </table>
@@ -591,9 +595,12 @@ if (false) {
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-title" data-aos="fade-up" data-aos-duration="800">
-                <h2 class="h2">Top Broker Platforms</h2>
+                <h2 class="h2">Institutional-Grade MT5, On Every Device</h2>
                 <p class="f-20 text-gray m-0 mx-auto text-center mt-3">
-                    Available for PC and Mac OS, and without having to download any additional software, MT5 enables instant access to the global markets.
+                    Consistent pricing, advanced order types, and audit-ready security controls.
+                </p>
+                <p class="f-20 text-gray m-0 mx-auto text-center">
+                    Access MT5 across Windows, macOS, iOS, and Android with unified login.
                 </p>
                 <img src="assets/images/meta-trader-5-logo.png" class="fluid-img meta-trader-logo mt-5">
             </div>
@@ -864,8 +871,10 @@ if (false) {
 </style>
 
 <div class="container" id="market_access">
-    <h2 class="h2 text-center">All in One Market Access</h2>
-    <p class="text-center mb-5 text-muted">Global Market from a single account anytime anywhere.</p>
+    <h2 class="h2 text-center">Global Multi-Asset Access</h2>
+    <p class="text-center mb-5 text-muted">
+        One account. Stocks, metals, indices, FX, commodities, and crypto.
+    </p>
 
     <div class="row g-4">
 
@@ -985,7 +994,9 @@ if (false) {
     .tech-feature .set-m-bottom {
         margin-bottom: 1rem !important;
     }
-
+    .tech-feature.home-page{
+        min-height: 600px;
+    }
     @media (max-width: 767.9px) {
         #technology_feature {
             padding: 60px 0;
@@ -1020,7 +1031,9 @@ if (false) {
     <div class="container">
         <div class="row mb-5" data-aos="fade-up" data-aos-duration="400">
             <div class="col-md-12 section-title">
-                <h2 class="h2">Industry - Pioneering Technology Feature</h2>
+                <h2 class="h2">
+                    Advanced Trading Technology
+                </h2>
             </div>
             <div class="col-12">
                 <p class="f-20 text-gray">Zed Capital offers two account types designed to meet the needs of all traders</p>
@@ -1029,7 +1042,7 @@ if (false) {
 
         <div class="row p-0 justify-content-center">
             <div class="col-md-4 p-0">
-                <div class="row tech-feature" data-aos="fade-up" data-aos-duration="500">
+                <div class="row tech-feature home-page" data-aos="fade-up" data-aos-duration="500">
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="600">
@@ -1042,40 +1055,40 @@ if (false) {
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            WeCopyTrade has recenty lunched a new trading platform that is set to revolutionize launched a new trading. WeCopyTrade has recenty lunched a new trading platform that is set to revolutionize launched a new trading.
+                            Safe MT5 copy-trading tools that consistently and quickly duplicate deals between accounts.  The master is chosen, risk is established (fixed lots or percentage equity), and you can halt or disengage at any time.  Tools only—we don't handle money or offer guidance.
                         </p>
                     </div>
-                    <div class="col-md-12 create-account-btn mt-4">
+                    <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
                         <button>Create Account</button>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 p-0">
-                <div class="row tech-feature" data-aos="fade-up" data-aos-duration="800">
+                <div class="row tech-feature home-page" data-aos="fade-up" data-aos-duration="800">
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="900">
                                 <img src="assets/images/pamm-trade-icon.png" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1000">
-                                <h3 class="fw-bold">NEED Change</h3>
+                                <h3 class="fw-bold">Advance CRM</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            WeCopyTrade has recenty lunched a new trading platform that is set to revolutionize launched a new trading. WeCopyTrade has recenty lunched a new trading platform that is set to revolutionize launched a new trading.
+                            Lead management, KYC/AML, MT5 account syncing, funding/withdrawals, support tickets, and IB/affiliate payouts are all centrally located in this safe, role-based CRM. It is driven by automation, audit trails, and real-time performance dashboards to improve onboarding and retention.
                         </p>
                     </div>
-                    <div class="col-md-12 create-account-btn mt-4">
+                    <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
                         <button>Create Account</button>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 p-0">
-                <div class="row tech-feature" data-aos="fade-up" data-aos-duration="1100">
+                <div class="row tech-feature home-page" data-aos="fade-up" data-aos-duration="1100">
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="1200">
@@ -1088,10 +1101,10 @@ if (false) {
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            WeCopyTrade has recenty lunched a new trading platform that is set to revolutionize launched a new trading. WeCopyTrade has recenty lunched a new trading platform that is set to revolutionize launched a new trading.
+                            MT5 Web Trading eliminates the need for downloads and installs by bringing the entire MT5 experience into your browser.  To access real-time pricing, one-click orders, sophisticated charting, market depth, and full order types that are synchronized across all of your devices, log in with your Zed Capital account.  Quick, safe, and available for trading anywhere.
                         </p>
                     </div>
-                    <div class="col-md-12 create-account-btn mt-4">
+                    <div class="col-md-12 create-account-btn mt-4 loginLiveAccount">
                         <button>Create Account</button>
                     </div>
                 </div>
@@ -1252,10 +1265,10 @@ if (false) {
         <div class="row text-center" id="" data-aos="fade-up" data-aos-duration="800">
 
             <div class="col-md-12 section-title">
-                <h2 class="h2">For biginners trader</h2>
+                <h2 class="h2">Professional Beginnings for New Traders</h2>
             </div>
             <div class="col-12">
-                <p class="f-20 text-gray">stay your trading journey with <b>zedcapital.com</b></p>
+                <p class="f-20 text-gray">Education, practice, and execution in one place.</b></p>
             </div>
         </div>
 
@@ -1285,14 +1298,12 @@ if (false) {
                         </div>
                     </div>
                     <div class="col-md-6 mt-5" data-aos="fade-up" data-aos-duration="800">
-                        <h3 class="fw-bold line-height">In-Depth <br> Education</h3>
+                        <h3 class="fw-bold line-height">Zed Capital <br>Academy</h3>
 
                         <div class="red-line"></div>
 
                         <p class="text-gray">
-                            Learn key concepts via
-                            accessible courses,
-                            webinars, quizes.
+                            Structured learning paths from fundamentals to advanced risk control.
                         </p>
 
                         <div class="w-100">
@@ -1318,11 +1329,11 @@ if (false) {
                     <!-- Feature 1 -->
                     <div class="col-md-4 feature-item d-flex flex-column" data-aos="fade-up" data-aos-duration="800">
                         <div class="feature-title mx-0">
-                            Dedicated help, 24/7
+                            Global 24/7 Support Desk
                             <span class="text-danger fw-bold">&rarr;</span>
                         </div>
                         <div class="feature-text mx-0">
-                            Enjoy knowledgeable and friendly support, around the clock
+                            Consistent, courteous service across every time zone.
                         </div>
                     </div>
 
@@ -1477,7 +1488,7 @@ if (false) {
         <img src="assets/images/diamonds/2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 100px; height: 80px;">
     </div>
     <div class="container py-5 pt-0">
-        <h2 class="fw-bold text-center h2 mb-2">How to Start</h2>
+        <h2 class="fw-bold text-center h2 mb-2">Start Trading in Three Steps</h2>
         <p class="text-gray text-center pb-5">No complexities, just a smooth and seamless process!</p>
         <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
 
@@ -1522,8 +1533,8 @@ if (false) {
                 </div>
                 <div class="fw-semibold pt-5">Step 3</div>
                 <div class="step-desc">
-                    <p>Register for the trading</p>
-                    <p>account by fill in your details.</p>
+                    <p>Analyze, execute, manage,</p>
+                    <p>Withdrawal at your time. (24/7)</p>
                 </div>
             </div>
 
@@ -1830,6 +1841,25 @@ if (false) {
         transform: translate(0%, 0%);
         transition: transform 1.5s ease-in-out;
     }
+
+    .arrow-list {
+        list-style: none; /* remove default dots */
+        padding-left: 0; /* remove extra padding */
+    }
+
+    .arrow-list li {
+        position: relative;
+        padding-left: 20px; /* space for the arrow */
+    }
+
+    .arrow-list li::before {
+        content: "›"; /* or ">" */
+        position: absolute;
+        left: 0;
+        color: var(--zed-primary); /* Bootstrap primary color */
+        font-size: 45px;
+        margin: -20px 0 0 0;
+    }
 </style>
 
 <section class="section-secure" id="fund_security">
@@ -1837,19 +1867,30 @@ if (false) {
         <div class="row align-items-center hover-box">
             <!-- Left Text Column -->
             <div class="col-md-6 security-text" data-aos="fade-up" data-aos-duration="800">
-                <h2>Fund Security</h2>
-                <p class="pt-4 text-gray">
-                    Protecting client funds is at the core of our operations. We maintain segregated accounts, partner with leading global banks, and comply with the highest regulatory standards. With advanced security systems and rigorous risk controls, your capital remains safe, transparent, and accessible at all times.</p>
-                <div class="listed d-none" data-aos="fade-up" data-aos-duration="800">
-
-                    <div class="red-line"></div>
-
-                    <h3 class="fw-bold">IBKR</h3>
-                    <p>Nasdaq Listed</p>
-                </div>
+                <h2 class="mb-4">Fund Security</h2>
+                <p class="trust-text text-gray mb-4" data-aos="fade-up" data-aos-delay="500">
+                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, advanced risk management, and bank-level data security, we ensure your capital remains protected at all times.
+                </p>
+                <ul class="arrow-list">
+                    <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
+                        Segregated Client Accounts
+                    </li>
+                    <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
+                        FSC Regulated & Compliant
+                    </li>
+                    <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
+                        Negative Balance Protection
+                    </li>
+                    <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
+                        Advanced Risk Management
+                    </li>
+                    <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
+                        Bank-Level Security & Encryption
+                    </li>
+                </ul>
 
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/diamonds/fund-security-3-diamonds.png" alt="Corner Image" class="position-absolute bottom-10 end-50 float-y" style="width: 150px; height: 80px;">
+                    <img src="assets/images/diamonds/fund-security-3-diamonds.png" alt="Corner Image" class="position-absolute bottom-10 end-50 float-y" style="width: 150px; height: 80px; top: 15px;">
                 </div>
             </div>
 

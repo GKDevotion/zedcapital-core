@@ -93,3 +93,15 @@ $(document).ready(function() {
         window.open('https://cabinet.zedcapital.mu/register', '_blank');
     });
 });
+
+$(document).ready(function() {
+    $('.loginLiveAccount').on('click', function() {
+        window.open('https://cabinet.zedcapital.mu/login', '_blank');
+    });
+});
+
+$(document).ready(function() {
+    $('.zedAcademyOpen').on('click', function() {
+        window.open(url+'zed-academy.php', '_blank');
+    });
+});
