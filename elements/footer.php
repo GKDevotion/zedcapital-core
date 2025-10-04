@@ -112,14 +112,27 @@
             <div class="container footer-section">
                 <p>&copy; 2025 Zed Capital International Limited. All rights reserved.</p>
                 <p>Zed Capital is a registered trade name of Zed Capital International Limited.</p>
-                <p>Registered Office: Level 7, Iconebene, Lot 8441, Rue de l'Institut, Ebene, Mauritius.<br />
-                    Representative Office: 1606, Concord Tower, Near Palm Jumeirah Tram Station, Media City, Dubai – UAE.</p>
                 <p>
-                    Restricted Regions: The services of Zed Capital and the information on this site are not directed at residents of American Samoa, the Central African Republic, the Democratic Republic of the Congo, the Republic of the Congo, Cuba, Côte d'Ivoire, Eritrea, Guam, Heard Island and McDonald Islands, Iran, Iraq, Israel, Japan, Lebanon, Liberia, Libya, Mali, Myanmar, North Korea, Northern Mariana Islands, Puerto Rico, Russia, Somalia, Sudan, the Syrian Arab Republic, the United States Minor Outlying Islands, the United States of America, the Virgin Islands of the United States or Yemen.
+                    Registered Office: Level 7, Iconebene, Lot 8441, Rue de l'Institut, Ebene, Mauritius.<br />
+                    Representative Office: 1606, Concord Tower, Near Palm Jumeirah Tram Station, Media City, Dubai - UAE.
                 </p>
-                <p><strong>ZED CAPITAL INTERNATIONAL LIMITED</strong> is a licensed investment dealer, authorized and regulated by the Mauritius Financial Services Commission (FSC), and the regulatory number is GB24203133.</p>
-                <p>High Risk Investment Warning: There is a significant risk involved in trading foreign exchange and/or contracts for differences on margin, thus not all investors may be ideal candidates. It is possible that you will experience a loss greater than the amount you deposited. When opening an account, please refer to the relevant risk warning for each regulated firm.</p>
-                <p>The ZedCapital website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our Cookie Policy.</p>
+                <p>
+                    <b>Restricted Regions:</b> 
+                    The services of Zed Capital and the information on this site are not directed at residents of American Samoa, the Central African Republic, the Democratic Republic of the Congo, the Republic of the Congo, Cuba, Côte d'Ivoire, Eritrea, Guam, Heard Island and McDonald Islands, Iran, Iraq, Israel, Japan, Lebanon, Liberia, Libya, Mali, Myanmar, North Korea, Northern Mariana Islands, Puerto Rico, Russia, Somalia, Sudan, the Syrian Arab Republic, the United States Minor Outlying Islands, the United States of America, the Virgin Islands of the United States or Yemen.
+                </p>
+
+                <p>
+                    <strong>ZED CAPITAL INTERNATIONAL LIMITED</strong> is a licensed investment dealer, authorized and regulated by the Mauritius Financial Services Commission (FSC), and the regulatory number is GB24203133.
+                </p>
+
+                <p>
+                    <b>High Risk Investment Warning:</b> 
+                    There is a significant risk involved in trading foreign exchange and/or contracts for differences on margin, thus not all investors may be ideal candidates. It is possible that you will experience a loss greater than the amount you deposited. When opening an account, please refer to the relevant risk warning for each regulated firm.
+                </p>
+
+                <p>
+                    The ZedCapital website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our Cookie Policy.
+                </p>
 
                 <div class="row footer-links">
                     <div class="col-md-3 col-sm-6">
@@ -238,7 +251,7 @@
                     <a href="#">Warning on Frauds and Scams</a> |
                     <a href="#">Forms and Disclosures</a> |
                     <a href="#">Privacy</a> |
-                    <a href="#">Site Map</a>
+                    <a href="cookie-policy.php">Cookie</a>
                 </div>
             </div>
         </footer>
