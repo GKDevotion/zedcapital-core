@@ -118,7 +118,7 @@
                 </p>
                 <p>
                     <b>Restricted Regions:</b> 
-                    The services of Zed Capital and the information on this site are not directed at residents of American Samoa, the Central African Republic, the Democratic Republic of the Congo, the Republic of the Congo, Cuba, Côte d'Ivoire, Eritrea, Guam, Heard Island and McDonald Islands, Iran, Iraq, Israel, Japan, Lebanon, Liberia, Libya, Mali, Myanmar, North Korea, Northern Mariana Islands, Puerto Rico, Russia, Somalia, Sudan, the Syrian Arab Republic, the United States Minor Outlying Islands, the United States of America, the Virgin Islands of the United States or Yemen.
+                    The services of Zed Capital International Ltd and the information on this website are not intended for, and must not be accessed or used by, residents of American Samoa, the Central African Republic, the Democratic Republic of the Congo, the Republic of the Congo, Cuba, Côte d'Ivoire, Eritrea, Guam, Heard Island and McDonald Islands, Iran, Iraq, Israel, Japan, Lebanon, Liberia, Libya, Mali, Myanmar, North Korea, the Northern Mariana Islands, Puerto Rico, Russia, Somalia, Sudan, the Syrian Arab Republic, the United States Minor Outlying Islands, the United States of America, the Virgin Islands of the United States, or Yemen. We do not solicit or accept clients from these jurisdictions.
                 </p>
 
                 <p>
@@ -127,7 +127,7 @@
 
                 <p>
                     <b>High Risk Investment Warning:</b> 
-                    There is a significant risk involved in trading foreign exchange and/or contracts for differences on margin, thus not all investors may be ideal candidates. It is possible that you will experience a loss greater than the amount you deposited. When opening an account, please refer to the relevant risk warning for each regulated firm.
+                    High-Risk Investment Warning: Foreign exchange (FX) and Contracts for Difference (CFDs) are leveraged products and involve a high level of risk. Small adverse moves can lead to rapid, substantial losses. Stop-losses are not guaranteed slippage and gaps may occur and losses may exceed deposits unless Negative Balance Protection is expressly provided in your Account Specifications or required by law. Zed Capital International Ltd provides general information only and does not consider your objectives, financial situation, or needs. Nothing on this site is personal advice. Seek independent professional advice if needed.
                 </p>
 
                 <p>
