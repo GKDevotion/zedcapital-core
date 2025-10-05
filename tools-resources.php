@@ -396,7 +396,7 @@ include_once ('elements/header.php');
     }
 </style>
 
-<main class="container-fluid p-0 pb-3">
+<main class="container-fluid p-0 pb-3 d-none">
     <!-- Trading View Integration Section -->
     <section class="hero-section text-white mb-5" data-aos="fade-up" data-aos-delay="800">
         <div class="container py-5">
@@ -431,7 +431,7 @@ include_once ('elements/header.php');
 </main>
 
 <!-- Traders' Gym Section -->
-<main class="container-fluid p-0 pt-3">    
+<main class="container-fluid p-0 pt-3 d-none">    
     <section class="traders-gym-section text-white" data-aos="fade-up" data-aos-delay="800">
         <div class="container py-5">
             <div class="row align-items-end" data-aos="fade-up" data-aos-delay="800">
