@@ -300,7 +300,7 @@ include_once ('elements/header.php');
 
                     <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Cut through the noise</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Discover AI-driven market insights, real-time trends, and top topics—built for traders who stay ahead of the curve.
+                        Use our accurate Pivot Points Calculator to help you find the next day pivot levels and the three main levels of support and resistance of any instrument.
                     </p>
                     
                     <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="pivot-point.php">
@@ -315,19 +315,19 @@ include_once ('elements/header.php');
             <div class="col-md-6">
                 <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
-                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Trading Glossary</h5>
+                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Currency Converter</h5>
                         <img src="assets/images/tools-desk-candle.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
                     <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Always world-class</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Experience world-class analytics and actionable insights for more than 35,000 tradable assets.
+                        For your business transaction, do you need to know the precise value of the Euro against the USD?
                     </p>
 
-                    <button class="demo-button btn" data-aos="fade-up" data-aos-delay="800">
+                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="currency-convertor.php" title="Currency Converter">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
-                    </button>
+                    </a>
                 </div>
             </div>
 
