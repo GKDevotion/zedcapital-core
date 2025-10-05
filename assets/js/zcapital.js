@@ -88,6 +88,54 @@ if( $("#fund_security").length > 0 ){
     observer.observe(box);
 }
 
+if( $('#pivot_point_calculator_form').length > 0 ){
+    $('#pivot_point_calculator_form').on('submit', function(event) {
+        event.preventDefault();
+        $.ajax({
+            url: "https://www.zedcapital.mu/pivot-point-calculator",
+            method: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                // Standard Pivot Points
+                $(".result").removeClass('d-none');
+                $('#standardPivotPoint').html('<b>Pivot Point:</b> ' + response.standard.pivotPoint);
+                $('#standardR1').html('<b>Resistance 1:</b> ' + response.standard.r1);
+                $('#standardS1').html('<b>Support 1:</b> ' + response.standard.s1);
+                $('#standardR2').html('<b>Resistance 2:</b> ' + response.standard.r2);
+                $('#standardS2').html('<b>Support 2:</b> ' + response.standard.s2);
+                $('#standardR3').html('<b>Resistance 3:</b> ' + response.standard.r3);
+                $('#standardS3').html('<b>Support 3:</b> ' + response.standard.s3);
+
+                // Fibonacci Pivot Points
+                $('#fibonacciPivotPoint').html('<b>Pivot Point:</b> ' + response.fibonacci.pivotPoint);
+                $('#fibonacciR1').html('<b>Resistance 1:</b> ' + response.fibonacci.r1);
+                $('#fibonacciS1').html('<b>Support 1:</b> ' + response.fibonacci.s1);
+                $('#fibonacciR2').html('<b>Resistance 2:</b> ' + response.fibonacci.r2);
+                $('#fibonacciS2').html('<b>Support 2:</b> ' + response.fibonacci.s2);
+                $('#fibonacciR3').html('<b>Resistance 3:</b> ' + response.fibonacci.r3);
+                $('#fibonacciS3').html('<b>Support 3:</b> ' + response.fibonacci.s3);
+
+                // Camarilla Pivot Points
+                $('#camarillaPivotPoint').html('<b>Pivot Point:</b> ' + response.camarilla.pivotPoint);
+                $('#camarillaR1').html('<b>Resistance 1:</b> ' + response.camarilla.r1);
+                $('#camarillaS1').html('<b>Support 1:</b> ' + response.camarilla.s1);
+                $('#camarillaR2').html('<b>Resistance 2:</b> ' + response.camarilla.r2);
+                $('#camarillaS2').html('<b>Support 2:</b> ' + response.camarilla.s2);
+                $('#camarillaR3').html('<b>Resistance 3:</b> ' + response.camarilla.r3);
+                $('#camarillaS3').html('<b>Support 3:</b> ' + response.camarilla.s3);
+            },
+            error: function(xhr) {
+                var errors = xhr.responseJSON.errors;
+                var errorMessage = '';
+                $.each(errors, function(key, value) {
+                    errorMessage += value[0] + '\n';
+                });
+                alert(errorMessage);
+            }
+        });
+    });
+}
+
 $(document).ready(function() {
     $('.openLiveAccount').on('click', function() {
         window.open('https://cabinet.zedcapital.mu/register', '_blank');
