@@ -207,7 +207,7 @@
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Tools & Resources</h6>
                         <ul>
-                            <li><a href="#">Economic Calender</a></li>
+                            <li><a href="economic-calender.php">Economic Calender</a></li>
                             <li><a href="#">Pivot Point</a></li>
                             <li><a href="#">Currency Converter</a></li>
                             <li><a href="#">Profit Calculator</a></li>

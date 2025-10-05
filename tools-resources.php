@@ -283,10 +283,10 @@ include_once ('elements/header.php');
                         Never miss an important economic event with up-to-date schedules and forecasts.
                     </p>
 
-                    <button class="demo-button btn" data-aos="fade-up" data-aos-delay="800">
+                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="economic-calender.php" title="Economic Calender">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
-                    </button>
+                    </a>
                 </div>
             </div>
 
