@@ -140,7 +140,6 @@
                         <ul>
                             <li><a href="https://cabinet.zedcapital.mu/login">Log In</a></li>
                             <li><a href="https://cabinet.zedcapital.mu/register">Open an Account</a></li>
-                            <li><a href="#">Account Types</a></li>
                             <li><a href="https://cabinet.zedcapital.mu/register">Free Trial</a></li>
                         </ul>
                     </div>
@@ -197,10 +196,8 @@
                         <h6>Company</h6>
                         <ul>
                             <li><a href="about-us.php">About US</a></li>
+                            <li><a href="contact-us.php">Contact US</a></li>
                             <li><a href="zed-academy.php">Zed Academy</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Press and Media</a></li>
-                            <li><a href="#">Regulatory Reports</a></li>
                         </ul>
                     </div>
                     
@@ -210,8 +207,7 @@
                             <li><a href="economic-calender.php">Economic Calender</a></li>
                             <li><a href="pivot-point.php">Pivot Point</a></li>
                             <li><a href="currency-convertor.php">Currency Converter</a></li>
-                            <li><a href="#">Profit Calculator</a></li>
-                            <li><a href="#">Regulatory Reports</a></li>
+                            <li><a href="profit-calculation.php">Profit Calculator</a></li>
                         </ul>
                     </div>
                 </div>

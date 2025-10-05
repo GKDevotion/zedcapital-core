@@ -335,19 +335,19 @@ include_once ('elements/header.php');
             <div class="col-md-6">
                 <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
-                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Expert Advisors</h5>
+                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Profit Calculation</h5>
                         <img src="assets/images/tools-message.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
                     <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Don't break a sweat</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Trade smarter with precision trading—now with effortless execution and performance on autopilot.
+                        Never take a trade until you've planned out every potential scenario. That's a golden rule for every professional investor.
                     </p>
                     
-                    <button class="demo-button btn" data-aos="fade-up" data-aos-delay="800">
+                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="profit-calculation.php">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
-                    </button>
+                    </a>
                 </div>
             </div>
 

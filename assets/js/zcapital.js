@@ -136,6 +136,29 @@ if( $('#pivot_point_calculator_form').length > 0 ){
     });
 }
 
+if( $('#forex_profit_calculator_form').length > 0 ){
+    $('#forex_profit_calculator_form').on('submit', function(event) {
+        event.preventDefault();
+        $.ajax({
+            url: "https://www.zedcapital.mu/forex-profit-calculator",
+            method: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $('#profit').text('Your profit is: $' + response.profit);
+            },
+            error: function(xhr) {
+                var errors = xhr.responseJSON.errors;
+                var errorMessage = '';
+                $.each(errors, function(key, value) {
+                    errorMessage += value[0] + '\n';
+                });
+                alert(errorMessage);
+            }
+        });
+    });
+}
+
+
 $(document).ready(function() {
     $('.openLiveAccount').on('click', function() {
         window.open('https://cabinet.zedcapital.mu/register', '_blank');
