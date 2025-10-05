@@ -208,7 +208,7 @@
                         <h6>Tools & Resources</h6>
                         <ul>
                             <li><a href="economic-calender.php">Economic Calender</a></li>
-                            <li><a href="#">Pivot Point</a></li>
+                            <li><a href="pivot-point.php">Pivot Point</a></li>
                             <li><a href="#">Currency Converter</a></li>
                             <li><a href="#">Profit Calculator</a></li>
                             <li><a href="#">Regulatory Reports</a></li>

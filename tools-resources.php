@@ -294,7 +294,7 @@ include_once ('elements/header.php');
             <div class="col-md-6">
                 <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
-                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Market Buzz</h5>
+                        <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Pivot Points</h5>
                         <img src="assets/images/tools-valume.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
@@ -303,10 +303,10 @@ include_once ('elements/header.php');
                         Discover AI-driven market insights, real-time trends, and top topics—built for traders who stay ahead of the curve.
                     </p>
                     
-                    <button class="demo-button btn" data-aos="fade-up" data-aos-delay="800">
+                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="pivot-point.php">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
-                    </button>
+                    </a>
 
                 </div>
             </div>
