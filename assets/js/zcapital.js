@@ -158,6 +158,47 @@ if( $('#forex_profit_calculator_form').length > 0 ){
     });
 }
 
+ if ($('#contact_us').length > 0) {
+    $('#contact_us').on("submit", function(e) {
+        resetFormError();
+        e.preventDefault();
+        $.ajax({
+            url: "https://www.zedcapital.mu/contact-us",
+            method: 'POST',
+            data: $(this).serialize(),
+            success: function(response) {
+                $('.sent-message').text("").css('display', 'none');
+                if (response.errors) {
+                    $('#name-error').text(response.errors.name);
+                    $('#email-error').text(response.errors.email);
+                    $('#phone-error').text(response.errors.phone);
+                    $('#subject-error').text(response.errors.name);
+                    $('#message-error').text(response.errors.email);
+                } else {
+                    $('.sent-message').text( response.message ).css(
+                        'display', 'block');
+                    $('#contact_us')[0].reset();
+                    resetFormError();
+
+                    // if( response.exist == 1 ){
+                    //     window.open("https://www.zedcapital.mu/contactus-thankyou?msg=1", '_blank');
+                    // } else {
+                    //     window.open("https://www.zedcapital.mu/contactus-thankyou?msg=0", '_blank');
+                    // }
+                }
+            }
+        });
+
+        function resetFormError() {
+            $('#name-error').text('');
+            $('#email-error').text('');
+            $('#phone-error').text('');
+            $('#subject-error').text('');
+            $('#message-error').text('');
+        }
+    });
+}
+
 
 $(document).ready(function() {
     $('.openLiveAccount').on('click', function() {
