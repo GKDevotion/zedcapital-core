@@ -660,33 +660,33 @@ include_once ('elements/header.php');
 <section class="presence-section">
     <div class="container">
         <div class="row">
-            <h2 class="h2 fw-bold">Our Worldwide Presence</h2>
-            <p class="text-gray">We enable our investors with a safe and secure trading environment.</p>
+            <h2 class="h2 fw-bold">The Strength of Our Global Presence</h2>
+            <p class="text-gray">We connect traders worldwide with transparent pricing, advanced technology, and trusted global access.</p>
         </div>
         
         <div class="row presence-stats mt-5">
             <div class="col-md-3 col-sm-6 col-6">
                 <div class="stat-box text-start">
-                    <h3 class="text-red h2 fw-bold">300+</h3>
-                    <span class="text-gray">TRADING INSTRUMENTS</span>
+                    <h3 class="text-red h2 fw-bold">1000+</h3>
+                    <span class="text-gray">Trading Instruments</span>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-6">
                 <div class="stat-box text-start">
-                    <h3 class="text-red h2 fw-bold">5+</h3>
+                    <h3 class="text-red h2 fw-bold">12+</h3>
                     <span class="text-gray">Global Offices</span>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-6">
                 <div class="stat-box text-start">
-                    <h3 class="text-red h2 fw-bold">9+</h3>
-                    <span class="text-gray">Languages</span>
+                    <h3 class="text-red h2 fw-bold">18+</h3>
+                    <span class="text-gray">Supported Languages</span>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-6">
                 <div class="stat-box text-start">
-                    <h3 class="text-red h2 fw-bold">200K+</h3>
-                    <span class="text-gray">Active Clients</span>
+                    <h3 class="text-red h2 fw-bold">100%</h3>
+                    <span class="text-gray">Funds Segregation & Protection</span>
                 </div>
             </div>
         </div>
