@@ -44,17 +44,17 @@ if (false) {
     <div id="indexCarousel" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators -->
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="0" class="d-none"></button>
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1" class="active"></button>
             <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="2"></button>
         </div>
 
         <!-- Slides -->
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item d-none">
                 <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Slide 1">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Slide 2">
             </div>
             <div class="carousel-item">
@@ -625,7 +625,7 @@ if (false) {
 
                     <div class="corner-image bottom-left">
                         <img src="assets/images/android.svg" alt="Top Left">
-                        <span class="mx-4">Android MT-5</span>
+                        <span class="mx-4">Android - MT5</span>
                         <i class="fa fa-download" aria-hidden="true"></i>
                     </div>
 
