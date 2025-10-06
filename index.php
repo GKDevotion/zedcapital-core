@@ -1078,7 +1078,7 @@ if (false) {
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            Lead management, KYC/AML, MT5 account syncing, funding/withdrawals, support tickets, and IB/affiliate payouts are all centrally located in this safe, role-based CRM. It is driven by automation, audit trails, and real-time performance dashboards to improve onboarding and retention.
+                            A secure, role-based CRM that centralises lead management, KYC/AML, MT5 account syncing, funding/withdrawals, support tickets, and IB/affiliate payouts, powered by automation, audit trails, and real-time performance dashboards for faster onboarding and higher retention.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
