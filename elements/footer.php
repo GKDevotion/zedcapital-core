@@ -326,11 +326,11 @@
                 </div>
 
                 <div class="footer-meta">
-                    <a href="#">Accessibility Policy</a> |
-                    <a href="#">Anti-Fraud Notice</a> |
-                    <a href="#">Customer Identification Program Notice</a> |
-                    <a href="#">Customer Relationship Summary</a> |
-                    <a href="#">Warning on Frauds and Scams</a> |
+                    <a class="d-none" href="#">Accessibility Policy</a> |
+                    <a class="d-none" href="#">Anti-Fraud Notice</a> |
+                    <a class="d-none" href="#">Customer Identification Program Notice</a> |
+                    <a class="d-none" href="#">Customer Relationship Summary</a> |
+                    <a class="d-none" href="#">Warning on Frauds and Scams</a> |
                     <a href="terms-condition.php">Terms & Condition</a> |
                     <a href="privacy-policy.php">Privacy</a> |
                     <a href="risk-disclosure.php">Risk Disclosure</a>
