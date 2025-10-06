@@ -625,7 +625,7 @@ include_once ('elements/header.php');
  
 </style>
 
-<div class="container py-5 pt-0">
+<div class="container py-5 pt-0 d-none">
     <h2 class="h2 section-title mt-5">Our latest wins</h2>
     <p class="text-center text-gray">
       Trade with confidence when you trade with Zed Capital,<br class="d-none d-md-block" />

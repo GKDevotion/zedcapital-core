@@ -198,6 +198,7 @@
                             <li><a href="about-us.php">About US</a></li>
                             <li><a href="contact-us.php">Contact US</a></li>
                             <li><a href="zed-academy.php">Zed Academy</a></li>
+                            <li><a href="faqs.php">FAQ's</a></li>
                         </ul>
                     </div>
                     

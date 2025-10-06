@@ -168,7 +168,7 @@
     }
 
     .nav-link {
-        margin: 0 10px !important;
+        margin: 0 5px !important;
     }
 
 }
@@ -176,7 +176,7 @@
 /* 2000px - 2200px - Large Screens */
 @media (min-width: 2000px) and (max-width: 2200px) {
     .nav-link {
-        margin: 0 20px !important;
+        margin: 0 10px !important;
     }
 }
 
