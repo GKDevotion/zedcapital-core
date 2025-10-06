@@ -130,8 +130,8 @@
                     High-Risk Investment Warning: Foreign exchange (FX) and Contracts for Difference (CFDs) are leveraged products and involve a high level of risk. Small adverse moves can lead to rapid, substantial losses. Stop-losses are not guaranteed slippage and gaps may occur and losses may exceed deposits unless Negative Balance Protection is expressly provided in your Account Specifications or required by law. Zed Capital International Ltd provides general information only and does not consider your objectives, financial situation, or needs. Nothing on this site is personal advice. Seek independent professional advice if needed.
                 </p>
 
-                <p>
-                    The ZedCapital website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our <a href="cookie-policy.php" title="Cookie Policy"> Cookie Policy</a>.
+                <p class="mb-5">
+                    The ZedCapital website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our <a href="cookie-policy.php" title="Cookie Policy" class="text-decoration-none"> Cookie Policy</a>.
                 </p>
 
                 <div class="row g-3 footer-links">
@@ -329,7 +329,7 @@
                     <a href="#">Warning on Frauds and Scams</a> |
                     <a href="terms-condition.php">Terms & Condition</a> |
                     <a href="privacy-policy.php">Privacy</a> |
-                    <a href="cookie-policy.php">Cookie</a>
+                    <a href="risk-disclosure.php">Risk Disclosure</a>
                 </div>
             </div>
         </footer>
