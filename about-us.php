@@ -57,17 +57,16 @@ include_once ('elements/header.php');
         <p class="mb-4">Leadership & Mission</p>
         <h1 class="display-6 fw-bold">Get to know<br>to Zed Capital</h1>
         <span class="underline"></span>
-        <p class="mb-4">Our promise to perform responsibly as a leading, global company.</p>
+        <p class="mb-4 w-75">
+            Zed Capital International Ltd is a globally regulated financial services provider, licensed by the Financial Services Commission (FSC), Mauritius. We empower traders and investors with secure, transparent, and seamless access to global markets.
+        </p>
     </div>
 </section>
 
 <div class="section-bottom">
     <div class="container">
         <p class="mb-0">
-            Zed Capital is a world-leading leveraged products broker in online trading of the global markets.
-            Zed Capital offers 130+ leveraged product instruments for global investors to trade. We became
-            the preferred brand of many traders by putting the funds safety as a top priority and providing
-            an efficient, simple trading journey.
+            Built on trust, innovation, and integrity, we deliver institutional-grade liquidity, advanced platforms, and robust risk management - ensuring every client enjoys world-class market access, security, and support.
         </p>
     </div>
 </div>
@@ -254,6 +253,7 @@ include_once ('elements/header.php');
         margin: 10px 0;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         padding: 2rem;
+        min-height: 205px;
     }
 
     .card-background:hover {
@@ -342,33 +342,41 @@ include_once ('elements/header.php');
         <div class="row desktop-view">
             <div class="col-md-6 set-card-border-left">
                 <div class="card-background">
-                    <h5 class="fw-bold w-75 mb-4 text-hover-effect">Comprehensive Trading Platforms</h5>
+                    <h5 class="fw-bold mb-4 text-hover-effect">
+                        Regulated & Secure Trading
+                    </h5>
                     <p class="text-gray">
-                        Access leading-edge trading platforms such as Meta Trader 5 (MT5), renowned for their robust functionality, advanced charting tools, and automated trading.
+                        Licensed by the FSC, Mauritius, ensuring fund safety, transparency, and client protection.
                     </p>
                 </div>
             </div>
             <div class="col-md-6 set-card-border-right">
                 <div class="card-background">
-                    <h5 class="fw-bold w-75 mb-4 text-hover-effect">Wide Range of Instruments</h5>
+                    <h5 class="fw-bold mb-4 text-hover-effect">
+                        Global Market Access
+                    </h5>
                     <p class="text-gray">
-                        Trade a diverse range of forex currency pairs, commodities, indices, and cryptocurrencies, catering to diverse trading strategies and preferences.
+                        Trade forex, commodities, indices, stocks, and  crypto with tight spreads and fast execution.
                     </p>
                 </div>
             </div>
             <div class="col-md-6 set-card-border-left">
                 <div class="card-background">
-                    <h5 class="fw-bold w-75 mb-4 text-hover-effect">Educational Resources</h5>
+                    <h5 class="fw-bold mb-4 text-hover-effect">
+                        Innovative Trading Solutions
+                    </h5>
                     <p class="text-gray">
-                        Enhance your trading skills with our comprehensive educational resources, including webinars, tutorials, market analysis, and expert insights.
+                        Use MT5, PAMM, and Copy Trading for professional and performance-driven trading.
                     </p>
                 </div>
             </div>
             <div class="col-md-6 set-card-border-right">
                 <div class="card-background">
-                    <h5 class="fw-bold w-75 mb-4 text-hover-effect">Secure and Transparent</h5>
+                    <h5 class="fw-bold mb-4 text-hover-effect">
+                        Client-Centric Support
+                    </h5>
                     <p class="text-gray">
-                        Operate with confidence knowing that Zed Capital International Limited adheres to strict regulatory standards and employs cutting-edge security measures.
+                        Enjoy instant deposits/withdrawals and 24/5 multilingual support with a client-first approach.
                     </p>
                 </div>
             </div>
@@ -434,10 +442,12 @@ include_once ('elements/header.php');
 <section class="contact-section">
     <div class="container">
         <div class="row">
-            <h2 class="h2 fw-bold mb-4">We'd Love To Hear From You</h2>
+            <h2 class="h2 fw-bold mb-4">Our Commitment</h2>
             <p class="text-white m-auto">
-                Zed Capital operates globally with offices and teams around the world, offering localized support and tailored trading solutions. 
-                Our international reach allows us to understand and meet the unique needs of traders in different regions, making us a trusted partner in your financial journey.
+                Trust through transparency, opportunity through innovation.
+            </p>
+            <p class="text-white m-auto">
+                Your gateway to secure, reliable, and professional global capital market solutions.
             </p>
         </div>
     </div>
@@ -940,7 +950,7 @@ include_once ('elements/header.php');
 
     .value-content p {
         font-size: 16px;
-        max-width: 600px;
+        max-width: 500px;
         margin: 0 auto;
     }
 
@@ -963,7 +973,12 @@ include_once ('elements/header.php');
 <section class="value-section">
     <div class="value-content">
         <h2>Our Value</h2>
-        <p class="mb-5">We enable our investors with a safe and secure trading environment.</p>
+        <p class="mb-2">
+            We offer our investors a safe and secure trading environment, supported by transparency and integrity.
+        </p>
+        <p class="mb-5">
+            By empowering a global community of traders, we turn opportunities into confidence and success.
+        </p>
     </div>
 </section>
 

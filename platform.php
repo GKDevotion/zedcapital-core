@@ -253,9 +253,12 @@ include_once('elements/header.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 text-md-start text-center mb-4 mb-md-0" data-aos="fade-up" data-aos-duration="800">
-                <h1 class="display-6 fw-bold mb-3">Top Broker Platforms for Meta Trader 5</h1>
+                <h1 class="display-6 fw-bold mb-3">Meta Trader 5</h1>
                 <p class="text-gray mb-4">
-                    Trade with precision. Operate with confidence.
+                    The Platform of Professionals.
+                </p>
+                <p>
+                    Experience next-generation trading infrastructure engineered for stability, transparency, and control.
                 </p>
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start meta-trader-logo-container">
                     <img src="assets/images/meta-trader-5-logo.png" alt="Meta Trader 5 Logo" class="img-fluid me-2" style="width: 300px;" data-aos="fade-up" data-aos-duration="800">
@@ -342,7 +345,7 @@ include_once('elements/header.php');
             <div class="col-md-6 d-flex align-items-center justify-content-center">
                 <span class="d-none me-2 arrow">&#9658;</span>
                 <p class="mb-0 text-white small">
-                    Zed Capital International Ltd (licensed and supervised by the FSC, Mauritius) provides a unified, multi-device trading environment engineered for stability, speed, and security. Execute, analyse, and manage risk seamlessly across desktop, web, and mobile.
+                    Meta Trader 5 is one of the world’s most advanced trading platforms, built to deliver speed, stability, and precision. Designed for both manual and automated trading, MT5 provides powerful charting tools, multi-asset access, and an optimized environment for Expert Advisors (EAs).
                 </p>
 
                 <div class="position-relative set-diamond-image">
@@ -355,7 +358,7 @@ include_once('elements/header.php');
         <div class="row">
             <div class="download-any-trade wave-container">
                 <p class="text-white fw-bold mb-0">
-                    Download Any Trading Platform 
+                    Download Your MT5 Platform Now 
                 </p>
             </div>
         </div>
@@ -528,7 +531,7 @@ include_once ('elements/feature-trading-icons.php');
     }
 </style>
 
-<div class="container">
+<div class="container d-none">
     <div class="row py-5 pb-0 align-items-start">
         <!-- Left Box -->
         <div class="col-md-6 px-5 mt5-padding">
@@ -677,22 +680,24 @@ include_once ('elements/feature-trading-icons.php');
                     <div class="col access-column">
                         <div class="feature-box row ">
                             <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
-                                <h3 class="fw-bold mb-0 text-start">MT5</h3>
-                                <h3 class="fw-bold pb-4 text-start">Features</h3>
+                                <h3 class="fw-bold mb-0 text-start">Meta Trader 5</h3>
+                                <h3 class="fw-bold pb-4 text-start">Web Trading</h3>
                                 <ul class="feature-list dash-list list-unstyled m-0 text-gray">
-                                    <li class="text-start">Ability to Trade via a Web Browser</li>
-                                    <li class="text-start">One Click Trading</li>
-                                    <li class="text-start">Supports All Types of Trading Orders</li>
-                                    <li class="text-start">Editable Properties of Graphical Objects</li>
+                                    <li class="text-start">Trade Anywhere, Instantly</li>
                                 </ul>
+
+                                <p class="text-start mt-3">
+                                    Experience the freedom of trading directly from your web browser, no installation, no downloads.
+                                </p>
                             </div>
                             <div class="col-lg-6 text-end set-diamond-image" data-aos="fade-up" data-aos-duration="800">
                                 <img src="assets\images\half-tab.png" alt="MT5 Screenshot" class="img-responsive w-100">
                             </div>
                             <div class="col-sm-12 col-12 pt-4">
-                                <ul class="feature-list dash-list feature-list-extra list-unstyled text-gray" data-aos="fade-up" data-aos-duration="800">
-                                    <li class="text-start">Over 1000 Instruments, including Stock CFDs, Stock Indices CFDs, CFDs on Forex, CFDs on Precious Metals, and CFDs on Energies</li>
-                                    <li class="text-start">Editable Properties of Graphical Objects</li>
+                                <ul class="feature-list dash-list feature-list-extra list-unstyled text-gray mt-4" data-aos="fade-up" data-aos-duration="800">
+                                    <li class="text-start">
+                                        Meta Trader 5 Web Trader gives you full market access, real-time pricing, and complete account control from any device, powered by Zed Capital International Ltd.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -705,20 +710,42 @@ include_once ('elements/feature-trading-icons.php');
 
                         <div class="access-column d-flex flex-column flex-md-row align-items-start align-items-md-center">
                             <div class="mb-3 mb-md-0">
-                                <h3 class="fw-bold mb-0">How to Access the MT5</h3>
+                                <h3 class="fw-bold mb-0">Why Choose MT5 Web Trader</h3>
                             </div>
                             <div class="divider d-none d-md-block" style="height: 70%;"></div>
                             <ul class="m-0 feature-list-extra">
-                                <li>Access the terminal by clicking.</li>
-                                <li>Enter your real or demo account login data.</li>
+                                <li>
+                                    <b>No Installation Needed: </b>Access instantly from any modern browser.
+                                </li>
+                                <li>
+                                    <b>Cross-Platform Access: </b>Trade seamlessly across desktop, mobile, and tablet.
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-7 pb-3 px-0">
-                        <p class="mobile-column text-gray pb-4 pt-0 m-0">
+                        <p class="mobile-column text-gray pb-4 pt-0 m-0 d-none">
                             With no additional downloads required, you can use the full practicality of the MT5 for instant online trading on both demo and trading accounts. The complete trading functionality of the MT5 is based on its compatibility with MetaTrader 5. This allows one-click operations for opening and closing trades, setting stops and entry limits, placing direct orders,
                         </p>
+                        <ul class="m-0 feature-list-extra">
+                            <li>
+                                <b>Real-Time Execution: </b>Enjoy lightning-fast, reliable order processing.
+                            </li>
+                            <li>
+                                <b>Advanced Charting: </b>Analyze markets with built-in tools and indicators.
+                            </li>
+                            <li>
+                                <b>Secure & Encrypted: </b>Trade with complete data protection.
+                            </li>
+                            <li>
+                                <b>Account Sync: </b>Stay updated across Web, Desktop, and Mobile.
+                            </li>
+                            <li>
+                                <b>Trade Anywhere: </b>Access global markets 24/7 with ease.
+                            </li>
+                            <li>Enter your real or demo account login data.</li>
+                        </ul>
                     </div>
                     <div class="col-sm-5 p-0 set-diamond-image" data-aos="fade-up" data-aos-duration="800">
                         <img src="assets/images/half-mobile.png" class="" style="height: 278px;">
@@ -780,46 +807,45 @@ include_once ('elements/feature-trading-icons.php');
 <section class="mt-5-features">
     <div class="container">
         <div class="pricing-section">
-            <h2 class="h2 fw-bold mb-5">MetaTrader 5 Key Features</h2>
+            <h2 class="h2 fw-bold mb-5">How to Use MT5 WebTrader at Zed Capital</h2>
             <div class="highlight-line"></div>
 
             <div class="row">
                 <div class="col-md-6 pricing-box mb-4" data-aos="fade-up" data-aos-duration="800">
+                    <a href="#" class="a-link-move-icon">
+                        Visit the Official Website
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </a>
                     <p class="text-gray" style="width: 90%;">
-                        Unlike MT4 which was specifically designed for Forex trading, MT5 is a multi-asset trading platform which allows users to trade a variety of asset classes including exchange instruments and futures.
+                        Go to www.zedcapital.com and navigate to the Platform → MetaTrader 5 Web section.
                     </p>
 
-                    <a href="#" class="a-link-move-icon">
-                        Multi-asset Trading Platform
+                    <a href="#" class="a-link-move-icon mt-4">
+                        Login to Your Account
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
-
-                    <p class="mt-4 text-gray" style="width: 85%;">
-                        MetaTrader 5 provides an extensive range of technical indicators and trading tools that can be used to conduct technical analysis. Access 80+ technical indicators and more than 40 analytical objects through a highly
+                    <p class="text-gray" style="width: 85%;">
+                        Enter your Zed Capital MT5 login credentials (account number, password, and server).
                     </p>
-                    <a href="#" class="a-link-move-icon">
-                        Powerful Technical Analysis Tools 
-                        <i class="fas fa-chevron-circle-right"></i>
-                    </a>
                 </div>
 
                 <div class="col-md-6 pricing-box mb-4" data-aos="fade-up" data-aos-duration="800">
+                    <a href="#" class="a-link-move-icon">
+                        Access Your Dashboard
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </a>
                     <p class="text-gray" style="width: 90%;">
-                        Staying up to date with the latest market news and relevant macroeconomic data releases is considered important to modern day traders.
-                    </p>
-                    <a href="#" class="a-link-move-icon">
-                        Real-time Market News & Analysis 
-                        <i class="fas fa-chevron-circle-right"></i>
-                    </a>
-
-                    <p class="mt-4 text-gray" style="width: 85%;">
-                        Risk management is an important concept regarding any financial transactions and an essential part of any trading plan. MetaTrader 5 offers an extensive range of risk management tools including six types of pending orders.
+                        Monitor your balance, open positions, and live quotes instantly.
                     </p>
 
-                    <a href="#" class="a-link-move-icon">
-                        Risk Management 
+                    <a href="#" class="a-link-move-icon mt-4">
+                        Start Trading
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
+                    <p class="text-gray" style="width: 85%;">
+                        Execute trades, analyze charts, and manage risks — directly from your web browser.
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -922,14 +948,17 @@ include_once ('elements/feature-trading-icons.php');
       <div class="col-lg-6 p-4">
         <div class="bg-white rounded-5 shadow-sm m-5 p-5 card-scene">
           <h5 class="fw-bold mb-3 mx-3">
-            You can download and install MetaTrader 5 in a few simple steps
+            Power-Packed Trading Features
           </h5>
           <ul class="list-unstyled mb-0 text-gray mx-3">
-            <li>✔ <span class="mx-2">Register and open a live trading account</span></li>
-            <li>✔ <span class="mx-2">Receive login credentials via email</span></li>
-            <li>✔ <span class="mx-2">Log in to client portal</span></li>
-            <li>✔ <span class="mx-2">Select and download the appropriate MT5 version for your operating system</span></li>
-            <li>✔ <span class="mx-2">Install MT5, log in, and start trading</span></li>
+            <li>✔ <span class="mx-2">Power-Packed Trading Features</span></li>
+            <li>✔ <span class="mx-2">Advanced Multi-Device Trading Platforms</span></li>
+            <li>✔ <span class="mx-2">1,000+ Instruments (CFDs)</span></li>
+            <li>✔ <span class="mx-2">Integrated Economic Calendar</span></li>
+            <li>✔ <span class="mx-2">38+ Pre-Installed Technical Indicators</span></li>
+            <li>✔ <span class="mx-2">3 Analytical Charting Tools</span></li>
+            <li>✔ <span class="mx-2">44 Chart Types & 21 Timeframes</span></li>
+            <li>✔ <span class="mx-2">1-Click Trading & Trade Directly from Charts</span></li>
           </ul>
         </div>
       </div>
