@@ -394,3 +394,10 @@ h1.fw-bold{
 .float-on-hover:hover {
     animation: floatY var(--float-duration) ease-in-out infinite;
 }
+
+.swal2-actions button{
+    min-width: 100px;
+}
+.swal2-cancel{
+    margin-right: 15px;
+}

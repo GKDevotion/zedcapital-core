@@ -123,6 +123,11 @@
                                 Desktop
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="openMT5WebTrader">
+                                MT5 Web Trader
+                            </button>
+                        </li>
                     </ul>
                 </li>
 

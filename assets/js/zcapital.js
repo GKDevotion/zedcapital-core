@@ -217,3 +217,31 @@ $(document).ready(function() {
         window.open(url+'zed-academy.php', '_blank');
     });
 });
+
+
+// SweetAlert2 with Bootstrap buttons
+const swalWithBootstrapButtons = Swal.mixin({
+    customClass: {
+        confirmButton: "btn btn-success me-2",
+        cancelButton: "btn btn-danger"
+    },
+    buttonsStyling: false
+});
+
+document.getElementById("openMT5WebTrader").addEventListener("click", function() {
+    swalWithBootstrapButtons.fire({
+        title: "Choose Trading Account",
+        // text: "You won't be able to revert this!",
+        // icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Live",
+        cancelButtonText: "Demo",
+        reverseButtons: true
+    }).then((result) => {
+        if (result.isConfirmed) {
+            window.open('https://webtrader.zedcapital.mu/terminal', '_blank');
+        } else if (result.dismiss === Swal.DismissReason.cancel) {
+            window.open('https://demo.zedcapital.mu/terminal', '_blank');
+        }
+    });
+});
