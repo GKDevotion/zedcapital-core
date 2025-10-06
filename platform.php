@@ -528,7 +528,7 @@ include_once ('elements/feature-trading-icons.php');
     }
 </style>
 
-<div class="container">
+<div class="container d-none">
     <div class="row py-5 pb-0 align-items-start">
         <!-- Left Box -->
         <div class="col-md-6 px-5 mt5-padding">
@@ -669,7 +669,7 @@ include_once ('elements/feature-trading-icons.php');
     }
 </style>
 
-<section class="feature-access">
+<section class="feature-access d-none">
     <div class="container">
         <div class="row">
             <div class="col-md-6 mb-3" data-aos="fade-up" data-aos-duration="800">
