@@ -588,14 +588,14 @@ include_once ('elements/header.php');
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
                     <h5 class="fw-bold">Conclusion</h5>
-                    <ul class="mb-0 small-muted">
-                        <li>
+                    <ul class="arrow-list mb-0 small-muted">
+                        <li class="mb-1 fs-6 px-4">
                             The <b>Asian financial market</b> is more than a regional player — it is the <b>center of global growth and innovation</b>. Its diversity, scale, and momentum make it an essential component of any global investment strategy.
                         </li>
-                        <li>
+                        <li class="mb-1 fs-6 px-4">
                             At <b>Zed Capital International Ltd</b>, we provide the insights, access, and disciplined strategies to help clients engage confidently with Asia's opportunities — balancing growth potential with careful risk management.
                         </li>
-                        <li> 
+                        <li class="mb-1 fs-6 px-4"> 
                             Zed Capital International Ltd — connecting global investors to Asia's financial future
                         </li>
                     </ul>

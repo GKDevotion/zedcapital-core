@@ -613,10 +613,10 @@ include_once ('elements/header.php');
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
                     <h5 class="fw-bold">Zed Capital Risk Approach</h5>
-                    <ul class="mb-0 small-muted p-0">
-                        <li class="mx-4">Disciplined risk management</li>
-                        <li class="mx-4">Scenario analysis and stress-testing</li>
-                        <li class="mx-4">Global diversification and active rebalancing</li>
+                    <ul class="arrow-list mb-0 small-muted p-0">
+                        <li class="mb-1 fs-6 px-4">Disciplined risk management</li>
+                        <li class="mb-1 fs-6 px-4">Scenario analysis and stress-testing</li>
+                        <li class="mb-1 fs-6 px-4">Global diversification and active rebalancing</li>
                     </ul>
                 </div>
             </div>
@@ -662,10 +662,16 @@ include_once ('elements/header.php');
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
                     <h5 class="fw-bold">Conclusion</h5>
-                    <ul class="mb-0 small-muted">
-                        <li>The American financial market is more than just the largest marketplace — it is the engine of global finance. Its movements determine the flow of capital, shape international policy, and influence economies worldwide.</li>
-                        <li>At Zed Capital International Ltd, we provide the knowledge, access, and institutional-level analysis our clients need to navigate this market with confidence. Whether your goal is growth, income, or risk management, our mission is to empower you to succeed in the world's most powerful financial arena.</li>
-                        <li> Zed Capital International Ltd — guiding investors through the American market with clarity, confidence, and expertise.</li>
+                    <ul class="arrow-list mb-0 small-muted">
+                        <li class="mb-1 fs-6 px-4">
+                            The American financial market is more than just the largest marketplace — it is the engine of global finance. Its movements determine the flow of capital, shape international policy, and influence economies worldwide.
+                        </li>
+                        <li class="mb-1 fs-6 px-4">
+                            At Zed Capital International Ltd, we provide the knowledge, access, and institutional-level analysis our clients need to navigate this market with confidence. Whether your goal is growth, income, or risk management, our mission is to empower you to succeed in the world's most powerful financial arena.
+                        </li>
+                        <li class="mb-1 fs-6 px-4">
+                            Zed Capital International Ltd — guiding investors through the American market with clarity, confidence, and expertise.
+                        </li>
                     </ul>
                 </div>
             </div>

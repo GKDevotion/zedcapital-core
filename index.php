@@ -44,16 +44,12 @@ if (false) {
     <div id="indexCarousel" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators -->
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="0" class="d-none"></button>
             <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1" class="active"></button>
             <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="2"></button>
         </div>
 
         <!-- Slides -->
         <div class="carousel-inner">
-            <div class="carousel-item d-none">
-                <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Slide 1">
-            </div>
             <div class="carousel-item active">
                 <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Slide 2">
             </div>
@@ -426,7 +422,7 @@ if (false) {
                             </tr>
                             <tr>
                                 <td class="text-start">Spreads</td>
-                                <td class="fw-400 theme-black-color text-end">From 0.2 pips</td>
+                                <td class="fw-400 theme-black-color text-end">From 0.1 pips</td>
                             </tr>
                             <tr>
                                 <td class="text-start">Leverage</td>
@@ -873,6 +869,11 @@ if (false) {
         right: 18px;
     }
 
+    #market_access a {
+        text-decoration: none;
+        color: var(--zed-dark-text);
+    }
+
     @media (max-width: 767.9px) {
         #market_access {
             padding: 60px 0;
@@ -894,85 +895,97 @@ if (false) {
 
         <!-- Stock -->
         <div class="col-md-4 stock-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <img src="assets/images/tesla-logo.png" class="icon tesla" alt="Tesla">
-            <div class="market-card">
-                <div class="px-5 text-start">
-                    <h3 class="text-hover-effect">Stock</h3>
+            <a href="stock.php" title="Stock">
+                <img src="assets/images/tesla-logo.png" class="icon tesla" alt="Tesla">
+                <div class="market-card">
+                    <div class="px-5 text-start">
+                        <h3 class="text-hover-effect">Stock</h3>
+                    </div>
+                    <div class="px-5">
+                        <p class="text-start text-gray">Invest in global leaders like Apple, Tesla, and Microsoft for long-term growth.</p>
+                    </div>
                 </div>
-                <div class="px-5">
-                    <p class="text-start text-gray">Invest in global leaders like Apple, Tesla, and Microsoft for long-term growth</p>
-                </div>
-            </div>
-            <img src="assets/images/apple-logo.png" class="icon apple" alt="Apple">
+                <img src="assets/images/apple-logo.png" class="icon apple" alt="Apple">
+            </a>
         </div>
 
         <!-- Metal -->
         <div class="col-md-4 metal-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <img src="assets/images/metal-wire.png" class="icon metal-wire" alt="Gold">
-            <div class="market-card">
-                <div class="px-5 text-start">
-                    <h3 class="text-hover-effect">Metal</h3>
+            <a href="metal.php" title="Metal">
+                <img src="assets/images/metal-wire.png" class="icon metal-wire" alt="Gold">
+                <div class="market-card">
+                    <div class="px-5 text-start">
+                        <h3 class="text-hover-effect">Metal</h3>
+                    </div>
+                    <div class="px-5">
+                        <p class="text-start text-gray">Protect your wealth with safe-haven assets such as gold and silver.</p>
+                    </div>
                 </div>
-                <div class="px-5">
-                    <p class="text-start text-gray">Protect your wealth with safe-haven assets such as gold and silver.</p>
-                </div>
-            </div>
-            <img src="assets/images/metal-brick.png" class="icon metal-brick" alt="Silver">
+                <img src="assets/images/metal-brick.png" class="icon metal-brick" alt="Silver">
+            </a>
         </div>
 
         <!-- Indices -->
         <div class="col-md-4 indices-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <img src="assets/images/naqsad-logo.png" class="icon nasdaq" alt="NASDAQ">
-            <div class="market-card">
-                <div class="px-5 text-start">
-                    <h3 class="text-hover-effect">Indicies</h3>
+            <a href="indicies.php" title="Indicies">
+                <img src="assets/images/naqsad-logo.png" class="icon nasdaq" alt="NASDAQ">
+                <div class="market-card">
+                    <div class="px-5 text-start">
+                        <h3 class="text-hover-effect">Indicies</h3>
+                    </div>
+                    <div class="px-5">
+                        <p class="text-start text-gray">Diversify with top indices including the NASDAQ and <br>S&P 500.</p>
+                    </div>
                 </div>
-                <div class="px-5">
-                    <p class="text-start text-gray">Diversify with top indices including the NASDAQ and S&P 500.</p>
-                </div>
-            </div>
-            <img src="assets/images/s-p-500-logo.png" class="icon sp500" alt="NASDAQ">
+                <img src="assets/images/s-p-500-logo.png" class="icon sp500" alt="NASDAQ">
+            </a>
         </div>
 
         <!-- Forex -->
         <div class="col-md-4 forex-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <img src="assets/images/doller-icon.png" class="icon doller" alt="USD Doller">
-            <div class="market-card">
-                <div class="px-5 text-start">
-                    <h3 class="text-hover-effect">Global Currency</h3>
+            <a href="forex.php" title="Forex">
+                <img src="assets/images/doller-icon.png" class="icon doller" alt="USD Doller">
+                <div class="market-card">
+                    <div class="px-5 text-start">
+                        <h3 class="text-hover-effect">Global Currency</h3>
+                    </div>
+                    <div class="px-5">
+                        <p class="text-start text-gray">Trade major currencies like the USD and Euro with high liquidity.</p>
+                    </div>
                 </div>
-                <div class="px-5">
-                    <p class="text-start text-gray">Trade major currencies like the USD and Euro with high liquidity.</p>
-                </div>
-            </div>
-            <img src="assets/images/euro-icon.png" class="icon euro" alt="Euro">
+                <img src="assets/images/euro-icon.png" class="icon euro" alt="Euro">
+            </a>
         </div>
 
         <!-- Commodities -->
         <div class="col-md-4 commodities-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <div class="market-card">
-                <div class="px-5 text-start">
-                    <h3 class="text-hover-effect">Commodities</h3>
+            <a href="commodities.php" title="Commodities">
+                <div class="market-card">
+                    <div class="px-5 text-start">
+                        <h3 class="text-hover-effect">Commodities</h3>
+                    </div>
+                    <div class="px-5">
+                        <p class="text-start text-gray">Seize opportunities in essential resources like oil and more.</p>
+                    </div>
                 </div>
-                <div class="px-5">
-                    <p class="text-start text-gray">Seize opportunities in essential resources like oil and more.</p>
-                </div>
-            </div>
-            <img src="assets/images/oil-drum-icon.png" class="icon oil" alt="Oil">
+                <img src="assets/images/oil-drum-icon.png" class="icon oil" alt="Oil">
+            </a>
         </div>
 
         <!-- Crypto -->
         <div class="col-md-4 crypto-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <img src="assets/images/product-crypto-icon.png" class="icon crypto-icon" alt="Crypto Coin">
-            <div class="market-card">
-                <div class="px-5 text-start">
-                    <h3 class="text-hover-effect">Crypto</h3>
+            <a href="crypto.php" title="Crypto">
+                <img src="assets/images/product-crypto-icon.png" class="icon crypto-icon" alt="Crypto Coin">
+                <div class="market-card">
+                    <div class="px-5 text-start">
+                        <h3 class="text-hover-effect">Crypto</h3>
+                    </div>
+                    <div class="px-5">
+                        <p class="text-start text-gray">Explore the future of finance with leading crypto coins.</p>
+                    </div>
                 </div>
-                <div class="px-5">
-                    <p class="text-start text-gray">Explore the future of finance with leading crypto coins.</p>
-                </div>
-            </div>
-            <img src="assets/images/product-bitcoin-logo.png" class="icon btc" alt="Bitcoin">
+                <img src="assets/images/product-bitcoin-logo.png" class="icon btc" alt="Bitcoin">
+            </a>
         </div>
 
     </div>
@@ -1079,29 +1092,6 @@ if (false) {
             </div>
 
             <div class="col-md-4 p-0">
-                <div class="row tech-feature home-page" data-aos="fade-up" data-aos-duration="800">
-                    <div class="col-md-12 set-m-bottom">
-                        <div class="row">
-                            <div class="col-6" data-aos="fade-up" data-aos-duration="900">
-                                <img src="assets/images/pamm-trade-icon.png" class="w-100">
-                            </div>
-                            <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1000">
-                                <h3 class="fw-bold">Advance CRM</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 set-m-bottom">
-                        <p class="text-gray text-start">
-                            A secure, role-based CRM that centralises lead management, KYC/AML, MT5 account syncing, funding/withdrawals, support tickets, and IB/affiliate payouts, powered by automation, audit trails, and real-time performance dashboards for faster onboarding and higher retention.
-                        </p>
-                    </div>
-                    <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
-                        <button>Create Account</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 p-0">
                 <div class="row tech-feature home-page" data-aos="fade-up" data-aos-duration="1100">
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
@@ -1119,6 +1109,29 @@ if (false) {
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 loginLiveAccount">
+                        <button>Create Account</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-0">
+                <div class="row tech-feature home-page" data-aos="fade-up" data-aos-duration="800">
+                    <div class="col-md-12 set-m-bottom">
+                        <div class="row">
+                            <div class="col-6" data-aos="fade-up" data-aos-duration="900">
+                                <img src="assets/images/advance-crm.png" class="w-100">
+                            </div>
+                            <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1000">
+                                <h3 class="fw-bold">Advance CRM</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 set-m-bottom">
+                        <p class="text-gray text-start">
+                            A secure, role-based CRM that centralises lead management, KYC/AML, MT5 account syncing, funding/withdrawals, support tickets, and IB/affiliate payouts, powered by automation, audit trails, and real-time performance dashboards for faster onboarding and higher retention.
+                        </p>
+                    </div>
+                    <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
                         <button>Create Account</button>
                     </div>
                 </div>
@@ -1228,6 +1241,10 @@ if (false) {
         align-items: center;
         color: #000;
         margin-left: -75px;
+    }
+
+    .feature-title span{
+        margin-right: 15px;
     }
 
     .feature-text {
@@ -1548,7 +1565,7 @@ if (false) {
                 <div class="fw-semibold pt-5">Step 3</div>
                 <div class="step-desc">
                     <p>Analyze, execute, manage,</p>
-                    <p>Withdrawal at your time. (24/7)</p>
+                    <p>Withdrawal at your time.</p>
                 </div>
             </div>
 
@@ -1854,25 +1871,6 @@ if (false) {
     .img-pound-move-out {
         transform: translate(0%, 0%);
         transition: transform 1.5s ease-in-out;
-    }
-
-    .arrow-list {
-        list-style: none; /* remove default dots */
-        padding-left: 0; /* remove extra padding */
-    }
-
-    .arrow-list li {
-        position: relative;
-        padding-left: 20px; /* space for the arrow */
-    }
-
-    .arrow-list li::before {
-        content: "›"; /* or ">" */
-        position: absolute;
-        left: 0;
-        color: var(--zed-primary); /* Bootstrap primary color */
-        font-size: 45px;
-        margin: -20px 0 0 0;
     }
 </style>
 

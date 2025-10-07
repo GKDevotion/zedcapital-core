@@ -265,7 +265,7 @@ include_once('elements/header.php');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/meta-trader-laptop-background.png" alt="Meta Trader 5 Platform Mockup" class="img-fluid d-none d-lg-block">
+                <img src="assets/images/platform-mobile-desktop.png" alt="Meta Trader 5 Platform Mockup" class="img-fluid d-none d-lg-block">
 
                 <div class="position-relative set-diamond-image">
                     <img src="assets/images/diamonds/platform-2-diamonds.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 120px; height: 70px; margin: -85px -50px;">
@@ -724,27 +724,27 @@ include_once ('elements/feature-trading-icons.php');
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-7 pb-3 px-0">
+                    <div class="col-12 col-sm-8 pb-3 px-0">
                         <p class="mobile-column text-gray pb-4 pt-0 m-0 d-none">
                             With no additional downloads required, you can use the full practicality of the MT5 for instant online trading on both demo and trading accounts. The complete trading functionality of the MT5 is based on its compatibility with MetaTrader 5. This allows one-click operations for opening and closing trades, setting stops and entry limits, placing direct orders,
                         </p>
-                        <ul class="m-0 feature-list-extra">
-                            <li>
+                        <ul class="platform-arrow-list m-0 feature-list-extra">
+                            <li class="px-5">
                                 <b>No Installation Needed: </b>Access instantly from any modern browser.
                             </li>
-                            <li>
+                            <li class="px-5">
                                 <b>Cross-Platform Access: </b>Trade seamlessly across desktop, mobile, and tablet.
                             </li>
-                            <li>
+                            <li class="px-5">
                                 <b>Real-Time Execution: </b>Enjoy lightning-fast, reliable order processing.
                             </li>
-                            <li>
+                            <li class="px-5">
                                 <b>Advanced Charting: </b>Analyze markets with built-in tools and indicators.
                             </li>
-                            <li>
+                            <li class="px-5">
                                 <b>Secure & Encrypted: </b>Trade with complete data protection.
                             </li>
-                            <li>
+                            <li class="px-5">
                                 <b>Account Sync: </b>Stay updated across Web, Desktop, and Mobile.
                             </li>
                             <li class="d-none">
@@ -755,8 +755,8 @@ include_once ('elements/feature-trading-icons.php');
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-5 p-0 set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                        <img src="assets/images/half-mobile.png" class="" style="height: 325px;">
+                    <div class="col-sm-4 p-0 set-diamond-image" data-aos="fade-up" data-aos-duration="800">
+                        <img src="assets/images/half-mobile.png" class="" style="height: 400px; margin: -65px 0 0 -50px;">
                     </div>
                 </div>
             </div>

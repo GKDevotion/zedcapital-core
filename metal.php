@@ -720,7 +720,7 @@ include_once ('elements/explore-more-about.php');
     }
 </style>
 
-<div class="container">
+<div class="container mb-5">
     <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800" >
         <div class="col-12">
             <div class="info-card" data-aos="fade-up" data-aos-duration="800" >

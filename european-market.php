@@ -593,14 +593,14 @@ include_once ('elements/header.php');
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
                     <h5 class="fw-bold">Conclusion</h5>
-                    <ul class="mb-0 small-muted">
-                        <li>
+                    <ul class="arrow-list mb-0 small-muted">
+                        <li class="mb-1 fs-6 px-4">
                             The <b>European financial market</b> is both diverse and influential — a blend of tradition, innovation, and regulatory strength. Its impact extends across currencies, commodities, equities, and alternative assets, making it a vital component of any global portfolio
                         </li>
-                        <li>
+                        <li class="mb-1 fs-6 px-4">
                             At <b>Zed Capital International Ltd</b>, we empower our clients with the knowledge, access, and strategies needed to engage effectively with Europe's financial ecosystem. Whether seeking growth, diversification, or stability, we provide the insights to help investors succeed
                         </li>
-                        <li> 
+                        <li class="mb-1 fs-6 px-4"> 
                             Zed Capital International Ltd — unlocking opportunities across Europe’s financial heartlands
                         </li>
                     </ul>

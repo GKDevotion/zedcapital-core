@@ -565,14 +565,14 @@ include_once ('elements/header.php');
             <div class="col-lg-12">
                 <div class="p-3 bg-white">
                     <h5>Conclusion</h5>
-                    <ul class="mb-0 small-muted">
-                        <li>
+                    <ul class="arrow-list mb-0 small-muted">
+                        <li class="mb-1 fs-6 px-4">
                             The <b>Middle Eastern financial market</b> is a dynamic blend of energy wealth, sovereign investment, and economic diversification. With expanding capital markets, ambitious reforms, and global-scale sovereign wealth funds, the region is set to play an increasingly pivotal role in the international financial system.
                         </li>
-                        <li>
+                        <li class="mb-1 fs-6 px-4">
                             At <b>Zed Capital International Ltd</b>, we provide clients with the insight, access, and strategies required to navigate this evolving market — from traditional energy-linked investments to emerging opportunities in technology, infrastructure, and sustainable finance.
                         </li>
-                        <li> 
+                        <li class="mb-1 fs-6 px-4"> 
                             Zed Capital International Ltd — connecting global investors to the opportunities of the Middle East.
                         </li>
                     </ul>

@@ -529,32 +529,49 @@ include_once ('elements/header.php');
         text-align: center;
         }
     }
+
+    #nominee_fund_protection .btn-learn{
+        min-width: 270px !important;
+    }
 </style>
 
-<section class="section-container">
+<section class="section-container" id="nominee_fund_protection">
     <div class="container">
         <div class="row align-items-center">
             <!-- Left Text -->
-            <div class="col-lg-5 text-center-md">
-                <h2 class="headline">Nomination trading <br>done right.</h2>
+            <div class="col-lg-6 text-center-md">
+                <h2 class="headline">Nominee Fund Protection</h2>
                 <hr class="border-danger opacity-100" style="height: 10px; width: 60px; background-color: var(--zed-primary); margin: 25px 0;">
-                <h5 class="sub-headline mt-5">Precision in every trade.</h5>
-                <p class="desc p-0 m-0 mt-4">
-                    Our nomination trading solutions ensure 
-                </p>
                 <p class="desc p-0 m-0">
-                    transparency, compliance,
+                    At Zed Capital International Ltd, client fund security remains our top priority. In the unfortunate event of a client's unavailability due to death, critical illness, or any other valid reason, the client's registered nominee is entitled to claim the available account balance or account credentials in accordance with our verification and compliance procedures.
+
                 </p>
-                <p class="desc p-0 m-0">
-                    and efficiency — every step of the way.
-                </p>
-                <button class="mt-5 btn btn-custom">
-                    Smart. Swift. Secure
-                </button>
+
+                <div class="text-start mt-4">
+                    <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
+                        Authorized Nominee Access <i class="fas fa-arrow-right d-none"></i>
+                    </button>
+
+                    <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
+                        Full Transparency
+                    </button>
+
+                    <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
+                        Seamless Fund Settlement
+                    </button>
+
+                    <button class="btn-learn btn " data-aos="fade-up" data-aos-duration="800">
+                        Client Confidence
+                    </button>
+                </div>
+
+                <a class="mt-5 btn btn-custom" href="nominee-fund-protection.php" title="Nominee Fund Protection">
+                    Get Started
+                </a>
             </div>
 
             <!-- Right Image -->
-            <div class="col-lg-7 text-center mt-4 mt-lg-0">
+            <div class="col-lg-6 text-center mt-4 mt-lg-0">
                 <img src="assets/images/nominee-letter.png" class="w-100" alt="Nominee Letter">
             </div>
         </div>

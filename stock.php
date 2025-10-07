@@ -808,14 +808,14 @@ include_once ('elements/explore-more-about.php');
                     At <b>Zed Capital International Ltd</b>, we provide risk management tools including stop-loss and take-profit orders, ensuring that clients can trade responsibly and with confidence.
                 </div>
                 <p class="info-note" data-aos="fade-up" data-aos-duration="850">
-                    <ul class="mb-0 ps-5">
-                        <li class="mb-2" data-aos="fade-up" data-aos-duration="800">
+                    <ul class="arrow-list mb-0 ps-5">
+                        <li class="mb-1 px-4" data-aos="fade-up" data-aos-duration="800">
                             <b>Leverage Amplifies Risk:</b> While leverage enhances exposure, it also increases potential losses.
                         </li>
-                        <li class="mb-2" data-aos="fade-up" data-aos-duration="800">
+                        <li class="mb-1 px-4" data-aos="fade-up" data-aos-duration="800">
                             <b>Volatility:</b> Equities are sensitive to earnings announcements, interest rates, and macroeconomic shifts.
                         </li>
-                        <li class="mb-2" data-aos="fade-up" data-aos-duration="800">
+                        <li class="mb-1 px-4" data-aos="fade-up" data-aos-duration="800">
                             <b>No Ownership Rights:</b> As CFDs, stock trades do not include shareholder benefits such as dividends or voting rights.
                         </li>
                     </ul>
