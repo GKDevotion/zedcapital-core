@@ -484,7 +484,7 @@ include_once ('elements/header.php');
     <div class="row g-4 align-items-center mt-5">
       
         <div class="col-md-12 mb-5">
-            <div class="info-card text-dark">
+            <div class="card-custom text-dark">
                 <h4 class="fw-bold mt-2 mb-4">Private Capital (Venture Capital & Private Equity)</h4>
                 <p class="text-muted">
                     The U.S. dominates the <b>venture capital and private equity industry</b>, particularly in Silicon Valley and New York.
