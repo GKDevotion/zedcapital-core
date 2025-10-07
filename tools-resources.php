@@ -573,7 +573,9 @@ include_once ('elements/header.php');
                                 <td class="price-up">824.57</td>
                                 <td class="py-4">3.7</td>
                                 <td class="price-down">-2.80%</td>
-                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                                <td class="py-4">
+                                    <button class="trading-btn">Trade</button>
+                                </td>
                             </tr>
                         </tbody>
                     </table>

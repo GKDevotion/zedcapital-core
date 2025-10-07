@@ -198,7 +198,7 @@ include_once ('elements/header.php');
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="network-container">
-                <img src="assets/images/crypto-benefit.png" class="w-100 ps-5" alt="Regulatory Assurance">
+                <img src="assets/images/crypto-benefit.jpg" class="w-100 ps-5" alt="Regulatory Assurance">
             </div>
         </div>
         
