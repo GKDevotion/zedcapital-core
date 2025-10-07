@@ -311,7 +311,7 @@ include_once ('elements/header.php');
             <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                 <h5 class="fw-bold mb-4">
                     <span class="text-shadow">
-                        USDJYP
+                        USDJPY
                     </span>
                 </h5>
                 <div class="d-flex justify-content-between px-2 mt-3">
@@ -556,7 +556,7 @@ include_once ('elements/header.php');
                 </h5>
 
                 <p class="mt-5">
-                    From the most popular pairs to region specific currencies, Zed Capital International Ltd connects you to opportunities around the globe.
+                    From the most popular pairs to region specific currencies, Zed Capital International Ltd connects you to new opportunities around the globe.
                 </p>
             </div>
 
@@ -657,7 +657,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold mb-1">Reliable Execution</h5>
                             <p class="mb-0 small-muted">
-                                Depend on fast and secure trade processing designed to meet institutional standards.
+                                Depend on fast and secure trade processing execution designed to meet institutional standards.
                             </p>
                         </div>
                     </div>

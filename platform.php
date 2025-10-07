@@ -435,7 +435,7 @@ $featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
 $featureIconArr = [
     [
         'icon' => 'assets/images/education-daily-analysis.png',
-        'title' => 'Access to a wideRange of Instruments'
+        'title' => 'Access to a Wide Range of Instruments'
     ],
     [
         'icon' => 'assets/images/news-live-market.png',

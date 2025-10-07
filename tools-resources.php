@@ -262,7 +262,9 @@ include_once ('elements/header.php');
     <div class="container">
         <!-- Section Title -->
         <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="800">
-            <h2 class="fw-bold">Tools of the Trade</h2>
+            <h2 class="fw-bold">
+                Tools for Trade of Essential Tools
+            </h2>
             <div class="tools-res-divider" data-aos="fade-up" data-aos-duration="850" style="margin: 30px auto;"></div>
         </div>
 
@@ -555,7 +557,7 @@ include_once ('elements/header.php');
                                 <td class="price-down">-7.39%</td>
                                 <td class="py-4"><button class="trading-btn">Trade</button></td>
                             </tr>
-                            <tr data-aos="fade-up" data-aos-delay="800">
+                            <tr class="d-none" data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
                                     <img src="assets/images/cryptologos/ethereum.png?v=040" width="20" alt="ETHUSD"> ETHUSD
                                 </td>
@@ -564,7 +566,7 @@ include_once ('elements/header.php');
                                 <td class="price-down">-5.48%</td>
                                 <td class="py-4"><button class="trading-btn">Trade</button></td>
                             </tr>
-                            <tr data-aos="fade-up" data-aos-delay="800">
+                            <tr class="d-none" data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
                                     <img src="assets/images/cryptologos/bnb.png?v=040" width="20" alt="BNBUSD"> BNBUSD
                                 </td>
@@ -591,25 +593,34 @@ include_once ('elements/header.php');
                         <img src="assets/images/trading-platform.png" alt="Candlestick chart" class="" style="margin: 0 100px 0 0; width: 100px;">
                     </div>
                     <h3 class="fw-bold mb-4" data-aos="fade-up" data-aos-delay="800">Trading Platforms</h3>
-                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Meta Trader 4/5:</strong> 
+                    <p class="mt-4 mb-0" data-aos="fade-up" data-aos-delay="800">
+                        <strong>Meta Trader 4/5:</strong> 
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="800">
                         <span class="text-gray">Popular platforms <br>
                             offering comprehensive trading tools, <br>
                             indicators, and automated trading capabilities.
                         </span>
                     </p>
-                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>cTrader:</strong> 
+                    <p class="m-0" data-aos="fade-up" data-aos-delay="800">
+                        <strong>cTrader:</strong> 
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="800">
                         <span class="text-gray">
                             Known for its intuitive interface and advanced charting tools.
                         </span>
                     </p>
-                    <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>NinjaTrader:</strong> 
+                    <p class="m-0" data-aos="fade-up" data-aos-delay="800">
+                        <strong>NinjaTrader:</strong> 
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="800">
                         <span class="text-gray">
                             Offers advanced charting, back testing, and trade simulation.
                         </span>
                     </p>
                 </div>
 
-                <div>
+                <div class="d-none">
                     <div class="position-absolute w-100 text-end" data-aos="fade-up" data-aos-delay="800">
                         <img src="assets/images/trading-economic-calander.png" alt="Candlestick chart" class="" style="margin: -87px 30px 0 0; width: 200px;">
                     </div>

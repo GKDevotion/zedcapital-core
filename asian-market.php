@@ -145,10 +145,7 @@ include_once ('elements/header.php');
     <div class="row">
         <!-- Left Column -->
         <div class="col-lg-8 mb-4 px-5">
-            <h3 class="fw-bold mb-5">Why the Asian Market Matters Globally</h3>
-            <p class="text-muted text-gray">
-                <b class="text-black">Diversity</b>: Multiple financial hubs offer unique strengths — equities in London, bonds in Frankfurt, banking in Zurich, asset management in Luxembourg.
-            </p>
+            <h3 class="fw-bold mb-4">Why the Asian Market Matters Globally</h3>
             <p class="text-muted text-gray">
                 <b class="text-black">Growth Engine</b>: Asia accounts for over 50% of global GDP growth in recent years.
             </p>

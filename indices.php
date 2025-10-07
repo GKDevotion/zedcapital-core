@@ -634,7 +634,7 @@ include_once ('elements/header.php');
 
 <section class="opportunities-for-investors">
     <div class="container py-5">
-        <h2 class="h4 mb-3">Benefits of Trading Stocks</h2>
+        <h2 class="h4 mb-3">Benefits of Trading Stocks in Indicies?</h2>
         <div class="row g-3">
             <div class="col-md-6">
                 <div class="card tech-feature p-4">
@@ -643,10 +643,10 @@ include_once ('elements/header.php');
                             <img src="assets/images/svg/Diversified-Access.svg">
                         </div>
                         <div>
-                        <h5 class="fw-bold mb-1">Diversified Access</h5>
-                        <p class="mb-0 small-muted">
-                            Reduce risk by trading an entire basket of companies instead of individual stocks.
-                        </p>
+                            <h5 class="fw-bold mb-1">Diversified Access</h5>
+                            <p class="mb-0 small-muted">
+                                Reduce risk by trading an entire basket of companies instead of individual stocks.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -659,10 +659,10 @@ include_once ('elements/header.php');
                             <img src="assets/images/svg/professional-tools.svg">
                         </div>
                         <div>
-                        <h5 class="fw-bold mb-1">Professional Tools</h5>
-                        <p class="mb-0 small-muted">
-                            Trade with confidence backed by strong market liquidity and lightning-fast execution
-                        </p>
+                            <h5 class="fw-bold mb-1">Professional Tools</h5>
+                            <p class="mb-0 small-muted">
+                                Trade with confidence backed by strong market liquidity and lightning-fast execution
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -675,10 +675,10 @@ include_once ('elements/header.php');
                             <img src="assets/images/svg/Efficiency.svg">
                         </div>
                         <div>
-                        <h5 class="fw-bold mb-1">Efficiency</h5>
-                        <p class="mb-0 small-muted">
-                            React quickly to market news, sector performance and economic announcements.
-                        </p>
+                            <h5 class="fw-bold mb-1">Efficiency</h5>
+                            <p class="mb-0 small-muted">
+                                React quickly to market news, sector performance and economic announcements.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -691,10 +691,10 @@ include_once ('elements/header.php');
                             <img src="assets/images/svg/liquidity.svg">
                         </div>
                         <div>
-                        <h5 class="fw-bold mb-1">Liquidity & Speed</h5>
-                        <p class="mb-0 small-muted">
-                            Use advanced features such as technical analysis, risk controls and automated trading systems.
-                        </p>
+                            <h5 class="fw-bold mb-1">Liquidity & Speed</h5>
+                            <p class="mb-0 small-muted">
+                                Use advanced features such as technical analysis, risk controls and automated trading systems.
+                            </p>
                         </div>
                     </div>
                 </div>

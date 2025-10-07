@@ -94,7 +94,8 @@ include_once ('elements/header.php');
             </div>
             <div class="col-lg-5 col-md-6 text-md-start text-center" data-aos="fade-up" data-aos-duration="800">
                 <h2 class="fw-bold text-white mb-5" style="font-size: 2.8rem;">
-                    A Trusted Partner in Global Financial Markets
+                    <!-- A Trusted Partner in Global Financial Markets -->
+                     Transparent Trading System
                 </h2>
                 <p class="text-white">
                     A trusted partner in global capital market solutions, we go beyond brokerage - delivering secure, innovative, and transparent trading built on integrity, trust, and a client-first approach to empower traders worldwide.
@@ -163,7 +164,9 @@ include_once ('elements/header.php');
         </div>
         <div class="row trust-section align-items-center">
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <h2 class="h2">Fund Security</h2>
+                <h2 class="h2">
+                    Strategic risk Management
+                </h2>
                 <div class="underline"></div>
                 <p class="trust-text text-gray mb-5" data-aos="fade-up" data-aos-delay="500">
                     At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, advanced risk management, and bank-level data security, we ensure your capital remains protected at all times.

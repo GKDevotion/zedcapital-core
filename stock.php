@@ -805,7 +805,7 @@ include_once ('elements/explore-more-about.php');
         <div class="col-12">
             <div class="info-card">
                 <div class="alert-custom" data-aos="fade-up" data-aos-duration="850">
-                    At <b>Zed Capital International Ltd</b>, we provide risk management tools including stop-loss and take-profit orders, ensuring that clients can trade responsibly and with confidence.
+                    At <b>Zed Capital International Ltd</b>, we provide risk management tools including stop-loss and take-profit orders, ensuring that clients can trade safely and with confidence.
                 </div>
                 <p class="info-note" data-aos="fade-up" data-aos-duration="850">
                     <ul class="arrow-list mb-0 ps-5">

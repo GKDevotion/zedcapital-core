@@ -270,7 +270,7 @@ include_once ('elements/header.php');
     <!-- Title -->
     <div class="text-center mb-4">
         <h2 class="h2" data-aos="fade-up" data-aos-duration="800" >
-            Why Trade CFDs on Stock?
+            why trade Metals?
         </h2>
         <div class="divider" data-aos="fade-up" data-aos-duration="800" ></div>
         <p class="text-muted w-75 p-2 m-auto" data-aos="fade-up" data-aos-duration="800" >
@@ -413,7 +413,7 @@ include_once ('elements/header.php');
     <!-- Button -->
     <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="800" >
         <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill">
-            Click here to view the Stock' Dividends
+            Click here to view Metals
         </a>
     </div>
 </div>

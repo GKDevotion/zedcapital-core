@@ -34,7 +34,7 @@ include_once ('elements/header.php');
             <!-- Text Column -->
             <div class="col-md-6 text-white align-items-center" data-aos="fade-up" data-aos-delay="800">
                 <p class="" style="font-size: 1.6rem">Zed Academy</p>
-                <h2 class="fw-bold h2 mb-5">Learn. Trading. <br>Success.</h2>
+                <h2 class="fw-bold h2 mb-5">Learn. Trade. <br>Success.</h2>
                 <div class="p-1 divider-back" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 w-75" data-aos="fade-up" data-aos-delay="800">
                 Access structured video courses led by experienced professionals covering 
@@ -101,7 +101,9 @@ include_once ('elements/header.php');
 <section class="py-5 pb-0 knowledge-trading">
     <div class="container text-start">
         <div class="row zed-academy-header" data-aos="fade-up" data-aos-delay="800">
-            <h5 class="fw-bold mb-4" data-aos="fade-up" data-aos-delay="800">Knowledge first Smart trading next</h5>
+            <h5 class="fw-bold mb-4" data-aos="fade-up" data-aos-delay="800">
+                First Learn then Trade & Earn. or First Learn then Earn.
+            </h5>
             <p class="mb-0 text-gray">
                 At <strong>Zed Capital</strong>, learning comes first. Whether you're just starting out or looking to refine your skills, our courses provide practical knowledge and expert guidance to help you trade more confidently.
             </p>

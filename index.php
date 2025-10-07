@@ -46,6 +46,7 @@ if (false) {
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1" class="active"></button>
             <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="3"></button>
         </div>
 
         <!-- Slides -->
@@ -55,6 +56,9 @@ if (false) {
             </div>
             <div class="carousel-item ">
                 <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item ">
+                <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Slide 1">
             </div>
         </div>
 
@@ -142,7 +146,7 @@ if (false) {
                     <p class="mb-0 pb-2">STP Broker</p>
                 </h5>
                 <p class="mb-0 text-gray">
-                    Trade with full confidence through our licensed STP brokerage — regulated, transparent, and committed to fair pricing and reliability.
+                    Trade with full confidence through our licensed STP broker — regulated, transparent, and committed to fair pricing and reliability.
                 </p>
             </div>
 
@@ -168,7 +172,7 @@ if (false) {
                     <p class="mb-0 pb-2">Provider</p>
                 </h5>
                 <p class="mb-0 text-gray">
-                    Access deep liquidity and tight spreads with top-tier global providers — ensuring fast execution and reliable market access.
+                    Access deep liquidity and tight spreads with top-tier global liquidity providers — ensuring fast execution and reliable market access.
                 </p>
             </div>
 
@@ -1082,7 +1086,7 @@ if (false) {
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            Safe MT5 copy-trading tools that consistently and quickly duplicate deals between accounts.  The master is chosen, risk is established (fixed lots or percentage equity), and you can halt or disengage at any time.  Tools only—we don't handle money or offer guidance.
+                            Safe MT5 copy-trading tools that consistently and quickly copy deals between accounts.  The master is chosen, risk is established (fixed lots or percentage equity), and you can halt or disengage at any time. Tools only. No fund handling or financial advice.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
@@ -1105,7 +1109,7 @@ if (false) {
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            MT5 Web Trading eliminates the need for downloads and installs by bringing the entire MT5 experience into your browser.  To access real-time pricing, one-click orders, sophisticated charting, market depth, and full order types that are synchronized across all of your devices, log in with your Zed Capital account.  Quick, safe, and available for trading anywhere.
+                            MT5 Web Trading eliminates the need of downloading and installing MT5 bringing the entire MT5 experience into your browser. To access real-time pricing, one-click orders, sophisticated charting, market depth, and full order types that are synchronized across all your devices, log in with your Zed Capital account. Quick, safe, and available for trading anywhere.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 loginLiveAccount">
@@ -1128,7 +1132,7 @@ if (false) {
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            A secure, role-based CRM that centralises lead management, KYC/AML, MT5 account syncing, funding/withdrawals, support tickets, and IB/affiliate payouts, powered by automation, audit trails, and real-time performance dashboards for faster onboarding and higher retention.
+                            A secure, role-based CRM that centralises lead management, KYC/AML, MT5 account syncing, deposit/withdrawals, support tickets, and IB/affiliate payouts, powered by automation, audit trails, and real-time performance dashboards for faster onboarding and higher retention.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
