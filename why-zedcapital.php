@@ -155,6 +155,7 @@ include_once ('elements/header.php');
         margin: -20px 0 0 0;
     }
 </style>
+
 <section>
     <div class="container">
         <div class="position-relative set-diamond-image">
@@ -489,6 +490,78 @@ include_once ('elements/header.php');
 </section>
 
 <style>
+    .section-container {
+        padding: 40px 0 80px;
+    }
+
+    .headline {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .sub-headline {
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .desc {
+        color: #6c757d;
+        margin-top: 10px;
+        line-height: 1.6;
+    }
+
+    .btn-custom {
+        background-color: #ff3c3c;
+        color: #fff;
+        font-weight: 600;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 24px;
+        margin-top: 20px;
+    }
+
+    .btn-custom:hover {
+        background-color: #e73232;
+    }
+
+    @media (max-width: 991px) {
+        .text-center-md {
+        text-align: center;
+        }
+    }
+</style>
+
+<section class="section-container">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Text -->
+            <div class="col-lg-5 text-center-md">
+                <h2 class="headline">Nomination trading <br>done right.</h2>
+                <hr class="border-danger opacity-100" style="height: 10px; width: 60px; background-color: var(--zed-primary); margin: 25px 0;">
+                <h5 class="sub-headline mt-5">Precision in every trade.</h5>
+                <p class="desc p-0 m-0 mt-4">
+                    Our nomination trading solutions ensure 
+                </p>
+                <p class="desc p-0 m-0">
+                    transparency, compliance,
+                </p>
+                <p class="desc p-0 m-0">
+                    and efficiency — every step of the way.
+                </p>
+                <button class="mt-5 btn btn-custom">
+                    Smart. Swift. Secure
+                </button>
+            </div>
+
+            <!-- Right Image -->
+            <div class="col-lg-7 text-center mt-4 mt-lg-0">
+                <img src="assets/images/nominee-letter.png" class="w-100" alt="Nominee Letter">
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
 
     /* .opportunities-for-investors{
         background-color: var(--zed-backgound-color);
@@ -702,6 +775,7 @@ include_once ('elements/header.php');
         </div>
     </div>
 </section>
+
 <?php
 include_once ('elements/footer.php');
 ?>

@@ -55,10 +55,10 @@ if (false) {
                 <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Slide 1">
             </div>
             <div class="carousel-item active">
-                <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Slide 2">
-            </div>
-            <div class="carousel-item">
                 <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item ">
+                <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Slide 3">
             </div>
         </div>
 

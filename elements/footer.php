@@ -290,7 +290,7 @@
                     <p><strong>Representative Office:</strong> 1606, Concord Tower, Near Palm Jumeirah Tram Station, Media City, Dubai – UAE.</p>
                     <p>
                         <strong>Call:</strong>
-                        <a href="tel:+97145727859" class="">+971 4572 7859 </a>
+                        <a href="tel:+2306555223" class="">+230 655 5223 </a>
                         • <strong>Email:</strong>
                         <a href="mailto:hello@zedcapital.com">hello@zedcapital.com</a>
                     </p>
@@ -329,10 +329,10 @@
                     <!-- <a class="d-none" href="#">Accessibility Policy</a> |
                     <a class="d-none" href="#">Anti-Fraud Notice</a> |
                     <a class="d-none" href="#">Customer Identification Program Notice</a> |
-                    <a class="d-none" href="#">Customer Relationship Summary</a> |
-                    <a class="d-none" href="#">Warning on Frauds and Scams</a> | -->
+                    <a class="d-none" href="#">Customer Relationship Summary</a> | -->
                     <a href="terms-condition.php">Terms & Condition</a> |
-                    <a href="privacy-policy.php">Privacy</a> |
+                    <a href="privacy-policy.php">Privacy Policy</a> |
+                    <a href="cookie-policy.php">Cookie Policy</a> |
                     <a href="risk-disclosure.php">Risk Disclosure</a>
                 </div>
             </div>

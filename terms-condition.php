@@ -12,6 +12,7 @@ include_once ('elements/header.php');
     .terms-header h1 {
       font-size: 2.8rem;
       font-weight: 700;
+      color: var(--zed-primary);
     }
     .terms-section {
       background: #fff;
@@ -24,6 +25,7 @@ include_once ('elements/header.php');
       font-size: 1.6rem;
       font-weight: 600;
       margin-bottom: 20px;
+      color: var(--zed-primary);
     }
     .toc {
       position: sticky;

@@ -11,6 +11,7 @@ include_once ('elements/header.php');
     .policy-header h1 {
       font-size: 2.8rem;
       font-weight: 700;
+      color: var(--zed-primary);
     }
     .policy-section {
       background: #fff;
@@ -23,6 +24,7 @@ include_once ('elements/header.php');
       font-size: 1.6rem;
       font-weight: 600;
       margin-bottom: 20px;
+      color: var(--zed-primary);
     }
     .policy-section ul {
       list-style: none;

@@ -710,10 +710,10 @@ include_once ('elements/feature-trading-icons.php');
 
                         <div class="access-column d-flex flex-column flex-md-row align-items-start align-items-md-center">
                             <div class="mb-3 mb-md-0">
-                                <h3 class="fw-bold mb-0">Why Choose MT5 Web Trader</h3>
+                                <h3 class="fw-bold mb-0">Why Choose MT5 <br>Web Trader</h3>
                             </div>
                             <div class="divider d-none d-md-block" style="height: 70%;"></div>
-                            <ul class="m-0 feature-list-extra">
+                            <ul class="m-0 feature-list-extra d-none">
                                 <li>
                                     <b>No Installation Needed: </b>Access instantly from any modern browser.
                                 </li>
@@ -730,6 +730,12 @@ include_once ('elements/feature-trading-icons.php');
                         </p>
                         <ul class="m-0 feature-list-extra">
                             <li>
+                                <b>No Installation Needed: </b>Access instantly from any modern browser.
+                            </li>
+                            <li>
+                                <b>Cross-Platform Access: </b>Trade seamlessly across desktop, mobile, and tablet.
+                            </li>
+                            <li>
                                 <b>Real-Time Execution: </b>Enjoy lightning-fast, reliable order processing.
                             </li>
                             <li>
@@ -741,14 +747,16 @@ include_once ('elements/feature-trading-icons.php');
                             <li>
                                 <b>Account Sync: </b>Stay updated across Web, Desktop, and Mobile.
                             </li>
-                            <li>
+                            <li class="d-none">
                                 <b>Trade Anywhere: </b>Access global markets 24/7 with ease.
                             </li>
-                            <li>Enter your real or demo account login data.</li>
+                            <li class="d-none">
+                                Enter your real or demo account login data.
+                            </li>
                         </ul>
                     </div>
                     <div class="col-sm-5 p-0 set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                        <img src="assets/images/half-mobile.png" class="" style="height: 278px;">
+                        <img src="assets/images/half-mobile.png" class="" style="height: 325px;">
                     </div>
                 </div>
             </div>
