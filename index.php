@@ -482,9 +482,15 @@ if (false) {
     }
 
     .main-image {
-        margin-top: 60px;
         z-index: 1;
-        width: 60%;
+        width: 65%;
+        margin-left: -200px;
+    }
+
+    .main-mobile-image{
+        width: 12%;
+        position: absolute;
+        margin: 260px 0 0 -150px;
     }
 
     .meta-trader-logo {
@@ -517,26 +523,26 @@ if (false) {
     }
 
     .top-left {
-        top: 115px;
-        left: 50px;
+        top: 150px;
+        left: 100px;
         z-index: 1;
     }
 
     .top-right {
         top: 40px;
-        right: 165px;
+        right: 285px;
         z-index: 1;
     }
 
     .bottom-left {
-        bottom: 100px;
-        left: 280px;
+        bottom: 188px;
+        left: 288px;
         z-index: 1;
     }
 
     .bottom-right {
-        bottom: 150px;
-        right: -45px;
+        bottom: 300px;
+        right: 60px;
         z-index: 1;
     }
 
@@ -570,6 +576,14 @@ if (false) {
             margin-top: 30px;
             z-index: 1;
             width: 100%;
+            margin-left: -150px;
+        }
+
+        .main-mobile-image {
+            margin-top: 100px;
+            z-index: 1;
+            width: 20%;
+            margin-left: -50px;
         }
 
         .desktop-view {
@@ -607,8 +621,8 @@ if (false) {
         </div>
         <div class="row" id="bg_meta_trader_5" data-aos="fade-up" data-aos-duration="800">
             <div class="col-md-12 image-wrapper">
-                <img src="assets/images/meta-trader-laptop-background.png" class="main-image" data-aos="fade-up" data-aos-duration="800">
-
+                <img src="assets/images/broker-platform-desktop.png" class="main-image" data-aos="fade-right" data-aos-duration="1500">
+                <img src="assets/images/broker-platform-mobile.png" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
                 <div class="desktop-view">
                     <!-- manage other Images -->
                     <div class="corner-image top-left">
