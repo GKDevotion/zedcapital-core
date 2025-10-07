@@ -332,6 +332,24 @@ include_once ('elements/header.php');
         width: 60px;
         height: auto;
     }
+
+    .info-card {
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        /* background: #fff; */
+        min-height: 450px;
+    }
+
+    .nyse-bg-market-image {
+        background-image: url(assets/images/markets/new-york.jpg);
+        background-size: cover;
+    }
+
+    .naqdaq-bg-market-image {
+        background-image: url(assets/images/markets/nasdaq.jpg);
+        background-size: cover;
+    }
     @media (max-width: 767px) {
         .text-end-md {
             text-align: start !important;
@@ -365,14 +383,11 @@ include_once ('elements/header.php');
     <div class="row">
         <!-- Stock Market Card -->
         <div class="col-lg-4">
-            <div class="info-card text-dark pb-0">
+            <div class="info-card text-dark pb-0 nyse-bg-market-image">
                 <h3 class="fw-bold">New York Stock Exchange (NYSE)</h3>
-                <p class="mt-5 text-muted">
+                <p class="mt-3 text-muted">
                     The NYSE is the largest stock exchange in the world by market capitalization. It is home to many of the world’s most established corporations, offering investors deep liquidity, transparent pricing, and a highly regulated trading environment.
                 </p>
-                <div class="mt-4 text-end">
-                    <img src="assets/images/nyse-market.png" alt="Bull and Bear" class="bull-bear-img">
-                </div>
             </div>
         </div>
 
@@ -406,12 +421,12 @@ include_once ('elements/header.php');
 
     <style>
     
-        .info-card {
+        /* .info-card {
             border-radius: 15px;
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
             background-color: white;
             padding: 30px;
-        }
+        } */
         .bull-bear-img {
             width: 60%;
             margin: -50px -30px 0 0;
@@ -456,14 +471,11 @@ include_once ('elements/header.php');
         <!-- Right Card Section -->
         <div class="col-lg-4">
             
-            <div class="card-custom text-dark">
+            <div class="info-card text-dark naqdaq-bg-market-image">
                 <h3 class="fw-bold"><span class="text-uppercase">NASDAQ</span></h3>
-                <p class="mt-5 text-muted w-75">
+                <p class="mt-4 text-muted">
                     NASDAQ is the leading electronic marketplace, renowned for its focus on innovation and technology-driven companies. It lists global leaders such as Apple, Microsoft, and Amazon, providing investors with access to high-growth opportunities in the digital economy.
                 </p>
-                <div class="d-flex align-items-center mt-4">
-                    <img src="assets/images/stock-market-nasdaq.png" class="stock-img" alt="NYSE">
-                </div>
             </div>
         </div>
 
