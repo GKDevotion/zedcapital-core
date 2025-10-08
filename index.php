@@ -1906,7 +1906,7 @@ if (false) {
                 </ul>
 
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/diamonds/fund-security-3-diamonds.png" alt="Corner Image" class="position-absolute bottom-10 end-50 float-y" style="width: 150px; height: 80px; top: 15px;">
+                    <img src="assets/images/diamonds/fund-security-3-diamonds.png" alt="Corner Image" class="position-absolute bottom-10 end-50 float-y" style="width: 150px; height: 80px; top: 15px; margin-right: -300px;">
                 </div>
             </div>
 
@@ -1921,6 +1921,78 @@ if (false) {
     </div>
 </section>
 <!-- End Fund Security -->
+
+<style>
+    .nominee-letter {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: var(--zed-primary);
+        color: #fff;
+    }
+
+    .btn-start {
+        background-color: white;
+        color: #e6392f;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 10px 25px;
+        border: none;
+        transition: 0.3s;
+    }
+
+    .btn-start:hover {
+        background-color: #f8d7da;
+    }
+    
+    .safeguard-btn{
+        text-align: left;
+    }
+    @media (max-width: 767.9px) {
+        .nominee-letter-right{
+            display: none;
+        }
+
+        .safeguard-btn{
+            text-align: center;
+        }
+    }
+</style>
+
+<section class="nominee-letter">
+    <div class="container">
+        <div class="row align-items-center py-5">
+        
+            <!-- Left Text -->
+            <div class="col-md-6 align-items-center nominee-letter-right">
+                <img src="assets/images/nominee-letter-right.png" style="position: absolute; margin: -210px -85px; width: 25%;">
+            </div>
+            
+            <!-- Right Image & Button -->
+            <div class="col-md-4 text-left align-items-center">
+                <h2 class="fw-bold h2">
+                    Nominee letter
+                </h2>
+                <p class="mb-2" style="font-size: 1.5rem;">
+                    Additional layer of fund protection
+                </p>
+              
+            </div>
+
+            <!-- Right Image & Button -->
+            <div class="col-md-2 safeguard-btn align-items-center">
+                <a class="btn-start" href="nominee-fund-protection.php" title="Nominee Safeguard" data-aos="fade-up" data-aos-delay="800" style="padding: 5px 30px; font-size: 1.5rem; font-weight: 500; text-decoration: none;">
+                    Safeguard
+                </a>
+            </div>
+
+        </div>
+
+        <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-delay="800">
+            <img src="assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: 50px 75px;">
+        </div>
+    </div>
+</section>
 
 <!-- Start Client review -->
 <style>
