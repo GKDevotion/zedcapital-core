@@ -1931,30 +1931,30 @@ if (false) {
         color: #fff;
     }
 
-    .btn-start {
-        background-color: white;
-        color: #e6392f;
+    .safeguard-btn {
+        padding: 10px 30px;
+        color: var(--zed-dark-text);
         border-radius: 25px;
-        font-weight: bold;
-        padding: 10px 25px;
-        border: none;
-        transition: 0.3s;
-    }
-
-    .btn-start:hover {
-        background-color: #f8d7da;
+        font-size: 1.2rem;
+        background-color: var(--zed-light-bg);
+        text-decoration: none;
+        font-weight: 600;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     }
     
-    .safeguard-btn{
+    .safeguard-btn-div{
         text-align: left;
     }
+    
     @media (max-width: 767.9px) {
         .nominee-letter-right{
             display: none;
         }
 
-        .safeguard-btn{
+        .safeguard-btn-div{
             text-align: center;
+            margin-top: 15px;
         }
     }
 </style>
@@ -1980,8 +1980,8 @@ if (false) {
             </div>
 
             <!-- Right Image & Button -->
-            <div class="col-md-2 safeguard-btn align-items-center">
-                <a class="btn-start" href="nominee-fund-protection.php" title="Nominee Safeguard" data-aos="fade-up" data-aos-delay="800" style="padding: 5px 30px; font-size: 1.5rem; font-weight: 500; text-decoration: none;">
+            <div class="col-md-2 safeguard-btn-div">
+                <a href="nominee-fund-protection.php" title="Nominee Safeguard" class="safeguard-btn my-5">
                     Safeguard
                 </a>
             </div>
