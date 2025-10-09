@@ -1916,7 +1916,7 @@ include_once('elements/header.php');
         
             <!-- Left Text -->
             <div class="col-md-6 align-items-center nominee-letter-right">
-                <img src="assets/images/nominee-letter-right.png" style="position: absolute; margin: -210px -85px; width: 25%;">
+                <img src="assets/images/nominee-letter-right.png" style="position: absolute; margin: -210px -30px; width: 25%;">
             </div>
             
             <!-- Right Image & Button -->
