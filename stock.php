@@ -584,7 +584,7 @@ include_once ('elements/header.php');
 
                 <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Asia-Pacific</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Toyota, Samsung, Alibaba, Reliance Industries, Tata Group.
+                    Toyota, Samsung, Alibaba.
                 </p>
 
                 <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Middle East</h5>

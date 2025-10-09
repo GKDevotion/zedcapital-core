@@ -166,10 +166,10 @@ include_once ('elements/header.php');
         <!-- Right Column -->
         <div class="col-lg-4">
             <div class="card shadow-sm p-3 rounded-4">
-                <h5 class="fw-bold mb-3">Related markets</h5>
+                <h5 class="fw-bold mb-3 text-center">Related markets</h5>
 
                 <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <img src="https://flagcdn.com/24x18/eu.png" class="d-none" width="24" alt="EUR/USD">
                         <div>
@@ -177,37 +177,37 @@ include_once ('elements/header.php');
                             <div class="text-muted small d-none">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <div>
                             <div class="fw-semibold">US500</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <div>
                             <div class="fw-semibold">SP500</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <div>
                             <div class="fw-semibold">NDAQ</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
             </div>
@@ -598,7 +598,7 @@ include_once ('elements/header.php');
                         <img src="assets/images/flat-icon/Market-Volatility.png" alt="Market Volatility">
                     </div>
                     <h5 class="fw-bold text-center">Market Volatility</h5>
-                    <p class="small-muted text-center mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics — prepare for drawdowns and use diversification and hedges.</p>
+                    <p class="small-muted text-center mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics prepare for drawdowns and use diversification and hedges.</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -618,7 +618,7 @@ include_once ('elements/header.php');
                         <img src="assets/images/flat-icon/Global-Shocks.png" alt="Global Shocks">
                     </div>
                     <h5 class="fw-bold text-center">Global Shocks</h5>
-                    <p class="small-muted text-center mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations — scenario-based planning is essential.</p>
+                    <p class="small-muted text-center mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations, scenario based planning is essential.</p>
                 </div>
             </div>
 
@@ -676,13 +676,13 @@ include_once ('elements/header.php');
                     <h5 class="fw-bold">Conclusion</h5>
                     <ul class="arrow-list mb-0 small-muted">
                         <li class="mb-1 fs-6 px-4">
-                            The American financial market is more than just the largest marketplace — it is the engine of global finance. Its movements determine the flow of capital, shape international policy, and influence economies worldwide.
+                            The American financial market is more than just the largest marketplace, it is the engine of global finance. Its movements determine the flow of capital, shape international policy, and influence economies worldwide.
                         </li>
                         <li class="mb-1 fs-6 px-4">
-                            At Zed Capital International Ltd, we provide the knowledge, access, and institutional-level analysis our clients need to navigate this market with confidence. Whether your goal is growth, income, or risk management, our mission is to empower you to succeed in the world's most powerful financial arena.
+                            At Zed Capital International Ltd, we provide the knowledge, access, and institutional level analysis our clients need to navigate this market with confidence. Whether your goal is growth, income, or risk management, our mission is to empower you to succeed in the world's most powerful financial arena.
                         </li>
                         <li class="mb-1 fs-6 px-4">
-                            Zed Capital International Ltd — guiding investors through the American market with clarity, confidence, and expertise.
+                            Zed Capital International Ltd, guiding investors through the American market with clarity, confidence, and expertise.
                         </li>
                     </ul>
                 </div>

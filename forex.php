@@ -78,7 +78,7 @@ include_once ('elements/header.php');
                 </h2>
                 <div class="p-1 forex-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-75" data-aos="fade-up" data-aos-delay="800">
-                    <b>Forex</b> is the world's largest financial market, where currencies trade continuously across major, minor, and exotic pairs—driven by macroeconomics, central-bank policy, and market sentiment.
+                    <b>Forex</b> is the world's largest financial market, where currencies trade continuously across major, minor and exotic pairs driven by macroeconomics, central bank policy and market sentiment.
                 </p>
 
             </div>
@@ -259,12 +259,11 @@ include_once ('elements/header.php');
     <!-- Title -->
     <div class="text-center mb-4">
         <h2 class="h2" data-aos="fade-up" data-aos-duration="800">
-            Why Trade CFDs on Stock?
+            Why Trade CFDs on Forex?
         </h2>
         <div class="divider" data-aos="fade-up" data-aos-duration="800"></div>
         <p class="text-muted w-75 p-2 m-auto" data-aos="fade-up" data-aos-duration="800">
-            One of the most significant advantages of trading CFDs on shares is that you can gain full exposure to
-            stock price movements with a small initial deposit.
+            One of the most significant advantages of trading CFDs on pairs are that you can gain full exposure to price movements with a small initial deposit.
         </p>
     </div>
 
@@ -453,6 +452,11 @@ include_once ('elements/header.php');
         <!-- Add META, AAPL, AMD similarly -->
     </div>
 
+    <div class="text-center mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="850">
+        <a href="#" class="btn btn-danger px-4 py-2 mt-2 rounded-pill">
+            Click here to view the Forex
+        </a>
+    </div>
 </div>
 
 <script>

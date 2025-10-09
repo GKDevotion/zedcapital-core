@@ -126,7 +126,7 @@ include_once ('elements/header.php');
                 </h2>
                 <div class="p-1 crypto-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray" data-aos="fade-up" data-aos-delay="800">
-                    Cryptocurrencies are transforming modern finance, reshaping money, investment, and technology. A fast-growing, innovative market, they offer traders worldwide new opportunities and access to one of the most exciting financial frontiers.
+                    Cryptocurrencies are transforming modern finance, reshaping money, investment and technology. A fast growing, innovative market, they offer traders worldwide new opportunities and access to one of the most exciting financial frontiers.
                 </p>
             </div>
 
@@ -148,7 +148,7 @@ include_once ('elements/header.php');
 
             <!-- Right Text -->
             <div class="col-md-9 text-muted">
-                Our platform allows you to trade leading digital assets with competitive pricing, advanced tools, and reliable execution, giving you the flexibility to capture opportunities in both rising and falling markets.
+                Our platform allows you to trade leading digital assets with competitive pricing, advanced tools and reliable execution, giving you the flexibility to capture opportunities in both rising and falling markets.
             </div>
         </div>
     </div>
@@ -307,12 +307,11 @@ include_once ('elements/header.php');
         <!-- Title -->
         <div class="text-center mb-4" data-aos="fade-up" data-aos-duration="800" >
             <h2 class="fw-bold">
-                Why Trade CFDs on Crypto?
+                Why Trade Crypto?
             </h2>
             <div class="divider" data-aos="fade-up" data-aos-duration="800" ></div>
             <p class="text-muted w-75 p-2 m-auto">
-                One of the most significant advantages of trading CFDs on shares is that you can gain full exposure to
-                stock price movements with a small initial deposit.
+                One of the most significant advantages of trading crypto is that you can gain full exposure to price movements with a small initial deposit.
             </p>
         </div>
 

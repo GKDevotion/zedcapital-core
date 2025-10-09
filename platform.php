@@ -258,7 +258,7 @@ include_once('elements/header.php');
                     The Platform of Professionals.
                 </p>
                 <p>
-                    Experience next-generation trading infrastructure engineered for stability, transparency, and control.
+                    Experience next generation trading infrastructure engineered for stability, transparency and control.
                 </p>
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start meta-trader-logo-container">
                     <img src="assets/images/meta-trader-5-logo.png" alt="Meta Trader 5 Logo" class="img-fluid me-2" style="width: 300px;" data-aos="fade-up" data-aos-duration="800">
@@ -345,7 +345,7 @@ include_once('elements/header.php');
             <div class="col-md-6 d-flex align-items-center justify-content-center">
                 <span class="d-none me-2 arrow">&#9658;</span>
                 <p class="mb-0 text-white small">
-                    Meta Trader 5 is one of the world’s most advanced trading platforms, built to deliver speed, stability, and precision. Designed for both manual and automated trading, MT5 provides powerful charting tools, multi-asset access, and an optimized environment for Expert Advisors (EAs).
+                    Meta Trader 5 is one of the world's most advanced trading platforms, built to deliver speed, stability and precision. Designed for both manual and automated trading, MT5 provides powerful charting tools, multi-asset access and an optimized environment for Expert Advisors (EAs).
                 </p>
 
                 <div class="position-relative set-diamond-image">
@@ -357,7 +357,7 @@ include_once('elements/header.php');
     <div class="container">
         <div class="row">
             <div class="download-any-trade wave-container">
-                <p class="text-white fw-bold mb-0">
+                <p class="text-white fw-bold mb-0 fs-4 px-2">
                     Download Your MT5 Platform Now 
                 </p>
             </div>
@@ -405,20 +405,20 @@ include_once('elements/header.php');
                 <b>Institutional-grade connectivity:</b> Low-latency routing and resilient uptime for consistent execution.
             </p>
             <p class="" data-aos="fade-up" data-aos-duration="800">
-                <b>Security by default:</b> Strong encryption, secure authentication, and session controls.
+                <b>Security by default:</b> Strong encryption, secure authentication and session controls.
             </p>
             <p class="" data-aos="fade-up" data-aos-duration="800">
-                <b>Professional toolset:</b> Advanced order types, Depth of Market, and one-click trading.
+                <b>Professional toolset:</b> Advanced order types, Depth of Market and one-click trading.
             </p>
             <p class="" data-aos="fade-up" data-aos-duration="800">
-                <b>Analytical depth:</b> multi-timeframe charting, rich indicators, and custom templates.
+                <b>Analytical depth:</b> multi-timeframe charting, rich indicators and custom templates.
             </p>
             <p class="" data-aos="fade-up" data-aos-duration="800">
-                <b>True mobility:</b> Synchronized watchlists and preferences across Windows/Mac, Web Trader, and iOS/Android.
+                <b>True mobility:</b> Synchronized watchlists and preferences across Windows/Mac, Web Trader and iOS/Android.
             </p>
 
             <p data-aos="fade-up" data-aos-duration="800">
-                Product availability, leverage, and margin profiles depend on your region and account classification.
+                Product availability, leverage and margin profiles depend on your region and account classification.
             </p>
         </div>
 
@@ -647,11 +647,11 @@ include_once ('elements/feature-trading-icons.php');
                     </div>
                     <div class="col-md-6 mt-5-trading-feature-box">
                         <h5 class="fw-bold">Raw pricing</h5>
-                        <p class="mb-0">Access institutional-grade liquidity with no price manipulation.</p>
+                        <p class="mb-0">Access institutional grade liquidity with no price manipulation.</p>
                     </div>
                     <div class="col-md-6 mt-5-trading-feature-box">
                         <h5 class="fw-bold">Zero restrictions</h5>
-                        <p class="mb-0">Trade with conditions optimised for scalping and Expert Advisors (EAs) — no minimum distance between orders and the current price.</p>
+                        <p class="mb-0">Trade with conditions optimised for scalping and Expert Advisors (EAs) and no minimum distance between orders and current price.</p>
                     </div>
                 </div>
             </div>
@@ -682,10 +682,10 @@ include_once ('elements/feature-trading-icons.php');
                             <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
                                 <h3 class="fw-bold mb-0 text-start">Meta Trader 5</h3>
                                 <h3 class="fw-bold pb-4 text-start">Web Trading</h3>
-                                <ul class="feature-list dash-list list-unstyled m-0 text-gray">
-                                    <li class="text-start">Trade Anywhere, Instantly</li>
+                                <ul class="platform-arrow-list m-0 feature-list-extra p-0">
+                                    <li class="pb-2">Trade Anywhere, Instantly</li>
                                 </ul>
-
+                                
                                 <p class="text-start mt-3">
                                     Experience the freedom of trading directly from your web browser, no installation, no downloads.
                                 </p>
@@ -729,23 +729,23 @@ include_once ('elements/feature-trading-icons.php');
                             With no additional downloads required, you can use the full practicality of the MT5 for instant online trading on both demo and trading accounts. The complete trading functionality of the MT5 is based on its compatibility with MetaTrader 5. This allows one-click operations for opening and closing trades, setting stops and entry limits, placing direct orders,
                         </p>
                         <ul class="platform-arrow-list m-0 feature-list-extra">
-                            <li class="px-5">
+                            <li class="px-5 pb-2">
                                 <b>No Installation Needed: </b>Access instantly from any modern browser.
                             </li>
-                            <li class="px-5">
-                                <b>Cross-Platform Access: </b>Trade seamlessly across desktop, mobile, and tablet.
+                            <li class="px-5 pb-2">
+                                <b>Cross-Platform Access: </b>Trade seamlessly across desktop, mobile and tablet.
                             </li>
-                            <li class="px-5">
-                                <b>Real-Time Execution: </b>Enjoy lightning-fast, reliable order processing.
+                            <li class="px-5 pb-2">
+                                <b>Real-Time Execution: </b>Enjoy lightning fast, reliable order processing.
                             </li>
-                            <li class="px-5">
+                            <li class="px-5 pb-2">
                                 <b>Advanced Charting: </b>Analyze markets with built-in tools and indicators.
                             </li>
-                            <li class="px-5">
+                            <li class="px-5 pb-2">
                                 <b>Secure & Encrypted: </b>Trade with complete data protection.
                             </li>
-                            <li class="px-5">
-                                <b>Account Sync: </b>Stay updated across Web, Desktop, and Mobile.
+                            <li class="px-5 pb-2">
+                                <b>Account Sync: </b>Stay updated across Web, Desktop and Mobile.
                             </li>
                             <li class="d-none">
                                 <b>Trade Anywhere: </b>Access global markets 24/7 with ease.
@@ -833,7 +833,7 @@ include_once ('elements/feature-trading-icons.php');
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
                     <p class="text-gray" style="width: 85%;">
-                        Enter your Zed Capital MT5 login credentials (account number, password, and server).
+                        Enter your Zed Capital MT5 login credentials (account number, password and server).
                     </p>
                 </div>
 
@@ -843,7 +843,7 @@ include_once ('elements/feature-trading-icons.php');
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
                     <p class="text-gray" style="width: 90%;">
-                        Monitor your balance, open positions, and live quotes instantly.
+                        Monitor your balance, open and close positions using different indicators and tools and live quotes instantly.
                     </p>
 
                     <a href="#" class="a-link-move-icon mt-4">
@@ -851,7 +851,7 @@ include_once ('elements/feature-trading-icons.php');
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
                     <p class="text-gray" style="width: 85%;">
-                        Execute trades, analyze charts, and manage risks — directly from your web browser.
+                        Execute trades, analyze charts and manage risk directly from web browser.
                     </p>
 
                 </div>
@@ -943,10 +943,10 @@ include_once ('elements/feature-trading-icons.php');
         <div class="highlight-line mb-5"></div>
 
         <a href="#" class="open-account-btn my-5">
-          Open account
+          Open an account
         </a>
 
-        <p class="mt-5 small">
+        <p class="mt-5 small d-none">
           System Requirements: MT5 is available on Windows 7 or higher. 
           It is also supported on Mac OSX.
         </p>
@@ -955,17 +955,16 @@ include_once ('elements/feature-trading-icons.php');
       <!-- Right Content -->
       <div class="col-lg-6 p-4">
         <div class="bg-white rounded-5 shadow-sm m-5 p-5 card-scene">
-          <h5 class="fw-bold mb-3 mx-3">
-            Power-Packed Trading Features
+          <h5 class="fw-bold mb-4 mx-3">
+            Power Packed Trading Features
           </h5>
           <ul class="list-unstyled mb-0 text-gray mx-3">
-            <li>✔ <span class="mx-2">Power-Packed Trading Features</span></li>
-            <li>✔ <span class="mx-2">Advanced Multi-Device Trading Platforms</span></li>
-            <li>✔ <span class="mx-2">1,000+ Instruments (CFDs)</span></li>
-            <li>✔ <span class="mx-2">Integrated Economic Calendar</span></li>
-            <li>✔ <span class="mx-2">38+ Pre-Installed Technical Indicators</span></li>
-            <li>✔ <span class="mx-2">3 Analytical Charting Tools</span></li>
-            <li>✔ <span class="mx-2">44 Chart Types & 21 Timeframes</span></li>
+              <li class="mb-1">✔ <span class="mx-2">1,000+ Instruments (CFDs)</span></li>
+              <li class="mb-1">✔ <span class="mx-2">Integrated Economic Calendar</span></li>
+              <li class="mb-1">✔ <span class="mx-2">38+ Pre-Installed Technical Indicators</span></li>
+              <li class="mb-1">✔ <span class="mx-2">3 Analytical Charting Tools</span></li>
+              <li class="mb-1">✔ <span class="mx-2">44 Chart Types & 21 Timeframes</span></li>
+              <li class="mb-1">✔ <span class="mx-2">Advanced Multi-Device Trading Platforms</span></li>
             <li>✔ <span class="mx-2">1-Click Trading & Trade Directly from Charts</span></li>
           </ul>
         </div>

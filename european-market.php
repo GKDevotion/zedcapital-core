@@ -166,10 +166,10 @@ include_once ('elements/header.php');
         <!-- Right Column -->
         <div class="col-lg-4">
             <div class="card shadow-sm p-3 rounded-4">
-                <h5 class="fw-bold mb-3">Related markets</h5>
+                <h5 class="fw-bold mb-3 text-center">Related markets</h5>
 
                 <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <img src="https://flagcdn.com/24x18/eu.png" class="d-none" width="24" alt="EUR/USD">
                         <div>
@@ -177,37 +177,37 @@ include_once ('elements/header.php');
                             <div class="text-muted small d-none">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <div>
                             <div class="fw-semibold">UK100</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <div>
                             <div class="fw-semibold">FESX1</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <div>
                             <div class="fw-semibold">DAX</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
             </div>
@@ -300,7 +300,7 @@ include_once ('elements/header.php');
                 Europe hosts some of the world's most prestigious exchanges, including the <b>London Stock Exchange (LSE), Euronext, Deutsche Börse (Frankfurt)</b>, and <b>SIX Swiss Exchange (Zurich)</b>.
             </p>
             <p class="text-muted">
-                These markets represent a broad spectrum of industries — from energy and finance to luxury goods and technology.
+                These markets represent a broad spectrum of industries from energy and finance to luxury goods and technology.
             </p>
             <p class="text-muted">
                 Blue-chip indices such as the <b>FTSE 100, DAX 40</b>, and <b>CAC 40</b> serve as key benchmarks for global investors.
@@ -507,7 +507,7 @@ include_once ('elements/header.php');
                     </div>
                     <h5 class="fw-bold text-center">Fragmentation</h5>
                     <p class="small-muted mb-0 text-center">
-                        Europe is not a single unified market; regulatory and political differences between EU and non-EU states matter.
+                        Europe is not a single unified market, regulatory and political differences between EU and non-EU states matter.
                     </p>
                 </div>
             </div>

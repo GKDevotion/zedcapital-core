@@ -163,10 +163,10 @@ include_once ('elements/header.php');
         <!-- Right Column -->
         <div class="col-lg-4">
             <div class="card shadow-sm p-3 rounded-4">
-                <h5 class="fw-bold mb-3">Related markets</h5>
+                <h5 class="fw-bold mb-3 text-center">Related markets</h5>
 
                 <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <img src="https://flagcdn.com/24x18/eu.png" class="d-none" width="24" alt="EUR/USD">
                         <div>
@@ -174,7 +174,7 @@ include_once ('elements/header.php');
                             <div class="text-muted small d-none">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
             </div>
         </div>
@@ -350,7 +350,7 @@ include_once ('elements/header.php');
                 <p class="text-muted">
                     The Middle East is home to some of the world's largest sovereign wealth funds, including.
                 </p>
-                    <ul>
+                    <ul class="arrow-list">
                         <li>
                             Abu Dhabi Investment Authority (ADIA)
                         </li>
@@ -415,7 +415,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold mb-1">Equities</h5>
                             <p class="mb-0 small-muted">
-                                Access to high-growth regional companies and IPOs, particularly in Saudi Arabia and the UAE.
+                                Access to high growth regional companies and IPOs, particularly in Saudi Arabia and the UAE.
                             </p>
                         </div>
                     </div>
@@ -477,7 +477,7 @@ include_once ('elements/header.php');
                         <i class="text-red bi bi-shop d-none"></i>
                         <img src="assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
                     </div>
-                    <h5 class="fw-bold text-center">Geopolitical Sensitivities</h5>
+                    <h5 class="fw-bold text-center">Geopolitical Factors</h5>
                     <p class="small-muted mb-0 text-center">
                         Regional conflicts and political shifts can affect investor sentiment
                     </p>
@@ -570,7 +570,7 @@ include_once ('elements/header.php');
                             The <b>Middle Eastern financial market</b> is a dynamic blend of energy wealth, sovereign investment, and economic diversification. With expanding capital markets, ambitious reforms, and global-scale sovereign wealth funds, the region is set to play an increasingly pivotal role in the international financial system.
                         </li>
                         <li class="mb-1 fs-6 px-4">
-                            At <b>Zed Capital International Ltd</b>, we provide clients with the insight, access, and strategies required to navigate this evolving market — from traditional energy-linked investments to emerging opportunities in technology, infrastructure, and sustainable finance.
+                            At <b>Zed Capital International Ltd</b>, we provide clients with the insight, access, and strategies required to navigate this evolving market — from traditional energy linked investments to emerging opportunities in technology, infrastructure, and sustainable finance.
                         </li>
                         <li class="mb-1 fs-6 px-4"> 
                             Zed Capital International Ltd — connecting global investors to the opportunities of the Middle East.

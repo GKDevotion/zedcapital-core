@@ -163,10 +163,10 @@ include_once ('elements/header.php');
         <!-- Right Column -->
         <div class="col-lg-4">
             <div class="card shadow-sm p-3 rounded-4">
-                <h5 class="fw-bold mb-3">Related markets</h5>
+                <h5 class="fw-bold mb-3 text-center">Related markets</h5>
 
                 <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <img src="https://flagcdn.com/24x18/eu.png" class="d-none" width="24" alt="EUR/USD">
                         <div>
@@ -174,17 +174,17 @@ include_once ('elements/header.php');
                             <div class="text-muted small d-none">1.15894</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
                     <div class="d-flex align-items-center gap-2">
                         <div>
                             <div class="fw-semibold">SENSEX</div>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3 openLiveAccount">Trade</button>
+                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
             </div>
@@ -382,7 +382,7 @@ include_once ('elements/header.php');
                     <b>Singapore</b> serves as a regional hub for private wealth and fund management.
                 </p>
                 <p class="text-muted">
-                    Technology sectors — from e-commerce to artificial intelligence — drive capital inflows and innovation-led investment
+                    Technology sectors from e-commerce to artificial intelligence and drive capital inflows and innovation-led investment
                 </p>
             </div>
         </div>
@@ -511,7 +511,7 @@ include_once ('elements/header.php');
                     </div>
                     <h5 class="fw-bold text-center">Geopolitical Tensions</h5>
                     <p class="small-muted mb-0 text-center">
-                        Trade disputes, territorial conflicts, and U.S.-China relations impact sentiment.
+                        Trade disputes, territorial conflicts, and U.S. China relations impact sentiment.
                     </p>
                 </div>
             </div>
@@ -535,7 +535,7 @@ include_once ('elements/header.php');
                     </div>
                     <h5 class="fw-bold text-center">Market Fragmentation</h5>
                     <p class="small-muted mb-0 text-center">
-                        Diverse regulatory environments across Asia require careful market-by-market strategies.
+                        Diverse regulatory environments across Asia require careful market by market strategies.
                     </p>
                 </div>
             </div>
@@ -587,10 +587,10 @@ include_once ('elements/header.php');
                     <h5 class="fw-bold">Conclusion</h5>
                     <ul class="arrow-list mb-0 small-muted">
                         <li class="mb-1 fs-6 px-4">
-                            The <b>Asian financial market</b> is more than a regional player — it is the <b>center of global growth and innovation</b>. Its diversity, scale, and momentum make it an essential component of any global investment strategy.
+                            The <b>Asian financial market</b> is more than a regional player, a <b>center of global growth and innovation</b>. Its diversity, scale, and momentum make it an essential component of any global investment strategy.
                         </li>
                         <li class="mb-1 fs-6 px-4">
-                            At <b>Zed Capital International Ltd</b>, we provide the insights, access, and disciplined strategies to help clients engage confidently with Asia's opportunities — balancing growth potential with careful risk management.
+                            At <b>Zed Capital International Ltd</b>, we provide the insights, access, and disciplined strategies to help clients engage confidently with Asia's opportunities balancing growth potential with careful risk management.
                         </li>
                         <li class="mb-1 fs-6 px-4"> 
                             Zed Capital International Ltd — connecting global investors to Asia's financial future

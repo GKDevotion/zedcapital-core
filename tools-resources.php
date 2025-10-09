@@ -68,7 +68,7 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row align-items-center flex-column-reverse flex-md-row">
             <div class="col-md-6 text-center text-md-start mt-100" data-aos="fade-up" data-aos-delay="800">
-                <div class="subheading" data-aos="fade-up" data-aos-delay="800">Tools Overview</div>
+                <div class="subheading d-none" data-aos="fade-up" data-aos-delay="800">Tools Overview</div>
                 <h2 class="h2" data-aos="fade-up" data-aos-delay="800">
                     IT'S TIME TO<br>
                     GEAR UP
@@ -119,9 +119,7 @@ include_once ('elements/header.php');
         <div class="row justify-content-center">
             <div class="col-lg-12 text-start">
                 <p class="mb-0 fs-6">
-                    Access detailed, real-time market intelligence for forex, indices, commodities, and more, 
-                    execute trading signals directly from your client portal, and stay in the know with daily 
-                    signals via email and Telegram.
+                    Access detailed, real time market intelligence for forex, indices, commodities and more. Execute trading signals directly from your client portal and get daily market insights through our telegram channel.
                 </p>
             </div>
         </div>
@@ -189,7 +187,7 @@ include_once ('elements/header.php');
                     <div data-aos="fade-up" data-aos-delay="800">
                         <h6 class="fw-bold mb-1">Dedicated Support</h6>
                         <p class="mb-0 text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Not sure how to use Zed Capital's suite of trading tools? Our expert team is here to help, 24/5.
+                        Not sure how to use Zed Capital's suite of trading tools? Our expert team is here to help 24/5.
                         </p>
                     </div>
                 </div>
@@ -695,7 +693,7 @@ include_once ('elements/header.php');
                             <h4 class="fw-bold mb-5">Charting and Analysis Tools</h4>
                             <p class="m-0">
                                 <strong>TradingView:</strong> 
-                                <span class="text-gray">"Web-based platform with powerful charting tools, social trading features, and a wide range of technical indicators. </span>
+                                <span class="text-gray">"Web-based platform with powerful charting tools, social trading features and a wide range of technical indicators. </span>
                             </p>
                         </div>
                         <img src="assets/images/charting-analysis.png" alt="Calendar Icon" class="" />

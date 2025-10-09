@@ -71,7 +71,7 @@ include_once ('elements/header.php');
                 <h2 class="fw-bold h2 mb-5">Trade Precious and Industrial Metals</h2>
                 <div class="p-1 metal-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-75" data-aos="fade-up" data-aos-delay="800">
-                    Metals combine investment value with industrial demand. At Zed Capital International Ltd, trade gold, silver, and key metals with advanced technology, transparent conditions, and the support of a trusted global partner
+                    Metals combine investment value with industrial demand. At Zed Capital International Ltd, trade gold, silver and key metals with advanced technology, transparent conditions and the support of a trusted global partner.
                 </p>
             </div>
 
@@ -93,7 +93,7 @@ include_once ('elements/header.php');
             </div>
             <div class="col-md-8">
                 <p class="mb-0 small">
-                    Our platform allows you to trade metals with competitive pricing, deep liquidity, and professional tools designed for precision and speed.
+                    Our platform allows you to trade metals with competitive pricing, deep liquidity and professional tools designed for precision and speed.
                 </p>
             </div>
         </div>    
@@ -154,7 +154,7 @@ include_once ('elements/header.php');
                 
                 <h5>Diverse Opportunities</h5>
                 <p class="text-gray">
-                    Access both precious metals such as gold, silver and platinum, and industrial metals such as copper and aluminum.
+                    Access both precious metals such as gold, silver and platinum and industrial metals such as copper and aluminum.
                 </p>
 
                 <h5>Safe Haven Advantage</h5>
@@ -270,12 +270,11 @@ include_once ('elements/header.php');
     <!-- Title -->
     <div class="text-center mb-4">
         <h2 class="h2" data-aos="fade-up" data-aos-duration="800" >
-            why trade Metals?
+            Why Trade CFDs on Metals?
         </h2>
         <div class="divider" data-aos="fade-up" data-aos-duration="800" ></div>
         <p class="text-muted w-75 p-2 m-auto" data-aos="fade-up" data-aos-duration="800" >
-            One of the most significant advantages of trading CFDs on shares is that you can gain full exposure to
-            stock price movements with a small initial deposit.
+            One of the most significant advantages of trading CFDs on metal is that you can gain full exposure to price movements with a small initial deposit.
         </p>
     </div>
 
@@ -509,7 +508,7 @@ include_once ('elements/header.php');
                     Gold, Silver, Palladium
                 </h5>
 
-                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Industrial Metals</h3>
+                <h3 class="fw-bold mt-3" data-aos="fade-up" data-aos-duration="850">Industrial Metals</h3>
                 <h5 class="mb-2 text-white" data-aos="fade-up" data-aos-duration="850">
                     Copper, Aluminum, Zinc
                 </h5>
@@ -628,7 +627,7 @@ include_once ('elements/header.php');
 </section>
 
 <?php
-$featureIconTitle = "Trading Metals - Security, Liquidity, and Opportunity";
+$featureIconTitle = "Trading Metals - Security, Liquidity and Opportunity";
 
 $featureIconArr = [
     [
@@ -732,7 +731,7 @@ include_once ('elements/explore-more-about.php');
 
                 <b class="mt-2 mx-3">Risks to Consider</b>
                 <p class="mt-2 mx-3" data-aos="fade-up" data-aos-duration="800">
-                    Metals trading involves exposure to price volatility driven by global supply and demand, geopolitical events, and shifts in investor sentiment. While leverage can enhance profit potential, it also increases risk
+                    Metals trading involves exposure to price volatility driven by global supply and demand, geopolitical events and shifts in investor sentiment. While leverage can enhance profit potential and it also increases risk.
                 </p>
             </div>
         </div>

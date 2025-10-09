@@ -319,6 +319,11 @@
                                             <i class="fab fa-twitter icon"></i>
                                         </a>
                                     </li>
+                                    <li>
+                                        <a target="_blank" href="https://x.com/zed_capital?t=JtBoE2-UcJYti_RHhffeDA&amp;s=09" class="youtube" title="Youtube">
+                                            <i class="fab fa-youtube icon"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

@@ -77,7 +77,7 @@ include_once ('elements/header.php');
                 <h2 class="fw-bold h2 mb-5">Trade Global Commodities</h2>
                 <div class="p-1 divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray" data-aos="fade-up" data-aos-delay="800">
-                    The global commodities market is among the most vital and actively traded sectors, spanning energy that powers industries to agricultural products sustaining daily life, reflecting the true backbone of the world economy
+                    The global commodities market is among the most vital and actively traded sectors, spanning energy that powers industries to  agricultural products sustaining daily life, reflecting the true backbone of the world economy.
                 </p>
             </div>
 
@@ -124,7 +124,7 @@ include_once ('elements/header.php');
                 <img src="assets/images/diamonds/best-commodity-red-black-diamonds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 120px; margin: -50px -70px;">
             </div>
             <p class="mb-0 text-muted" data-aos="fade-up" data-aos-duration="800" >
-                With our advanced trading platform, competitive conditions and institutional grade infrastructure, you can trade commodities across multiple sectors with precision and transparency
+                With our advanced trading platform, competitive conditions and institutional grade infrastructure, you can trade commodities across multiple sectors with precision and transparency.
             </p>
         </div>
     </div>
@@ -341,7 +341,7 @@ include_once ('elements/header.php');
     <!-- Section Heading -->
     <div class="section-title" data-aos="fade-up" data-aos-duration="800" >Why Trade CFDs on Energies such as Oil?</div>
     <div class="underline" data-aos="fade-up" data-aos-duration="800" ></div>
-    <p class="text-center mb-2" data-aos="fade-up" data-aos-duration="800" >
+    <p class="text-center mb-2 w-75 m-auto" data-aos="fade-up" data-aos-duration="800" >
         Trading CFDs on energies like oil is an excellent way to diversify your portfolio. With Zed Capital, you can access global energy markets without purchasing the product outright.
     </p>
     

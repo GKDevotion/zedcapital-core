@@ -90,7 +90,7 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="position-relative">
-                <img src="assets/images/background/why-zed-header-white-dot-background.png" alt="Corner Image" class="position-absolute top-0 start-0 " style="width: 40px; height: 40px; margin: -45px 0 0 -30px;">
+                <img src="assets/images/background/why-zed-header-white-dot-background.png" alt="Corner Image" class="position-absolute top-0 start-0 " style="width: 40px; height: 40px; margin: -55px 0 0 -45px;">
             </div>
             <div class="col-lg-5 col-md-6 text-md-start text-center" data-aos="fade-up" data-aos-duration="800">
                 <h2 class="fw-bold text-white mb-5" style="font-size: 2.8rem;">
@@ -108,25 +108,25 @@ include_once ('elements/header.php');
 <section class="" >
     <div class="container">
         <div class="row why-zed-capital-bullet-point">
-            <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4" data-aos="fade-up" data-aos-duration="800">
+            <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4 mt-4" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/images/regulated-stp-broker.png" class="position-absolute" alt="Windows">
                 <div class="w-50">
                     <span>Regulated STP Broker</span>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4" data-aos="fade-up" data-aos-duration="800">
+            <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4 mt-4" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/images/razor-thin-spread.png" class="position-absolute" alt="Windows">
                 <div class="w-50">
-                    <span>Razor-Thin Spread</span>
+                    <span>Razor-Thin <br>Spread</span>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4" data-aos="fade-up" data-aos-duration="800">
+            <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4 mt-4" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/images/ultra-fast-execution.png" class="position-absolute" alt="Windows">
                 <div class="w-50">
                     <span>Ultra-Fast Execution</span>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4" data-aos="fade-up" data-aos-duration="800">
+            <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4 mt-4" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/images/24-7-support.png" class="position-absolute" alt="Windows">
                 <div class="w-50">
                     <span>24x7 <br>Support</span>
@@ -169,7 +169,7 @@ include_once ('elements/header.php');
                 </h2>
                 <div class="underline"></div>
                 <p class="trust-text text-gray mb-5" data-aos="fade-up" data-aos-delay="500">
-                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, advanced risk management, and bank-level data security, we ensure your capital remains protected at all times.
+                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, Strategic risk Management, and bank-level data security, we ensure your capital remains protected at all times.
                 </p>
                 <ul class="arrow-list">
                     <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
@@ -182,7 +182,7 @@ include_once ('elements/header.php');
                         Negative Balance Protection
                     </li>
                     <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
-                        Advanced Risk Management
+                        Strategic Risk Management
                     </li>
                     <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
                         Bank-Level Security & Encryption
@@ -367,7 +367,7 @@ include_once ('elements/header.php');
                         Competitive Pricing & Execution
                     </p>
                     <p class="text-gray" style="width: 90%;">
-                        Spreads starting from 0.2 pips, ultra-low latency execution, and transparent cost structures with no hidden fees.
+                        Spreads starting from 0.1 pips, ultra-low latency execution, and transparent cost structures with no hidden fees.
                     </p>
                     <a href="#" class="d-none a-link-move-icon">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
                     
@@ -415,7 +415,7 @@ include_once ('elements/header.php');
 
     .btn-learn {
         margin: 10px 10px 10px 0;
-        padding: 10px 20px;
+        padding: 15px 20px;
         font-weight: 600;
         border-radius: 15px;
         background-color: white;
@@ -574,7 +574,7 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Right Image -->
-            <div class="col-lg-6 text-center mt-4 mt-lg-0">
+            <div class="col-lg-6 text-center mt-4 mt-lg-0" data-aos="fade-up" data-aos-duration="1200">
                 <img src="assets/images/nominee-letter.png" class="w-100" alt="Nominee Letter">
             </div>
         </div>

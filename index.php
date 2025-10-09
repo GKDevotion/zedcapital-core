@@ -52,7 +52,7 @@ if (false) {
         <!-- Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Slide 2">
+                <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Slide 1">
             </div>
             <div class="carousel-item ">
                 <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Slide 3">
@@ -146,7 +146,7 @@ if (false) {
                     <p class="mb-0 pb-2">STP Broker</p>
                 </h5>
                 <p class="mb-0 text-gray">
-                    Trade with full confidence through our licensed STP broker — regulated, transparent, and committed to fair pricing and reliability.
+                    Trade with full confidence through our licensed STP broker, regulated, transparent, and committed to fair pricing and reliability.
                 </p>
             </div>
 
@@ -159,7 +159,7 @@ if (false) {
                     <p class="mb-0 pb-2">Fund Protection</p>
                 </h5>
                 <p class="mb-0 text-gray">
-                    Your capital is safeguarded with strong nominee fund protection — so you can trade stress-free while we keep your investments secure.
+                    Your capital is safeguarded with strong nominee fund protection, so you can trade stress-free while we keep your investments secure.
                 </p>
             </div>
 
@@ -172,7 +172,7 @@ if (false) {
                     <p class="mb-0 pb-2">Provider</p>
                 </h5>
                 <p class="mb-0 text-gray">
-                    Access deep liquidity and tight spreads with top-tier global liquidity providers — ensuring fast execution and reliable market access.
+                    Access deep liquidity and tight spreads with top-tier global liquidity providers, ensuring fast execution and reliable market access.
                 </p>
             </div>
 
@@ -620,7 +620,7 @@ if (false) {
             </div>
         </div>
         <div class="row" id="bg_meta_trader_5" data-aos="fade-up" data-aos-duration="800">
-            <div class="col-md-12 image-wrapper">
+            <div class="col-md-12 image-wrapper mt-5">
                 <img src="assets/images/broker-platform-desktop.png" class="main-image" data-aos="fade-right" data-aos-duration="1500">
                 <img src="assets/images/broker-platform-mobile.png" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
                 <div class="desktop-view">
@@ -1165,12 +1165,14 @@ if (false) {
     .demo-button {
         display: inline-flex;
         align-items: center;
-        padding: 10px 16px;
+        padding: 0px 10px;
         border: 1px solid var(--zed-border-color);
         border-radius: 12px;
         text-decoration: none;
         transition: box-shadow 0.2s ease;
         margin: 20px 0;
+        width: 210px;
+        height: 55px;
     }
 
     .demo-button:hover {
@@ -1342,10 +1344,10 @@ if (false) {
                         </p>
 
                         <div class="w-100">
-                            <button class="demo-button btn">
-                                <span class="demo-text">Try Demo</span>
+                            <a class="demo-button btn" href="zed-academy.php" title="Learn More Zed Academy">
+                                <span class="demo-text">Learn More</span>
                                 <span class="demo-icon">→</span>
-                            </button>
+                            </a>
                         </div>
 
                     </div>
@@ -1885,7 +1887,7 @@ if (false) {
             <div class="col-md-6 security-text" data-aos="fade-up" data-aos-duration="800">
                 <h2 class="mb-4">Fund Security</h2>
                 <p class="trust-text text-gray mb-4" data-aos="fade-up" data-aos-delay="500">
-                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, advanced risk management, and bank-level data security, we ensure your capital remains protected at all times.
+                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, Strategic risk Management, and bank-level data security, we ensure your capital remains protected at all times.
                 </p>
                 <ul class="arrow-list">
                     <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
@@ -1898,7 +1900,7 @@ if (false) {
                         Negative Balance Protection
                     </li>
                     <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
-                        Advanced Risk Management
+                        Strategic Risk Management
                     </li>
                     <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
                         Bank-Level Security & Encryption
@@ -2020,7 +2022,7 @@ if (false) {
     }
 
     .stars {
-        color: #f5a623;
+        color: green;
         font-size: x-large;
     }
 
@@ -2057,7 +2059,7 @@ if (false) {
     .tp-text {
         font-weight: 600;
         color: #111;
-        font-size: 18px;
+        font-size: 30px;
     }
 
     .tp-stars {

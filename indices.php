@@ -79,7 +79,7 @@ include_once ('elements/header.php');
                 <h2 class="h2 mb-5">Trade Global Indices</h2>
                 <div class="p-1 indices-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-100" data-aos="fade-up" data-aos-delay="800">
-                    Access leading global indices with Zed Capital International Ltd. Trade broad market performance in a single instrument—capture trends, diversify efficiently, and express macro views without stock selection, with transparent execution.
+                    Access leading global indices with Zed Capital International Ltd. Trade broad market performance in a single instrument and capture trends, diversify efficiently and express macro views without stock selection with transparent execution.
                 </p>
             </div>
 
@@ -257,8 +257,7 @@ include_once ('elements/header.php');
         </h2>
         <div class="cfd-indicies-divider" data-aos="fade-up" data-aos-duration="800" ></div>
         <p class="text-muted w-75 p-2 m-auto" data-aos="fade-up" data-aos-duration="800" >
-            One of the most significant advantages of trading CFDs on shares is that you can gain full exposure to
-            stock price movements with a small initial deposit.
+            One of the most significant advantages of trading CFDs on Indicies is that you can gain full exposure to price movements with a small initial deposit.
         </p>
     </div>
 
@@ -801,9 +800,9 @@ include_once ('elements/explore-more-about.php');
         <div class="col-12">
             <div class="info-card">
                 <div class="alert-custom" data-aos="fade-up" data-aos-duration="800" >
-                    <p class="fw-bold">Index Trading, Simplified</p>
+                    <p class="fw-bold" style="font-size: 1.45rem;">Index Trading, Simplified</p>
                     <p class="" data-aos="fade-up" data-aos-duration="800" >
-                        Tap into global market performance with Zed Capital International Ltd. Trade major benchmarks in a single, efficient instrument—diversify instantly, capture trends with speed and clarity, and operate under transparent, professional conditions.
+                        Tap into global market performance with Zed Capital International Ltd. Trade major benchmarks in a single, efficient instrument and diversify instantly, capture trends with speed and clarity, and operate under transparent, professional conditions.
                     </p>
                 </div>
                 <p class="fw-bold mt-2 mx-3" data-aos="fade-up" data-aos-duration="800">Risks to Consider</p>
