@@ -119,7 +119,7 @@ include_once ('elements/header.php');
         <div class="row justify-content-center">
             <div class="col-lg-12 text-start">
                 <p class="mb-0 fs-6">
-                    Access detailed, real time market intelligence for forex, indices, commodities and more. Execute trading signals directly from your client portal and get daily market insights through our telegram channel.
+                    Access detailed, real time market intelligence for forex, indices, commodities and more. Execute trades directly from client portal and get daily market insights through our telegram channel.
                 </p>
             </div>
         </div>
@@ -187,7 +187,7 @@ include_once ('elements/header.php');
                     <div data-aos="fade-up" data-aos-delay="800">
                         <h6 class="fw-bold mb-1">Dedicated Support</h6>
                         <p class="mb-0 text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Not sure how to use Zed Capital's suite of trading tools? Our expert team is here to help 24/5.
+                        Not sure how to use Zed Capital's suite of trading tools? Our expert team is here to help 24/7.
                         </p>
                     </div>
                 </div>
@@ -253,6 +253,7 @@ include_once ('elements/header.php');
 
     .tools-trade-icon{
         width: 10%;
+        margin: 10px 30px -10px 0;
     }
 </style>
 
@@ -261,7 +262,7 @@ include_once ('elements/header.php');
         <!-- Section Title -->
         <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="800">
             <h2 class="fw-bold">
-                Tools for Trade of Essential Tools
+                Essential Tools for Trading
             </h2>
             <div class="tools-res-divider" data-aos="fade-up" data-aos-duration="850" style="margin: 30px auto;"></div>
         </div>
@@ -319,7 +320,7 @@ include_once ('elements/header.php');
                         <img src="assets/images/tools-desk-candle.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Always world-class</p>
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Always world class</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
                         For your business transaction, do you need to know the precise value of the Euro against the USD?
                     </p>
@@ -653,12 +654,145 @@ include_once ('elements/header.php');
         height: auto;
     }
 
+    .tools-resource-overview p{
+        margin-bottom: 8px !important;
+    }
 </style>
 
 <section class="tools-resource-overview py-5">
     <div class="container">
         <div class="row g-4">
         
+            <!-- Card 4 Educational Resources -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="border rounded-4 p-5">
+                    <div class="d-flex align-items-start justify-content-between">
+                        <div>
+                            <h4 class="fw-bold mb-5">Educational Resources</h4>
+                            <p class="m-0">
+                                <strong>Babypips:</strong> 
+                                <span class="text-gray">Offers a comprehensive beginner's guide to forex trading, educational articles, and a community forum. </span>
+                            </p>
+                            
+                        </div>
+                        <img src="assets/images/education-resources.png" alt="Book Icon" class="" />
+                    </div>
+                    <div class="col-12">
+                        <p class="m-0">
+                            <strong>Investopedia:</strong> 
+                            <span class="text-gray">Provides articles, tutorials, and a dictionary of financial terms relevant to forex trading.</span>
+                        </p>
+                        <p class="m-0">
+                            <strong>Trading courses:</strong> 
+                            <span class="text-gray">Various online platforms offer courses on forex trading, technical analysis, and trading strategies. </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 Charting and Analysis Tools -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="border rounded-4 p-5">
+                    <div class="d-flex align-items-start justify-content-between">
+                        <div>
+                            <h4 class="fw-bold mb-5">Charting and Analysis Tools</h4>
+                            <p class="m-0">
+                                <strong>TradingView:</strong> 
+                                <span class="text-gray">Web-based platform with powerful charting tools, social trading features and a wide range of technical indicators. </span>
+                            </p>
+                        </div>
+                        <img src="assets/images/charting-analysis.png" alt="Calendar Icon" class="" />
+                    </div>
+                    <div class="col-12">
+                        <p class="m-0">
+                            <strong>MetaTrader Charts:</strong> 
+                            <span class="text-gray">Integrated into MT4/MT5 platforms, providing customizable charting and technical analysis tools.</span>
+                        </p>
+                        <p class="m-0">
+                            <strong>Thinkorswim:</strong> 
+                            <span class="text-gray">Provides advanced charting, technical analysis tools, and paper trading.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 News and Economic Calendars -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="border rounded-4 p-5">
+                    <div class="d-flex align-items-start justify-content-between">
+                        <div>
+                            <h4 class="fw-bold mb-5">News and Economic Calendars</h4>
+                            <p class="m-0">
+                                <strong>Forex Factory:</strong> 
+                                <span class="text-gray">Offers an economic calendar, market news, and forums for trader discussions.</span>
+                            </p>
+                            
+                        </div>
+                        <img src="assets/images/news-calender.png" alt="Calendar Icon" class="" />
+                    </div>
+                    <div class="col-12">
+                        <p class="m-0">
+                            <strong>Investing.com:</strong> 
+                            <span class="text-gray">Provides real-time news, analysis, economic calendar, and customizable alerts.</span>
+                        </p>
+                        <p class="m-0">
+                            <strong>Bloomberg:</strong> 
+                            <span class="text-gray">Comprehensive financial news and analysis platform.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 Algorithmic Trading Tools -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="border rounded-4 p-5">
+                    <div class="d-flex align-items-start justify-content-between">
+                        <div>
+                            <h4 class="fw-bold mb-5">Algorithmic Trading Tools</h4>
+                            <p class="m-0">
+                                <strong>Expert Advisors (EAs):</strong> 
+                                <span class="text-gray">Automated trading systems developed within MT4/MT5 platforms.</span>
+                            </p>
+                            
+                        </div>
+                        <img src="assets/images/charting-analysis.png" alt="Calendar Icon" class="" />
+                    </div>
+                    <div class="col-12">
+                        <p class="m-0">
+                            <strong>Algorithmic Trading Platforms:</strong> 
+                            <span class="text-gray">Tools like QuantConnect or AlgoTrader for developing and deploying custom trading algorithms.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 5 Risk Management Tools -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
+                <div class="border rounded-4 p-5">
+                    <div class="d-flex align-items-start justify-content-between">
+                        <div>
+                            <h4 class="fw-bold mb-5">Risk Management Tools</h4>
+                            <p class="m-0">
+                                <strong>Stop Loss/Take Profit Orders:</strong> 
+                                <span class="text-gray">Automated orders to limit losses and secure profits.</span>
+                            </p>
+                            
+                        </div>
+                        <img src="assets/images/risk-management.png" alt="Calendar Icon" class="" />
+                    </div>
+                    <div class="col-12">
+                        <p class="m-0">
+                            <strong>Position Size Calculators:</strong> 
+                            <span class="text-gray">Tools to determine the appropriate position size based on risk tolerance and account size.</span>
+                        </p>
+                        <p class="m-0">
+                            <strong>Volatility Indicators:</strong> 
+                            <span class="text-gray">Help gauge market volatility and adjust trading strategies accordingly.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             <!-- Card 1 Trading Platforms -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
                 <div class="border rounded-4 p-5">
@@ -675,141 +809,11 @@ include_once ('elements/header.php');
                     <div class="col-12">
                         <p class="m-0">
                             <strong>cTrader:</strong> 
-                            <span class="text-gray">"Known for its intuitive interface and advanced charting tools.</span>
+                            <span class="text-gray">Known for its intuitive interface and advanced charting tools.</span>
                         </p>
                         <p class="m-0">
                             <strong>NinjaTrader:</strong> 
-                            <span class="text-gray">"Offers advanced charting, back testing, and trade simulation.</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 2 Charting and Analysis Tools -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
-                    <div class="d-flex align-items-start justify-content-between">
-                        <div>
-                            <h4 class="fw-bold mb-5">Charting and Analysis Tools</h4>
-                            <p class="m-0">
-                                <strong>TradingView:</strong> 
-                                <span class="text-gray">"Web-based platform with powerful charting tools, social trading features and a wide range of technical indicators. </span>
-                            </p>
-                        </div>
-                        <img src="assets/images/charting-analysis.png" alt="Calendar Icon" class="" />
-                    </div>
-                    <div class="col-12">
-                        <p class="m-0">
-                            <strong>MetaTrader Charts:</strong> 
-                            <span class="text-gray">"Integrated into MT4/MT5 platforms, providing customizable charting and technical analysis tools.</span>
-                        </p>
-                        <p class="m-0">
-                            <strong>Thinkorswim:</strong> 
-                            <span class="text-gray">"Provides advanced charting, technical analysis tools, and paper trading.</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 News and Economic Calendars -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
-                    <div class="d-flex align-items-start justify-content-between">
-                        <div>
-                            <h4 class="fw-bold mb-5">News and Economic Calendars</h4>
-                            <p class="m-0">
-                                <strong>Forex Factory:</strong> 
-                                <span class="text-gray">"Offers an economic calendar, market news, and forums for trader discussions.</span>
-                            </p>
-                            
-                        </div>
-                        <img src="assets/images/news-calender.png" alt="Calendar Icon" class="" />
-                    </div>
-                    <div class="col-12">
-                        <p class="m-0">
-                            <strong>Investing.com:</strong> 
-                            <span class="text-gray">"Provides real-time news, analysis, economic calendar, and customizable alerts.</span>
-                        </p>
-                        <p class="m-0">
-                            <strong>Bloomberg:</strong> 
-                            <span class="text-gray">"Comprehensive financial news and analysis platform.</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 4 Educational Resources -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
-                    <div class="d-flex align-items-start justify-content-between">
-                        <div>
-                            <h4 class="fw-bold mb-5">Educational Resources</h4>
-                            <p class="m-0">
-                                <strong>Babypips:</strong> 
-                                <span class="text-gray">"Offers a comprehensive beginner's guide to forex trading, educational articles, and a community forum. </span>
-                            </p>
-                            
-                        </div>
-                        <img src="assets/images/education-resources.png" alt="Book Icon" class="" />
-                    </div>
-                    <div class="col-12">
-                        <p class="m-0">
-                            <strong>Investopedia:</strong> 
-                            <span class="text-gray">"Provides articles, tutorials, and a dictionary of financial terms relevant to forex trading.</span>
-                        </p>
-                        <p class="m-0">
-                            <strong>Trading courses:</strong> 
-                            <span class="text-gray">"Various online platforms offer courses on forex trading, technical analysis, and trading strategies. </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 5 Risk Management Tools -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
-                    <div class="d-flex align-items-start justify-content-between">
-                        <div>
-                            <h4 class="fw-bold mb-5">Risk Management Tools</h4>
-                            <p class="m-0">
-                                <strong>Stop Loss/Take Profit Orders:</strong> 
-                                <span class="text-gray">"Automated orders to limit losses and secure profits.</span>
-                            </p>
-                            
-                        </div>
-                        <img src="assets/images/risk-management.png" alt="Calendar Icon" class="" />
-                    </div>
-                    <div class="col-12">
-                        <p class="m-0">
-                            <strong>Position Size Calculators:</strong> 
-                            <span class="text-gray">"Tools to determine the appropriate position size based on risk tolerance and account size.</span>
-                        </p>
-                        <p class="m-0">
-                            <strong>Volatility Indicators:</strong> 
-                            <span class="text-gray">"Help gauge market volatility and adjust trading strategies accordingly.</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 6 Algorithmic Trading Tools -->
-            <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
-                    <div class="d-flex align-items-start justify-content-between">
-                        <div>
-                            <h4 class="fw-bold mb-5">Algorithmic Trading Tools</h4>
-                            <p class="m-0">
-                                <strong>Expert Advisors (EAs):</strong> 
-                                <span class="text-gray">"Automated trading systems developed within MT4/MT5 platforms.</span>
-                            </p>
-                            
-                        </div>
-                        <img src="assets/images/charting-analysis.png" alt="Calendar Icon" class="" />
-                    </div>
-                    <div class="col-12">
-                        <p class="m-0">
-                            <strong>Algorithmic Trading Platforms:</strong> 
-                            <span class="text-gray">"Tools like QuantConnect or AlgoTrader for developing and deploying custom trading algorithms.</span>
+                            <span class="text-gray">Offers advanced charting, back testing, and trade simulation.</span>
                         </p>
                     </div>
                 </div>
@@ -823,7 +827,7 @@ include_once ('elements/header.php');
                             <h4 class="fw-bold mb-5">Technical Analysis Software</h4>
                             <p class="m-0">
                                 <strong>Autochartist:</strong> 
-                                <span class="text-gray">"Provides automated technical analysis, pattern recognition, and trading signals.</span>
+                                <span class="text-gray">Provides automated technical analysis, pattern recognition, and trading signals.</span>
                             </p>
                             
                         </div>
@@ -832,7 +836,7 @@ include_once ('elements/header.php');
                     <div class="col-12">
                         <p class="m-0">
                             <strong>Trading Central:</strong> 
-                            <span class="text-gray">"Offers technical analysis and trading signals based on chart patterns and indicators.</span>
+                            <span class="text-gray">Offers technical analysis and trading signals based on chart patterns and indicators.</span>
                         </p>
                     </div>
                 </div>
@@ -845,8 +849,10 @@ include_once ('elements/header.php');
                         <div>
                             <h4 class="fw-bold mb-5">Community and Forums</h4>
                             <p class="m-0">
-                                <strong>Expert Advisors (EAs):</strong> 
-                                <span class="text-gray">"Automated trading systems developed within MT4/MT5 platforms.</span>
+                                <strong>Connect Globally:</strong> 
+                                <span class="text-gray">
+                                    Join traders and investors to share insights, strategies, and market updates.
+                                </span>
                             </p>
                             
                         </div>
@@ -854,8 +860,10 @@ include_once ('elements/header.php');
                     </div>
                     <div class="col-12">
                         <p class="m-0">
-                            <strong>Algorithmic Trading Platforms:</strong> 
-                            <span class="text-gray">"Tools like QuantConnect or AlgoTrader for developing and deploying custom trading algorithms.</span>
+                            <strong>Learn & Grow:</strong> 
+                            <span class="text-gray">
+                                Engage in discussions to enhance knowledge and stay ahead in global markets.
+                            </span>
                         </p>
                     </div>
                 </div>
@@ -901,7 +909,7 @@ include_once ('elements/header.php');
                 </div>
                 <div>
                     <p class="m-0">
-                        When using these tools and resources, it's essential to conduct thorough research, understand the risks involved in forex trading, and develop a sound trading strategy tailored to your financial goals and risk tolerance.
+                        When using these tools and resources, it's essential to conduct through research, understand the risk involved in forex trading, and develop a sound trading strategy tailored to your financial goals and risk tolerance.
                     </p>
                 </div>
             </div>

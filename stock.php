@@ -574,17 +574,17 @@ include_once ('elements/header.php');
                 </p>
                 <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">United States</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Apple, Microsoft, Tesla, Amazon, Meta, and more.
+                    Apple, Microsoft, Tesla, Amazon, Meta and more.
                 </p>
 
                 <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Europe</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    HSBC, Volkswagen, LVMH, Siemens, Barclays, and other blue-chip leaders.
+                    Volkswagen, LVMH, Siemens, Barclays and other blue-chip leaders.
                 </p>
 
                 <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Asia-Pacific</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Toyota, Samsung, Alibaba.
+                    HSBC, Toyota, Samsung, Alibaba, Xiaomi, Lenovo.
                 </p>
 
                 <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Middle East</h5>

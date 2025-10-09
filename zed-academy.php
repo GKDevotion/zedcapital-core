@@ -346,7 +346,7 @@ include_once ('elements/header.php');
 
         <div class="mt-5 text-start">
             <h6 class="fw-bold" data-aos="fade-up" data-aos-delay="500">Suitable for:</h6>
-            <ul class="text-muted">
+            <ul class="arrow-list text-muted">
                 <li data-aos="fade-up" data-aos-delay="600"><strong>Beginner Traders:</strong> Learn market analysis from scratch</li>
                 <li data-aos="fade-up" data-aos-delay="700"><strong>Experienced Investors:</strong> Optimize your trading strategies</li>
                 <li data-aos="fade-up" data-aos-delay="800"><strong>Institutions & Professionals:</strong> Gain deeper insights into market dynamics</li>
@@ -394,7 +394,7 @@ include_once ('elements/header.php');
                     At ZED Academy, we provide a structured and in-depth trading education designed to help you develop real-world trading skills, gain confidence, and trade like a professional.
                     At ZED Academy, we provide a structured and in-depth trading education designed to help you develop real-world trading skills, gain confidence, and trade like a professional.
                 </p>
-                <ul class="mt-4 aos-init" data-aos="fade-up" data-aos-delay="800">
+                <ul class="arrow-list mt-4 aos-init" data-aos="fade-up" data-aos-delay="800">
                     <li>Complete all course videos</li>
                     <li>Pass the final exam</li>
                     <li>Receive your Zed Academy Certificate of Completion</li>

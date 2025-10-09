@@ -54,10 +54,10 @@ include_once ('elements/header.php');
 
 <section class="section">
     <div class="container section-text">
-        <p class="mb-4">Leadership & Mission</p>
+        <p class="mb-4 d-none">Leadership & Mission</p>
         <h1 class="display-6 fw-bold">Get to know<br>Zed Capital</h1>
         <span class="underline"></span>
-        <p class="mb-4 w-75">
+        <p class="mb-4 w-50">
             Zed Capital International Ltd is a globally regulated financial services provider, licensed by the Financial Services Commission (FSC), Mauritius. We empower traders and investors with secure, transparent, and seamless access to global markets.
         </p>
     </div>
@@ -66,7 +66,7 @@ include_once ('elements/header.php');
 <div class="section-bottom">
     <div class="container">
         <p class="mb-0">
-            Built on trust, innovation, and integrity, we deliver institutional-grade liquidity, advanced platforms, and robust risk management - ensuring every client enjoys world-class market access, security, and support.
+            Built on trust, innovation and integrity, we deliver institutional grade liquidity, advanced platforms and robust risk management ensuring every client enjoys world class market access, security, and support.
         </p>
     </div>
 </div>
@@ -209,7 +209,7 @@ include_once ('elements/header.php');
                         </a>
                     </h2>
                     <p class="text-gray text-justify">
-                        To be recognized as a trusted global leader in financial markets, admired for our integrity, innovation, and long-term value creation.
+                        To be recognized as a trusted global leader in financial markets, admired for our integrity, innovation and long-term value creation.
                     </p>
                     <p class=" text-justify">
                         We aspire to become the preferred partner for individuals, corporates, and institutions worldwide, leading the way in digital transformation and next-generation trading technologies. By setting benchmarks in regulation, compliance, and ethical business practices, we aim to expand access to global markets while strengthening financial security and resilience. Ultimately, we seek to build a lasting legacy of growth and innovation that endures across generations
@@ -224,9 +224,9 @@ include_once ('elements/header.php');
 <style>
     .key-feature-service{
         background-image: url('assets/images/background/key-feature-service.png');
-        background-size: cover;
+        background-size: contain;
         background-position: center;
-        background-repeat: round;
+        background-repeat: no-repeat;
         position: relative;
     }
     
@@ -339,14 +339,14 @@ include_once ('elements/header.php');
         <div class="row">
             <h2 class="h2 text-center">Key Features and Services</h2>
         </div>
-        <div class="row desktop-view">
+        <div class="row desktop-view mt-5">
             <div class="col-md-6 set-card-border-left">
                 <div class="card-background">
                     <h5 class="fw-bold mb-4 text-hover-effect">
                         Regulated & Secure Trading
                     </h5>
                     <p class="text-gray">
-                        Licensed by the FSC, Mauritius, ensuring fund safety, transparency, and client protection.
+                        Licensed by the <b>FSC, Mauritius</b>, Zed Capital ensures fund safety, transparency, and full client protection through strict regulatory standards and secure trading systems.
                     </p>
                 </div>
             </div>
@@ -356,7 +356,7 @@ include_once ('elements/header.php');
                         Global Market Access
                     </h5>
                     <p class="text-gray">
-                        Trade forex, commodities, indices, stocks, and  crypto with tight spreads and fast execution.
+                        Trade <b>forex, commodities, indices, stocks, and crypto CFDs</b> with tight spreads, fast execution and deep liquidity across global markets - all from one platform.
                     </p>
                 </div>
             </div>
@@ -366,7 +366,7 @@ include_once ('elements/header.php');
                         Innovative Trading Solutions
                     </h5>
                     <p class="text-gray">
-                        Use MT5, PAMM, and Copy Trading for professional and performance-driven trading.
+                        Experience advanced trading with <b>MT5, Webtrading ,Copy Trading</b>, designed for both professional and performance-driven traders seeking flexibility and control.
                     </p>
                 </div>
             </div>
@@ -376,7 +376,7 @@ include_once ('elements/header.php');
                         Client-Centric Support
                     </h5>
                     <p class="text-gray">
-                        Enjoy instant deposits/withdrawals and 24/5 multilingual support with a client-first approach.
+                        Enjoy <b>instant deposits and withdrawals, with 24/7 multilingual assistance</b> and a dedicated team focused on delivering a seamless trading experience.
                     </p>
                 </div>
             </div>
@@ -443,11 +443,11 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row">
             <h2 class="h2 fw-bold mb-4">Our Commitment</h2>
-            <p class="text-white m-auto">
+            <p class="text-white m-auto fs-3">
                 Trust through transparency, opportunity through innovation.
             </p>
-            <p class="text-white m-auto">
-                Your gateway to secure, reliable, and professional global capital market solutions.
+            <p class="text-white m-auto fs-3">
+                Your gateway to secure, reliable and professional global capital market solutions.
             </p>
         </div>
     </div>
@@ -474,27 +474,6 @@ include_once ('elements/header.php');
         height: 8px;
         background: var(--zed-primary);
         margin: 30px 0;
-    }
-
-    .regulatory-right ul {
-        list-style: none;
-        padding: 0;
-        text-align: left;
-    }
-
-    .regulatory-right ul li {
-        font-size: 16px;
-        margin-bottom: 8px;
-        color: #666;
-        position: relative;
-        padding-left: 20px;
-    }
-
-    .regulatory-right ul li::before {
-        content: "-";
-        position: absolute;
-        left: 0;
-        color: #666;
     }
 
     /* Mobile Responsive */
@@ -525,7 +504,7 @@ include_once ('elements/header.php');
                 <div class="regulatory-right">
                     <h2 class="h1 fw-bold">Operates under strict global regulatory and compliance standards:</h2>
                     <span class="underline"></span>
-                    <ul>
+                    <ul class="arrow-list">
                         <li class="text-gray">
                             Licensed and regulated by the Financial Services Commission (FSC), Mauritius.
                         </li>
