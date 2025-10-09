@@ -674,19 +674,19 @@ $paramArr = [
 
 $videoArr = [
     [
-        'id' => "AY7fWmE1CBk",
-        "title" => "This GOLD Trading Strategy makes me $1000 a day",
+        'id' => "TJoHjnSh8SI",
+        "title" => "What is Commodity?",
         "description" => "I show you the EXACT strategy I use to make $1000 daily trading gold or xauusd.",
     ],
     [
-        'id' => "oc2zqnvsqi0",
-        "title" => "3 Key Tips for Trading Gold!",
-        "description" => "This video expresses our personal opinions only, and is NOT in any way financial advice. ",
+        'id' => "vjfEnAkpLe0",
+        "title" => "Register on Zed Capital in Minutes | Step-by-Step Guide",
+        "description" => "Ready to start your trading journey?",
     ],
 	[
-        'id' => "SGSKYQzXdUM",
-        "title" => "Forex Trading For Beginners (FREE FULL COURSE)",
-        "description" => "In this video we show you everything you need to know about trading forex as a beginner, fast.",
+        'id' => "Xpscp62IAgE",
+        "title" => "Zed Capital: Global Capital Market Solutions",
+        "description" => "Experience the power of intelligent investing with Zed Capital, a licensed and regulated forex trading platform designed for global traders.",
     ],
 ];
 include_once ('elements/explore-more-about.php');

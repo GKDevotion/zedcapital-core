@@ -817,15 +817,15 @@ $videoArr = [
         "description" => "He is a Guinness World Record Holder for the Largest Financial Investment Lesson and largest Social Media Marketing Lesson.",
     ],
     [
-        'id' => "Z1pC89aMCHI",
-        "title" => "How to Start Trading Crypto the Right Way",
-        "description" => "it's now losing dominance day by day, signalling the early stages of altcoin season.",
+        'id' => "vjfEnAkpLe0",
+        "title" => "Register on Zed Capital in Minutes | Step-by-Step Guide",
+        "description" => "Ready to start your trading journey?",
     ],
-	[
-        'id' => "mOSuaJONpXI",
-        "title" => "Fibonacci Trading Strategy Explained | How to Use Fibonacci Retracement",
-        "description" => "if you want to learn about how to use fibonacci retracement than this Video is for you.",
-    ],
+    [
+        'id' => "Xpscp62IAgE",
+        "title" => "Zed Capital: Global Capital Market Solutions",
+        "description" => "Experience the power of intelligent investing with Zed Capital, a licensed and regulated forex trading platform designed for global traders.",
+    ]
 ];
 include_once ('elements/explore-more-about.php');
 ?>

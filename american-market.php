@@ -169,45 +169,63 @@ include_once ('elements/header.php');
                 <h5 class="fw-bold mb-3 text-center">Related markets</h5>
 
                 <!-- Market 1 -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
-                    <div class="d-flex align-items-center gap-2">
-                        <img src="https://flagcdn.com/24x18/eu.png" class="d-none" width="24" alt="EUR/USD">
-                        <div>
-                            <div class="fw-semibold">US30</div>
-                            <div class="text-muted small d-none">1.15894</div>
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                    <div class="row px-4">
+                        <div class="col-4 py-2">
+                            <span class="fw-semibold">US30</span>
+                        </div>
+                        <div class="col-6 p-0">
+                            <img src="assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Repeat more market cards as needed -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
-                    <div class="d-flex align-items-center gap-2">
-                        <div>
-                            <div class="fw-semibold">US500</div>
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                    <div class="row px-4">
+                        <div class="col-4 py-2">
+                            <span class="fw-semibold">US500</span>
+                        </div>
+                        <div class="col-6 p-0">
+                            <img src="assets/images/graph-line-1.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
-                    <div class="d-flex align-items-center gap-2">
-                        <div>
-                            <div class="fw-semibold">SP500</div>
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                    <div class="row px-4">
+                        <div class="col-4 py-2">
+                            <span class="fw-semibold">SP500</span>
+                        </div>
+                        <div class="col-6 p-0">
+                            <img src="assets/images/graph-line-2.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
                 <!-- Chart Card -->
-                <div class="d-flex justify-content-between align-items-center mb-2 p-2 px-5 rounded bg-light">
-                    <div class="d-flex align-items-center gap-2">
-                        <div>
-                            <div class="fw-semibold">NDAQ</div>
+                <div class="d-flex justify-content-between align-items-center mb-2 p-2 rounded bg-light">
+                    <div class="row px-4">
+                        <div class="col-4 py-2">
+                            <span class="fw-semibold">NASDAQ</span>
+                        </div>
+                        <div class="col-6 p-0">
+                            <img src="assets/images/graph-line-1.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
                         </div>
                     </div>
-                    <button class="btn btn-sm btn-outline-danger rounded-pill px-4 openLiveAccount">Trade</button>
                 </div>
 
             </div>

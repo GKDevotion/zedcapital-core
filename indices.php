@@ -750,19 +750,19 @@ $paramArr = [
 
 $videoArr = [
     [
-        'id' => "sisyFUo_8Ag",
-        "title" => "DXY Index Explained: How It Moves Forex & Gold | Dollar Index Full Guide",
-        "description" => "we’ll dive deep into the DXY Index (US Dollar Index) and how it impacts major forex pairs like EUR/USD, GBP/USD, USD/JPY, and commodities like gold (XAU/USD). ",
+        'id' => "GtmgMcaV6vQ",
+        "title" => "What is an Indices?",
+        "description" => "An index is more than just a number — it's a snapshot of market performance.",
     ],
     [
-        'id' => "Q2PsoZLRp2I",
-        "title" => "What is Dollar Index DXY || Relation with NIFTY & FOREX ?",
-        "description" => "As per the FEMA Act, it is illegal to trade pairs without INR Currency & do business with brokers not registered in India. ",
+        'id' => "vjfEnAkpLe0",
+        "title" => "Register on Zed Capital in Minutes | Step-by-Step Guide",
+        "description" => "Ready to start your trading journey?",
     ],
 	[
-        'id' => "gfGMtIoPJyY",
-        "title" => "How to Read Trading Charts Like a Pro ",
-        "description" => "Beginner to Profitable: Full Trading Roadmap (Step-by-Step Guide) ",
+        'id' => "Xpscp62IAgE",
+        "title" => "Zed Capital: Global Capital Market Solutions",
+        "description" => "Experience the power of intelligent investing with Zed Capital, a licensed and regulated forex trading platform designed for global traders.",
     ],
 ];
 include_once ('elements/explore-more-about.php');

@@ -710,20 +710,19 @@ $paramArr = [
 
 $videoArr = [
     [
-        'id' => "LajPMx7oaRM",
-        "title" => "Commodity Trading for Beginners in Hindi | Share Market",
-        "description" => "In this video you will learn about #CommodityTrading Basics for Beginners into #ShareMarket #Trading.
-",
+        'id' => "TJoHjnSh8SI",
+        "title" => "What is Commodity?",
+        "description" => "Commodities power the world — from the oil in your car to the gold in your jewelry and the coffee in your cup.",
     ],
     [
-        'id' => "DEuMBINx1TU",
-        "title" => "Learn MCX Trading for Crude Oil, Gold, Silver, Natural Gas Basics",
-        "description" => "You can trade from charts, get the most popular technical indicators, drawing tools, multiple charts, and many other functions.",
+        'id' => "vjfEnAkpLe0",
+        "title" => "Register on Zed Capital in Minutes | Step-by-Step Guide",
+        "description" => "Ready to start your trading journey?",
     ],
 	[
-        'id' => "L4hiRKtWOe0",
-        "title" => "Commodity Trading For Beginners | Options Commodity Trading in Hindi",
-        "description" => "In this video, we provide valuable insights and tips for beginners who are interested in Commodity Trading.",
+        'id' => "Xpscp62IAgE",
+        "title" => "Zed Capital: Global Capital Market Solutions",
+        "description" => "Experience the power of intelligent investing with Zed Capital, a licensed and regulated forex trading platform designed for global traders.",
     ],
 ];
 include_once ('elements/explore-more-about.php');

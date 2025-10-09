@@ -795,19 +795,19 @@ $paramArr = [
 
 $videoArr = [
     [
-        'id' => "vX0mVnOelHA",
-        "title" => "What is Forex? Forex Trading for Beginners | How to Make Money?",
-        "description" => "In this video, you will learn what is ForexTrading and how people make money by Trading in the Currency Market.",
+        'id' => "XZihxVxHGro",
+        "title" => "What is Forex?",
+        "description" => "Trades always occur in currency pairs, meaning when you purchase one currency, you're simultaneously selling another.",
     ],
     [
-        'id' => "yY3ZG3fG6rc",
-        "title" => "Forex Vs Stock Market | How to Make Money with Forex Trading?",
-        "description" => "In this video you will learn how Forex Market is different from Stock Market & how people Make Money in Forex Trading?",
+        'id' => "vjfEnAkpLe0",
+        "title" => "Register on Zed Capital in Minutes | Step-by-Step Guide",
+        "description" => "Ready to start your trading journey?",
     ],
 	[
-        'id' => "R5lT1EirXEA",
-        "title" => "INDIA में FOREX TRADING का 100% LEGAL METHOD",
-        "description" => "The content provided in this crypto and forex trading course is for educational and informational purposes only. ",
+        'id' => "Xpscp62IAgE",
+        "title" => "Zed Capital: Global Capital Market Solutions",
+        "description" => "Experience the power of intelligent investing with Zed Capital, a licensed and regulated forex trading platform designed for global traders.",
     ],
 ];
 

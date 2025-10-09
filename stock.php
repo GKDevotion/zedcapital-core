@@ -758,19 +758,19 @@ $paramArr = [
 
 $videoArr = [
     [
-        'id' => "iBZcDvw8Fi8",
-        "title" => "Forex Trading for Beginners (Full Course)",
-        "description" => "Forex trading is a massively profitable skill that can bring you time, location & financial freedom when mastered.",
+        'id' => "-JK3aDXo3LA",
+        "title" => "What is Stock?",
+        "description" => "The smartest investors don’t limit themselves — they go global.",
     ],
     [
-        'id' => "9tCR16dsb6M",
-        "title" => "Forex Course for Beginners 2025",
-        "description" => "Beginner to Profitable: Full Trading Roadmap (Step-by-Step Guide).",
+        'id' => "vjfEnAkpLe0",
+        "title" => "Register on Zed Capital in Minutes | Step-by-Step Guide",
+        "description" => "Ready to start your trading journey?",
     ],
     [
-        'id' => "eynxyoKgpng",
-        "title" => "The Only Technical Analysis Video You Will Ever Need...",
-        "description" => "Understanding how to implement technical analysis correctly in your trading is one of the most important things you need to create a profitable trading career. ",
+        'id' => "Xpscp62IAgE",
+        "title" => "Zed Capital: Global Capital Market Solutions",
+        "description" => "Experience the power of intelligent investing with Zed Capital, a licensed and regulated forex trading platform designed for global traders.",
     ]
 ];
 

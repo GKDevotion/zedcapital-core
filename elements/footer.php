@@ -348,9 +348,10 @@
                     <a class="d-none" href="#">Anti-Fraud Notice</a> |
                     <a class="d-none" href="#">Customer Identification Program Notice</a> |
                     <a class="d-none" href="#">Customer Relationship Summary</a> | -->
-                    <a href="terms-condition.php">Terms & Condition</a> |
-                    <a href="privacy-policy.php">Privacy Policy</a> |
-                    <a href="cookie-policy.php">Cookie Policy</a> |
+                    <a href="assets/pdf/Terms-condition-ZedCapital.pdf" download>Terms & Condition</a> |
+                    <a href="assets/pdf/Privacy-Policy-ZedCapital.pdf" download>Privacy Policy</a> |
+                    <a href="assets/pdf/Cookies-Policy-ZedCapital.pdf" download>Cookie Policy</a> |
+                    <a href="assets/pdf/Arbitrage-Policy-ZedCapital.pdf" download>Arbitrage Policy</a> |
                     <a href="risk-disclosure.php">Risk Disclosure</a>
                 </div>
             </div>
