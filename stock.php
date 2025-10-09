@@ -498,8 +498,9 @@ include_once ('elements/header.php');
 <style>
     .stock-section {
         padding: 80px 0;
-        background-color: #ed3b2a;
-        background-image: url('assets/images/background/stock-trading-background.png');
+        background-color: var(--zed-primary);
+        /* background-image: url('assets/images/background/stock-trading-background.png'); */
+
         color: white;
         background-size: contain;
         background-position: center;
@@ -564,7 +565,7 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row align-items-center">
             <!-- Text Content -->
-            <div class="col-lg-7 col-md-12 pe-0" data-aos="fade-up" data-aos-duration="850">
+            <div class="col-lg-6 col-md-12 pe-0" data-aos="fade-up" data-aos-duration="850">
                 <h2 class="h2">Global Equities at Your Fingertips</h2>
                 <div class="my-5 stock-divider"></div>
                 <p class="fw-bold d-none" data-aos="fade-up" data-aos-duration="850">
@@ -595,6 +596,9 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Floating Icons -->
+             <div class="col-lg-6 col-md-12 p-0 px-2">
+                <img src="assets/images/Global-Equities-at-Your-Fingertips.png" alt="" class="w-100">
+            </div>
             <div class="col-lg-5 col-md-12 p-0 d-none">
                 <div class="position-relative set-diamond-image">
                     <img src="assets/images/stock-tesla-icon.png" alt="stock tesla icon" class="position-absolute bottom-0 end-0 float-y stock-tesla-icon">

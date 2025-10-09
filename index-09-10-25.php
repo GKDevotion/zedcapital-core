@@ -1,42 +1,103 @@
 <?php
 include_once('elements/header.php');
 ?>
-
-<!-- ✅ Start Header Banner with Text Overlay -->
-
 <style>
-    #carouselExampleIndicators{
-        margin-top: 120px;
+    @media (max-width: 767.9px) {
+        .header-banner h1.fw-bold {
+            font-size: 2rem;
+        }
+
+        .header-banner .translate-middle-x {
+            width: 75%;
+        }
+
+        #support_benefit {
+            padding: 40px 0 !important;
+        }
+
+        .set-diamond-image {
+            display: none;
+        }
     }
 </style>
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Zedcapital">
+
+<!-- ✅ Start Header Banner with Text Overlay -->
+<?php
+if (false) {
+?>
+    <header class="header-banner d-flex justify-content-center align-items-center text-center">
+        <!-- Text at Top -->
+        <div class="position-absolute top-0 start-50 translate-middle-x" style="margin-top: 5%;">
+            <h1 class="text-white text-center fw-bold">
+                At <span style="color: red;">ZED CAPITAL</span>, client fund safety is our top priority
+            </h1>
         </div>
 
-        <div class="carousel-item">
-            <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Zedcapital">
+        <!-- Button at Bottom -->
+        <div class="position-absolute bottom-0 start-50 translate-middle-x" style="margin-bottom: 5%;">
+            <button class="btn btn-danger px-4 py-2">Get Started</button>
+        </div>
+    </header>
+<?php
+} else if (true) {
+?>
+    <div id="indexCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1" class="active"></button>
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="3"></button>
         </div>
 
-        <div class="carousel-item">
-            <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Zedcapital">
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item ">
+                <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item ">
+                <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Slide 1">
+            </div>
         </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#indexCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#indexCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+<?php
+} else {
+?>
+    <header class="header-banner position-relative d-flex justify-content-center align-items-center text-center">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="position-absolute w-100 object-fit-cover">
+            <source src="assets/video/home-banner.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Overlay (optional dark shade for readability) -->
+        <div class="position-absolute top-0 start-0 w-100 bg-dark opacity-50"></div>
+
+        <!-- Text at Top -->
+        <div class="position-absolute top-0 start-50 translate-middle-x mt-5">
+            <h1 class="text-white fw-bold">
+                At <span style="color: red;">ZED CAPITAL</span>, client fund safety is our top priority
+            </h1>
+        </div>
+
+        <!-- Button at Bottom -->
+        <div class="position-absolute bottom-0 start-50 translate-middle-x mb-5">
+            <button class="btn btn-danger px-4 py-2">Get Started</button>
+        </div>
+    </header>
+<?php
+}
+?>
 <!-- ✅ End Header Banner -->
 
 <!-- Start Support Benefit -->
@@ -67,16 +128,6 @@ include_once('elements/header.php');
             padding: 40px 0 !important;
         }
 
-        @media (max-width: 767.9px) {
-        
-        #support_benefit {
-            padding: 40px 0 !important;
-        }
-
-        .set-diamond-image {
-            display: none;
-        }
-    }
         #support_benefit p {
             padding-right: 0;
         }

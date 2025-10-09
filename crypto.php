@@ -15,7 +15,7 @@ include_once ('elements/header.php');
         display: flex;
         align-items: center;   /* Vertical center */
         justify-content: center; /* Horizontal center */
-        margin-top: 130px;
+        margin-top: 110px;
     }
 
     .crypto-divider {
@@ -550,7 +550,8 @@ include_once ('elements/header.php');
     .crypto-currency {
         color: white;
         position: relative;
-        background-image: url('assets/images/background/crypto-currency-trading-background.png');
+        /* background-image: url('assets/images/background/crypto-currency-trading-background.png'); */
+        background-color: var(--zed-primary);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -588,7 +589,7 @@ include_once ('elements/header.php');
     <div class="container py-3">
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800" >
             <!-- Text Content -->
-            <div class="col-lg-8 col-md-12 my-4" data-aos="fade-up" data-aos-duration="800" >
+            <div class="col-lg-7 col-md-12 my-4" data-aos="fade-up" data-aos-duration="800" >
                 <h2 class="h2 mt-5" data-aos="fade-up" data-aos-duration="800" >Cryptocurrencies You Can Trade</h2>
                 <div class="my-5" style="width: 40px; height: 8px; background: white;"></div>
                 
@@ -609,8 +610,8 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Floating Icons -->
-            <div class="col-lg-4 col-md-12 icons">
-                
+            <div class="col-lg-5 col-md-12">
+                <img src="assets/images/Cryptocurrencies-You-Can-Trade.png" alt="" class="w-100">
             </div>
         </div>
     </div>

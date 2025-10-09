@@ -566,7 +566,7 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
             <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/forex-trading.png" class="w-100" alt="Regulatory Assurance">
+                <img src="assets/images/Currency-Pairs-at-Your-Fingertips.png" class="w-100" alt="Regulatory Assurance">
             </div>
         </div>
     </div>

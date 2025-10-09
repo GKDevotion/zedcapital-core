@@ -279,9 +279,9 @@ include_once ('elements/header.php');
                         <img src="assets/images/tools-calander.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Know first. Act fast.</p>
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Stay Alert. Trade the News.</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Never miss an important economic event with up-to-date schedules and forecasts.
+                        Track impactful events as they unfold and prepare your trades with confidence. Get accurate forecasts and live updates directly aligned with global market movements.
                     </p>
 
                     <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="economic-calender.php" title="Economic Calender">
@@ -299,9 +299,9 @@ include_once ('elements/header.php');
                         <img src="assets/images/tools-valume.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Cut through the noise</p>
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Find clarity in every move.</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Use our accurate Pivot Points Calculator to help you find the next day pivot levels and the three main levels of support and resistance of any instrument.
+                        Calculate next-day pivot levels and key support/resistance zones with accuracy. Use data-driven insight to refine your entries, exits and intraday strategies.
                     </p>
                     
                     <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="pivot-point.php">
@@ -320,9 +320,9 @@ include_once ('elements/header.php');
                         <img src="assets/images/tools-desk-candle.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Always world class</p>
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Real rates. Real results.</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
-                        For your business transaction, do you need to know the precise value of the Euro against the USD?
+                        Monitor live forex prices and calculate conversions in seconds. Perfect for traders and businesses who rely on precision and timing.
                     </p>
 
                     <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="currency-convertor.php" title="Currency Converter">
@@ -340,9 +340,9 @@ include_once ('elements/header.php');
                         <img src="assets/images/tools-message.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
-                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Don't break a sweat</p>
+                    <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Know your numbers.</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Never take a trade until you've planned out every potential scenario. That's a golden rule for every professional investor.
+                        Quickly calculate your potential profits, losses, and required margin. A clear picture of every scenario before you trade because precision builds consistency.
                     </p>
                     
                     <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="profit-calculation.php">

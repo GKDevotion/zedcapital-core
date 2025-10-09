@@ -420,23 +420,3 @@ h1.fw-bold{
     font-size: 40px;
     margin: -20px 0 0 0;
 }
-
-.platform-arrow-list {
-    list-style: none; /* remove default dots */
-    padding-left: 0; /* remove extra padding */
-}
-
-.platform-arrow-list li {
-    position: relative;
-    padding-left: 20px; /* space for the arrow */
-    margin-bottom: 1px;
-}
-
-.platform-arrow-list li::before {
-    content: "›";
-    position: absolute;
-    left: 20px;
-    color: var(--zed-primary);
-    font-size: 34px;
-    margin: -15px 0 0 0;
-}
