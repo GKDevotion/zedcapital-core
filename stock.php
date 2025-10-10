@@ -292,8 +292,8 @@ include_once ('elements/header.php');
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
                 <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4">Buy</button>
-                    <button class="btn btn-sell px-4">Sell</button>
+                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
                 </div>
             </div>
         </div>
@@ -328,8 +328,8 @@ include_once ('elements/header.php');
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
                 <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4">Buy</button>
-                    <button class="btn btn-sell px-4">Sell</button>
+                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
                 </div>
             </div>
         </div>
@@ -364,8 +364,8 @@ include_once ('elements/header.php');
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
                 <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4">Buy</button>
-                    <button class="btn btn-sell px-4">Sell</button>
+                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
                 </div>
             </div>
         </div>
@@ -400,8 +400,8 @@ include_once ('elements/header.php');
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
                 <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4">Buy</button>
-                    <button class="btn btn-sell px-4">Sell</button>
+                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
                 </div>
             </div>
         </div>
@@ -436,8 +436,8 @@ include_once ('elements/header.php');
                     <div class="fw-bold">Up to 1:500</div>
                 </div>
                 <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4">Buy</button>
-                    <button class="btn btn-sell px-4">Sell</button>
+                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
                 </div>
             </div>
         </div>
