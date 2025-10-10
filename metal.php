@@ -82,7 +82,7 @@ include_once ('elements/header.php');
 <section class="position-relative p-0" style="margin-top: -30px; background-color: #fdfdfd7d;">
     <div class="bg-dark text-white py-4 px-5 d-flex align-items-center" style="background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('your-metal-bg.jpg'); background-size: cover;">
         <div class="row" >
-            <div class="col-md-4 text-center" >
+            <div class="col-md-6 text-center" >
                 <a href="#" class="btn btn-outline-danger fw-bold rounded-pill px-5">
                     Basics of Metal
                 </a>
@@ -91,7 +91,7 @@ include_once ('elements/header.php');
                     <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 start-0 float-y" style="width: 100px; height: 60px; margin: -60px -15px;">
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <p class="mb-0 small">
                     Our platform allows you to trade metals with competitive pricing, deep liquidity and professional tools designed for precision and speed.
                 </p>
@@ -539,7 +539,7 @@ include_once ('elements/header.php');
     }
     .tech-feature {
         padding: 40px 50px;
-        border: 1px solid var(--zed-border-color);
+        border: 1px solid var(--zed-border-color) !important;
         border-radius: 25px;
         background-color: #fff !important;
         margin: 15px;
@@ -547,7 +547,7 @@ include_once ('elements/header.php');
     }
 
     .tech-feature:hover {
-        border: 1px solid var(--zed-secondary);
+        border: 1px solid var(--zed-secondary) !important;
     }
     .icon-circle img{
         width: 40px;

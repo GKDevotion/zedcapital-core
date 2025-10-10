@@ -140,7 +140,7 @@ li.nav-item{
 .top-bar {
     background-color: var(--zed-dark-text);
     color: #fff;
-    height: 35px;
+    /* height: 35px; */
     font-size: 14px;
 }
 
@@ -419,4 +419,8 @@ h1.fw-bold{
     color: var(--zed-primary); /* Bootstrap primary color */
     font-size: 40px;
     margin: -20px 0 0 0;
+}
+
+.custom-pointer {
+    cursor: pointer;
 }

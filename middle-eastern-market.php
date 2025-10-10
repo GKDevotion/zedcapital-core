@@ -517,7 +517,7 @@ include_once ('elements/header.php');
                         <img src="assets/images/flat-icon/Liquidity.png" alt="Liquidity">
                     </div>
                     <h5 class="fw-bold text-center">Liquidity</h5>
-                    <p class="small-muted mb-0">
+                    <p class="small-muted mb-0 text-center">
                         While growing, regional markets can be less liquid compared to U.S. and European counterparts
                     </p>
                 </div>

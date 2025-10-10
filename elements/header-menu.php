@@ -161,12 +161,12 @@
         
             <div class="d-flex">
                 <div class="li-demo-account-btn">
-                <a href="#" class="btn btn-demo loginLiveAccount">
+                <a href="#" class="btn btn-demo demo-account-btn loginLiveAccount">
                     Demo Account
                 </a>
                 </div>
                 <div class="li-live-account-btn">
-                <a href="#" class="btn btn-live ms-2 loginLiveAccount">
+                <a href="#" class="btn btn-live ms-2 live-account-btn loginLiveAccount">
                     Live Account
                 </a>
                 </div>

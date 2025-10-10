@@ -7,6 +7,15 @@
     #content {
         margin-top: 0;
     }
+    
+}
+
+/* Below 768px - Mobile */
+@media (min-width: 768px) { 
+    .top-bar{
+        padding: 1rem 2rem;
+    }
+    
 }
 
 /* 768px - 1024px - Tablet */
@@ -39,9 +48,9 @@
 }
 
 /* 1024px - 1499px - Desktop */
-@media (min-width: 1024px) and (max-width: 1499.99px) { 
+@media (min-width: 1024px) and (max-width: 1399.99px) { 
     body{
-        font-size: 0.85rem !important;
+        font-size: 0.8rem !important;
     }
     
     .h2{
@@ -57,7 +66,7 @@
     }
 
     li.nav-item, .demo-account-btn, .live-account-btn, .menu li a{
-        font-size: 0.8rem !important;
+        font-size: 0.75rem !important;
     }
 
     .stock-tesla-icon{ 
@@ -119,6 +128,96 @@
         font-size: 0.75rem !important;
     }
 
+    #account_type table td{
+        font-size: .8rem !important;
+    }
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        --bs-gutter-x: 4rem !important;
+    }
+
+}
+
+/* 1024px - 1499px - Desktop */
+@media (min-width: 1400px) and (max-width: 1499.99px) { 
+    body{
+        font-size: 0.8rem !important;
+    }
+    
+    .h2{
+        font-size: 2.2rem !important;
+    }
+
+    .h3, h3{
+        font-size: 1.6rem !important;
+    }
+
+    .top-bar .flag-text, .top-bar{
+        font-size: 11px !important;
+    }
+
+    li.nav-item, .demo-account-btn, .live-account-btn, .menu li a{
+        font-size: 0.75rem !important;
+    }
+
+    .stock-tesla-icon{ 
+        width: 150px !important; 
+        height: 150px !important; 
+        margin: 50px 375px !important;
+    }
+
+    .stock-amazon-icon{
+        width: 150px !important; 
+        height: 150px !important; 
+        margin: -240px 375px !important;
+    }
+
+    .stock-nikkie-icon{
+        width: 120px !important; 
+        height: 120px !important; 
+        margin: 70px 0 !important;
+    }
+
+    .stock-apple-icon{
+        width: 100px !important; 
+        height: 100px !important; 
+        margin: -200px 0 !important;
+    }
+
+    .top-right{
+        right: 115px !important     ;
+    }
+
+    .bottom-right{
+        bottom: 145px !important;
+        right: -35 !important;
+    }
+
+    .top-left{
+        top: 100px !important;
+        left: 75px !important;
+    }
+
+    .bottom-left{
+        left: 205px !important;
+    }
+
+    .market-card .px-5{
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+
+    .demo-text{
+        font-size: 15px !important;
+    }
+
+    .step-desc {
+        font-size: 0.64rem !important;
+    }
+
+    .our-commitment-text-bg li{
+        font-size: 0.75rem !important;
+    }
 }
 
 /* 1500px - 1699px - Large Screens */

@@ -17,15 +17,15 @@ include_once('elements/header.php');
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Zedcapital">
+            <img src="assets/images/slider/Zed-Capital-1.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
 
         <div class="carousel-item">
-            <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Zedcapital">
+            <img src="assets/images/slider/Zed-Capital-2.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
 
         <div class="carousel-item">
-            <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Zedcapital">
+            <img src="assets/images/slider/Zed-Capital-3.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -320,7 +320,7 @@ include_once('elements/header.php');
                             Premium Elite
                         </strong>
                         <p class="text-gray fw-400 mt-3">
-                            Currency, Metal, Energies, Indices, Crypto, US, EU, UK, HE and UAE Stocks
+                            Currency, Metal, Energies, Indices, Crypto, US, UK, Hong Kong and UAE Stocks
                         </p>
                         <div class="open-account-btn desktop-btn w-75">
                             <button>Open Account</button>
@@ -509,10 +509,6 @@ include_once('elements/header.php');
 
     .mobile-view {
         display: none;
-    }
-
-    .custom-pointer {
-        cursor: pointer;
     }
 
     @media (max-width: 767.9px) {
@@ -1270,7 +1266,7 @@ include_once('elements/header.php');
 
         <div class="row">
             <div class="col-md-7" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/ipad-cross.png" class="w-100">
+                <img src="assets/images/professional-beginnings-trader.png" class="w-100">
             </div>
 
             <div class="col-md-5">

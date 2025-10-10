@@ -79,7 +79,7 @@
             for( $i=0;$i<COUNT($videoArr);$i++ ){
             ?>
                 <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="850">
-                    <div class="card">
+                    <div class="card" style="border: 1.5px solid #e5e5e5; border-radius: 12px;">
                         <div class="video-thumbnail" data-video="https://www.youtube.com/embed/<?php echo $videoArr[$i]['id'];?>?autoplay=1" data-title="<?php echo $videoArr[$i]['title'];?>">
                             <img src="https://img.youtube.com/vi/<?php echo $videoArr[$i]['id'];?>/hqdefault.jpg" alt="<?php echo $videoArr[$i]['id'];?>" class="card-img-top">
                             <span class="play-btn">▶</span>

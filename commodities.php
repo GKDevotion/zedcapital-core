@@ -576,7 +576,7 @@ include_once ('elements/header.php');
     }
     .tech-feature {
         padding: 40px 50px;
-        border: 1px solid var(--zed-border-color);
+        border: 1px solid var(--zed-border-color) !important;
         border-radius: 25px;
         background-color: #fff !important;
         margin: 15px;
@@ -584,7 +584,7 @@ include_once ('elements/header.php');
     }
 
     .tech-feature:hover {
-        border: 1px solid var(--zed-secondary);
+        border: 1px solid var(--zed-secondary) !important;
     }
     .icon-circle img{
         width: 40px;

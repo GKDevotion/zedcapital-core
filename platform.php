@@ -48,6 +48,10 @@ include_once('elements/header.php');
         border-radius: 15px;
     }
 
+    .why-social-media:hover {
+        border: 1px solid var(--zed-dark-text);
+    }
+
     .gray-border {
         border: 1px solid var(--zed-border-color);
         border-radius: 25px;
@@ -61,7 +65,6 @@ include_once('elements/header.php');
     .access-column,
     .mobile-column {
         padding: 3rem 0 3rem 3rem;
-        font-size: 0.9rem;
     }
 
     .divider {
@@ -114,7 +117,7 @@ include_once('elements/header.php');
     }
 
     .feature-list-extra {
-        font-weight: 500;
+        /* font-weight: 500; */
         color: #000 !important;
         margin-bottom: 0;
         padding-right: 3rem;
@@ -302,9 +305,9 @@ include_once('elements/header.php');
                         </a>
                     </div>
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="900">
-                        <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
+                        <div id="openPlatformDesktopMT5WebTrader" class="custom-pointer" target="_blank" title="Download Web Trader">
                             <img src="assets/images/desktop-logo-black.png" alt="Desktop" style="width: 40px;">
-                        </a>
+                        </div>
                     </div>
                 </div>
 
@@ -750,7 +753,7 @@ include_once ('elements/feature-trading-icons.php');
                             </div>
                             <div class="divider d-none d-md-block" style="height: 70%;"></div>
                             <ul class="m-0 feature-list-extra d-none">
-                                <li>
+                                <li class="text-mute">
                                     <b>No Installation Needed: </b>Access instantly from any modern browser.
                                 </li>
                                 <li>

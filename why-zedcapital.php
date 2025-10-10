@@ -544,10 +544,11 @@ include_once ('elements/header.php');
             <!-- Left Text -->
             <div class="col-lg-6 text-center-md">
                 <h2 class="headline">Nominee Fund Protection</h2>
-                <hr class="border-danger opacity-100" style="height: 10px; width: 60px; background-color: var(--zed-primary); margin: 25px 0;">
+                
+                <div class="underline"></div>
+                
                 <p class="desc p-0 m-0">
                     At Zed Capital International Ltd, client fund security remains our top priority. In the unfortunate event of a client's unavailability due to death, critical illness, or any other valid reason, the client's registered nominee is entitled to claim the available account balance or account credentials in accordance with our verification and compliance procedures.
-
                 </p>
 
                 <div class="text-start mt-4">

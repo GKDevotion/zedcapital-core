@@ -623,7 +623,7 @@ include_once ('elements/header.php');
     }
     .tech-feature {
         padding: 40px 50px;
-        border: 1px solid var(--zed-border-color);
+        border: 1px solid var(--zed-border-color) !important;
         border-radius: 25px;
         background-color: #fff !important;
         margin: 15px;
@@ -631,7 +631,7 @@ include_once ('elements/header.php');
     }
 
     .tech-feature:hover {
-        border: 1px solid var(--zed-secondary);
+        border: 1px solid var(--zed-secondary) !important;
     }
     .icon-circle img{
         width: 40px;
@@ -807,7 +807,7 @@ include_once ('elements/explore-more-about.php');
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-12">
-            <div class="info-card">
+            <div class="info-card mb-5">
                 <div class="alert-custom" data-aos="fade-up" data-aos-duration="850">
                     At <b>Zed Capital International Ltd</b>, we provide risk management tools including stop-loss and take-profit orders, ensuring that clients can trade safely and with confidence.
                 </div>
