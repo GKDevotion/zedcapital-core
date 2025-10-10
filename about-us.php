@@ -54,8 +54,7 @@ include_once ('elements/header.php');
 
 <section class="section">
     <div class="container section-text">
-        <p class="mb-4 d-none">Leadership & Mission</p>
-        <h1 class="display-6 fw-bold">Get to know<br>Zed Capital</h1>
+        <h1 class="display-6 fw-bold mt-4">Get to know<br>Zed Capital</h1>
         <span class="underline"></span>
         <p class="mb-4 w-50">
             Zed Capital International Ltd is a globally regulated financial services provider, licensed by the Financial Services Commission (FSC), Mauritius. We empower traders and investors with secure, transparent, and seamless access to global markets.
