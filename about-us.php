@@ -825,7 +825,7 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <img src="assets/images/about-us-stock.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="stock.php" class="text-decoration-none">
+                        <a href="stock" class="text-decoration-none">
                             Stock
                         </a>
                     </div>
@@ -836,7 +836,7 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <img src="assets/images/about-us-metal.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="metal.php" class="text-decoration-none">
+                        <a href="metal" class="text-decoration-none">
                             Metal
                         </a>
                     </div>
@@ -847,7 +847,7 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <img src="assets/images/about-us-indices.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="indices.php" class="text-decoration-none">
+                        <a href="indices" class="text-decoration-none">
                             Indices
                         </a>
                     </div>
@@ -858,7 +858,7 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <img src="assets/images/about-us-forex.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="forex.php" class="text-decoration-none">
+                        <a href="forex" class="text-decoration-none">
                             Forex
                         </a>
                     </div>
@@ -869,7 +869,7 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <img src="assets/images/about-us-commodities.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="commodities.php" class="text-decoration-none">
+                        <a href="commodities" class="text-decoration-none">
                             Commodities
                         </a>
                     </div>
@@ -880,7 +880,7 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <img src="assets/images/about-us-crypto.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="crypto.php" class="text-decoration-none">
+                        <a href="crypto" class="text-decoration-none">
                             Crypto
                         </a>
                     </div>

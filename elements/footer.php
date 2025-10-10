@@ -147,7 +147,7 @@
                 </p>
 
                 <p class="mb-5">
-                    The ZedCapital website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our <a href="cookie-policy.php" title="Cookie Policy" class="text-decoration-none"> Cookie Policy</a>.
+                    The ZedCapital website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our <a href="cookie-policy" title="Cookie Policy" class="text-decoration-none"> Cookie Policy</a>.
                 </p>
 
                 <div class="row g-3 footer-links">
@@ -163,10 +163,10 @@
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Financial Market</h6>
                         <ul>
-                            <li><a href="american-market.php">American Market</a></li>
-                            <li><a href="european-market.php">European Market</a></li>
-                            <li><a href="middle-eastern-market.php">Middle Eastern Market</a></li>
-                            <li><a href="asian-market.php">Asian Market</a></li>
+                            <li><a href="american-market">American Market</a></li>
+                            <li><a href="european-market">European Market</a></li>
+                            <li><a href="middle-eastern-market">Middle Eastern Market</a></li>
+                            <li><a href="asian-market">Asian Market</a></li>
                         </ul>
                     </div>
 
@@ -199,32 +199,32 @@
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Product</h6>
                         <ul>
-                            <li><a href="stock.php">Stock</a></li>
-                            <li><a href="forex.php">Forex</a></li>
-                            <li><a href="indices.php">Indices</a></li>
-                            <li><a href="metal.php">Metal</a></li>
-                            <li><a href="commodities.php">Commodities</a></li>
-                            <li><a href="crypto.php">Crypto</a></li>
+                            <li><a href="stock">Stock</a></li>
+                            <li><a href="forex">Forex</a></li>
+                            <li><a href="indices">Indices</a></li>
+                            <li><a href="metal">Metal</a></li>
+                            <li><a href="commodities">Commodities</a></li>
+                            <li><a href="crypto">Crypto</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Company</h6>
                         <ul>
-                            <li><a href="about-us.php">About US</a></li>
-                            <li><a href="contact-us.php">Contact US</a></li>
-                            <li><a href="zed-academy.php">Zed Academy</a></li>
-                            <li><a href="faqs.php">FAQ's</a></li>
+                            <li><a href="about-us">About US</a></li>
+                            <li><a href="contact-us">Contact US</a></li>
+                            <li><a href="zed-academy">Zed Academy</a></li>
+                            <li><a href="faqs">FAQ's</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Tools & Resources</h6>
                         <ul>
-                            <li><a href="economic-calender.php">Economic Calender</a></li>
-                            <li><a href="pivot-point.php">Pivot Point</a></li>
-                            <li><a href="currency-convertor.php">Currency Converter</a></li>
-                            <li><a href="profit-calculation.php">Profit Calculator</a></li>
+                            <li><a href="economic-calender">Economic Calender</a></li>
+                            <li><a href="pivot-point">Pivot Point</a></li>
+                            <li><a href="currency-convertor">Currency Converter</a></li>
+                            <li><a href="profit-calculation">Profit Calculator</a></li>
                         </ul>
                     </div>
                 </div>
@@ -254,10 +254,10 @@
                     <div class="col-md-3 col-sm-6">
                         <h6>Financial Market</h6>
                         <ul>
-                            <li><a href="american-market.php">American Market</a></li>
-                            <li><a href="european-market.php">European Market</a></li>
-                            <li><a href="middle-eastern-market.php">Middle Eastern Market</a></li>
-                            <li><a href="asian-market.php">Asian Market</a></li>
+                            <li><a href="american-market">American Market</a></li>
+                            <li><a href="european-market">European Market</a></li>
+                            <li><a href="middle-eastern-market">Middle Eastern Market</a></li>
+                            <li><a href="asian-market">Asian Market</a></li>
                         </ul>
                     </div>
 
@@ -276,20 +276,20 @@
                     <div class="col-md-3 col-sm-6">
                         <h6>Product</h6>
                         <ul>
-                            <li><a href="stock.php">Stock</a></li>
-                            <li><a href="forex.php">Forex</a></li>
-                            <li><a href="indices.php">Indices</a></li>
-                            <li><a href="metal.php">Metal</a></li>
-                            <li><a href="commodities.php">Commodities</a></li>
-                            <li><a href="crypto.php">Crypto</a></li>
+                            <li><a href="stock">Stock</a></li>
+                            <li><a href="forex">Forex</a></li>
+                            <li><a href="indices">Indices</a></li>
+                            <li><a href="metal">Metal</a></li>
+                            <li><a href="commodities">Commodities</a></li>
+                            <li><a href="crypto">Crypto</a></li>
                         </ul>
                     </div>
 
                     <div class="col-md-3 col-sm-6">
                         <h6>Company</h6>
                         <ul>
-                            <li><a href="about-us.php">About US</a></li>
-                            <li><a href="zed-academy.php">Zed Academy</a></li>
+                            <li><a href="about-us">About US</a></li>
+                            <li><a href="zed-academy">Zed Academy</a></li>
                             <li><a href="#">News</a></li>
                             <li><a href="#">Press and Media</a></li>
                             <li><a href="#">Regulatory Reports</a></li>
@@ -313,7 +313,7 @@
                             <div class="socil-media-icon">
                                 <ul class="m-0 p-0 mt-3">
                                     <li>
-                                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61564213194349" class="facebook" title="Facebook">
+                                        <a target="_blank" href="https://www.facebook.com/profile?id=61564213194349" class="facebook" title="Facebook">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l98.2 0 0-145.8-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 145.8 129 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z"/></svg>
                                         </a>
                                     </li>
@@ -352,7 +352,7 @@
                     <a href="assets/pdf/Privacy-Policy-ZedCapital.pdf" download>Privacy Policy</a> |
                     <a href="assets/pdf/Cookies-Policy-ZedCapital.pdf" download>Cookie Policy</a> |
                     <a href="assets/pdf/Arbitrage-Policy-ZedCapital.pdf" download>Arbitrage Policy</a> |
-                    <a href="risk-disclosure.php">Risk Disclosure</a>
+                    <a href="risk-disclosure">Risk Disclosure</a>
                 </div>
             </div>
         </footer>

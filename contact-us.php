@@ -33,18 +33,18 @@ include_once ('elements/header.php');
         opacity: 0.85;
     }
 
-    .contact .php-email-form {
+    .contact -email-form {
         box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
         padding: 30px;
         background-color: #fff;
         opacity: 0.85;
     }
 
-    .contact .php-email-form input {
+    .contact -email-form input {
         height: 45px;
     }
 
-    .contact .php-email-form input, .contact .php-email-form textarea {
+    .contact -email-form input, .contact -email-form textarea {
         border-radius: 5px;
         box-shadow: none;
         font-size: 14px;
@@ -69,7 +69,7 @@ include_once ('elements/header.php');
         margin-bottom: 15px;
     }
 
-    .contact .php-email-form button[type="submit"] {
+    .contact -email-form button[type="submit"] {
         background: #e71516;
         border: 0;
         padding: 10px 24px;

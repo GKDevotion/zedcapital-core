@@ -13,22 +13,22 @@ include_once ('elements/header.php');
     <!-- Market Tabs -->
     <div class="market-tab d-flex justify-content-between align-items-center bg-black text-white rounded-pill px-3 flex-wrap">
         <div class="text-center flex-fill py-2">
-            <a class="text-white text-decoration-none" href="american-market.php">
+            <a class="text-white text-decoration-none" href="american-market">
                 Amrican Market
             </a>
         </div>
         <div class="text-center flex-fill py-2">
-            <a class="text-red text-decoration-none" href="european-market.php">
+            <a class="text-red text-decoration-none" href="european-market">
                 Europian Market
             </a>
         </div>
         <div class="text-center flex-fill py-2">
-            <a class="text-white text-decoration-none" href="middle-eastern-market.php">
+            <a class="text-white text-decoration-none" href="middle-eastern-market">
                 Middle East Market
             </a>
         </div>
         <div class="text-center flex-fill py-2">
-            <a class="text-white text-decoration-none" href="asian-market.php">
+            <a class="text-white text-decoration-none" href="asian-market">
                 Asian Market
             </a>
         </div>

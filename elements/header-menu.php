@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
     <div class="container-fluid">
-        <a class="navbar-brand m-0" href="index.php">
+        <a class="navbar-brand m-0" href="index">
             <img src="assets/images/logo.png" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
@@ -8,7 +8,7 @@
         </button>
         <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu">
-                <li class="nav-item"><a class="nav-link" href="why-zedcapital.php">Why Zed Capital</a></li>
+                <li class="nav-item"><a class="nav-link" href="why-zedcapital">Why Zed Capital</a></li>
 
                 <!-- Financial Market Dropdown -->
                 <li class="nav-item dropdown">
@@ -17,31 +17,31 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="financialDropdown">
                         <li>
-                            <a class="dropdown-item" href="american-market.php">
+                            <a class="dropdown-item" href="american-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png">
                                 American Market
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="european-market.php">
+                            <a class="dropdown-item" href="european-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.png">
                                 European Market
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="middle-eastern-market.php">
+                            <a class="dropdown-item" href="middle-eastern-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.png">
                                 Middle Eastern Market
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="asian-market.php">
+                            <a class="dropdown-item" href="asian-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Asian Market
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item d-none" href="trading-view-market.php">
+                            <a class="dropdown-item d-none" href="trading-view-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Trading View Market
                             </a>
@@ -54,37 +54,37 @@
                     <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                     <ul class="dropdown-menu" aria-labelledby="productDropdown">
                         <li>
-                            <a class="dropdown-item" href="stock.php">
+                            <a class="dropdown-item" href="stock">
                                 <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png">
                                 Stock
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="forex.php">
+                            <a class="dropdown-item" href="forex">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Forex
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="indices.php">
+                            <a class="dropdown-item" href="indices">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.png">
                                 Indices
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="metal.php">
+                            <a class="dropdown-item" href="metal">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.png">
                                 Metal
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="commodities.php">
+                            <a class="dropdown-item" href="commodities">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Commodities
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="crypto.php">
+                            <a class="dropdown-item" href="crypto">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Crypto
                             </a>
@@ -99,7 +99,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="platformDropdown">
                         <li class="nav-item">
-                            <a class="nav-link" href="platform.php">
+                            <a class="nav-link" href="platform">
                                 Overview
                             </a>
                         </li>
@@ -131,8 +131,8 @@
                     </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="tools-resources.php">Tools & Resources</a></li>
-                <li class="nav-item"><a class="nav-link" href="zed-academy.php">Zed Academy</a></li>
+                <li class="nav-item"><a class="nav-link" href="tools-resources">Tools & Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="zed-academy">Zed Academy</a></li>
 
                 <!-- Our Company Dropdown -->
                 <li class="nav-item dropdown">
@@ -141,17 +141,17 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="ourCompanyDropdown">
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.php">
+                            <a class="nav-link" href="about-us">
                                 About Us
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us.php">
+                            <a class="nav-link" href="contact-us">
                                 Contact Us
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="faqs.php">
+                            <a class="nav-link" href="faqs">
                                 FAQ's
                             </a>
                         </li>

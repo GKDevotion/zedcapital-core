@@ -848,7 +848,7 @@ include_once('elements/header.php');
 
         <!-- Stock -->
         <div class="col-md-4 stock-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="stock.php" title="Stock">
+            <a href="stock" title="Stock">
                 <img src="assets/images/tesla-logo.png" class="icon tesla" alt="Tesla">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -864,7 +864,7 @@ include_once('elements/header.php');
 
         <!-- Metal -->
         <div class="col-md-4 metal-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="metal.php" title="Metal">
+            <a href="metal" title="Metal">
                 <img src="assets/images/metal-wire.png" class="icon metal-wire" alt="Gold">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -880,7 +880,7 @@ include_once('elements/header.php');
 
         <!-- Indices -->
         <div class="col-md-4 indices-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="indicies.php" title="Indicies">
+            <a href="indicies" title="Indicies">
                 <img src="assets/images/naqsad-logo.png" class="icon nasdaq" alt="NASDAQ">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -896,7 +896,7 @@ include_once('elements/header.php');
 
         <!-- Forex -->
         <div class="col-md-4 forex-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="forex.php" title="Forex">
+            <a href="forex" title="Forex">
                 <img src="assets/images/doller-icon.png" class="icon doller" alt="USD Doller">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -912,7 +912,7 @@ include_once('elements/header.php');
 
         <!-- Commodities -->
         <div class="col-md-4 commodities-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="commodities.php" title="Commodities">
+            <a href="commodities" title="Commodities">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Commodities</h3>
@@ -927,7 +927,7 @@ include_once('elements/header.php');
 
         <!-- Crypto -->
         <div class="col-md-4 crypto-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="crypto.php" title="Crypto">
+            <a href="crypto" title="Crypto">
                 <img src="assets/images/product-crypto-icon.png" class="icon crypto-icon" alt="Crypto Coin">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -1293,7 +1293,7 @@ include_once('elements/header.php');
                         </p>
 
                         <div class="w-100">
-                            <a class="demo-button btn" href="zed-academy.php" title="Learn More Zed Academy">
+                            <a class="demo-button btn" href="zed-academy" title="Learn More Zed Academy">
                                 <span class="demo-text">Learn More</span>
                                 <span class="demo-icon">→</span>
                             </a>
@@ -1932,7 +1932,7 @@ include_once('elements/header.php');
 
             <!-- Right Image & Button -->
             <div class="col-md-2 safeguard-btn-div">
-                <a href="nominee-fund-protection.php" title="Nominee Safeguard" class="safeguard-btn my-5">
+                <a href="nominee-fund-protection" title="Nominee Safeguard" class="safeguard-btn my-5">
                     Safeguard
                 </a>
             </div>

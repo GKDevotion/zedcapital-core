@@ -86,7 +86,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="500">
-      <h5>6–18. Other Provisions</h5>
+      <h5>6-18. Other Provisions</h5>
       <p>Includes use of data, cookies, automated decisions, disclosures, retention, security, your rights, communications, third-party links, children’s data, marketing preferences, policy updates, and contact details. Please read the full policy for detailed information.</p>
     </div>
 

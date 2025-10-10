@@ -1,5 +1,5 @@
 <?php
-include_once ('elements/header.php');
+include_once ('elements/header');
 ?>
 
 <style>
@@ -311,5 +311,5 @@ include_once ('elements/header.php');
 </section>
 
 <?php
-include_once ('elements/footer.php');
+include_once ('elements/footer');
 ?>

@@ -1,6 +1,6 @@
 <?php
 include_once ('elements/header.php');
-// include_once ('elements/product-child-menu.php');
+// include_once ('elements/product-child-menu');
 ?>
 
 <style>
@@ -831,7 +831,7 @@ include_once ('elements/explore-more-about.php');
 ?>
 
 <?php
-// include_once ('elements/faq-questions.php');
+// include_once ('elements/faq-questions');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >

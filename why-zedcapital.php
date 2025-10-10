@@ -568,7 +568,7 @@ include_once ('elements/header.php');
                     </button>
                 </div>
 
-                <a class="mt-5 btn btn-custom" href="nominee-fund-protection.php" title="Nominee Fund Protection">
+                <a class="mt-5 btn btn-custom" href="nominee-fund-protection" title="Nominee Fund Protection">
                     Get Started
                 </a>
             </div>
