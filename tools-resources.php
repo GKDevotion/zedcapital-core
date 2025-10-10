@@ -3,7 +3,7 @@ include_once ('elements/header.php');
 ?>
 
 <style>
-    .section-forex {
+    .section-tools-resources {
         padding: 120px 0;
         position: relative;
         overflow: hidden;
@@ -64,7 +64,7 @@ include_once ('elements/header.php');
     }
 </style>
 
-<section class="section-forex">
+<section class="section-tools-resources">
     <div class="container">
         <div class="row align-items-center flex-column-reverse flex-md-row">
             <div class="col-md-6 text-center text-md-start mt-100" data-aos="fade-up" data-aos-delay="800">

@@ -348,7 +348,7 @@ include_once ('elements/header.php');
     <!-- Card group row -->
     <div class="row justify-content-center card-group-row">
         <!-- GOLD CARD -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex px-5" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
                 <img src="assets/images/brent-oil.png" class="w-75" alt="Brent Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title text-green">Brent Crude Oil</div>
@@ -382,7 +382,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- SILVER CARD -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex px-5" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
                 <img src="assets/images/wti-oil.png" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">WTI Crude Oil</div>
@@ -416,7 +416,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- PLATINUM CARD -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex px-5" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
                 <img src="assets/images/natural-gas.png" class="w-75" alt="natural Gas" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">Natural Gas</div>
@@ -548,7 +548,7 @@ include_once ('elements/header.php');
 
                 <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Agricultural Products</h3>
                 <h5 class="mb-3 text-white" data-aos="fade-up" data-aos-duration="850">
-                    Coffee, Cocoa, Wheat, Corn, Soybeans, cotton, Sugar ,Wheat
+                    Coffee, Cocoa, Wheat, Corn, Soybeans, cotton, Sugar, Wheat
                 </h5>
 
                 <p class="mt-5">

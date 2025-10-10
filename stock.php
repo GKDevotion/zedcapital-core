@@ -263,7 +263,7 @@ include_once ('elements/header.php');
     <!-- Cards -->
     <div class="row g-4 justify-content-center mt-5">
         <!-- Card -->
-        <div class="col">
+        <div class="col-12 col-sm-3 col-xxl">
             <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
                 <h5 class="fw-bold mb-4">
                     <span class="text-shadow">
@@ -299,7 +299,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Repeat for other stocks -->
-        <div class="col">
+        <div class="col-12 col-sm-3 col-xxl">
             <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
                 <h5 class="fw-bold mb-4">
                     <span class="text-shadow">
@@ -335,7 +335,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Card -->
-        <div class="col">
+        <div class="col-12 col-sm-3 col-xxl">
             <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
                 <h5 class="fw-bold mb-4">
                     <span class="text-shadow">
@@ -371,7 +371,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Repeat for other stocks -->
-        <div class="col">
+        <div class="col-12 col-sm-3 col-xxl">
             <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
                 <h5 class="fw-bold mb-4">
                     <span class="text-shadow">
@@ -407,7 +407,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Card -->
-        <div class="col">
+        <div class="col-12 col-sm-3 col-xxl">
             <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
                 <h5 class="fw-bold mb-4">
                     <span class="text-shadow">

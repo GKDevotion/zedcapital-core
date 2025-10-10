@@ -294,6 +294,20 @@ include_once('elements/header.php');
             padding-left: 0px;
         }
     }
+
+    @media (min-width: 1024px) and (max-width: 1399.99px) {
+        .raw-spreed-account-text{
+            font-size: 1rem !important;
+        }
+
+        .h-230px p {
+            font-size: 0.75rem !important;
+        }
+
+        .create-account-btn button, .open-account-btn button{
+                padding: 5px 15px !important;
+        }
+    }
 </style>
 
 <div id="account_type" class="text-center">
@@ -303,7 +317,7 @@ include_once('elements/header.php');
                 <h2 class="h2">Account Type</h2>
             </div>
             <div class="col-12">
-                <p class="f-20 text-gray">Zed Capital offers two account types designed to meet the needs of all traders</p>
+                <p class="fs-5 text-gray">Zed Capital offers two account types designed to meet the needs of all traders</p>
             </div>
         </div>
         <div class="row mt-5">
@@ -559,10 +573,10 @@ include_once('elements/header.php');
         <div class="row">
             <div class="col-md-12 section-title" data-aos="fade-up" data-aos-duration="800">
                 <h2 class="h2">Institutional-Grade MT5, On Every Device</h2>
-                <p class="f-20 text-gray m-0 mx-auto text-center mt-3">
+                <p class="fs-5 text-gray m-0 mx-auto text-center mt-3">
                     Consistent pricing, advanced order types, and audit-ready security controls.
                 </p>
-                <p class="f-20 text-gray m-0 mx-auto text-center">
+                <p class="fs-5 text-gray m-0 mx-auto text-center">
                     Access MT5 across Windows, macOS, iOS, and Android with unified login.
                 </p>
                 <img src="assets/images/meta-trader-5-logo.png" class="fluid-img meta-trader-logo mt-5">
@@ -1022,7 +1036,7 @@ include_once('elements/header.php');
                 </h2>
             </div>
             <div class="col-12">
-                <p class="f-20 text-gray">Zed Capital offers two account types designed to meet the needs of all traders</p>
+                <p class="fs-5 text-gray">Zed Capital offers two account types designed to meet the needs of all traders</p>
             </div>
         </div>
 
@@ -1260,7 +1274,7 @@ include_once('elements/header.php');
                 <h2 class="h2">Professional Beginnings for New Traders</h2>
             </div>
             <div class="col-12">
-                <p class="f-20 text-gray">Education, practice and execution in one place.</b></p>
+                <p class="fs-5 text-gray">Education, practice and execution in one place.</b></p>
             </div>
         </div>
 
@@ -1904,6 +1918,11 @@ include_once('elements/header.php');
         text-align: left;
     }
     
+    .nominee-letter-right-belt-img{
+        position: absolute; 
+        margin: -180px 0; 
+        width: 25%;
+    }
     @media (max-width: 767.9px) {
         .nominee-letter-right{
             display: none;
@@ -1914,6 +1933,12 @@ include_once('elements/header.php');
             margin-top: 15px;
         }
     }
+
+    @media (min-width: 1024px) and (max-width: 1399.99px) { 
+        .nominee-letter-right-belt-img{
+            width: 30%;
+        }
+    }
 </style>
 
 <section class="nominee-letter">
@@ -1922,7 +1947,7 @@ include_once('elements/header.php');
         
             <!-- Left Text -->
             <div class="col-md-6 align-items-center nominee-letter-right">
-                <img src="assets/images/nominee-letter-right.png" style="position: absolute; margin: -180px 0; width: 25%;">
+                <img src="assets/images/nominee-letter-right.png" class="nominee-letter-right-belt-img">
             </div>
             
             <!-- Right Image & Button -->

@@ -318,7 +318,7 @@ include_once ('elements/header.php');
         <!-- Cards -->
         <div class="row g-4 justify-content-center mb-5" data-aos="fade-up" data-aos-duration="800" >
             <!-- Card -->
-            <div class="col" data-aos="fade-up" data-aos-duration="800" >
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
@@ -355,7 +355,7 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Repeat for other stocks -->
-            <div class="col" data-aos="fade-up" data-aos-duration="800" >
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
@@ -391,7 +391,7 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Card -->
-            <div class="col" data-aos="fade-up" data-aos-duration="800" >
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
@@ -427,7 +427,7 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Repeat for other stocks -->
-            <div class="col" data-aos="fade-up" data-aos-duration="800" >
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
@@ -463,7 +463,7 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Card -->
-            <div class="col" data-aos="fade-up" data-aos-duration="800" >
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >

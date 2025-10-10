@@ -281,7 +281,7 @@ include_once ('elements/header.php');
     <!-- Cards -->
     <div class="row g-4 justify-content-center mt-5">
         <!-- Card -->
-        <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
+        <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
                 <img src="assets/images/metal-gold.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
@@ -323,7 +323,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Repeat for other stocks -->
-        <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
+        <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
                 <img src="assets/images/metal-silver.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
@@ -365,7 +365,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Card -->
-        <div class="col-md-4 px-5 mt-5" data-aos="fade-up" data-aos-duration="400" >
+        <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
                 <img src="assets/images/metal-platinum.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>

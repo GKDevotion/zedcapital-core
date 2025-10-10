@@ -264,8 +264,8 @@ include_once ('elements/header.php');
     <!-- Cards -->
     <div class="row g-4 justify-content-center mt-5">
         <!-- Card -->
-        <div class="col" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 170px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+            <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/us-round-flag.png" class="w-50">
             </div>
             <div class="stock-card" >
@@ -306,8 +306,8 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Repeat for other stocks -->
-        <div class="col" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 170px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+            <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/us-round-flag.png" class="w-50">
             </div>
             <div class="stock-card" >
@@ -348,8 +348,8 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Card -->
-        <div class="col" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 170px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+            <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/ge-round-flag.png" class="w-50">
             </div>
             <div class="stock-card" >
@@ -390,8 +390,8 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Repeat for other stocks -->
-        <div class="col" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 170px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+            <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/uk-round-flag.png" class="w-50">
             </div>
             <div class="stock-card">
@@ -432,8 +432,8 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Card -->
-        <div class="col" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 170px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+            <div class="position-relative trade-indicies-responsive" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/jp-round-flag.png" class="w-50">
             </div>
             <div class="stock-card" >

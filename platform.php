@@ -683,7 +683,7 @@ include_once ('elements/feature-trading-icons.php');
     .platform-arrow-list li::before {
         content: "›";
         position: absolute;
-        left: 20px;
+        left: 10px;
         color: var(--zed-primary);
         font-size: 34px;
         margin: -15px 0 0 0;
@@ -701,6 +701,11 @@ include_once ('elements/feature-trading-icons.php');
         color: var(--zed-primary);
         font-size: 32px;
         margin: -15px 0;
+    }
+
+    .MT5-web-trader{
+        height: 400px; 
+        margin: -38px 0 0 -50px;
     }
     @media (max-width: 767.98px) {
         .feature-access {
@@ -768,22 +773,22 @@ include_once ('elements/feature-trading-icons.php');
                             With no additional downloads required, you can use the full practicality of the MT5 for instant online trading on both demo and trading accounts. The complete trading functionality of the MT5 is based on its compatibility with MetaTrader 5. This allows one-click operations for opening and closing trades, setting stops and entry limits, placing direct orders,
                         </p>
                         <ul class="platform-arrow-list m-0 feature-list-extra">
-                            <li class="px-5 pb-2">
+                            <li class="px-4 pb-2">
                                 <b>No Installation Needed: </b>Access instantly from any modern browser.
                             </li>
-                            <li class="px-5 pb-2">
+                            <li class="px-4 pb-2">
                                 <b>Cross-Platform Access: </b>Trade seamlessly across desktop, mobile and tablet.
                             </li>
-                            <li class="px-5 pb-2">
+                            <li class="px-4 pb-2">
                                 <b>Real-Time Execution: </b>Enjoy lightning fast, reliable order processing.
                             </li>
-                            <li class="px-5 pb-2">
+                            <li class="px-4 pb-2">
                                 <b>Advanced Charting: </b>Analyze markets with built-in tools and indicators.
                             </li>
-                            <li class="px-5 pb-2">
+                            <li class="px-4 pb-2">
                                 <b>Secure & Encrypted: </b>Trade with complete data protection.
                             </li>
-                            <li class="px-5 pb-2">
+                            <li class="px-4 pb-2">
                                 <b>Account Sync: </b>Stay updated across Web, Desktop and Mobile.
                             </li>
                             <li class="d-none">
@@ -795,7 +800,7 @@ include_once ('elements/feature-trading-icons.php');
                         </ul>
                     </div>
                     <div class="col-sm-4 p-0 set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                        <img src="assets/images/half-mobile.png" class="" style="height: 400px; margin: -38px 0 0 -50px;">
+                        <img src="assets/images/half-mobile.png" class="MT5-web-trader" style="">
                     </div>
                 </div>
             </div>
@@ -992,12 +997,12 @@ include_once ('elements/feature-trading-icons.php');
       </div>
       
       <!-- Right Content -->
-      <div class="col-lg-6 p-4">
+      <div class="col-lg-6 p-4 px-2">
         <div class="bg-white rounded-5 shadow-sm m-5 p-5 card-scene">
-          <h5 class="fw-bold mb-4 mx-3">
+          <h5 class="fw-bold mb-4 mx-2">
             Power Packed Trading Features
           </h5>
-          <ul class="list-unstyled mb-0 text-gray mx-3">
+          <ul class="list-unstyled mb-0 text-gray mx-2">
               <li class="mb-1">✔ <span class="mx-2">1,000+ Instruments (CFDs)</span></li>
               <li class="mb-1">✔ <span class="mx-2">Integrated Economic Calendar</span></li>
               <li class="mb-1">✔ <span class="mx-2">38+ Pre-Installed Technical Indicators</span></li>

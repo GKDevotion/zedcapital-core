@@ -17,9 +17,9 @@ include_once ('elements/header.php');
         margin-top: 120px;
     }
 
-    .why-zed-capital-header p{
+    /* .why-zed-capital-header p{
         font-size: 1.3rem;
-    }
+    } */
 
     .why-zed-capital-bullet-point{
         background-color: #ffffffb3;
@@ -93,9 +93,10 @@ include_once ('elements/header.php');
                 <img src="assets/images/background/why-zed-header-white-dot-background.png" alt="Corner Image" class="position-absolute top-0 start-0 " style="width: 40px; height: 40px; margin: -55px 0 0 -45px;">
             </div>
             <div class="col-lg-5 col-md-6 text-md-start text-center" data-aos="fade-up" data-aos-duration="800">
-                <h2 class="fw-bold text-white mb-5" style="font-size: 2.8rem;">
-                    <!-- A Trusted Partner in Global Financial Markets -->
-                     Transparent Trading System
+                <h2 class="fw-bold text-white mb-5 h2">
+                     Transparent 
+                     <br>
+                     Trading System
                 </h2>
                 <p class="text-white">
                     A trusted partner in global capital market solutions, we go beyond brokerage - delivering secure, innovative, and transparent trading built on integrity, trust, and a client-first approach to empower traders worldwide.
@@ -534,7 +535,7 @@ include_once ('elements/header.php');
     }
 
     #nominee_fund_protection .btn-learn{
-        min-width: 270px !important;
+        min-width: 270px;
     }
 </style>
 

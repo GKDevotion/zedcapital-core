@@ -12,7 +12,6 @@
 
     .card-text {
         color: #6c757d;
-        font-size: 1rem;
         min-height: 100px;
     }
 
@@ -34,7 +33,7 @@
     }
 
     .text-timer{
-        font-size: 0.9rem;
+        font-size: 0.75rem;
         color: #6c757d;
     }
 
@@ -92,7 +91,9 @@
                             <div class="explore-divider"></div>
 
                             <div class="card-text mt-2 mb-3">
-                                <?php echo $videoArr[$i]['description'];?>
+                                <p>
+                                    <?php echo $videoArr[$i]['description'];?>
+                                </p>
                             </div>
 
                             <div class="row">
