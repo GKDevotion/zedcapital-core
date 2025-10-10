@@ -22,3 +22,4 @@ tests
 *.exe
 *.mp4
 doc
+.htaccess
