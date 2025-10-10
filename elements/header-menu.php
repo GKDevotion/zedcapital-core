@@ -13,7 +13,7 @@
                 <!-- Financial Market Dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="financialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Financial Market
+                        Financial Markets
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="financialDropdown">
                         <li>
@@ -56,7 +56,7 @@
                         <li>
                             <a class="dropdown-item" href="stock">
                                 <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png">
-                                Stock
+                                Stocks
                             </a>
                         </li>
                         <li>
@@ -74,7 +74,7 @@
                         <li>
                             <a class="dropdown-item" href="metal">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.png">
-                                Metal
+                                Metals
                             </a>
                         </li>
                         <li>
@@ -95,7 +95,7 @@
                 <!-- Platform Dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="platformDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Platform
+                        Platforms
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="platformDropdown">
                         <li class="nav-item">
@@ -105,7 +105,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
-                                Window
+                                Windows
                             </a>
                         </li>
                         <li class="nav-item">
@@ -114,18 +114,18 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
-                                Apple
+                            <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download IOS App">
+                                IOS
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-none">
                             <a class="nav-link" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
                                 Desktop
                             </a>
                         </li>
                         <li class="nav-item">
                             <button class="nav-link" id="openMT5WebTrader">
-                                MT5 Web Trader
+                                Web Trader
                             </button>
                         </li>
                     </ul>

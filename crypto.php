@@ -322,17 +322,17 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            EURUSD
+                            BTCUSD
                         </span>
                     </h5>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold EURUSD-s-bid">0.00</div>
+                            <div class="text-danger fw-bold BTCUSD-Bitcoin---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold EURUSD-s-ask">0.00</div>
+                            <div class="text-danger fw-bold BTCUSD-Bitcoin---ask">0.00</div>
                         </div>
                     </div>
 
@@ -359,17 +359,17 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            USDJYP
+                            ETHUSD
                         </span>
                     </h5>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
-                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                            <div class="text-success fw-bold ETHUSD-Ethereum---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                            <div class="text-success fw-bold ETHUSD-Ethereum---ask">0.00</div>
                         </div>
                     </div>
 
@@ -395,17 +395,17 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            GBPUSD
+                            XRPUSD
                         </span>
                     </h5>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold GBPUSD-s-bid">0.00</div>
+                            <div class="text-danger fw-bold XRPUSD-Ripple---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold GBPUSD-s-ask">0.00</div>
+                            <div class="text-danger fw-bold XRPUSD-Ripple---ask">0.00</div>
                         </div>
                     </div>
 
@@ -431,17 +431,17 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            AUDUSD
+                            DOGUSD
                         </span>
                     </h5>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
-                            <div class="text-success fw-bold AUDUSD-s-bid">0.00</div>
+                            <div class="text-success fw-bold DOGUSD-Dogecoin---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-success fw-bold AUDUSD-s-ask">0.00</div>
+                            <div class="text-success fw-bold DOGUSD-Dogecoin---ask">0.00</div>
                         </div>
                     </div>
 
@@ -467,17 +467,17 @@ include_once ('elements/header.php');
                 <div class="stock-card">
                     <h5 class="fw-bold mb-4">
                         <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            USDCAD
+                            LTCUSD
                         </span>
                     </h5>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold USDCAD-s-bid">0.00</div>
+                            <div class="text-danger fw-bold LTCUSD-LiteCoin---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold USDCAD-s-ask">0.00</div>
+                            <div class="text-danger fw-bold LTCUSD-LiteCoin---ask">0.00</div>
                         </div>
                     </div>
 
@@ -506,7 +506,7 @@ include_once ('elements/header.php');
 
 <script>
     // List of symbols to fetch
-    const symbols = ["EURUSD", "USDJPY", "GBPUSD", "AUDUSD", "USDCAD"];
+    const symbols = ["BTCUSD(Bitcoin)", "ETHUSD(Ethereum)", "XRPUSD(Ripple)", "DOGUSD(Dogecoin)", "LTCUSD(LiteCoin)"];
 
     function fetchMarketData() {
         $.ajax({
@@ -528,10 +528,11 @@ include_once ('elements/header.php');
                     $.each(filteredData, function(index, company) {
 
                         // Remove trailing dots (.) from Symbol
-                        const cleanedSymbol = company.Symbol.replace(/\./g, '-');
+                        const cleanedSymbol = company.Symbol.replace(/[\-\(\)\.]/g, '-');
+                        console.log(cleanedSymbol);
                         // Append each company's data to the div
-                        $("."+cleanedSymbol+"-bid").text( company.Bid );
-                        $("."+cleanedSymbol+"-ask").text( company.Ask );
+                        $("."+cleanedSymbol+"bid").text( company.Bid );
+                        $("."+cleanedSymbol+"ask").text( company.Ask );
                     });
                 } else {
                     $('#companyData').text('No matching company data found.');
@@ -812,9 +813,9 @@ $paramArr = [
 
 $videoArr = [
     [
-        'id' => "pBPSt_u2pmQ",
-        "title" => "9/20 Stock Burner's Crypto Trading Strategy Exposed",
-        "description" => "He is a Guinness World Record Holder for the Largest Financial Investment Lesson and largest Social Media Marketing Lesson.",
+        'id' => "TJoHjnSh8SI",
+        "title" => "What is Crypto?",
+        "description" => "Crypto power the world — from the oil in your car to the gold in your jewelry and the coffee in your cup.",
     ],
     [
         'id' => "vjfEnAkpLe0",

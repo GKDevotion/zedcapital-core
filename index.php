@@ -330,7 +330,7 @@ include_once('elements/header.php');
                         <table class="w-100">
                             <tr>
                                 <td class="text-start">Platform</td>
-                                <td class="fw-400 theme-black-color text-end">MetaTraders 5</td>
+                                <td class="fw-400 theme-black-color text-end">Meta Trader 5</td>
                             </tr>
                             <tr>
                                 <td class="text-start">Spreads</td>
@@ -371,7 +371,7 @@ include_once('elements/header.php');
                         <table class="w-100" data-aos="fade-up" data-aos-duration="800">
                             <tr>
                                 <td class="text-start">Platform</td>
-                                <td class="fw-400 theme-black-color text-end">MetaTraders 5</td>
+                                <td class="fw-400 theme-black-color text-end">Meta Trader 5</td>
                             </tr>
                             <tr>
                                 <td class="text-start">Spreads</td>
@@ -511,6 +511,10 @@ include_once('elements/header.php');
         display: none;
     }
 
+    .custom-pointer {
+        cursor: pointer;
+    }
+
     @media (max-width: 767.9px) {
         .section-title p {
             width: 100%;
@@ -574,27 +578,33 @@ include_once('elements/header.php');
                 <img src="assets/images/broker-platform-mobile.png" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
                 <div class="desktop-view">
                     <!-- manage other Images -->
-                    <div class="corner-image top-left">
-                        <img src="assets/images/apple.svg" alt="Top Left">
-                        <span class="mx-4">Apple - MT5</span>
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                    </div>
+                    <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
+                        <div class="corner-image top-left">
+                            <img src="assets/images/apple.svg" alt="Top Left">
+                            <span class="mx-4">IOS - MT5</span>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </div>
+                    </a>
 
-                    <div class="corner-image top-right">
-                        <img src="assets/images/windows.svg" alt="Top Left">
-                        <span class="mx-4">Window - MT5</span>
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                    </div>
+                    <a class="nav-link" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
+                        <div class="corner-image top-right">
+                            <img src="assets/images/windows.svg" alt="Top Left">
+                            <span class="mx-4">Windows - MT5</span>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </div>
+                    </a>
 
-                    <div class="corner-image bottom-left">
-                        <img src="assets/images/android.svg" alt="Top Left">
-                        <span class="mx-4">Android - MT5</span>
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                    </div>
+                    <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
+                        <div class="corner-image bottom-left">
+                            <img src="assets/images/android.svg" alt="Top Left">
+                            <span class="mx-4">Android - MT5</span>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </div>
+                    </a>
 
-                    <div class="corner-image bottom-right">
+                    <div class="corner-image bottom-right custom-pointer" id="openDesktopMT5WebTrader">
                         <img src="assets/images/computer.svg" alt="Top Left">
-                        <span class="mx-4">Desktop - MT5</span>
+                        <span class="mx-4">Web Trader - MT5</span>
                         <i class="fa fa-download" aria-hidden="true"></i>
                     </div>
                 </div>
@@ -841,7 +851,7 @@ include_once('elements/header.php');
 <div class="container" id="market_access">
     <h2 class="h2 text-center">Global Multi-Asset Access</h2>
     <p class="text-center mb-5 text-muted">
-        One account. Stocks, metals, indices, FX, commodities, and crypto.
+        One account. Stocks, metals, indicies, FX, commodities, and crypto.
     </p>
 
     <div class="row g-4">
@@ -852,7 +862,7 @@ include_once('elements/header.php');
                 <img src="assets/images/tesla-logo.png" class="icon tesla" alt="Tesla">
                 <div class="market-card">
                     <div class="px-5 text-start">
-                        <h3 class="text-hover-effect">Stock</h3>
+                        <h3 class="text-hover-effect">Stocks</h3>
                     </div>
                     <div class="px-5">
                         <p class="text-start text-gray">Invest in global leaders like Apple, Tesla, and Microsoft for long-term growth.</p>
@@ -868,7 +878,7 @@ include_once('elements/header.php');
                 <img src="assets/images/metal-wire.png" class="icon metal-wire" alt="Gold">
                 <div class="market-card">
                     <div class="px-5 text-start">
-                        <h3 class="text-hover-effect">Metal</h3>
+                        <h3 class="text-hover-effect">Metals</h3>
                     </div>
                     <div class="px-5">
                         <p class="text-start text-gray">Protect your wealth with safe-haven assets such as gold and silver.</p>
@@ -1035,7 +1045,7 @@ include_once('elements/header.php');
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            Safe MT5 copy-trading tools that consistently and quickly copy deals between accounts.  The master is chosen, risk is established (fixed lots or percentage equity), and you can halt or disengage at any time. Tools only. No fund handling or financial advice.
+                            Safe MT5 copy-trading tools that consistently and quickly copy deals between accounts.  The master account is chosen, risk is established (fixed lots or percentage equity), and you can halt or disengage at any time. Tools only. No fund handling or financial advice.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
@@ -1075,7 +1085,7 @@ include_once('elements/header.php');
                                 <img src="assets/images/advance-crm.png" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1000">
-                                <h3 class="fw-bold">Advance CRM</h3>
+                                <h3 class="fw-bold">Advanced CRM</h3>
                             </div>
                         </div>
                     </div>
@@ -1254,7 +1264,7 @@ include_once('elements/header.php');
                 <h2 class="h2">Professional Beginnings for New Traders</h2>
             </div>
             <div class="col-12">
-                <p class="f-20 text-gray">Education, practice, and execution in one place.</b></p>
+                <p class="f-20 text-gray">Education, practice and execution in one place.</b></p>
             </div>
         </div>
 
@@ -1916,7 +1926,7 @@ include_once('elements/header.php');
         
             <!-- Left Text -->
             <div class="col-md-6 align-items-center nominee-letter-right">
-                <img src="assets/images/nominee-letter-right.png" style="position: absolute; margin: -210px -30px; width: 25%;">
+                <img src="assets/images/nominee-letter-right.png" style="position: absolute; margin: -180px 0; width: 25%;">
             </div>
             
             <!-- Right Image & Button -->

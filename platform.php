@@ -253,7 +253,7 @@ include_once('elements/header.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 text-md-start text-center mb-4 mb-md-0" data-aos="fade-up" data-aos-duration="800">
-                <h1 class="display-6 fw-bold mb-3">Meta Trader 5</h1>
+                <h1 class="display-6 fw-bold mb-3">MetaTrader 5</h1>
                 <p class="text-gray mb-4">
                     The Platform of Professionals.
                 </p>

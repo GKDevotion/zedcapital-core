@@ -143,7 +143,7 @@
 
                 <p>
                     <b>High Risk Investment Warning:</b>
-                    High-Risk Investment Warning: Foreign exchange (FX) and Contracts for Difference (CFDs) are leveraged products and involve a high level of risk. Small adverse moves can lead to rapid, substantial losses. Stop-losses are not guaranteed slippage and gaps may occur and losses may exceed deposits unless Negative Balance Protection is expressly provided in your Account Specifications or required by law. Zed Capital International Ltd provides general information only and does not consider your objectives, financial situation, or needs. Nothing on this site is personal advice. Seek independent professional advice if needed.
+                    Foreign exchange (FX) and Contracts for Difference (CFDs) are leveraged products and involve a high level of risk. Small adverse moves can lead to rapid, substantial losses. Stop-losses are not guaranteed slippage and gaps may occur and losses may exceed deposits unless Negative Balance Protection is expressly provided in your Account Specifications or required by law. Zed Capital International Ltd provides general information only and does not consider your objectives, financial situation, or needs. Nothing on this site is personal advice. Seek independent professional advice if needed.
                 </p>
 
                 <p class="mb-5">
@@ -175,7 +175,7 @@
                         <ul>
                             <li>
                                 <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
-                                    Window
+                                    Windows
                                 </a>
                             </li>
                             <li>
@@ -185,24 +185,29 @@
                             </li>
                             <li>
                                 <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
-                                    Apple
+                                    IOS
+                                </a>
+                            </li>
+                            <li class="d-none">
+                                <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
+                                    Desktop
                                 </a>
                             </li>
                             <li>
-                                <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
-                                    Desktop
+                                <a class="custom-pointer" id="openFooterDesktopMT5WebTrader">
+                                    Web Trader
                                 </a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-2">
-                        <h6>Product</h6>
+                        <h6>Products</h6>
                         <ul>
-                            <li><a href="stock">Stock</a></li>
+                            <li><a href="stock">Stocks</a></li>
                             <li><a href="forex">Forex</a></li>
                             <li><a href="indices">Indices</a></li>
-                            <li><a href="metal">Metal</a></li>
+                            <li><a href="metal">Metals</a></li>
                             <li><a href="commodities">Commodities</a></li>
                             <li><a href="crypto">Crypto</a></li>
                         </ul>
@@ -211,8 +216,8 @@
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Company</h6>
                         <ul>
-                            <li><a href="about-us">About US</a></li>
-                            <li><a href="contact-us">Contact US</a></li>
+                            <li><a href="about-us">About Us</a></li>
+                            <li><a href="contact-us">Contact Us</a></li>
                             <li><a href="zed-academy">Zed Academy</a></li>
                             <li><a href="faqs">FAQ's</a></li>
                         </ul>
@@ -221,7 +226,7 @@
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Tools & Resources</h6>
                         <ul>
-                            <li><a href="economic-calender">Economic Calender</a></li>
+                            <li><a href="economic-calendar">Economic Calendar</a></li>
                             <li><a href="pivot-point">Pivot Point</a></li>
                             <li><a href="currency-convertor">Currency Converter</a></li>
                             <li><a href="profit-calculation">Profit Calculator</a></li>
@@ -241,15 +246,6 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-3 col-sm-6 d-none">
-                        <h6>Software & Downloads</h6>
-                        <ul>
-                            <li><a href="#">Trader Workstation</a></li>
-                            <li><a href="#">IBKR Desktop</a></li>
-                            <li><a href="#">IBKR Mobile</a></li>
-                            <li><a href="#">APIs</a></li>
-                        </ul>
-                    </div>
 
                     <div class="col-md-3 col-sm-6">
                         <h6>Financial Market</h6>
@@ -274,12 +270,12 @@
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                        <h6>Product</h6>
+                        <h6>Products</h6>
                         <ul>
-                            <li><a href="stock">Stock</a></li>
+                            <li><a href="stock">Stocks</a></li>
                             <li><a href="forex">Forex</a></li>
                             <li><a href="indices">Indices</a></li>
-                            <li><a href="metal">Metal</a></li>
+                            <li><a href="metal">Metals</a></li>
                             <li><a href="commodities">Commodities</a></li>
                             <li><a href="crypto">Crypto</a></li>
                         </ul>
@@ -288,7 +284,7 @@
                     <div class="col-md-3 col-sm-6">
                         <h6>Company</h6>
                         <ul>
-                            <li><a href="about-us">About US</a></li>
+                            <li><a href="about-us">About Us</a></li>
                             <li><a href="zed-academy">Zed Academy</a></li>
                             <li><a href="#">News</a></li>
                             <li><a href="#">Press and Media</a></li>
@@ -300,7 +296,7 @@
                 <div class="footer-bottom pb-0">
                     <p><strong>Zed Capital International Limited</strong></p>
                     <p><strong>Registered Office:</strong> Level 7, Iconebene, Lot 8441, Rue de l’Institut, Ebene, Mauritius.</p>
-                    <p><strong>Representative Office:</strong> 1606, Concord Tower, Near Palm Jumeirah Tram Station, Media City, Dubai – UAE.</p>
+                    <p><strong>Representative Office:</strong> 1606, Concord Tower, Near Palm Jumeirah Tram Station, Media City, Dubai - UAE.</p>
                     <p>
                         <strong>Call:</strong>
                         <a href="tel:+2306555223" class="">+230 655 5223 </a>
@@ -335,6 +331,11 @@
                                     <li>
                                         <a target="_blank" href="https://www.youtube.com/@ZedCapitalOfficial" class="youtube" title="Youtube">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1C543.5 100.4 524.9 81.8 501.4 75.5 458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5C51.2 81.8 32.7 100.4 26.4 124.1 15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8 42.6 11.5 213.4 11.5 213.4 11.5s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6l0-162.4 142.7 81.2-142.7 81.2z"/></svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.youtube.com/@ZedCapitalOfficial" class="youtube" title="Youtube">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
                                         </a>
                                     </li>
                                 </ul>

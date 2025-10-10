@@ -725,7 +725,7 @@ $videoArr = [
         "description" => "Experience the power of intelligent investing with Zed Capital, a licensed and regulated forex trading platform designed for global traders.",
     ],
 ];
-include_once ('elements/explore-more-about');
+include_once ('elements/explore-more-about.php');
 ?>
 
 <style>
