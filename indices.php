@@ -153,7 +153,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0 text-center" data-aos="fade-up" data-aos-duration="800" >
-            <img src="assets/images/indicies-benefit.png" class="w-75" alt="Indicies Benefit">
+            <img src="assets/images/indicies-benefit.png" class="w-75" alt="indices Benefit">
         </div>
         
         <!-- Right Side Text -->
@@ -253,11 +253,11 @@ include_once ('elements/header.php');
     <!-- Title -->
     <div class="text-center mb-4" data-aos="fade-up" data-aos-duration="800" >
         <h2 class="h2">
-            Why Trade CFDs on Indicies?
+            Why Trade CFDs on indices?
         </h2>
         <div class="cfd-indicies-divider" data-aos="fade-up" data-aos-duration="800" ></div>
         <p class="text-muted w-75 p-2 m-auto" data-aos="fade-up" data-aos-duration="800" >
-            One of the most significant advantages of trading CFDs on Indicies is that you can gain full exposure to price movements with a small initial deposit.
+            One of the most significant advantages of trading CFDs on indices is that you can gain full exposure to price movements with a small initial deposit.
         </p>
     </div>
 
@@ -479,7 +479,7 @@ include_once ('elements/header.php');
     <!-- Button -->
     <div class="text-center mt-4 mb-5" data-aos="fade-up" data-aos-duration="800" >
         <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill">
-        Click here to view the Indicies
+        Click here to view the indices
         </a>
     </div>
 </div>
@@ -633,7 +633,7 @@ include_once ('elements/header.php');
 
 <section class="opportunities-for-investors">
     <div class="container py-5">
-        <h2 class="h4 mb-3">Benefits of Trading Stocks in Indicies?</h2>
+        <h2 class="h4 mb-3">Benefits of Trading Stocks in indices?</h2>
         <div class="row g-3">
             <div class="col-md-6">
                 <div class="card tech-feature p-4">

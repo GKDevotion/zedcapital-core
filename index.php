@@ -861,7 +861,7 @@ include_once('elements/header.php');
 <div class="container" id="market_access">
     <h2 class="h2 text-center">Global Multi-Asset Access</h2>
     <p class="text-center mb-5 text-muted">
-        One account. Stocks, metals, indicies, FX, commodities, and crypto.
+        One account. Stocks, metals, indices, FX, commodities, and crypto.
     </p>
 
     <div class="row g-4">
@@ -900,11 +900,11 @@ include_once('elements/header.php');
 
         <!-- Indices -->
         <div class="col-md-4 indices-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="indicies" title="Indicies">
+            <a href="indicies" title="indices">
                 <img src="assets/images/naqsad-logo.png" class="icon nasdaq" alt="NASDAQ">
                 <div class="market-card">
                     <div class="px-5 text-start">
-                        <h3 class="text-hover-effect">Indicies</h3>
+                        <h3 class="text-hover-effect">indices</h3>
                     </div>
                     <div class="px-5">
                         <p class="text-start text-gray">Diversify with top indices including the NASDAQ and <br>S&P 500.</p>
