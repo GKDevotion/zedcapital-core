@@ -188,7 +188,7 @@ include_once('elements/header.php');
     }
 
     .raw-spreed-account-text {
-        font-size: 28px;
+        font-size: 1.5rem !important;
         color: var(--zed-dark-text);
     }
 
@@ -276,6 +276,9 @@ include_once('elements/header.php');
         display: none;
     }
 
+    .account-type-btn{
+        width: 75%;
+    }
     @media (max-width: 767.9px) {
         .account-type-detail {
             margin-top: 1rem;
@@ -292,6 +295,10 @@ include_once('elements/header.php');
         .h-230px {
             min-height: 160px;
             padding-left: 0px;
+        }
+
+        .account-type-btn{
+            width: 100%;
         }
     }
 
@@ -336,7 +343,8 @@ include_once('elements/header.php');
                         <p class="text-gray fw-400 mt-3">
                             Currency, Metal, Energies, Indices, Crypto, US, UK, Hong Kong and UAE Stocks
                         </p>
-                        <div class="open-account-btn desktop-btn w-75">
+                        <br><br>
+                        <div class="open-account-btn account-type-btn">
                             <button>Open Account</button>
                         </div>
                     </div>
@@ -377,7 +385,7 @@ include_once('elements/header.php');
                     <div class="col-md-5 col-sm-12 col-12 h-230px text-start position-relative" data-aos="fade-up" data-aos-duration="800">
                         <strong class="raw-spreed-account-text mt-5">Raw Spread</strong>
                         <p class="text-gray fw-400 mt-3">Forex, Metal, Energies</p>
-                        <div class="open-account-btn desktop-btn w-75">
+                        <div class="open-account-btn account-type-btn">
                             <button>Open Account</button>
                         </div>
                     </div>
