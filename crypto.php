@@ -342,7 +342,7 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="my-5">
+                    <div class="my-4">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
@@ -379,7 +379,7 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="my-5">
+                    <div class="my-4">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
@@ -415,7 +415,7 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="my-5">
+                    <div class="my-4">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
@@ -451,7 +451,7 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="my-5">
+                    <div class="my-4">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
@@ -487,7 +487,7 @@ include_once ('elements/header.php');
                         <small>Spread</small> 
                         <div class="fw-bold">0</div>
                     </div>
-                    <div class="my-5">
+                    <div class="my-4">
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>

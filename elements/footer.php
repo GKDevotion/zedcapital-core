@@ -503,7 +503,12 @@
                 const utcHour = now.getUTCHours() + now.getUTCMinutes() / 60;
                 const open = market.open,
                     close = market.close;
-                return (utcHour >= open && utcHour < close) || (close < open && (utcHour >= open || utcHour < close));
+
+                if( ( now.getDay() == 6 || now.getDay() == 7 ) && market.flag == "IN" ){
+                    return false;
+                } else {
+                    return ( utcHour >= open && utcHour < close ) || ( close < open && ( utcHour >= open || utcHour < close ) );
+                }
             }
 
             function formatTime(h) {
