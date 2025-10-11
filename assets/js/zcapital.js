@@ -266,6 +266,24 @@ if( $("#openDesktopMT5WebTrader").length > 0 ){
             }
         });
     });
+
+    document.getElementById("openMobileDesktopMT5WebTrader").addEventListener("click", function() {
+        swalWithBootstrapButtons.fire({
+            title: "Choose Trading Account",
+            // text: "You won't be able to revert this!",
+            // icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Live",
+            cancelButtonText: "Demo",
+            reverseButtons: true
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.open('https://webtrader.zedcapital.mu/terminal', '_blank');
+            } else if (result.dismiss === Swal.DismissReason.cancel) {
+                window.open('https://demo.zedcapital.mu/terminal', '_blank');
+            }
+        });
+    });
 }
 
 if( $("#openFooterDesktopMT5WebTrader").length > 0 ){

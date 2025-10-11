@@ -596,7 +596,7 @@ include_once('elements/header.php');
                 <img src="assets/images/broker-platform-mobile.png" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
                 <div class="desktop-view">
                     <!-- manage other Images -->
-                    <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
+                    <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download IOS App">
                         <div class="corner-image top-left">
                             <img src="assets/images/apple.svg" alt="Top Left">
                             <span class="mx-4">IOS - MT5</span>
@@ -604,7 +604,7 @@ include_once('elements/header.php');
                         </div>
                     </a>
 
-                    <a class="nav-link" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
+                    <a class="nav-link" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Windows Terminal">
                         <div class="corner-image top-right">
                             <img src="assets/images/windows.svg" alt="Top Left">
                             <span class="mx-4">Windows - MT5</span>
@@ -632,35 +632,43 @@ include_once('elements/header.php');
             <div class="mobile-view">
                 <!-- manage other Images -->
                 <div class="col-md-3 col-lg-3 col-sm-12">
-                    <div class="corner-image">
-                        <img src="assets/images/apple.svg" alt="Top Left">
-                        <span class="mx-4">Apple - MT5</span>
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                    </div>
+                    <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download IOS App">
+                        <div class="corner-image">
+                            <img src="assets/images/apple.svg" alt="Top Left">
+                            <span class="mx-4">IOS - MT5</span>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-6 col-lg-6 col-sm-12">
-                    <div class="corner-image">
-                        <img src="assets/images/windows.svg" alt="Top Left">
-                        <span class="mx-4">Window - MT5</span>
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                    </div>
+                    <a class="nav-link" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Windows Terminal">
+                        <div class="corner-image">
+                            <img src="assets/images/windows.svg" alt="Top Left">
+                            <span class="mx-4">Windows - MT5</span>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-6 col-lg-6 col-sm-12">
-                    <div class="corner-image">
-                        <img src="assets/images/android.svg" alt="Top Left">
-                        <span class="mx-4">Android MT-5</span>
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                    </div>
+                    <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
+                        <div class="corner-image">
+                            <img src="assets/images/android.svg" alt="Top Left">
+                            <span class="mx-4">Android MT-5</span>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-6 col-lg-6 col-sm-12">
-                    <div class="corner-image">
-                        <img src="assets/images/computer.svg" alt="Top Left">
-                        <span class="mx-4">Desktop - MT5</span>
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                    </div>
+                    <a class="nav-link" id="openMobileDesktopMT5WebTrader" title="Download Web Trader App">
+                        <div class="corner-image">
+                            <img src="assets/images/computer.svg" alt="Top Left">
+                            <span class="mx-3">Web Trader - MT5</span>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
