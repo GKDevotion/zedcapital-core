@@ -15,7 +15,7 @@ include_once('elements/header.php');
     }
     .accordion-button {
         font-weight: 700;
-        font-size: 1.25rem;
+        font-size: 1rem;
         background: #fff;
         border: none;
         box-shadow: none;
@@ -32,7 +32,7 @@ include_once('elements/header.php');
     }
     .accordion-body {
         background: #fff;
-        font-size: 1.08rem;
+        font-size: 1rem;
         color: #757575;
         padding: 0.75rem 1.25rem 1.3rem 1.25rem;
     }

@@ -198,12 +198,12 @@ include_once ('elements/header.php');
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="network-container">
-                <img src="assets/images/crypto-benefit.jpg" class="w-100 ps-5" alt="Regulatory Assurance">
+                <img src="assets/images/crypto-benefit.jpg" class="w-100 ps-0 ps-md-0" alt="Regulatory Assurance">
             </div>
         </div>
         
         <!-- Right Side Text -->
-        <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-lg-6 col-sm-12 px-0 ps-md-5 pe-0 pe-md-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-section">
                 <h3 class="fw-bold mb-4" data-aos="fade-up" data-aos-duration="800" >Why Trade Crypto with us</h3>
                 

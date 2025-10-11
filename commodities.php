@@ -123,7 +123,7 @@ include_once ('elements/header.php');
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/diamonds/best-commodity-red-black-diamonds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 120px; margin: -50px -70px;">
             </div>
-            <p class="mb-0 text-muted" data-aos="fade-up" data-aos-duration="800" >
+            <p class="mb-0 p-4 p-md-0 text-muted" data-aos="fade-up" data-aos-duration="800" >
                 With our advanced trading platform, competitive conditions and institutional grade infrastructure, you can trade commodities across multiple sectors with precision and transparency.
             </p>
         </div>
@@ -172,12 +172,12 @@ include_once ('elements/header.php');
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="network-container">
-                <img src="assets/images/commodities-benefit.png" class="w-100 ps-5" alt="Commodities Benefit">
+                <img src="assets/images/commodities-benefit.png" class="w-100 ps-0 ps-md-5" alt="Commodities Benefit">
             </div>
         </div>
         
         <!-- Right Side Text -->
-        <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-lg-6 col-sm-12 px-2 px-md-5 pe-1 pe-md-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-section" data-aos="fade-up" data-aos-duration="800" >
                 <h3 class="fw-bold mb-4">Why Trade Commodities with us</h3>
                 
@@ -222,7 +222,7 @@ include_once ('elements/header.php');
 <style>
     .section-title {
         font-weight: 700;
-        font-size: 2.4rem;
+        font-size: 2rem;
         margin-bottom: 2.2rem;
         text-align: center;
     }
@@ -245,7 +245,7 @@ include_once ('elements/header.php');
         background: #f8fbff;
         padding: 1.2rem;
         text-align: center;
-        margin: 1.5rem;
+        margin: 1.5rem 0;
     }
 
     .metal-title {

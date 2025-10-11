@@ -120,7 +120,7 @@ include_once('elements/header.php');
         /* font-weight: 500; */
         color: #000 !important;
         margin-bottom: 0;
-        padding-right: 3rem;
+        /* padding-right: 3rem; */
     }
 
     ul.dash-list {
@@ -203,7 +203,7 @@ include_once('elements/header.php');
         }
 
         .platform-icon-bg {
-            padding: 23px 20px !important;
+            padding: 10px 15px !important;
             max-height: 75px !important;
             display: inline-block !important;
         }
@@ -245,8 +245,9 @@ include_once('elements/header.php');
         }
 
         .download-any-trade p{
-            margin-top: -100px;
+            margin-top: -350px;
             text-align: center;
+            color: var(--zed-dark-text) !important;
         }
     }
 
@@ -721,7 +722,7 @@ include_once ('elements/feature-trading-icons.php');
                 <div class="row m-0 gray-border">
                     <div class="col access-column">
                         <div class="row ">
-                            <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
+                            <div class="col-lg-6 mb-0 mb-md-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
                                 <h3 class="fw-bold mb-0 text-start">Meta Trader 5</h3>
                                 <h3 class="fw-bold pb-4 text-start">Web Trading</h3>
                                 <ul class="web-trading-arrow-list">
@@ -737,7 +738,7 @@ include_once ('elements/feature-trading-icons.php');
                             <div class="col-lg-6 text-end set-diamond-image" data-aos="fade-up" data-aos-duration="800">
                                 <img src="assets/images/half-tab.png" alt="MT5 Screenshot" class="img-responsive w-100">
                             </div>
-                            <div class="col-sm-12 col-12 pt-5" data-aos="fade-up" data-aos-duration="800">
+                            <div class="col-sm-12 col-12 pt-0 pt-md-5" data-aos="fade-up" data-aos-duration="800">
                                 <ul class="web-trading-arrow-list">
                                     <li class="">
                                         Meta Trader 5 Web Trader gives you full market access, real-time pricing, and complete account control from any device, powered by Zed Capital International Ltd.
@@ -772,7 +773,7 @@ include_once ('elements/feature-trading-icons.php');
                         <p class="mobile-column text-gray pb-4 pt-0 m-0 d-none">
                             With no additional downloads required, you can use the full practicality of the MT5 for instant online trading on both demo and trading accounts. The complete trading functionality of the MT5 is based on its compatibility with MetaTrader 5. This allows one-click operations for opening and closing trades, setting stops and entry limits, placing direct orders,
                         </p>
-                        <ul class="platform-arrow-list m-0 feature-list-extra">
+                        <ul class="platform-arrow-list m-0 feature-list-extra pe-0 pe-md-4">
                             <li class="px-4 pb-2">
                                 <b>No Installation Needed: </b>Access instantly from any modern browser.
                             </li>
@@ -986,7 +987,7 @@ include_once ('elements/feature-trading-icons.php');
         
         <div class="highlight-line mb-5"></div>
 
-        <a href="#" class="open-account-btn my-5">
+        <a href="#" class="open-account-btn my-0 my-md-5 loginLiveAccount">
           Open an account
         </a>
 
@@ -998,7 +999,7 @@ include_once ('elements/feature-trading-icons.php');
       
       <!-- Right Content -->
       <div class="col-lg-6 p-4 px-2">
-        <div class="bg-white rounded-5 shadow-sm m-5 p-5 card-scene">
+        <div class="bg-white rounded-4 shadow-sm m-1 m-md-5 p-2 p-md-5 card-scene">
           <h5 class="fw-bold mb-4 mx-2">
             Power Packed Trading Features
           </h5>

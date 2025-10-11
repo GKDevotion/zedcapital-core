@@ -4,7 +4,7 @@ include_once ('elements/header.php');
 
 <style>
 
-    .section {
+    .about-us-section {
         padding: 100px 0 0 0; /* Adjust padding as needed */
         background-image: url('assets/images/background/about-us-background.png');
         background-size: cover;
@@ -15,7 +15,6 @@ include_once ('elements/header.php');
         display: flex;
         align-items: center;   /* Vertical center */
         justify-content: center; /* Horizontal center */
-        /* margin: 40px 0 -85px 0; */
     }
 
     .section-text .underline {
@@ -41,7 +40,15 @@ include_once ('elements/header.php');
         transition-property: all;
     }
 
+    .hover-translateY p{
+        text-align: justify;
+    }
     @media (max-width: 767.9px) {
+
+        .about-us-section {
+            background-size: auto !important;
+            margin-top: 50px;
+        }
         .section-text h1 {
             font-size: 28px;
         }
@@ -49,12 +56,20 @@ include_once ('elements/header.php');
         .set-diamond-image{
             display: none;
         }
+
+        .about-us-section .w-50 {
+            width: 100% !important;
+        }
+
+        .hover-translateY p{
+            text-align: start;
+        }
     }
 </style>
 
-<section class="section">
+<section class="about-us-section">
     <div class="container section-text">
-        <h1 class="display-6 fw-bold mt-4">Get to know<br>Zed Capital</h1>
+        <h1 class="fw-bold mt-4">Get to know<br>Zed Capital</h1>
         <span class="underline"></span>
         <p class="mb-4 w-50">
             Zed Capital International Ltd is a globally regulated financial services provider, licensed by the Financial Services Commission (FSC), Mauritius. We empower traders and investors with secure, transparent, and seamless access to global markets.
@@ -187,10 +202,10 @@ include_once ('elements/header.php');
                             Mission
                         </a>
                     </h2>
-                    <p class="text-gray text-justify">
+                    <p class="text-gray">
                         Our mission is to deliver secure, transparent, and comprehensive capital market solutions that empower clients to trade and invest with confidence, clarity, and control.
                     </p>
-                    <p class=" text-justify">
+                    <p class="">
                         We are committed to offering equal access to global markets across diverse asset classes, while deploying innovative platforms and technologies that enhance both execution and decision-making. By promoting financial literacy and education, we enable clients to trade smarter and with greater assurance. Through industry-leading risk management, we safeguard client interests and build sustainable relationships founded on trust, performance, and transparency.
                     </p>
                 </div>
@@ -304,6 +319,9 @@ include_once ('elements/header.php');
 
     @media (max-width: 767.9px) {
 
+        .key-feature-service{
+            background-image: none !important;
+        }
         .key-feature-service h2{
             margin-bottom: 0;
         }
@@ -433,7 +451,8 @@ include_once ('elements/header.php');
         }
 
         .contact-section p{
-            text-align: justify;
+            text-align: start;
+            font-size: 1rem !important;
         }
     }
 </style>
@@ -716,7 +735,7 @@ include_once ('elements/header.php');
 
                     </div>
                     <div class="col-11">
-                        <div class="highlight-box text-center px-5">
+                        <div class="highlight-box text-center px-2 px-md-5">
                             The founding members of Zed Capital began as traders themselves.
                         </div>
                         <div class="position-relative set-diamond-image">

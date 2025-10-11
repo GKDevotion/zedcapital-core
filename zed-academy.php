@@ -172,9 +172,9 @@ include_once ('elements/header.php');
             </p>
         </div>
 
-        <div class="row align-items-center py-5" data-aos="fade-up" data-aos-delay="800">
+        <div class="row align-items-center py-2 py-md-5" data-aos="fade-up" data-aos-delay="800">
             <!-- Left Side Content -->
-            <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
+            <div class="col-lg-5 col-md-12 mb-0 mb-md-4 mb-lg-0">
                 <h2 class="h2 w-75" data-aos="fade-up" data-aos-delay="800">Committed to your success</h2>
                 <div class="committed-line" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="text-muted text-gray mb-3" data-aos="fade-up" data-aos-delay="800">
@@ -231,7 +231,7 @@ include_once ('elements/header.php');
 <div class="container py-5">
     <div class="row align-items-center">
       <!-- Text Section -->
-        <div class="col-lg-7 mb-4 mb-lg-0 p-0">
+        <div class="col-lg-7 mb-0 mb-md-4 mb-lg-0 p-0">
             <img src="assets/images/bit-size-lesson.png" alt="Beginner Trading Course" class="lesson-image">
         </div>
 
@@ -307,7 +307,7 @@ include_once ('elements/header.php');
                             <h5>Global Market Hotspot Analysis</h5>
                         </div>
                         <div class="col-md-5 text-center" data-aos="fade-up" data-aos-delay="400">
-                            <img src="assets/images/global-market-analys.png" alt="Global Market">
+                            <img src="assets/images/global-market-analys.png" alt="Global Market" class="set-diamond-image">
                         </div>
                     </div>
                     <div class="divider" data-aos="fade-up" data-aos-delay="400"></div>
@@ -321,7 +321,7 @@ include_once ('elements/header.php');
                             <h5>Top Trading Strategy Tips</h5>
                         </div>
                         <div class="col-md-5 text-center" data-aos="fade-up" data-aos-delay="600">
-                            <img src="assets/images/top-trading-tips.png" alt="Trading Tips">
+                            <img src="assets/images/top-trading-tips.png" alt="Trading Tips" class="set-diamond-image">
                         </div>
                     </div>
                     <div class="divider" data-aos="fade-up" data-aos-delay="600"></div>
@@ -335,7 +335,7 @@ include_once ('elements/header.php');
                             <h5>In-depth Case Study Analysis</h5>
                         </div>
                         <div class="col-md-5 text-center" data-aos="fade-up" data-aos-delay="800">
-                            <img src="assets/images/depth-case-analysis.png" alt="Case Study">
+                            <img src="assets/images/depth-case-analysis.png" alt="Case Study" class="set-diamond-image">
                         </div>
                     </div>
                     <div class="divider" data-aos="fade-up" data-aos-delay="800"></div>
@@ -413,7 +413,7 @@ include_once ('elements/header.php');
                                 Our courses are designed and taught by top financial traders, analysts, and market strategists with years of professional experience in the financial markets.
                             </p>
                         </div>
-                        <img src="assets/images/expert-led-education.png" alt="Expert Icon" class="w-25">
+                        <img src="assets/images/expert-led-education.png" alt="Expert Icon" class="w-25 set-diamond-image">
                     </div>
 
                     <!-- Card 2 -->
@@ -424,7 +424,7 @@ include_once ('elements/header.php');
                                 All courses are 100% online and mobile-friendly, allowing you to learn anytime, anywhere, on any device. Our platform is optimized for a seamless experience.
                             </p>
                         </div>
-                        <img src="assets/images/learn-at-your-own-pace.png" alt="Chart Icon" class="w-25">
+                        <img src="assets/images/learn-at-your-own-pace.png" alt="Chart Icon" class="w-25 set-diamond-image">
                     </div>
 
                     <!-- Card 3 -->
@@ -435,7 +435,7 @@ include_once ('elements/header.php');
                                 Boost your trading credibility with a Zed Academy Certificate of Completion. Our certification validates your knowledge and skills, making it a valuable addition to your career enhancement.
                             </p>
                         </div>
-                        <img src="assets/images/certification.png" alt="Certificate Icon" class="w-25">
+                        <img src="assets/images/certification.png" alt="Certificate Icon" class="w-25 set-diamond-image">
                     </div>
 
                 </div>
@@ -486,16 +486,16 @@ include_once ('elements/header.php');
             <div class="col-md-6 align-items-center">
                 <h2 class="fw-bold h2">Get Started!</h2>
                 <div class="divider"></div>
-                <p class="mb-0" style="font-size: 1.5rem;">Sign up and access the Global Markets<br>in less than 3 minutes</p>
+                <p class="mb-0" style="font-size: 1.3rem;">Sign up and access the Global Markets<br>in less than 3 minutes</p>
             </div>
 
             <!-- Right Image & Button -->
-            <div class="col-md-6 text-end align-items-center">
-                <p class="mb-2" style="font-size: 1.5rem;">
+            <div class="col-md-6 text-start text-md-end mt-5 mt-md-0">
+                <p class="mb-2" style="font-size: 1.3rem;">
                     Try Free <br>
                     Demo Account
                 </p>
-                <button class="btn-start" data-aos="fade-up" data-aos-delay="800" style="padding: 10px 40px; font-size: 1.5rem; margin-top: 20px; font-weight: 500;">Start Trading</button>
+                <button class="btn-start" data-aos="fade-up" data-aos-delay="800" style="padding: 10px 40px; font-size: 1.3rem; margin-top: 20px; font-weight: 500;">Start Trading</button>
             </div>
 
         </div>
@@ -583,18 +583,20 @@ if( false ){
                 Zed Capital provides several resources to help you better understand Zed products 
                 and services, markets and technology.
             </p>
-            <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center mt-2" data-aos="fade-up" data-aos-delay="800">
-                Learn more 
-            <span class="ms-2 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width:25px; height:25px;" data-aos="fade-up" data-aos-delay="800">
-                →
-            </span>
-            </a>
+            <div class="set-diamond-image">
+                <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center mt-2" data-aos="fade-up" data-aos-delay="800">
+                    Learn more 
+                <span class="ms-2 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width:25px; height:25px;" data-aos="fade-up" data-aos-delay="800">
+                    →
+                </span>
+                </a>
+            </div>
         </div>
 
         <!-- Right Video Section -->
         <div class="col-lg-8" data-aos="fade-up" data-aos-delay="800">
-            <div class="video-thumbnail zed-academy-video-thumbnail" data-video="https://www.youtube.com/embed/iBZcDvw8Fi8?autoplay=1" data-title="Forex Trading for Beginners (Full Course)">
-                <img src="https://img.youtube.com/vi/iBZcDvw8Fi8/hqdefault.jpg" alt="iBZcDvw8Fi8" class="card-img-top">
+            <div class="video-thumbnail zed-academy-video-thumbnail" data-video="https://www.youtube.com/embed/vjfEnAkpLe0?autoplay=1" data-title="Forex Trading for Beginners (Full Course)">
+                <img src="https://img.youtube.com/vi/vjfEnAkpLe0/hqdefault.jpg" alt="vjfEnAkpLe0" class="card-img-top">
                 <span class="play-btn">▶</span>
             </div>
         </div>

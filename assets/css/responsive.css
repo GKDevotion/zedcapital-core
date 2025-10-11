@@ -31,6 +31,10 @@
     #custom-tabs .tab-btn{
         min-width: 125px;
     }
+
+    .arrow-list li{
+        text-align: start;
+    }
 }
 
 /* Below 768px - Mobile */
@@ -207,7 +211,7 @@
     }
 
     li.nav-item, .demo-account-btn, .live-account-btn, .menu li a{
-        font-size: 0.8rem !important;
+        font-size: 0.75rem !important;
     }
 
     .stock-tesla-icon{ 
