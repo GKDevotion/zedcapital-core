@@ -15,7 +15,7 @@ include_once ('elements/header.php');
         display: flex;
         align-items: center;   /* Vertical center */
         justify-content: center; /* Horizontal center */
-        margin-top: 110px;
+        margin-top: 120px;
     }
 
     .divider {
@@ -41,8 +41,8 @@ include_once ('elements/header.php');
             background-size: contain;
             background-position: center;
             position: relative;
-            min-height: 60vh;
-            margin-top: 100px;
+            min-height: 65vh;
+            margin-top: 160px;
         }
 
         .set-diamond-image{

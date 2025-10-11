@@ -75,7 +75,7 @@ include_once ('elements/header.php');
         <div class="row align-items-center">
         
             <!-- Text Column -->
-            <div class="col-md-5 text-black py-5 px-0" data-aos="fade-up" data-aos-duration="800" >
+            <div class="col-md-5 text-black py-5 px-3 px-md-0" data-aos="fade-up" data-aos-duration="800" >
                 <h2 class="h2 mb-5">Trade Global Indices</h2>
                 <div class="p-1 indices-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-100" data-aos="fade-up" data-aos-delay="800">
@@ -153,11 +153,11 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0 text-center" data-aos="fade-up" data-aos-duration="800" >
-            <img src="assets/images/indicies-benefit.png" class="w-75" alt="indices Benefit">
+            <img src="assets/images/indicies-benefit.png" class="w-100" alt="indices Benefit">
         </div>
         
         <!-- Right Side Text -->
-        <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-lg-6 col-sm-12 px-0 px-md-5 pe-0 pe-md-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-section">
                 <h3 class="fw-bold mb-4">Why Trade Indices with us</h3>
                 
@@ -256,7 +256,7 @@ include_once ('elements/header.php');
             Why Trade CFDs on indices?
         </h2>
         <div class="cfd-indicies-divider" data-aos="fade-up" data-aos-duration="800" ></div>
-        <p class="text-muted w-75 p-2 m-auto" data-aos="fade-up" data-aos-duration="800" >
+        <p class="text-muted w-75 p-0 p-md-2 m-auto" data-aos="fade-up" data-aos-duration="800" >
             One of the most significant advantages of trading CFDs on indices is that you can gain full exposure to price movements with a small initial deposit.
         </p>
     </div>
@@ -264,7 +264,7 @@ include_once ('elements/header.php');
     <!-- Cards -->
     <div class="row g-4 justify-content-center mt-5">
         <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/us-round-flag.png" class="w-50">
             </div>
@@ -306,7 +306,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Repeat for other stocks -->
-        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/us-round-flag.png" class="w-50">
             </div>
@@ -348,7 +348,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/ge-round-flag.png" class="w-50">
             </div>
@@ -390,7 +390,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Repeat for other stocks -->
-        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/uk-round-flag.png" class="w-50">
             </div>
@@ -432,7 +432,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative trade-indicies-responsive" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
                 <img src="assets/images/flag/jp-round-flag.png" class="w-50">
             </div>

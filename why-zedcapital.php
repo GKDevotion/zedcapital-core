@@ -64,6 +64,11 @@ include_once ('elements/header.php');
         padding: 70px 0;
     }
 
+    .why-zed-header-white-dot-background{
+        width: 40px; 
+        height: 40px; 
+        margin: -55px 0 0 -45px;
+    }
 
     @media (max-width: 767.98px) {
         .trust-image {
@@ -82,6 +87,10 @@ include_once ('elements/header.php');
         .set-diamond-image{
             display: none;
         }
+
+        .why-zed-header-white-dot-background{
+            margin: -55px 0 0 -20px !important;
+        }
     }
     
 </style>
@@ -90,7 +99,7 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="position-relative">
-                <img src="assets/images/background/why-zed-header-white-dot-background.png" alt="Corner Image" class="position-absolute top-0 start-0 " style="width: 40px; height: 40px; margin: -55px 0 0 -45px;">
+                <img src="assets/images/background/why-zed-header-white-dot-background.png" alt="Corner Image" class="position-absolute top-0 start-0 why-zed-header-white-dot-background">
             </div>
             <div class="col-lg-5 col-md-6 text-md-start text-center" data-aos="fade-up" data-aos-duration="800">
                 <h2 class="fw-bold text-white mb-5 h2">
@@ -146,6 +155,7 @@ include_once ('elements/header.php');
     .arrow-list li {
         position: relative;
         padding-left: 20px; /* space for the arrow */
+        font-size: 1.25rem !important;
     }
 
     .arrow-list li::before {
@@ -155,6 +165,12 @@ include_once ('elements/header.php');
         color: var(--zed-primary); /* Bootstrap primary color */
         font-size: 45px;
         margin: -20px 0 0 0;
+    }
+
+    @media (max-width: 767.9px) {
+        .arrow-list li {
+            font-size: 1rem !important;
+        }
     }
 </style>
 
@@ -585,11 +601,6 @@ include_once ('elements/header.php');
 
 <style>
 
-    /* .opportunities-for-investors{
-        background-color: var(--zed-backgound-color);
-        padding: 50px 0;
-    } */
-
     .risks-considerations{
         padding: 50px 0;
     }
@@ -609,6 +620,7 @@ include_once ('elements/header.php');
     .icon-circle img{
         width: 40px;
     }
+
     
 </style>
 
@@ -625,10 +637,10 @@ include_once ('elements/header.php');
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="icon-circle mt-2" data-aos="fade-up" data-aos-duration="800">
+                        <div class="icon-circle mt-2 icon-circle-desktop" data-aos="fade-up" data-aos-duration="800">
                             <img src="assets/images/svg/Diversification.svg">
                         </div>
-                        <div data-aos="fade-up" data-aos-duration="800">
+                        <div data-aos="fade-up" data-aos-duration="800" class="opportunities-mobile-responsive">
                             <h5 class="fw-bold mb-1">Structured Learning</h5>
                             <p class="mb-0 small-muted">
                                 Professional courses, guides, and tutorials tailored to all experience levels.

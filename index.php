@@ -539,7 +539,7 @@ include_once('elements/header.php');
             margin-top: 30px;
             z-index: 1;
             width: 100%;
-            margin-left: -150px;
+            margin-left: -85px;
         }
 
         .main-mobile-image {
@@ -904,7 +904,7 @@ include_once('elements/header.php');
                 <img src="assets/images/naqsad-logo.png" class="icon nasdaq" alt="NASDAQ">
                 <div class="market-card">
                     <div class="px-5 text-start">
-                        <h3 class="text-hover-effect">indices</h3>
+                        <h3 class="text-hover-effect">Indices</h3>
                     </div>
                     <div class="px-5">
                         <p class="text-start text-gray">Diversify with top indices including the NASDAQ and <br>S&P 500.</p>

@@ -52,45 +52,23 @@ include_once ('elements/header.php');
 
         <!-- Custom Buttons -->
         <div id="custom-tabs">
-            <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=CAC40">CAC40</button>
-            <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=UK100">UK100</button>
-            <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=EUREX:FESX1!">FESX1!</button>
-            <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=IG-DAX">DAX</button>
+            <div class="row">
+                <div class="col text-center m-1">
+                    <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=CAC40">CAC40</button>
+                </div>
+                <div class="col text-center m-1">
+                    <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=UK100">UK100</button>
+                </div>
+                <div class="col text-center m-1">
+                    <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=EUREX:FESX1!">FESX1!</button>
+                </div>
+                <div class="col text-center m-1">
+                    <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=IG-DAX">DAX</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
-<style>
-    
-    /* Custom Tab Style */
-    #custom-tabs {
-      display: flex;
-      gap: 10px;
-      padding: 10px;
-    }
-
-    #custom-tabs button {
-      padding: 10px 20px;
-      border: none;
-      border-radius: 6px;
-      background: #f1f1f1;
-      cursor: pointer;
-      font-weight: bold;
-      transition: all 0.3s;
-    }
-
-    #custom-tabs button.active {
-      background: black;
-      color: white;
-    }
-
-    iframe {
-      border: none;
-      width: 100%;
-      height: 65vh; /* 80% height of the screen */
-      flex-grow: 1;
-    }
-</style>
 
 <div class="container py-4">
     <!-- Iframe -->
@@ -144,10 +122,23 @@ include_once ('elements/header.php');
     </div>
 </div>
 
+<style>
+    .europen-market-matters{
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+
+     @media (max-width: 767.9px) {
+        .europen-market-matters{
+            padding: 0 !important;
+        }
+     }
+</style>
+
 <div class="container py-5">
     <div class="row">
         <!-- Left Column -->
-        <div class="col-lg-8 mb-4 px-5">
+        <div class="col-lg-8 mb-4 europen-market-matters">
             <h3 class="fw-bold mb-5">Why the European Market Matters Globally</h3>
             <p class="text-muted text-gray">
                 <b class="text-black">Diversity</b>: Multiple financial hubs offer unique strengths — equities in London, bonds in Frankfurt, banking in Zurich, asset management in Luxembourg.
@@ -231,7 +222,7 @@ include_once ('elements/header.php');
             </div>
         </div>
 
-        <div class="col-12 px-5">
+        <div class="col-12 europen-market-matters mt-4">
             <p class="text-muted text-gray">
                 At <b>Zed Capital International Ltd</b>, we help clients interpret Europe's multi-faceted market landscape, identifying both traditional and emerging opportunities
             </p>
@@ -311,7 +302,7 @@ include_once ('elements/header.php');
         </div>
 
         <!-- Dow Jones Description -->
-        <div class="col-lg-8 px-5">
+        <div class="col-lg-8 px-2 px-md-5 mt-4 mt-md-0">
             
             <h4 class="fw-bold mt-2 mb-4">Equities (Stock Market)</h4>
             <p class="text-muted">
@@ -366,7 +357,7 @@ include_once ('elements/header.php');
     <div class="row align-items-center g-4 mt-5">
 
         <!-- Left Text Section -->
-        <div class="col-lg-8 px-5">
+        <div class="col-lg-8 px-2 px-md-5">
             <h4 class="fw-bold mt-2 mb-4">Currencies (Foreign Exchange)</h4>
             <p class="text-muted">
                 The <b>Euro (EUR)</b> is the second most traded currency globally, accounting for nearly <b>30% of international reserves</b>.

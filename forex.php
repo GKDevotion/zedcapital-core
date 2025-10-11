@@ -46,8 +46,7 @@ include_once ('elements/header.php');
             background-size: contain;
             background-position: center;
             position: relative;
-            min-height: 60vh;
-            margin-top: 100px;
+            min-height: 65vh;
         }
         .set-diamond-image{
             display: none;
@@ -99,7 +98,7 @@ include_once ('elements/header.php');
         <!-- Bullet Points -->
         <div class="col-md-10 p-0">
             <ul class="mb-0" data-aos="fade-up" data-aos-duration="800" style="list-style-type: none;">
-                <li class="px-5">
+                <li class="px-0 px-md-5 mt-3 mt-md-0">
                     With our advanced platform, competitive trading conditions and institutional grade infrastructure, you can trade with speed, precision and confidence.
                 </li>
             </ul>
@@ -152,11 +151,11 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
-            <img src="assets/images/forex-benefit.png" class="w-100 ps-5" alt="Regulatory Assurance">
+            <img src="assets/images/forex-benefit.png" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
-        <div class="col-lg-6 col-sm-12 px-5 pe-5">
+        <div class="col-lg-6 col-sm-12 px-1 px-md-5 pe-1 pe-md-5">
             <div class="info-section" data-aos="fade-up" data-aos-duration="800">
                 <h3 class="fw-bold mb-4">Why Trade Forex with us</h3>
                 
@@ -262,7 +261,7 @@ include_once ('elements/header.php');
             Why Trade CFDs on Forex?
         </h2>
         <div class="divider" data-aos="fade-up" data-aos-duration="800"></div>
-        <p class="text-muted w-75 p-2 m-auto" data-aos="fade-up" data-aos-duration="800">
+        <p class="text-muted w-75 p-0 p-md-2 m-auto" data-aos="fade-up" data-aos-duration="800">
             One of the most significant advantages of trading CFDs on pairs are that you can gain full exposure to price movements with a small initial deposit.
         </p>
     </div>
@@ -534,7 +533,7 @@ include_once ('elements/header.php');
 </style>
 
 <section class="stock-section">
-    <div class="container py-3">
+    <div class="container py-5 py-md-4">
         <div class="row align-items-center">
             <!-- Text Content -->
             <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="800">
@@ -753,8 +752,8 @@ include_once ('elements/feature-trading-icons.php');
     }
 </style>
 
-<section style="background-color: var(--zed-backgound-color);" class="p-5">
-    <div class="container my-5">
+<section style="background-color: var(--zed-backgound-color);" class="p-2 p-md-5">
+    <div class="container my-0 my-md-5">
         <div class="row custom-card mx-auto">
             <div class="highlight-banner" data-aos="fade-up" data-aos-duration="800" >
                 <p data-aos="fade-up" data-aos-duration="800">

@@ -30,7 +30,7 @@
 
         <div class="row pb-3">
 
-            <h2 class="h2 mt-5 mb-5 text-center" data-aos="fade-up" data-aos-duration="250">
+            <h2 class="h2 mx-0 mx-md-5 text-center" data-aos="fade-up" data-aos-duration="250">
                 <?php echo $featureIconTitle; ?>
             </h2>
 

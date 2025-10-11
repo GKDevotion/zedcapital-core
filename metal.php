@@ -148,7 +148,7 @@ include_once ('elements/header.php');
         </div>
         
         <!-- Right Side Text -->
-        <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="800" >
+        <div class="col-lg-6 col-sm-12 px-1 px-md-5 pe-1 pe-md-5" data-aos="fade-up" data-aos-duration="800" >
             <div class="info-section">
                 <h3 class="fw-bold mb-4">Why Trade Metals with us</h3>
                 
@@ -314,7 +314,7 @@ include_once ('elements/header.php');
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around px-3 mb-3">
+                    <div class="d-md-flex justify-content-around px-3 mb-3">
                         <button class="btn btn-buy">Buy</button>
                         <button class="btn btn-sell">Sell</button>
                     </div>
@@ -324,7 +324,7 @@ include_once ('elements/header.php');
 
         <!-- Repeat for other stocks -->
         <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
-            <div class="position-relative">
+            <div class="position-relative mt-5 mt-md-0">
                 <img src="assets/images/metal-silver.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
@@ -356,7 +356,7 @@ include_once ('elements/header.php');
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around px-3 mb-3">
+                    <div class="d-md-flex justify-content-around px-3 mb-3">
                         <button class="btn btn-buy">Buy</button>
                         <button class="btn btn-sell">Sell</button>
                     </div>
@@ -366,7 +366,7 @@ include_once ('elements/header.php');
 
         <!-- Card -->
         <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
-            <div class="position-relative">
+            <div class="position-relative mt-5 mt-md-0">
                 <img src="assets/images/metal-platinum.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
@@ -398,7 +398,7 @@ include_once ('elements/header.php');
                         <small>Leverage</small> 
                         <div class="fw-bold">Up to 1:500</div>
                     </div>
-                    <div class="d-flex justify-content-around px-3 mb-3">
+                    <div class="d-md-flex justify-content-around px-3 mb-3">
                         <button class="btn btn-buy">Buy</button>
                         <button class="btn btn-sell">Sell</button>
                     </div>

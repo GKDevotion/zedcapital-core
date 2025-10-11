@@ -108,7 +108,7 @@ include_once ('elements/header.php');
 
             <!-- Right Column with Red Background & Angled Shape -->
             <div class="col-lg-7 position-relative text-white px-4 py-4 our-commitment-text-bg" data-aos="fade-up" data-aos-duration="850">
-                <ul class="mb-0 ps-5 mx-5 w-75" style="list-style-type: none;">
+                <ul class="mb-0 ps-5 mx-4 w-75" style="list-style-type: none;">
                     <li class="">
                         <b>Zed Capital International Ltd</b>, investors gain access to a broad spectrum of equities that represent innovation, resilience, and global economic growth. 
                     </li>
@@ -138,11 +138,11 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="850">
-            <img src="assets/images/stock-benefit.png" class="w-100 ps-5" alt="Regulatory Assurance">
+            <img src="assets/images/stock-benefit.png" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
-        <div class="col-lg-6 col-sm-12 px-5 pe-5" data-aos="fade-up" data-aos-duration="850">
+        <div class="col-lg-6 col-sm-12 px-1 px-md-5 pe-1 pe-md-5 mt-4 mt-md-0" data-aos="fade-up" data-aos-duration="850">
             <div class="info-section">
                 <h3 class="fw-bold mb-4">Why Choose Stock CFDs with Zed Capital?</h3>
                 
@@ -254,7 +254,7 @@ include_once ('elements/header.php');
             Why Trade CFDs on Stock?
         </h2>
         <div class="divider" data-aos="fade-up" data-aos-duration="850"></div>
-        <p class="text-muted w-75 p-2 m-auto" data-aos="fade-up" data-aos-duration="850">
+        <p class="text-muted w-75 p-0 p-md-2 m-auto" data-aos="fade-up" data-aos-duration="850">
             One of the most significant advantages of trading CFDs on shares is that you can gain full exposure to
             stock price movements with a small initial deposit.
         </p>
@@ -812,7 +812,7 @@ include_once ('elements/explore-more-about.php');
                     At <b>Zed Capital International Ltd</b>, we provide risk management tools including stop-loss and take-profit orders, ensuring that clients can trade safely and with confidence.
                 </div>
                 <p class="info-note" data-aos="fade-up" data-aos-duration="850">
-                    <ul class="arrow-list mb-0 ps-5">
+                    <ul class="arrow-list mb-0 ps-0 ps-md-5">
                         <li class="mb-1 px-4" data-aos="fade-up" data-aos-duration="800">
                             <b>Leverage Amplifies Risk:</b> While leverage enhances exposure, it also increases potential losses.
                         </li>
