@@ -287,6 +287,10 @@
     .stock-apple-icon{
         margin: -200px -60px !important;
     }
+
+    li.nav-item, .demo-account-btn, .live-account-btn, .menu li a{
+        font-size: 0.8rem !important;
+    }
 }
 
 /* 1700px - 1999px - Large Screens */
