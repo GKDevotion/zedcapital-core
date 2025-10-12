@@ -349,11 +349,11 @@
                     <a class="d-none" href="#">Anti-Fraud Notice</a> |
                     <a class="d-none" href="#">Customer Identification Program Notice</a> |
                     <a class="d-none" href="#">Customer Relationship Summary</a> | -->
-                    <a href="assets/pdf/Terms-condition-ZedCapital.pdf" download>Terms & Condition</a> |
-                    <a href="assets/pdf/Privacy-Policy-ZedCapital.pdf" download>Privacy Policy</a> |
-                    <a href="assets/pdf/Cookies-Policy-ZedCapital.pdf" download>Cookie Policy</a> |
-                    <a href="assets/pdf/Arbitrage-Policy-ZedCapital.pdf" download>Arbitrage Policy</a> |
-                    <a href="risk-disclosure">Risk Disclosure</a>
+                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Terms-condition-ZedCapital.pdf" download>Terms & Condition</a> |
+                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Privacy-Policy-ZedCapital.pdf" download>Privacy Policy</a> |
+                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Cookies-Policy-ZedCapital.pdf" download>Cookie Policy</a> |
+                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Arbitrage-Policy-ZedCapital.pdf" download>Arbitrage Policy</a> |
+                    <a href="<?php echo getBaseUrl(); ?>/risk-disclosure">Risk Disclosure</a>
                 </div>
             </div>
         </footer>
@@ -373,7 +373,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
         <!-- Custom JS -->
-        <script src="assets/js/zcapital.js?v=<?php echo $version; ?>"></script>
+        <script src="<?php echo getBaseUrl(); ?>/assets/js/zcapital.js?v=<?php echo $version; ?>"></script>
 
         <script>
             const backToTop = document.getElementById("backToTop");
@@ -504,7 +504,7 @@
                 const open = market.open,
                     close = market.close;
 
-                if( ( now.getDay() == 6 || now.getDay() == 7 ) && market.flag == "IN" ){
+                if( ( now.getDay() == 6 || now.getDay() == 0 ) && market.flag == "IN" ){
                     return false;
                 } else {
                     return ( utcHour >= open && utcHour < close ) || ( close < open && ( utcHour >= open || utcHour < close ) );

@@ -1,14 +1,18 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
     <div class="container-fluid">
-        <a class="navbar-brand m-0" href="index">
-            <img src="assets/images/logo.png" />
+        <a class="navbar-brand m-0" href="<?php echo getBaseUrl(); ?>">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/logo.png" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu">
-                <li class="nav-item"><a class="nav-link" href="why-zedcapital">Why Zed Capital</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getBaseUrl(); ?>/why-zedcapital">
+                        Why Zed Capital
+                    </a>
+                </li>
 
                 <!-- Financial Market Dropdown -->
                 <li class="nav-item dropdown">
@@ -17,31 +21,31 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="financialDropdown">
                         <li>
-                            <a class="dropdown-item" href="american-market">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/american-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png">
                                 American Market
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="european-market">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/european-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.png">
                                 European Market
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="middle-eastern-market">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/middle-eastern-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.png">
                                 Middle Eastern Market
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="asian-market">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/asian-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Asian Market
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item d-none" href="trading-view-market">
+                            <a class="dropdown-item d-none" href="<?php echo getBaseUrl(); ?>/trading-view-market">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Trading View Market
                             </a>
@@ -54,37 +58,37 @@
                     <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                     <ul class="dropdown-menu" aria-labelledby="productDropdown">
                         <li>
-                            <a class="dropdown-item" href="stock">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/stock">
                                 <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png">
                                 Stocks
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="forex">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/forex">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Forex
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="indices">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/indices">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.png">
                                 Indices
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="metal">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/metal">
                                 <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.png">
                                 Metals
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="commodities">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/commodities">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Commodities
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="crypto">
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/crypto">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Crypto
                             </a>
@@ -99,7 +103,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="platformDropdown">
                         <li class="nav-item">
-                            <a class="nav-link" href="platform">
+                            <a class="nav-link" href="<?php echo getBaseUrl(); ?>/platform">
                                 Overview
                             </a>
                         </li>
@@ -131,8 +135,16 @@
                     </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="tools-resources">Tools & Resources</a></li>
-                <li class="nav-item"><a class="nav-link" href="zed-academy">Zed Academy</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getBaseUrl(); ?>/tools-resources">
+                        Tools & Resources
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getBaseUrl(); ?>/zed-academy">
+                        Zed Academy
+                    </a>
+                </li>
 
                 <!-- Our Company Dropdown -->
                 <li class="nav-item dropdown">
@@ -141,17 +153,17 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="ourCompanyDropdown">
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us">
+                            <a class="nav-link" href="<?php echo getBaseUrl(); ?>/about-us">
                                 About Us
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us">
+                            <a class="nav-link" href="<?php echo getBaseUrl(); ?>/contact-us">
                                 Contact Us
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="faqs">
+                            <a class="nav-link" href="<?php echo getBaseUrl(); ?>/faqs">
                                 FAQ's
                             </a>
                         </li>

@@ -5,7 +5,7 @@ include_once ('elements/header.php');
 <style>
     .stock-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('assets/images/background/product-stock-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-stock-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -27,7 +27,7 @@ include_once ('elements/header.php');
     }
 
     .our-commitment-bg{
-        background-image: url('assets/images/dotted-bg.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.png');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;

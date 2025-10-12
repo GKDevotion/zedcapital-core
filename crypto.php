@@ -6,7 +6,7 @@ include_once ('elements/header.php');
 <style>
     .crypto-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('assets/images/background/product-crypto-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-crypto-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -198,7 +198,7 @@ include_once ('elements/header.php');
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="network-container">
-                <img src="assets/images/crypto-benefit.jpg" class="w-100 ps-0 ps-md-0" alt="Regulatory Assurance">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/crypto-benefit.jpg" class="w-100 ps-0 ps-md-0" alt="Regulatory Assurance">
             </div>
         </div>
         
@@ -242,7 +242,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
+        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
     </div>
 
 </div>
@@ -551,7 +551,7 @@ include_once ('elements/header.php');
     .crypto-currency {
         color: white;
         position: relative;
-        /* background-image: url('assets/images/background/crypto-currency-trading-background.png'); */
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/crypto-currency-trading-background.png'); */
         background-color: var(--zed-primary);
         background-size: cover;
         background-position: center;
@@ -612,7 +612,7 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
             <div class="col-lg-5 col-md-12">
-                <img src="assets/images/Cryptocurrencies-You-Can-Trade.png" alt="" class="w-100">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/Cryptocurrencies-You-Can-Trade.png" alt="" class="w-100">
             </div>
         </div>
     </div>
@@ -654,7 +654,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/Diversified-Access.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Diversified-Access.svg">
                         </div>
                         <div>
                         <h5 class="fw-bold mb-1">Diversified Access</h5>
@@ -670,7 +670,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/growth.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/growth.svg">
                         </div>
                         <div>
                         <h5 class="fw-bold mb-1">Innovation and Growth</h5>
@@ -686,7 +686,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/clock.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/clock.svg">
                         </div>
                         <div>
                         <h5 class="fw-bold mb-1">Around the Clock Access</h5>
@@ -702,7 +702,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/Advaced-Tools.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Advaced-Tools.svg">
                         </div>
                         <div>
                         <h5 class="fw-bold mb-1">Advanced Tools</h5>
@@ -722,35 +722,35 @@ $featureIconTitle = "Global Crypto Markets: Key Advantages";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/flat-icon/Trade-24-7without-market-closures.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Trade-24-7without-market-closures.png',
         'title' => 'Trade 24/7 without market closures'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Volatile-active-markets.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Volatile-active-markets.png',
         'title' => 'High volatility for profit potential'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Low-entry-cost-for-all-traders.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Low-entry-cost-for-all-traders.png',
         'title' => 'Low entry cost for all traders'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Built-in-diversification.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Built-in-diversification.png',
         'title' => 'Diversify beyond traditional assets'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Wide-global-choices.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Wide-global-choices.png',
         'title' => 'Wide range of coins and tokens'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Fast-blockchain-settlements.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Fast-blockchain-settlements.png',
         'title' => 'Fast blockchain settlements'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Transparent-pricing.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Transparent-pricing.png',
         'title' => 'Transparent and decentralized markets'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Growing-global-adoption-and-demand.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Growing-global-adoption-and-demand.png',
         'title' => 'Growing global adoption and demand'
     ],
 ];
@@ -836,7 +836,7 @@ include_once ('elements/explore-more-about.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

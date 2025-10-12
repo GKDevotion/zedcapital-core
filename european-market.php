@@ -52,7 +52,13 @@ include_once ('elements/header.php');
 
         <!-- Custom Buttons -->
         <div id="custom-tabs">
-            <div class="row">
+            <div class="d-none d-md-block">
+                <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=CAC40-1D">CAC40</button>
+                <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=UK100">UK100</button>
+                <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=EUREX:FESX1!">FESX1!</button>
+                <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=IG-DAX">DAX</button>
+            </div>
+            <div class="row d-md-none">
                 <div class="col text-center m-1">
                     <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=CAC40">CAC40</button>
                 </div>
@@ -166,7 +172,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">DAX</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -181,7 +187,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">CAC40</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-1.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-1.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -196,7 +202,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">UK100</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-2.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -211,7 +217,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">FESX1</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-1.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-1.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -233,12 +239,12 @@ include_once ('elements/header.php');
 <style>
 
     .lse-bg-market-image{
-        background-image: url('assets/images/markets/london-stock-exchange.jpg');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/markets/london-stock-exchange.jpg');
         background-size: cover;
     }
 
     .euronext-bg-market-image{
-        background-image: url('assets/images/markets/euronext.jpg');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/markets/euronext.jpg');
         background-size: cover;
     }
     .card-custom {
@@ -512,7 +518,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-shop d-none"></i>
-                        <img src="assets/images/flat-icon/Fragmentation.png" alt="Fragmentation">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Fragmentation.png" alt="Fragmentation">
                     </div>
                     <h5 class="fw-bold text-center">Fragmentation</h5>
                     <p class="small-muted mb-0 text-center">
@@ -524,7 +530,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-regex d-none"></i>
-                        <img src="assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
                     </div>
                     <h5 class="fw-bold text-center">Geopolitical Factors</h5>
                     <p class="small-muted mb-0 text-center">
@@ -536,7 +542,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-globe d-none"></i>
-                        <img src="assets/images/flat-icon/Monetary-Policy.png" alt="Monetary Policy Shift">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Monetary-Policy.png" alt="Monetary Policy Shift">
                     </div>
                     <h5 class="fw-bold text-center">Monetary Policy Shifts</h5>
                     <p class="small-muted mb-0 text-center">
@@ -548,7 +554,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-arrow-repeat d-none"></i>
-                        <img src="assets/images/flat-icon/Economic-cycle.png" alt="Economic cycle">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Economic-cycle.png" alt="Economic cycle">
                     </div>
                     <h5 class="fw-bold text-center">Economic Cycles</h5>
                     <p class="small-muted mb-0 text-center">

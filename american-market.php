@@ -58,7 +58,13 @@ include_once ('elements/header.php');
 
         <!-- Custom Buttons -->
         <div id="custom-tabs">
-            <div class="row">
+            <div class="d-none d-md-block">
+                <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=DJI">US30</button>
+                <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=US500">US500</button>
+                <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=SPX">SP500</button>
+                <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=NDX">NDAQ</button>
+            </div>
+            <div class="d-md-none row">
                 <div class="col text-center m-1">
                     <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=DJI">US30</button>
                 </div>
@@ -171,7 +177,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">US30</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -186,7 +192,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">US500</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-1.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-1.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -201,7 +207,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">SP500</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-2.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -216,7 +222,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">NASDAQ</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-1.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-1.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -356,12 +362,12 @@ include_once ('elements/header.php');
     }
 
     .nyse-bg-market-image {
-        background-image: url(assets/images/markets/new-york.jpg);
+        background-image: url(<?php echo getBaseUrl(); ?>/assets/images/markets/new-york.jpg);
         background-size: cover;
     }
 
     .naqdaq-bg-market-image {
-        background-image: url(assets/images/markets/nasdaq.jpg);
+        background-image: url(<?php echo getBaseUrl(); ?>/assets/images/markets/nasdaq.jpg);
         background-size: cover;
     }
     @media (max-width: 767px) {
@@ -609,7 +615,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature mb-3">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-shop d-none"></i>
-                        <img src="assets/images/flat-icon/Market-Volatility.png" alt="Market Volatility">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Market-Volatility.png" alt="Market Volatility">
                     </div>
                     <h5 class="fw-bold text-center">Market Volatility</h5>
                     <p class="small-muted text-center mb-0">Driven by monetary policy, inflation, earnings cycles, and geopolitics prepare for drawdowns and use diversification and hedges.</p>
@@ -619,7 +625,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature mb-3">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-regex d-none"></i>
-                        <img src="assets/images/flat-icon/Regulatory-Complexity.png" alt="Regulatory Complexity">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Regulatory-Complexity.png" alt="Regulatory Complexity">
                     </div>
                     <h5 class="fw-bold text-center">Regulatory Complexity</h5>
                     <p class="small-muted text-center mb-0">U.S. markets operate under a robust and evolving compliance framework; tax, disclosure and cross-border rules may affect strategies.</p>
@@ -629,7 +635,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-globe d-none"></i>
-                        <img src="assets/images/flat-icon/Global-Shocks.png" alt="Global Shocks">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Global-Shocks.png" alt="Global Shocks">
                     </div>
                     <h5 class="fw-bold text-center">Global Shocks</h5>
                     <p class="small-muted text-center mb-0">Trade conflicts, energy crises, or financial contagion can quickly affect valuations, scenario based planning is essential.</p>

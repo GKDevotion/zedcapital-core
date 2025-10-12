@@ -6,7 +6,7 @@ include_once ('elements/header.php');
 <style>
     .forex-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('assets/images/background/product-forex-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-forex-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -67,7 +67,7 @@ include_once ('elements/header.php');
         <div class="row align-items-center">
         
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-50 top-0 float-y" style="width: 80px; height: 50px;margin: 0 -200px;">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-50 top-0 float-y" style="width: 80px; height: 50px;margin: 0 -200px;">
             </div>
 
             <!-- Text Column -->
@@ -103,7 +103,7 @@ include_once ('elements/header.php');
                 </li>
             </ul>
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 100px; height: 80px;margin: 15px -50px">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 100px; height: 80px;margin: 15px -50px">
             </div>
         </div>
     </div>
@@ -151,7 +151,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
-            <img src="assets/images/forex-benefit.png" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/forex-benefit.png" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
@@ -194,7 +194,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
+        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
     </div>
 </div>
 
@@ -565,7 +565,7 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
             <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/Currency-Pairs-at-Your-Fingertips.png" class="w-100" alt="Regulatory Assurance">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/Currency-Pairs-at-Your-Fingertips.png" class="w-100" alt="Regulatory Assurance">
             </div>
         </div>
     </div>
@@ -607,7 +607,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/Diversified-Access.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Diversified-Access.svg">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Diversified Access</h5>
@@ -623,7 +623,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/Advaced-Tools.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Advaced-Tools.svg">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Advanced Tools</h5>
@@ -639,7 +639,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/Efficiency.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Efficiency.svg">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Efficiency</h5>
@@ -655,7 +655,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/reliability.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/reliability.svg">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Reliable Execution</h5>
@@ -675,35 +675,35 @@ $featureIconTitle = "Professional Trading Solutions for Global Currencies";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/flat-icon/Liquidity.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Liquidity.png',
         'title' => 'High liquidity'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Low-entry-capital.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Low-entry-capital.png',
         'title' => 'Low entry capital'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Profit-both-ways.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Profit-both-ways.png',
         'title' => 'Profit both ways'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Currency-Volatility.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Currency-Volatility.png',
         'title' => 'Wide currency pairs'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Tight-spreads.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Tight-spreads.png',
         'title' => 'Tight spreads'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Hedging-options.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Hedging-options.png',
         'title' => 'Hedging options'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Flexible-lot-sizes.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Flexible-lot-sizes.png',
         'title' => 'Flexible lot sizes'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Mobile-algo-trading.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Mobile-algo-trading.png',
         'title' => 'Mobile & algo trading'
     ],
 ];
@@ -818,7 +818,7 @@ include_once ('elements/explore-more-about.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

@@ -5,7 +5,7 @@ include_once ('elements/header.php');
 <style>
     .zed-acedamy-header{
         background-color: var(--zed-primary);
-        background-image: url('assets/images/background/zed-academy-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/zed-academy-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -44,10 +44,10 @@ include_once ('elements/header.php');
 
             <!-- Video Column -->
             <div class="col-md-6 text-center position-relative d-none d-lg-block" data-aos="fade-up" data-aos-delay="800">
-                <img src="assets/images/sharpen-your-trading.png" alt="Zed Capital Video" class="d-none img-fluid w-100"  data-aos="fade-up" data-aos-delay="800"/>
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/sharpen-your-trading.png" alt="Zed Capital Video" class="d-none img-fluid w-100"  data-aos="fade-up" data-aos-delay="800"/>
                 <a href="#" class="position-absolute top-50 start-0 translate-middle" data-aos="fade-up" data-aos-delay="800">
                 <div class="p-0" data-aos="fade-up" data-aos-delay="800">
-                    <img src="assets/images/play-icon.png" alt="Zed Capital Video" class="img-fluid w-25" />
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/play-icon.png" alt="Zed Capital Video" class="img-fluid w-25" />
                 </div>
                 </a>
             </div>
@@ -74,7 +74,7 @@ include_once ('elements/header.php');
     
     .knowledge-trading{
         padding: 120px 0; /* Adjust padding as needed */
-        /* background-image: url('assets/images/background/earn-certificate.png');
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/earn-certificate.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; */
@@ -114,7 +114,7 @@ include_once ('elements/header.php');
 <div class="container position-relative text-end knowledge-tradinng-icon">
     <div class="row">
         <div class="position-absolute set-diamond-image" data-aos="fade-up" data-aos-delay="100" style="z-index: -1;">
-            <img src="assets/images/knowledge-tradinng.png" alt="Android" class=""/>
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/knowledge-tradinng.png" alt="Android" class=""/>
         </div>
     </div>
 </div>
@@ -189,7 +189,7 @@ include_once ('elements/header.php');
 
             <!-- Right Side Image -->
             <div class="col-lg-7 col-md-12 image-section" data-aos="fade-up" data-aos-delay="800">
-                <img src="assets/images/zed-academy-beginner.png" alt="Committed to success">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/zed-academy-beginner.png" alt="Committed to success">
             </div>
         </div>
     </div>
@@ -232,7 +232,7 @@ include_once ('elements/header.php');
     <div class="row align-items-center">
       <!-- Text Section -->
         <div class="col-lg-7 mb-0 mb-md-4 mb-lg-0 p-0">
-            <img src="assets/images/bit-size-lesson.png" alt="Beginner Trading Course" class="lesson-image">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/bit-size-lesson.png" alt="Beginner Trading Course" class="lesson-image">
         </div>
 
       <!-- Image Section -->
@@ -307,7 +307,7 @@ include_once ('elements/header.php');
                             <h5>Global Market Hotspot Analysis</h5>
                         </div>
                         <div class="col-md-5 text-center" data-aos="fade-up" data-aos-delay="400">
-                            <img src="assets/images/global-market-analys.png" alt="Global Market" class="set-diamond-image">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/global-market-analys.png" alt="Global Market" class="set-diamond-image">
                         </div>
                     </div>
                     <div class="divider" data-aos="fade-up" data-aos-delay="400"></div>
@@ -321,7 +321,7 @@ include_once ('elements/header.php');
                             <h5>Top Trading Strategy Tips</h5>
                         </div>
                         <div class="col-md-5 text-center" data-aos="fade-up" data-aos-delay="600">
-                            <img src="assets/images/top-trading-tips.png" alt="Trading Tips" class="set-diamond-image">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/top-trading-tips.png" alt="Trading Tips" class="set-diamond-image">
                         </div>
                     </div>
                     <div class="divider" data-aos="fade-up" data-aos-delay="600"></div>
@@ -335,7 +335,7 @@ include_once ('elements/header.php');
                             <h5>In-depth Case Study Analysis</h5>
                         </div>
                         <div class="col-md-5 text-center" data-aos="fade-up" data-aos-delay="800">
-                            <img src="assets/images/depth-case-analysis.png" alt="Case Study" class="set-diamond-image">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/depth-case-analysis.png" alt="Case Study" class="set-diamond-image">
                         </div>
                     </div>
                     <div class="divider" data-aos="fade-up" data-aos-delay="800"></div>
@@ -360,7 +360,7 @@ include_once ('elements/header.php');
     #professional_getway{
         padding: 50px 0; /* Adjust padding as needed */
         background-color: #fff;
-        /* background-image: url('assets/images/background/your-gateway-professional-trading.png');
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/your-gateway-professional-trading.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; */
@@ -384,7 +384,7 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="position-absolute w-100 text-end set-diamond-image">
-                <img src="assets/images/background/redgreen-trading-candles-white-studio.png" alt="Candle Studio" style="width: 25%; margin-top: -200px;">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/background/redgreen-trading-candles-white-studio.png" alt="Candle Studio" style="width: 25%; margin-top: -200px;">
             </div>
             <!-- Left Column -->
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -413,7 +413,7 @@ include_once ('elements/header.php');
                                 Our courses are designed and taught by top financial traders, analysts, and market strategists with years of professional experience in the financial markets.
                             </p>
                         </div>
-                        <img src="assets/images/expert-led-education.png" alt="Expert Icon" class="w-25 set-diamond-image">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/expert-led-education.png" alt="Expert Icon" class="w-25 set-diamond-image">
                     </div>
 
                     <!-- Card 2 -->
@@ -424,7 +424,7 @@ include_once ('elements/header.php');
                                 All courses are 100% online and mobile-friendly, allowing you to learn anytime, anywhere, on any device. Our platform is optimized for a seamless experience.
                             </p>
                         </div>
-                        <img src="assets/images/learn-at-your-own-pace.png" alt="Chart Icon" class="w-25 set-diamond-image">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/learn-at-your-own-pace.png" alt="Chart Icon" class="w-25 set-diamond-image">
                     </div>
 
                     <!-- Card 3 -->
@@ -435,7 +435,7 @@ include_once ('elements/header.php');
                                 Boost your trading credibility with a Zed Academy Certificate of Completion. Our certification validates your knowledge and skills, making it a valuable addition to your career enhancement.
                             </p>
                         </div>
-                        <img src="assets/images/certification.png" alt="Certificate Icon" class="w-25 set-diamond-image">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/certification.png" alt="Certificate Icon" class="w-25 set-diamond-image">
                     </div>
 
                 </div>
@@ -447,7 +447,7 @@ include_once ('elements/header.php');
 <style>
     .get-started {
         padding: 120px 0;
-        background-image: url('assets/images/background/zed-acadamy-get-started.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/zed-acadamy-get-started.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -501,7 +501,7 @@ include_once ('elements/header.php');
         </div>
 
         <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-delay="800">
-            <img src="assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: 50px 75px;">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: 50px 75px;">
         </div>
     </div>
 </section>
@@ -618,7 +618,7 @@ if( false ){
 
 </div>
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="850">
-    <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 80px; height: 50px; margin: -30px 200px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 80px; height: 50px; margin: -30px 200px;">
 </div>
 
 <?php

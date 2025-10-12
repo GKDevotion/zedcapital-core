@@ -467,7 +467,7 @@ if (false) {
         /* Vertical center */
         justify-content: center;
         /* Horizontal center */
-        background-image: url('assets/images/background/meta-trader-5-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/meta-trader-5-background.png');
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -1155,7 +1155,7 @@ if (false) {
         /* Vertical center */
         justify-content: center;
         /* Horizontal center */
-        background-image: url('assets/images/background/biginners-trader-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/biginners-trader-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1422,7 +1422,7 @@ if (false) {
         justify-content: center;
         /* Horizontal center */
         /* background-color: var(--zed-backgound-color); */
-        background-image: url('assets/images/background/how-to-start.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/how-to-start.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1486,7 +1486,7 @@ if (false) {
     .arrow-top-round {
         width: 28%;
         height: 30px;
-        background: url('assets/images/step-top-connector.png') no-repeat center;
+        background: url('<?php echo getBaseUrl(); ?>/assets/images/step-top-connector.png') no-repeat center;
         background-size: contain;
         padding: 0 0 100px;
         margin: -10px 0px 160px -15px;
@@ -1495,7 +1495,7 @@ if (false) {
     .arrow-bottom-round {
         width: 28%;
         height: 30px;
-        background: url('assets/images/step-bottom-connector.png') no-repeat center;
+        background: url('<?php echo getBaseUrl(); ?>/assets/images/step-bottom-connector.png') no-repeat center;
         background-size: contain;
         padding: 0 0 100px;
         margin: -25px;
@@ -1766,7 +1766,7 @@ if (false) {
         justify-content: center;
         /* Horizontal center */
         overflow: hidden;
-        /* background-image: url('assets/images/background/stock-chart-showing-upward-trend-growth-reverse.png');
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-chart-showing-upward-trend-growth-reverse.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat; */

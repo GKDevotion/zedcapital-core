@@ -6,7 +6,7 @@ include_once ('elements/header');
 
     .about-us-header{
         padding: 120px 0 10px 0; /* Adjust padding as needed */
-        background-image: url('assets/images/background/your-gateway-professional-trading.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/your-gateway-professional-trading.png');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -163,7 +163,7 @@ include_once ('elements/header');
 
 <style>
     .our-commitment-bg{
-        background-image: url('assets/images/dotted-bg.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.png');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -200,7 +200,7 @@ include_once ('elements/header');
 
 <style>
     .key-feature-service{
-        background-image: url('assets/images/background/key-feature-service.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/key-feature-service.png');
         background-size: cover;
         background-position: center;
         background-repeat: round;

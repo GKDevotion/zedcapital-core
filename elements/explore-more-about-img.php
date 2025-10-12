@@ -58,7 +58,7 @@
             <!-- Card 1 -->
             <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="850">
                 <div class="card">
-                    <img src="assets/images/explore-1.jpg" class="card-img-top" alt="CFDs vs Stocks">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/explore-1.jpg" class="card-img-top" alt="CFDs vs Stocks">
                     <div class="card-body">
                         <div class="card-title">CFDs vs Stocks: Which Trading Instrument is Right for You?</div>
 
@@ -90,7 +90,7 @@
             <!-- Card 2 -->
             <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="850">
                 <div class="card">
-                    <img src="assets/images/explore-2.jpg" class="card-img-top" alt="Top 10 Blue-Chip Stocks">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/explore-2.jpg" class="card-img-top" alt="Top 10 Blue-Chip Stocks">
                     <div class="card-body">
                         <div class="card-title">Top 10 Blue-Chip Stocks</div>
 
@@ -121,7 +121,7 @@
             <!-- Card 3 -->
             <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="850">
                 <div class="card">
-                    <img src="assets/images/explore-3.jpg" class="card-img-top" alt="Pre-Market and After-Hours Trading">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/explore-3.jpg" class="card-img-top" alt="Pre-Market and After-Hours Trading">
                     <div class="card-body">
                         <div class="card-title">How to Take Advantage of Pre-Market and After-Hours Trading</div>
 

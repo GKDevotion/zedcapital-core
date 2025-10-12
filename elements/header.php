@@ -1,5 +1,6 @@
 <?php
     $version = 0.0613;
+    include_once ('helper/custom.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,10 +8,44 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Zed Capital</title>
+        
+        <title>Best Forex Trading Platform | Top Online Forex (FX) Broker | Trusted Currency Trading - Zed Capital</title>
+        <base href="<?php echo getBaseUrl(); ?>">
+        <meta name="description" content="Best Forex Trading Platform. Trusted Online FX Broker for Currency Trading. Access top tools, low spreads, and secure trading. Start your Forex journey now!">
+        <meta name="googlebot" content="index">
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+        <meta name="author" content="">
+        <meta name="copyright" content="Copyright (c) 2025">
+        <meta name="generator" content="ZedCapital">
+
+        <meta name="google-site-verification" content="" />
+
+        <!--=============== favicons ===============-->
+        <link rel="shortcut icon" href="assets/images/40X40.png">
+
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Best Forex Trading Platform | Top Online Forex (FX) Broker | Trusted Currency Trading - Zed Capital">
+        <meta property="og:description" content="Best Forex Trading Platform. Trusted Online FX Broker for Currency Trading. Access top tools, low spreads, and secure trading. Start your Forex journey now!">
+        <meta property="og:url" content="<?php echo getCurrentUrl(); ?>">
+        <meta property="og:site_name" content="ZedCapital">
+        <meta property="og:image" content="<?php echo getCurrentUrl(); ?>/assets/images/logo.png">
+
+        <meta property="article:publisher" content="https://www.facebook.com">
+        <meta property="article:modified_time" content="26-01-2025">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@ZedCapital">
+        <meta name="twitter:label1" content="Est. reading time">
+        <meta name="twitter:data1" content="5 minutes">
+        <meta name="twitter:title" content="Best Forex Trading Platform | Top Online Forex (FX) Broker | Trusted Currency Trading - Zed Capital" />
+        <meta name="twitter:description" content="Best Forex Trading Platform. Trusted Online FX Broker for Currency Trading. Access top tools, low spreads, and secure trading. Start your Forex journey now!" />
+        <meta name="twitter:image" content="<?php echo getCurrentUrl(); ?>/assets/images/logo.png" />
+
+        <link rel="canonical" href="<?php echo getCurrentUrl(); ?>">
 
         <!-- Bootstrap 5 CSS -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo getBaseUrl(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Google Font: Inter -->
         <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"> -->
@@ -20,9 +55,9 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        <link href="assets/css/style.css?v=<?php echo $version;?>" rel="stylesheet">
-        <link href="assets/css/responsive.css?v=<?php echo $version;?>" rel="stylesheet">
-        <link href="assets/css/keyframe.css?v=<?php echo $version;?>" rel="stylesheet">
+        <link href="<?php echo getBaseUrl(); ?>/assets/css/style.css?v=<?php echo $version;?>" rel="stylesheet">
+        <link href="<?php echo getBaseUrl(); ?>/assets/css/responsive.css?v=<?php echo $version;?>" rel="stylesheet">
+        <link href="<?php echo getBaseUrl(); ?>/assets/css/keyframe.css?v=<?php echo $version;?>" rel="stylesheet">
         
         <!-- OwlCarousel CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>

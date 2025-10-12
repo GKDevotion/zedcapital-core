@@ -6,7 +6,7 @@ include_once('elements/header.php');
     .platform-header {
         padding: 80px 0;
         /* Adjust padding as needed */
-        background-image: url('assets/images/background/stock-chart-showing-upward-trend-growth.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-chart-showing-upward-trend-growth.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -593,7 +593,7 @@ include_once ('elements/feature-trading-icons.php');
 
 <style>
     .mt-5-trading-background {
-        background-image: url('assets/images/background/mt-5-trading-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/mt-5-trading-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

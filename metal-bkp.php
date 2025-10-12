@@ -5,7 +5,7 @@ include_once ('elements/header');
 <style>
     .metal-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('assets/images/background/product-metal-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-metal-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

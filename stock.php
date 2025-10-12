@@ -6,7 +6,7 @@ include_once ('elements/header.php');
 <style>
     .stock-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('assets/images/background/product-stock-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-stock-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -29,7 +29,7 @@ include_once ('elements/header.php');
     }
 
     .our-commitment-bg{
-        background-image: url('assets/images/dotted-bg.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.png');
         background-size: contain;
         background-position: center;
         position: relative;
@@ -97,7 +97,7 @@ include_once ('elements/header.php');
             <!-- Left Column -->
             <div class="col-lg-5 py-3" data-aos="fade-up" data-aos-duration="850">
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/diamonds/stock-2-diamonds.png" alt="Corner Image" class="position-absolute top-0 end-0 float-y" style="width: 80px;height: 65px;margin: -65px 30px;">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/stock-2-diamonds.png" alt="Corner Image" class="position-absolute top-0 end-0 float-y" style="width: 80px;height: 65px;margin: -65px 30px;">
                 </div>
                 <div class="container">
                     <div class="row px-5">
@@ -116,7 +116,7 @@ include_once ('elements/header.php');
             </div>
 
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="850">
-                <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 100px; height: 60px;margin: -35px 45px;">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 100px; height: 60px;margin: -35px 45px;">
             </div>
         </div>
     </div>
@@ -138,7 +138,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="850">
-            <img src="assets/images/stock-benefit.png" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-benefit.png" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
@@ -186,7 +186,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="850">
-        <img src="assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px;height: 100px;margin: -85px 80px;">
+        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/forex-red-black-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px;height: 100px;margin: -85px 80px;">
     </div>
 </div>
 
@@ -499,7 +499,7 @@ include_once ('elements/header.php');
     .stock-section {
         padding: 80px 0;
         background-color: var(--zed-primary);
-        /* background-image: url('assets/images/background/stock-trading-background.png'); */
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-trading-background.png'); */
 
         color: white;
         background-size: contain;
@@ -597,14 +597,14 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
              <div class="col-lg-6 col-md-12 p-0 px-2">
-                <img src="assets/images/Global-Equities-at-Your-Fingertips.png" alt="" class="w-100">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/Global-Equities-at-Your-Fingertips.png" alt="" class="w-100">
             </div>
             <div class="col-lg-5 col-md-12 p-0 d-none">
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/stock-tesla-icon.png" alt="stock tesla icon" class="position-absolute bottom-0 end-0 float-y stock-tesla-icon">
-                    <img src="assets/images/stock-amazon-icon.png" alt="stock amazon icon" class="position-absolute bottom-0 end-0 float-y stock-amazon-icon">
-                    <img src="assets/images/stock-nikkie-icon.png" alt="stock nikkie icon" class="position-absolute bottom-0 end-0 float-y stock-nikkie-icon">
-                    <img src="assets/images/stock-apple-icon.png" alt="stock apple icon" class="position-absolute bottom-0 end-0 float-y stock-apple-icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-tesla-icon.png" alt="stock tesla icon" class="position-absolute bottom-0 end-0 float-y stock-tesla-icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-amazon-icon.png" alt="stock amazon icon" class="position-absolute bottom-0 end-0 float-y stock-amazon-icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-nikkie-icon.png" alt="stock nikkie icon" class="position-absolute bottom-0 end-0 float-y stock-nikkie-icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-apple-icon.png" alt="stock apple icon" class="position-absolute bottom-0 end-0 float-y stock-apple-icon">
                 </div>
             </div>
         </div>
@@ -647,7 +647,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/Diversification.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Diversification.svg">
                         </div>
                         <div>
                         <h5 class="fw-bold mb-1">Diversified Access</h5>
@@ -663,7 +663,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/Efficiency.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Efficiency.svg">
                         </div>
                         <div>
                         <h5 class="fw-bold mb-1">Efficiency</h5>
@@ -679,7 +679,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/professional-tools.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/professional-tools.svg">
                         </div>
                         <div>
                         <h5 class="fw-bold mb-1">Professional Tools</h5>
@@ -695,7 +695,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="assets/images/svg/liquidity.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/liquidity.svg">
                         </div>
                         <div>
                         <h5 class="fw-bold mb-1">Liquidity & Speed</h5>
@@ -715,35 +715,35 @@ $featureIconTitle = "Advanced Market Access to Global Equities";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/flat-icon/Access-global-stocks.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Access-global-stocks.png',
         'title' => 'Access global stocks'
     ],
     [
-        'icon' => 'assets/images/flat-icon/No-ownership-required.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/No-ownership-required.png',
         'title' => 'No ownership required'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Trade-both-directions.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Trade-both-directions.png',
         'title' => 'Trade both directions'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Low-capital-entry.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Low-capital-entry.png',
         'title' => 'Low capital entry'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Quick-execution.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Quick-execution.png',
         'title' => 'Quick execution'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Hedge-portfolios.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Hedge-portfolios.png',
         'title' => 'Hedge portfolios'
     ],
     [
-        'icon' => 'assets/images/flat-icon/No-custody-fees.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/No-custody-fees.png',
         'title' => 'No custody fees'
     ],
     [
-        'icon' => 'assets/images/flat-icon/Flexible-lot-sizes.png',
+        'icon' => getBaseUrl().'/assets/images/flat-icon/Flexible-lot-sizes.png',
         'title' => 'Flexible lot sizes'
     ],
 ];
@@ -834,7 +834,7 @@ include_once ('elements/explore-more-about.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="850">
-    <img src="assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

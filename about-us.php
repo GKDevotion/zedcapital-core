@@ -6,7 +6,7 @@ include_once ('elements/header.php');
 
     .about-us-section {
         padding: 100px 0 0 0; /* Adjust padding as needed */
-        background-image: url('assets/images/background/about-us-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -194,7 +194,7 @@ include_once ('elements/header.php');
             <!-- Mission -->
             <div class="col-md-6 hover-translateY">
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/about-mission.png" alt="Mission Image" class="position-absolute bottom-30 end-0 about-mission-img">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-mission.png" alt="Mission Image" class="position-absolute bottom-30 end-0 about-mission-img">
                 </div>
                 <div class="card">
                     <h2 class="h2 pb-5 mb-0">
@@ -214,7 +214,7 @@ include_once ('elements/header.php');
             <!-- Vision -->
              <div class="col-md-6 hover-translateY">
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/about-vision.png" alt="Vision Image" class="position-absolute bottom-30 end-0 about-vision-img">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-vision.png" alt="Vision Image" class="position-absolute bottom-30 end-0 about-vision-img">
                 </div>
                 <div class="card">
                     <h2 class="h2 pb-5 mb-0">
@@ -237,7 +237,7 @@ include_once ('elements/header.php');
 
 <style>
     .key-feature-service{
-        background-image: url('assets/images/background/key-feature-service.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/key-feature-service.png');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -351,7 +351,7 @@ include_once ('elements/header.php');
 <section class="key-feature-service">
     <div class="container p-5">
         <div class="position-relative set-diamond-image">
-            <img src="assets/images/diamonds/2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 100px; height: 70px;margin: -15px -80px; z-index: 1;">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/2-diamonds.png" alt="Corner Image" class="position-absolute top-0 start-0 float-y" style="width: 100px; height: 70px;margin: -15px -80px; z-index: 1;">
         </div>
         <div class="row">
             <h2 class="h2 text-center">Key Features and Services</h2>
@@ -514,7 +514,7 @@ include_once ('elements/header.php');
             <!-- Left Image -->
             <div class="col-md-7">
                 <div class="regulatory-left">
-                    <img src="assets/images/regulatory-assurance.png" alt="Regulatory Assurance">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/regulatory-assurance.png" alt="Regulatory Assurance">
                 </div>
             </div>
             <!-- Right Text -->
@@ -577,7 +577,7 @@ include_once ('elements/header.php');
                 <div class="position-relative">
                     <div class="row">
                         <div class="col-md-12 text-end position-absolute set-diamond-image">
-                            <img src="assets/images/stand-by-users.png" alt="Client Icon" class="" style="width: 200px; margin: -75px -45px 0 0;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/stand-by-users.png" alt="Client Icon" class="" style="width: 200px; margin: -75px -45px 0 0;">
                         </div>
                     </div>
                     <div class="card-background position-relative">
@@ -596,7 +596,7 @@ include_once ('elements/header.php');
                 <div class="position-relative">
                     <div class="row">
                         <div class="col-md-12 text-end position-absolute set-diamond-image">
-                            <img src="assets/images/register-note.png" alt="Client Icon" class="" style="width: 120px; margin: -75px -45px 0 0;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/register-note.png" alt="Client Icon" class="" style="width: 120px; margin: -75px -45px 0 0;">
                         </div>
                     </div>
                     <div class="card-background position-relative">
@@ -616,7 +616,7 @@ include_once ('elements/header.php');
 
 <style>
     .presence-section {
-        background: url('assets/images/background/about-us-globe-background.png') no-repeat center top / cover;
+        background: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-globe-background.png') no-repeat center top / cover;
         text-align: center;
         padding: 60px 20px;
         position: relative;
@@ -739,7 +739,7 @@ include_once ('elements/header.php');
                             The founding members of Zed Capital began as traders themselves.
                         </div>
                         <div class="position-relative set-diamond-image">
-                            <img src="assets/images/diamonds/about-us-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 start-0 float-y" style="width: 160px; height: 90px; margin: -65px -65px;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/about-us-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 start-0 float-y" style="width: 160px; height: 90px; margin: -65px -65px;">
                         </div>
                     </div>
                 </div>
@@ -841,9 +841,9 @@ include_once ('elements/header.php');
         <div class="row">
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="assets/images/about-us-stock.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-stock.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="stock" class="text-decoration-none">
+                        <a href="<?php echo getBaseUrl(); ?>/stock" class="text-decoration-none">
                             Stock
                         </a>
                     </div>
@@ -852,9 +852,9 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="assets/images/about-us-metal.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-metal.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="metal" class="text-decoration-none">
+                        <a href="<?php echo getBaseUrl(); ?>/metal" class="text-decoration-none">
                             Metal
                         </a>
                     </div>
@@ -863,9 +863,9 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="assets/images/about-us-indices.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-indices.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="indices" class="text-decoration-none">
+                        <a href="<?php echo getBaseUrl(); ?>/indices" class="text-decoration-none">
                             Indices
                         </a>
                     </div>
@@ -874,9 +874,9 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="assets/images/about-us-forex.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-forex.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="forex" class="text-decoration-none">
+                        <a href="<?php echo getBaseUrl(); ?>/forex" class="text-decoration-none">
                             Forex
                         </a>
                     </div>
@@ -885,9 +885,9 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="assets/images/about-us-commodities.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-commodities.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="commodities" class="text-decoration-none">
+                        <a href="<?php echo getBaseUrl(); ?>/commodities" class="text-decoration-none">
                             Commodities
                         </a>
                     </div>
@@ -896,9 +896,9 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="assets/images/about-us-crypto.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-crypto.png" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
-                        <a href="crypto" class="text-decoration-none">
+                        <a href="<?php echo getBaseUrl(); ?>/crypto" class="text-decoration-none">
                             Crypto
                         </a>
                     </div>
@@ -914,7 +914,7 @@ include_once ('elements/header.php');
   
     .value-section {
         position: relative;
-        background: url('assets/images/background/about-us-value-background.png') no-repeat center center/cover;
+        background: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-value-background.png') no-repeat center center/cover;
         height: 500px;
         display: flex;
         align-items: end;
@@ -980,7 +980,7 @@ include_once ('elements/header.php');
 </section>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="assets/images/diamonds/about-us-2-black-red-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 130px; height: 80px; margin: -55px 125px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/about-us-2-black-red-diamond.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 130px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

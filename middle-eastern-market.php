@@ -52,7 +52,10 @@ include_once ('elements/header.php');
 
         <!-- Custom Buttons -->
         <div id="custom-tabs">
-            <div class="row">
+            <div class="d-none d-md-block">
+                <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=EGX30">EGX30</button>
+            </div>
+            <div class="row d-md-none">
                 <div class="col text-center m-1">
                     <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=EGX30">EGX30</button>
                 </div>
@@ -158,7 +161,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">EGX30</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -174,12 +177,12 @@ include_once ('elements/header.php');
 <style>
 
     .se-bg-market-image{
-        background-image: url('assets/images/markets/soudi-exchange.jpg');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/markets/soudi-exchange.jpg');
         background-size: cover;
     }
 
     .dfm-bg-market-image{
-        background-image: url('assets/images/markets/dfm.jpg');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/markets/dfm.jpg');
         background-size: cover;
     }
 
@@ -464,7 +467,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-shop d-none"></i>
-                        <img src="assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Geopolitical-Factors.png" alt="Geopolitical Factors">
                     </div>
                     <h5 class="fw-bold text-center">Geopolitical Factors</h5>
                     <p class="small-muted mb-0 text-center">
@@ -476,7 +479,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-regex d-none"></i>
-                        <img src="assets/images/flat-icon/Oil-Price-Volatility.png" alt="Oil Price Volatility">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Oil-Price-Volatility.png" alt="Oil Price Volatility">
                     </div>
                     <h5 class="fw-bold text-center">Oil Price Volatility</h5>
                     <p class="small-muted mb-0 text-center">
@@ -488,7 +491,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-globe d-none"></i>
-                        <img src="assets/images/flat-icon/Regulatory-Complexity.png" alt="Regulatory Complexity">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Regulatory-Complexity.png" alt="Regulatory Complexity">
                     </div>
                     <h5 class="fw-bold text-center">Regulatory Variation</h5>
                     <p class="small-muted mb-0 text-center">
@@ -500,7 +503,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature opp-h-fix">
                     <div class="icon-circle text-center mb-4">
                         <i class="text-red bi bi-arrow-repeat d-none"></i>
-                        <img src="assets/images/flat-icon/Liquidity.png" alt="Liquidity">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/flat-icon/Liquidity.png" alt="Liquidity">
                     </div>
                     <h5 class="fw-bold text-center">Liquidity</h5>
                     <p class="small-muted mb-0 text-center">
