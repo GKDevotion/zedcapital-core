@@ -97,7 +97,7 @@ include_once('elements/header.php');
         <div class="row">
             <div class="col-md-3 col-lg-3 col-sm-12 px-4 py-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="img-div">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/regulated-stp-broker.gif" />
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/regulated-stp-broker.gif" alt="Regulated STP Broker" />
                 </div>
                 <h5 class="mt-1 fw-bold">
                     <p class="mb-0 pb-2">Regulated</p>
@@ -110,7 +110,7 @@ include_once('elements/header.php');
 
             <div class="col-md-3 col-lg-3 col-sm-12 px-4 py-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="img-div">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/nominee-fund-protection.gif" />
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/nominee-fund-protection.gif" alt="Nominee Fund Protection" />
                 </div>
                 <h5 class="mt-1 fw-bold">
                     <p class="mb-0 pb-2">Nominee</p>
@@ -123,7 +123,7 @@ include_once('elements/header.php');
 
             <div class="col-md-3 col-lg-3 col-sm-12 px-4 py-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="img-div">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/top-tier-liquidity-provider.gif" />
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/top-tier-liquidity-provider.gif" alt="Top Tier Liquidity Provider" />
                 </div>
                 <h5 class="mt-1 fw-bold">
                     <p class="mb-0 pb-2">Top Tier Liquidity</p>
@@ -136,7 +136,7 @@ include_once('elements/header.php');
 
             <div class="col-md-3 col-lg-3 col-sm-12 px-4 py-4" data-aos="fade-up" data-aos-duration="800">
                 <div class="img-div">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/24x7-support.gif" />
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/24x7-support.gif" alt="24X7 Support" />
                 </div>
                 <h5 class="mt-1 fw-bold">
                     <p class="mb-0 pb-2">24x7</p>
@@ -596,13 +596,13 @@ include_once('elements/header.php');
                 <p class="fs-5 text-gray m-0 mx-auto text-center">
                     Access MT5 across Windows, macOS, iOS, and Android with unified login.
                 </p>
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/meta-trader-5-logo.webp" class="fluid-img meta-trader-logo mt-5">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/meta-trader-5-logo.webp" class="fluid-img meta-trader-logo mt-5" alt="MetaTrader 5">
             </div>
         </div>
         <div class="row" id="bg_meta_trader_5" data-aos="fade-up" data-aos-duration="800">
             <div class="col-md-12 image-wrapper mt-5">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/broker-platform-desktop.webp" class="main-image" data-aos="fade-right" data-aos-duration="1500">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/broker-platform-mobile.webp" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/broker-platform-desktop.webp" class="main-image" data-aos="fade-right" data-aos-duration="1500" alt="Broker Platform Desktop">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/broker-platform-mobile.webp" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000" alt="Broker Platform Mobile">
                 <div class="desktop-view">
                     <!-- manage other Images -->
                     <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download IOS App">
@@ -1071,7 +1071,7 @@ include_once('elements/header.php');
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="600">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/copy-trading.webp" class="w-100">
+                                <img src="<?php echo getBaseUrl(); ?>/assets/images/copy-trading.webp" class="w-100" alt="Copy Trading">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="700">
                                 <h3 class="fw-bold">Copy Trading</h3>
@@ -1094,7 +1094,7 @@ include_once('elements/header.php');
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="1200">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/web-trade-icon.webp?v=0.01" class="w-100">
+                                <img src="<?php echo getBaseUrl(); ?>/assets/images/web-trade-icon.webp?v=0.01" class="w-100" alt="Web Trading">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1300">
                                 <h3 class="fw-bold">Web Trading</h3>
@@ -1117,7 +1117,7 @@ include_once('elements/header.php');
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="900">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/advance-crm.webp" class="w-100">
+                                <img src="<?php echo getBaseUrl(); ?>/assets/images/advance-crm.webp" class="w-100" alt="Advanced CRM">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1000">
                                 <h3 class="fw-bold">Advanced CRM</h3>
@@ -1305,7 +1305,7 @@ include_once('elements/header.php');
 
         <div class="row">
             <div class="col-md-7" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/professional-beginnings-trader.webp" class="w-100">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/professional-beginnings-trader.webp" class="w-100" alt="Professional Beginnings Trader">
             </div>
 
             <div class="col-md-5">

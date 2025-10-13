@@ -101,23 +101,23 @@
                             <div class="dropdown">
                                 <a class="dropdown-toggle" href="#" role="button" id="langDropdown" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/512/486/486505.png" />
+                                <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/512/486/486505.png" alt="Language" />
                                 EN
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="langDropdown">
                                 <li>
                                     <a class="dropdown-item" href="#">
-                                    <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/128/16002/16002788.png" /> English
+                                    <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/128/16002/16002788.png" alt="English" /> English
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="#">
-                                    <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/512/4060/4060248.png" /> Français
+                                    <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/512/4060/4060248.png" alt="Français" /> Français
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="#">
-                                    <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/128/10600/10600996.png" /> Deutsch
+                                    <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/128/10600/10600996.png" alt="Deutsch" /> Deutsch
                                     </a>
                                 </li>
                                 </ul>
@@ -125,7 +125,7 @@
 
                             <!-- Client Login -->
                             <a href="https://cabinet.zedcapital.mu/login" target="_blank" class="d-flex">
-                                <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/512/10009/10009068.png" />
+                                <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/512/10009/10009068.png" alt="Client" />
                                 Client
                             </a>
                         </div>

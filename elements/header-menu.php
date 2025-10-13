@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
     <div class="container-fluid">
         <a class="navbar-brand m-0" href="<?php echo getBaseUrl(); ?>">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/logo.webp" />
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/logo.webp" alt="Zed Capital" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -22,31 +22,31 @@
                     <ul class="dropdown-menu" aria-labelledby="financialDropdown">
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/american-market">
-                                <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png">
                                 American Market
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/european-market">
-                                <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.png">
                                 European Market
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/middle-eastern-market">
-                                <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.png">
                                 Middle Eastern Market
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/asian-market">
-                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Asian Market
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item d-none" href="<?php echo getBaseUrl(); ?>/trading-view-market">
-                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Trading View Market
                             </a>
                         </li>
@@ -59,37 +59,37 @@
                     <ul class="dropdown-menu" aria-labelledby="productDropdown">
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/stock">
-                                <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png">
                                 Stocks
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/forex">
-                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Forex
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/indices">
-                                <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.png">
                                 Indices
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/metal">
-                                <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/16003/16003443.png">
                                 Metals
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/commodities">
-                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Commodities
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/crypto">
-                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.webp">
+                                <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png">
                                 Crypto
                             </a>
                         </li>
