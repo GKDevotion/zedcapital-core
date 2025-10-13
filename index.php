@@ -1994,7 +1994,7 @@ include_once('elements/header.php');
 <!-- Start Client review -->
 <style>
     #client_review {
-        padding: 80px 0;
+        padding: 40px 0;
         /* min-height: 85vh; */
         width: 100%;
         overflow: visible !important;
@@ -2090,14 +2090,14 @@ include_once('elements/header.php');
     }
 </style>
 
-<section class="section-client-review d-none" id="client_review">
+<section class="section-client-review" id="client_review">
     <div class="container">
-        <div class="text-center mb-5">
+        <div class="text-center mb-5 d-none">
             <p class="text-gray">Testimonials</p>
             <h2 class="h2 fw-bold">Our Clients Review</h2>
         </div>
 
-        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="testimonialCarousel" class="carousel slide d-none" data-bs-ride="carousel">
             <div class="carousel-inner">
 
                 <!-- Slide 1 -->
