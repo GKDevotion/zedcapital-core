@@ -1911,12 +1911,10 @@ include_once('elements/header.php');
 
 <style>
     .nominee-letter {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         background-color: var(--zed-primary);
         color: #fff;
         min-height: 200px;
+        position: relative;
     }
 
     .safeguard-btn {
