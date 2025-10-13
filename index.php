@@ -1986,7 +1986,7 @@ include_once('elements/header.php');
 
         </div>
 
-        <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-delay="800">
+        <div class="position-relative set-diamond-image d-none" data-aos="fade-up" data-aos-delay="800">
             <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: 50px 75px;">
         </div>
     </div>
@@ -2091,7 +2091,7 @@ include_once('elements/header.php');
     }
 </style>
 
-<section class="section-client-review" id="client_review">
+<section class="section-client-review d-none" id="client_review">
     <div class="container">
         <div class="text-center mb-5">
             <p class="text-gray">Testimonials</p>
