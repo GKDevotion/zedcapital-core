@@ -55,7 +55,7 @@
                         </h2>
                         <div id="zcfaq4" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Clients can trade through our advanced multi-asset platforms including <b>Meta Trader 5 (MT5)</b> and <b>Web Trader</b>, accessible across desktop, web, and mobile devices. These platforms are equipped with analytical tools, charting systems, and automated trading capabilities for a seamless experience.
+                                Clients can trade through our advanced multi-asset platforms including <b>MetaTrader 5 (MT5)</b> and <b>Web Trader</b>, accessible across desktop, web, and mobile devices. These platforms are equipped with analytical tools, charting systems, and automated trading capabilities for a seamless experience.
                             </div>
                         </div>
                     </div>

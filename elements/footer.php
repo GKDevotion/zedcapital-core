@@ -147,7 +147,7 @@
                 </p>
 
                 <p class="mb-5">
-                    The ZedCapital website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our <a href="assets/pdf/Cookies-Policy-ZedCapital.pdf" download title="Cookie Policy" class="text-decoration-none"> Cookie Policy</a>.
+                    The ZedCapital website uses cookies. By continuing to browse the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our <a href="assets/pdf/Cookies-Policy-ZedCapital.pdf" download title="Cookie Policy" class="text-decoration-none"> Cookie Policy</a>.
                 </p>
 
                 <div class="row g-3 footer-links">

@@ -26,15 +26,15 @@ include_once('elements/header.php');
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-1.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-1.webp?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
 
         <div class="carousel-item">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-2.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-2.webp?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
 
         <div class="carousel-item">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-3.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-3.webp?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -361,7 +361,7 @@ include_once('elements/header.php');
                         <table class="w-100">
                             <tr>
                                 <td class="text-start">Platform</td>
-                                <td class="fw-400 theme-black-color text-end">Meta Trader 5</td>
+                                <td class="fw-400 theme-black-color text-end">MetaTrader 5</td>
                             </tr>
                             <tr>
                                 <td class="text-start">Spreads</td>
@@ -402,7 +402,7 @@ include_once('elements/header.php');
                         <table class="w-100" data-aos="fade-up" data-aos-duration="800">
                             <tr>
                                 <td class="text-start">Platform</td>
-                                <td class="fw-400 theme-black-color text-end">Meta Trader 5</td>
+                                <td class="fw-400 theme-black-color text-end">MetaTrader 5</td>
                             </tr>
                             <tr>
                                 <td class="text-start">Spreads</td>
@@ -437,7 +437,7 @@ include_once('elements/header.php');
 </div>
 <!-- End Account Type -->
 
-<!-- Start Meta Trader 5 -->
+<!-- Start MetaTrader 5 -->
 <style>
     #meta_trader_5 {
         padding: 80px 0;
@@ -683,7 +683,7 @@ include_once('elements/header.php');
         </div>
     </div>
 </div>
-<!-- End Meta Trader 5 -->
+<!-- End MetaTrader 5 -->
 
 <!-- Start Market access -->
 <style>
@@ -2003,7 +2003,7 @@ include_once('elements/header.php');
 <!-- Start Client review -->
 <style>
     #client_review {
-        padding: 40px 0;
+        padding: 80px 0;
         /* min-height: 85vh; */
         width: 100%;
         overflow: visible !important;
@@ -2231,7 +2231,7 @@ include_once('elements/header.php');
         </div>
 
         <!-- Trustpilot Dummy Widget -->
-        <div class="row justify-content-center p-5">
+        <div class="row justify-content-center p-5 d-none">
             <div class="trustpilot-widget">
                 <div class="tp-header">
                     <!-- Star icon -->
@@ -2249,6 +2249,28 @@ include_once('elements/header.php');
                     <span class="tp-star half">★</span>
                 </div>
             </div>
+        </div>
+
+        <!-- TradingView News Widget -->
+        <div class="tradingview-widget-container mb-5">
+
+            <div class="text-center mb-5">
+                <h2 class="h2 fw-bold">Live Market Insight</h2>
+            </div>
+
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+            {
+                "feedMode": "symbol",
+                "symbol": "NASDAQ:AAPL",
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "width": "100%",
+                "height": "400",
+                "locale": "en"
+            }
+            </script>
         </div>
     </div>
 </section>

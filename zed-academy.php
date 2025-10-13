@@ -169,7 +169,7 @@ include_once ('elements/header.php');
 <section class="trading-guide-section">
     <div class="container pb-0">
         <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="800">
-            <h2 class="h2">Trading Guide for Beginner</h2>
+            <h2 class="h2">Trading Guide for Beginners</h2>
             <div class="highlight-line"></div>
             <p class="fw-semibold mb-0">Kickstart Your Trading Journey!</p>
             <p class="text-muted">

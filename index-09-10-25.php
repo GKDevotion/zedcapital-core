@@ -457,7 +457,7 @@ if (false) {
 </div>
 <!-- End Account Type -->
 
-<!-- Start Meta Trader 5 -->
+<!-- Start MetaTrader 5 -->
 <style>
     #meta_trader_5 {
         padding: 80px 0;
@@ -689,7 +689,7 @@ if (false) {
         </div>
     </div>
 </div>
-<!-- End Meta Trader 5 -->
+<!-- End MetaTrader 5 -->
 
 <!-- Start Market access -->
 <style>

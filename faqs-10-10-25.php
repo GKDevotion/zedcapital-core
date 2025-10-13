@@ -51,7 +51,7 @@ include_once('elements/header.php');
                             </h2>
                             <div id="genralfaqOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Zed Capital International Ltd is a globally regulated multi-asset brokerage offering access to Forex, Commodities, Indices, Stocks (CFDs) and Crypto CFDs. It provides clients with advanced trading technology, transparent pricing and institutional-grade liquidity via the Meta Trader 5 platform.
+                                    Zed Capital International Ltd is a globally regulated multi-asset brokerage offering access to Forex, Commodities, Indices, Stocks (CFDs) and Crypto CFDs. It provides clients with advanced trading technology, transparent pricing and institutional-grade liquidity via the MetaTrader 5 platform.
                                 </div>
                             </div>
                         </div>
@@ -327,7 +327,7 @@ include_once('elements/header.php');
                             </h2>
                             <div id="genralfaq17" class="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    Zed Capital operates exclusively on Meta Trader 5 (MT5) - a multi-asset platform offering advanced analytics, algorithmic trading and mobile access.
+                                    Zed Capital operates exclusively on MetaTrader 5 (MT5) - a multi-asset platform offering advanced analytics, algorithmic trading and mobile access.
                                 </div>
                             </div>
                         </div>

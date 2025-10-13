@@ -289,7 +289,7 @@ include_once ('elements/header.php');
                         Track impactful events as they unfold and prepare your trades with confidence. Get accurate forecasts and live updates directly aligned with global market movements.
                     </p>
 
-                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="economic-calender" title="Economic Calender">
+                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="<?php echo getBaseUrl();?>/economic-calendar" title="Economic Calender">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
                     </a>
@@ -309,7 +309,7 @@ include_once ('elements/header.php');
                         Calculate next-day pivot levels and key support/resistance zones with accuracy. Use data-driven insight to refine your entries, exits and intraday strategies.
                     </p>
                     
-                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="pivot-point">
+                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="<?php echo getBaseUrl();?>/pivot-point">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
                     </a>
@@ -330,7 +330,7 @@ include_once ('elements/header.php');
                         Monitor live forex prices and calculate conversions in seconds. Perfect for traders and businesses who rely on precision and timing.
                     </p>
 
-                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="currency-convertor" title="Currency Converter">
+                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="<?php echo getBaseUrl();?>/currency-convertor" title="Currency Converter">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
                     </a>
@@ -350,7 +350,7 @@ include_once ('elements/header.php');
                         Quickly calculate your potential profits, losses, and required margin. A clear picture of every scenario before you trade because precision builds consistency.
                     </p>
                     
-                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="profit-calculation">
+                    <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="<?php echo getBaseUrl();?>/profit-calculation">
                         <span class="demo-text">Get Started</span>
                         <span class="demo-icon">→</span>
                     </a>
@@ -600,7 +600,7 @@ include_once ('elements/header.php');
                     </div>
                     <h3 class="fw-bold mb-4" data-aos="fade-up" data-aos-delay="800">Trading Platforms</h3>
                     <p class="mt-4 mb-0" data-aos="fade-up" data-aos-delay="800">
-                        <strong>Meta Trader 4/5:</strong> 
+                        <strong>MetaTrader 4/5:</strong> 
                     </p>
                     <p data-aos="fade-up" data-aos-delay="800">
                         <span class="text-gray">Popular platforms <br>
@@ -621,7 +621,7 @@ include_once ('elements/header.php');
                     </p>
                     <p data-aos="fade-up" data-aos-delay="800">
                         <span class="text-gray">
-                            Offers advanced charting, back testing, and trade simulation.
+                            Offers advanced charting, backtesting and trade simulation.
                         </span>
                     </p>
                 </div>

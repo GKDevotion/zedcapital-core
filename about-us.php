@@ -409,7 +409,7 @@ include_once ('elements/header.php');
                 <div class="card-background">
                     <h5 class="fw-bold mb-4 text-hover-effect">Comprehensive Trading Platforms</h5>
                     <p class="text-gray">
-                        Access leading-edge trading platforms such as Meta Trader 5 (MT5), renowned for their robust functionality, advanced charting tools, and automated trading.
+                        Access leading-edge trading platforms such as MetaTrader 5 (MT5), renowned for their robust functionality, advanced charting tools, and automated trading.
                     </p>
                 </div>
             </div>
@@ -532,7 +532,7 @@ include_once ('elements/header.php');
                             Licensed and regulated by the Financial Services Commission (FSC), Mauritius.
                         </li>
                         <li class="text-gray">
-                            Client deposits maintained in segregated accounts with leading international banks.
+                            Client deposits are maintained in segregated accounts with leading international banks.
                         </li>
                         <li class="text-gray">
                             Full adherence to international financial standards and AML/CTF frameworks.
@@ -952,7 +952,7 @@ include_once ('elements/header.php');
 
     .value-content p {
         font-size: 16px;
-        max-width: 500px;
+        /* max-width: 500px; */
         margin: 0 auto;
     }
 

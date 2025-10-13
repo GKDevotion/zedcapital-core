@@ -190,11 +190,11 @@ include_once ('elements/header.php');
         <div class="row trust-section align-items-center">
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <h2 class="h2">
-                    Strategic risk Management
+                    Strategic Risk Management
                 </h2>
                 <div class="underline"></div>
                 <p class="trust-text text-gray mb-5" data-aos="fade-up" data-aos-delay="500">
-                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, Strategic risk Management, and bank-level data security, we ensure your capital remains protected at all times.
+                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, Strategic Risk Management, and bank-level data security, we ensure your capital remains protected at all times.
                 </p>
                 <ul class="arrow-list">
                     <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">

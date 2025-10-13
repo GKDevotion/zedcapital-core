@@ -270,11 +270,11 @@ include_once('elements/header.php');
                     Experience next generation trading infrastructure engineered for stability, transparency and control.
                 </p>
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start meta-trader-logo-container">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/meta-trader-5-logo.png" alt="Meta Trader 5 Logo" class="img-fluid me-2" style="width: 300px;" data-aos="fade-up" data-aos-duration="800">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/meta-trader-5-logo.png" alt="MetaTrader 5 Logo" class="img-fluid me-2" style="width: 300px;" data-aos="fade-up" data-aos-duration="800">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/platform-mobile-desktop.png" alt="Meta Trader 5 Platform Mockup" class="img-fluid d-none d-lg-block">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/platform-mobile-desktop.png" alt="MetaTrader 5 Platform Mockup" class="img-fluid d-none d-lg-block">
 
                 <div class="position-relative set-diamond-image">
                     <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/platform-2-diamonds.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 120px; height: 70px; margin: -85px -50px;">
@@ -354,7 +354,7 @@ include_once('elements/header.php');
             <div class="col-md-6 d-flex align-items-center justify-content-center">
                 <span class="d-none me-2 arrow">&#9658;</span>
                 <p class="mb-0 text-white small">
-                    Meta Trader 5 is one of the world's most advanced trading platforms, built to deliver speed, stability and precision. Designed for both manual and automated trading, MT5 provides powerful charting tools, multi-asset access and an optimized environment for Expert Advisors (EAs).
+                    MetaTrader 5 is one of the world's most advanced trading platforms, built to deliver speed, stability and precision. Designed for both manual and automated trading, MT5 provides powerful charting tools, multi-asset access and an optimized environment for Expert Advisors (EAs).
                 </p>
 
                 <div class="position-relative set-diamond-image">
@@ -443,35 +443,35 @@ $featureIconTitle = "Why trade on MetaTrader 5 with Zed Capital?";
 
 $featureIconArr = [
     [
-        'icon' => 'assets/images/education-daily-analysis.png',
+        'icon' => getBaseUrl().'/assets/images/education-daily-analysis.png',
         'title' => 'Access to a Wide Range of Instruments'
     ],
     [
-        'icon' => 'assets/images/news-live-market.png',
-        'title' => 'Advance Charting and Analytical Tools'
+        'icon' => getBaseUrl().'/assets/images/news-live-market.png',
+        'title' => 'Advanced Charting and Analytical Tools'
     ],
     [
-        'icon' => 'assets/images/account-setup.png',
+        'icon' => getBaseUrl().'/assets/images/account-setup.png',
         'title' => 'Fast Execution with Low Latency'
     ],
     [
-        'icon' => 'assets/images/instant-deposite.png',
+        'icon' => getBaseUrl().'/assets/images/instant-deposite.png',
         'title' => 'Improved Market Depth'
     ],
     [
-        'icon' => 'assets/images/withdrawals.png',
+        'icon' => getBaseUrl().'/assets/images/withdrawals.png',
         'title' => 'Supports Both Hedging and Netting'
     ],
     [
-        'icon' => 'assets/images/competitive-commission.png',
+        'icon' => getBaseUrl().'/assets/images/competitive-commission.png',
         'title' => 'Built-in Trading Calendar'
     ],
     [
-        'icon' => 'assets/images/top-tier-liquidity.png',
+        'icon' => getBaseUrl().'/assets/images/top-tier-liquidity.png',
         'title' => 'Available Across Multiple Devices'
     ],
     [
-        'icon' => 'assets/images/user-friendly.png',
+        'icon' => getBaseUrl().'/assets/images/user-friendly.png',
         'title' => 'Effective Hedging Ability'
     ]
 ];
@@ -728,7 +728,7 @@ include_once ('elements/feature-trading-icons.php');
                     <div class="col access-column">
                         <div class="row ">
                             <div class="col-lg-6 mb-0 mb-md-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
-                                <h3 class="fw-bold mb-0 text-start">Meta Trader 5</h3>
+                                <h3 class="fw-bold mb-0 text-start">MetaTrader 5</h3>
                                 <h3 class="fw-bold pb-4 text-start">Web Trading</h3>
                                 <ul class="web-trading-arrow-list">
                                     <li class="">
@@ -746,7 +746,7 @@ include_once ('elements/feature-trading-icons.php');
                             <div class="col-sm-12 col-12 pt-0 pt-md-5" data-aos="fade-up" data-aos-duration="800">
                                 <ul class="web-trading-arrow-list">
                                     <li class="">
-                                        Meta Trader 5 Web Trader gives you full market access, real-time pricing, and complete account control from any device, powered by Zed Capital International Ltd.
+                                        MetaTrader 5 Web Trader gives you full market access, real-time pricing, and complete account control from any device, powered by Zed Capital International Ltd.
                                     </li>
                                 </ul>
                             </div>
