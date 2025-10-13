@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>XAUUSD Candlestick Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #fff;
+      color: #000;
+    }
+    #livePrice {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .range-buttons {
+      margin-bottom: 10px;
+    }
+    .range-buttons button {
+      padding: 5px 10px;
+      margin-right: 5px;
+      border: none;
+      cursor: pointer;
+      background: #f0f0f0;
+    }
+    .range-buttons button.active {
+      background-color: #0a84ff;
+      color: white;
+    }
+    #ohlcDisplay {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+    }
+    #chart {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>XAUUSD Chart</h1>
+  <div id="livePrice">Live Price: <span id="price">Loading...</span></div>
+  <div class="range-buttons">
+    <button data-range="1D" class="active">1D</button>
+    <button data-range="1W">1W</button>
+    <button data-range="3M">3M</button>
+    <button data-range="6M">6M</button>
+    <button data-range="1Y">1Y</button>
+  </div>
+  <div id="chart"></div>
+  <div id="ohlcDisplay">O: -- H: -- L: -- C: --</div>
+
+  <script>
+    const baseUrl = "https://livechart.zedcapital.com:5000";
+    const priceEl = document.getElementById("price");
+    const ohlcEl = document.getElementById("ohlcDisplay");
+    const chartEl = document.querySelector("#chart");
+    const buttons = document.querySelectorAll(".range-buttons button");
+
+    const ranges = {
+      "1D": { duration: 86400, interval: 60 },
+      "1W": { duration: 86400 * 7, interval: 3600 },
+      "3M": { duration: 86400 * 90, interval: 86400 },
+      "6M": { duration: 86400 * 180, interval: 86400 },
+      "1Y": { duration: 86400 * 365, interval: 2592000 },
+    };
+
+    let currentRange = "1D";
+    let chart = null;
+
+    async function fetchLivePrice() {
+      try {
+        const res = await fetch(`${baseUrl}/last-price?symbol=BTCUSD`);
+        const json = await res.json();
+        priceEl.textContent = parseFloat(json.last_price).toFixed(5);
+      } catch (err) {
+        console.error("Live price error", err);
+      }
+    }
+
+    async function fetchChartData(range) {
+      const now = Math.floor(Date.now() / 1000);
+      const from = now - ranges[range].duration;
+      const to = now;
+
+      const url = `${baseUrl}/api/chart/get?symbol=XAUUSD&from=${from}&to=${to}&data=dohlc`;
+      const res = await fetch(url);
+      const json = await res.json();
+
+      if (json.retcode !== "0 Done") throw new Error("Data not ready");
+
+      return json.answer.map(bar => ({
+        x: new Date(bar[0] * 1000),
+        y: [bar[1], bar[2], bar[3], bar[4]],
+      }));
+    }
+
+    async function drawChart() {
+      const series = await fetchChartData(currentRange);
+
+      const options = {
+        chart: {
+          type: "candlestick",
+          height: 500,
+          events: {
+            mouseMove: function (event, chartContext, config) {
+              const i = config.dataPointIndex;
+              const seriesData = config.w.globals.initialSeries[0].data;
+              if (i >= 0 && seriesData[i]) {
+                const [o, h, l, c] = seriesData[i].y;
+                ohlcEl.textContent = `O: ${o.toFixed(2)} H: ${h.toFixed(2)} L: ${l.toFixed(2)} C: ${c.toFixed(2)}`;
+              }
+            }
+          }
+        },
+        series: [{ name: "Candles", data: series }],
+        xaxis: { type: "datetime" },
+        tooltip: {
+          enabled: false
+        },
+        title: {
+          text: `XAUUSD Candlestick - ${currentRange}`,
+          align: "left"
+        }
+      };
+
+      if (chart) chart.destroy();
+      chart = new ApexCharts(chartEl, options);
+      chart.render();
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        buttons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        currentRange = btn.getAttribute("data-range");
+        drawChart();
+      });
+    });
+
+    // Init
+    fetchLivePrice();
+    drawChart();
+    setInterval(fetchLivePrice, 1000);
+  </script>
+</body>
+</html>

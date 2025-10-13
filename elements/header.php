@@ -67,6 +67,16 @@
         
         <!-- SweetAlert2 -->
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SFX26HRGYM"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-SFX26HRGYM');
+        </script>
     </head>
 
     <body data-load="" data-click-animation="" translate="no">
