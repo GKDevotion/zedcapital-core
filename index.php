@@ -1971,7 +1971,7 @@ include_once('elements/header.php');
         
             <!-- Left Text -->
             <div class="col-md-6 align-items-center nominee-letter-right">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/nominee-letter-right.webp" class="nominee-letter-right-belt-img">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/nominee-letter-right.webp" class="nominee-letter-right-belt-img" alt="Nominee Letter">
             </div>
             
             <!-- Right Image & Button -->
