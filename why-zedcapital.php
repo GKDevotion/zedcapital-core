@@ -10,7 +10,7 @@ include_once ('elements/header.php');
 <style>
     .why-zed-capital-header {
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/why-zed-header-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/why-zed-header-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -104,7 +104,7 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row align-items-center">
             <div class="position-relative">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/background/why-zed-header-white-dot-background.png" alt="Corner Image" class="position-absolute top-0 start-0 why-zed-header-white-dot-background">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/background/why-zed-header-white-dot-background.webp" alt="Corner Image" class="position-absolute top-0 start-0 why-zed-header-white-dot-background">
             </div>
             <div class="col-lg-5 col-md-6 text-md-start text-center" data-aos="fade-up" data-aos-duration="800">
                 <h1 class="d-none">
@@ -127,25 +127,25 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row why-zed-capital-bullet-point">
             <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4 mt-4" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/regulated-stp-broker.png" class="position-absolute" alt="Windows">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/regulated-stp-broker.webp" class="position-absolute" alt="Windows">
                 <div class="w-50">
                     <span>Regulated STP Broker</span>
                 </div>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4 mt-4" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/razor-thin-spread.png" class="position-absolute" alt="Windows">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/razor-thin-spread.webp" class="position-absolute" alt="Windows">
                 <div class="w-50">
                     <span>Razor-Thin <br>Spread</span>
                 </div>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4 mt-4" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/ultra-fast-execution.png" class="position-absolute" alt="Windows">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/ultra-fast-execution.webp" class="position-absolute" alt="Windows">
                 <div class="w-50">
                     <span>Ultra-Fast Execution</span>
                 </div>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 px-3 py-3 ml-4 mt-4" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/24-7-support.png" class="position-absolute" alt="Windows">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/24-7-support.webp" class="position-absolute" alt="Windows">
                 <div class="w-50">
                     <span>24x7 <br>Support</span>
                 </div>
@@ -215,7 +215,7 @@ include_once ('elements/header.php');
                 </ul>
             </div>
             <div class="col-md-6 trust-image text-center" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/trust-lock.png" alt="Lock Security Image" class="w-100">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/trust-lock.webp" alt="Lock Security Image" class="w-100">
             </div>
         </div>
     </div>
@@ -256,7 +256,7 @@ include_once ('elements/header.php');
             <div class="col-6 col-md-3 col-lg-3 col-sm-6 px-3 py-3">
                 <div class="feature-box" data-aos="fade-up" data-aos-duration="100">
                     <div class="feature-icon" >
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/education-daily-analysis.png" alt="Education">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/education-daily-analysis.webp" alt="Education">
                     </div>
                     <div class="text-center feature-title">Education and<br>Daily Analytics</div>
                 </div>
@@ -265,7 +265,7 @@ include_once ('elements/header.php');
             <div class="col-6 col-md-3 col-lg-3 col-sm-6 px-3 py-3">
                 <div class="feature-box" data-aos="fade-up" data-aos-duration="300">
                     <div class="feature-icon" >
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/news-live-market.png" alt="Insight News">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/news-live-market.webp" alt="Insight News">
                     </div>
                     <div class="text-center feature-title">Insight News and<br>Live Market</div>
                 </div>
@@ -274,7 +274,7 @@ include_once ('elements/header.php');
             <div class="col-6 col-md-3 col-lg-3 col-sm-6 px-3 py-3">
                 <div class="feature-box" data-aos="fade-up" data-aos-duration="500">
                     <div class="feature-icon" >
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/account-setup.png" alt="Account Setup">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/account-setup.webp" alt="Account Setup">
                     </div>
                     <div class="text-center feature-title">5-Minute<br>Account Setup</div>
                 </div>
@@ -283,7 +283,7 @@ include_once ('elements/header.php');
             <div class="col-6 col-md-3 col-lg-3 col-sm-6 px-3 py-3">
                 <div class="feature-box" data-aos="fade-up" data-aos-duration="700">
                     <div class="feature-icon" >
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/instant-deposite.png" alt="Instant Deposit">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/instant-deposite.webp" alt="Instant Deposit">
                     </div>
                     <div class="text-center feature-title">Instant<br>Deposit</div>
                 </div>
@@ -292,7 +292,7 @@ include_once ('elements/header.php');
             <div class="col-6 col-md-3 col-lg-3 col-sm-6 px-3 py-3">
                 <div class="feature-box" data-aos="fade-up" data-aos-duration="900">
                     <div class="feature-icon" >
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/withdrawals.png" alt="Withdrawals">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/withdrawals.webp" alt="Withdrawals">
                     </div>
                     <div class="text-center feature-title">Withdrawals<br>Within 24 Hours</div>
                 </div>
@@ -301,7 +301,7 @@ include_once ('elements/header.php');
             <div class="col-6 col-md-3 col-lg-3 col-sm-6 px-3 py-3">
                 <div class="feature-box" data-aos="fade-up" data-aos-duration="1100">
                     <div class="feature-icon" >
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/competitive-commission.png" alt="Commission">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/competitive-commission.webp" alt="Commission">
                     </div>
                     <div class="text-center feature-title">Competitive<br>Commission</div>
                 </div>
@@ -310,7 +310,7 @@ include_once ('elements/header.php');
             <div class="col-6 col-md-3 col-lg-3 col-sm-6 px-3 py-3">
                 <div class="feature-box" data-aos="fade-up" data-aos-duration="1300">
                     <div class="feature-icon" >
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/top-tier-liquidity.png" alt="Liquidity">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/top-tier-liquidity.webp" alt="Liquidity">
                     </div>
                     <div class="text-center feature-title">Top-Tier<br>Liquidity Provider</div>
                 </div>
@@ -319,7 +319,7 @@ include_once ('elements/header.php');
             <div class="col-6 col-md-3 col-lg-3 col-sm-6 px-3 py-3">
                 <div class="feature-box" data-aos="fade-up" data-aos-duration="1500">
                     <div class="feature-icon" >
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/user-friendly.png" alt="Platform">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/user-friendly.webp" alt="Platform">
                     </div>
                     <div class="text-center feature-title">User-Friendly<br>Trading Platform</div>
                 </div>
@@ -484,7 +484,7 @@ include_once ('elements/header.php');
     <div class="container-fluid learning-section py-5 pt-0">
         <div class="row align-items-center">
             <div class="col-md-7 col-12 learning-div mb-4 mb-md-0 p-5" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/on-demand-learning.png" alt="Tablet with chart" class="learning-img">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/on-demand-learning.webp" alt="Tablet with chart" class="learning-img">
             </div>
             <div class="col-md-5 col-12">
                 <h2 class="h2 learning-heading" data-aos="fade-up" data-aos-duration="800">
@@ -601,7 +601,7 @@ include_once ('elements/header.php');
 
             <!-- Right Image -->
             <div class="col-lg-6 text-center mt-4 mt-lg-0" data-aos="fade-up" data-aos-duration="1200">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/nominee-letter.png" class="w-100" alt="Nominee Letter">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/nominee-letter.webp" class="w-100" alt="Nominee Letter">
             </div>
         </div>
     </div>
@@ -750,39 +750,39 @@ include_once ('elements/header.php');
     <div class="row py-5 pt-0 text-center">
         <div class="col-6 col-sm-6 col-md-4 col-lg-3">
             <div class="award-badge" data-aos="fade-up" data-aos-duration="300">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/award-1.png" class="img-fluid w-75">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/award-1.webp" class="img-fluid w-75">
             </div>
             <p class="fw-bold text-center py-2 pb-0" data-aos="fade-up" data-aos-duration="600">
                 Most Trusted <br> Broker
             </p>
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/award-bottom-design.png" class="img-fluid w-50 award-design" style="margin-top: -35px;" data-aos="fade-up" data-aos-duration="900">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/award-bottom-design.webp" class="img-fluid w-50 award-design" style="margin-top: -35px;" data-aos="fade-up" data-aos-duration="900">
         </div>
         <div class="col-6 col-sm-6 col-md-4 col-lg-3">
             <div class="award-badge" data-aos="fade-up" data-aos-duration="300">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/award-2.png" class="img-fluid w-75">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/award-2.webp" class="img-fluid w-75">
             </div>
             <p class="fw-bold text-center py-2 pb-0" data-aos="fade-up" data-aos-duration="600">
                 Most Trusted <br> Broker
             </p>
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/award-bottom-design.png" class="img-fluid w-50 award-design" style="margin-top: -35px;" data-aos="fade-up" data-aos-duration="900">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/award-bottom-design.webp" class="img-fluid w-50 award-design" style="margin-top: -35px;" data-aos="fade-up" data-aos-duration="900">
         </div>
         <div class="col-6 col-sm-6 col-md-4 col-lg-3">
             <div class="award-badge" data-aos="fade-up" data-aos-duration="300">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/award-3.png" class="img-fluid w-75">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/award-3.webp" class="img-fluid w-75">
             </div>
             <p class="fw-bold text-center py-2 pb-0" data-aos="fade-up" data-aos-duration="300">
                 Most Trusted <br> Broker
             </p>
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/award-bottom-design.png" class="img-fluid w-50 award-design" style="margin-top: -35px;" data-aos="fade-up" data-aos-duration="800">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/award-bottom-design.webp" class="img-fluid w-50 award-design" style="margin-top: -35px;" data-aos="fade-up" data-aos-duration="800">
         </div>
         <div class="col-6 col-sm-6 col-md-4 col-lg-3">
             <div class="award-badge" data-aos="fade-up" data-aos-duration="300">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/award-4.png" class="img-fluid w-75">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/award-4.webp" class="img-fluid w-75">
             </div>
             <p class="fw-bold text-center py-2 pb-0" data-aos="fade-up" data-aos-duration="300">
                 Most Trusted <br> Broker
             </p>
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/award-bottom-design.png" class="img-fluid w-50 award-design" style="margin-top: -35px;" data-aos="fade-up" data-aos-duration="800">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/award-bottom-design.webp" class="img-fluid w-50 award-design" style="margin-top: -35px;" data-aos="fade-up" data-aos-duration="800">
         </div>
     </div>
 </div>

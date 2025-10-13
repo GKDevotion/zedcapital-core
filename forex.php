@@ -11,7 +11,7 @@ include_once ('elements/header.php');
 <style>
     .forex-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-forex-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-forex-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -156,7 +156,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/forex-benefit.png" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/forex-benefit.webp" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
@@ -570,7 +570,7 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
             <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/Currency-Pairs-at-Your-Fingertips.png" class="w-100" alt="Regulatory Assurance">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/Currency-Pairs-at-Your-Fingertips.webp" class="w-100" alt="Regulatory Assurance">
             </div>
         </div>
     </div>

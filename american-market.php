@@ -185,7 +185,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">US30</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.webp" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -215,7 +215,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">SP500</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.png" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.webp" style="margin-left: -25px; transform: scaleX(-1);" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>
@@ -259,7 +259,7 @@ include_once ('elements/header.php');
     {
       symbol: "EUR/USD",
       name: "Euro / US Dollar",
-      flag: "https://flagcdn.com/24x18/eu.png",
+      flag: "https://flagcdn.com/24x18/eu.webp",
       price1: 1.15894,
       price2: 1.15900,
       changeValue: 0.00006,
@@ -271,7 +271,7 @@ include_once ('elements/header.php');
     {
       symbol: "USD/JPY",
       name: "US Dollar / Japanese Yen",
-      flag: "https://flagcdn.com/24x18/us.png",
+      flag: "https://flagcdn.com/24x18/us.webp",
       price1: 148.763,
       price2: 148.773,
       changeValue: 0.01,
@@ -283,7 +283,7 @@ include_once ('elements/header.php');
     {
       symbol: "GBP/USD",
       name: "GBP / US Dollar",
-      flag: "https://flagcdn.com/24x18/eu.png",
+      flag: "https://flagcdn.com/24x18/eu.webp",
       price1: 1.15894,
       price2: 1.15900,
       changeValue: 0.00006,
@@ -295,7 +295,7 @@ include_once ('elements/header.php');
     {
       symbol: "USD/AUD",
       name: "US Dollar / AUD",
-      flag: "https://flagcdn.com/24x18/us.png",
+      flag: "https://flagcdn.com/24x18/us.webp",
       price1: 148.763,
       price2: 148.773,
       changeValue: 0.01,

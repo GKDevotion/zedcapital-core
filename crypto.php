@@ -11,7 +11,7 @@ include_once ('elements/header.php');
 <style>
     .crypto-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-crypto-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-crypto-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -556,7 +556,7 @@ include_once ('elements/header.php');
     .crypto-currency {
         color: white;
         position: relative;
-        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/crypto-currency-trading-background.png'); */
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/crypto-currency-trading-background.webp'); */
         background-color: var(--zed-primary);
         background-size: cover;
         background-position: center;
@@ -617,7 +617,7 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
             <div class="col-lg-5 col-md-12">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/Cryptocurrencies-You-Can-Trade.png" alt="" class="w-100">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/Cryptocurrencies-You-Can-Trade.webp" alt="" class="w-100">
             </div>
         </div>
     </div>

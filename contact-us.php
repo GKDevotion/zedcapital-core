@@ -25,7 +25,7 @@ include_once ('elements/header.php');
     }
 
     .section-bg {
-        background: url("https://www.zedcapital.mu/public/zcapital/images/contact-bg.png") center;
+        background: url("https://www.zedcapital.mu/public/zcapital/images/contact-bg.webp") center;
     }
 
     .contact .info-box {

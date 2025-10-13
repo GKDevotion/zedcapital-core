@@ -75,7 +75,7 @@ include_once ('elements/header.php');
 
             <!-- Center Image -->
             <div class="col-lg-6 text-center mt-4 mt-lg-0">
-                <img src="assets/images/nominee-letter-right.png" class="w-100" alt="Nominee Letter">
+                <img src="assets/images/nominee-letter-right.webp" class="w-100" alt="Nominee Letter">
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-6 col-sm-12 mb-4 mb-lg-0 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="850">
-            <img src="assets/images/always-one-step-ahead.png" class="w-75 ps-5" alt="Regulatory Assurance">
+            <img src="assets/images/always-one-step-ahead.webp" class="w-75 ps-5" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->

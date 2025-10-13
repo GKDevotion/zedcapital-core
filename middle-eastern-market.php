@@ -169,7 +169,7 @@ include_once ('elements/header.php');
                             <span class="fw-semibold">EGX30</span>
                         </div>
                         <div class="col-6 p-0">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.png" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/graph-line-2.webp" style="margin-left: -25px;" class="w-75 text-center p-0" alt="EUR/USD">
                         </div>
                         <div class="col-2">
                             <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount" style="margin-left: -45px;">Trade</button>

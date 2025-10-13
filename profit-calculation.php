@@ -69,7 +69,7 @@ include_once ('elements/header.php');
             style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
             <div class="text-center position-relative percent-count">
                 <div class="">
-                    <img src="https://www.zedcapital.mu/public/zcapital/images/20-percent.png"
+                    <img src="https://www.zedcapital.mu/public/zcapital/images/20-percent.webp"
                         alt="Select the currency pair of your choice" title="Select the currency pair of your choice"
                         class="img-fluid lazy-image" >
                 </div>
@@ -80,7 +80,7 @@ include_once ('elements/header.php');
             style="visibility: visible; animation-delay: 400ms; animation-name: fadeIn;">
             <div class="text-center position-relative percent-count">
                 <div class="">
-                    <img src="https://www.zedcapital.mu/public/zcapital/images/50-percent.png"
+                    <img src="https://www.zedcapital.mu/public/zcapital/images/50-percent.webp"
                         alt="Decide if you want to go long or go short"
                         title="Decide if you want to go long or go short" class="img-fluid lazy-image" loading="lazy"
                         onload="this.classList.add('loaded')"
@@ -93,7 +93,7 @@ include_once ('elements/header.php');
             style="visibility: visible; animation-delay: 600ms; animation-name: fadeIn;">
             <div class="text-center position-relative percent-count last">
                 <div class="">
-                    <img src="https://www.zedcapital.mu/public/zcapital/images/80-percent.png"
+                    <img src="https://www.zedcapital.mu/public/zcapital/images/80-percent.webp"
                         alt="Set the open and close price" title="Set the open and close price"
                         class="img-fluid lazy-image" >
                 </div>
@@ -104,7 +104,7 @@ include_once ('elements/header.php');
             style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
             <div class=" text-center position-relative percent-count">
                 <div class="">
-                    <img src="https://www.zedcapital.mu/public/zcapital/images/100-percent.png"
+                    <img src="https://www.zedcapital.mu/public/zcapital/images/100-percent.webp"
                         alt="Choose your currency to understand potential profit"
                         title="Choose your currency to understand potential profit" class="img-fluid lazy-image"
                         >

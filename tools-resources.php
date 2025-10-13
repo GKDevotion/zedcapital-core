@@ -12,7 +12,7 @@ include_once ('elements/header.php');
         padding: 120px 0;
         position: relative;
         overflow: hidden;
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/tools-resources.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/tools-resources.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -87,21 +87,21 @@ include_once ('elements/header.php');
             </div>
 
             <div class="col-md-6 d-flex justify-content-center forex-images flex-wrap gap-3">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/times-to-gear-up.png" alt="Calendar Icon" class="w-75 times-to-gear-up" />
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/times-to-gear-up.webp" alt="Calendar Icon" class="w-75 times-to-gear-up" />
 
                 <div class="row position-absolute">
                     <div class="col text-center" data-aos="fade-up" data-aos-duration="600">
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/gear-up-stock-trading.png" alt="Calendar Icon" class="" style="margin: 28px 0 -150px -140px; width: 150px;" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/gear-up-stock-trading.webp" alt="Calendar Icon" class="" style="margin: 28px 0 -150px -140px; width: 150px;" />
                     </div>
                     <div class="text-center" data-aos="fade-up" data-aos-duration="700">
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/gear-up-candle.png" alt="Calendar Icon" style="margin: -220px 0 -150px 300px; width: 50px;" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/gear-up-candle.webp" alt="Calendar Icon" style="margin: -220px 0 -150px 300px; width: 50px;" />
                     </div>
                 </div>
             </div>
         </div>
         <div class="row position-absolute">
             <div class="col text-center" data-aos="fade-up" data-aos-duration="700">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/toosl-curve-line.png" alt="Calendar Icon" class="w-25" style="margin-top: -100px;" />
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/toosl-curve-line.webp" alt="Calendar Icon" class="w-25" style="margin-top: -100px;" />
             </div>
         </div>
     </div>
@@ -118,7 +118,7 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row position-absolute">
             <div class="col" data-aos="fade-up" data-aos-duration="600">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-bubble.png" alt="Calendar Icon" class="" style="margin: -207px 0 0 -100px; width: 200px;" />
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-bubble.webp" alt="Calendar Icon" class="" style="margin: -207px 0 0 -100px; width: 200px;" />
             </div>
         </div>
         <div class="row justify-content-center">
@@ -148,7 +148,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-6 col-sm-12 mb-4 mb-lg-0 text-center" data-aos="fade-up" data-aos-duration="850">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/always-one-step-ahead.png" class="w-75 ps-5" alt="Regulatory Assurance">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/always-one-step-ahead.webp" class="w-75 ps-5" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
@@ -281,7 +281,7 @@ include_once ('elements/header.php');
                     
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
                         <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Economic Calendar</h5>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-calander.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-calander.webp" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
                     <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Stay Alert. Trade the News.</p>
@@ -301,7 +301,7 @@ include_once ('elements/header.php');
                 <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
                         <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Pivot Points</h5>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-valume.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-valume.webp" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
                     <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Find clarity in every move.</p>
@@ -322,7 +322,7 @@ include_once ('elements/header.php');
                 <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
                         <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Currency Converter</h5>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-desk-candle.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-desk-candle.webp" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
                     <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Real rates. Real results.</p>
@@ -342,7 +342,7 @@ include_once ('elements/header.php');
                 <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
                         <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Profit Calculation</h5>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-message.png" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-message.webp" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
                     </div>
 
                     <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Know your numbers.</p>
@@ -418,7 +418,7 @@ include_once ('elements/header.php');
                     <div class="trading-view-card p-4 text-center w-100 mx-auto" style="max-width: 400px;">
                         <div class="row">
                             <div class="col-4" data-aos="fade-up" data-aos-delay="800">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-integration-bulb.png" alt="Zed Capital Logo" class="w-100">
+                                <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-integration-bulb.webp" alt="Zed Capital Logo" class="w-100">
                             </div>
                             <div class="col-8">
                                 <h5 class="fw-bold text-black" data-aos="fade-up" data-aos-delay="800">Zed Capital</h5>
@@ -444,7 +444,7 @@ include_once ('elements/header.php');
                 <!-- Left-hand side image content -->
                 <div class="col-12 col-md-6 text-end text-md-start mb-4 mb-md-0">
                     <div class="position-absolute" data-aos="fade-up" data-aos-delay="800">
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/trader-gym-candle.png" alt="Candlestick chart" class="" style="margin: -430px 0 -150px 0; width: 300px;">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/trader-gym-candle.webp" alt="Candlestick chart" class="" style="margin: -430px 0 -150px 0; width: 300px;">
                     </div>
                 </div>
                 <!-- Right-hand side text content -->
@@ -536,7 +536,7 @@ include_once ('elements/header.php');
                         <tbody>
                             <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/xrp.png?v=040" width="20" alt="XRPUSD"> XRPUSD
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/xrp.webp?v=040" width="20" alt="XRPUSD"> XRPUSD
                                 </td>
                                 <td class="price-up">3.0578</td>
                                 <td class="py-4">3.8</td>
@@ -545,7 +545,7 @@ include_once ('elements/header.php');
                             </tr>
                             <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/bitcoin.png?v=040" width="20" alt="BTCUSD"> BTCUSD
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/bitcoin.webp?v=040" width="20" alt="BTCUSD"> BTCUSD
                                 </td>
                                 <td class="price-down">118305.04</td>
                                 <td class="py-4">15.0</td>
@@ -554,7 +554,7 @@ include_once ('elements/header.php');
                             </tr>
                             <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/litecoin.png?v=040" width="20" alt="LTCUSD"> LTCUSD
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/litecoin.webp?v=040" width="20" alt="LTCUSD"> LTCUSD
                                 </td>
                                 <td class="price-up">121.28</td>
                                 <td class="py-4">5.0</td>
@@ -563,7 +563,7 @@ include_once ('elements/header.php');
                             </tr>
                             <tr class="d-none" data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/ethereum.png?v=040" width="20" alt="ETHUSD"> ETHUSD
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/ethereum.webp?v=040" width="20" alt="ETHUSD"> ETHUSD
                                 </td>
                                 <td class="price-up">4493.3</td>
                                 <td class="py-4">5.7</td>
@@ -572,7 +572,7 @@ include_once ('elements/header.php');
                             </tr>
                             <tr class="d-none" data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/bnb.png?v=040" width="20" alt="BNBUSD"> BNBUSD
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/bnb.webp?v=040" width="20" alt="BNBUSD"> BNBUSD
                                 </td>
                                 <td class="price-up">824.57</td>
                                 <td class="py-4">3.7</td>
@@ -596,7 +596,7 @@ include_once ('elements/header.php');
             <div class="card p-3 mb-4 p-5">
                 <div class="mb-5">
                     <div class="position-absolute w-100 text-end" data-aos="fade-up" data-aos-delay="800">
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-platform.png" alt="Candlestick chart" class="" style="margin: 0 100px 0 0; width: 100px;">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-platform.webp" alt="Candlestick chart" class="" style="margin: 0 100px 0 0; width: 100px;">
                     </div>
                     <h3 class="fw-bold mb-4" data-aos="fade-up" data-aos-delay="800">Trading Platforms</h3>
                     <p class="mt-4 mb-0" data-aos="fade-up" data-aos-delay="800">
@@ -628,7 +628,7 @@ include_once ('elements/header.php');
 
                 <div class="d-none">
                     <div class="position-absolute w-100 text-end" data-aos="fade-up" data-aos-delay="800">
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-economic-calander.png" alt="Candlestick chart" class="" style="margin: -87px 30px 0 0; width: 200px;">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-economic-calander.webp" alt="Candlestick chart" class="" style="margin: -87px 30px 0 0; width: 200px;">
                     </div>
                     <h3 class="fw-bold mb-4 w-75" data-aos="fade-up" data-aos-delay="800">News and Economic Calendars</h3>
                     <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Forex Factory:</strong> 
@@ -680,7 +680,7 @@ include_once ('elements/header.php');
                             </p>
                             
                         </div>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/education-resources.png" alt="Book Icon" class="" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/education-resources.webp" alt="Book Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">
@@ -706,7 +706,7 @@ include_once ('elements/header.php');
                                 <span class="text-gray">Web-based platform with powerful charting tools, social trading features and a wide range of technical indicators. </span>
                             </p>
                         </div>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/charting-analysis.png" alt="Calendar Icon" class="" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/charting-analysis.webp" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">
@@ -733,7 +733,7 @@ include_once ('elements/header.php');
                             </p>
                             
                         </div>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/news-calender.png" alt="Calendar Icon" class="" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/news-calender.webp" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">
@@ -760,7 +760,7 @@ include_once ('elements/header.php');
                             </p>
                             
                         </div>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/charting-analysis.png" alt="Calendar Icon" class="" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/charting-analysis.webp" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">
@@ -783,7 +783,7 @@ include_once ('elements/header.php');
                             </p>
                             
                         </div>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/risk-management.png" alt="Calendar Icon" class="" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/risk-management.webp" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">
@@ -809,7 +809,7 @@ include_once ('elements/header.php');
                                 <span class="text-gray">platforms offering comprehensive trading tools, indicators, and automated trading capabilities.</span>
                             </p>
                         </div>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-platform.png" alt="Calendar Icon" class="" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-platform.webp" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">
@@ -836,7 +836,7 @@ include_once ('elements/header.php');
                             </p>
                             
                         </div>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/technocal-analysis.png" alt="Calendar Icon" class="" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/technocal-analysis.webp" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">
@@ -861,7 +861,7 @@ include_once ('elements/header.php');
                             </p>
                             
                         </div>
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/community-forum.png" alt="Book Icon" class="" />
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/community-forum.webp" alt="Book Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">

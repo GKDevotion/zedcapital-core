@@ -6,7 +6,7 @@ include_once ('elements/header');
 
     .about-us-header{
         padding: 120px 0 10px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/your-gateway-professional-trading.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/your-gateway-professional-trading.webp');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -67,11 +67,11 @@ include_once ('elements/header');
         <div class="row align-items-center">
 
             <div class="text-start">
-                <img src="assets/images/tools-bubble.png" alt="Zed Capital Video" class="img-fluid tools-bubble"  data-aos="fade-up" data-aos-delay="800"/>
+                <img src="assets/images/tools-bubble.webp" alt="Zed Capital Video" class="img-fluid tools-bubble"  data-aos="fade-up" data-aos-delay="800"/>
             </div>
 
             <div class="text-end">
-                <img src="assets/images/multiple-user-with-trade.png" alt="Zed Capital Video" class="img-fluid multiple-user-with-trade"  data-aos="fade-up" data-aos-delay="800"/>
+                <img src="assets/images/multiple-user-with-trade.webp" alt="Zed Capital Video" class="img-fluid multiple-user-with-trade"  data-aos="fade-up" data-aos-delay="800"/>
             </div>
 
             <div class="col-12 position-relative">
@@ -86,7 +86,7 @@ include_once ('elements/header');
                     Zed Capital International Limited is a trusted name in the forex brokerage industry, committed to providing exceptional trading services and investment opportunities to traders worldwide. As a leading forex broker, we combine extensive market expertise with advanced technology to offer a secure and transparent trading environment. Zed Capital International Limited is a trusted name in the forex brokerage industry,
                 </p>
 
-                <img src="assets/images/toosl-curve-line.png" alt="Wave" style="width: 200px;">
+                <img src="assets/images/toosl-curve-line.webp" alt="Wave" style="width: 200px;">
 
                 <p class="text-back mt-4">
                     With a <strong>global presence</strong> and a diverse client base, we offer localized services and insights to meet the unique needs of traders worldwide.
@@ -124,7 +124,7 @@ include_once ('elements/header');
             <div class="position-relative">
                 <div class="row">
                     <div class="col-md-12 text-end position-absolute">
-                        <img src="assets/images/stand-by-users.png" alt="Client Icon" class="" style="width: 200px; margin: -75px -45px 0 0;">
+                        <img src="assets/images/stand-by-users.webp" alt="Client Icon" class="" style="width: 200px; margin: -75px -45px 0 0;">
                     </div>
                 </div>
                 <div class="card-background position-relative">
@@ -143,7 +143,7 @@ include_once ('elements/header');
             <div class="position-relative">
                 <div class="row">
                     <div class="col-md-12 text-end position-absolute">
-                        <img src="assets/images/register-note.png" alt="Client Icon" class="" style="width: 110px; margin: -75px -45px 0 0;">
+                        <img src="assets/images/register-note.webp" alt="Client Icon" class="" style="width: 110px; margin: -75px -45px 0 0;">
                     </div>
                 </div>
                 <div class="card-background position-relative">
@@ -163,7 +163,7 @@ include_once ('elements/header');
 
 <style>
     .our-commitment-bg{
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.webp');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -200,7 +200,7 @@ include_once ('elements/header');
 
 <style>
     .key-feature-service{
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/key-feature-service.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/key-feature-service.webp');
         background-size: cover;
         background-position: center;
         background-repeat: round;

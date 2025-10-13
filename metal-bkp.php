@@ -5,7 +5,7 @@ include_once ('elements/header');
 <style>
     .metal-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-metal-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-metal-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -138,7 +138,7 @@ include_once ('elements/header');
                             <h3 class="fw-bold mb-3">Types<br>of Stocks</h3>
                         </div>
                         <div class="col-md-6 text-start">
-                            <img src="assets/images/types-of-stock.png" alt="Stock Icon" class="w-50 p-0">
+                            <img src="assets/images/types-of-stock.webp" alt="Stock Icon" class="w-50 p-0">
                         </div>
                     </div>
                     <div class="row pt-4">
@@ -166,7 +166,7 @@ include_once ('elements/header');
                             <h3 class="fw-bold mb-3">Buying and<br>Selling Stocks</h3>
                         </div>
                         <div class="col-md-6 text-start">
-                            <img src="assets/images/buying-selling-stock.png" alt="Chart Icon" class="w-50 p-0">
+                            <img src="assets/images/buying-selling-stock.webp" alt="Chart Icon" class="w-50 p-0">
                         </div>
                     </div>
                     <div class="row pt-4">

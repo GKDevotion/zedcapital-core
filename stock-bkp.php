@@ -5,7 +5,7 @@ include_once ('elements/header.php');
 <style>
     .stock-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-stock-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-stock-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -27,7 +27,7 @@ include_once ('elements/header.php');
     }
 
     .our-commitment-bg{
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.webp');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -148,7 +148,7 @@ include_once ('elements/header.php');
                             <h3 class="fw-bold mb-3">Types<br>of Stocks</h3>
                         </div>
                         <div class="col-md-6 text-start">
-                            <img src="assets/images/types-of-stock.png" alt="Stock Icon" class="w-50 p-0">
+                            <img src="assets/images/types-of-stock.webp" alt="Stock Icon" class="w-50 p-0">
                         </div>
                     </div>
                     <div class="row pt-4">
@@ -176,7 +176,7 @@ include_once ('elements/header.php');
                             <h3 class="fw-bold mb-3">Buying and<br>Selling Stocks</h3>
                         </div>
                         <div class="col-md-6 text-startt">
-                            <img src="assets/images/buying-selling-stock.png" alt="Chart Icon" class="w-50 p-0">
+                            <img src="assets/images/buying-selling-stock.webp" alt="Chart Icon" class="w-50 p-0">
                         </div>
                     </div>
                     <div class="row pt-4">

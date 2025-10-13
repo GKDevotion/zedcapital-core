@@ -11,7 +11,7 @@ include_once ('elements/header.php');
 <style>
     .commodities-header{
         padding: 20px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-commodities-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-commodities-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -88,7 +88,7 @@ include_once ('elements/header.php');
 
             <!-- Image Column -->
             <div class="col-md-6 text-black p-0" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-commodities.png" class="img-fluid">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-commodities.webp" class="img-fluid">
             </div>
         </div>
     </div>
@@ -96,7 +96,7 @@ include_once ('elements/header.php');
 
 <style>
     .angled-left {
-        background: #1a1a1a url('assets/images/dotted-bg.png') repeat; /* Optional dotted bg */
+        background: #1a1a1a url('assets/images/dotted-bg.webp') repeat; /* Optional dotted bg */
         color: white;
         clip-path: polygon(0 0, 85% 0, 75% 100%, 0% 100%);
         padding: 40px 30px;
@@ -177,7 +177,7 @@ include_once ('elements/header.php');
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="network-container">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/commodities-benefit.png" class="w-100 ps-0 ps-md-5" alt="Commodities Benefit">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/commodities-benefit.webp" class="w-100 ps-0 ps-md-5" alt="Commodities Benefit">
             </div>
         </div>
         
@@ -355,7 +355,7 @@ include_once ('elements/header.php');
         <!-- GOLD CARD -->
         <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/brent-oil.png" class="w-75" alt="Brent Oil" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/brent-oil.webp" class="w-75" alt="Brent Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title text-green">Brent Crude Oil</div>
                 <div class="market-title fw-bold d-none">XBRUSD</div>
                 <div class="d-flex justify-content-between px-5 mt-4">
@@ -389,7 +389,7 @@ include_once ('elements/header.php');
         <!-- SILVER CARD -->
         <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/wti-oil.png" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/wti-oil.webp" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">WTI Crude Oil</div>
                 <div class="market-title fw-bold d-none">XTIUSD</div>
                 <div class="d-flex justify-content-between px-5 mt-4">
@@ -423,7 +423,7 @@ include_once ('elements/header.php');
         <!-- PLATINUM CARD -->
         <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/natural-gas.png" class="w-75" alt="natural Gas" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/natural-gas.webp" class="w-75" alt="natural Gas" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">Natural Gas</div>
                 <div class="market-title fw-bold d-none">XYIUSD</div>
                 <div class="d-flex justify-content-between px-5 mt-4">
@@ -503,7 +503,7 @@ include_once ('elements/header.php');
         color: white;
         position: relative;
         overflow: hidden;
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/energy-trading-commodity-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/energy-trading-commodity-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

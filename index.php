@@ -447,7 +447,7 @@ include_once('elements/header.php');
         /* Vertical center */
         justify-content: center;
         /* Horizontal center */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/meta-trader-5-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/meta-trader-5-background.webp');
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -596,13 +596,13 @@ include_once('elements/header.php');
                 <p class="fs-5 text-gray m-0 mx-auto text-center">
                     Access MT5 across Windows, macOS, iOS, and Android with unified login.
                 </p>
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/meta-trader-5-logo.png" class="fluid-img meta-trader-logo mt-5">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/meta-trader-5-logo.webp" class="fluid-img meta-trader-logo mt-5">
             </div>
         </div>
         <div class="row" id="bg_meta_trader_5" data-aos="fade-up" data-aos-duration="800">
             <div class="col-md-12 image-wrapper mt-5">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/broker-platform-desktop.png" class="main-image" data-aos="fade-right" data-aos-duration="1500">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/broker-platform-mobile.png" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/broker-platform-desktop.webp" class="main-image" data-aos="fade-right" data-aos-duration="1500">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/broker-platform-mobile.webp" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
                 <div class="desktop-view">
                     <!-- manage other Images -->
                     <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download IOS App">
@@ -894,7 +894,7 @@ include_once('elements/header.php');
         <!-- Stock -->
         <div class="col-md-4 stock-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="stock" title="Stock">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/tesla-logo.png" class="icon tesla" alt="Tesla">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/tesla-logo.webp" class="icon tesla" alt="Tesla">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Stocks</h3>
@@ -910,7 +910,7 @@ include_once('elements/header.php');
         <!-- Metal -->
         <div class="col-md-4 metal-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="metal" title="Metal">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-wire.png" class="icon metal-wire" alt="Gold">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-wire.webp" class="icon metal-wire" alt="Gold">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Metals</h3>
@@ -919,14 +919,14 @@ include_once('elements/header.php');
                         <p class="text-start text-gray">Protect your wealth with safe-haven assets such as gold and silver.</p>
                     </div>
                 </div>
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-brick.png" class="icon metal-brick" alt="Silver">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-brick.webp" class="icon metal-brick" alt="Silver">
             </a>
         </div>
 
         <!-- Indices -->
         <div class="col-md-4 indices-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="indicies" title="indices">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/naqsad-logo.png" class="icon nasdaq" alt="NASDAQ">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/naqsad-logo.webp" class="icon nasdaq" alt="NASDAQ">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Indices</h3>
@@ -935,14 +935,14 @@ include_once('elements/header.php');
                         <p class="text-start text-gray">Diversify with top indices including the NASDAQ and <br>S&P 500.</p>
                     </div>
                 </div>
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/s-p-500-logo.png" class="icon sp500" alt="NASDAQ">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/s-p-500-logo.webp" class="icon sp500" alt="NASDAQ">
             </a>
         </div>
 
         <!-- Forex -->
         <div class="col-md-4 forex-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="forex" title="Forex">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/doller-icon.png" class="icon doller" alt="USD Doller">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/doller-icon.webp" class="icon doller" alt="USD Doller">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Global Currency</h3>
@@ -951,7 +951,7 @@ include_once('elements/header.php');
                         <p class="text-start text-gray">Trade major currencies like the USD and Euro with high liquidity.</p>
                     </div>
                 </div>
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/euro-icon.png" class="icon euro" alt="Euro">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/euro-icon.webp" class="icon euro" alt="Euro">
             </a>
         </div>
 
@@ -966,14 +966,14 @@ include_once('elements/header.php');
                         <p class="text-start text-gray">Seize opportunities in essential resources like oil and more.</p>
                     </div>
                 </div>
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/oil-drum-icon.png" class="icon oil" alt="Oil">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/oil-drum-icon.webp" class="icon oil" alt="Oil">
             </a>
         </div>
 
         <!-- Crypto -->
         <div class="col-md-4 crypto-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="crypto" title="Crypto">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-crypto-icon.png" class="icon crypto-icon" alt="Crypto Coin">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-crypto-icon.webp" class="icon crypto-icon" alt="Crypto Coin">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Crypto</h3>
@@ -982,7 +982,7 @@ include_once('elements/header.php');
                         <p class="text-start text-gray">Explore the future of finance with leading crypto coins.</p>
                     </div>
                 </div>
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-bitcoin-logo.png" class="icon btc" alt="Bitcoin">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-bitcoin-logo.webp" class="icon btc" alt="Bitcoin">
             </a>
         </div>
 
@@ -1071,7 +1071,7 @@ include_once('elements/header.php');
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="600">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/copy-trading.png" class="w-100">
+                                <img src="<?php echo getBaseUrl(); ?>/assets/images/copy-trading.webp" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="700">
                                 <h3 class="fw-bold">Copy Trading</h3>
@@ -1094,7 +1094,7 @@ include_once('elements/header.php');
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="1200">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/web-trade-icon.png?v=0.01" class="w-100">
+                                <img src="<?php echo getBaseUrl(); ?>/assets/images/web-trade-icon.webp?v=0.01" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1300">
                                 <h3 class="fw-bold">Web Trading</h3>
@@ -1117,7 +1117,7 @@ include_once('elements/header.php');
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="900">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/advance-crm.png" class="w-100">
+                                <img src="<?php echo getBaseUrl(); ?>/assets/images/advance-crm.webp" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1000">
                                 <h3 class="fw-bold">Advanced CRM</h3>
@@ -1149,7 +1149,7 @@ include_once('elements/header.php');
         /* Vertical center */
         justify-content: center;
         /* Horizontal center */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/biginners-trader-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/biginners-trader-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1305,7 +1305,7 @@ include_once('elements/header.php');
 
         <div class="row">
             <div class="col-md-7" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/professional-beginnings-trader.png" class="w-100">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/professional-beginnings-trader.webp" class="w-100">
             </div>
 
             <div class="col-md-5">
@@ -1352,7 +1352,7 @@ include_once('elements/header.php');
 
         <div class="row align-items-stretch" data-aos="fade-up" data-aos-duration="800">
             <div class="position-absolute w-100 aos-init aos-animate set-diamond-image" data-aos="fade-up" data-aos-delay="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/silver-red-candle.png" alt="Candlestick" class="candle-img">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/silver-red-candle.webp" alt="Candlestick" class="candle-img">
             </div>
 
             <div class="col-md-12 feature-box">
@@ -1416,7 +1416,7 @@ include_once('elements/header.php');
         justify-content: center;
         /* Horizontal center */
         /* background-color: var(--zed-backgound-color); */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/how-to-start.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/how-to-start.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1526,8 +1526,8 @@ include_once('elements/header.php');
             <!-- Step 1 -->
             <div class="step text-center">
                 <div class="step-circle">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg.png" alt="Sign Up" class="default">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg-hover.png" alt="Sign Up Hover" class="hover">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg.webp" alt="Sign Up" class="default">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg-hover.webp" alt="Sign Up Hover" class="hover">
                     <div class="step-title">Sign Up</div>
                 </div>
                 <div class="fw-semibold pt-5">Step 1</div>
@@ -1542,8 +1542,8 @@ include_once('elements/header.php');
             <!-- Step 2 -->
             <div class="step text-center">
                 <div class="step-circle">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg.png" alt="Sign Up" class="default">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg-hover.png" alt="Sign Up Hover" class="hover">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg.webp" alt="Sign Up" class="default">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg-hover.webp" alt="Sign Up Hover" class="hover">
                     <div class="step-title">Deposit</div>
                 </div>
                 <div class="fw-semibold pt-5">Step 2</div>
@@ -1558,8 +1558,8 @@ include_once('elements/header.php');
             <!-- Step 3 -->
             <div class="step text-center">
                 <div class="step-circle">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg.png" alt="Sign Up" class="default">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg-hover.png" alt="Sign Up Hover" class="hover">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg.webp" alt="Sign Up" class="default">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/step-bg-hover.webp" alt="Sign Up Hover" class="hover">
                     <div class="step-title">Start</div>
                 </div>
                 <div class="fw-semibold pt-5">Step 3</div>
@@ -1760,7 +1760,7 @@ include_once('elements/header.php');
         justify-content: center;
         /* Horizontal center */
         overflow: hidden;
-        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-chart-showing-upward-trend-growth-reverse.png');
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-chart-showing-upward-trend-growth-reverse.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat; */
@@ -1908,10 +1908,10 @@ include_once('elements/header.php');
 
             <!-- Right Image Column -->
             <div class="col-md-6 security-images" id="scroll_box" data-aos="fade-up" data-aos-duration="1000">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/fund-security.png" alt="Shield" class="img-shield">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/doller-fund-security.png" alt="Dollar Symbol" class="img-dollar" id="img_doller">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/euro-fund-security.png" alt="Euro Symbol" class="img-euro" id="img_euro">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/pound-fund-security.png" alt="Pound Symbol" class="img-pound" id="img_pound">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/fund-security.webp" alt="Shield" class="img-shield">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/doller-fund-security.webp" alt="Dollar Symbol" class="img-dollar" id="img_doller">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/euro-fund-security.webp" alt="Euro Symbol" class="img-euro" id="img_euro">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/pound-fund-security.webp" alt="Pound Symbol" class="img-pound" id="img_pound">
             </div>
         </div>
     </div>
@@ -1971,7 +1971,7 @@ include_once('elements/header.php');
         
             <!-- Left Text -->
             <div class="col-md-6 align-items-center nominee-letter-right">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/nominee-letter-right.png" class="nominee-letter-right-belt-img">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/nominee-letter-right.webp" class="nominee-letter-right-belt-img">
             </div>
             
             <!-- Right Image & Button -->

@@ -11,7 +11,7 @@ include_once ('elements/header.php');
 <style>
     .metal-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-metal-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-metal-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -149,7 +149,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800" >
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-benefit.png" class="w-100" alt="Regulatory Assurance">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-benefit.webp" class="w-100" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
@@ -288,7 +288,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-gold.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-gold.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card">
@@ -330,7 +330,7 @@ include_once ('elements/header.php');
         <!-- Repeat for other stocks -->
         <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative mt-5 mt-md-0">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-silver.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-silver.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card">
@@ -372,7 +372,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative mt-5 mt-md-0">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-platinum.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-platinum.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card" >
@@ -469,7 +469,7 @@ include_once ('elements/header.php');
         color: white;
         padding: 60px 0;
         overflow: hidden;
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/metal-trading-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/metal-trading-background.webp');
         background-size: cover;
         background-position: inherit;
         min-height: 70vh;

@@ -52,13 +52,13 @@ if (false) {
         <!-- Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/slider/Zed-Capital-3.png" class="d-block w-100" alt="Slide 1">
+                <img src="assets/images/slider/Zed-Capital-3.webp" class="d-block w-100" alt="Slide 1">
             </div>
             <div class="carousel-item ">
-                <img src="assets/images/slider/Zed-Capital-2.png" class="d-block w-100" alt="Slide 3">
+                <img src="assets/images/slider/Zed-Capital-2.webp" class="d-block w-100" alt="Slide 3">
             </div>
             <div class="carousel-item ">
-                <img src="assets/images/slider/Zed-Capital-1.png" class="d-block w-100" alt="Slide 1">
+                <img src="assets/images/slider/Zed-Capital-1.webp" class="d-block w-100" alt="Slide 1">
             </div>
         </div>
 
@@ -361,7 +361,7 @@ if (false) {
             <div class="col-md-6 col-lg-6 col-sm-12 px-2 py-2">
                 <div class="row account-type-table" style="padding-bottom: 40px;" data-aos="fade-up" data-aos-duration="800">
                     <div class="position-absolute w-100 text-end" data-aos="zoom-in" data-aos-delay="400">
-                        <img src="assets/images/most-popular-belt.png" alt="Most Popular Belt" />
+                        <img src="assets/images/most-popular-belt.webp" alt="Most Popular Belt" />
                     </div>
                     <div class="col-12" style="height: 50px;">
 
@@ -467,7 +467,7 @@ if (false) {
         /* Vertical center */
         justify-content: center;
         /* Horizontal center */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/meta-trader-5-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/meta-trader-5-background.webp');
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -616,13 +616,13 @@ if (false) {
                 <p class="f-20 text-gray m-0 mx-auto text-center">
                     Access MT5 across Windows, macOS, iOS, and Android with unified login.
                 </p>
-                <img src="assets/images/meta-trader-5-logo.png" class="fluid-img meta-trader-logo mt-5">
+                <img src="assets/images/meta-trader-5-logo.webp" class="fluid-img meta-trader-logo mt-5">
             </div>
         </div>
         <div class="row" id="bg_meta_trader_5" data-aos="fade-up" data-aos-duration="800">
             <div class="col-md-12 image-wrapper mt-5">
-                <img src="assets/images/broker-platform-desktop.png" class="main-image" data-aos="fade-right" data-aos-duration="1500">
-                <img src="assets/images/broker-platform-mobile.png" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
+                <img src="assets/images/broker-platform-desktop.webp" class="main-image" data-aos="fade-right" data-aos-duration="1500">
+                <img src="assets/images/broker-platform-mobile.webp" class="main-mobile-image" data-aos="fade-left" data-aos-duration="2000">
                 <div class="desktop-view">
                     <!-- manage other Images -->
                     <div class="corner-image top-left">
@@ -900,7 +900,7 @@ if (false) {
         <!-- Stock -->
         <div class="col-md-4 stock-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="stock" title="Stock">
-                <img src="assets/images/tesla-logo.png" class="icon tesla" alt="Tesla">
+                <img src="assets/images/tesla-logo.webp" class="icon tesla" alt="Tesla">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Stock</h3>
@@ -909,14 +909,14 @@ if (false) {
                         <p class="text-start text-gray">Invest in global leaders like Apple, Tesla, and Microsoft for long-term growth.</p>
                     </div>
                 </div>
-                <img src="assets/images/apple-logo.png" class="icon apple" alt="Apple">
+                <img src="assets/images/apple-logo.webp" class="icon apple" alt="Apple">
             </a>
         </div>
 
         <!-- Metal -->
         <div class="col-md-4 metal-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="metal" title="Metal">
-                <img src="assets/images/metal-wire.png" class="icon metal-wire" alt="Gold">
+                <img src="assets/images/metal-wire.webp" class="icon metal-wire" alt="Gold">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Metal</h3>
@@ -925,14 +925,14 @@ if (false) {
                         <p class="text-start text-gray">Protect your wealth with safe-haven assets such as gold and silver.</p>
                     </div>
                 </div>
-                <img src="assets/images/metal-brick.png" class="icon metal-brick" alt="Silver">
+                <img src="assets/images/metal-brick.webp" class="icon metal-brick" alt="Silver">
             </a>
         </div>
 
         <!-- Indices -->
         <div class="col-md-4 indices-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="indicies" title="Indicies">
-                <img src="assets/images/naqsad-logo.png" class="icon nasdaq" alt="NASDAQ">
+                <img src="assets/images/naqsad-logo.webp" class="icon nasdaq" alt="NASDAQ">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Indicies</h3>
@@ -941,14 +941,14 @@ if (false) {
                         <p class="text-start text-gray">Diversify with top indices including the NASDAQ and <br>S&P 500.</p>
                     </div>
                 </div>
-                <img src="assets/images/s-p-500-logo.png" class="icon sp500" alt="NASDAQ">
+                <img src="assets/images/s-p-500-logo.webp" class="icon sp500" alt="NASDAQ">
             </a>
         </div>
 
         <!-- Forex -->
         <div class="col-md-4 forex-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="forex" title="Forex">
-                <img src="assets/images/doller-icon.png" class="icon doller" alt="USD Doller">
+                <img src="assets/images/doller-icon.webp" class="icon doller" alt="USD Doller">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Global Currency</h3>
@@ -957,7 +957,7 @@ if (false) {
                         <p class="text-start text-gray">Trade major currencies like the USD and Euro with high liquidity.</p>
                     </div>
                 </div>
-                <img src="assets/images/euro-icon.png" class="icon euro" alt="Euro">
+                <img src="assets/images/euro-icon.webp" class="icon euro" alt="Euro">
             </a>
         </div>
 
@@ -972,14 +972,14 @@ if (false) {
                         <p class="text-start text-gray">Seize opportunities in essential resources like oil and more.</p>
                     </div>
                 </div>
-                <img src="assets/images/oil-drum-icon.png" class="icon oil" alt="Oil">
+                <img src="assets/images/oil-drum-icon.webp" class="icon oil" alt="Oil">
             </a>
         </div>
 
         <!-- Crypto -->
         <div class="col-md-4 crypto-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
             <a href="crypto" title="Crypto">
-                <img src="assets/images/product-crypto-icon.png" class="icon crypto-icon" alt="Crypto Coin">
+                <img src="assets/images/product-crypto-icon.webp" class="icon crypto-icon" alt="Crypto Coin">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Crypto</h3>
@@ -988,7 +988,7 @@ if (false) {
                         <p class="text-start text-gray">Explore the future of finance with leading crypto coins.</p>
                     </div>
                 </div>
-                <img src="assets/images/product-bitcoin-logo.png" class="icon btc" alt="Bitcoin">
+                <img src="assets/images/product-bitcoin-logo.webp" class="icon btc" alt="Bitcoin">
             </a>
         </div>
 
@@ -1055,7 +1055,7 @@ if (false) {
 </style>
 
 <div class="position-absolute w-100 text-end set-diamond-image">
-    <img src="assets/images/background/redgreen-trading-candles-white-studio.png" alt="Candle Studio" style="width: 25%; margin-top: -50px;" />
+    <img src="assets/images/background/redgreen-trading-candles-white-studio.webp" alt="Candle Studio" style="width: 25%; margin-top: -50px;" />
 </div>
 
 <div id="technology_feature" class="text-center">
@@ -1077,7 +1077,7 @@ if (false) {
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="600">
-                                <img src="assets/images/copy-trading.png" class="w-100">
+                                <img src="assets/images/copy-trading.webp" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="700">
                                 <h3 class="fw-bold">Copy Trading</h3>
@@ -1100,7 +1100,7 @@ if (false) {
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="1200">
-                                <img src="assets/images/web-trade-icon.png?v=0.01" class="w-100">
+                                <img src="assets/images/web-trade-icon.webp?v=0.01" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1300">
                                 <h3 class="fw-bold">Web Trading</h3>
@@ -1123,7 +1123,7 @@ if (false) {
                     <div class="col-md-12 set-m-bottom">
                         <div class="row">
                             <div class="col-6" data-aos="fade-up" data-aos-duration="900">
-                                <img src="assets/images/advance-crm.png" class="w-100">
+                                <img src="assets/images/advance-crm.webp" class="w-100">
                             </div>
                             <div class="col-6 verticle-center text-start" data-aos="fade-up" data-aos-duration="1000">
                                 <h3 class="fw-bold">Advance CRM</h3>
@@ -1155,7 +1155,7 @@ if (false) {
         /* Vertical center */
         justify-content: center;
         /* Horizontal center */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/biginners-trader-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/biginners-trader-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1311,7 +1311,7 @@ if (false) {
 
         <div class="row">
             <div class="col-md-7" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/ipad-cross.png" class="w-100">
+                <img src="assets/images/ipad-cross.webp" class="w-100">
             </div>
 
             <div class="col-md-5">
@@ -1358,7 +1358,7 @@ if (false) {
 
         <div class="row align-items-stretch" data-aos="fade-up" data-aos-duration="800">
             <div class="position-absolute w-100 aos-init aos-animate set-diamond-image" data-aos="fade-up" data-aos-delay="800">
-                <img src="assets/images/silver-red-candle.png" alt="Candlestick" class="candle-img">
+                <img src="assets/images/silver-red-candle.webp" alt="Candlestick" class="candle-img">
             </div>
 
             <div class="col-md-12 feature-box">
@@ -1422,7 +1422,7 @@ if (false) {
         justify-content: center;
         /* Horizontal center */
         /* background-color: var(--zed-backgound-color); */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/how-to-start.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/how-to-start.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1486,7 +1486,7 @@ if (false) {
     .arrow-top-round {
         width: 28%;
         height: 30px;
-        background: url('<?php echo getBaseUrl(); ?>/assets/images/step-top-connector.png') no-repeat center;
+        background: url('<?php echo getBaseUrl(); ?>/assets/images/step-top-connector.webp') no-repeat center;
         background-size: contain;
         padding: 0 0 100px;
         margin: -10px 0px 160px -15px;
@@ -1495,7 +1495,7 @@ if (false) {
     .arrow-bottom-round {
         width: 28%;
         height: 30px;
-        background: url('<?php echo getBaseUrl(); ?>/assets/images/step-bottom-connector.png') no-repeat center;
+        background: url('<?php echo getBaseUrl(); ?>/assets/images/step-bottom-connector.webp') no-repeat center;
         background-size: contain;
         padding: 0 0 100px;
         margin: -25px;
@@ -1532,8 +1532,8 @@ if (false) {
             <!-- Step 1 -->
             <div class="step text-center">
                 <div class="step-circle">
-                    <img src="assets/images/step-bg.png" alt="Sign Up" class="default">
-                    <img src="assets/images/step-bg-hover.png" alt="Sign Up Hover" class="hover">
+                    <img src="assets/images/step-bg.webp" alt="Sign Up" class="default">
+                    <img src="assets/images/step-bg-hover.webp" alt="Sign Up Hover" class="hover">
                     <div class="step-title">Sign Up</div>
                 </div>
                 <div class="fw-semibold pt-5">Step 1</div>
@@ -1548,8 +1548,8 @@ if (false) {
             <!-- Step 2 -->
             <div class="step text-center">
                 <div class="step-circle">
-                    <img src="assets/images/step-bg.png" alt="Sign Up" class="default">
-                    <img src="assets/images/step-bg-hover.png" alt="Sign Up Hover" class="hover">
+                    <img src="assets/images/step-bg.webp" alt="Sign Up" class="default">
+                    <img src="assets/images/step-bg-hover.webp" alt="Sign Up Hover" class="hover">
                     <div class="step-title">Deposit</div>
                 </div>
                 <div class="fw-semibold pt-5">Step 2</div>
@@ -1564,8 +1564,8 @@ if (false) {
             <!-- Step 3 -->
             <div class="step text-center">
                 <div class="step-circle">
-                    <img src="assets/images/step-bg.png" alt="Sign Up" class="default">
-                    <img src="assets/images/step-bg-hover.png" alt="Sign Up Hover" class="hover">
+                    <img src="assets/images/step-bg.webp" alt="Sign Up" class="default">
+                    <img src="assets/images/step-bg-hover.webp" alt="Sign Up Hover" class="hover">
                     <div class="step-title">Start</div>
                 </div>
                 <div class="fw-semibold pt-5">Step 3</div>
@@ -1766,7 +1766,7 @@ if (false) {
         justify-content: center;
         /* Horizontal center */
         overflow: hidden;
-        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-chart-showing-upward-trend-growth-reverse.png');
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-chart-showing-upward-trend-growth-reverse.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat; */
@@ -1914,10 +1914,10 @@ if (false) {
 
             <!-- Right Image Column -->
             <div class="col-md-6 security-images" id="scroll_box" data-aos="fade-up" data-aos-duration="1000">
-                <img src="assets/images/fund-security.png" alt="Shield" class="img-shield">
-                <img src="assets/images/doller-fund-security.png" alt="Dollar Symbol" class="img-dollar" id="img_doller">
-                <img src="assets/images/euro-fund-security.png" alt="Euro Symbol" class="img-euro" id="img_euro">
-                <img src="assets/images/pound-fund-security.png" alt="Pound Symbol" class="img-pound" id="img_pound">
+                <img src="assets/images/fund-security.webp" alt="Shield" class="img-shield">
+                <img src="assets/images/doller-fund-security.webp" alt="Dollar Symbol" class="img-dollar" id="img_doller">
+                <img src="assets/images/euro-fund-security.webp" alt="Euro Symbol" class="img-euro" id="img_euro">
+                <img src="assets/images/pound-fund-security.webp" alt="Pound Symbol" class="img-pound" id="img_pound">
             </div>
         </div>
     </div>
@@ -1967,7 +1967,7 @@ if (false) {
         
             <!-- Left Text -->
             <div class="col-md-6 align-items-center nominee-letter-right">
-                <img src="assets/images/nominee-letter-right.png" style="position: absolute; margin: -210px -85px; width: 25%;">
+                <img src="assets/images/nominee-letter-right.webp" style="position: absolute; margin: -210px -85px; width: 25%;">
             </div>
             
             <!-- Right Image & Button -->

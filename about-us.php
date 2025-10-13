@@ -11,7 +11,7 @@ include_once ('elements/header.php');
 
     .about-us-section {
         padding: 100px 0 0 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -199,7 +199,7 @@ include_once ('elements/header.php');
             <!-- Mission -->
             <div class="col-md-6 hover-translateY">
                 <div class="position-relative set-diamond-image">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-mission.png" alt="Mission Image" class="position-absolute bottom-30 end-0 about-mission-img">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-mission.webp" alt="Mission Image" class="position-absolute bottom-30 end-0 about-mission-img">
                 </div>
                 <div class="card">
                     <h2 class="h2 pb-5 mb-0">
@@ -219,7 +219,7 @@ include_once ('elements/header.php');
             <!-- Vision -->
              <div class="col-md-6 hover-translateY">
                 <div class="position-relative set-diamond-image">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-vision.png" alt="Vision Image" class="position-absolute bottom-30 end-0 about-vision-img">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-vision.webp" alt="Vision Image" class="position-absolute bottom-30 end-0 about-vision-img">
                 </div>
                 <div class="card">
                     <h2 class="h2 pb-5 mb-0">
@@ -242,7 +242,7 @@ include_once ('elements/header.php');
 
 <style>
     .key-feature-service{
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/key-feature-service.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/key-feature-service.webp');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -519,7 +519,7 @@ include_once ('elements/header.php');
             <!-- Left Image -->
             <div class="col-md-7">
                 <div class="regulatory-left">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/regulatory-assurance.png" alt="Regulatory Assurance">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/regulatory-assurance.webp" alt="Regulatory Assurance">
                 </div>
             </div>
             <!-- Right Text -->
@@ -582,7 +582,7 @@ include_once ('elements/header.php');
                 <div class="position-relative">
                     <div class="row">
                         <div class="col-md-12 text-end position-absolute set-diamond-image">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/stand-by-users.png" alt="Client Icon" class="" style="width: 200px; margin: -75px -45px 0 0;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/stand-by-users.webp" alt="Client Icon" class="" style="width: 200px; margin: -75px -45px 0 0;">
                         </div>
                     </div>
                     <div class="card-background position-relative">
@@ -601,7 +601,7 @@ include_once ('elements/header.php');
                 <div class="position-relative">
                     <div class="row">
                         <div class="col-md-12 text-end position-absolute set-diamond-image">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/register-note.png" alt="Client Icon" class="" style="width: 120px; margin: -75px -45px 0 0;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/register-note.webp" alt="Client Icon" class="" style="width: 120px; margin: -75px -45px 0 0;">
                         </div>
                     </div>
                     <div class="card-background position-relative">
@@ -621,7 +621,7 @@ include_once ('elements/header.php');
 
 <style>
     .presence-section {
-        background: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-globe-background.png') no-repeat center top / cover;
+        background: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-globe-background.webp') no-repeat center top / cover;
         text-align: center;
         padding: 60px 20px;
         position: relative;
@@ -846,7 +846,7 @@ include_once ('elements/header.php');
         <div class="row">
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-stock.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-stock.webp" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
                         <a href="<?php echo getBaseUrl(); ?>/stock" class="text-decoration-none">
                             Stock
@@ -857,7 +857,7 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-metal.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-metal.webp" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
                         <a href="<?php echo getBaseUrl(); ?>/metal" class="text-decoration-none">
                             Metal
@@ -868,7 +868,7 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-indices.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-indices.webp" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
                         <a href="<?php echo getBaseUrl(); ?>/indices" class="text-decoration-none">
                             Indices
@@ -879,7 +879,7 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-forex.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-forex.webp" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
                         <a href="<?php echo getBaseUrl(); ?>/forex" class="text-decoration-none">
                             Forex
@@ -890,7 +890,7 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-commodities.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-commodities.webp" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
                         <a href="<?php echo getBaseUrl(); ?>/commodities" class="text-decoration-none">
                             Commodities
@@ -901,7 +901,7 @@ include_once ('elements/header.php');
 
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-crypto.png" width="50" class="stock-icon" alt="Stock Icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-crypto.webp" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
                         <a href="<?php echo getBaseUrl(); ?>/crypto" class="text-decoration-none">
                             Crypto
@@ -919,7 +919,7 @@ include_once ('elements/header.php');
   
     .value-section {
         position: relative;
-        background: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-value-background.png') no-repeat center center/cover;
+        background: url('<?php echo getBaseUrl(); ?>/assets/images/background/about-us-value-background.webp') no-repeat center center/cover;
         height: 500px;
         display: flex;
         align-items: end;

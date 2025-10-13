@@ -11,7 +11,7 @@ include_once ('elements/header.php');
 <style>
     .indices-header{
         padding: 100px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-indices-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-indices-background.webp');
         background-size: cover;
         background-position: unset;
         background-repeat: no-repeat;
@@ -90,7 +90,7 @@ include_once ('elements/header.php');
 
             <!-- Image Column -->
             <div class="col-md-7 text-black d-none d-lg-block" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-indices.png" class="img-fluid">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-indices.webp" class="img-fluid">
             </div>
 
         </div>
@@ -158,7 +158,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0 text-center" data-aos="fade-up" data-aos-duration="800" >
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/indicies-benefit.png" class="w-100" alt="indices Benefit">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/indicies-benefit.webp" class="w-100" alt="indices Benefit">
         </div>
         
         <!-- Right Side Text -->
@@ -536,7 +536,7 @@ include_once ('elements/header.php');
     .stock-section {
         color: white;
         padding: 80px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/indicies-trading-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/indicies-trading-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

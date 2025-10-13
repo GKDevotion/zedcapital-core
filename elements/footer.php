@@ -541,7 +541,7 @@
 
                 return `
                 <div class="map-tooltip">
-                    <div class="title"><img src='https://flagcdn.com/w20/${market.slug}.png'/> ${market.name}</div>
+                    <div class="title"><img src='https://flagcdn.com/w20/${market.slug}.webp'/> ${market.name}</div>
                     <div>Local time: <b>${localTimeStr}</b></div>
                     <div class="status ${isOpen ? 'open' : 'closed'}">${isOpen ? 'OPEN' : 'CLOSED'}</div>
                     <div class="timeline"><div class="bar" style="width:${percent.toFixed(1)}%;"></div></div>
@@ -573,7 +573,7 @@
                         return `
                     <div class="col-md-3 mb-3">
                         <div class="market ${isOpen ? '' : 'closed'}">
-                        <h5><img src='https://flagcdn.com/w40/${market.slug}.png'/> ${market.name}</h5>
+                        <h5><img src='https://flagcdn.com/w40/${market.slug}.webp'/> ${market.name}</h5>
                         <div class="status">${isOpen ? 'OPEN' : 'CLOSED'}</div>
                         <div class="timeline"><div class="bar" style="width:${isOpen ? percent.toFixed(1) : 0}%;"></div></div>
                         <small>Hours: ${formatTime(open)} - ${formatTime(close)} (UTC)</small>
@@ -653,7 +653,7 @@
 
                 markets.forEach(market => {
                     const isOpen = checkMarketOpen(market);
-                    const iconUrl = `https://flagcdn.com/w80/${market.slug}.png`;
+                    const iconUrl = `https://flagcdn.com/w80/${market.slug}.webp`;
 
                     class CustomMarker extends google.maps.OverlayView {
                         constructor(position, map) {

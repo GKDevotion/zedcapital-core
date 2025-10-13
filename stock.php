@@ -11,7 +11,7 @@ include_once ('elements/header.php');
 <style>
     .stock-header{
         padding: 120px 0; /* Adjust padding as needed */
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-stock-background.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/product-stock-background.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -34,7 +34,7 @@ include_once ('elements/header.php');
     }
 
     .our-commitment-bg{
-        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.png');
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/dotted-bg.webp');
         background-size: contain;
         background-position: center;
         position: relative;
@@ -143,7 +143,7 @@ include_once ('elements/header.php');
         
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="850">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-benefit.png" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-benefit.webp" class="w-100 ps-0 ps-md-5" alt="Regulatory Assurance">
         </div>
         
         <!-- Right Side Text -->
@@ -504,7 +504,7 @@ include_once ('elements/header.php');
     .stock-section {
         padding: 80px 0;
         background-color: var(--zed-primary);
-        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-trading-background.png'); */
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/stock-trading-background.webp'); */
 
         color: white;
         background-size: contain;
@@ -602,14 +602,14 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
              <div class="col-lg-6 col-md-12 p-0 px-2">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/Global-Equities-at-Your-Fingertips.png" alt="" class="w-100">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/Global-Equities-at-Your-Fingertips.webp" alt="" class="w-100">
             </div>
             <div class="col-lg-5 col-md-12 p-0 d-none">
                 <div class="position-relative set-diamond-image">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-tesla-icon.png" alt="stock tesla icon" class="position-absolute bottom-0 end-0 float-y stock-tesla-icon">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-amazon-icon.png" alt="stock amazon icon" class="position-absolute bottom-0 end-0 float-y stock-amazon-icon">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-nikkie-icon.png" alt="stock nikkie icon" class="position-absolute bottom-0 end-0 float-y stock-nikkie-icon">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-apple-icon.png" alt="stock apple icon" class="position-absolute bottom-0 end-0 float-y stock-apple-icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-tesla-icon.webp" alt="stock tesla icon" class="position-absolute bottom-0 end-0 float-y stock-tesla-icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-amazon-icon.webp" alt="stock amazon icon" class="position-absolute bottom-0 end-0 float-y stock-amazon-icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-nikkie-icon.webp" alt="stock nikkie icon" class="position-absolute bottom-0 end-0 float-y stock-nikkie-icon">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/stock-apple-icon.webp" alt="stock apple icon" class="position-absolute bottom-0 end-0 float-y stock-apple-icon">
                 </div>
             </div>
         </div>
