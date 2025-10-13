@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Asian Financial Market | Trade & Invest with Zed Academy",
+    "description" => "Discover the Asian financial market with Zed Academy. Learn trading strategies, market trends, and investment opportunities across Asian stocks, indices, and forex.",
+    "keyword" => "Asian financial market, trade Asian stocks, Asian market investment, Zed Academy trading, Asian stock indices, how to trade Asian financial markets online, investment opportunities in Asian stocks and indices, Asian forex and stock trading strategies, Zed Academy guide to Asian financial markets, trade major Asian indices like Nikkei, Hang Seng, KOSPI, learn trading in Asian financial markets for beginners, expert insights into Asian stock and forex trading"
+];
 include_once ('elements/header.php');
 ?>
 
@@ -37,6 +42,9 @@ include_once ('elements/header.php');
     <!-- Financial Market Section -->
     <div class="bg-light text-dark mt-4 rounded-4 p-4 d-flex justify-content-between align-items-center flex-wrap">
         <div>
+            <h1 class="d-none">
+                Asian Financial Market - Trade & Invest with Confidence
+            </h1>
             <h2 class="fw-bold">Asian Financial Market</h2>
             <p class="text-secondary mb-0">U.S. stock market live Index news today</p>
         </div>

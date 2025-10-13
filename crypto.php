@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Trade the Future of Digital Assets | Crypto & Blockchain Trading - Zed Academy",
+    "description" => "Trade the future of digital assets with Zed Academy. Access crypto CFDs, blockchain assets, and real-time market insights to invest and trade confidently.",
+    "keyword" => "digital assets trading, crypto trading, blockchain assets, crypto CFDs, Zed Academy digital assets, how to trade the future of digital assets, invest in cryptocurrency and blockchain assets, Zed Academy guide to digital asset trading, trade bitcoin, ethereum, and other crypto CFDs, strategies for trading digital assets confidently, future of crypto and blockchain investment, online platform for trading digital assets and cryptocurrencies"
+];
 include_once ('elements/header.php');
 // include_once ('elements/product-child-menu');
 ?>
@@ -121,9 +126,9 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-6 text-black" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="fw-bold h2 mb-5">
+                <h1 class="fw-bold h2 mb-5">
                     Trade the Future of <br>Digital Assets
-                </h2>
+                </h1>
                 <div class="p-1 crypto-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray" data-aos="fade-up" data-aos-delay="800">
                     Cryptocurrencies are transforming modern finance, reshaping money, investment and technology. A fast growing, innovative market, they offer traders worldwide new opportunities and access to one of the most exciting financial frontiers.
@@ -813,7 +818,7 @@ $paramArr = [
 
 $videoArr = [
     [
-        'id' => "TJoHjnSh8SI",
+        'id' => "YdDFphGIa1M ",
         "title" => "What is Crypto?",
         "description" => "Crypto power the world — from the oil in your car to the gold in your jewelry and the coffee in your cup.",
     ],

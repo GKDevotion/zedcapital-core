@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Nomination Trading Done Right | Expert Strategies & Guidance",
+    "description" => "Learn nomination trading done right with expert strategies, guidance, and practical tips. Trade confidently and optimize your financial growth with Zed Academy.",
+    "keyword" => "nomination trading, trading strategies, expert trading guidance, Zed Academy trading, financial market trading, nomination trading done right step by step, how to succeed in nomination trading, expert strategies for nomination trading, nomination trading guide for beginners, Zed Academy nomination trading tips, effective methods for nomination trading success, learn nomination trading online confidently"
+];
 include_once ('elements/header.php');
 ?>
 

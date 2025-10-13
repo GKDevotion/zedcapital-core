@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Terms & Conditions | Zed Academy – Learn. Trade. Succeed.",
+    "description" => "Read Zed Academy's Terms & Conditions. Understand our rules, user responsibilities, and guidelines for using our trading and educational platform safely.",
+    "keyword" => "terms and conditions, user agreement, trading platform rules, Zed Academy policies, online trading terms, Zed Academy terms and conditions for users, online trading platform user agreement and policies, rules and regulations for using Zed Academy, terms and conditions for trading courses and mentorship, legal policies for secure online trading education"
+];
 include_once ('elements/header.php');
 ?>
 

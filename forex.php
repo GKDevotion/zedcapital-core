@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Trade the World's Largest Financial Market | Zed Academy Forex Guide",
+    "description" => "Trade the world's largest financial market with Zed Academy. Learn forex strategies, access global liquidity, and invest confidently in international markets.",
+    "keyword" => "largest financial market, forex trading, global market trading, Zed Academy trading, international trading platform, how to trade the world's largest financial market online, strategies for trading global financial markets, Zed Academy guide to forex and global markets, trade currency and forex in the world's largest market, learn professional trading in international markets, best platform to trade the world's largest financial market, global forex trading tips and insights"
+];
 include_once ('elements/header.php');
 // include_once ('elements/product-child-menu');
 ?>
@@ -72,9 +77,9 @@ include_once ('elements/header.php');
 
             <!-- Text Column -->
             <div class="col-md-6 text-black"  >
-                <h2 class="fw-bold h2 mb-5 pe-2" data-aos="fade-up" data-aos-duration="800">
+                <h1 class="fw-bold h2 mb-5 pe-2" data-aos="fade-up" data-aos-duration="800">
                     Trade the World's Largest Financial Market
-                </h2>
+                </h1>
                 <div class="p-1 forex-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-75" data-aos="fade-up" data-aos-delay="800">
                     <b>Forex</b> is the world's largest financial market, where currencies trade continuously across major, minor and exotic pairs driven by macroeconomics, central bank policy and market sentiment.

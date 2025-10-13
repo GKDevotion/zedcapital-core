@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Trade Indices | Stock Market Index Trading Guide - Zed Academy",
+    "description" => "Learn how to trade indices with Zed Academy. Explore global stock market indices, strategies, and tips to maximize your trading opportunities confidently.",
+    "keyword" => "indices trading, stock market indices, trade global indices, index trading strategies, Zed Academy indices, how to trade stock market indices online, best strategies for indices trading, Zed Academy guide to global indices, learn indices trading for beginners, trade S&P 500, Dow Jones, NASDAQ, FTSE, stock indices trading tips and analysis, invest in global stock market indices"
+];
 include_once ('elements/header.php');
 // include_once ('elements/product-child-menu');
 ?>
@@ -76,7 +81,7 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-5 text-black py-5 px-3 px-md-0" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="h2 mb-5">Trade Global Indices</h2>
+                <h1 class="h2 mb-5">Trade Global Indices</h1>
                 <div class="p-1 indices-header-divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-100" data-aos="fade-up" data-aos-delay="800">
                     Access leading global indices with Zed Capital International Ltd. Trade broad market performance in a single instrument and capture trends, diversify efficiently and express macro views without stock selection with transparent execution.

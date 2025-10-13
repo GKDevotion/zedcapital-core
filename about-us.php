@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "About Us | Zed Academy - Learn, Trade & Succeed in Global Markets",
+    "description" => "Learn about Zed Academy, a global trading education platform. Discover our mission, vision, and commitment to empowering traders with knowledge and tools.",
+    "keyword" => "about Zed Academy, trading education, financial market experts, learn to trade, ZED Capital information, about Zed Academy and its trading mission, learn trading and investing with Zed Academy, Zed Academy expert trading education and resources, who we are at Zed Academy global trading platform, mission and vision of Zed Academy for traders, trading courses, insights, and tools from Zed Academy, global trading education and investment guidance"
+];
 include_once ('elements/header.php');
 ?>
 

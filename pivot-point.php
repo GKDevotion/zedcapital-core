@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "To Calculate Pivot Points | Forex & Stock Trading Guide",
+    "description" => "Learn how to calculate pivot points for forex and stock trading. Discover formulas, examples, and tips to identify key support and resistance levels.",
+    "keyword" => "pivot points, calculate pivot points, pivot point formula, forex pivot points, stock market pivot points, how to calculate pivot points for forex trading, step by step pivot points calculation guide, pivot points formula for stocks and forex, best method to calculate intraday pivot points, pivot points trading strategy for beginners, calculate daily pivot points for market analysis, support and resistance levels using pivot points"
+];
 include_once ('elements/header.php');
 ?>
 

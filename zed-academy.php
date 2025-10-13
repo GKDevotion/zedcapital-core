@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Zed Academy | Learn. Trade. Succeed in Financial Markets",
+    "description" => "Join Zed Academy to learn professional trading skills, master market strategies, and achieve success with expert guidance and real-time trading education.",
+    "keyword" => "trading academy, learn trading online, forex trading courses, stock market training, zed academy trading, trading education platform, best online trading academy for beginners, learn how to trade forex and stocks with Zed Academy, professional trading education with real market experience, transparent trading training program, online trading mentorship for success, Zed Academy learn trade and succeed program"
+];
 include_once ('elements/header.php');
 ?>
 
@@ -34,7 +39,7 @@ include_once ('elements/header.php');
             <!-- Text Column -->
             <div class="col-md-6 text-white align-items-center" data-aos="fade-up" data-aos-delay="800">
                 <p class="" style="font-size: 1.6rem">Zed Academy</p>
-                <h2 class="fw-bold h2 mb-5">Learn. Trade. <br>Success.</h2>
+                <h1 class="fw-bold h2 mb-5">Learn. Trade. <br>Success.</h1>
                 <div class="p-1 divider-back" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 w-75" data-aos="fade-up" data-aos-delay="800">
                 Access structured video courses led by experienced professionals covering 

@@ -1,4 +1,10 @@
 <?php
+$seoArr = [
+    "title" => "Client Fund Security | Safe & Transparent Trading with Zed Academy",
+    "description" => "Learn about client fund security measures. Protect your investments with segregated accounts, transparent policies, and reliable trading practices.",
+    "keyword" => "client fund security, secure trading funds, protected investments, Zed Academy safety, fund protection, how Zed Academy ensures client fund security, safe and secure trading fund policies, segregated client accounts for fund protection, transparent trading practices to protect funds, fund security measures for traders, client fund protection in online trading platforms, ensure investment safety with secure fund policies"
+];
+
 include_once('elements/header.php');
 ?>
 
@@ -9,6 +15,9 @@ include_once('elements/header.php');
         margin-top: 120px;
     }
 </style>
+<h1 class="d-none">
+    Client Fund Security - Trade Safely with Confidence
+</h1>
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -1985,7 +1994,7 @@ include_once('elements/header.php');
 
         </div>
 
-        <div class="position-relative set-diamond-image d-none" data-aos="fade-up" data-aos-delay="800">
+        <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-delay="800">
             <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/common-2-diamonds.png" alt="Corner Image" class="position-absolute bottom-30 end-0 float-y" style="width: 150px;height: 120px;margin: 50px 75px;">
         </div>
     </div>

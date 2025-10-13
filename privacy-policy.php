@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Privacy Policy | Zed Academy - Protecting Your Data & Privacy",
+    "description" => "Read Zed Academy's Privacy Policy to understand how we collect, use, and protect your personal data while ensuring transparency and trust in our platform.",
+    "keyword" => "privacy policy, data protection, user privacy, Zed Academy data security, trading platform privacy, Zed Academy privacy policy for users, how Zed Academy collects and protects personal data, data protection policy for online trading education, secure user information and privacy guidelines, online trading platform privacy and confidentiality, managing personal data in trading platforms"
+];
 include_once ('elements/header.php');
 ?>
 

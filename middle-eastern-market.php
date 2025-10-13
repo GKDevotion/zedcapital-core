@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Middle Eastern Financial Market | Trade & Invest with Zed Academy",
+    "description" => "Discover the Middle Eastern financial market with Zed Academy. Learn trading strategies, market insights, and investment opportunities for regional growth.",
+    "keyword" => "Middle Eastern financial market, trade Middle East stocks, invest in Middle Eastern markets, regional market insights, Zed Academy trading, how to trade in Middle Eastern financial markets, investment opportunities in Middle Eastern markets, Middle Eastern stock market trading guide, learn trading in Middle East financial markets, Zed Academy Middle Eastern market insights, strategies for Middle Eastern market investment, Middle Eastern forex and stock trading tips"
+];
 include_once ('elements/header.php');
 ?>
 
@@ -37,6 +42,9 @@ include_once ('elements/header.php');
     <!-- Financial Market Section -->
     <div class="bg-light text-dark mt-4 rounded-4 p-4 d-flex justify-content-between align-items-center flex-wrap">
         <div>
+            <h1 class="d-none">
+                Middle Eastern Financial Market - Trade & Invest with Confidence
+            </h1>
             <h2 class="fw-bold">Middle Estern Market</h2>
             <p class="text-secondary mb-0">U.S. stock market live Index news today</p>
         </div>

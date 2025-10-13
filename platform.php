@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "MetaTrader 5 | The Professional Trading Platform for Investors",
+    "description" => "MetaTrader 5 is the platform of professionals. Access advanced trading tools, real-time charts, and multi-asset markets to trade confidently.",
+    "keyword" => "MetaTrader 5, MT5 platform, professional trading platform, advanced trading tools, forex and stock trading, MetaTrader 5 platform for professional traders, best trading platform for forex and stocks, advanced trading tools with MetaTrader 5, automated trading and expert advisors in MT5, trade multiple markets using MetaTrader 5"
+];
 include_once('elements/header.php');
 ?>
 
@@ -265,14 +270,14 @@ include_once('elements/header.php');
                     Experience next generation trading infrastructure engineered for stability, transparency and control.
                 </p>
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start meta-trader-logo-container">
-                    <img src="assets/images/meta-trader-5-logo.png" alt="Meta Trader 5 Logo" class="img-fluid me-2" style="width: 300px;" data-aos="fade-up" data-aos-duration="800">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/meta-trader-5-logo.png" alt="Meta Trader 5 Logo" class="img-fluid me-2" style="width: 300px;" data-aos="fade-up" data-aos-duration="800">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up" data-aos-duration="800">
-                <img src="assets/images/platform-mobile-desktop.png" alt="Meta Trader 5 Platform Mockup" class="img-fluid d-none d-lg-block">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/platform-mobile-desktop.png" alt="Meta Trader 5 Platform Mockup" class="img-fluid d-none d-lg-block">
 
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/diamonds/platform-2-diamonds.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 120px; height: 70px; margin: -85px -50px;">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/platform-2-diamonds.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 120px; height: 70px; margin: -85px -50px;">
                 </div>
             </div>
         </div>
@@ -292,22 +297,22 @@ include_once('elements/header.php');
                 <div class="desktop-view">
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="300">
                         <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
-                            <img src="assets/images/win-logo-black.png" alt="Windows" style="width: 40px;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/win-logo-black.png" alt="Windows" style="width: 40px;">
                         </a>
                     </div>
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="500">
                         <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
-                            <img src="assets/images/android-logo-black.png" alt="Android" style="width: 40px;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/android-logo-black.png" alt="Android" style="width: 40px;">
                         </a>
                     </div>
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="700">
                         <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
-                            <img src="assets/images/apple-logo-black.png" alt="Apple" style="width: 40px;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/apple-logo-black.png" alt="Apple" style="width: 40px;">
                         </a>
                     </div>
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="900">
                         <div id="openPlatformDesktopMT5WebTrader" class="custom-pointer" target="_blank" title="Download Web Trader">
-                            <img src="assets/images/desktop-logo-black.png" alt="Desktop" style="width: 40px;">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/desktop-logo-black.png" alt="Desktop" style="width: 40px;">
                         </div>
                     </div>
                 </div>
@@ -317,28 +322,28 @@ include_once('elements/header.php');
                         <div class="col-3">
                             <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="300">
                                 <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
-                                    <img src="assets/images/win-logo-black.png" alt="Windows" style="width: 40px;">
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/win-logo-black.png" alt="Windows" style="width: 40px;">
                                 </a>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="500">
                                 <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
-                                    <img src="assets/images/android-logo-black.png" alt="Android" style="width: 40px;">
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/android-logo-black.png" alt="Android" style="width: 40px;">
                                 </a>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="700">
                                 <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Apple App">
-                                    <img src="assets/images/apple-logo-black.png" alt="Apple" style="width: 40px;">
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/apple-logo-black.png" alt="Apple" style="width: 40px;">
                                 </a>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="900">
                                 <a href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
-                                    <img src="assets/images/desktop-logo-black.png" alt="Desktop" style="width: 40px;">
+                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/desktop-logo-black.png" alt="Desktop" style="width: 40px;">
                                 </a>
                             </div>
                         </div>
@@ -353,7 +358,7 @@ include_once('elements/header.php');
                 </p>
 
                 <div class="position-relative set-diamond-image">
-                    <img src="assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -140px -50px;">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -140px -50px;">
                 </div>
             </div>
         </div>
@@ -428,7 +433,7 @@ include_once('elements/header.php');
 
         <!-- Right Image -->
         <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-duration="1000">
-            <img src="assets/images/experience-the-power.png" alt="MetaTrader 5 Interface" class="mt5-image">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/experience-the-power.png" alt="MetaTrader 5 Interface" class="mt5-image">
         </div>
     </div>
 </div>
@@ -555,13 +560,13 @@ include_once ('elements/feature-trading-icons.php');
                 </div>
 
                 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="400">
-                    <img src="assets/images/anroid-3x.png" alt="Corner Image" class="position-absolute end-0 bottom-0" style="margin: -125px 20px">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/anroid-3x.png" alt="Corner Image" class="position-absolute end-0 bottom-0" style="margin: -125px 20px">
                 </div>
             </div>
 
             <!-- Platform Icons -->
             <div class="d-flex platform-icons mt-4 set-diamond-image" data-aos="fade-up" data-aos-duration="900">
-                <img src="assets/images/apple-3x.png" class="platform-apple-icon" alt="Apple">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/apple-3x.png" class="platform-apple-icon" alt="Apple">
             </div>
         </div>
 
@@ -736,7 +741,7 @@ include_once ('elements/feature-trading-icons.php');
                                 
                             </div>
                             <div class="col-lg-6 text-end set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                                <img src="assets/images/half-tab.png" alt="MT5 Screenshot" class="img-responsive w-100">
+                                <img src="<?php echo getBaseUrl(); ?>/assets/images/half-tab.png" alt="MT5 Screenshot" class="img-responsive w-100">
                             </div>
                             <div class="col-sm-12 col-12 pt-0 pt-md-5" data-aos="fade-up" data-aos-duration="800">
                                 <ul class="web-trading-arrow-list">
@@ -801,7 +806,7 @@ include_once ('elements/feature-trading-icons.php');
                         </ul>
                     </div>
                     <div class="col-sm-4 p-0 set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                        <img src="assets/images/half-mobile.png" class="MT5-web-trader" style="">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/half-mobile.png" class="MT5-web-trader" style="">
                     </div>
                 </div>
             </div>

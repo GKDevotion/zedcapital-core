@@ -9,12 +9,12 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
-        <title>Best Forex Trading Platform | Top Online Forex (FX) Broker | Trusted Currency Trading - Zed Capital</title>
+        <title><?php echo $seoArr['title'];?></title>
         <base href="<?php echo getBaseUrl(); ?>">
-        <meta name="description" content="Best Forex Trading Platform. Trusted Online FX Broker for Currency Trading. Access top tools, low spreads, and secure trading. Start your Forex journey now!">
+        <meta name="description" content="<?php echo $seoArr['description'];?>">
         <meta name="googlebot" content="index">
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-        <meta name="author" content="">
+        <meta name="author" content="ZedCapital">
         <meta name="copyright" content="Copyright (c) 2025">
         <meta name="generator" content="ZedCapital">
 
@@ -25,8 +25,8 @@
 
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
-        <meta property="og:title" content="Best Forex Trading Platform | Top Online Forex (FX) Broker | Trusted Currency Trading - Zed Capital">
-        <meta property="og:description" content="Best Forex Trading Platform. Trusted Online FX Broker for Currency Trading. Access top tools, low spreads, and secure trading. Start your Forex journey now!">
+        <meta property="og:title" content="<?php echo $seoArr['title'];?>">
+        <meta property="og:description" content="<?php echo $seoArr['description'];?>">
         <meta property="og:url" content="<?php echo getCurrentUrl(); ?>">
         <meta property="og:site_name" content="ZedCapital">
         <meta property="og:image" content="<?php echo getCurrentUrl(); ?>/assets/images/logo.png">
@@ -37,9 +37,9 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@ZedCapital">
         <meta name="twitter:label1" content="Est. reading time">
-        <meta name="twitter:data1" content="5 minutes">
-        <meta name="twitter:title" content="Best Forex Trading Platform | Top Online Forex (FX) Broker | Trusted Currency Trading - Zed Capital" />
-        <meta name="twitter:description" content="Best Forex Trading Platform. Trusted Online FX Broker for Currency Trading. Access top tools, low spreads, and secure trading. Start your Forex journey now!" />
+        <meta name="twitter:data1" content="10 minutes">
+        <meta name="twitter:title" content="<?php echo $seoArr['title'];?>" />
+        <meta name="twitter:description" content="<?php echo $seoArr['description'];?>" />
         <meta name="twitter:image" content="<?php echo getCurrentUrl(); ?>/assets/images/logo.png" />
 
         <link rel="canonical" href="<?php echo getCurrentUrl(); ?>">

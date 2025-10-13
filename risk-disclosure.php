@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Risk Disclosure Policy | Zed Academy - Trading & Investment Risks",
+    "description" => "Read Zed Academy's Risk Disclosure Policy. Understand the risks involved in trading and investing in global markets to make informed and responsible decisions.",
+    "keyword" => "risk disclosure, trading risks, investment risk policy, Zed Academy risk, financial risk warning, Zed Academy risk disclosure policy for traders, understanding trading and investment risks, risk warning for online trading platforms, how to manage financial risks in trading, trading risk management and disclosure statement, potential risks of trading global equities and forex"
+];
 include_once ('elements/header.php');
 ?>
 

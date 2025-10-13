@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "American Financial Market | Trade & Invest with Zed Academy",
+    "description" => "Discover the American financial market with Zed Academy. Learn trading strategies, market trends, and investment opportunities across US stocks, indices, and forex.",
+    "keyword" => "American financial market, trade US stocks, American market investment, Zed Academy trading, US stock indices, how to trade American financial markets online, investment opportunities in US stocks and indices, American forex and stock trading strategies, Zed Academy guide to American financial markets, trade major US indices like S&P 500, Dow Jones, NASDAQ, learn trading in American financial markets for beginners, expert insights into US stock and forex trading"
+];
 include_once ('elements/header.php');
 ?>
 
@@ -43,6 +48,9 @@ include_once ('elements/header.php');
     <!-- Financial Market Section -->
     <div class="bg-light text-dark mt-4 rounded-4 p-4 d-flex justify-content-between align-items-center flex-wrap">
         <div>
+            <h1 class="d-none">
+                American Financial Market - Trade & Invest with Confidence
+            </h1>
             <h2 class="fw-bold">American Financial Market</h2>
             <p class="text-secondary mb-0">U.S. stock market live Index news today</p>
         </div>

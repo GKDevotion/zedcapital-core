@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Forex Profit Calculator | Calculate Potential Forex Trading Gains",
+    "description" => "Use Zed Academy's Forex Profit Calculator to estimate your trading gains. Calculate potential profits and plan your forex trades with accuracy and confidence.",
+    "keyword" => "forex profit calculator, forex trading calculator, calculate forex gains, trading profit estimator, Zed Academy forex tool, how to calculate forex profits online, forex trading profit calculator for beginners, calculate potential gains in forex trading, Zed Academy forex trading calculator tool, forex profit and loss calculation guide, accurate forex profit estimation online"
+];
 include_once ('elements/header.php');
 ?>
 

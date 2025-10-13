@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "It's Time to Gear Up | Learn Trading & Achieve Success with Zed Academy",
+    "description" => "It's time to gear up your trading career. Learn proven trading strategies, gain market skills, and succeed with expert guidance at Zed Academy.",
+    "keyword" => "gear up trading, learn trading online, zed academy courses, trading for beginners, trading success program, it's time to gear up for trading success, how to learn trading step by step with Zed Academy, best trading education platform for beginners, trading mentorship to achieve financial goals, learn forex and stock trading online with experts"
+];
 include_once ('elements/header.php');
 ?>
 
@@ -69,10 +74,10 @@ include_once ('elements/header.php');
         <div class="row align-items-center flex-column-reverse flex-md-row">
             <div class="col-md-6 text-center text-md-start mt-100" data-aos="fade-up" data-aos-delay="800">
                 <!-- <div class="subheading d-none" data-aos="fade-up" data-aos-delay="800">Tools Overview</div> -->
-                <h2 class="h2 mt-0" data-aos="fade-up" data-aos-delay="800">
+                <h1 class="h2 mt-0" data-aos="fade-up" data-aos-delay="800">
                     IT'S TIME TO<br>
                     GEAR UP
-                </h2>
+                </h1>
 
                 <div class="tools-res-divider" data-aos="fade-up" data-aos-duration="850"></div>
 

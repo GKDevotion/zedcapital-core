@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Trade Global Commodities | Gold, Oil, and More - Zed Academy",
+    "description" => "Trade global commodities with Zed Academy. Access gold, silver, oil, and other markets, with expert insights, strategies, and real-time pricing.",
+    "keyword" => "global commodities trading, trade gold and oil, commodity market, Zed Academy trading, precious and industrial metals, how to trade global commodities online, trade gold, silver, oil, and other commodities, Zed Academy guide to commodities trading, commodities trading strategies for beginners and pros, live commodity prices and trading insights, global commodities market investment tips, online platform for trading precious and industrial commodities"
+];
 include_once ('elements/header.php');
 // include_once ('elements/product-child-menu');
 ?>
@@ -74,7 +79,7 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-6 text-black" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="fw-bold h2 mb-5">Trade Global Commodities</h2>
+                <h1 class="fw-bold h2 mb-5">Trade Global Commodities</h1>
                 <div class="p-1 divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray" data-aos="fade-up" data-aos-delay="800">
                     The global commodities market is among the most vital and actively traded sectors, spanning energy that powers industries to  agricultural products sustaining daily life, reflecting the true backbone of the world economy.

@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Transparent Trading System | Fair & Secure Investment Platform",
+    "description" => "Discover a transparent trading system designed for fairness, accuracy, and investor trust. Trade confidently with real-time insights and zero hidden fees.",
+    "keyword" => "transparent trading, trading transparency, secure trading system, fair trading platform, transparent investment platform, best transparent trading system for investors, how transparent trading systems build trust, benefits of a transparent trading platform, secure and transparent online trading platform, real-time transparent trading data system, open and fair trading technology solutions, transparent trading software for brokers, regulated transparent trading company"
+];
 include_once ('elements/header.php');
 ?>
 
@@ -102,6 +107,9 @@ include_once ('elements/header.php');
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/background/why-zed-header-white-dot-background.png" alt="Corner Image" class="position-absolute top-0 start-0 why-zed-header-white-dot-background">
             </div>
             <div class="col-lg-5 col-md-6 text-md-start text-center" data-aos="fade-up" data-aos-duration="800">
+                <h1 class="d-none">
+                    Transparent Trading System: Building Trust Through Clarity
+                </h1>
                 <h2 class="fw-bold text-white mb-5 h2">
                      Transparent 
                      <br>

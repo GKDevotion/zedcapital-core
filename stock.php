@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "Trade Global Equities | Invest in Stocks Worldwide with Zed Academy",
+    "description" => "Trade global equities with Zed Academy. Learn strategies, access international stock markets, and invest confidently in global financial opportunities.",
+    "keyword" => "global equities trading, trade international stocks, stock market trading, Zed Academy equities, invest in global stocks, how to trade global equities online, best platform to trade international stocks, learn trading global equities with Zed Academy, invest in foreign stock markets safely, expert strategies for global equities trading, Zed Academy international equities courses"
+];
 include_once ('elements/header.php');
 // include_once ('elements/product-child-menu');
 ?>
@@ -79,7 +84,7 @@ include_once ('elements/header.php');
         
             <!-- Text Column -->
             <div class="col-md-5 text-black" data-aos="fade-up" data-aos-duration="800" >
-                <h2 class="fw-bold h2 mb-5">Trade Global Equities</h2>
+                <h1 class="fw-bold h2 mb-5">Trade Global Equities</h1>
                 <div class="p-1 divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-75" data-aos="fade-up" data-aos-delay="800">
                     Access leading U.S., European, Asian, and Middle Eastern stocks with competitive pricing and deep liquidity. Benefit from transparent costs, robust risk controls, and fast, reliable execution.

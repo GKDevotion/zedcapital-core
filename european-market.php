@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "European Financial Market | Trade & Invest with Zed Academy",
+    "description" => "Discover the European financial market with Zed Academy. Learn trading strategies, market trends, and investment opportunities across European stocks, indices, and forex.",
+    "keyword" => "European financial market, trade European stocks, European market investment, Zed Academy trading, European stock indices, how to trade European financial markets online, investment opportunities in European stocks and indices, European forex and stock trading strategies, Zed Academy guide to European financial market, trade major European indices like DAX, FTSE, CAC40, learn trading in European financial markets for beginners, expert insights into European stock and forex trading"
+];
 include_once ('elements/header.php');
 ?>
 
@@ -37,6 +42,9 @@ include_once ('elements/header.php');
     <!-- Financial Market Section -->
     <div class="bg-light text-dark mt-4 rounded-4 p-4 d-flex justify-content-between align-items-center flex-wrap">
         <div>
+            <h1 class="d-none">
+                European Financial Market - Trade & Invest with Confidence
+            </h1>
             <h2 class="fw-bold">European Financial Market</h2>
             <p class="text-secondary mb-0">U.S. stock market live Index news today</p>
         </div>

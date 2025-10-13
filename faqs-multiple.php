@@ -1,4 +1,9 @@
 <?php
+$seoArr = [
+    "title" => "",
+    "description" => "",
+    "keyword" => ""
+];
 include_once('elements/header.php');
 ?>
 
