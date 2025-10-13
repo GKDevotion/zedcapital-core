@@ -1916,6 +1916,7 @@ include_once('elements/header.php');
         background-repeat: no-repeat;
         background-color: var(--zed-primary);
         color: #fff;
+        min-height: 200px;
     }
 
     .safeguard-btn {

@@ -342,12 +342,20 @@
         margin: 0 5px !important;
     }
 
+    li.nav-item {
+        font-size: 0.83rem !important;
+    }
+
 }
 
 /* 2000px - 2200px - Large Screens */
 @media (min-width: 2000px) and (max-width: 2200px) {
     .nav-link {
         margin: 0 10px !important;
+    }
+
+    li.nav-item {
+        font-size: 0.9rem;
     }
 }
 
