@@ -107,7 +107,7 @@ include_once ('elements/header.php');
     <div class="container text-start">
         <div class="row zed-academy-header" data-aos="fade-up" data-aos-delay="800">
             <h5 class="fw-bold mb-4" data-aos="fade-up" data-aos-delay="800">
-                First Learn then Trade & Earn. or First Learn then Earn.
+                First Learn then Earn.
             </h5>
             <p class="mb-0 text-gray">
                 At <strong>Zed Capital</strong>, learning comes first. Whether you're just starting out or looking to refine your skills, our courses provide practical knowledge and expert guidance to help you trade more confidently.

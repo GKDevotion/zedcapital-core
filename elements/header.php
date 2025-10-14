@@ -110,12 +110,12 @@
                                     <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/128/16002/16002788.png" alt="English" /> English
                                     </a>
                                 </li>
-                                <li>
+                                <li class="d-none">
                                     <a class="dropdown-item" href="#">
                                     <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/512/4060/4060248.png" alt="Français" /> Français
                                     </a>
                                 </li>
-                                <li>
+                                <li class="d-none">
                                     <a class="dropdown-item" href="#">
                                     <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/128/10600/10600996.png" alt="Deutsch" /> Deutsch
                                     </a>
