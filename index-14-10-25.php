@@ -2000,295 +2000,281 @@ include_once('elements/header.php');
     </div>
 </section>
 
-<?php if( false ) { ?>
+<!-- Start Client review -->
+<style>
+    #client_review {
+        padding: 80px 0;
+        /* min-height: 85vh; */
+        width: 100%;
+        overflow: visible !important;
+    }
 
-    <!-- Start Client review -->
-    <style>
+    .testimonial-card {
+        background-color: var(--zed-card-back);
+        border-radius: 25px;
+        padding: 25px;
+        height: 100%;
+    }
+
+    .testimonial-card h5 {
+        font-weight: 600;
+    }
+
+    .testimonial-card p {
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    .stars {
+        color: green;
+        font-size: x-large;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        filter: invert(1);
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .trustpilot-widget {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        font-family: system-ui, Arial, sans-serif;
+    }
+
+    .tp-header {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .tp-logo {
+        width: 25px;
+        height: 25px;
+        fill: #00b67a;
+    }
+
+    .tp-text {
+        font-weight: 600;
+        color: #111;
+        font-size: 30px;
+    }
+
+    .tp-stars {
+        display: flex;
+        gap: 2px;
+    }
+
+    .tp-star {
+        font-size: 16px;
+        line-height: 1;
+        padding: 3px;
+        background: #00b67a;
+        color: #fff;
+        border-radius: 2px;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+    }
+
+    .tp-star.half {
+        background: linear-gradient(90deg, #00b67a 50%, #dfeee9 50%);
+        color: #fff;
+    }
+
+    @media (max-width: 767.9px) {
         #client_review {
-            padding: 80px 0;
-            /* min-height: 85vh; */
-            width: 100%;
-            overflow: visible !important;
+            padding: 60px 0;
         }
 
         .testimonial-card {
-            background-color: var(--zed-card-back);
-            border-radius: 25px;
-            padding: 25px;
-            height: 100%;
+            padding: 10px;
         }
+    }
+</style>
 
-        .testimonial-card h5 {
-            font-weight: 600;
-        }
+<section class="section-client-review" id="client_review">
+    <div class="container">
+        <div class="text-center mb-5 d-none">
+            <p class="text-gray">Testimonials</p>
+            <h2 class="h2 fw-bold">Our Clients Review</h2>
+        </div>
 
-        .testimonial-card p {
-            font-size: 0.9rem;
-            color: #666;
-        }
+        <div id="testimonialCarousel" class="carousel slide d-none" data-bs-ride="carousel">
+            <div class="carousel-inner">
 
-        .stars {
-            color: green;
-            font-size: x-large;
-        }
-
-        .carousel-control-prev,
-        .carousel-control-next {
-            filter: invert(1);
-        }
-
-        .carousel-control-prev,
-        .carousel-control-next {
-            display: none;
-        }
-
-        .trustpilot-widget {
-            display: inline-flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            font-family: system-ui, Arial, sans-serif;
-        }
-
-        .tp-header {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .tp-logo {
-            width: 25px;
-            height: 25px;
-            fill: #00b67a;
-        }
-
-        .tp-text {
-            font-weight: 600;
-            color: #111;
-            font-size: 30px;
-        }
-
-        .tp-stars {
-            display: flex;
-            gap: 2px;
-        }
-
-        .tp-star {
-            font-size: 16px;
-            line-height: 1;
-            padding: 3px;
-            background: #00b67a;
-            color: #fff;
-            border-radius: 2px;
-            width: 22px;
-            height: 22px;
-            text-align: center;
-        }
-
-        .tp-star.half {
-            background: linear-gradient(90deg, #00b67a 50%, #dfeee9 50%);
-            color: #fff;
-        }
-
-        @media (max-width: 767.9px) {
-            #client_review {
-                padding: 60px 0;
-            }
-
-            .testimonial-card {
-                padding: 10px;
-            }
-        }
-    </style>
-
-    <section class="section-client-review" id="client_review">
-        <div class="container">
-            <div class="text-center mb-5 d-none">
-                <p class="text-gray">Testimonials</p>
-                <h2 class="h2 fw-bold">Our Clients Review</h2>
-            </div>
-
-            <div id="testimonialCarousel" class="carousel slide d-none" data-bs-ride="carousel">
-                <div class="carousel-inner">
-
-                    <!-- Slide 1 -->
-                    <div class="carousel-item active">
-                        <div class="row g-3">
-                            <div class="col-md-4">
-                                <div class="testimonial-card">
-                                    <div class="text-start position-absolute">
-                                        <div class="stars">
-                                            ★★★★★
-                                        </div>
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="testimonial-card">
+                                <div class="text-start position-absolute">
+                                    <div class="stars">
+                                        ★★★★★
                                     </div>
-                                    <div class="text-end">
-                                        <small>2025-05-24</small>
-                                    </div>
-                                    <h5 class="pt-3 fw-bold">Jijo John</h5>
-                                    <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
-                                        American Samoa.</p>
-                                    <div style="font-weight: 500;">⭐ Trustpilot</div>
                                 </div>
+                                <div class="text-end">
+                                    <small>2025-05-24</small>
+                                </div>
+                                <h5 class="pt-3 fw-bold">Jijo John</h5>
+                                <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
+                                    American Samoa.</p>
+                                <div style="font-weight: 500;">⭐ Trustpilot</div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="testimonial-card">
-                                    <div class="text-start position-absolute">
-                                        <div class="stars">
-                                            ★★★★★
-                                        </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial-card">
+                                <div class="text-start position-absolute">
+                                    <div class="stars">
+                                        ★★★★★
                                     </div>
-                                    <div class="text-end">
-                                        <small>2025-05-24</small>
-                                    </div>
-                                    <h5 class="pt-3">Minaxi Menon</h5>
-                                    <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
-                                        American Samoa.</p>
-                                    <div style="font-weight: 500;">⭐ Trustpilot</div>
                                 </div>
+                                <div class="text-end">
+                                    <small>2025-05-24</small>
+                                </div>
+                                <h5 class="pt-3">Minaxi Menon</h5>
+                                <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
+                                    American Samoa.</p>
+                                <div style="font-weight: 500;">⭐ Trustpilot</div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="testimonial-card">
-                                    <div class="text-start position-absolute">
-                                        <div class="stars">
-                                            ★★★★★
-                                        </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial-card">
+                                <div class="text-start position-absolute">
+                                    <div class="stars">
+                                        ★★★★★
                                     </div>
-                                    <div class="text-end">
-                                        <small>2025-05-24</small>
-                                    </div>
-                                    <h5 class="pt-3">James Kamron</h5>
-                                    <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
-                                        American Samoa.</p>
-                                    <div style="font-weight: 500;">⭐ Trustpilot</div>
                                 </div>
+                                <div class="text-end">
+                                    <small>2025-05-24</small>
+                                </div>
+                                <h5 class="pt-3">James Kamron</h5>
+                                <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
+                                    American Samoa.</p>
+                                <div style="font-weight: 500;">⭐ Trustpilot</div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Slide 2 -->
-                    <div class="carousel-item">
-                        <div class="row g-3">
-                            <div class="col-md-4">
-                                <div class="testimonial-card">
-                                    <div class="text-start position-absolute">
-                                        <div class="stars">
-                                            ★★★★★
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <small>2025-05-24</small>
-                                    </div>
-                                    <h5 class="pt-3 fw-bold">Jijo John</h5>
-                                    <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
-                                        American Samoa.</p>
-                                    <div style="font-weight: 500;">⭐ Trustpilot</div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="testimonial-card">
-                                    <div class="text-start position-absolute">
-                                        <div class="stars">
-                                            ★★★★★
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <small>2025-05-24</small>
-                                    </div>
-                                    <h5 class="pt-3">Minaxi Menon</h5>
-                                    <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
-                                        American Samoa.</p>
-                                    <div style="font-weight: 500;">⭐ Trustpilot</div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="testimonial-card">
-                                    <div class="text-start position-absolute">
-                                        <div class="stars">
-                                            ★★★★★
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <small>2025-05-24</small>
-                                    </div>
-                                    <h5 class="pt-3">James Kamron</h5>
-                                    <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
-                                        American Samoa.</p>
-                                    <div style="font-weight: 500;">⭐ Trustpilot</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Add more carousel-item blocks for more slides -->
-
                 </div>
 
-                <!-- Controls -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="testimonial-card">
+                                <div class="text-start position-absolute">
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+                                </div>
+                                <div class="text-end">
+                                    <small>2025-05-24</small>
+                                </div>
+                                <h5 class="pt-3 fw-bold">Jijo John</h5>
+                                <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
+                                    American Samoa.</p>
+                                <div style="font-weight: 500;">⭐ Trustpilot</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial-card">
+                                <div class="text-start position-absolute">
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+                                </div>
+                                <div class="text-end">
+                                    <small>2025-05-24</small>
+                                </div>
+                                <h5 class="pt-3">Minaxi Menon</h5>
+                                <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
+                                    American Samoa.</p>
+                                <div style="font-weight: 500;">⭐ Trustpilot</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial-card">
+                                <div class="text-start position-absolute">
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+                                </div>
+                                <div class="text-end">
+                                    <small>2025-05-24</small>
+                                </div>
+                                <h5 class="pt-3">James Kamron</h5>
+                                <p class="pt-2 text-gray">The services of Zed Capital and the information on this site are not directed at residents of
+                                    American Samoa.</p>
+                                <div style="font-weight: 500;">⭐ Trustpilot</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more carousel-item blocks for more slides -->
+
             </div>
 
-            <!-- Trustpilot Dummy Widget -->
-            <div class="row justify-content-center p-5 d-none">
-                <div class="trustpilot-widget">
-                    <div class="tp-header">
-                        <!-- Star icon -->
-                        <svg class="tp-logo" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 2l2.9 6.6 7.1.6-5.3 4.6 1.7 7-6.4-3.9-6.4 3.9 1.7-7L2 9.2l7.1-.6L12 2z" />
-                        </svg>
-                        <span class="tp-text">Trustpilot</span>
-                    </div>
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
 
-                    <div class="tp-stars">
-                        <span class="tp-star full">★</span>
-                        <span class="tp-star full">★</span>
-                        <span class="tp-star full">★</span>
-                        <span class="tp-star full">★</span>
-                        <span class="tp-star half">★</span>
-                    </div>
+        <!-- Trustpilot Dummy Widget -->
+        <div class="row justify-content-center p-5 d-none">
+            <div class="trustpilot-widget">
+                <div class="tp-header">
+                    <!-- Star icon -->
+                    <svg class="tp-logo" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 2l2.9 6.6 7.1.6-5.3 4.6 1.7 7-6.4-3.9-6.4 3.9 1.7-7L2 9.2l7.1-.6L12 2z" />
+                    </svg>
+                    <span class="tp-text">Trustpilot</span>
+                </div>
+
+                <div class="tp-stars">
+                    <span class="tp-star full">★</span>
+                    <span class="tp-star full">★</span>
+                    <span class="tp-star full">★</span>
+                    <span class="tp-star full">★</span>
+                    <span class="tp-star half">★</span>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Client review -->
 
-<?php } ?>
+        <!-- TradingView News Widget -->
+        <div class="tradingview-widget-container mb-5">
 
-<style>
-    .news-card {
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        transition: transform 0.25s ease-in-out;
-        height: 100%;
-    }
-    .news-card:hover { transform: translateY(-5px); }
-    .sentiment-positive { color: #28a745; font-weight: 600; }
-    .sentiment-negative { color: #dc3545; font-weight: 600; }
-    .sentiment-neutral { color: #6c757d; font-weight: 600; }
-    .topic-badge { font-size: 0.75rem; margin-right: 4px; }
-</style>
+            <div class="text-center mb-5">
+                <h2 class="h2 fw-bold">Live Market Insight</h2>
+            </div>
 
-<div class="container py-5">
-  <h2 class="text-center mb-4 py-5 h2">Latest Market News</h2>
-
-  <div class="row" id="newsContainer">
-    <!-- News cards will be added here -->
-  </div>
-
-  <div id="loader" class="text-center py-5">
-    <div class="spinner-border text-primary" role="status">
-      <span class="visually-hidden">Loading...</span>
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+            {
+                "feedMode": "symbol",
+                "symbol": "NASDAQ:AAPL",
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "width": "100%",
+                "height": "400",
+                "locale": "en"
+            }
+            </script>
+        </div>
     </div>
-  </div>
-
-  <div id="errorMsg" class="text-center text-danger fw-bold py-4 d-none">
-    ⚠️ Failed to load news. Please try again later.
-  </div>
-</div>
+</section>
+<!-- End Client review -->
 
 <?php
 include_once('elements/footer.php');

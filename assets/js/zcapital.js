@@ -199,7 +199,6 @@ if( $('#forex_profit_calculator_form').length > 0 ){
     });
 }
 
-
 $(document).ready(function() {
     $('.openLiveAccount').on('click', function() {
         window.open('https://cabinet.zedcapital.mu/register', '_blank');
@@ -217,7 +216,6 @@ $(document).ready(function() {
         window.open(url+'zed-academy.php', '_blank');
     });
 });
-
 
 // SweetAlert2 with Bootstrap buttons
 const swalWithBootstrapButtons = Swal.mixin({
@@ -323,5 +321,321 @@ if( $("#openPlatformDesktopMT5WebTrader").length > 0 ){
                 window.open('https://demo.zedcapital.mu/terminal', '_blank');
             }
         });
+    });
+}
+
+if( $(".owl-carousel").length >0 ){
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3
+            }
+        }
+    });
+}
+
+// Render initial market cards
+if ($("#market-slides").length > 0) {
+    const zoom = 2.2;
+
+    const markets = [
+        { name: 'New York', slug: 'us', flag: 'US', lat: 40.7128, lng: -74.0060, open: 13, close: 22 },
+        { name: 'London', slug: 'gb', flag: 'GB', lat: 51.5074, lng: -1.1278, open: 8, close: 17 },
+        { name: 'Tokyo', slug: 'jp', flag: 'JP', lat: 35.6895, lng: 139.6917, open: 0, close: 9 },
+        { name: 'Sydney', slug: 'au', flag: 'AU', lat: -33.8688, lng: 151.2093, open: 22, close: 7 },
+        { name: 'Frankfurt', slug: 'de', flag: 'DE', lat: 52.1109, lng: 11.6821, open: 7, close: 16 },
+        { name: 'Zurich', slug: 'ch', flag: 'CH', lat: 47.3769, lng: 8.5417, open: 8, close: 17 },
+        { name: 'Toronto', slug: 'ca', flag: 'CA', lat: 43.6532, lng: -79.3832, open: 13, close: 22 },
+        { name: 'Hong Kong', slug: 'hk', flag: 'HK', lat: 22.3193, lng: 114.1694, open: 1, close: 10 },
+        { name: 'Shanghai', slug: 'cn', flag: 'CN', lat: 31.2304, lng: 121.4737, open: 1, close: 9 },
+        { name: 'Shenzhen', slug: 'cn', flag: 'CN', lat: 22.5431, lng: 114.0579, open: 1, close: 9 },
+        { name: 'Euronext', slug: 'nl', flag: 'NL', lat: 53.3676, lng: 4.9041, open: 7, close: 16 },
+        { name: 'Mumbai', slug: 'in', flag: 'IN', lat: 19.0760, lng: 72.8777, open: 3.5, close: 12.5 }
+    ];
+
+    renderMarkets();
+    setInterval(renderMarkets, 60000);
+
+
+    function checkMarketOpen(market) {
+        const now = new Date();
+        const utcHour = now.getUTCHours() + now.getUTCMinutes() / 60;
+        const open = market.open,
+            close = market.close;
+
+        if( ( now.getDay() == 6 || now.getDay() == 0 ) && market.flag == "IN" ){
+            return false;
+        } else {
+            return ( utcHour >= open && utcHour < close ) || ( close < open && ( utcHour >= open || utcHour < close ) );
+        }
+    }
+
+    function formatTime(h) {
+        const hour = Math.floor(h);
+        const min = Math.round((h - hour) * 60);
+        return `${hour.toString().padStart(2, '0')}:${min.toString().padStart(2, '0')}`;
+    }
+
+    function buildTooltipContent(market) {
+        const nowUTC = new Date();
+        const utcH = nowUTC.getUTCHours() + nowUTC.getUTCMinutes() / 60;
+        const localTime = new Date(nowUTC.toLocaleString('en-US', {
+            timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
+        }));
+        const localTimeStr = localTime.toLocaleTimeString([], {
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+
+        const open = market.open,
+            close = market.close;
+        const isOpen = checkMarketOpen(market);
+        let percent = 0;
+
+        if (isOpen) {
+            const total = (close > open ? close - open : 24 - open + close);
+            const current = utcH >= open ? utcH - open : 24 - open + utcH;
+            percent = Math.min(100, (current / total) * 100);
+        }
+
+        return `
+        <div class="map-tooltip">
+            <div class="title"><img src='https://flagcdn.com/w20/${market.slug}.webp'/ alt='${market.name}'> ${market.name}</div>
+            <div>Local time: <b>${localTimeStr}</b></div>
+            <div class="status ${isOpen ? 'open' : 'closed'}">${isOpen ? 'OPEN' : 'CLOSED'}</div>
+            <div class="timeline"><div class="bar" style="width:${percent.toFixed(1)}%;"></div></div>
+            <div style="font-size:12px;">Session: ${formatTime(open)}-${formatTime(close)} UTC</div>
+        </div>`;
+    }
+
+    function renderMarkets() {
+        const container = document.getElementById("market-slides");
+        container.innerHTML = '';
+        const now = new Date();
+        const utcHour = now.getUTCHours() + now.getUTCMinutes() / 60;
+        const chunkSize = 4;
+
+        for (let i = 0; i < markets.length; i += chunkSize) {
+            const group = markets.slice(i, i + chunkSize);
+            const slideItems = group.map(market => {
+                let open = market.open;
+                let close = market.close;
+                let isOpen = checkMarketOpen(market);
+                let percent = 0;
+
+                if (isOpen) {
+                    let total = (close > open ? close - open : 24 - open + close);
+                    let current = (utcHour >= open ? utcHour - open : 24 - open + utcHour);
+                    percent = (current / total) * 100;
+                }
+
+                return `
+            <div class="col-md-3 mb-3">
+                <div class="market ${isOpen ? '' : 'closed'}">
+                    <h5><img src='https://flagcdn.com/w40/${market.slug}.webp'/ alt='${market.name}'> ${market.name}</h5>
+                    <div class="status">${isOpen ? 'OPEN' : 'CLOSED'}</div>
+                    <div class="timeline"><div class="bar" style="width:${isOpen ? percent.toFixed(1) : 0}%;"></div></div>
+                    <small>Hours: ${formatTime(open)} - ${formatTime(close)} (UTC)</small>
+                </div>
+            </div>
+            `;
+            }).join('');
+
+            container.innerHTML += `
+            <div class="carousel-item ${i === 0 ? 'active' : ''}">
+                <div class="row justify-content-center px-4">
+                    ${slideItems}
+                </div>
+            </div>
+        `;
+        }
+    }
+
+    // Detect if the user is on a mobile device
+    const isMobile = window.innerWidth < 768; // You can adjust the breakpoint
+    function initMap() {
+        const map = new google.maps.Map(document.getElementById('map'), {
+            center: {
+                lat: 15,
+                lng: 10
+            },
+            zoom: zoom,
+            minZoom: zoom,
+            maxZoom: zoom,
+            draggable: isMobile,
+            scrollwheel: isMobile,
+            // disableDefaultUI: isMobile, // optional: hides controls on mobile
+            disableDoubleClickZoom: isMobile,
+            mapTypeControl: false,
+            streetViewControl: false,
+            fullscreenControl: isMobile,
+            gestureHandling: 'none',
+            styles: [{
+                    featureType: "all",
+                    elementType: "labels",
+                    stylers: [{
+                        visibility: "off"
+                    }]
+                },
+                {
+                    featureType: "landscape",
+                    elementType: "geometry",
+                    stylers: [{
+                        color: "#f1f1f1"
+                    }]
+                },
+                {
+                    featureType: "administrative.country",
+                    elementType: "geometry.stroke",
+                    stylers: [{
+                        color: "#f1eeee"
+                    }, {
+                        weight: 1.5
+                    }]
+                },
+                {
+                    featureType: "water",
+                    elementType: "geometry.fill",
+                    stylers: [{
+                        color: "#ffffff"
+                    }]
+                },
+                {
+                    featureType: 'administrative',
+                    elementType: 'geometry',
+                    stylers: [{
+                        visibility: 'off'
+                    }]
+                }
+            ]
+        });
+
+        markets.forEach(market => {
+            const isOpen = checkMarketOpen(market);
+            const iconUrl = `https://flagcdn.com/w80/${market.slug}.webp`;
+
+            class CustomMarker extends google.maps.OverlayView {
+                constructor(position, map) {
+                    super();
+                    this.position = position;
+                    this.map = map;
+                    this.div = null;
+                    this.setMap(map);
+                }
+
+                onAdd() {
+                    this.div = document.createElement('div');
+                    if (isOpen) {
+                        this.div.className = 'pulse-marker';
+                    } else {
+                        this.div.className = 'static-marker';
+                    }
+                    this.div.style.backgroundImage = `url(${iconUrl})`;
+                    this.div.style.backgroundSize = `24px 24px`;
+
+                    const panes = this.getPanes();
+                    panes.overlayMouseTarget.appendChild(this.div);
+
+                    this.div.addEventListener('mouseover', () => {
+                        infoWindow.setContent(buildTooltipContent(market));
+                        infoWindow.setPosition(this.position);
+                        infoWindow.open(this.map);
+                    });
+
+                    this.div.addEventListener('mouseout', () => infoWindow.close());
+                }
+
+                draw() {
+                    const overlayProjection = this.getProjection();
+                    const pos = overlayProjection.fromLatLngToDivPixel(this.position);
+                    if (pos && this.div) {
+                        this.div.style.left = pos.x - 16 + 'px';
+                        this.div.style.top = pos.y - 16 + 'px';
+                    }
+                }
+
+                onRemove() {
+                    if (this.div) {
+                        this.div.parentNode.removeChild(this.div);
+                        this.div = null;
+                    }
+                }
+            }
+
+            const infoWindow = new google.maps.InfoWindow();
+            new CustomMarker(new google.maps.LatLng(market.lat, market.lng), map);
+        });
+
+        setInterval(() => map.panTo(map.getCenter()), 60000);
+    }
+}
+
+if( $("#newsContainer").length >0 ){
+    document.addEventListener("DOMContentLoaded", async () => {
+        const container = document.getElementById("newsContainer");
+        const loader = document.getElementById("loader");
+        const errorMsg = document.getElementById("errorMsg");
+
+        try {
+            const response = await fetch("https://livechart.zedcapital.com:5000/api/news?pageSize=9");
+            if (!response.ok) throw new Error("Network response was not ok");
+            
+            const jsonData = await response.json();
+            const newsData = jsonData.data || [];
+
+            loader.style.display = "none";
+
+            if (newsData.length === 0) {
+            container.innerHTML = `<p class="text-center text-muted">No news available.</p>`;
+            return;
+            }
+
+            newsData.forEach(news => {
+            const sentimentClass =
+                news.sentiment === "Positive" ? "sentiment-positive" :
+                news.sentiment === "Negative" ? "sentiment-negative" :
+                "sentiment-neutral";
+
+            const topics = news.topics?.map(topic => 
+                `<span class="badge bg-secondary topic-badge">${topic}</span>`
+            ).join(" ") || "";
+
+            const cardHTML = `
+                <div class="col-sm-6 col-lg-4 mb-4 d-flex">
+                <div class="card news-card flex-fill">
+                    <div class="card-body d-flex flex-column">
+                    <h6 class="card-title mb-2">
+                        <a href="${news.url}" target="_blank" class="text-decoration-none text-dark">
+                        ${news.title}
+                        </a>
+                    </h6>
+                    <p class="card-text small mb-1"><strong>Source:</strong> ${news.source}</p>
+                    <p class="card-text small mb-1"><strong>Pair:</strong> ${news.pair}</p>
+                    <p class="card-text small mb-1"><strong>Sentiment:</strong> <span class="${sentimentClass}">${news.sentiment}</span></p>
+                    ${topics ? `<div class="mb-2">${topics}</div>` : ""}
+                    <p class="card-text small text-muted mt-auto">🕓 ${news.published_gst || ""}</p>
+                    </div>
+                </div>
+                </div>
+            `;
+            container.insertAdjacentHTML("beforeend", cardHTML);
+            });
+        } catch (error) {
+            console.error("Error fetching news:", error);
+            loader.style.display = "none";
+            errorMsg.classList.remove("d-none");
+        }
     });
 }

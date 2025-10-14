@@ -58,21 +58,9 @@
                     <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                     <ul class="dropdown-menu" aria-labelledby="productDropdown">
                         <li>
-                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/stock">
-                                <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png" alt="Stocks">
-                                Stocks
-                            </a>
-                        </li>
-                        <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/forex">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png" alt="Forex">
                                 Forex
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/indices">
-                                <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.png" alt="Indices">
-                                Indices
                             </a>
                         </li>
                         <li>
@@ -82,9 +70,21 @@
                             </a>
                         </li>
                         <li>
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/indices">
+                                <img src="https://cdn-icons-png.flaticon.com/128/16496/16496144.png" alt="Indices">
+                                Indices
+                            </a>
+                        </li>
+                        <li>
                             <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/commodities">
                                 <img src="https://cdn-icons-png.flaticon.com/128/6056/6056781.png" alt="Commodities">
                                 Commodities
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="<?php echo getBaseUrl(); ?>/stock">
+                                <img src="https://cdn-icons-png.flaticon.com/128/12653/12653527.png" alt="Stocks">
+                                Stocks
                             </a>
                         </li>
                         <li>
