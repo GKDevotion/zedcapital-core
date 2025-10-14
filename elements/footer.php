@@ -359,7 +359,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
         <!-- Custom JS -->
-        <script src="<?php echo getBaseUrl(); ?>/assets/js/zcapital.js?v=<?php echo $version; ?>"></script>
+        <script src="<?php echo getBaseUrl(); ?>/assets/js/zcapital.min.js?v=<?php echo $version; ?>"></script>
 
         <script>
             const backToTop = document.getElementById("backToTop");

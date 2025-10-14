@@ -55,9 +55,9 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        <link href="<?php echo getBaseUrl(); ?>/assets/css/style.css?v=<?php echo $version;?>" rel="stylesheet">
-        <link href="<?php echo getBaseUrl(); ?>/assets/css/responsive.css?v=<?php echo $version;?>" rel="stylesheet">
-        <link href="<?php echo getBaseUrl(); ?>/assets/css/keyframe.css?v=<?php echo $version;?>" rel="stylesheet">
+        <link href="<?php echo getBaseUrl(); ?>/assets/css/style.min.css?v=<?php echo $version;?>" rel="stylesheet">
+        <link href="<?php echo getBaseUrl(); ?>/assets/css/responsive.min.css?v=<?php echo $version;?>" rel="stylesheet">
+        <link href="<?php echo getBaseUrl(); ?>/assets/css/keyframe.min.css?v=<?php echo $version;?>" rel="stylesheet">
         
         <!-- OwlCarousel CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
