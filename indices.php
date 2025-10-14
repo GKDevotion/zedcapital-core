@@ -90,7 +90,7 @@ include_once ('elements/header.php');
 
             <!-- Image Column -->
             <div class="col-md-7 text-black d-none d-lg-block" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-indices.webp" class="img-fluid">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-indices.webp" class="img-fluid" alt="Product Indices">
             </div>
 
         </div>
@@ -98,7 +98,7 @@ include_once ('elements/header.php');
         <div class="row mt-5">
             <div class="bottom-0 ">
                 <div class="position-relative set-diamond-image" >
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/best-of-indicies-diamonds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 100px;margin: -35px 100px;">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/best-of-indicies-diamonds.png" alt="Best of Indicies Diamonds" class="position-absolute start-0 bottom-0" style="width: 80px; height: 100px;margin: -35px 100px;">
                 </div>
                 <div class="basic-of-indices col-md-12 text-center p-4" data-aos="fade-up" data-aos-duration="800" >
                     <h3 class="fw-bold">Basics of Indices</h3>
@@ -109,7 +109,7 @@ include_once ('elements/header.php');
             </div>    
 
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute end-0 bottom-0 float-y" style="width: 88px; height: 60px; margin: -20px -35px;">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/silver-diamond.png" alt="Silver Diamond" class="position-absolute end-0 bottom-0 float-y" style="width: 88px; height: 60px; margin: -20px -35px;">
             </div>
         </div>
     </div>
@@ -194,7 +194,7 @@ include_once ('elements/header.php');
         </div>
 
         <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Red Black Diamonds" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
         </div>
     </div>
 </div>
@@ -271,7 +271,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/us-round-flag.png" class="w-50">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/us-round-flag.png" class="w-50" alt="US500">
             </div>
             <div class="stock-card" >
                 <h5 class="fw-bold mb-4 text-end">
@@ -313,7 +313,7 @@ include_once ('elements/header.php');
         <!-- Repeat for other stocks -->
         <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/us-round-flag.png" class="w-50">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/us-round-flag.png" class="w-50" alt="US30">
             </div>
             <div class="stock-card" >
                 <h5 class="fw-bold mb-4 text-end">
@@ -355,7 +355,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/ge-round-flag.png" class="w-50">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/ge-round-flag.png" class="w-50" alt="GER40">
             </div>
             <div class="stock-card" >
                 <h5 class="fw-bold mb-4 text-end">
@@ -397,7 +397,7 @@ include_once ('elements/header.php');
         <!-- Repeat for other stocks -->
         <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/uk-round-flag.png" class="w-50">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/uk-round-flag.png" class="w-50" alt="UK100">
             </div>
             <div class="stock-card">
                 <h5 class="fw-bold mb-4 text-end">
@@ -439,7 +439,7 @@ include_once ('elements/header.php');
         <!-- Card -->
         <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative trade-indicies-responsive" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/jp-round-flag.png" class="w-50">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/jp-round-flag.png" class="w-50" alt="JPN225">
             </div>
             <div class="stock-card" >
                 <h5 class="fw-bold mb-4 text-end">
@@ -827,7 +827,7 @@ include_once ('elements/explore-more-about.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Triangle Diamond Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php
