@@ -88,7 +88,7 @@ include_once ('elements/header.php');
 
             <!-- Image Column -->
             <div class="col-md-6 text-black p-0" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-commodities.webp" class="img-fluid">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/product-commodities.webp" class="img-fluid" alt="Product Commodities">
             </div>
         </div>
     </div>
@@ -119,14 +119,14 @@ include_once ('elements/header.php');
             </div>
 
             <div class="position-relative set-diamond-image">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/silver-diamond.png" alt="Corner Image" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -30px 50px;">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/silver-diamond.png" alt="Silver Diamond" class="position-absolute start-0 bottom-0 float-y" style="width: 80px; height: 50px; margin: -30px 50px;">
             </div>
         </div>
 
         <!-- Right description -->
         <div class="col-md-7" data-aos="fade-up" data-aos-duration="800" >
             <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/best-commodity-red-black-diamonds.png" alt="Corner Image" class="position-absolute start-0 bottom-0" style="width: 80px; height: 120px; margin: -50px -70px;">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/best-commodity-red-black-diamonds.png" alt="Best Commodities" class="position-absolute start-0 bottom-0" style="width: 80px; height: 120px; margin: -50px -70px;">
             </div>
             <p class="mb-0 p-4 p-md-0 text-muted" data-aos="fade-up" data-aos-duration="800" >
                 With our advanced trading platform, competitive conditions and institutional grade infrastructure, you can trade commodities across multiple sectors with precision and transparency.
@@ -220,7 +220,7 @@ include_once ('elements/header.php');
 
     </div>
     <div class="position-relative set-diamond-image">
-        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
+        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Red Black diamond" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
     </div>
 </div>
 
@@ -783,7 +783,7 @@ include_once ('elements/explore-more-about.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Product Diamond" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php
