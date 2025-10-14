@@ -61,17 +61,17 @@ include_once ('elements/header.php');
         <!-- Custom Buttons -->
         <div id="custom-tabs">
             <div class="d-none d-md-block">
-                <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=CAC40-1D">CAC40</button>
-                <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=UK100">UK100</button>
+                <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=CAC40-1D">CAC40</button>
+                <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=UK100">UK100</button>
                 <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=EUREX:FESX1!">FESX1!</button>
                 <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=IG-DAX">DAX</button>
             </div>
             <div class="row d-md-none">
                 <div class="col text-center m-1">
-                    <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=CAC40">CAC40</button>
+                    <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=CAC40">CAC40</button>
                 </div>
                 <div class="col text-center m-1">
-                    <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=UK100">UK100</button>
+                    <button class="tab-btn active" data-url="https://s.tradingview.com/widgetembed/?symbol=UK100">UK100</button>
                 </div>
                 <div class="col text-center m-1">
                     <button class="tab-btn" data-url="https://s.tradingview.com/widgetembed/?symbol=EUREX:FESX1!">FESX1!</button>
@@ -86,7 +86,7 @@ include_once ('elements/header.php');
 
 <div class="container py-4">
     <!-- Iframe -->
-    <iframe id="marketFrame" src="https://s.tradingview.com/widgetembed/?symbol=CAC40" style="width:100%;" title="Eropean market Live Data"></iframe>
+    <iframe id="marketFrame" src="https://s.tradingview.com/widgetembed/?symbol=UK100" style="width:100%;" title="Eropean market Live Data"></iframe>
 
     <script>
         // Handle button clicks
