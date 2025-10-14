@@ -154,19 +154,19 @@
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Account</h6>
                         <ul>
-                            <li><a href="https://cabinet.zedcapital.mu/login">Log In</a></li>
-                            <li><a href="https://cabinet.zedcapital.mu/register">Open an Account</a></li>
-                            <li><a href="https://cabinet.zedcapital.mu/register">Free Trial</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/login" title="Log IN">Log In</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/register" title="Open Account">Open an Account</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/register" title="Free Trial">Free Trial</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Financial Market</h6>
                         <ul>
-                            <li><a href="american-market">American Market</a></li>
-                            <li><a href="european-market">European Market</a></li>
-                            <li><a href="middle-eastern-market">Middle Eastern Market</a></li>
-                            <li><a href="asian-market">Asian Market</a></li>
+                            <li><a href="american-market" title="American Market">American Market</a></li>
+                            <li><a href="european-market" title="European Market">European Market</a></li>
+                            <li><a href="middle-eastern-market" title="Middle Eastern Market">Middle Eastern Market</a></li>
+                            <li><a href="asian-market" title="Asian Market">Asian Market</a></li>
                         </ul>
                     </div>
 
@@ -204,32 +204,32 @@
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Products</h6>
                         <ul>
-                            <li><a href="stock">Stocks</a></li>
-                            <li><a href="forex">Forex</a></li>
-                            <li><a href="indices">Indices</a></li>
-                            <li><a href="metal">Metals</a></li>
-                            <li><a href="commodities">Commodities</a></li>
-                            <li><a href="crypto">Crypto</a></li>
+                            <li><a href="stock" title="Stocks">Stocks</a></li>
+                            <li><a href="forex" title="Forex">Forex</a></li>
+                            <li><a href="indices" title="Indices">Indices</a></li>
+                            <li><a href="metal" title="Metals">Metals</a></li>
+                            <li><a href="commodities" title="Commodities">Commodities</a></li>
+                            <li><a href="crypto" title="Crypto">Crypto</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Company</h6>
                         <ul>
-                            <li><a href="about-us">About Us</a></li>
-                            <li><a href="contact-us">Contact Us</a></li>
-                            <li><a href="zed-academy">Zed Academy</a></li>
-                            <li><a href="faqs">FAQ's</a></li>
+                            <li><a href="about-us" title="About Us">About Us</a></li>
+                            <li><a href="contact-us" title="Contact Us">Contact Us</a></li>
+                            <li><a href="zed-academy" title="Zed Academy">Zed Academy</a></li>
+                            <li><a href="faqs" title="FAQ's">FAQ's</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Tools & Resources</h6>
                         <ul>
-                            <li><a href="economic-calendar">Economic Calendar</a></li>
-                            <li><a href="pivot-point">Pivot Point</a></li>
-                            <li><a href="currency-convertor">Currency Converter</a></li>
-                            <li><a href="profit-calculation">Profit Calculator</a></li>
+                            <li><a href="economic-calendar" title="Economic Calendar">Economic Calendar</a></li>
+                            <li><a href="pivot-point" title="Pivot Point">Pivot Point</a></li>
+                            <li><a href="currency-convertor" title="Currency Converter">Currency Converter</a></li>
+                            <li><a href="profit-calculation" title="Profit Calculator">Profit Calculator</a></li>
                         </ul>
                     </div>
                 </div>
@@ -238,11 +238,9 @@
                     <div class="col-md-3 col-sm-6">
                         <h6>Account</h6>
                         <ul>
-                            <li><a href="https://cabinet.zedcapital.mu/login">Log In</a></li>
-                            <li><a href="https://cabinet.zedcapital.mu/register">Open an Account</a></li>
-                            <li><a href="#">Finish an Application</a></li>
-                            <li><a href="#">Account Types</a></li>
-                            <li><a href="https://cabinet.zedcapital.mu/register">Free Trial</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/login" title="Log In">Log In</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/register" title="Open an Account">Open an Account</a></li>
+                            <li><a href="https://cabinet.zedcapital.mu/register" title="Free Trial">Free Trial</a></li>
                         </ul>
                     </div>
 
@@ -250,45 +248,33 @@
                     <div class="col-md-3 col-sm-6">
                         <h6>Financial Market</h6>
                         <ul>
-                            <li><a href="american-market">American Market</a></li>
-                            <li><a href="european-market">European Market</a></li>
-                            <li><a href="middle-eastern-market">Middle Eastern Market</a></li>
-                            <li><a href="asian-market">Asian Market</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 d-none">
-                        <h6>Support</h6>
-                        <ul>
-                            <li><a href="#">Fund Your Account</a></li>
-                            <li><a href="#">For Individuals</a></li>
-                            <li><a href="#">For Institutions</a></li>
-                            <li><a href="#">Institutional Sales Contacts</a></li>
-                            <li><a href="#">Browse our FAQs</a></li>
-                            <li><a href="#">System Status</a></li>
+                            <li><a href="american-market" title="American Market">American Market</a></li>
+                            <li><a href="european-market" title="European Market">European Market</a></li>
+                            <li><a href="middle-eastern-market" title="Middle Eastern Market">Middle Eastern Market</a></li>
+                            <li><a href="asian-market" title="Asian Market">Asian Market</a></li>
                         </ul>
                     </div>
 
                     <div class="col-md-3 col-sm-6">
                         <h6>Products</h6>
                         <ul>
-                            <li><a href="stock">Stocks</a></li>
-                            <li><a href="forex">Forex</a></li>
-                            <li><a href="indices">Indices</a></li>
-                            <li><a href="metal">Metals</a></li>
-                            <li><a href="commodities">Commodities</a></li>
-                            <li><a href="crypto">Crypto</a></li>
+                            <li><a href="stock" title="Stocks">Stocks</a></li>
+                            <li><a href="forex" title="Forex">Forex</a></li>
+                            <li><a href="indices" title="Indices">Indices</a></li>
+                            <li><a href="metal" title="Metals">Metals</a></li>
+                            <li><a href="commodities" title="Commodities">Commodities</a></li>
+                            <li><a href="crypto" title="Crypto">Crypto</a></li>
                         </ul>
                     </div>
 
                     <div class="col-md-3 col-sm-6">
                         <h6>Company</h6>
                         <ul>
-                            <li><a href="about-us">About Us</a></li>
-                            <li><a href="zed-academy">Zed Academy</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Press and Media</a></li>
-                            <li><a href="#">Regulatory Reports</a></li>
+                            <li><a href="about-us" title="About Us">About Us</a></li>
+                            <li><a href="zed-academy" title="Zed Academy">Zed Academy</a></li>
+                            <li><a href="#" title="News">News</a></li>
+                            <li><a href="#" title="Press and Media">Press and Media</a></li>
+                            <li><a href="#" title="Regulatory Reports">Regulatory Reports</a></li>
                         </ul>
                     </div>
                 </div>
@@ -299,9 +285,9 @@
                     <p><strong>Representative Office:</strong> 1606, Concord Tower, Near Palm Jumeirah Tram Station, Media City, Dubai - UAE.</p>
                     <p>
                         <strong>Call:</strong>
-                        <a href="tel:+2306555223" class="">+230 655 5223 </a>
+                        <a href="tel:+2306555223" class="" title="Call Direct">+230 655 5223 </a>
                         • <strong>Email:</strong>
-                        <a href="mailto:hello@zedcapital.com">hello@zedcapital.com</a>
+                        <a href="mailto:hello@zedcapital.com" title="Email Direct">hello@zedcapital.com</a>
                     </p>
 
                     <div class="row">
@@ -349,11 +335,11 @@
                     <a class="d-none" href="#">Anti-Fraud Notice</a> |
                     <a class="d-none" href="#">Customer Identification Program Notice</a> |
                     <a class="d-none" href="#">Customer Relationship Summary</a> | -->
-                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Terms-condition-ZedCapital.pdf" download>Terms & Condition</a> |
-                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Privacy-Policy-ZedCapital.pdf" download>Privacy Policy</a> |
-                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Cookies-Policy-ZedCapital.pdf" download>Cookie Policy</a> |
-                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Arbitrage-Policy-ZedCapital.pdf" download>Arbitrage Policy</a> |
-                    <a href="<?php echo getBaseUrl(); ?>/risk-disclosure">Risk Disclosure</a>
+                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Terms-condition-ZedCapital.pdf" download title="Terms & Condition">Terms & Condition</a> |
+                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Privacy-Policy-ZedCapital.pdf" download title="Privacy Policy">Privacy Policy</a> |
+                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Cookies-Policy-ZedCapital.pdf" download title="Cookie Policy">Cookie Policy</a> |
+                    <a href="<?php echo getBaseUrl(); ?>/assets/pdf/Arbitrage-Policy-ZedCapital.pdf" download title="Arbitrage Policy">Arbitrage Policy</a> |
+                    <a href="<?php echo getBaseUrl(); ?>/risk-disclosure" title="Risk Disclosure">Risk Disclosure</a>
                 </div>
             </div>
         </footer>
