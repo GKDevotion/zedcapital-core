@@ -806,7 +806,7 @@ include_once ('elements/feature-trading-icons.php');
                         </ul>
                     </div>
                     <div class="col-sm-4 p-0 set-diamond-image" data-aos="fade-up" data-aos-duration="800">
-                        <img src="<?php echo getBaseUrl(); ?>/assets/images/half-mobile.webp" class="MT5-web-trader" style="">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/half-mobile.webp" class="MT5-web-trader" alt="No Installation Needed">
                     </div>
                 </div>
             </div>
@@ -870,7 +870,7 @@ include_once ('elements/feature-trading-icons.php');
 
             <div class="row">
                 <div class="col-md-6 pricing-box mb-4" data-aos="fade-up" data-aos-duration="800">
-                    <a href="#" class="a-link-move-icon">
+                    <a href="#" class="a-link-move-icon" title="Visit Website">
                         Visit the Official Website
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
@@ -878,7 +878,7 @@ include_once ('elements/feature-trading-icons.php');
                         Go to www.zedcapital.com and navigate to the Platform → MetaTrader 5 Web section.
                     </p>
 
-                    <a href="#" class="a-link-move-icon mt-4">
+                    <a href="#" class="a-link-move-icon mt-4" title="Login Account">
                         Login to Your Account
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
@@ -888,7 +888,7 @@ include_once ('elements/feature-trading-icons.php');
                 </div>
 
                 <div class="col-md-6 pricing-box mb-4" data-aos="fade-up" data-aos-duration="800">
-                    <a href="#" class="a-link-move-icon">
+                    <a href="#" class="a-link-move-icon" title="Access Your Dashboard">
                         Access Your Dashboard
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
@@ -896,7 +896,7 @@ include_once ('elements/feature-trading-icons.php');
                         Monitor your balance, open and close positions using different indicators and tools and live quotes instantly.
                     </p>
 
-                    <a href="#" class="a-link-move-icon mt-4">
+                    <a href="#" class="a-link-move-icon mt-4" title="Start Trading">
                         Start Trading
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
@@ -992,7 +992,7 @@ include_once ('elements/feature-trading-icons.php');
         
         <div class="highlight-line mb-5"></div>
 
-        <a href="#" class="open-account-btn my-0 my-md-5 loginLiveAccount">
+        <a href="#" class="open-account-btn my-0 my-md-5 loginLiveAccount" title="Open an account">
           Open an account
         </a>
 

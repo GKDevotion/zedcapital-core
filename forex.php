@@ -189,7 +189,7 @@ include_once ('elements/header.php');
                     Experience competitive spreads, fast execution and reliable pricing.
                 </p>
 
-                <a href="#" class="show-all-btn w-100 d-none" data-aos="fade-up" data-aos-duration="800">
+                <a href="#" class="show-all-btn w-100 d-none" data-aos="fade-up" data-aos-duration="800" title="Read More">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -457,7 +457,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="text-center mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="850">
-        <a href="#" class="btn btn-danger px-4 py-2 mt-2 rounded-pill">
+        <a href="#" class="btn btn-danger px-4 py-2 mt-2 rounded-pill" title="Read More">
             Click here to view the Forex
         </a>
     </div>

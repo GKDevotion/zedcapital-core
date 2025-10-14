@@ -82,7 +82,7 @@ include_once ('elements/header');
     <div class="bg-dark text-white py-4 px-5 d-flex align-items-center" style="background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('your-metal-bg.jpg'); background-size: cover;">
         <div class="row">
             <div class="col-md-4 text-center">
-                <a href="#" class="btn btn-outline-danger fw-bold rounded-pill px-5">
+                <a href="#" class="btn btn-outline-danger fw-bold rounded-pill px-5" title="Basics of Metal">
                     Basics of Metal
                 </a>
 

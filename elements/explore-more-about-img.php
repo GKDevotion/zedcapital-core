@@ -46,7 +46,7 @@
                 <h2 class="h2 mb-2">Explore more <?php echo $paramArr['name'];?> with Zed Capital</h2>
             </div>
             <div class="col-2 text-end" data-aos="fade-up" data-aos-duration="850">
-                <a href="#" class="show-all-btn">
+                <a href="#" class="show-all-btn" title="Show All">
                     Show All
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -71,7 +71,7 @@
                         <div class="row">
                             <div class="col-7">
                                 <div class="text-start">
-                                    <a href="#" class="text-danger continue-reading-arraw fw-semibold text-decoration-none">
+                                    <a href="#" class="text-danger continue-reading-arraw fw-semibold text-decoration-none" title="Continue reading">
                                         Continue reading 
                                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                     </a>
@@ -102,7 +102,7 @@
                         <div class="row">
                             <div class="col-7">
                                 <div class="text-start">
-                                    <a href="#" class="text-danger continue-reading-arraw fw-semibold text-decoration-none">
+                                    <a href="#" class="text-danger continue-reading-arraw fw-semibold text-decoration-none" title="Continue reading">
                                         Continue reading 
                                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                     </a>
@@ -133,7 +133,7 @@
                         <div class="row">
                             <div class="col-7">
                                 <div class="text-start">
-                                    <a href="#" class="text-danger continue-reading-arraw fw-semibold text-decoration-none">
+                                    <a href="#" class="text-danger continue-reading-arraw fw-semibold text-decoration-none" title="Continue reading">
                                         Continue reading 
                                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                     </a>

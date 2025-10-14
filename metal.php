@@ -88,7 +88,7 @@ include_once ('elements/header.php');
     <div class="bg-dark text-white py-4 px-5 d-flex align-items-center" style="background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('your-metal-bg.jpg'); background-size: cover;">
         <div class="row" >
             <div class="col-md-6 text-center" >
-                <a href="#" class="btn btn-outline-danger fw-bold rounded-pill px-5">
+                <a href="#" class="btn btn-outline-danger fw-bold rounded-pill px-5" title="Basics of Metal">
                     Basics of Metal
                 </a>
 
@@ -182,7 +182,7 @@ include_once ('elements/header.php');
                     Trade with competitive spreads, fast execution and institutional grade infrastructure.
                 </p>
 
-                <a href="#" class="show-all-btn w-100 d-none">
+                <a href="#" class="show-all-btn w-100 d-none" title="Read More">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -416,7 +416,7 @@ include_once ('elements/header.php');
 
     <!-- Button -->
     <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="800" >
-        <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill">
+        <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill" title="Read More">
             Click here to view Metals
         </a>
     </div>

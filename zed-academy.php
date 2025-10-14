@@ -50,10 +50,10 @@ include_once ('elements/header.php');
             <!-- Video Column -->
             <div class="col-md-6 text-center position-relative d-none d-lg-block" data-aos="fade-up" data-aos-delay="800">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/sharpen-your-trading.webp" alt="Zed Capital Video" class="d-none img-fluid w-100"  data-aos="fade-up" data-aos-delay="800"/>
-                <a href="#" class="position-absolute top-50 start-0 translate-middle" data-aos="fade-up" data-aos-delay="800">
-                <div class="p-0" data-aos="fade-up" data-aos-delay="800">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/play-icon.webp" alt="Zed Capital Video" class="img-fluid w-25" />
-                </div>
+                <a href="#" class="position-absolute top-50 start-0 translate-middle" data-aos="fade-up" data-aos-delay="800" title="Play">
+                    <div class="p-0" data-aos="fade-up" data-aos-delay="800">
+                        <img src="<?php echo getBaseUrl(); ?>/assets/images/play-icon.webp" alt="Zed Capital Video" class="img-fluid w-25" />
+                    </div>
                 </a>
             </div>
         </div>
@@ -189,7 +189,7 @@ include_once ('elements/header.php');
                 <p class="text-muted text-gray mb-3" data-aos="fade-up" data-aos-delay="800">
                     Whether you're a new or experienced trader, Zed Capital is here to help you maximise your trading potential.
                 </p>
-                <a href="#" class="btn btn-custom" data-aos="fade-up" data-aos-delay="800">Trade With Us</a>
+                <a href="#" class="btn btn-custom" data-aos="fade-up" data-aos-delay="800" title="Trade with US">Trade With Us</a>
             </div>
 
             <!-- Right Side Image -->
@@ -248,7 +248,7 @@ include_once ('elements/header.php');
             <p class="text-muted" data-aos="fade-up" data-aos-delay="500">
                 Start trading with ease! Learn the basics in quick, simple lessons designed for beginners.
             </p>
-            <a href="#" class="btn-red" data-aos="fade-up" data-aos-delay="600">
+            <a href="#" class="btn-red" data-aos="fade-up" data-aos-delay="600" title="See All Beginner Courses">
                 See All Beginner Courses
             </a>
         </div>
@@ -589,7 +589,7 @@ if( false ){
                 and services, markets and technology.
             </p>
             <div class="set-diamond-image">
-                <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center mt-2" data-aos="fade-up" data-aos-delay="800">
+                <a href="#" class="btn btn-outline-dark d-inline-flex align-items-center mt-2" data-aos="fade-up" data-aos-delay="800" title="Learn More">
                     Learn more 
                 <span class="ms-2 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width:25px; height:25px;" data-aos="fade-up" data-aos-delay="800">
                     →

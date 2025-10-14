@@ -186,7 +186,7 @@ include_once ('elements/header.php');
                     Enjoy competitive spreads, strong liquidity and reliable execution at every step.
                 </p>
 
-                <a href="#" class="show-all-btn w-100 d-none">
+                <a href="#" class="show-all-btn w-100 d-none" title="Read More">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -483,7 +483,7 @@ include_once ('elements/header.php');
 
     <!-- Button -->
     <div class="text-center mt-4 mb-5" data-aos="fade-up" data-aos-duration="800" >
-        <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill">
+        <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill" title="Read More">
         Click here to view the indices
         </a>
     </div>

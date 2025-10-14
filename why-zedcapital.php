@@ -394,7 +394,7 @@ include_once ('elements/header.php');
                     <p class="text-gray" style="width: 90%;">
                         Spreads starting from 0.1 pips, ultra-low latency execution, and transparent cost structures with no hidden fees.
                     </p>
-                    <a href="#" class="d-none a-link-move-icon">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
+                    <a href="#" class="d-none a-link-move-icon" title="Learn About Commissions">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
                     
                     <p class="fw-bold fs-4">
                         Regulatory Assurance
@@ -411,7 +411,7 @@ include_once ('elements/header.php');
                     <p class="text-gray" style="width: 90%;">
                         Trade forex, commodities, indices, equities, and cryptocurrencies from a single account with institutional-grade liquidity and broad diversification.
                     </p>
-                    <a href="#" class="d-none a-link-move-icon">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
+                    <a href="#" class="d-none a-link-move-icon" title="Learn About Commissions">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
 
                     <p class="fw-bold fs-4">
                         Advanced Technology

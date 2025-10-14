@@ -49,7 +49,7 @@ include_once ('elements/header.php');
             <p class="text-secondary mb-0">U.S. stock market live Index news today</p>
         </div>
         <div class="mt-3 mt-md-0">
-            <a href="#" class="btn btn-danger fw-semibold rounded-pill px-4 py-2">Market live news</a>
+            <a href="#" class="btn btn-danger fw-semibold rounded-pill px-4 py-2" title="Market live news">Market live news</a>
         </div>
     </div>
 

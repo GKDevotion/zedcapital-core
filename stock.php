@@ -181,7 +181,7 @@ include_once ('elements/header.php');
                     Competitive spreads, deep liquidity, and institutional-grade execution.
                 </p>
 
-                <a href="#" class="show-all-btn w-100 d-none">
+                <a href="#" class="show-all-btn w-100 d-none" title="Read More">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
@@ -452,7 +452,7 @@ include_once ('elements/header.php');
 
     <!-- Button -->
     <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="850">
-        <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill">
+        <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill" title="Read More">
             Click here to view the Stock
         </a>
     </div>

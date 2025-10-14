@@ -211,7 +211,7 @@ include_once ('elements/header.php');
                     Experience competitive spreads, deep liquidity and reliable pricing.
                 </p>
 
-                <a href="#" class="show-all-btn w-100 d-none">
+                <a href="#" class="show-all-btn w-100 d-none" title="Read More">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>

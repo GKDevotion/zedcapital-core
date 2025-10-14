@@ -237,7 +237,7 @@ include_once ('elements/header.php');
                     Enjoy fair pricing, competitive spreads and secure infrastructure.
                 </p>
 
-                <a href="#" class="show-all-btn w-100 d-none">
+                <a href="#" class="show-all-btn w-100 d-none" title="Read More">
                     Read More
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
