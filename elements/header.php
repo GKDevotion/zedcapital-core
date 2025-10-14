@@ -92,7 +92,7 @@
                 <div class="container-fluid sticky-belt">
                     <div class="top-bar d-flex align-items-center justify-content-between px-md-7">
                         <div class="d-flex align-items-center gap-2">
-                            <img src="https://cdn-icons-png.flaticon.com/512/14009/14009731.png" alt="Flag" class="flag-img" />
+                            <img src="https://cdn-icons-png.flaticon.com/512/14009/14009731.png" alt="Regulated by the Financial Services Commission (FCS)" class="flag-img" />
                             <span class="flag-text">Regulated by the Financial Services Commission (FCS) - <strong>Mauritius</strong></span>
                         </div>
 

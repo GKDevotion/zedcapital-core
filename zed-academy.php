@@ -612,7 +612,7 @@ if( false ){
             el.addEventListener('click', function () {
             const videoUrl = this.getAttribute('data-video');
             const videoTitle = this.getAttribute('data-title');
-            this.innerHTML = `<iframe width="100%" height="450" style="border-radius: 25px;" src="${videoUrl}" 
+            this.innerHTML = `<iframe style="width:100%; height:450px;" style="border-radius: 25px;" src="${videoUrl}" 
                 title="${videoTitle}" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen></iframe>`;

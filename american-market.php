@@ -92,7 +92,7 @@ include_once ('elements/header.php');
 
 <div class="container py-4">
     <!-- Iframe -->
-    <iframe id="marketFrame" src="https://s.tradingview.com/widgetembed/?symbol=DJI" width="100%" title="American Market Live Data"></iframe>
+    <iframe id="marketFrame" src="https://s.tradingview.com/widgetembed/?symbol=DJI" style="width:100%;" title="American Market Live Data"></iframe>
 
     <script>
         // Handle button clicks
