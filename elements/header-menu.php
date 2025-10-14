@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
     <div class="container-fluid">
         <a class="navbar-brand m-0" href="<?php echo getBaseUrl(); ?>">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/logo.webp" alt="Zed Capital" />
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/logo.png" alt="Zed Capital" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
             <span class="navbar-toggler-icon"></span>

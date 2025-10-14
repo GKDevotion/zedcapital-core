@@ -29,7 +29,7 @@
         <meta property="og:description" content="<?php echo $seoArr['description'];?>">
         <meta property="og:url" content="<?php echo getCurrentUrl(); ?>">
         <meta property="og:site_name" content="ZedCapital">
-        <meta property="og:image" content="<?php echo getCurrentUrl(); ?>/assets/images/logo.webp">
+        <meta property="og:image" content="<?php echo getCurrentUrl(); ?>/assets/images/logo.png">
 
         <meta property="article:publisher" content="https://www.facebook.com">
         <meta property="article:modified_time" content="26-01-2025">
@@ -40,7 +40,7 @@
         <meta name="twitter:data1" content="10 minutes">
         <meta name="twitter:title" content="<?php echo $seoArr['title'];?>" />
         <meta name="twitter:description" content="<?php echo $seoArr['description'];?>" />
-        <meta name="twitter:image" content="<?php echo getCurrentUrl(); ?>/assets/images/logo.webp" />
+        <meta name="twitter:image" content="<?php echo getCurrentUrl(); ?>/assets/images/logo.png" />
 
         <link rel="canonical" href="<?php echo getCurrentUrl(); ?>">
 
@@ -82,7 +82,7 @@
     <body data-load="" data-click-animation="" translate="no">
         <!-- Preloader -->
         <!-- <div id="preloader d-none">
-            <img src="assets/images/logo.webp" alt="Logo" class="preloader-logo">
+            <img src="assets/images/logo.png" alt="Logo" class="preloader-logo">
         </div> -->
 
         <!-- ✅ Start STICKY HEADER (Top bar + Navbar) -->
