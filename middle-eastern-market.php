@@ -75,7 +75,7 @@ include_once ('elements/header.php');
 
 <div class="container py-4">
     <!-- Iframe -->
-    <iframe id="marketFrame" src="https://s.tradingview.com/widgetembed/?symbol=EGX30" width="100%"></iframe>
+    <iframe id="marketFrame" src="https://s.tradingview.com/widgetembed/?symbol=EGX30" width="100%" title="Asian market Live Data"></iframe>
 
     <script>
         // Handle button clicks
