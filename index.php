@@ -2290,6 +2290,9 @@ include_once('elements/header.php');
   </div>
 </div>
 
+<!-- Google Maps API -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAMUueWiyeYwrKGxbKD5jC9NEnVeKiOoU&callback=initMap"></script>
+
 <?php
 include_once('elements/footer.php');
 ?>

@@ -374,9 +374,5 @@
 
         </script>
 
-        <!-- Google Maps API -->
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAMUueWiyeYwrKGxbKD5jC9NEnVeKiOoU&callback=initMap"></script>
-
-        </body>
-
-        </html>
+    </body>
+</html>

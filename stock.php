@@ -163,7 +163,7 @@ include_once ('elements/header.php');
 
                 <h5>Asia Pacific</h5>
                 <p class="text-gray">
-                    Samsung, Toyota, Alibaba, Reliance Industries, Tata Group
+                    HSBC, Toyota, Samsung, Alibaba, Xiaomi, Lenovo
                 </p>
 
                 <h5>Leverage Advantage</h5>

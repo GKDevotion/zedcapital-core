@@ -257,6 +257,15 @@ include_once ('elements/header.php');
     .text-shadow{
         text-shadow: 0 2px 2px #999999;
     }
+
+    .carousel-control-next, .carousel-control-prev{
+        width: 8%;
+    }
+
+    .bg-red{
+        --bs-bg-opacity: 1 !important;
+        background-color: var(--zed-primary)!important ;
+    }
 </style>
 
 <div class="container py-5 mb-5">
@@ -272,189 +281,767 @@ include_once ('elements/header.php');
     </div>
 
     <!-- Cards -->
-    <div class="row g-4 justify-content-center">
-        <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        EURUSD
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold EURUSD-s-bid">0.00</div>
-                    </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold EURUSD-s-ask">0.00</div>
-                    </div>
-                </div>
+    <?php if( true ){ ?>
+        <div class="row g-4 justify-content-center">
 
-                <div class="sl-divider"></div>
+            <!-- Card AUDUSD -->
+            <div class="col-12 col-sm-3 col-xxl">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            AUDUSD
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold AUDUSD-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold AUDUSD-s-ask">0.00</div>
+                        </div>
+                    </div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Repeat for other stocks -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        USDJPY
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+            <!-- Card EURUSD-->
+            <div class="col-12 col-sm-3 col-xxl">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            EURUSD
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold EURUSD-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold EURUSD-s-ask">0.00</div>
+                        </div>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
                     </div>
-                </div>
-
-                <div class="sl-divider"></div>
-
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        GBPUSD
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold GBPUSD-s-bid">0.00</div>
+            <!-- Card EURGBP-->
+            <div class="col-12 col-sm-3 col-xxl d-none">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            EURGBP
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold EURGBP-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold EURGBP-s-ask">0.00</div>
+                        </div>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold GBPUSD-s-ask">0.00</div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
                     </div>
-                </div>
-
-                <div class="sl-divider"></div>
-
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Repeat for other stocks -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        AUDUSD
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-success fw-bold AUDUSD-s-bid">0.00</div>
+            <!-- Card EURJPY .-->
+            <div class="col-12 col-sm-3 col-xxl d-none">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            EURJPY
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold EURJPY-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold EURJPY-s-ask">0.00</div>
+                        </div>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-success fw-bold AUDUSD-s-ask">0.00</div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
                     </div>
-                </div>
-
-                <div class="sl-divider"></div>
-
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        USDCAD
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold USDCAD-s-bid">0.00</div>
+            <!-- Card GBPUSD .-->
+            <div class="col-12 col-sm-3 col-xxl">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            GBPUSD
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold GBPUSD-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold GBPUSD-s-ask">0.00</div>
+                        </div>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold USDCAD-s-ask">0.00</div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
                     </div>
-                </div>
-
-                <div class="sl-divider"></div>
-
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
+
+            <!-- Card GBPJPY -->
+            <div class="col-12 col-sm-3 col-xxl d-none">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            GBPJPY
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold GBPJPY-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold GBPJPY-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card NZDUSD .-->
+            <div class="col-12 col-sm-3 col-xxl d-none">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            NZDUSD
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold NZDUSD-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold NZDUSD-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card USDCAD -->
+            <div class="col-12 col-sm-3 col-xxl">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            USDCAD
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold USDCAD-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold USDCAD-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card USDCHF -->
+            <div class="col-12 col-sm-3 col-xxl d-none">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            USDCHF
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold USDCHF-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold USDCHF-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card USDJPY -->
+            <div class="col-12 col-sm-3 col-xxl">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <h5 class="fw-bold mb-4">
+                        <span class="text-shadow">
+                            USDJPY
+                        </span>
+                    </h5>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <!-- Add META, AAPL, AMD similarly -->
-    </div>
+    <?php } else {?>
+
+        <div id="forexCardCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+
+                            <!-- Card AUDUSD -->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            AUDUSD
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-success fw-bold AUDUSD-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-success fw-bold AUDUSD-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card EURUSD-->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            EURUSD
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-danger fw-bold EURUSD-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-danger fw-bold EURUSD-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card EURGBP-->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            EURGBP
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-danger fw-bold EURGBP-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-danger fw-bold EURGBP-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card EURJPY-->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            EURJPY
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-danger fw-bold EURJPY-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-danger fw-bold EURJPY-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card GBPUSD -->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            GBPUSD
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-danger fw-bold GBPUSD-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-danger fw-bold GBPUSD-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+
+                            <!-- Card GBPJPY -->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            GBPJPY
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-danger fw-bold GBPJPY-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-danger fw-bold GBPJPY-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Card NZDUSD -->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            NZDUSD
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-danger fw-bold NZDUSD-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-danger fw-bold NZDUSD-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Card USDCAD -->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            USDCAD
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-danger fw-bold USDCAD-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-danger fw-bold USDCAD-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Card USDCHF -->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            USDCHF
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-danger fw-bold USDCHF-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-danger fw-bold USDCHF-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card USDJPY -->
+                            <div class="col-12 col-sm-3 col-xxl">
+                                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                                    <h5 class="fw-bold mb-4">
+                                        <span class="text-shadow">
+                                            USDJPY
+                                        </span>
+                                    </h5>
+                                    <div class="d-flex justify-content-between px-2 mt-3">
+                                        <div>
+                                            <small>Bid</small>
+                                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                                        </div>
+                                        <div>
+                                            <small>Ask</small>
+                                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sl-divider"></div>
+
+                                    <div class="my-2 d-none">
+                                        <small>Spread</small> 
+                                        <div class="fw-bold">0</div>
+                                    </div>
+                                    <div class="my-4 py-2">
+                                        <small>Leverage</small> 
+                                        <div class="fw-bold">Up to 1:500</div>
+                                    </div>
+                                    <div class="d-flex justify-content-around gap-2 mt-4">
+                                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#forexCardCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-red rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#forexCardCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-red rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+    <?php } ?>
 
     <div class="text-center mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="850">
         <a href="#" class="btn btn-danger px-4 py-2 mt-2 rounded-pill" title="Read More">
@@ -464,8 +1051,17 @@ include_once ('elements/header.php');
 </div>
 
 <script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const carouselElement = document.querySelector('#forexCarousel');
+        const carousel = new bootstrap.Carousel(carouselElement, {
+            interval: 3000, // auto-slide every 3 seconds
+            pause: 'hover'
+        });
+    });
+
     // List of symbols to fetch
-    const symbols = ["EURUSD", "USDJPY", "GBPUSD", "AUDUSD", "USDCAD"];
+    const symbols = ["AUDUSD", "EURUSD", "EURGBP", "EURJPY", "GBPUSD", "GBPJPY", "NZDUSD", "USDCAD", "USDCHF", "USDJPY"];
 
     function fetchMarketData() {
         $.ajax({
@@ -480,10 +1076,6 @@ include_once ('elements/header.php');
                 );
 
                 if (filteredData.length > 0) {
-                    // $('#companyData').text( JSON.stringify( filteredData, null, 2 ) );
-
-                    // console.log( filteredData );
-                    // Loop through filteredData with $.each
                     $.each(filteredData, function(index, company) {
 
                         // Remove trailing dots (.) from Symbol
@@ -491,6 +1083,23 @@ include_once ('elements/header.php');
                         // Append each company's data to the div
                         $("."+cleanedSymbol+"-bid").text( company.Bid );
                         $("."+cleanedSymbol+"-ask").text( company.Ask );
+
+                        const bidElem = document.querySelector(`.${cleanedSymbol}-bid`);
+                        const askElem = document.querySelector(`.${cleanedSymbol}-ask`);
+
+                        if (bidElem && askElem) {
+                            const bid = $("."+cleanedSymbol+"-bid").text();
+                            const ask = $("."+cleanedSymbol+"-ask").text();
+
+                            bidElem.textContent = bid;
+                            askElem.textContent = ask;
+
+                            // Add green/red animation or color update based on change
+                            bidElem.classList.toggle("text-success", bid > ask);
+                            bidElem.classList.toggle("text-danger", bid < ask);
+                            askElem.classList.toggle("text-success", ask > bid);
+                            askElem.classList.toggle("text-danger", ask < bid);
+                        }
                     });
                 } else {
                     $('#companyData').text('No matching company data found.');
@@ -605,8 +1214,11 @@ include_once ('elements/header.php');
 </style>
 
 <section class="opportunities-for-investors">
+
     <div class="container py-5">
+
         <h2 class="h4 mb-3">Key Benefits</h2>
+
         <div class="row g-3">
             <div class="col-md-6">
                 <div class="card tech-feature p-4">

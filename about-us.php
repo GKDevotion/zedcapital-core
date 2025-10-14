@@ -844,12 +844,24 @@ include_once ('elements/header.php');
 
         <!-- Cards -->
         <div class="row">
+
             <div class="col-md-2 col-6 col-sm-6">
                 <div class="stock-card">
                     <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-stock.webp" width="50" class="stock-icon" alt="Stock Icon">
                     <div class="stock-text">
                         <a href="<?php echo getBaseUrl(); ?>/stock" class="text-decoration-none">
-                            Stock
+                            Stocks
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6 col-sm-6">
+                <div class="stock-card">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-forex.webp" width="50" class="stock-icon" alt="Stock Icon">
+                    <div class="stock-text">
+                        <a href="<?php echo getBaseUrl(); ?>/forex" class="text-decoration-none">
+                            Forex
                         </a>
                     </div>
                 </div>
@@ -872,17 +884,6 @@ include_once ('elements/header.php');
                     <div class="stock-text">
                         <a href="<?php echo getBaseUrl(); ?>/indices" class="text-decoration-none">
                             Indices
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-2 col-6 col-sm-6">
-                <div class="stock-card">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/about-us-forex.webp" width="50" class="stock-icon" alt="Stock Icon">
-                    <div class="stock-text">
-                        <a href="<?php echo getBaseUrl(); ?>/forex" class="text-decoration-none">
-                            Forex
                         </a>
                     </div>
                 </div>

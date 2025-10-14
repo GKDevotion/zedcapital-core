@@ -492,6 +492,7 @@ include_once ('elements/header.php');
 <script>
     // List of symbols to fetch
     const symbols = ["US500", "Germany 40", "UK100", "JAPAN 225", "US Wall Street 30"];
+    // const symbols = ["Australia 200", "US TECH 100", "US Wall Street 30", "GERMANY 40", "Hong Kong 50", "China A50", "Switzerland 20", "France 40", "Euro Stoxx 50", "US Russell 2000", "UK100", "US500", "JAPAN 225"];
 
     function fetchMarketData() {
         $.ajax({
@@ -518,6 +519,23 @@ include_once ('elements/header.php');
                         // Append each company's data to the div
                         $("."+cleanedSymbol+"-bid").text( company.Bid );
                         $("."+cleanedSymbol+"-ask").text( company.Ask );
+
+                        const bidElem = document.querySelector(`.${cleanedSymbol}-bid`);
+                        const askElem = document.querySelector(`.${cleanedSymbol}-ask`);
+
+                        if (bidElem && askElem) {
+                            const bid = $("."+cleanedSymbol+"-bid").text();
+                            const ask = $("."+cleanedSymbol+"-ask").text();
+
+                            bidElem.textContent = bid;
+                            askElem.textContent = ask;
+
+                            // Add green/red animation or color update based on change
+                            bidElem.classList.toggle("text-success", bid > ask);
+                            bidElem.classList.toggle("text-danger", bid < ask);
+                            askElem.classList.toggle("text-success", ask > bid);
+                            askElem.classList.toggle("text-danger", ask < bid);
+                        }
                     });
                 } else {
                     $('#companyData').text('No matching company data found.');
