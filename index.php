@@ -893,7 +893,7 @@ include_once('elements/header.php');
 
         <!-- Stock -->
         <div class="col-md-4 stock-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="stock" title="Stock">
+            <a href="<?php echo getBaseUrl(); ?>/stock" title="Stock">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/tesla-logo.webp" class="icon tesla" alt="Tesla">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -909,7 +909,7 @@ include_once('elements/header.php');
 
         <!-- Metal -->
         <div class="col-md-4 metal-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="metal" title="Metal">
+            <a href="<?php echo getBaseUrl(); ?>/metal" title="Metal">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-wire.webp" class="icon metal-wire" alt="Gold">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -925,7 +925,7 @@ include_once('elements/header.php');
 
         <!-- Indices -->
         <div class="col-md-4 indices-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="indicies" title="indices">
+            <a href="<?php echo getBaseUrl(); ?>/indices" title="indices">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/naqsad-logo.webp" class="icon nasdaq" alt="NASDAQ">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -941,7 +941,7 @@ include_once('elements/header.php');
 
         <!-- Forex -->
         <div class="col-md-4 forex-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="forex" title="Forex">
+            <a href="<?php echo getBaseUrl(); ?>/forex" title="Forex">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/doller-icon.webp" class="icon doller" alt="USD Doller">
                 <div class="market-card">
                     <div class="px-5 text-start">
@@ -957,7 +957,7 @@ include_once('elements/header.php');
 
         <!-- Commodities -->
         <div class="col-md-4 commodities-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="commodities" title="Commodities">
+            <a href="<?php echo getBaseUrl(); ?>/commodities" title="Commodities">
                 <div class="market-card">
                     <div class="px-5 text-start">
                         <h3 class="text-hover-effect">Commodities</h3>
@@ -972,7 +972,7 @@ include_once('elements/header.php');
 
         <!-- Crypto -->
         <div class="col-md-4 crypto-card card-position position-relative p-5" data-aos="fade-up" data-aos-duration="800">
-            <a href="crypto" title="Crypto">
+            <a href="<?php echo getBaseUrl(); ?>/crypto" title="Crypto">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/product-crypto-icon.webp" class="icon crypto-icon" alt="Crypto Coin">
                 <div class="market-card">
                     <div class="px-5 text-start">
