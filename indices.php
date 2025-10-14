@@ -644,7 +644,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Diversified-Access.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Diversified-Access.svg" alt="Diversified Access">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Diversified Access</h5>
@@ -660,7 +660,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/professional-tools.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/professional-tools.svg" alt="Professional Tools">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Professional Tools</h5>
@@ -676,7 +676,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Efficiency.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Efficiency.svg" alt="Efficiency">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Efficiency</h5>
@@ -692,7 +692,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/liquidity.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/liquidity.svg" alt="Liquidity & Speed">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Liquidity & Speed</h5>
