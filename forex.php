@@ -612,7 +612,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Diversified-Access.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Diversified-Access.svg" alt="Diversified Access">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Diversified Access</h5>
@@ -628,7 +628,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Advaced-Tools.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Advaced-Tools.svg" alt="Advanced Tools">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Advanced Tools</h5>
@@ -644,7 +644,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Efficiency.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/Efficiency.svg" alt="Efficiency">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Efficiency</h5>
@@ -660,7 +660,7 @@ include_once ('elements/header.php');
                 <div class="card tech-feature p-4">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/reliability.svg">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/svg/reliability.svg" alt="Reliable Execution">
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Reliable Execution</h5>
