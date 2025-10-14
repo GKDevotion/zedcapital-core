@@ -108,7 +108,7 @@ include_once ('elements/header.php');
     }
 </style>
 
-<div class="container my-2 py-5">
+<div class="container my-2 py-5 d-none">
     <div class="row mb-2">
         <div class="col text-start text-danger fw-bold">Sellers</div>
         <div class="col text-end text-primary fw-bold">Buyers</div>
