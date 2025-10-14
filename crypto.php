@@ -617,7 +617,7 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
             <div class="col-lg-5 col-md-12">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/Cryptocurrencies-You-Can-Trade.webp" alt="" class="w-100">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/Cryptocurrencies-You-Can-Trade.webp" alt="Cryptocurrencies You Can Trade" class="w-100">
             </div>
         </div>
     </div>
@@ -841,7 +841,7 @@ include_once ('elements/explore-more-about.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Product Diamonds" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php

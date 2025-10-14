@@ -199,7 +199,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;">
+        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Red Black Diamonds" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;" >
     </div>
 </div>
 
@@ -570,7 +570,7 @@ include_once ('elements/header.php');
 
             <!-- Floating Icons -->
             <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="800">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/Currency-Pairs-at-Your-Fingertips.webp" class="w-100" alt="Regulatory Assurance">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/Currency-Pairs-at-Your-Fingertips.webp" class="w-100" alt="Currency Pairs at Your Fingertips">
             </div>
         </div>
     </div>
