@@ -113,23 +113,27 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
+                            <a class="nav-link d-flex justify-content-between align-items-center" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Window Terminal">
                                 Windows
+                                <i class="fa fa-download" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
+                            <a class="nav-link d-flex justify-content-between align-items-center" href="https://download.mql5.com/cdn/mobile/mt5/android?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download Android App">
                                 Android
+                                <i class="fa fa-download" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download IOS App">
+                            <a class="nav-link d-flex justify-content-between align-items-center" href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ZedCapital-Demo,ZedCapital-Live" target="_blank" title="Download IOS App">
                                 IOS
+                                <i class="fa fa-download" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="nav-item d-none">
-                            <a class="nav-link" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
+                            <a class="nav-link d-flex justify-content-between align-items-center" href="https://download.mql5.com/cdn/web/zed.capital.international/mt5/zedcapital5setup.exe" target="_blank" title="Download Web Trader">
                                 Desktop
+                                <i class="fa fa-download" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="nav-item">

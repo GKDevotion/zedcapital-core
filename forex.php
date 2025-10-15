@@ -199,7 +199,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Red Black Diamonds" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -50px 95px;" >
+        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Red Black Diamonds" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -60px 90px;" >
     </div>
 </div>
 
@@ -210,7 +210,7 @@ include_once ('elements/header.php');
         padding: 20px;
         text-align: center;
         background-color: aliceblue;
-        margin: 10px 0px;
+        margin: 10px 20px;
     }
     .btn-buy {
         background-color: var(--zed-success);
