@@ -206,6 +206,7 @@ include_once ('elements/header.php');
         padding: 20px;
         text-align: center;
         background-color: aliceblue;
+        margin: 20px;
     }
     .btn-buy {
         background-color: var(--zed-success);
@@ -252,6 +253,21 @@ include_once ('elements/header.php');
     .text-shadow{
         text-shadow: 0 2px 2px #999999;
     }
+
+    .owl-nav, .owl-dots{
+        display: none;
+    }
+
+    .stock-card img{
+        width: 60px !important;
+        margin: -45px 0px;
+        border-radius: 50px;
+        height: 60px;
+    }
+
+    .stock-card h5{
+        text-align: end;
+    }
 </style>
 
 <div class="container py-5">
@@ -266,219 +282,584 @@ include_once ('elements/header.php');
         </p>
     </div>
 
-    <!-- Cards -->
-    <div class="row g-4 justify-content-center mt-5">
-        <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/us-round-flag.png" class="w-50" alt="US500">
+    <div id="productTradeSlider" class="row g-4 justify-content-center">
+        <div class="owl-carousel">
+            <!-- Australia 200 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/w580/au.webp" class="" alt="Australia 200">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <p class="text-shadow mb-2">
+                                Australia 
+                            </p>
+                            <p>
+                                200
+                            </p>
+                        </h5>
+                    </div>
+
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold Australia-200-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold Australia-200-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
             </div>
-            <div class="stock-card" >
-                <h5 class="fw-bold mb-4 text-end">
-                    <p class="text-green mb-2">
-                        US500
-                    </p>
-                    <p class="">
-                        S&P 500
-                    </p>
-                </h5>
-                <div class="d-flex justify-content-between px-2">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold US500---bid">0.00</div>
-                    </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold US500---ask">0.00</div>
-                    </div>
-                </div>
 
-                <div class="sl-divider"></div>
+            <!-- US TECH 100-->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/us.webp" class="" alt="US TECH 100">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <p class="text-shadow mb-2">
+                                US TECH
+                            </p>
+                            <p>
+                                100
+                            </p>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold US-TECH-100-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold US-TECH-100-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
-                <div class="mt-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
+            </div>
+
+            <!-- US Wall Street 30-->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/us.webp" class="" alt="US Wall Street 30">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <p class="text-shadow mb-2">
+                                US Wall Street
+                            </p>
+                            <p>
+                                30
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold US-Wall-Street-30-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold US-Wall-Street-30-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+            </div>
+
+            <!-- GERMANY 40-->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/de.webp" class="" alt="GERMANY 40">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow mb-2">
+                                GERMANY
+                            </span>
+                            <p>
+                                40
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold GERMANY-40-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold GERMANY-40-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hong Kong 50 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/hk.webp" class="" alt="Hong Kong 50">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow mb-2">
+                                Hong Kong
+                            </span>
+                            <p>
+                                50
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold GBPUSD-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold GBPUSD-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- China A50 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/cn.webp" class="" alt="China A50">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow mb-2">
+                                China
+                            </span>
+                            <p>
+                                A50
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold GBPJPY-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold GBPJPY-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Switzerland 20 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/ch.webp" class="" alt="Switzerland 20">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow mb-2">
+                                Switzerland
+                            </span>
+                            <p>
+                                20
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold NZDUSD-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold NZDUSD-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- France 40 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/fr.webp" class="" alt="France 40">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow mb-2">
+                                France
+                            </span>
+                            <p>
+                                40
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold USDCAD-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold USDCAD-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Euro Stoxx 50 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDCHF.png" class="" alt="Euro Stoxx 50">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                Euro Stoxx
+                            </span>
+                            <p>
+                                50
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold USDCHF-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold USDCHF-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- US Russell 2000 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/us.webp" class="" alt="US Russell 2000">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow mb-2">
+                                US Russell
+                            </span>
+                            <p>
+                                2000
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UK100 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/gb.webp" class="" alt="UK100">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow mb-2">
+                                UK
+                            </span>
+                            <p>
+                                100
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- US500 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/h80/us.webp" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                US
+                            </span>
+                            <p>
+                                500
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JAPAN 225 -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://flagpedia.net/data/flags/w580/jp.webp" class="" alt="JAPAN 225">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                JAPAN
+                            </span>
+                            <p>
+                                225
+                            </p>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4 py-2">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Repeat for other stocks -->
-        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/us-round-flag.png" class="w-50" alt="US30">
-            </div>
-            <div class="stock-card" >
-                <h5 class="fw-bold mb-4 text-end">
-                    <p class="text-red mb-2">
-                        US30
-                    </p>
-                    <p class="">
-                        Dow Jones 30
-                    </p>
-                </h5>
-                <div class="d-flex justify-content-between px-2">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-success fw-bold US-Wall-Street-30-bid">0.00</div>
-                    </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-success fw-bold US-Wall-Street-30-ask">0.00</div>
-                    </div>
-                </div>
-
-                <div class="sl-divider"></div>
-
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="mt-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/ge-round-flag.png" class="w-50" alt="GER40">
-            </div>
-            <div class="stock-card" >
-                <h5 class="fw-bold mb-4 text-end">
-                    <p class="text-green mb-2">
-                        GER40
-                    </p>
-                    <p class="">
-                        DAX
-                    </p>
-                </h5>
-                <div class="d-flex justify-content-between px-2">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Germany-40---bid">0.00</div>
-                    </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Germany-40---ask">0.00</div>
-                    </div>
-                </div>
-
-                <div class="sl-divider"></div>
-
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="mt-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Repeat for other stocks -->
-        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/uk-round-flag.png" class="w-50" alt="UK100">
-            </div>
-            <div class="stock-card">
-                <h5 class="fw-bold mb-4 text-end">
-                    <p class="text-green mb-2">
-                        UK100
-                    </p>
-                    <p class="">
-                        FTSE 100
-                    </p>
-                </h5>
-                <div class="d-flex justify-content-between px-2">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-success fw-bold UK100---bid">0.00</div>
-                    </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-success fw-bold UK100---ask">0.00</div>
-                    </div>
-                </div>
-
-                <div class="sl-divider"></div>
-
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="mt-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card -->
-        <div class="col-12 col-sm-3 col-xxl mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="800" >
-            <div class="position-relative trade-indicies-responsive" style="width: 150px; margin: -45px 30px;" data-aos="fade-up" data-aos-duration="800" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/flag/jp-round-flag.png" class="w-50" alt="JPN225">
-            </div>
-            <div class="stock-card" >
-                <h5 class="fw-bold mb-4 text-end">
-                    <p class="text-green mb-2">
-                        JPN225
-                    </p>
-                    <p class="">
-                        Nikkei
-                    </p>
-                </h5>
-                <div class="d-flex justify-content-between px-2">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold JAPAN-225---bid">0.00</div>
-                    </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold JAPAN-225---ask">0.00</div>
-                    </div>
-                </div>
-
-                <div class="sl-divider"></div>
-
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="mt-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Add META, AAPL, AMD similarly -->
     </div>
 
     <!-- Button -->
@@ -491,8 +872,8 @@ include_once ('elements/header.php');
 
 <script>
     // List of symbols to fetch
-    const symbols = ["US500", "Germany 40", "UK100", "JAPAN 225", "US Wall Street 30"];
-    // const symbols = ["Australia 200", "US TECH 100", "US Wall Street 30", "GERMANY 40", "Hong Kong 50", "China A50", "Switzerland 20", "France 40", "Euro Stoxx 50", "US Russell 2000", "UK100", "US500", "JAPAN 225"];
+    // const symbols = ["US500", "Germany 40", "UK100", "JAPAN 225", "US Wall Street 30"];
+    const symbols = ["Australia 200", "US TECH 100", "US Wall Street 30", "GERMANY 40", "Hong Kong 50", "China A50", "Switzerland 20", "France 40", "Euro Stoxx 50", "US Russell 2000", "UK100", "US500", "JAPAN 225"];
 
     function fetchMarketData() {
         $.ajax({

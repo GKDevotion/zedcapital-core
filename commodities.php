@@ -352,11 +352,11 @@ include_once ('elements/header.php');
     
     <!-- Card group row -->
     <div class="row justify-content-center card-group-row">
-        <!-- GOLD CARD -->
+        <!-- Brent -->
         <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/brent-oil.webp" class="w-75" alt="Brent Oil" data-aos="fade-up" data-aos-duration="1000" >
-                <div class="metal-title text-green">Brent Crude Oil</div>
+                <div class="metal-title text-green">Brent</div>
                 <div class="market-title fw-bold d-none">XBRUSD</div>
                 <div class="d-flex justify-content-between px-5 mt-4">
                     <div>
@@ -386,45 +386,11 @@ include_once ('elements/header.php');
             </div>
         </div>
 
-        <!-- SILVER CARD -->
-        <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
-            <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/wti-oil.webp" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
-                <div class="metal-title  text-green">WTI Crude Oil</div>
-                <div class="market-title fw-bold d-none">XTIUSD</div>
-                <div class="d-flex justify-content-between px-5 mt-4">
-                    <div>
-                        <p class="mb-0 fs-6">Bid</p>
-                        <div class="text-success fw-bold WTI-bid">0.00</div>
-                    </div>
-                    <div>
-                        <p class="mb-0 fs-5">Ask</p>
-                        <div class="text-danger fw-bold WTI-ask">0.00</div>
-                    </div>
-                </div>
-
-                <div class="sl-divider"></div>
-                
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="mt-3 mb-3">
-                    <button class="btn btn-buy">Buy</button>
-                    <button class="btn btn-sell">Sell</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- PLATINUM CARD -->
+        <!-- NGAS -->
         <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/natural-gas.webp" class="w-75" alt="natural Gas" data-aos="fade-up" data-aos-duration="1000" >
-                <div class="metal-title  text-green">Natural Gas</div>
+                <div class="metal-title  text-green">NGAS</div>
                 <div class="market-title fw-bold d-none">XYIUSD</div>
                 <div class="d-flex justify-content-between px-5 mt-4">
                     <div>
@@ -453,6 +419,41 @@ include_once ('elements/header.php');
                 </div>
             </div>
         </div>
+
+        <!-- WTI -->
+        <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
+            <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/wti-oil.webp" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
+                <div class="metal-title  text-green">WTI</div>
+                <div class="market-title fw-bold d-none">XTIUSD</div>
+                <div class="d-flex justify-content-between px-5 mt-4">
+                    <div>
+                        <p class="mb-0 fs-6">Bid</p>
+                        <div class="text-success fw-bold WTI-bid">0.00</div>
+                    </div>
+                    <div>
+                        <p class="mb-0 fs-5">Ask</p>
+                        <div class="text-danger fw-bold WTI-ask">0.00</div>
+                    </div>
+                </div>
+
+                <div class="sl-divider"></div>
+                
+                <div class="my-2 d-none">
+                    <small>Spread</small> 
+                    <div class="fw-bold">0</div>
+                </div>
+                <div class="my-4">
+                    <small>Leverage</small> 
+                    <div class="fw-bold">Up to 1:500</div>
+                </div>
+                <div class="mt-3 mb-3">
+                    <button class="btn btn-buy">Buy</button>
+                    <button class="btn btn-sell">Sell</button>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
 </div>

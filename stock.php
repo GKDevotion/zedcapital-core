@@ -255,9 +255,10 @@ include_once ('elements/header.php');
         display: none;
     }
     .stock-card img{
-        width: 80px !important; 
+        width: 75px !important;
         margin: -45px 0px;
-        border-radius: 50%;
+        border-radius: 50px;
+        height: 75px;
     }
 
     .stock-card h5{

@@ -209,7 +209,7 @@ include_once ('elements/header.php');
         color: white;
         box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
         margin-top: 10px;
-        padding: 5px 40px;
+        padding: 5px 30px;
         font-size: 1.2rem;
         font-weight: 600;
     }
@@ -224,7 +224,7 @@ include_once ('elements/header.php');
         color: white;
         box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
         margin-top: 10px;
-        padding: 5px 40px;
+        padding: 5px 30px;
         font-size: 1.2rem;
         font-weight: 600;
     }
@@ -285,8 +285,50 @@ include_once ('elements/header.php');
 
     <!-- Cards -->
     <div class="row g-4 justify-content-center mt-5">
-        <!-- Card -->
-        <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
+        <!-- Aluminium (XALUSD) -->
+        <div class="col-12 col-sm-3 col-md-3 col-xxl" data-aos="fade-up" data-aos-duration="400" >
+            <div class="position-relative">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-gold.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
+            </div>
+
+            <div class="stock-card">
+
+                <div class="">
+                    <div class="metal-title">Aluminium</div>
+
+                    <div class="market-title">XALUSD</div>
+                    
+                    <div class="d-flex justify-content-between px-5 mt-2">
+                        <div>
+                            <p class="mb-0 fs-6">Bid</p>
+                            <div class="text-success fw-bold ALUMINIUM-bid">0.00</div>
+                        </div>
+                        <div>
+                            <p class="mb-0 fs-5">Ask</p>
+                            <div class="text-danger fw-bold ALUMINIUM-ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-md-flex justify-content-around px-3 mb-3">
+                        <button class="btn btn-buy">Buy</button>
+                        <button class="btn btn-sell">Sell</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Gold (XAUUSD) -->
+        <div class="col-12 col-sm-3 col-md-3 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-gold.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
@@ -327,8 +369,8 @@ include_once ('elements/header.php');
             </div>
         </div>
 
-        <!-- Repeat for other stocks -->
-        <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
+        <!-- Silver (XAGUSD) -->
+        <div class="col-12 col-sm-3 col-md-3 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative mt-5 mt-md-0">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-silver.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
@@ -369,8 +411,8 @@ include_once ('elements/header.php');
             </div>
         </div>
 
-        <!-- Card -->
-        <div class="col-12 col-sm-4 col-xxl" data-aos="fade-up" data-aos-duration="400" >
+        <!-- Copper (XCUUSD) -->
+        <div class="col-12 col-sm-3 col-md-3 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative mt-5 mt-md-0">
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-platinum.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
@@ -424,7 +466,7 @@ include_once ('elements/header.php');
 
 <script>
     // List of symbols to fetch
-    const symbols = ["COPPER", "XAUUSD", "XAGUSD"];
+    const symbols = ["ALUMINIUM", "COPPER", "XAUUSD", "XAGUSD"];
 
     function fetchMarketData() {
         $.ajax({
