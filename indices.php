@@ -645,7 +645,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDCHF.png" class="" alt="Euro Stoxx 50">
+                            <img src="https://s3-symbol-logo.tradingview.com/country/EU.svg" class="" alt="Euro Stoxx 50">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">

@@ -309,6 +309,10 @@ include_once('elements/header.php');
         .account-type-btn{
             width: 100%;
         }
+
+        .text-hover-effect{
+            font-size: 1.7rem !important;
+        }
     }
 
     @media (min-width: 1024px) and (max-width: 1399.99px) {
