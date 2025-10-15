@@ -293,7 +293,7 @@ include_once ('elements/header.php');
         </p>
     </div>
 
-    <div id="forexTradeSlider" class="row g-4 justify-content-center">
+    <div id="productTradeSlider" class="row g-4 justify-content-center">
         <div class="owl-carousel">
             <!-- Card AUDUSD -->
             <div class="item mt-4">

@@ -346,8 +346,8 @@ if( $(".owl-carousel").length >0 ){
     });
 }
 
-if( $("#forexTradeSlider").length >0 ){
-    $('#forexTradeSlider').owlCarousel({
+if( $("#productTradeSlider").length >0 ){
+    $('#productTradeSlider').owlCarousel({
         loop: true,
         center: false,
         items: 4,

@@ -202,7 +202,7 @@ include_once ('elements/header.php');
         padding: 20px;
         text-align: center;
         background-color: aliceblue;
-        margin: 0 10px;
+        margin: 10px 20px;
     }
 
     .btn-buy {
@@ -250,6 +250,19 @@ include_once ('elements/header.php');
     .text-shadow{
         text-shadow: 0 2px 2px #999999;
     }
+
+    .owl-nav, .owl-dots{
+        display: none;
+    }
+    .stock-card img{
+        width: 80px !important; 
+        margin: -45px 0px;
+        border-radius: 50%;
+    }
+
+    .stock-card h5{
+        text-align: end;
+    }
 </style>
 
 <div class="container py-5 mb-5">
@@ -265,401 +278,456 @@ include_once ('elements/header.php');
         </p>
     </div>
 
-    <!-- Cards -->
-    <div class="row g-4 justify-content-center mt-5">
-
-        <!-- TESLA -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        TESLA
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-success fw-bold Tesla-bid">0.00</div>
+    <div id="productTradeSlider" class="row g-4 justify-content-center">
+        <div class="owl-carousel">
+            <!-- Card AUDUSD -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/TESLA.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                TESLA
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-success fw-bold Tesla-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold Tesla-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold Tesla-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- NVIDIA -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        NVIDIA
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold NVIDIA-bid">0.00</div>
+            <!-- NVIDIA -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/NVIDIA.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                NVIDIA
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold NVIDIA-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold NVIDIA-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold NVIDIA-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- APPLE -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        APPLE
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-success fw-bold Apple-bid">0.00</div>
+            <!-- APPLE -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/APPLE.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                APPLE
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-success fw-bold Apple-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold Apple-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold Apple-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- AMAZON -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        AMAZON
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Amazon-bid">0.00</div>
+            <!-- AMAZON -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/AMAZON.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                AMAZON
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Amazon-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold Amazon-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold Amazon-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- MICROSOFT -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        MICROSOFT
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Microsoft-bid">0.00</div>
+            <!-- MICROSOFT -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/MICROSOFT.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                MICROSOFT
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Microsoft-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold Microsoft-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold Microsoft-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <!-- ORACLE -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        ORACLE
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Oracle-bid">0.00</div>
+            
+            <!-- ORACLE -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/ORACLE.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                ORACLE
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Oracle-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold Oracle-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold Oracle-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- META -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        META
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Facebook-bid">0.00</div>
+            <!-- META -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/META.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                META
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Facebook-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold Facebook-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold Facebook-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- INTEL -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        INTEL
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Intel-bid">0.00</div>
+            <!-- INTEL -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/INTEL.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                INTEL
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Intel-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold Intel-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold Intel-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- COINBASE -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        COINBASE
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Coinbase-bid">0.00</div>
+            <!-- COINBASE -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/COINBASE.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                COINBASE
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Coinbase-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold Coinbase-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold Coinbase-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- ALPHABET -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        ALPHABET
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Alphabet-bid">0.00</div>
+            <!-- ALPHABET -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/ALPHABET.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                ALPHABET
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Alphabet-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold Alphabet-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold Alphabet-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- NETFLIX -->
-        <div class="col-12 col-sm-3 col-xxl">
-            <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
-                <h5 class="fw-bold mb-4">
-                    <span class="text-shadow">
-                        NETFLIX
-                    </span>
-                </h5>
-                <div class="d-flex justify-content-between px-2 mt-3">
-                    <div>
-                        <small>Bid</small>
-                        <div class="text-danger fw-bold Netflix-bid">0.00</div>
+            <!-- NETFLIX -->
+            <div class="item mt-4">
+                <div class="stock-card" data-aos="fade-up" data-aos-duration="850">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/NETFLIX.png" class="" alt="Australian Dollar / U.S. Dollar">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                NETFLIX
+                            </span>
+                        </h5>
                     </div>
-                    <div>
-                        <small>Ask</small>
-                        <div class="text-danger fw-bold Netflix-ask">0.00</div>
+                    <div class="d-flex justify-content-between px-2 mt-3">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold Netflix-bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold Netflix-ask">0.00</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="sl-divider"></div>
+                    <div class="sl-divider"></div>
 
-                <div class="my-2 d-none">
-                    <small>Spread</small> 
-                    <div class="fw-bold">0</div>
-                </div>
-                <div class="my-4">
-                    <small>Leverage</small> 
-                    <div class="fw-bold">Up to 1:500</div>
-                </div>
-                <div class="d-flex justify-content-around gap-2 mt-4">
-                    <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                    <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
                 </div>
             </div>
         </div>
