@@ -352,16 +352,16 @@ if( $("#forexTradeSlider").length >0 ){
         center: true,
         items: 4,
         margin: 0,
-        autoplay: true,
-        dots:true,
-        autoplayTimeout: 8500,
-        smartSpeed: 450,
+        autoplay: false,
+        dots:false,
+        // autoplayTimeout: 8500,
+        smartSpeed: 10000,
         responsive: {
             0: {
                 items: 2
             },
             768: {
-                items: 4
+                items: 3
             },
             1170: {
                 items: 5

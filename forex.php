@@ -210,7 +210,7 @@ include_once ('elements/header.php');
         padding: 20px;
         text-align: center;
         background-color: aliceblue;
-        margin: 5px 10px;
+        margin: 10px 25px;
     }
     .btn-buy {
         background-color: var(--zed-success);
