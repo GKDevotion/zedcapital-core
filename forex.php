@@ -300,7 +300,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/AUDUSD.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/AUDUSD.png" class="" alt="Australian Dollar / U.S. Dollar">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -344,7 +344,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURUSD.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURUSD.png" class="" alt="Euro / U.S. Dollar">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -385,7 +385,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURGBP.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURGBP.png" class="" alt="Euro / British Pound">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -426,7 +426,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURJPY.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURJPY.png" class="" alt="Euro / Japanese Yen">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -467,7 +467,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/GBPUSD.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/GBPUSD.png" class="" alt="British Pound / U.S. Dollar">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -508,7 +508,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/GBPJPY.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/GBPJPY.png" class="" alt="British Pound / Japanese Yen">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -549,7 +549,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/NZDUSD.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/NZDUSD.png" class="" alt="New Zealand Dollar / U.S. Dollar">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -590,7 +590,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDCAD.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDCAD.png" class="" alt="U.S. Dollar / Canadian Dollar">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -631,7 +631,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDCHF.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDCHF.png" class="" alt="U.S. Dollar / Swiss Franc">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
@@ -672,7 +672,7 @@ include_once ('elements/header.php');
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
                     <div class="row">
                         <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDJPY.png" class="" alt="US500">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDJPY.png" class="" alt="U.S. Dollar / Japanese Yen">
                         </div>
                         <h5 class="fw-bold mb-4">
                             <span class="text-shadow">
