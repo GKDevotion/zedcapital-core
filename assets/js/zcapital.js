@@ -349,13 +349,13 @@ if( $(".owl-carousel").length >0 ){
 if( $("#forexTradeSlider").length >0 ){
     $('#forexTradeSlider').owlCarousel({
         loop: true,
-        center: true,
+        center: false,
         items: 4,
         margin: 0,
         autoplay: false,
         dots:false,
         // autoplayTimeout: 8500,
-        smartSpeed: 10000,
+        smartSpeed: 1000000,
         responsive: {
             0: {
                 items: 2

@@ -199,7 +199,7 @@ include_once ('elements/header.php');
     </div>
 
     <div class="position-relative set-diamond-image">
-        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Red Black Diamonds" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -55px 125px;" >
+        <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/red-black-diamonds.png" alt="Red Black Diamonds" class="position-absolute bottom-0 end-0 float-y" style="width: 120px; height: 100px; margin: -50px 95px;" >
     </div>
 </div>
 
@@ -270,6 +270,15 @@ include_once ('elements/header.php');
     .owl-nav, .owl-dots{
         display: none;
     }
+
+    .stock-card img{
+        width: 80px !important; 
+        margin: -45px 0px;
+    }
+
+    .stock-card h5{
+        text-align: end;
+    }
 </style>
 
 <div class="container py-5 mb-5">
@@ -287,13 +296,19 @@ include_once ('elements/header.php');
     <div id="forexTradeSlider" class="row g-4 justify-content-center">
         <div class="owl-carousel">
             <!-- Card AUDUSD -->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            AUDUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/AUDUSD.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                AUDUSD
+                            </span>
+                        </h5>
+                    </div>
+
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -325,13 +340,18 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Card EURUSD-->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            EURUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURUSD.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                EURUSD
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -361,13 +381,18 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Card EURGBP-->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            EURGBP
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURGBP.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                EURGBP
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -397,13 +422,18 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Card EURJPY-->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            EURJPY
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/EURJPY.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                EURJPY
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -433,13 +463,18 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Card GBPUSD -->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            GBPUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/GBPUSD.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                GBPUSD
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -469,13 +504,18 @@ include_once ('elements/header.php');
             </div>
             
             <!-- Card GBPJPY -->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            GBPJPY
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/GBPJPY.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                GBPJPY
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -505,13 +545,18 @@ include_once ('elements/header.php');
             </div>
             
             <!-- Card NZDUSD -->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            NZDUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/NZDUSD.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                NZDUSD
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -541,13 +586,18 @@ include_once ('elements/header.php');
             </div>
             
             <!-- Card USDCAD -->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            USDCAD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDCAD.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                USDCAD
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -577,13 +627,18 @@ include_once ('elements/header.php');
             </div>
             
             <!-- Card USDCHF -->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            USDCHF
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDCHF.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                USDCHF
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -613,13 +668,18 @@ include_once ('elements/header.php');
             </div>
 
             <!-- Card USDJPY -->
-            <div class="item">
+            <div class="item mt-4">
                 <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow">
-                            USDJPY
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="<?php echo getBaseUrl(); ?>/assets/images/products/USDJPY.png" class="" alt="US500">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                USDJPY
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
@@ -1034,7 +1094,7 @@ include_once ('elements/explore-more-about.php');
 ?>
 
 <div class="position-relative set-diamond-image" data-aos="fade-up" data-aos-duration="800" >
-    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 150px; height: 80px; margin: -55px 125px;">
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/diamonds/product-footer-diamonds.png" alt="Corner Image" class="position-absolute bottom-0 end-0 float-y" style="width: 130px; height: 80px; margin: -55px 125px;">
 </div>
 
 <?php
