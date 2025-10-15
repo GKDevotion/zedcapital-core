@@ -346,6 +346,30 @@ if( $(".owl-carousel").length >0 ){
     });
 }
 
+if( $("#forexTradeSlider").length >0 ){
+    $('#forexTradeSlider').owlCarousel({
+        loop: true,
+        center: true,
+        items: 4,
+        margin: 0,
+        autoplay: true,
+        dots:true,
+        autoplayTimeout: 8500,
+        smartSpeed: 450,
+        responsive: {
+            0: {
+                items: 2
+            },
+            768: {
+                items: 4
+            },
+            1170: {
+                items: 5
+            }
+        }
+    });
+}
+
 // Render initial market cards
 if ($("#market-slides").length > 0) {
     const zoom = 2.2;

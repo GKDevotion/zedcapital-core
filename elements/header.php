@@ -21,7 +21,7 @@
         <meta name="google-site-verification" content="" />
 
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="assets/images/40X40.webp">
+        <link rel="shortcut icon" href="<?php echo getCurrentUrl(); ?>/assets/images/40X40.webp">
 
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
