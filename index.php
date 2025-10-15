@@ -2263,36 +2263,47 @@ include_once('elements/header.php');
 <?php } ?>
 
 <style>
-    .news-card {
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        transition: transform 0.25s ease-in-out;
-        height: 100%;
+
+    #news_market{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-image: url('<?php echo getBaseUrl(); ?>/assets/images/background/live-news-market.jpg'); */
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .news-card:hover { transform: translateY(-5px); }
+    .set-news-min-height {
+        min-height: 175px;
+    }
     .sentiment-positive { color: #28a745; font-weight: 600; }
     .sentiment-negative { color: #dc3545; font-weight: 600; }
     .sentiment-neutral { color: #6c757d; font-weight: 600; }
     .topic-badge { font-size: 0.75rem; margin-right: 4px; }
+
+    .border-bottom{
+        border-bottom: #6c757d;
+    }
 </style>
 
-<div class="container py-5">
-  <h2 class="text-center mb-4 py-5 h2">Latest Market News</h2>
+<section id="news_market">
+    <div class="container py-5">
+    <h2 class="text-center mb-4 py-5 h2">Latest Market News</h2>
 
-  <div class="row" id="newsContainer">
-    <!-- News cards will be added here -->
-  </div>
-
-  <div id="loader" class="text-center py-5">
-    <div class="spinner-border text-primary" role="status">
-      <span class="visually-hidden">Loading...</span>
+    <div class="row" id="newsContainer">
+        <!-- News cards will be added here -->
     </div>
-  </div>
 
-  <div id="errorMsg" class="text-center text-danger fw-bold py-4 d-none">
-    ⚠️ Failed to load news. Please try again later.
-  </div>
-</div>
+    <div id="loader" class="text-center py-5">
+        <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <div id="errorMsg" class="text-center text-danger fw-bold py-4 d-none">
+        ⚠️ Failed to load news. Please try again later.
+    </div>
+    </div>
+</section>
 
 <!-- Google Maps API -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAMUueWiyeYwrKGxbKD5jC9NEnVeKiOoU&callback=initMap"></script>

@@ -613,7 +613,7 @@ if( $("#newsContainer").length >0 ){
         const errorMsg = document.getElementById("errorMsg");
 
         try {
-            const response = await fetch("https://livechart.zedcapital.com:5000/api/news?pageSize=9");
+            const response = await fetch("https://livechart.zedcapital.com:5000/api/news?pageSize=6");
             if (!response.ok) throw new Error("Network response was not ok");
             
             const jsonData = await response.json();
@@ -633,25 +633,29 @@ if( $("#newsContainer").length >0 ){
                 "sentiment-neutral";
 
             const topics = news.topics?.map(topic => 
-                `<span class="badge bg-secondary topic-badge">${topic}</span>`
+                `<span class="badge bg-secondary px-3 py-2 topic-badge">${topic}</span>`
             ).join(" ") || "";
 
             const cardHTML = `
-                <div class="col-sm-6 col-lg-4 mb-4 d-flex">
-                <div class="card news-card flex-fill">
-                    <div class="card-body d-flex flex-column">
-                    <h6 class="card-title mb-2">
-                        <a href="${news.url}" target="_blank" class="text-decoration-none text-dark">
-                        ${news.title}
-                        </a>
-                    </h6>
-                    <p class="card-text small mb-1"><strong>Source:</strong> ${news.source}</p>
-                    <p class="card-text small mb-1"><strong>Pair:</strong> ${news.pair}</p>
-                    <p class="card-text small mb-1"><strong>Sentiment:</strong> <span class="${sentimentClass}">${news.sentiment}</span></p>
-                    ${topics ? `<div class="mb-2">${topics}</div>` : ""}
-                    <p class="card-text small text-muted mt-auto">🕓 ${news.published_gst || ""}</p>
+                <div class="col-6 mb-4">
+                    <div class="py-3 set-news-min-height border-bottom border-gray-200">
+                        <h6>
+                            <a href="${news.url}" target="_blank" class="text-decoration-none text-dark">
+                                ${news.title}
+                            </a>
+                        </h6>
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="card-text small mb-1"><strong>Source:</strong> ${news.source}</p>
+                                <p class="card-text small mb-1"><strong>Pair:</strong> ${news.pair}</p>
+                                <p class="card-text small mb-1"><strong>Sentiment:</strong> <span class="${sentimentClass}">${news.sentiment}</span></p>
+                            </div>
+                            <div class="col-6">
+                                ${topics ? `<div class="mb-4 text-end">${topics}</div>` : ""}
+                                <p class="card-text small text-muted mt-auto text-end">🕓 ${news.published_gst || ""}</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
                 </div>
             `;
             container.insertAdjacentHTML("beforeend", cardHTML);
