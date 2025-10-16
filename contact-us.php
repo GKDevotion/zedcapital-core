@@ -22,10 +22,15 @@ include_once('elements/header.php');
         padding: 2rem 0;
     }
 
-    .contact-wrap .form h3 {
-        color: #35477d;
-        font-size: 20px;
-        margin-bottom: 30px;
+    .contact-wrap h3 {
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .contact-wrap p {
+        color: #fff;
+        font-size: 0.8rem;
     }
 
     .contact-wrap {
@@ -91,7 +96,7 @@ include_once('elements/header.php');
                 <div class="row align-items-stretch no-gutters contact-wrap">
                     <div class="col-md-8 px-5 pt-4">
                         <div class="form h-75">
-                            <h3>Send us a message</h3>
+                            <h3 class="text-dark mb-4">Send us a message</h3>
                             <form class="mb-5" method="post" id="contact_us">
                                 <div class="row">
                                     <div class="col-md-6 form-group mb-3">
@@ -118,7 +123,7 @@ include_once('elements/header.php');
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12 form-group text-center">
+                                    <div class="col-md-12 form-group text-start">
                                         <input type="submit" value="Send Message" class="btn btn-danger rounded-0 py-2 px-4">
                                         <span class="submitting"></span>
                                     </div>
@@ -130,8 +135,8 @@ include_once('elements/header.php');
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="row contact-info py-5">
-                            <div class="col-md-12">
+                        <div class="row contact-info py-4">
+                            <div class="col-md-12 mb-5">
                                 <div class="text-center">
                                     <i class="fa fa-map"></i>
                                     <h3>
@@ -142,7 +147,7 @@ include_once('elements/header.php');
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-12 mb-5">
                                 <div class="info-box text-center">
                                     <i class="fa fa-envelope"></i>
                                     <h3>
