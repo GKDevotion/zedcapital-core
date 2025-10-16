@@ -991,7 +991,7 @@ include_once ('elements/header.php');
 
                 <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Asia-Pacific</h5>
                 <p class="text-white" data-aos="fade-up" data-aos-duration="850">
-                    Nikkei 225, Hang Seng, ASX 200, Nifty 50
+                    Nikkei 225, Hang Seng, ASX 200
                 </p>
 
                 <h5 class="fw-bold" data-aos="fade-up" data-aos-duration="850">Middle East</h5>
