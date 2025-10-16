@@ -536,7 +536,7 @@ include_once ('elements/header.php');
                         <tbody>
                             <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/xrp.webp?v=040" width="20" alt="XRPUSD"> XRPUSD
+                                    <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCXRP--big.svg" width="20" alt="XRPUSD"> XRPUSD
                                 </td>
                                 <td class="price-up">3.0578</td>
                                 <td class="py-4">3.8</td>
@@ -545,7 +545,7 @@ include_once ('elements/header.php');
                             </tr>
                             <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/bitcoin.webp?v=040" width="20" alt="BTCUSD"> BTCUSD
+                                    <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC--big.svg" width="20" alt="BTCUSD"> BTCUSD
                                 </td>
                                 <td class="price-down">118305.04</td>
                                 <td class="py-4">15.0</td>
@@ -554,7 +554,7 @@ include_once ('elements/header.php');
                             </tr>
                             <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/litecoin.webp?v=040" width="20" alt="LTCUSD"> LTCUSD
+                                    <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCLTC--big.svg" width="20" alt="LTCUSD"> LTCUSD
                                 </td>
                                 <td class="price-up">121.28</td>
                                 <td class="py-4">5.0</td>
@@ -563,7 +563,7 @@ include_once ('elements/header.php');
                             </tr>
                             <tr class="d-none" data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/ethereum.webp?v=040" width="20" alt="ETHUSD"> ETHUSD
+                                    <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCETH--big.svg" width="20" alt="ETHUSD"> ETHUSD
                                 </td>
                                 <td class="price-up">4493.3</td>
                                 <td class="py-4">5.7</td>
@@ -572,7 +572,7 @@ include_once ('elements/header.php');
                             </tr>
                             <tr class="d-none" data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
-                                    <img src="<?php echo getBaseUrl(); ?>/assets/images/cryptologos/bnb.webp?v=040" width="20" alt="BNBUSD"> BNBUSD
+                                    <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCBNB--big.svg" width="20" alt="BNBUSD"> BNBUSD
                                 </td>
                                 <td class="price-up">824.57</td>
                                 <td class="py-4">3.7</td>
