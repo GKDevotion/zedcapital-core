@@ -203,7 +203,7 @@ include_once ('elements/header.php');
         <!-- Left Side Icons -->
         <div class="col-lg-5 col-sm-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="800" >
             <div class="network-container">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/crypto-benefit.jpg" class="w-100 ps-0 ps-md-0" alt="Regulatory Assurance">
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/crypto-benefit.webp" class="w-100 ps-0 ps-md-0" alt="Regulatory Assurance">
             </div>
         </div>
         
@@ -305,6 +305,18 @@ include_once ('elements/header.php');
     .text-shadow{
         text-shadow: 0 2px 2px #999999;
     }
+
+    .stock-card img{
+        width: 75px !important;
+        margin: -50px -100px;
+        border-radius: 50px;
+        height: 75px;
+        position: absolute;
+    }
+
+    .stock-card h5{
+        text-align: end;
+    }
 </style>
 
 <section class="bg-white">
@@ -322,14 +334,19 @@ include_once ('elements/header.php');
 
         <!-- Cards -->
         <div class="row g-4 justify-content-center mb-5" data-aos="fade-up" data-aos-duration="800" >
-            <!-- Card -->
+            <!-- Bitcoin -->
             <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            BTCUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC--big.svg" class="" alt="Bitcoin">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                Bitcoin
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
@@ -359,14 +376,19 @@ include_once ('elements/header.php');
                 </div>
             </div>
 
-            <!-- Repeat for other stocks -->
+            <!-- Ethereum -->
             <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            ETHUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCETH--big.svg" class="" alt="Ethereum">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                Ethereum
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
@@ -395,14 +417,19 @@ include_once ('elements/header.php');
                 </div>
             </div>
 
-            <!-- Card -->
+            <!-- XRP -->
             <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            XRPUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCXRP--big.svg" class="" alt="XRP">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                XRP
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
@@ -431,14 +458,19 @@ include_once ('elements/header.php');
                 </div>
             </div>
 
-            <!-- Repeat for other stocks -->
+            <!-- DOG -->
             <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            DOGUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCDOGG--big.svg" class="" alt="DOG">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                DOG
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
@@ -467,14 +499,19 @@ include_once ('elements/header.php');
                 </div>
             </div>
 
-            <!-- Card -->
+            <!-- Litecoin -->
             <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
                 <div class="stock-card">
-                    <h5 class="fw-bold mb-4">
-                        <span class="text-shadow" data-aos="fade-up" data-aos-duration="800" >
-                            LTCUSD
-                        </span>
-                    </h5>
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCLTC--big.svg" class="" alt="Litecoin">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                Litecoin
+                            </span>
+                        </h5>
+                    </div>
                     <div class="d-flex justify-content-between px-2 mt-4">
                         <div>
                             <small>Bid</small>
