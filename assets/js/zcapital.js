@@ -144,19 +144,28 @@ if( $('#forex_profit_calculator_form').length > 0 ){
     $('#forex_profit_calculator_form').on('submit', function(event) {
         event.preventDefault();
         $.ajax({
-            url: "https://www.zedcapital.mu/forex-profit-calculator",
+            url: url + "/logic/forexProfitCalculator.php",
             method: "POST",
             data: $(this).serialize(),
+            dataType: "json",
             success: function(response) {
-                $('#profit').text('Your profit is: $' + response.profit);
+                if (response.status === 'success') {
+                    const data = response.data;
+                    $('#profit').html(`
+                        <b>Your profit is:</b> ${data.deposit_currency} ${data.profit}<br>
+                        <small>
+                            Instrument: ${data.instrument} |
+                            Type: ${data.trade_type} |
+                            Lots: ${data.lot_size}
+                        </small>
+                    `);
+                } else {
+                    alert(response.message);
+                }
             },
-            error: function(xhr) {
-                var errors = xhr.responseJSON.errors;
-                var errorMessage = '';
-                $.each(errors, function(key, value) {
-                    errorMessage += value[0] + '\n';
-                });
-                alert(errorMessage);
+            error: function(xhr, status, error) {
+                console.error("AJAX Error:", error);
+                alert("Something went wrong. Please try again later.");
             }
         });
     });
