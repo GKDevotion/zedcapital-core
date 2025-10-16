@@ -93,8 +93,6 @@ include_once ('elements/header.php');
         <div class="col-md-8 offset-2 box-shadow">
 
             <form id="pivot_point_calculator_form">
-                <input type="hidden" id="pivot_point_calculator_form_url"
-                    value="{{ route('pivot_point_calculator_form') }}">
                 <div class="row">
 
                     <div class="col-md-6 pt-3">
@@ -125,7 +123,7 @@ include_once ('elements/header.php');
 
                         <div class="row">
                             <div class="col-md-4">
-                                <h4>Standard Pivot Points</h4>
+                                <h4 class="text-red">Standard Pivot Points</h4>
                                 <p id="standardPivotPoint"></p>
                                 <p id="standardR1"></p>
                                 <p id="standardR2"></p>
@@ -135,7 +133,7 @@ include_once ('elements/header.php');
                                 <p id="standardS3"></p>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="">Fibonacci Pivot Points</h4>
+                                <h4 class="text-red">Fibonacci Pivot Points</h4>
                                 <p id="fibonacciPivotPoint"></p>
                                 <p id="fibonacciR1"></p>
                                 <p id="fibonacciR2"></p>
@@ -145,7 +143,7 @@ include_once ('elements/header.php');
                                 <p id="fibonacciS3"></p>
                             </div>
                             <div class="col-md-4">
-                                <h4 class="">Camarilla Pivot Points</h4>
+                                <h4 class="text-red">Camarilla Pivot Points</h4>
                                 <p id="camarillaPivotPoint"></p>
                                 <p id="camarillaR1"></p>
                                 <p id="camarillaR2"></p>
