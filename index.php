@@ -1053,7 +1053,7 @@ include_once('elements/header.php');
 </style>
 
 <div class="position-absolute w-100 text-end set-diamond-image">
-    <img src="<?php echo getBaseUrl(); ?>/assets/images/background/redgreen-trading-candles-white-studio.png" alt="Candle Studio" style="width: 25%; margin-top: -50px;" />
+    <img src="<?php echo getBaseUrl(); ?>/assets/images/background/redgreen-trading-candles-white-studio.webp" alt="Candle Studio" style="width: 25%; margin-top: -50px;" />
 </div>
 
 <div id="technology_feature" class="text-center">
