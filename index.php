@@ -26,15 +26,15 @@ include_once('elements/header.php');
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-1.webp?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/image-6.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
 
         <div class="carousel-item">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-2.webp?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/image-5.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
 
         <div class="carousel-item">
-            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/Zed-Capital-3.webp?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
+            <img src="<?php echo getBaseUrl(); ?>/assets/images/slider/image-4.png?v=<?php echo $version;?>" class="d-block w-100" alt="Zedcapital">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
