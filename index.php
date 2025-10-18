@@ -1107,7 +1107,7 @@ include_once('elements/header.php');
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            MT5 Web Trading eliminates the need of downloading and installing MT5 bringing the entire MT5 experience into your browser. To access real-time pricing, one-click orders, sophisticated charting, market depth, and full order types that are synchronized across all your devices, log in with your Zed Capital account. Quick, safe, and available for trading anywhere.
+                            MT5 Web Trading puts the full MT5 experience in your browser -no downloads, no installs. Log in with your Zed Capital account to get real-time pricing, one-click orders, advanced charts, depth of market, and full order types, all synced across your devices. Fast, secure, and ready to trade anywhere.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 loginLiveAccount">
