@@ -191,15 +191,15 @@ if( $('#forex_profit_calculator_form').length > 0 ){
 
 $(document).ready(function() {
     $('.openLiveAccount').on('click', function() {
-        window.open('https://cabinet.zedcapital.com/register', '_blank');
+        openNewTabLink('https://cabinet.zedcapital.com/register');
     });
     
     $('.loginLiveAccount').on('click', function() {
-        window.open('https://cabinet.zedcapital.com/login', '_blank');
+        openNewTabLink('https://cabinet.zedcapital.com/login');
     });
     
     $('.zedAcademyOpen').on('click', function() {
-        window.open(url+'zed-academy.php', '_blank');
+        openNewTabLink(url+'zed-academy.php');
     });
 });
 
@@ -211,6 +211,13 @@ const swalWithBootstrapButtons = Swal.mixin({
     },
     buttonsStyling: false
 });
+
+function openNewTabLink( link ){
+    window.open( link, '_blank');
+}
+
+var webTraderTerminalLiveLink = "https://webtrader.zedcapital.com/terminal";
+var webTraderTerminalDemoLink = "https://demo.zedcapital.mu/terminal";
 
 if( $("#openMT5WebTrader").length > 0){
     document.getElementById("openMT5WebTrader").addEventListener("click", function() {
@@ -224,9 +231,9 @@ if( $("#openMT5WebTrader").length > 0){
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                window.open('https://webtrader.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalLiveLink);
             } else if (result.dismiss === Swal.DismissReason.cancel) {
-                window.open('https://demo.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalDemoLink);
             }
         });
     });
@@ -244,9 +251,9 @@ if( $("#openDesktopMT5WebTrader").length > 0 ){
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                window.open('https://webtrader.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalLiveLink);
             } else if (result.dismiss === Swal.DismissReason.cancel) {
-                window.open('https://demo.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalDemoLink);
             }
         });
     });
@@ -262,9 +269,9 @@ if( $("#openDesktopMT5WebTrader").length > 0 ){
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                window.open('https://webtrader.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalLiveLink);
             } else if (result.dismiss === Swal.DismissReason.cancel) {
-                window.open('https://demo.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalDemoLink);
             }
         });
     });
@@ -282,9 +289,9 @@ if( $("#openFooterDesktopMT5WebTrader").length > 0 ){
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                window.open('https://webtrader.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalLiveLink);
             } else if (result.dismiss === Swal.DismissReason.cancel) {
-                window.open('https://demo.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalDemoLink);
             }
         });
     });
@@ -302,9 +309,9 @@ if( $("#openPlatformDesktopMT5WebTrader").length > 0 ){
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                window.open('https://webtrader.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalLiveLink);
             } else if (result.dismiss === Swal.DismissReason.cancel) {
-                window.open('https://demo.zedcapital.mu/terminal', '_blank');
+                openNewTabLink(webTraderTerminalDemoLink);
             }
         });
     });
