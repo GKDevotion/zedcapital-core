@@ -357,7 +357,7 @@ include_once('elements/header.php');
                             Currency, Metal, Energies, Indices, Crypto, US, UK, Hong Kong and UAE Stocks
                         </p>
                         <br><br>
-                        <div class="open-account-btn account-type-btn">
+                        <div class="open-account-btn account-type-btn openLiveAccount">
                             <button>Open Account</button>
                         </div>
                     </div>
@@ -398,7 +398,7 @@ include_once('elements/header.php');
                     <div class="col-md-5 col-sm-12 col-12 h-230px text-start position-relative" data-aos="fade-up" data-aos-duration="800">
                         <strong class="raw-spreed-account-text mt-5">Raw Spread</strong>
                         <p class="text-gray fw-400 mt-3">Forex, Metal, Energies</p>
-                        <div class="open-account-btn account-type-btn">
+                        <div class="open-account-btn account-type-btn openLiveAccount">
                             <button>Open Account</button>
                         </div>
                     </div>
