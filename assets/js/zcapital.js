@@ -191,17 +191,13 @@ if( $('#forex_profit_calculator_form').length > 0 ){
 
 $(document).ready(function() {
     $('.openLiveAccount').on('click', function() {
-        window.open('https://cabinet.zedcapital.mu/register', '_blank');
+        window.open('https://cabinet.zedcapital.com/register', '_blank');
     });
-});
-
-$(document).ready(function() {
+    
     $('.loginLiveAccount').on('click', function() {
-        window.open('https://cabinet.zedcapital.mu/login', '_blank');
+        window.open('https://cabinet.zedcapital.com/login', '_blank');
     });
-});
-
-$(document).ready(function() {
+    
     $('.zedAcademyOpen').on('click', function() {
         window.open(url+'zed-academy.php', '_blank');
     });
