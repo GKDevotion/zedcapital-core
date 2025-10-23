@@ -386,7 +386,7 @@ include_once('elements/header.php');
                         </table>
                     </div>
                     <div class="col-md-12 col-sm-12 col-12 text-center">
-                        <div class="open-account-btn mobile-btn"><button>Open Account</button></div>
+                        <div class="open-account-btn mobile-btn openLiveAccount"><button>Open Account</button></div>
                     </div>
                 </div>
             </div>
@@ -427,7 +427,7 @@ include_once('elements/header.php');
                         </table>
                     </div>
                     <div class="col-md-12 col-sm-12 col-12 text-center" data-aos="fade-up" data-aos-duration="800">
-                        <div class="open-account-btn mobile-btn">
+                        <div class="open-account-btn mobile-btn openLiveAccount">
                             <button>
                                 Open Account
                             </button>
