@@ -660,3 +660,54 @@ if( $("#newsContainer").length >0 ){
         }
     });
 }
+
+
+if( $("#testimonialCarouselMulti").length > 0 ){
+    const testimonials = [{
+        text: "Great service, highly recommended!",
+        name: "John Doe",
+        position: "CEO, Company A"
+    },
+    {
+        text: "Amazing experience working with this team.",
+        name: "Jane Smith",
+        position: "Manager, Company B"
+    },
+    {
+        text: "Professional and reliable service every time.",
+        name: "Mark Wilson",
+        position: "Entrepreneur"
+    },
+    {
+        text: "Outstanding support and guidance.",
+        name: "Alice Brown",
+        position: "CTO, Company C"
+    },
+    {
+        text: "They truly understand their clients.",
+        name: "Bob Martin",
+        position: "Director, Company D"
+    }
+    ];
+
+    const container = document.getElementById('testimonialContainerMulti');
+    const itemsPerSlide = 3;
+
+    // Split testimonials into chunks
+    for (let i = 0; i < testimonials.length; i += itemsPerSlide) {
+        const chunk = testimonials.slice(i, i + itemsPerSlide);
+        const div = document.createElement('div');
+        div.classList.add('carousel-item');
+        if (i === 0) div.classList.add('active');
+
+        div.innerHTML = chunk.map(t => `
+        <div class="testimonial-card">
+            <p>"${t.text}"</p>
+            <h5>${t.name}</h5>
+            <small>${t.position}</small>
+        </div>
+        `).join('');
+
+        container.appendChild(div);
+    }
+}

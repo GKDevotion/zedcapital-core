@@ -17,23 +17,23 @@ include_once ('elements/header.php');
 
     <!-- Market Tabs -->
     <div class="market-tab d-flex justify-content-between align-items-center bg-black text-white rounded-pill px-3 flex-wrap">
-        <div class="text-center flex-fill py-2">
-            <a class="text-white text-decoration-none" href="american-market">
+        <div class="text-center flex-fill py-2 d-none d-md-block">
+            <a class="text-white text-decoration-none" href="<?php echo getBaseUrl(); ?>/american-market">
                 Amrican Market
             </a>
         </div>
-        <div class="text-center flex-fill py-2">
-            <a class="text-white text-decoration-none" href="european-market">
+        <div class="text-center flex-fill py-2 d-none d-md-block">
+            <a class="text-white text-decoration-none" href="<?php echo getBaseUrl(); ?>/european-market">
                 Europian Market
             </a>
         </div>
-        <div class="text-center flex-fill py-2">
-            <a class="text-red text-decoration-none" href="middle-eastern-market">
+        <div class="text-center flex-fill py-2 d-none d-md-block">
+            <a class="text-red text-decoration-none" href="<?php echo getBaseUrl(); ?>/middle-eastern-market">
                 Middle East Market
             </a>
         </div>
-        <div class="text-center flex-fill py-2">
-            <a class="text-white text-decoration-none" href="asian-market">
+        <div class="text-center flex-fill py-2 d-none d-md-block">
+            <a class="text-white text-decoration-none" href="<?php echo getBaseUrl(); ?>/asian-market">
                 Asian Market
             </a>
         </div>
