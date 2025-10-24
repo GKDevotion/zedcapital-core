@@ -370,12 +370,12 @@ include_once ('elements/header.php');
     }
 
     .nyse-bg-market-image {
-        background-image: url(<?php echo getBaseUrl(); ?>/assets/images/markets/new-york.jpg);
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/markets/new-york.jpg');
         background-size: cover;
     }
 
     .naqdaq-bg-market-image {
-        background-image: url(<?php echo getBaseUrl(); ?>/assets/images/markets/nasdaq.jpg);
+        background-image: url('<?php echo getBaseUrl(); ?>/assets/images/markets/nasdaq.jpg');
         background-size: cover;
     }
     @media (max-width: 767px) {
