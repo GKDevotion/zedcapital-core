@@ -2307,7 +2307,7 @@ include_once('elements/header.php');
 <?php } ?>
 
 <?php
-include_once('live-news-market.php');
+//include_once('live-news-market.php');
 ?>
 
 <!-- Google Maps API -->

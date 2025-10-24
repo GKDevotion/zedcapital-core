@@ -304,11 +304,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-success fw-bold Australia-200-bid">0.00</div>
+                            <div class="text-success fw-bold Australia-200---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-success fw-bold Australia-200-ask">0.00</div>
+                            <div class="text-success fw-bold Australia-200---ask">0.00</div>
                         </div>
                     </div>
 
@@ -351,11 +351,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold US-TECH-100-bid">0.00</div>
+                            <div class="text-danger fw-bold US-TECH-100---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold US-TECH-100-ask">0.00</div>
+                            <div class="text-danger fw-bold US-TECH-100---ask">0.00</div>
                         </div>
                     </div>
 
@@ -439,11 +439,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold GERMANY-40-bid">0.00</div>
+                            <div class="text-danger fw-bold Germany-40---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold GERMANY-40-ask">0.00</div>
+                            <div class="text-danger fw-bold Germany-40---ask">0.00</div>
                         </div>
                     </div>
 
@@ -483,11 +483,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold GBPUSD-s-bid">0.00</div>
+                            <div class="text-danger fw-bold Hong-Kong-50---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold GBPUSD-s-ask">0.00</div>
+                            <div class="text-danger fw-bold Hong-Kong-50---ask">0.00</div>
                         </div>
                     </div>
 
@@ -527,11 +527,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold GBPJPY-s-bid">0.00</div>
+                            <div class="text-danger fw-bold China-A50---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold GBPJPY-s-ask">0.00</div>
+                            <div class="text-danger fw-bold China-A50---ask">0.00</div>
                         </div>
                     </div>
 
@@ -571,11 +571,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold NZDUSD-s-bid">0.00</div>
+                            <div class="text-danger fw-bold Switzerland-20---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold NZDUSD-s-ask">0.00</div>
+                            <div class="text-danger fw-bold Switzerland-20---ask">0.00</div>
                         </div>
                     </div>
 
@@ -615,11 +615,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold USDCAD-s-bid">0.00</div>
+                            <div class="text-danger fw-bold France-40---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold USDCAD-s-ask">0.00</div>
+                            <div class="text-danger fw-bold France-40---ask">0.00</div>
                         </div>
                     </div>
 
@@ -659,11 +659,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-danger fw-bold USDCHF-s-bid">0.00</div>
+                            <div class="text-danger fw-bold Euro-Stoxx-50---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-danger fw-bold USDCHF-s-ask">0.00</div>
+                            <div class="text-danger fw-bold Euro-Stoxx-50---ask">0.00</div>
                         </div>
                     </div>
 
@@ -703,11 +703,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                            <div class="text-success fw-bold US-Russell-2000---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                            <div class="text-success fw-bold US-Russell-2000---ask">0.00</div>
                         </div>
                     </div>
 
@@ -747,11 +747,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                            <div class="text-success fw-bold UK100---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                            <div class="text-success fw-bold UK100---ask">0.00</div>
                         </div>
                     </div>
 
@@ -791,11 +791,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                            <div class="text-success fw-bold US500---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                            <div class="text-success fw-bold US500---ask">0.00</div>
                         </div>
                     </div>
 
@@ -835,11 +835,11 @@ include_once ('elements/header.php');
                     <div class="d-flex justify-content-between px-2 mt-3">
                         <div>
                             <small>Bid</small>
-                            <div class="text-success fw-bold USDJPY-s-bid">0.00</div>
+                            <div class="text-success fw-bold JAPAN-225---bid">0.00</div>
                         </div>
                         <div>
                             <small>Ask</small>
-                            <div class="text-success fw-bold USDJPY-s-ask">0.00</div>
+                            <div class="text-success fw-bold JAPAN-225---ask">0.00</div>
                         </div>
                     </div>
 
@@ -873,7 +873,7 @@ include_once ('elements/header.php');
 <script>
     // List of symbols to fetch
     // const symbols = ["US500", "Germany 40", "UK100", "JAPAN 225", "US Wall Street 30"];
-    const symbols = ["Australia 200", "US TECH 100", "US Wall Street 30", "GERMANY 40", "Hong Kong 50", "China A50", "Switzerland 20", "France 40", "Euro Stoxx 50", "US Russell 2000", "UK100", "US500", "JAPAN 225"];
+    const symbols = ["Australia 200", "US TECH 100", "US Wall Street 30", "Germany 40", "Hong Kong 50", "China A50", "Switzerland 20", "France 40", "Euro Stoxx 50", "US Russell 2000", "UK100", "US500", "JAPAN 225"];
 
     function fetchMarketData() {
         $.ajax({

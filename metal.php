@@ -85,7 +85,7 @@ include_once ('elements/header.php');
 </section>
 
 <section class="position-relative p-0" style="margin-top: -30px; background-color: #fdfdfd7d;">
-    <div class="bg-dark text-white py-4 px-5 d-flex align-items-center" style="background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('your-metal-bg.jpg'); background-size: cover;">
+    <div class="bg-dark text-white py-4 px-5 d-flex align-items-center">
         <div class="row" >
             <div class="col-md-6 text-center" >
                 <a href="#" class="btn btn-outline-danger fw-bold rounded-pill px-5" title="Basics of Metal">

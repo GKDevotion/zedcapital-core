@@ -259,7 +259,6 @@ include_once ('elements/header.php');
         padding: 20px;
         text-align: center;
         background-color: aliceblue;
-        margin: 20px;
     }
     .btn-buy {
         background-color: var(--zed-success);
@@ -308,18 +307,15 @@ include_once ('elements/header.php');
     }
 
     .stock-card img{
-        width: 50px !important;
-        height: 50px;
-        margin: -45px 0px;
+        width: 60px !important;
+        height: 60px;
+        margin: -50px -100px;
         border-radius: 50px;
+        position: absolute;
     }
 
     .stock-card h5{
         text-align: end;
-    }
-
-    .owl-nav, .owl-dots{
-        display: none;
     }
 </style>
 
@@ -336,380 +332,215 @@ include_once ('elements/header.php');
             </p>
         </div>
 
-        <div id="productTradeSlider" class="row g-4 justify-content-center">
-            <div class="owl-carousel">
-                <!-- Bitcoin -->
-                <div class="item mt-4">
-                    <div class="stock-card" data-aos="fade-up" data-aos-duration="800">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC--big.svg" class="" alt="Bitcoin">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <p class="text-shadow mb-2">
-                                    Bitcoin 
-                                </p>
-                            </h5>
+        <!-- Cards -->
+        <div class="row g-4 justify-content-center mb-5" data-aos="fade-up" data-aos-duration="800" >
+            <!-- Bitcoin -->
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+                <div class="stock-card">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC--big.svg" class="" alt="Bitcoin">
                         </div>
-
-                        <div class="d-flex justify-content-between px-2 mt-3">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-danger fw-bold BTCUSD-Bitcoin---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-danger fw-bold BTCUSD-Bitcoin---ask">0.00</div>
-                            </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                Bitcoin
+                            </span>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-4">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold BTCUSD-Bitcoin---bid">0.00</div>
                         </div>
-
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-
-                        <div class="my-4 py-2">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold BTCUSD-Bitcoin---ask">0.00</div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Ethereum -->
-                <div class="item mt-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="stock-card">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="https://cdn-icons-png.flaticon.com/512/10464/10464500.png" class="" alt="Ethereum">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <span class="text-shadow">
-                                    Ethereum
-                                </span>
-                            </h5>
-                        </div>
-                        <div class="d-flex justify-content-between px-2 mt-4">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-success fw-bold ETHUSD-Ethereum---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-success fw-bold ETHUSD-Ethereum---ask">0.00</div>
-                            </div>
-                        </div>
+                    <div class="sl-divider"></div>
 
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-                        <div class="my-4">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                        </div>
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
                     </div>
-                 </div>
-
-                 <!-- XRP(Ripple) -->
-                <div class="item mt-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="stock-card">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCXRP--big.svg" class="" alt="XRP">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <span class="text-shadow">
-                                    Ripple
-                                </span>
-                            </h5>
-                        </div>
-                        <div class="d-flex justify-content-between px-2 mt-4">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-danger fw-bold XRPUSD-Ripple---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-danger fw-bold XRPUSD-Ripple---ask">0.00</div>
-                            </div>
-                        </div>
-
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-                        <div class="my-4">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                        </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
                     </div>
-                </div>
 
-                <!-- Dogecoin -->
-                <div class="item mt-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="stock-card">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/products/dogecoin-doge-logo.png" class="" alt="DOG">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <span class="text-shadow">
-                                    Dogecoin
-                                </span>
-                            </h5>
-                        </div>
-                        <div class="d-flex justify-content-between px-2 mt-4">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-success fw-bold DOGUSD-Dogecoin---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-success fw-bold DOGUSD-Dogecoin---ask">0.00</div>
-                            </div>
-                        </div>
-
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-                        <div class="my-4">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Litecoin -->
-                <div class="item mt-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="stock-card">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCLTC--big.svg" class="" alt="Litecoin">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <span class="text-shadow">
-                                    Litecoin
-                                </span>
-                            </h5>
-                        </div>
-                        <div class="d-flex justify-content-between px-2 mt-4">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-danger fw-bold LTCUSD-LiteCoin---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-danger fw-bold LTCUSD-LiteCoin---ask">0.00</div>
-                            </div>
-                        </div>
-
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-                        <div class="my-4">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- TRXUSD(Tron) -->
-                <div class="item mt-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="stock-card">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/products/tron-trx-logo.png" class="" alt="Litecoin">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <span class="text-shadow">
-                                    Tron
-                                </span>
-                            </h5>
-                        </div>
-                        <div class="d-flex justify-content-between px-2 mt-4">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-danger fw-bold TRXUSD-Tron---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-danger fw-bold TRXUSD-Tron---ask">0.00</div>
-                            </div>
-                        </div>
-
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-                        <div class="my-4">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- DOTUSD(Polkadot) -->
-                <div class="item mt-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="stock-card">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/products/polkadot-new-dot-logo.png" class="" alt="Litecoin">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <span class="text-shadow">
-                                    Polkadot
-                                </span>
-                            </h5>
-                        </div>
-                        <div class="d-flex justify-content-between px-2 mt-4">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-danger fw-bold DOTUSD-Polkadot---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-danger fw-bold DOTUSD-Polkadot---ask">0.00</div>
-                            </div>
-                        </div>
-
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-                        <div class="my-4">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ADAUSD(Cardano) -->
-                <div class="item mt-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="stock-card">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/products/cardano-ada-logo.png" class="" alt="Litecoin">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <span class="text-shadow">
-                                    Cardano
-                                </span>
-                            </h5>
-                        </div>
-                        <div class="d-flex justify-content-between px-2 mt-4">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-danger fw-bold ADAUSD-Cardano---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-danger fw-bold ADAUSD-Cardano---ask">0.00</div>
-                            </div>
-                        </div>
-
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-                        <div class="my-4">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- SOLUSD(Solana) -->
-                <div class="item mt-4" data-aos="fade-up" data-aos-duration="800" >
-                    <div class="stock-card">
-                        <div class="row">
-                            <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                <img src="<?php echo getBaseUrl(); ?>/assets/images/products/solana-sol-logo.png" class="" alt="Litecoin">
-                            </div>
-                            <h5 class="fw-bold mb-4">
-                                <span class="text-shadow">
-                                    Solana
-                                </span>
-                            </h5>
-                        </div>
-                        <div class="d-flex justify-content-between px-2 mt-4">
-                            <div>
-                                <small>Bid</small>
-                                <div class="text-danger fw-bold SOLUSD-Solana---bid">0.00</div>
-                            </div>
-                            <div>
-                                <small>Ask</small>
-                                <div class="text-danger fw-bold SOLUSD-Solana---ask">0.00</div>
-                            </div>
-                        </div>
-
-                        <div class="sl-divider"></div>
-
-                        <div class="my-2 d-none">
-                            <small>Spread</small> 
-                            <div class="fw-bold">0</div>
-                        </div>
-                        <div class="my-4">
-                            <small>Leverage</small> 
-                            <div class="fw-bold">Up to 1:500</div>
-                        </div>
-                        <div class="d-flex justify-content-around gap-2 mt-4">
-                            <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
-                            <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
-                        </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
                     </div>
                 </div>
             </div>
+
+            <!-- Ethereum -->
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+                <div class="stock-card">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCETH--big.svg" class="" alt="Ethereum">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                Ethereum
+                            </span>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-4">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold ETHUSD-Ethereum---bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold ETHUSD-Ethereum---ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- XRP -->
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+                <div class="stock-card">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCXRP--big.svg" class="" alt="XRP">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                XRP
+                            </span>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-4">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold XRPUSD-Ripple---bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold XRPUSD-Ripple---ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DOG -->
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+                <div class="stock-card">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCDOGG--big.svg" class="" alt="DOG">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                DOG
+                            </span>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-4">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-success fw-bold DOGUSD-Dogecoin---bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-success fw-bold DOGUSD-Dogecoin---ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Litecoin -->
+            <div class="col-12 col-sm-3 col-xxl" data-aos="fade-up" data-aos-duration="800" >
+                <div class="stock-card">
+                    <div class="row">
+                        <div class="position-relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://s3-symbol-logo.tradingview.com/crypto/XTVCLTC--big.svg" class="" alt="Litecoin">
+                        </div>
+                        <h5 class="fw-bold mb-4">
+                            <span class="text-shadow">
+                                Litecoin
+                            </span>
+                        </h5>
+                    </div>
+                    <div class="d-flex justify-content-between px-2 mt-4">
+                        <div>
+                            <small>Bid</small>
+                            <div class="text-danger fw-bold LTCUSD-LiteCoin---bid">0.00</div>
+                        </div>
+                        <div>
+                            <small>Ask</small>
+                            <div class="text-danger fw-bold LTCUSD-LiteCoin---ask">0.00</div>
+                        </div>
+                    </div>
+
+                    <div class="sl-divider"></div>
+
+                    <div class="my-2 d-none">
+                        <small>Spread</small> 
+                        <div class="fw-bold">0</div>
+                    </div>
+                    <div class="my-4">
+                        <small>Leverage</small> 
+                        <div class="fw-bold">Up to 1:500</div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-2 mt-4">
+                        <button class="btn btn-buy px-4 openLiveAccount">Buy</button>
+                        <button class="btn btn-sell px-4 openLiveAccount">Sell</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add META, AAPL, AMD similarly -->
         </div>
 
     </div>
@@ -717,7 +548,7 @@ include_once ('elements/header.php');
 
 <script>
     // List of symbols to fetch
-    const symbols = ["BTCUSD(Bitcoin)", "ETHUSD(Ethereum)", "XRPUSD(Ripple)", "DOGUSD(Dogecoin)", "LTCUSD(LiteCoin)", "TRXUSD(Tron)", "DOTUSD(Polkadot)", "ADAUSD(Cardano)", "SOLUSD(Solana)"];
+    const symbols = ["BTCUSD(Bitcoin)", "ETHUSD(Ethereum)", "XRPUSD(Ripple)", "DOGUSD(Dogecoin)", "LTCUSD(LiteCoin)"];
 
     function fetchMarketData() {
         $.ajax({
