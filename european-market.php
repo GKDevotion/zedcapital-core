@@ -430,6 +430,11 @@ include_once ('elements/header.php');
     .risks-considerations{
         padding: 50px 0;
     }
+
+    .opportunities-investors-div{
+        min-height: 130px;
+    }
+
     .tech-feature {
         padding: 35px;
         border: 1px solid var(--zed-border-color);
@@ -460,7 +465,7 @@ include_once ('elements/header.php');
         <h2 class="h4 mb-3">Opportunities for Investors</h2>
         <div class="row g-3">
             <div class="col-md-6">
-                <div class="card tech-feature p-4">
+                <div class="card tech-feature p-4 opportunities-investors-div">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2"><i class="text-red bi bi-cpu"></i></div>
                         <div>
@@ -474,13 +479,13 @@ include_once ('elements/header.php');
             </div>
 
             <div class="col-md-6">
-                <div class="card tech-feature p-4">
+                <div class="card tech-feature p-4 opportunities-investors-div">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2"><i class="text-red bi bi-cash"></i></div>
                         <div>
                         <h5 class="fw-bold mb-1">Fixed Income</h5>
                         <p class="mb-0 small-muted">
-                            Sovereign bonds, corporate credit, and green bond investments.
+                            Sovereign bonds, corporate credit and green bond investment across major European markets.
                         </p>
                         </div>
                     </div>
@@ -488,7 +493,7 @@ include_once ('elements/header.php');
             </div>
 
             <div class="col-md-6">
-                <div class="card tech-feature p-4">
+                <div class="card tech-feature p-4 opportunities-investors-div">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2"><i class="text-red bi bi-boxes"></i></div>
                         <div>
@@ -502,7 +507,7 @@ include_once ('elements/header.php');
             </div>
 
             <div class="col-md-6">
-                <div class="card tech-feature p-4">
+                <div class="card tech-feature p-4 opportunities-investors-div">
                     <div class="d-flex gap-3 align-items-start">
                         <div class="icon-circle mt-2"><i class="text-red bi bi-currency-dollar"></i></div>
                         <div>
