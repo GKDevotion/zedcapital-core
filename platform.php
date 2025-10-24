@@ -677,12 +677,13 @@ include_once ('elements/feature-trading-icons.php');
 
     .platform-arrow-list {
         list-style: none; /* remove default dots */
-        padding-left: 0; /* remove extra padding */
+        padding: 0 2.2rem; /* remove extra padding */
     }
 
     .platform-arrow-list li {
         position: relative;
-        padding-left: 20px; /* space for the arrow */
+        padding-left: 2.2rem !important; /* space for the arrow */
+        padding-right: 3rem !important;
         margin-bottom: 1px;
     }
 
@@ -697,7 +698,7 @@ include_once ('elements/feature-trading-icons.php');
 
     .web-trading-arrow-list {
         list-style: none; 
-        padding: 0 20px;
+        padding: 0 1.3rem;
     }
 
     .web-trading-arrow-list li::before {
@@ -797,14 +798,9 @@ include_once ('elements/feature-trading-icons.php');
                             <li class="px-4 pb-2">
                                 <b>Account Sync: </b>Stay updated across Web, Desktop and Mobile.
                             </li>
-                            <li class="d-none">
-                                <b>Trade Anywhere: </b>Access global markets 24/7 with ease.
-                            </li>
-                            <li class="d-none">
-                                Enter your real or demo account login data.
-                            </li>
                         </ul>
                     </div>
+ 
                     <div class="col-sm-4 p-0 set-diamond-image" data-aos="fade-up" data-aos-duration="800">
                         <img src="<?php echo getBaseUrl(); ?>/assets/images/half-mobile.webp" class="MT5-web-trader" alt="No Installation Needed">
                     </div>

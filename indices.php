@@ -259,10 +259,10 @@ include_once ('elements/header.php');
     }
 
     .stock-card img{
-        width: 60px !important;
+        width: 50px !important;
+        height: 50px;
         margin: -45px 0px;
         border-radius: 50px;
-        height: 60px;
     }
 
     .stock-card h5{

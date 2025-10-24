@@ -466,10 +466,10 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row">
             <h2 class="h2 fw-bold mb-4">Our Commitment</h2>
-            <p class="text-white m-auto fs-3">
+            <p class="text-white m-auto fs-5">
                 Trust through transparency, opportunity through innovation.
             </p>
-            <p class="text-white m-auto fs-3">
+            <p class="text-white m-auto fs-5">
                 Your gateway to secure, reliable and professional global capital market solutions.
             </p>
         </div>

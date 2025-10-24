@@ -56,7 +56,7 @@ include_once ('elements/header.php');
         height: 10px;
         width: 60px;
         background-color: var(--zed-primary);
-        margin: 30px 0;
+        margin: 50px 0;
     }
     @media (max-width: 767.98px) {
         .forex-images {
@@ -101,7 +101,7 @@ include_once ('elements/header.php');
         </div>
         <div class="row position-absolute">
             <div class="col text-center" data-aos="fade-up" data-aos-duration="700">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/toosl-curve-line.webp" alt="Calendar Icon" class="w-25" style="margin-top: -100px;" />
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/toosl-curve-line.png" alt="Calendar Icon" class="w-25" style="margin-top: -100px;" />
             </div>
         </div>
     </div>
@@ -260,6 +260,16 @@ include_once ('elements/header.php');
         width: 10%;
         margin: 10px 30px -10px 0;
     }
+
+    .essential-tools-for-trading{
+        min-height: 340px;
+    }
+
+    .essential-tools-for-trading a.demo-button
+    {
+        position: absolute;
+        bottom: 10px;
+    }
 </style>
 
 <section class="py-5">
@@ -277,7 +287,7 @@ include_once ('elements/header.php');
             
             <!-- Card 1 -->
             <div class="col-md-6">
-                <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
+                <div class="gray-border p-4 essential-tools-for-trading" data-aos="fade-up" data-aos-delay="800">
                     
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
                         <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Economic Calendar</h5>
@@ -298,7 +308,7 @@ include_once ('elements/header.php');
 
             <!-- Card 2 -->
             <div class="col-md-6">
-                <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
+                <div class="gray-border p-4 essential-tools-for-trading" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
                         <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Pivot Points</h5>
                         <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-valume.webp" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
@@ -319,7 +329,7 @@ include_once ('elements/header.php');
 
             <!-- Card 3 -->
             <div class="col-md-6">
-                <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
+                <div class="gray-border p-4 essential-tools-for-trading" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
                         <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Currency Converter</h5>
                         <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-desk-candle.webp" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
@@ -339,7 +349,7 @@ include_once ('elements/header.php');
 
             <!-- Card 4 -->
             <div class="col-md-6">
-                <div class="gray-border p-4" data-aos="fade-up" data-aos-delay="800">
+                <div class="gray-border p-4 essential-tools-for-trading" data-aos="fade-up" data-aos-delay="800">
                     <div class="d-flex justify-content-between align-items-center mb-3" data-aos="fade-up" data-aos-delay="800">
                         <h5 class="fw-bold mb-0" data-aos="fade-up" data-aos-delay="800">Profit Calculation</h5>
                         <img src="<?php echo getBaseUrl(); ?>/assets/images/tools-message.webp" class="tools-trade-icon" data-aos="fade-up" data-aos-delay="800">
@@ -481,7 +491,7 @@ include_once ('elements/header.php');
     .price-down { color: var(--zed-primary) !important; }
     .price-up { color: var(--zed-success) !important; }
 
-    .trading-btn{
+    /* .trading-btn{
         border-radius: 25px;
         color: var(--zed-dark-text);
         background-color: var(--zed-banner-bg-end);
@@ -491,7 +501,7 @@ include_once ('elements/header.php');
 
     .trading-btn:hover{
         color: var(--zed-secondary);
-    }
+    } */
 </style>
 
 <div class="container py-4 mt-5">
@@ -541,7 +551,7 @@ include_once ('elements/header.php');
                                 <td class="price-up">3.0578</td>
                                 <td class="py-4">3.8</td>
                                 <td class="price-down">-6.67%</td>
-                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                                <td class="py-4"><button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount">Trade</button></td>
                             </tr>
                             <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
@@ -550,7 +560,7 @@ include_once ('elements/header.php');
                                 <td class="price-down">118305.04</td>
                                 <td class="py-4">15.0</td>
                                 <td class="price-down">-4.11%</td>
-                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                                <td class="py-4"><button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount">Trade</button></td>
                             </tr>
                             <tr data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
@@ -559,7 +569,7 @@ include_once ('elements/header.php');
                                 <td class="price-up">121.28</td>
                                 <td class="py-4">5.0</td>
                                 <td class="price-down">-7.39%</td>
-                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                                <td class="py-4"><button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount">Trade</button></td>
                             </tr>
                             <tr class="d-none" data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
@@ -568,7 +578,7 @@ include_once ('elements/header.php');
                                 <td class="price-up">4493.3</td>
                                 <td class="py-4">5.7</td>
                                 <td class="price-down">-5.48%</td>
-                                <td class="py-4"><button class="trading-btn">Trade</button></td>
+                                <td class="py-4"><button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount">Trade</button></td>
                             </tr>
                             <tr class="d-none" data-aos="fade-up" data-aos-delay="800">
                                 <td class="py-4">
@@ -578,7 +588,7 @@ include_once ('elements/header.php');
                                 <td class="py-4">3.7</td>
                                 <td class="price-down">-2.80%</td>
                                 <td class="py-4">
-                                    <button class="trading-btn">Trade</button>
+                                    <button class="btn btn-sm btn-outline-danger px-4 py-2 rounded-pill openLiveAccount">Trade</button>
                                 </td>
                             </tr>
                         </tbody>
@@ -662,6 +672,10 @@ include_once ('elements/header.php');
     .tools-resource-overview p{
         margin-bottom: 8px !important;
     }
+
+    .tools-resource-overview .learn-platform-box{
+        min-height: 320px;
+    }
 </style>
 
 <section class="tools-resource-overview py-5">
@@ -670,7 +684,7 @@ include_once ('elements/header.php');
         
             <!-- Card 4 Educational Resources -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
+                <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Educational Resources</h4>
@@ -697,7 +711,7 @@ include_once ('elements/header.php');
 
             <!-- Card 2 Charting and Analysis Tools -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
+                <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Charting and Analysis Tools</h4>
@@ -723,7 +737,7 @@ include_once ('elements/header.php');
 
             <!-- Card 3 News and Economic Calendars -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
+                <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">News and Economic Calendars</h4>
@@ -750,7 +764,7 @@ include_once ('elements/header.php');
 
             <!-- Card 6 Algorithmic Trading Tools -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
+                <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Algorithmic Trading Tools</h4>
@@ -773,7 +787,7 @@ include_once ('elements/header.php');
             
             <!-- Card 5 Risk Management Tools -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
+                <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Risk Management Tools</h4>
@@ -800,7 +814,7 @@ include_once ('elements/header.php');
 
             <!-- Card 1 Trading Platforms -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
+                <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Trading Platforms</h4>
@@ -826,7 +840,7 @@ include_once ('elements/header.php');
 
             <!-- Card 7 Technical Analysis Software -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
+                <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Technical Analysis Software</h4>
@@ -849,7 +863,7 @@ include_once ('elements/header.php');
 
             <!-- Card 8 Community and Forums -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
-                <div class="border rounded-4 p-5">
+                <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
                             <h4 class="fw-bold mb-5">Community and Forums</h4>

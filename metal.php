@@ -330,7 +330,7 @@ include_once ('elements/header.php');
         <!-- Gold (XAUUSD) -->
         <div class="col-12 col-sm-3 col-md-3 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-gold.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-gold.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card">
@@ -414,7 +414,7 @@ include_once ('elements/header.php');
         <!-- Copper (XCUUSD) -->
         <div class="col-12 col-sm-3 col-md-3 col-xxl" data-aos="fade-up" data-aos-duration="400" >
             <div class="position-relative mt-5 mt-md-0">
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-platinum.webp" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/metal-copper.png" alt="Corner Image" class="position-absolute" style="width: 90%; margin: -85px 15px;" data-aos="fade-up" data-aos-duration="1000" >
             </div>
 
             <div class="stock-card" >

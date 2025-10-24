@@ -307,10 +307,10 @@ include_once ('elements/header.php');
     }
 
     .stock-card img{
-        width: 75px !important;
+        width: 60px !important;
+        height: 60px;
         margin: -50px -100px;
         border-radius: 50px;
-        height: 75px;
         position: absolute;
     }
 
@@ -855,7 +855,7 @@ $paramArr = [
 
 $videoArr = [
     [
-        'id' => "YdDFphGIa1M ",
+        'id' => "YdDFphGIa1M",
         "title" => "What is Crypto?",
         "description" => "Crypto power the world — from the oil in your car to the gold in your jewelry and the coffee in your cup.",
     ],
