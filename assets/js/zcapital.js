@@ -217,7 +217,7 @@ function openNewTabLink( link ){
 }
 
 var webTraderTerminalLiveLink = "https://webtrader.zedcapital.com/terminal";
-var webTraderTerminalDemoLink = "https://demo.zedcapital.mu/terminal";
+var webTraderTerminalDemoLink = "https://demo.zedcapital.com/terminal";
 
 if( $("#openMT5WebTrader").length > 0){
     document.getElementById("openMT5WebTrader").addEventListener("click", function() {
