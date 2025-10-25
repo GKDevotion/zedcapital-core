@@ -345,8 +345,8 @@ include_once ('elements/header.php');
 <div class="container py-4">
     <!-- Section Heading -->
     <div class="section-title" data-aos="fade-up" data-aos-duration="800" >
-        <!-- Institutional Market Feed - Commodities CFDs -->
-        Why Trade CFDs on Energies such as Oil?
+        Institutional Market Feed - Commodity CFDs
+        <!-- Why Trade CFDs on Energies such as Oil? -->
     </div>
     <div class="underline" data-aos="fade-up" data-aos-duration="800" ></div>
     <p class="text-center mb-2 w-75 m-auto" data-aos="fade-up" data-aos-duration="800" >
