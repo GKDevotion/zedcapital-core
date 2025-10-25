@@ -125,7 +125,7 @@
                             </div>
 
                             <!-- Client Login -->
-                            <a href="https://cabinet.zedcapital.mu/login" target="_blank" class="d-flex">
+                            <a href="https://cabinet.zedcapital.com/login" target="_blank" class="d-flex">
                                 <img style="width: 20px;" src="https://cdn-icons-png.flaticon.com/512/10009/10009068.png" alt="Client" />
                                 Client
                             </a>

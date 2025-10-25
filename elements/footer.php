@@ -154,9 +154,9 @@
                     <div class="col-6 col-sm-4 col-md-2">
                         <h6>Account</h6>
                         <ul>
-                            <li><a href="https://cabinet.zedcapital.mu/login" title="Log IN">Log In</a></li>
-                            <li><a href="https://cabinet.zedcapital.mu/register" title="Open Account">Open an Account</a></li>
-                            <li><a href="https://cabinet.zedcapital.mu/register" title="Free Trial">Free Trial</a></li>
+                            <li><a href="https://cabinet.zedcapital.com/login" title="Log IN">Log In</a></li>
+                            <li><a href="https://cabinet.zedcapital.com/register" title="Open Account">Open an Account</a></li>
+                            <li><a href="https://cabinet.zedcapital.com/register" title="Free Trial">Free Trial</a></li>
                         </ul>
                     </div>
 
@@ -238,9 +238,9 @@
                     <div class="col-md-3 col-sm-6">
                         <h6>Account</h6>
                         <ul>
-                            <li><a href="https://cabinet.zedcapital.mu/login" title="Log In">Log In</a></li>
-                            <li><a href="https://cabinet.zedcapital.mu/register" title="Open an Account">Open an Account</a></li>
-                            <li><a href="https://cabinet.zedcapital.mu/register" title="Free Trial">Free Trial</a></li>
+                            <li><a href="https://cabinet.zedcapital.com/login" title="Log In">Log In</a></li>
+                            <li><a href="https://cabinet.zedcapital.com/register" title="Open an Account">Open an Account</a></li>
+                            <li><a href="https://cabinet.zedcapital.com/register" title="Free Trial">Free Trial</a></li>
                         </ul>
                     </div>
 
