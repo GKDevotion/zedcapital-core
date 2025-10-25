@@ -1,5 +1,5 @@
 <?php
-    $version = 0.0617;
+    $version = 0.0618;
     include_once ('helper/custom.php');
 ?>
 <!DOCTYPE html>

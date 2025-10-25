@@ -674,7 +674,7 @@ include_once ('elements/header.php');
     }
 
     .tools-resource-overview .learn-platform-box{
-        min-height: 320px;
+        min-height: 360px;
     }
 </style>
 
@@ -812,27 +812,23 @@ include_once ('elements/header.php');
                 </div>
             </div>
 
-            <!-- Card 1 Trading Platforms -->
+            <!-- Card 1 Copy Trading Tools -->
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
                 <div class="border rounded-4 p-5 learn-platform-box">
                     <div class="d-flex align-items-start justify-content-between">
                         <div>
-                            <h4 class="fw-bold mb-5">Trading Platforms</h4>
+                            <h4 class="fw-bold mb-5">Copy Trading Tools</h4>
                             <p class="m-0">
-                                <strong>Meta Trader 4/5:</strong> 
-                                <span class="text-gray">platforms offering comprehensive trading tools, indicators, and automated trading capabilities.</span>
+                                <strong>Multi-Account Execution:</strong> 
+                                <span class="text-gray">Access professional tools that allow traders to execute orders across multiple linked accounts simultaneously, accuracy, ensuring speed and consistency in every trade.</span>
                             </p>
                         </div>
                         <img src="<?php echo getBaseUrl(); ?>/assets/images/trading-platform.webp" alt="Calendar Icon" class="" />
                     </div>
                     <div class="col-12">
                         <p class="m-0">
-                            <strong>cTrader:</strong> 
-                            <span class="text-gray">Known for its intuitive interface and advanced charting tools.</span>
-                        </p>
-                        <p class="m-0">
-                            <strong>NinjaTrader:</strong> 
-                            <span class="text-gray">Offers advanced charting, back testing, and trade simulation.</span>
+                            <strong>Performance Monitoring:</strong> 
+                            <span class="text-gray">Track real-time trade replication, allocation ratios, and overall performance analytics through an advanced dashboard built for precision and transparency.</span>
                         </p>
                     </div>
                 </div>

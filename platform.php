@@ -311,7 +311,7 @@ include_once('elements/header.php');
                         </a>
                     </div>
                     <div class="platform-icon-bg why-social-media" data-aos="fade-right" data-aos-duration="900">
-                        <div id="openPlatformDesktopMT5WebTrader" class="custom-pointer" target="_blank" title="Download Web Trader">
+                        <div class="custom-pointer openMT5WebTrader" target="_blank" title="Download Web Trader">
                             <img src="<?php echo getBaseUrl(); ?>/assets/images/desktop-logo-black.webp" alt="Desktop" style="width: 40px;">
                         </div>
                     </div>

@@ -194,7 +194,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="custom-pointer" id="openFooterDesktopMT5WebTrader">
+                                <a class="custom-pointer openMT5WebTrader">
                                     Web Trader
                                 </a>
                             </li>

@@ -10,7 +10,6 @@ include_once ('elements/header.php');
 <style>
     .page-title-h2-tag{
         margin-top: 120px;
-        color: var(--zed-primary);
         padding: 40px 0;
     }
 
@@ -21,8 +20,9 @@ include_once ('elements/header.php');
 <div class="container">
 
     <div class="row page-title-h2-tag">
-        <div class="col-md-12 text-center section-title mt-30 mb-30">
-            <h1 class="">How to use Economic Calendar</h1>
+        <div class="col-md-12 text-center section-title">
+            <h1 class="text-red">Global Economic Calendar</h1>
+            <h5>Track key financial events shaping global markets in real time.</h5>
         </div>
     </div>
 

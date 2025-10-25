@@ -136,8 +136,8 @@
                                 <i class="fa fa-download" aria-hidden="true"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <button class="nav-link" id="openMT5WebTrader">
+                        <li class="nav-item openMT5WebTrader">
+                            <button class="nav-link">
                                 Web Trader
                             </button>
                         </li>

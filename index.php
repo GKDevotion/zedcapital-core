@@ -634,7 +634,7 @@ include_once('elements/header.php');
                         </div>
                     </a>
 
-                    <div class="corner-image bottom-right custom-pointer" id="openDesktopMT5WebTrader">
+                    <div class="corner-image bottom-right custom-pointer openMT5WebTrader">
                         <img src="<?php echo getBaseUrl(); ?>/assets/images/computer.svg" alt="Top Left">
                         <span class="mx-4">Web Trader - MT5</span>
                         <i class="fa fa-download" aria-hidden="true"></i>
@@ -676,7 +676,7 @@ include_once('elements/header.php');
                 </div>
 
                 <div class="col-md-6 col-lg-6 col-sm-12">
-                    <a class="nav-link" id="openMobileDesktopMT5WebTrader" title="Download Web Trader App">
+                    <a class="nav-link openMT5WebTrader" title="Download Web Trader App">
                         <div class="corner-image">
                             <img src="<?php echo getBaseUrl(); ?>/assets/images/computer.svg" alt="Top Left">
                             <span class="mx-3">Web Trader - MT5</span>
@@ -1111,7 +1111,7 @@ include_once('elements/header.php');
                             MT5 Web Trading puts the full MT5 experience in your browser -no downloads, no installs. Log in with your Zed Capital account to get real-time pricing, one-click orders, advanced charts, depth of market, and full order types, all synced across your devices. Fast, secure, and ready to trade anywhere.
                         </p>
                     </div>
-                    <div class="col-md-12 create-account-btn mt-4 loginLiveAccount">
+                    <div class="col-md-12 create-account-btn mt-4 openMT5WebTrader">
                         <button>Create Account</button>
                     </div>
                 </div>

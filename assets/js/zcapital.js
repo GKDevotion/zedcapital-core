@@ -219,86 +219,9 @@ function openNewTabLink( link ){
 var webTraderTerminalLiveLink = "https://webtrader.zedcapital.com/terminal";
 var webTraderTerminalDemoLink = "https://demo.zedcapital.com/terminal";
 
-if( $("#openMT5WebTrader").length > 0){
-    document.getElementById("openMT5WebTrader").addEventListener("click", function() {
-        swalWithBootstrapButtons.fire({
-            title: "Choose Trading Account",
-            // text: "You won't be able to revert this!",
-            // icon: "warning",
-            showCancelButton: true,
-            confirmButtonText: "Live",
-            cancelButtonText: "Demo",
-            reverseButtons: true
-        }).then((result) => {
-            if (result.isConfirmed) {
-                openNewTabLink(webTraderTerminalLiveLink);
-            } else if (result.dismiss === Swal.DismissReason.cancel) {
-                openNewTabLink(webTraderTerminalDemoLink);
-            }
-        });
-    });
-}
-
-if( $("#openDesktopMT5WebTrader").length > 0 ){
-    document.getElementById("openDesktopMT5WebTrader").addEventListener("click", function() {
-        swalWithBootstrapButtons.fire({
-            title: "Choose Trading Account",
-            // text: "You won't be able to revert this!",
-            // icon: "warning",
-            showCancelButton: true,
-            confirmButtonText: "Live",
-            cancelButtonText: "Demo",
-            reverseButtons: true
-        }).then((result) => {
-            if (result.isConfirmed) {
-                openNewTabLink(webTraderTerminalLiveLink);
-            } else if (result.dismiss === Swal.DismissReason.cancel) {
-                openNewTabLink(webTraderTerminalDemoLink);
-            }
-        });
-    });
-
-    document.getElementById("openMobileDesktopMT5WebTrader").addEventListener("click", function() {
-        swalWithBootstrapButtons.fire({
-            title: "Choose Trading Account",
-            // text: "You won't be able to revert this!",
-            // icon: "warning",
-            showCancelButton: true,
-            confirmButtonText: "Live",
-            cancelButtonText: "Demo",
-            reverseButtons: true
-        }).then((result) => {
-            if (result.isConfirmed) {
-                openNewTabLink(webTraderTerminalLiveLink);
-            } else if (result.dismiss === Swal.DismissReason.cancel) {
-                openNewTabLink(webTraderTerminalDemoLink);
-            }
-        });
-    });
-}
-
-if( $("#openFooterDesktopMT5WebTrader").length > 0 ){
-    document.getElementById("openFooterDesktopMT5WebTrader").addEventListener("click", function() {
-        swalWithBootstrapButtons.fire({
-            title: "Choose Trading Account",
-            // text: "You won't be able to revert this!",
-            // icon: "warning",
-            showCancelButton: true,
-            confirmButtonText: "Live",
-            cancelButtonText: "Demo",
-            reverseButtons: true
-        }).then((result) => {
-            if (result.isConfirmed) {
-                openNewTabLink(webTraderTerminalLiveLink);
-            } else if (result.dismiss === Swal.DismissReason.cancel) {
-                openNewTabLink(webTraderTerminalDemoLink);
-            }
-        });
-    });
-}
-
-if( $("#openPlatformDesktopMT5WebTrader").length > 0 ){
-    document.getElementById("openPlatformDesktopMT5WebTrader").addEventListener("click", function() {
+if( $(".openMT5WebTrader").length > 0){
+    // document.getElementById("openMT5WebTrader").addEventListener("click", function() {
+    $(".openMT5WebTrader").on( "click", function(){
         swalWithBootstrapButtons.fire({
             title: "Choose Trading Account",
             // text: "You won't be able to revert this!",
