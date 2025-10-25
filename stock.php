@@ -270,7 +270,7 @@ include_once ('elements/header.php');
     <!-- Title -->
     <div class="text-center mb-4" >
         <h2 class="h2" data-aos="fade-up" data-aos-duration="850">
-            Why Trade CFDs on Stock?
+            Institutional Market Feed - Stock CFDs
         </h2>
         <div class="divider" data-aos="fade-up" data-aos-duration="850"></div>
         <p class="text-muted w-75 p-0 p-md-2 m-auto" data-aos="fade-up" data-aos-duration="850">

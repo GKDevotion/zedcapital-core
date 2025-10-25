@@ -328,6 +328,7 @@ include_once ('elements/header.php');
         <!-- Title -->
         <div class="text-center mb-4" data-aos="fade-up" data-aos-duration="800" >
             <h2 class="fw-bold">
+                <!-- Institutional Market Feed - Crypto CFDs -->
                 Why Trade Crypto?
             </h2>
             <div class="divider" data-aos="fade-up" data-aos-duration="800" ></div>

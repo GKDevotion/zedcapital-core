@@ -274,7 +274,7 @@ include_once ('elements/header.php');
     <!-- Title -->
     <div class="text-center mb-4" data-aos="fade-up" data-aos-duration="800" >
         <h2 class="h2">
-            Why Trade CFDs on indices?
+            Institutional Market Feed - Indices CFDs
         </h2>
         <div class="cfd-indicies-divider" data-aos="fade-up" data-aos-duration="800" ></div>
         <p class="text-muted w-75 p-0 p-md-2 m-auto" data-aos="fade-up" data-aos-duration="800" >
