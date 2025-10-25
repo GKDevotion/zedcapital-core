@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Nomination Trading Done Right | Expert Strategies & Guidance",
-    "description" => "Learn nomination trading done right with expert strategies, guidance, and practical tips. Trade confidently and optimize your financial growth with Zed Academy.",
+    "description" => "Learn nomination trading done right with expert strategies, guidance and practical tips. Trade confidently and optimize your financial growth with Zed Academy.",
     "keyword" => "nomination trading, trading strategies, expert trading guidance, Zed Academy trading, financial market trading, nomination trading done right step by step, how to succeed in nomination trading, expert strategies for nomination trading, nomination trading guide for beginners, Zed Academy nomination trading tips, effective methods for nomination trading success, learn nomination trading online confidently"
 ];
 include_once ('elements/header.php');
@@ -210,7 +210,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold mb-1">Nominee Verification</h5>
                             <p class="mb-0 small-muted">
-                                The nominee must provide valid identification, proof of relationship, and the client’s account details as registered with Zed Capital.
+                                The nominee must provide valid identification, proof of relationship and the client’s account details as registered with Zed Capital.
                             </p>
                         </div>
                     </div>
@@ -225,7 +225,7 @@ include_once ('elements/header.php');
                                 Regulatory Compliance
                             </h5>
                             <p class="mb-0 small-muted">
-                                All claims will be processed strictly under AML, KYC, and international fund transfer regulations.
+                                All claims will be processed strictly under AML, KYC and international fund transfer regulations.
                             </p>
                         </div>
                     </div>

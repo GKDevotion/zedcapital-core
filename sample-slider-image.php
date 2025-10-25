@@ -99,7 +99,7 @@ include_once('elements/header.php');
                     <p class="mb-0 pb-2">STP Broker</p>
                 </h5>
                 <p class="mb-0 text-gray">
-                    Trade with full confidence through our licensed STP brokerage — regulated, transparent, and committed to fair pricing and reliability.
+                    Trade with full confidence through our licensed STP brokerage — regulated, transparent and committed to fair pricing and reliability.
                 </p>
             </div>
 

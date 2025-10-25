@@ -134,11 +134,11 @@
                 </p>
                 <p>
                     <b>Restricted Regions:</b>
-                    The services of Zed Capital International Ltd and the information on this website are not intended for, and must not be accessed or used by, residents of American Samoa, the Central African Republic, the Democratic Republic of the Congo, the Republic of the Congo, Cuba, Côte d'Ivoire, Eritrea, Guam, Heard Island and McDonald Islands, Iran, Iraq, Israel, Japan, Lebanon, Liberia, Libya, Mali, Myanmar, North Korea, the Northern Mariana Islands, Puerto Rico, Russia, Somalia, Sudan, the Syrian Arab Republic, the United States Minor Outlying Islands, the United States of America, the Virgin Islands of the United States, or Yemen. We do not solicit or accept clients from these jurisdictions.
+                    The services of Zed Capital International Ltd and the information on this website are not intended for and must not be accessed or used by, residents of American Samoa, the Central African Republic, the Democratic Republic of the Congo, the Republic of the Congo, Cuba, Côte d'Ivoire, Eritrea, Guam, Heard Island and McDonald Islands, Iran, Iraq, Israel, Japan, Lebanon, Liberia, Libya, Mali, Myanmar, North Korea, the Northern Mariana Islands, Puerto Rico, Russia, Somalia, Sudan, the Syrian Arab Republic, the United States Minor Outlying Islands, the United States of America, the Virgin Islands of the United States, or Yemen. We do not solicit or accept clients from these jurisdictions.
                 </p>
 
                 <p>
-                    <strong>ZED CAPITAL INTERNATIONAL LIMITED</strong> is a licensed investment dealer, authorized and regulated by the Mauritius Financial Services Commission (FSC), and the regulatory number is GB24203133.
+                    <strong>ZED CAPITAL INTERNATIONAL LIMITED</strong> is a licensed investment dealer, authorized and regulated by the Mauritius Financial Services Commission (FSC) and the regulatory number is GB24203133.
                 </p>
 
                 <p>

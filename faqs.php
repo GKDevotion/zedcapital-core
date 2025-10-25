@@ -1,8 +1,8 @@
 <?php
 $seoArr = [
     "title" => "ZED Capital International Ltd FAQs | Trading & Account Questions Answered",
-    "description" => "Find answers to common questions about ZED Capital International Ltd. Learn about accounts, trading, fund security, deposits, withdrawals, and regulations.",
-    "keyword" => "ZED Capital FAQs, ZED Capital account questions, trading FAQs, client fund security, ZED Capital support, ZED Capital International Ltd frequently asked questions, FAQ guide for ZED Capital trading accounts and deposits, ZED Capital fund security and account verification FAQs, common questions about ZED Capital trading platform MT5, ZED Capital withdrawal, deposit, and trading support FAQs, client fund protection and trading queries for ZED Capital, ZED Capital International Ltd beginner trading guide FAQ"
+    "description" => "Find answers to common questions about ZED Capital International Ltd. Learn about accounts, trading, fund security, deposits, withdrawals and regulations.",
+    "keyword" => "ZED Capital FAQs, ZED Capital account questions, trading FAQs, client fund security, ZED Capital support, ZED Capital International Ltd frequently asked questions, FAQ guide for ZED Capital trading accounts and deposits, ZED Capital fund security and account verification FAQs, common questions about ZED Capital trading platform MT5, ZED Capital withdrawal, deposit and trading support FAQs, client fund protection and trading queries for ZED Capital, ZED Capital International Ltd beginner trading guide FAQ"
 ];
 include_once('elements/header.php');
 ?>

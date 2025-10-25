@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Transparent Trading System | Fair & Secure Investment Platform",
-    "description" => "Discover a transparent trading system designed for fairness, accuracy, and investor trust. Trade confidently with real-time insights and zero hidden fees.",
+    "description" => "Discover a transparent trading system designed for fairness, accuracy and investor trust. Trade confidently with real-time insights and zero hidden fees.",
     "keyword" => "transparent trading, trading transparency, secure trading system, fair trading platform, transparent investment platform, best transparent trading system for investors, how transparent trading systems build trust, benefits of a transparent trading platform, secure and transparent online trading platform, real-time transparent trading data system, open and fair trading technology solutions, transparent trading software for brokers, regulated transparent trading company"
 ];
 include_once ('elements/header.php');
@@ -116,7 +116,7 @@ include_once ('elements/header.php');
                      Trading System
                 </h2>
                 <p class="text-white">
-                    A trusted partner in global capital market solutions, we go beyond brokerage - delivering secure, innovative, and transparent trading built on integrity, trust, and a client-first approach to empower traders worldwide.
+                    A trusted partner in global capital market solutions, we go beyond brokerage - delivering secure, innovative and transparent trading built on integrity, trust and a client-first approach to empower traders worldwide.
                 </p>
             </div>
         </div>
@@ -194,7 +194,7 @@ include_once ('elements/header.php');
                 </h2>
                 <div class="underline"></div>
                 <p class="trust-text text-gray mb-5" data-aos="fade-up" data-aos-delay="500">
-                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, Strategic Risk Management, and bank-level data security, we ensure your capital remains protected at all times.
+                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, Strategic Risk Management and bank-level data security, we ensure your capital remains protected at all times.
                 </p>
                 <ul class="arrow-list">
                     <li class="mb-2 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">
@@ -392,7 +392,7 @@ include_once ('elements/header.php');
                         Competitive Pricing & Execution
                     </p>
                     <p class="text-gray" style="width: 90%;">
-                        Spreads starting from 0.1 pips, ultra-low latency execution, and transparent cost structures with no hidden fees.
+                        Spreads starting from 0.1 pips, ultra-low latency execution and transparent cost structures with no hidden fees.
                     </p>
                     <a href="#" class="d-none a-link-move-icon" title="Learn About Commissions">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
                     
@@ -409,7 +409,7 @@ include_once ('elements/header.php');
                         Global Market Access
                     </p>
                     <p class="text-gray" style="width: 90%;">
-                        Trade forex, commodities, indices, equities, and cryptocurrencies from a single account with institutional-grade liquidity and broad diversification.
+                        Trade forex, commodities, indices, equities and cryptocurrencies from a single account with institutional-grade liquidity and broad diversification.
                     </p>
                     <a href="#" class="d-none a-link-move-icon" title="Learn About Commissions">Learn About Commissions <i class="fas fa-chevron-circle-right"></i></a>
 
@@ -417,7 +417,7 @@ include_once ('elements/header.php');
                         Advanced Technology
                     </p>
                     <p class="text-gray" style="width: 90%;">
-                        Powerful MT5 platform with enhanced analytics, algorithmic trading support, and seamless access across desktop, web, and mobile.
+                        Powerful MT5 platform with enhanced analytics, algorithmic trading support and seamless access across desktop, web and mobile.
                     </p>
                 </div>
             </div>
@@ -637,7 +637,7 @@ include_once ('elements/header.php');
         <div class="row" data-aos="fade-up" data-aos-duration="800">
             <div class="col-12 text-center">
                 <p>
-                    Education at Zed Capital is a strategic advantage, empowering clients with clarity, discipline, and long-term market confidence.
+                    Education at Zed Capital is a strategic advantage, empowering clients with clarity, discipline and long-term market confidence.
                 </p>
             </div>
         </div>
@@ -651,7 +651,7 @@ include_once ('elements/header.php');
                         <div data-aos="fade-up" data-aos-duration="800" class="opportunities-mobile-responsive">
                             <h5 class="fw-bold mb-1">Structured Learning</h5>
                             <p class="mb-0 small-muted">
-                                Professional courses, guides, and tutorials tailored to all experience levels.
+                                Professional courses, guides and tutorials tailored to all experience levels.
                             </p>
                         </div>
                     </div>
@@ -667,7 +667,7 @@ include_once ('elements/header.php');
                         <div data-aos="fade-up" data-aos-duration="800">
                             <h5 class="fw-bold mb-1">Expert Research</h5>
                             <p class="mb-0 small-muted">
-                                Daily and weekly market insights across forex, commodities, indices, equities, and digital assets.
+                                Daily and weekly market insights across forex, commodities, indices, equities and digital assets.
                             </p>
                         </div>
                     </div>
@@ -683,7 +683,7 @@ include_once ('elements/header.php');
                         <div data-aos="fade-up" data-aos-duration="800">
                             <h5 class="fw-bold mb-1">Practical Resources</h5>
                             <p class="mb-0 small-muted">
-                                Trading calculators, glossaries, and strategy frameworks.
+                                Trading calculators, glossaries and strategy frameworks.
                             </p>
                         </div>
                     </div>
@@ -815,7 +815,7 @@ include_once ('elements/header.php');
         <div class="row">
             <h2 class="h2 fw-bold mb-4" data-aos="fade-up" data-aos-duration="800">Our Commitment</h2>
             <p class="text-white text-center" data-aos="fade-up" data-aos-duration="800">
-                At Zed Capital, we are committed to empowering traders and investors with the tools, resources, and support they need to succeed in today's dynamic markets. Whether you are a retail client seeking access to opportunities, or a professional investor requiring institutional standards, Zed Capital provides the platform, expertise, and reliability to help you achieve your goals.
+                At Zed Capital, we are committed to empowering traders and investors with the tools, resources and support they need to succeed in today's dynamic markets. Whether you are a retail client seeking access to opportunities, or a professional investor requiring institutional standards, Zed Capital provides the platform, expertise and reliability to help you achieve your goals.
             </p>
         </div>
     </div>

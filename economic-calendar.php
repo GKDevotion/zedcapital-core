@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Economic Calendar | Track Market Events & Trading Impact – Zed Academy",
-    "description" => "Stay updated with Zed Academy’s Economic Calendar. Track key financial events, economic data releases, and market-impacting news to plan trades effectively.",
+    "description" => "Stay updated with Zed Academy’s Economic Calendar. Track key financial events, economic data releases and market-impacting news to plan trades effectively.",
     "keyword" => "economic calendar, market events, forex economic calendar, stock market economic calendar, trading events calendar, forex and stock market economic calendar, track economic data releases for trading, Zed Academy economic calendar for traders, upcoming financial events impacting markets, plan trades using economic calendar insights, global economic indicators calendar for investors, economic calendar with time zones and impact levels"
 ];
 include_once ('elements/header.php');

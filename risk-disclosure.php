@@ -100,7 +100,7 @@ include_once ('elements/header.php');
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="200">
       <h2>3. Lawful Bases</h2>
-      <p>We process personal data under contract, legal obligation, legitimate interests, and consent where required.</p>
+      <p>We process personal data under contract, legal obligation, legitimate interests and consent where required.</p>
     </div>
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="300">

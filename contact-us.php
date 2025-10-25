@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Contact Us | Zed Academy - Get in Touch with Our Team",
-    "description" => "Get in touch with Zed Academy for support, inquiries, or partnership opportunities. Our team is here to assist you with trading, account, and educational questions.",
+    "description" => "Get in touch with Zed Academy for support, inquiries, or partnership opportunities. Our team is here to assist you with trading, account and educational questions.",
     "keyword" => "contact Zed Academy, customer support, trading support, reach Zed Academy, Zed Academy inquiries, how to contact Zed Academy for support, Zed Academy customer support and assistance, contact form for trading account queries, reach Zed Academy team for partnership inquiries, get help with Zed Academy account and trading issues, Zed Academy contact information for global clients, support for Zed Academy platform users and traders"
 ];
 include_once('elements/header.php');

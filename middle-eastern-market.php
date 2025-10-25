@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Middle Eastern Financial Market | Trade & Invest with Zed Academy",
-    "description" => "Discover the Middle Eastern financial market with Zed Academy. Learn trading strategies, market insights, and investment opportunities for regional growth.",
+    "description" => "Discover the Middle Eastern financial market with Zed Academy. Learn trading strategies, market insights and investment opportunities for regional growth.",
     "keyword" => "Middle Eastern financial market, trade Middle East stocks, invest in Middle Eastern markets, regional market insights, Zed Academy trading, how to trade in Middle Eastern financial markets, investment opportunities in Middle Eastern markets, Middle Eastern stock market trading guide, learn trading in Middle East financial markets, Zed Academy Middle Eastern market insights, strategies for Middle Eastern market investment, Middle Eastern forex and stock trading tips"
 ];
 include_once ('elements/header.php');
@@ -153,7 +153,7 @@ include_once ('elements/header.php');
                 <b class="text-black">Diversification & Reform</b>: Initiatives like Saudi Vision 2030 and the UAE’s innovation-driven strategies are creating new growth sectors.
             </p>
             <p class="text-muted text-gray">
-                <b class="text-black">Strategic Location</b>: Positioned between Asia, Europe, and Africa, the Middle East is a natural hub for cross-border trade and capital flows.
+                <b class="text-black">Strategic Location</b>: Positioned between Asia, Europe and Africa, the Middle East is a natural hub for cross-border trade and capital flows.
             </p>
         </div>
 
@@ -228,11 +228,11 @@ include_once ('elements/header.php');
                 <h4 class="fw-bold text-center mb-4">Zed Capital International Ltd — Unlocking Opportunities in the Middle East</h4>
 
                 <p class="text-mute">
-                    At <b>Zed Capital International Ltd</b>, we recognize the Middle Eastern financial market as one of the fastest-growing and strategically significant regions in global finance. Anchored by energy wealth, sovereign investment funds, and ambitious economic diversification programs, the Middle East has transformed into a hub of capital markets, banking, and cross-border investment.
+                    At <b>Zed Capital International Ltd</b>, we recognize the Middle Eastern financial market as one of the fastest-growing and strategically significant regions in global finance. Anchored by energy wealth, sovereign investment funds and ambitious economic diversification programs, the Middle East has transformed into a hub of capital markets, banking and cross-border investment.
                 </p>
 
                 <p class="text-mute">
-                    From Dubai’s global financial center to Riyadh’s rapidly expanding stock exchange, and from Abu Dhabi’s sovereign funds to Qatar’s investment hubs, the Middle East is redefining its role in the global economy.
+                    From Dubai’s global financial center to Riyadh’s rapidly expanding stock exchange and from Abu Dhabi’s sovereign funds to Qatar’s investment hubs, the Middle East is redefining its role in the global economy.
                 </p>
             </div>
         </div>
@@ -275,7 +275,7 @@ include_once ('elements/header.php');
                 <b>Sukuk (Islamic bonds)</b> represent a distinctive and rapidly expanding segment, aligning investments with Sharia-compliant principles.
             </p>
             <p class="text-muted">
-                The UAE, Saudi Arabia, and Qatar are now among the leading global issuers of sukuk.
+                The UAE, Saudi Arabia and Qatar are now among the leading global issuers of sukuk.
             </p>
         </div>
 
@@ -312,7 +312,7 @@ include_once ('elements/header.php');
         <div class="col-lg-8 px-2 px-md-5">
             <h4 class="fw-bold mt-2 mb-4">Currencies (Foreign Exchange)</h4>
             <p class="text-muted">
-                Regional currencies such as the <b>Saudi Riyal (SAR), UAE Dirham (AED)</b>, and <b>Qatari Riyal (QAR)</b> are often pegged to the U.S. dollar, ensuring exchange rate stability.
+                Regional currencies such as the <b>Saudi Riyal (SAR), UAE Dirham (AED)</b> and <b>Qatari Riyal (QAR)</b> are often pegged to the U.S. dollar, ensuring exchange rate stability.
             </p>
             <p class="text-muted">
                 Dubai has positioned itself as a hub for <b>forex and commodities trading</b>, offering access to both local and international markets.
@@ -335,7 +335,7 @@ include_once ('elements/header.php');
             <div class="card-custom text-dark pb-0 dfm-bg-market-image">
                 <h3 class="fw-bold p-3 m-0">Dubai Financial Market (DFM)</h3>
                 <p class="m-0 p-3 text-muted">
-                    A key Gulf exchange offering equities, sukuk, bonds, and Sharia-compliant products.
+                    A key Gulf exchange offering equities, sukuk, bonds and Sharia-compliant products.
                 </p>
             </div>
         </div>
@@ -362,7 +362,7 @@ include_once ('elements/header.php');
                         </li>
                     </ul>
                 <p class="text-muted">
-                    These funds are reshaping global capital markets through large-scale investments in infrastructure, technology, real estate, and alternative assets.
+                    These funds are reshaping global capital markets through large-scale investments in infrastructure, technology, real estate and alternative assets.
                 </p>
             </div>
         </div>
@@ -447,7 +447,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold mb-1">Real Assets</h5>
                             <p class="mb-0 small-muted">
-                                Infrastructure, real estate, and energy diversification projects backed by sovereign capital
+                                Infrastructure, real estate and energy diversification projects backed by sovereign capital
                             </p>
                         </div>
                     </div>
@@ -461,7 +461,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold mb-1">Alternative Investments</h5>
                             <p class="mb-0 small-muted">
-                                Private equity and venture capital in fintech, clean energy, and logistics
+                                Private equity and venture capital in fintech, clean energy and logistics
                             </p>
                         </div>
                     </div>
@@ -543,7 +543,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature mb-3">
                     <h5 class="fw-bold">Regional Insight</h5>
                     <p class="small-muted mb-0">
-                        Expertise in Gulf markets, exchanges, and sovereign fund strategies
+                        Expertise in Gulf markets, exchanges and sovereign fund strategies
                     </p>
                 </div>
             </div>
@@ -552,7 +552,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature mb-3">
                     <h5 class="fw-bold">Sharia-Compliant Solutions</h5>
                     <p class="small-muted mb-0">
-                        Understanding of sukuk, Islamic finance, and investment frameworks
+                        Understanding of sukuk, Islamic finance and investment frameworks
                     </p>
                 </div>
             </div>
@@ -571,10 +571,10 @@ include_once ('elements/header.php');
                     <h5>Conclusion</h5>
                     <ul class="arrow-list mb-0 small-muted">
                         <li class="mb-1 fs-6 px-4">
-                            The <b>Middle Eastern financial market</b> is a dynamic blend of energy wealth, sovereign investment, and economic diversification. With expanding capital markets, ambitious reforms, and global-scale sovereign wealth funds, the region is set to play an increasingly pivotal role in the international financial system.
+                            The <b>Middle Eastern financial market</b> is a dynamic blend of energy wealth, sovereign investment and economic diversification. With expanding capital markets, ambitious reforms and global-scale sovereign wealth funds, the region is set to play an increasingly pivotal role in the international financial system.
                         </li>
                         <li class="mb-1 fs-6 px-4">
-                            At <b>Zed Capital International Ltd</b>, we provide clients with the insight, access, and strategies required to navigate this evolving market — from traditional energy linked investments to emerging opportunities in technology, infrastructure, and sustainable finance.
+                            At <b>Zed Capital International Ltd</b>, we provide clients with the insight, access and strategies required to navigate this evolving market — from traditional energy linked investments to emerging opportunities in technology, infrastructure and sustainable finance.
                         </li>
                         <li class="mb-1 fs-6 px-4"> 
                             Zed Capital International Ltd — connecting global investors to the opportunities of the Middle East.

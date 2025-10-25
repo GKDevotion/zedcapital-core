@@ -1,8 +1,8 @@
 <?php
 $seoArr = [
     "title" => "Trade Precious and Industrial Metals | Zed Academy Trading Guide",
-    "description" => "Trade precious and industrial metals with Zed Academy. Learn strategies, market trends, and investment tips to trade gold, silver, copper, and more successfully.",
-    "keyword" => "trade precious metals, trade industrial metals, metals trading platform, gold and silver trading, Zed Academy metals trading, how to trade precious and industrial metals online, strategies for trading gold, silver, and industrial metals, Zed Academy guide to metals trading, invest in precious metals like gold and silver, industrial metals trading tips and strategies, best platform to trade precious and industrial metals, trading metals for beginners and professionals"
+    "description" => "Trade precious and industrial metals with Zed Academy. Learn strategies, market trends and investment tips to trade gold, silver, copper and more successfully.",
+    "keyword" => "trade precious metals, trade industrial metals, metals trading platform, gold and silver trading, Zed Academy metals trading, how to trade precious and industrial metals online, strategies for trading gold, silver and industrial metals, Zed Academy guide to metals trading, invest in precious metals like gold and silver, industrial metals trading tips and strategies, best platform to trade precious and industrial metals, trading metals for beginners and professionals"
 ];
 include_once ('elements/header.php');
 // include_once ('elements/product-child-menu');

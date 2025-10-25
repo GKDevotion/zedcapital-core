@@ -31,7 +31,7 @@
     if ($lotSize === false || $openPrice === false || $closePrice === false || $pipSize === false) {
         echo json_encode([
             'status' => 'error',
-            'message' => 'Invalid numeric input. Please check lots, open/close price, and pip size.'
+            'message' => 'Invalid numeric input. Please check lots, open/close price and pip size.'
         ]);
         exit;
     }

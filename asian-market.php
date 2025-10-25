@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Asian Financial Market | Trade & Invest with Zed Academy",
-    "description" => "Discover the Asian financial market with Zed Academy. Learn trading strategies, market trends, and investment opportunities across Asian stocks, indices, and forex.",
+    "description" => "Discover the Asian financial market with Zed Academy. Learn trading strategies, market trends and investment opportunities across Asian stocks, indices and forex.",
     "keyword" => "Asian financial market, trade Asian stocks, Asian market investment, Zed Academy trading, Asian stock indices, how to trade Asian financial markets online, investment opportunities in Asian stocks and indices, Asian forex and stock trading strategies, Zed Academy guide to Asian financial markets, trade major Asian indices like Nikkei, Hang Seng, KOSPI, learn trading in Asian financial markets for beginners, expert insights into Asian stock and forex trading"
 ];
 include_once ('elements/header.php');
@@ -153,7 +153,7 @@ include_once ('elements/header.php');
                 <b class="text-black">Demographics</b>: Young, expanding populations in India and Southeast Asia drive long-term consumption and investment demand.
             </p>
             <p class="text-muted text-gray">
-                <b class="text-black">Global Supply Chains</b>: Asia is central to manufacturing, technology, and global trade.
+                <b class="text-black">Global Supply Chains</b>: Asia is central to manufacturing, technology and global trade.
             </p>
             <p class="text-muted text-gray">
                 <b class="text-black">Capital Market Reforms</b>: Liberalization in China and India is opening deeper opportunities for international investors.
@@ -252,11 +252,11 @@ include_once ('elements/header.php');
                 <h4 class="fw-bold text-center mb-4">Zed Capital International Ltd — Capturing Growth in Asia</h4>
 
                 <p class="text-mute">
-                    At <b>Zed Capital International Ltd</b>, we recognize the Asian financial market as the most dynamic growth engine in the global economy. With the rise of powerhouse economies such as China, Japan, India, and Singapore, Asia has become a hub of capital formation, technological innovation, and long-term investment opportunity.
+                    At <b>Zed Capital International Ltd</b>, we recognize the Asian financial market as the most dynamic growth engine in the global economy. With the rise of powerhouse economies such as China, Japan, India and Singapore, Asia has become a hub of capital formation, technological innovation and long-term investment opportunity.
                 </p>
 
                 <p class="text-mute">
-                    From Tokyo's deep liquidity to Hong Kong's global financial gateway, and from Singapore's stability to India's fast-growing equity and derivatives markets, Asia offers unmatched diversity and potential for global investors.
+                    From Tokyo's deep liquidity to Hong Kong's global financial gateway and from Singapore's stability to India's fast-growing equity and derivatives markets, Asia offers unmatched diversity and potential for global investors.
                 </p>
             </div>
         </div>
@@ -294,7 +294,7 @@ include_once ('elements/header.php');
                 <b>National Stock Exchange of India (NSE)</b> and <b>Bombay Stock Exchange (BSE)</b> drive India's rapid equity growth
             </p>
             <p class="text-muted">
-                Key indices include <b>Nikkei 225, Hang Seng, Shanghai Composite</b>, and <b>Nifty 50</b>
+                Key indices include <b>Nikkei 225, Hang Seng, Shanghai Composite</b> and <b>Nifty 50</b>
             </p>
 
             <h4 class="fw-bold my-4">Fixed Income (Bond Market)</h4>
@@ -305,7 +305,7 @@ include_once ('elements/header.php');
                 The <b>People's Bank of China (PBoC)</b> and <b>Bank of Japan (BoJ)</b> play critical roles in yield and credit spread dynamics.
             </p>
             <p class="text-muted">
-                Rapid development of <b>Asian corporate bond markets</b>, particularly in South Korea, India, and Singapore, is attracting global fixed income investors.
+                Rapid development of <b>Asian corporate bond markets</b>, particularly in South Korea, India and Singapore, is attracting global fixed income investors.
             </p>
         </div>
 
@@ -351,12 +351,12 @@ include_once ('elements/header.php');
                 <b>Singapore Dollar (SGD)</b> and <b>Hong Kong Dollar (HKD)</b> provide regional stability and global trading access.
             </p>
             <p class="text-muted">
-                Asia accounts for a significant share of global forex turnover, particularly through hubs such as <b>Tokyo, Hong Kong, and Singapore</b>.
+                Asia accounts for a significant share of global forex turnover, particularly through hubs such as <b>Tokyo, Hong Kong and Singapore</b>.
             </p>
 
             <h4 class="fw-bold my-4">Commodities & Derivatives</h4>
             <p class="text-muted">
-                Asia is a leading consumer and producer of energy, metals, and agricultural products.
+                Asia is a leading consumer and producer of energy, metals and agricultural products.
             </p>
             <p class="text-muted">
                 <b>Shanghai Futures Exchange (SHFE)</b> and <b>Tokyo Commodity Exchange (TOCOM)</b> provide benchmarks for metals and energy.
@@ -384,7 +384,7 @@ include_once ('elements/header.php');
             <div class="info-card text-dark">
                 <h4 class="fw-bold mt-2 mb-4">Private Capital & Technology Investment</h4>
                 <p class="text-muted">
-                    Asia is home to fast-growing <b>venture capital and private equity ecosystems</b>, especially in China, India, and Southeast Asia.
+                    Asia is home to fast-growing <b>venture capital and private equity ecosystems</b>, especially in China, India and Southeast Asia.
                 </p>
                 <p class="text-muted">
                     <b>Singapore</b> serves as a regional hub for private wealth and fund management.
@@ -447,7 +447,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold mb-1">Equities</h5>
                             <p class="mb-0 small-muted">
-                                Participation in fast-growing sectors such as technology, healthcare, consumer goods, and finance.
+                                Participation in fast-growing sectors such as technology, healthcare, consumer goods and finance.
                             </p>
                         </div>
                     </div>
@@ -489,7 +489,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold mb-1">Currency</h5>
                             <p class="mb-0 small-muted">
-                                Tap into dynamic trading Opportunities to trade actively in JPY, CNY, INR, and SGD.
+                                Tap into dynamic trading Opportunities to trade actively in JPY, CNY, INR and SGD.
                             </p>
                         </div>
                     </div>
@@ -511,7 +511,7 @@ include_once ('elements/header.php');
                     </div>
                     <h5 class="fw-bold text-center">Regulatory Shifts</h5>
                     <p class="small-muted mb-0 text-center">
-                        Policy changes in China, India, and Japan can create uncertainty.
+                        Policy changes in China, India and Japan can create uncertainty.
                     </p>
                 </div>
             </div>
@@ -523,7 +523,7 @@ include_once ('elements/header.php');
                     </div>
                     <h5 class="fw-bold text-center">Geopolitical Tensions</h5>
                     <p class="small-muted mb-0 text-center">
-                        Trade disputes, territorial conflicts, and U.S. China relations impact sentiment.
+                        Trade disputes, territorial conflicts and U.S. China relations impact sentiment.
                     </p>
                 </div>
             </div>
@@ -571,7 +571,7 @@ include_once ('elements/header.php');
                 <div class="tech-feature mb-3">
                     <h5 class="fw-bold">Regional Expertise</h5>
                     <p class="small-muted mb-0">
-                        Coverage of Japan, China, India, and Southeast Asian markets.
+                        Coverage of Japan, China, India and Southeast Asian markets.
                     </p>
                 </div>
             </div>
@@ -599,10 +599,10 @@ include_once ('elements/header.php');
                     <h5 class="fw-bold">Conclusion</h5>
                     <ul class="arrow-list mb-0 small-muted">
                         <li class="mb-1 fs-6 px-4">
-                            The <b>Asian financial market</b> is more than a regional player, a <b>center of global growth and innovation</b>. Its diversity, scale, and momentum make it an essential component of any global investment strategy.
+                            The <b>Asian financial market</b> is more than a regional player, a <b>center of global growth and innovation</b>. Its diversity, scale and momentum make it an essential component of any global investment strategy.
                         </li>
                         <li class="mb-1 fs-6 px-4">
-                            At <b>Zed Capital International Ltd</b>, we provide the insights, access, and disciplined strategies to help clients engage confidently with Asia's opportunities balancing growth potential with careful risk management.
+                            At <b>Zed Capital International Ltd</b>, we provide the insights, access and disciplined strategies to help clients engage confidently with Asia's opportunities balancing growth potential with careful risk management.
                         </li>
                         <li class="mb-1 fs-6 px-4"> 
                             Zed Capital International Ltd — connecting global investors to Asia's financial future

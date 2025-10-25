@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "It's Time to Gear Up | Learn Trading & Achieve Success with Zed Academy",
-    "description" => "It's time to gear up your trading career. Learn proven trading strategies, gain market skills, and succeed with expert guidance at Zed Academy.",
+    "description" => "It's time to gear up your trading career. Learn proven trading strategies, gain market skills and succeed with expert guidance at Zed Academy.",
     "keyword" => "gear up trading, learn trading online, zed academy courses, trading for beginners, trading success program, it's time to gear up for trading success, how to learn trading step by step with Zed Academy, best trading education platform for beginners, trading mentorship to achieve financial goals, learn forex and stock trading online with experts"
 ];
 include_once ('elements/header.php');
@@ -357,7 +357,7 @@ include_once ('elements/header.php');
 
                     <p class="fw-bold mb-1" data-aos="fade-up" data-aos-delay="800">Know your numbers.</p>
                     <p class="text-muted" data-aos="fade-up" data-aos-delay="800">
-                        Quickly calculate your potential profits, losses, and required margin. A clear picture of every scenario before you trade because precision builds consistency.
+                        Quickly calculate your potential profits, losses and required margin. A clear picture of every scenario before you trade because precision builds consistency.
                     </p>
                     
                     <a class="demo-button btn" data-aos="fade-up" data-aos-delay="800" href="<?php echo getBaseUrl();?>/profit-calculation">
@@ -615,7 +615,7 @@ include_once ('elements/header.php');
                     <p data-aos="fade-up" data-aos-delay="800">
                         <span class="text-gray">Popular platforms <br>
                             offering comprehensive trading tools, <br>
-                            indicators, and automated trading capabilities.
+                            indicators and automated trading capabilities.
                         </span>
                     </p>
                     <p class="m-0" data-aos="fade-up" data-aos-delay="800">
@@ -643,12 +643,12 @@ include_once ('elements/header.php');
                     <h3 class="fw-bold mb-4 w-75" data-aos="fade-up" data-aos-delay="800">News and Economic Calendars</h3>
                     <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Forex Factory:</strong> 
                         <span class="text-gray">
-                            Offers an economic calendar, market news, and forums for trader discussions.
+                            Offers an economic calendar, market news and forums for trader discussions.
                         </span>
                     </p>
                     <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Investing.com:</strong> 
                         <span class="text-gray">
-                            Provides real-time news, analysis, economic calendar, and customizable alerts.
+                            Provides real-time news, analysis, economic calendar and customizable alerts.
                         </span>
                     </p>
                     <p class="m-0" data-aos="fade-up" data-aos-delay="800"><strong>Bloomberg:</strong> 
@@ -690,7 +690,7 @@ include_once ('elements/header.php');
                             <h4 class="fw-bold mb-5">Educational Resources</h4>
                             <p class="m-0">
                                 <strong>Babypips:</strong> 
-                                <span class="text-gray">Offers a comprehensive beginner's guide to forex trading, educational articles, and a community forum. </span>
+                                <span class="text-gray">Offers a comprehensive beginner's guide to forex trading, educational articles and a community forum. </span>
                             </p>
                             
                         </div>
@@ -699,11 +699,11 @@ include_once ('elements/header.php');
                     <div class="col-12">
                         <p class="m-0">
                             <strong>Investopedia:</strong> 
-                            <span class="text-gray">Provides articles, tutorials, and a dictionary of financial terms relevant to forex trading.</span>
+                            <span class="text-gray">Provides articles, tutorials and a dictionary of financial terms relevant to forex trading.</span>
                         </p>
                         <p class="m-0">
                             <strong>Trading courses:</strong> 
-                            <span class="text-gray">Various online platforms offer courses on forex trading, technical analysis, and trading strategies. </span>
+                            <span class="text-gray">Various online platforms offer courses on forex trading, technical analysis and trading strategies. </span>
                         </p>
                     </div>
                 </div>
@@ -729,7 +729,7 @@ include_once ('elements/header.php');
                         </p>
                         <p class="m-0">
                             <strong>Thinkorswim:</strong> 
-                            <span class="text-gray">Provides advanced charting, technical analysis tools, and paper trading.</span>
+                            <span class="text-gray">Provides advanced charting, technical analysis tools and paper trading.</span>
                         </p>
                     </div>
                 </div>
@@ -743,7 +743,7 @@ include_once ('elements/header.php');
                             <h4 class="fw-bold mb-5">News and Economic Calendars</h4>
                             <p class="m-0">
                                 <strong>Forex Factory:</strong> 
-                                <span class="text-gray">Offers an economic calendar, market news, and forums for trader discussions.</span>
+                                <span class="text-gray">Offers an economic calendar, market news and forums for trader discussions.</span>
                             </p>
                             
                         </div>
@@ -752,7 +752,7 @@ include_once ('elements/header.php');
                     <div class="col-12">
                         <p class="m-0">
                             <strong>Investing.com:</strong> 
-                            <span class="text-gray">Provides real-time news, analysis, economic calendar, and customizable alerts.</span>
+                            <span class="text-gray">Provides real-time news, analysis, economic calendar and customizable alerts.</span>
                         </p>
                         <p class="m-0">
                             <strong>Bloomberg:</strong> 
@@ -828,7 +828,7 @@ include_once ('elements/header.php');
                     <div class="col-12">
                         <p class="m-0">
                             <strong>Performance Monitoring:</strong> 
-                            <span class="text-gray">Track real-time trade replication, allocation ratios, and overall performance analytics through an advanced dashboard built for precision and transparency.</span>
+                            <span class="text-gray">Track real-time trade replication, allocation ratios and overall performance analytics through an advanced dashboard built for precision and transparency.</span>
                         </p>
                     </div>
                 </div>
@@ -842,7 +842,7 @@ include_once ('elements/header.php');
                             <h4 class="fw-bold mb-5">Technical Analysis Software</h4>
                             <p class="m-0">
                                 <strong>Autochartist:</strong> 
-                                <span class="text-gray">Provides automated technical analysis, pattern recognition, and trading signals.</span>
+                                <span class="text-gray">Provides automated technical analysis, pattern recognition and trading signals.</span>
                             </p>
                             
                         </div>
@@ -866,7 +866,7 @@ include_once ('elements/header.php');
                             <p class="m-0">
                                 <strong>Connect Globally:</strong> 
                                 <span class="text-gray">
-                                    Join traders and investors to share insights, strategies, and market updates.
+                                    Join traders and investors to share insights, strategies and market updates.
                                 </span>
                             </p>
                             
@@ -924,14 +924,14 @@ include_once ('elements/header.php');
                 </div>
                 <div>
                     <p class="m-0">
-                        When using these tools and resources, it's essential to conduct through research, understand the risk involved in forex trading, and develop a sound trading strategy tailored to your financial goals and risk tolerance.
+                        When using these tools and resources, it's essential to conduct through research, understand the risk involved in forex trading and develop a sound trading strategy tailored to your financial goals and risk tolerance.
                     </p>
                 </div>
             </div>
 
             <div class="px-4" data-aos="fade-up" data-aos-delay="500">
                 <p class="text-muted mb-0">
-                    These tools and resources are essential for traders to develop their skills, make informed decisions, manage risks effectively, and navigate the dynamic Forex market. Depending on individual trading styles and preferences, traders may use a combination of these tools to enhance their trading performance and achieve their financial goals.
+                    These tools and resources are essential for traders to develop their skills, make informed decisions, manage risks effectively and navigate the dynamic Forex market. Depending on individual trading styles and preferences, traders may use a combination of these tools to enhance their trading performance and achieve their financial goals.
                 </p>
             </div>
         </div>

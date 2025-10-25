@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Trade the World's Largest Financial Market | Zed Academy Forex Guide",
-    "description" => "Trade the world's largest financial market with Zed Academy. Learn forex strategies, access global liquidity, and invest confidently in international markets.",
+    "description" => "Trade the world's largest financial market with Zed Academy. Learn forex strategies, access global liquidity and invest confidently in international markets.",
     "keyword" => "largest financial market, forex trading, global market trading, Zed Academy trading, international trading platform, how to trade the world's largest financial market online, strategies for trading global financial markets, Zed Academy guide to forex and global markets, trade currency and forex in the world's largest market, learn professional trading in international markets, best platform to trade the world's largest financial market, global forex trading tips and insights"
 ];
 include_once ('elements/header.php');

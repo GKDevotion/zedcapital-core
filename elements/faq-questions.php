@@ -72,7 +72,7 @@
                         </h2>
                         <div id="faq2" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Easily trade shares using Zed Capital's MT4 platform. Open an account, deposit funds, and start trading global stocks.
+                                Easily trade shares using Zed Capital's MT4 platform. Open an account, deposit funds and start trading global stocks.
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                         </h2>
                         <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Start by opening an account, funding it, and using the trading platform to select and trade your preferred CFD <?php echo $paramArr['name'];?>.
+                                Start by opening an account, funding it and using the trading platform to select and trade your preferred CFD <?php echo $paramArr['name'];?>.
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                         </h2>
                         <div id="faq5" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                CFDs offer leverage, short-selling, and easier access, but lack ownership and can carry higher risks than traditional <?php echo $paramArr['name'];?> purchases.
+                                CFDs offer leverage, short-selling and easier access, but lack ownership and can carry higher risks than traditional <?php echo $paramArr['name'];?> purchases.
                             </div>
                         </div>
                     </div>

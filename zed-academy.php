@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Zed Academy | Learn. Trade. Succeed in Financial Markets",
-    "description" => "Join Zed Academy to learn professional trading skills, master market strategies, and achieve success with expert guidance and real-time trading education.",
+    "description" => "Join Zed Academy to learn professional trading skills, master market strategies and achieve success with expert guidance and real-time trading education.",
     "keyword" => "trading academy, learn trading online, forex trading courses, stock market training, zed academy trading, trading education platform, best online trading academy for beginners, learn how to trade forex and stocks with Zed Academy, professional trading education with real market experience, transparent trading training program, online trading mentorship for success, Zed Academy learn trade and succeed program"
 ];
 include_once ('elements/header.php');
@@ -316,7 +316,7 @@ include_once ('elements/header.php');
                         </div>
                     </div>
                     <div class="divider" data-aos="fade-up" data-aos-delay="400"></div>
-                    <p data-aos="fade-up" data-aos-delay="400">Latest trends in U.S. stocks, forex, and gold</p>
+                    <p data-aos="fade-up" data-aos-delay="400">Latest trends in U.S. stocks, forex and gold</p>
                 </div>
             </div>
             <div class="col-12 col-md-4">
@@ -396,8 +396,8 @@ include_once ('elements/header.php');
                 <h2 class="h2 fw-bold mb-5" data-aos="fade-up" data-aos-delay="800">Your gateway to professional trading</h2>
                 <div class="divider"></div>
                 <p class="text-muted mt-5 text-gray aos-init" data-aos="fade-up" data-aos-delay="800">
-                    At ZED Academy, we provide a structured and in-depth trading education designed to help you develop real-world trading skills, gain confidence, and trade like a professional.
-                    At ZED Academy, we provide a structured and in-depth trading education designed to help you develop real-world trading skills, gain confidence, and trade like a professional.
+                    At ZED Academy, we provide a structured and in-depth trading education designed to help you develop real-world trading skills, gain confidence and trade like a professional.
+                    At ZED Academy, we provide a structured and in-depth trading education designed to help you develop real-world trading skills, gain confidence and trade like a professional.
                 </p>
                 <ul class="arrow-list mt-4 aos-init" data-aos="fade-up" data-aos-delay="800">
                     <li>Complete all course videos</li>
@@ -415,7 +415,7 @@ include_once ('elements/header.php');
                         <div>
                             <h5 class="fw-bold">Expert-led education</h5>
                             <p class="text-muted mb-0">
-                                Our courses are designed and taught by top financial traders, analysts, and market strategists with years of professional experience in the financial markets.
+                                Our courses are designed and taught by top financial traders, analysts and market strategists with years of professional experience in the financial markets.
                             </p>
                         </div>
                         <img src="<?php echo getBaseUrl(); ?>/assets/images/expert-led-education.webp" alt="Expert Icon" class="w-25 set-diamond-image">

@@ -5,7 +5,7 @@ header('Content-Type: application/json'); // ensure JSON response
     if (!isset($_POST['high'], $_POST['low'], $_POST['close'])) {
         echo json_encode([
             'status' => 'error',
-            'message' => 'Missing required parameters: high, low, and close are required.'
+            'message' => 'Missing required parameters: high, low and close are required.'
         ]);
         exit;
     }

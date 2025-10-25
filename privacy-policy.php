@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Privacy Policy | Zed Academy - Protecting Your Data & Privacy",
-    "description" => "Read Zed Academy's Privacy Policy to understand how we collect, use, and protect your personal data while ensuring transparency and trust in our platform.",
+    "description" => "Read Zed Academy's Privacy Policy to understand how we collect, use and protect your personal data while ensuring transparency and trust in our platform.",
     "keyword" => "privacy policy, data protection, user privacy, Zed Academy data security, trading platform privacy, Zed Academy privacy policy for users, how Zed Academy collects and protects personal data, data protection policy for online trading education, secure user information and privacy guidelines, online trading platform privacy and confidentiality, managing personal data in trading platforms"
 ];
 include_once ('elements/header.php');
@@ -56,7 +56,7 @@ include_once ('elements/header.php');
   <main class="container my-5">
     <div class="policy-section" data-aos="fade-up">
       <h5>1. Introduction</h5>
-      <p>Zed Capital International Ltd (“Zed Capital”, “we”, “us”, “our”) is licensed and supervised by the Financial Services Commission (FSC), Mauritius. This Privacy Policy explains how we collect, use, disclose, store, and protect personal data when you visit <a href="https://zedcapital.com" target="_blank">zedcapital.com</a> or use our Services.</p>
+      <p>Zed Capital International Ltd (“Zed Capital”, “we”, “us”, “our”) is licensed and supervised by the Financial Services Commission (FSC), Mauritius. This Privacy Policy explains how we collect, use, disclose, store and protect personal data when you visit <a href="https://zedcapital.com" target="_blank">zedcapital.com</a> or use our Services.</p>
     </div>
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="100">
@@ -73,12 +73,12 @@ include_once ('elements/header.php');
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="200">
       <h5>3. Lawful Bases</h5>
-      <p>We process personal data under contract, legal obligation, legitimate interests, and consent where applicable (e.g., for marketing or non-essential cookies).</p>
+      <p>We process personal data under contract, legal obligation, legitimate interests and consent where applicable (e.g., for marketing or non-essential cookies).</p>
     </div>
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="300">
       <h5>4. Information We Collect</h5>
-      <p>We may collect and process information such as identity details, contact information, account and suitability data, technical and usage data, communications, and data from public or third-party sources.</p>
+      <p>We may collect and process information such as identity details, contact information, account and suitability data, technical and usage data, communications and data from public or third-party sources.</p>
     </div>
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="400">
@@ -92,7 +92,7 @@ include_once ('elements/header.php');
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="500">
       <h5>6-18. Other Provisions</h5>
-      <p>Includes use of data, cookies, automated decisions, disclosures, retention, security, your rights, communications, third-party links, children’s data, marketing preferences, policy updates, and contact details. Please read the full policy for detailed information.</p>
+      <p>Includes use of data, cookies, automated decisions, disclosures, retention, security, your rights, communications, third-party links, children’s data, marketing preferences, policy updates and contact details. Please read the full policy for detailed information.</p>
     </div>
 
     <div class="policy-section" data-aos="fade-up" data-aos-delay="600">

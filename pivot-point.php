@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "To Calculate Pivot Points | Forex & Stock Trading Guide",
-    "description" => "Learn how to calculate pivot points for forex and stock trading. Discover formulas, examples, and tips to identify key support and resistance levels.",
+    "description" => "Learn how to calculate pivot points for forex and stock trading. Discover formulas, examples and tips to identify key support and resistance levels.",
     "keyword" => "pivot points, calculate pivot points, pivot point formula, forex pivot points, stock market pivot points, how to calculate pivot points for forex trading, step by step pivot points calculation guide, pivot points formula for stocks and forex, best method to calculate intraday pivot points, pivot points trading strategy for beginners, calculate daily pivot points for market analysis, support and resistance levels using pivot points"
 ];
 include_once ('elements/header.php');
@@ -74,11 +74,11 @@ include_once ('elements/header.php');
                     <span class="ml-10">7. Third Resistance Level (R3) = High + 2 * (PP - Low)</span><br>
                 </div>
             </div>
-            <p class="p-content mt-20">The high, low, and closing prices from the previous trading session are required
+            <p class="p-content mt-20">The high, low and closing prices from the previous trading session are required
                 in order to use a pivot point calculator. To determine the Pivot Point and the corresponding levels of
                 support and resistance, enter these numbers into the formula.</p>
             <p class="p-content">Pivot point calculators are available on a lot of trading platforms and financial
-                websites. You can enter the required data into the calculator, and it will automatically determine the
+                websites. You can enter the required data into the calculator and it will automatically determine the
                 pivot point as well as its levels of support and resistance. Technical analysts and day traders are
                 particularly fond of these calculators..</p>
             <p class="p-content">To make well-informed trading decisions, traders frequently combine pivot points with

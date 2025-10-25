@@ -1,8 +1,8 @@
 <?php
 $seoArr = [
     "title" => "Trade the Future of Digital Assets | Crypto & Blockchain Trading - Zed Academy",
-    "description" => "Trade the future of digital assets with Zed Academy. Access crypto CFDs, blockchain assets, and real-time market insights to invest and trade confidently.",
-    "keyword" => "digital assets trading, crypto trading, blockchain assets, crypto CFDs, Zed Academy digital assets, how to trade the future of digital assets, invest in cryptocurrency and blockchain assets, Zed Academy guide to digital asset trading, trade bitcoin, ethereum, and other crypto CFDs, strategies for trading digital assets confidently, future of crypto and blockchain investment, online platform for trading digital assets and cryptocurrencies"
+    "description" => "Trade the future of digital assets with Zed Academy. Access crypto CFDs, blockchain assets and real-time market insights to invest and trade confidently.",
+    "keyword" => "digital assets trading, crypto trading, blockchain assets, crypto CFDs, Zed Academy digital assets, how to trade the future of digital assets, invest in cryptocurrency and blockchain assets, Zed Academy guide to digital asset trading, trade bitcoin, ethereum and other crypto CFDs, strategies for trading digital assets confidently, future of crypto and blockchain investment, online platform for trading digital assets and cryptocurrencies"
 ];
 include_once ('elements/header.php');
 // include_once ('elements/product-child-menu');

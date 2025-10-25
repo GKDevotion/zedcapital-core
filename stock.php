@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Trade Global Equities | Invest in Stocks Worldwide with Zed Academy",
-    "description" => "Trade global equities with Zed Academy. Learn strategies, access international stock markets, and invest confidently in global financial opportunities.",
+    "description" => "Trade global equities with Zed Academy. Learn strategies, access international stock markets and invest confidently in global financial opportunities.",
     "keyword" => "global equities trading, trade international stocks, stock market trading, Zed Academy equities, invest in global stocks, how to trade global equities online, best platform to trade international stocks, learn trading global equities with Zed Academy, invest in foreign stock markets safely, expert strategies for global equities trading, Zed Academy international equities courses"
 ];
 include_once ('elements/header.php');
@@ -87,7 +87,7 @@ include_once ('elements/header.php');
                 <h1 class="fw-bold h2 mb-5">Trade Global Equities</h1>
                 <div class="p-1 divider" data-aos="fade-up" data-aos-delay="800"></div>
                 <p class="mt-5 text-gray w-75" data-aos="fade-up" data-aos-delay="800">
-                    Access leading U.S., European, Asian, and Middle Eastern stocks with competitive pricing and deep liquidity. Benefit from transparent costs, robust risk controls, and fast, reliable execution.
+                    Access leading U.S., European, Asian and Middle Eastern stocks with competitive pricing and deep liquidity. Benefit from transparent costs, robust risk controls and fast, reliable execution.
                 </p>
             </div>
 
@@ -115,7 +115,7 @@ include_once ('elements/header.php');
             <div class="col-lg-7 position-relative text-white px-4 py-4 our-commitment-text-bg" data-aos="fade-up" data-aos-duration="850">
                 <ul class="mb-0 ps-5 mx-4 w-75" style="list-style-type: none;">
                     <li class="">
-                        <b>Zed Capital International Ltd</b>, investors gain access to a broad spectrum of equities that represent innovation, resilience, and global economic growth. 
+                        <b>Zed Capital International Ltd</b>, investors gain access to a broad spectrum of equities that represent innovation, resilience and global economic growth. 
                     </li>
                 </ul>
             </div>
@@ -153,7 +153,7 @@ include_once ('elements/header.php');
                 
                 <h5>Global Market Coverage</h5>
                 <p class="text-gray">
-                    Access equities listed on major exchanges, including the NYSE, NASDAQ, LSE, DAX, CAC 40, and more
+                    Access equities listed on major exchanges, including the NYSE, NASDAQ, LSE, DAX, CAC 40 and more
                 </p>
 
                 <h5>Two-Way Opportunities</h5>
@@ -173,12 +173,12 @@ include_once ('elements/header.php');
 
                 <h5>Integrated Platform</h5>
                 <p class="text-gray">
-                    Trade stocks alongside forex, commodities, and indices on our advanced <b>MT5 platform</b>.
+                    Trade stocks alongside forex, commodities and indices on our advanced <b>MT5 platform</b>.
                 </p>
 
                 <h5>Transparent Pricing & Execution</h5>
                 <p class="text-gray">
-                    Competitive spreads, deep liquidity, and institutional-grade execution.
+                    Competitive spreads, deep liquidity and institutional-grade execution.
                 </p>
 
                 <a href="#" class="show-all-btn w-100 d-none" title="Read More">
@@ -941,7 +941,7 @@ include_once ('elements/header.php');
                         <div>
                         <h5 class="fw-bold mb-1">Diversified Access</h5>
                         <p class="mb-0 small-muted">
-                            Build a portfolio across sectors including technology, energy, finance, healthcare, and consumer goods.
+                            Build a portfolio across sectors including technology, energy, finance, healthcare and consumer goods.
                         </p>
                         </div>
                     </div>
@@ -973,7 +973,7 @@ include_once ('elements/header.php');
                         <div>
                         <h5 class="fw-bold mb-1">Professional Tools</h5>
                         <p class="mb-0 small-muted">
-                            Advanced charting, technical analysis, and automated trading strategies.
+                            Advanced charting, technical analysis and automated trading strategies.
                         </p>
                         </div>
                     </div>
@@ -1106,7 +1106,7 @@ include_once ('elements/explore-more-about.php');
                             <b>Leverage Amplifies Risk:</b> While leverage enhances exposure, it also increases potential losses.
                         </li>
                         <li class="mb-1 px-4" data-aos="fade-up" data-aos-duration="800">
-                            <b>Volatility:</b> Equities are sensitive to earnings announcements, interest rates, and macroeconomic shifts.
+                            <b>Volatility:</b> Equities are sensitive to earnings announcements, interest rates and macroeconomic shifts.
                         </li>
                         <li class="mb-1 px-4" data-aos="fade-up" data-aos-duration="800">
                             <b>No Ownership Rights:</b> As CFDs, stock trades do not include shareholder benefits such as dividends or voting rights.

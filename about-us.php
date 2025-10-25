@@ -1,8 +1,8 @@
 <?php
 $seoArr = [
     "title" => "About Us | Zed Academy - Learn, Trade & Succeed in Global Markets",
-    "description" => "Learn about Zed Academy, a global trading education platform. Discover our mission, vision, and commitment to empowering traders with knowledge and tools.",
-    "keyword" => "about Zed Academy, trading education, financial market experts, learn to trade, ZED Capital information, about Zed Academy and its trading mission, learn trading and investing with Zed Academy, Zed Academy expert trading education and resources, who we are at Zed Academy global trading platform, mission and vision of Zed Academy for traders, trading courses, insights, and tools from Zed Academy, global trading education and investment guidance"
+    "description" => "Learn about Zed Academy, a global trading education platform. Discover our mission, vision and commitment to empowering traders with knowledge and tools.",
+    "keyword" => "about Zed Academy, trading education, financial market experts, learn to trade, ZED Capital information, about Zed Academy and its trading mission, learn trading and investing with Zed Academy, Zed Academy expert trading education and resources, who we are at Zed Academy global trading platform, mission and vision of Zed Academy for traders, trading courses, insights and tools from Zed Academy, global trading education and investment guidance"
 ];
 include_once ('elements/header.php');
 ?>
@@ -77,7 +77,7 @@ include_once ('elements/header.php');
         <h1 class="fw-bold mt-4">Get to know<br>Zed Capital</h1>
         <span class="underline"></span>
         <p class="mb-4 w-50">
-            Zed Capital International Ltd is a globally regulated financial services provider, licensed by the Financial Services Commission (FSC), Mauritius. We empower traders and investors with secure, transparent, and seamless access to global markets.
+            Zed Capital International Ltd is a globally regulated financial services provider, licensed by the Financial Services Commission (FSC), Mauritius. We empower traders and investors with secure, transparent and seamless access to global markets.
         </p>
     </div>
 </section>
@@ -85,7 +85,7 @@ include_once ('elements/header.php');
 <div class="section-bottom">
     <div class="container">
         <p class="mb-0">
-            Built on trust, innovation and integrity, we deliver institutional grade liquidity, advanced platforms and robust risk management ensuring every client enjoys world class market access, security, and support.
+            Built on trust, innovation and integrity, we deliver institutional grade liquidity, advanced platforms and robust risk management ensuring every client enjoys world class market access, security and support.
         </p>
     </div>
 </div>
@@ -208,10 +208,10 @@ include_once ('elements/header.php');
                         </a>
                     </h2>
                     <p class="text-gray">
-                        Our mission is to deliver secure, transparent, and comprehensive capital market solutions that empower clients to trade and invest with confidence, clarity, and control.
+                        Our mission is to deliver secure, transparent and comprehensive capital market solutions that empower clients to trade and invest with confidence, clarity and control.
                     </p>
                     <p class="">
-                        We are committed to offering equal access to global markets across diverse asset classes, while deploying innovative platforms and technologies that enhance both execution and decision-making. By promoting financial literacy and education, we enable clients to trade smarter and with greater assurance. Through industry-leading risk management, we safeguard client interests and build sustainable relationships founded on trust, performance, and transparency.
+                        We are committed to offering equal access to global markets across diverse asset classes, while deploying innovative platforms and technologies that enhance both execution and decision-making. By promoting financial literacy and education, we enable clients to trade smarter and with greater assurance. Through industry-leading risk management, we safeguard client interests and build sustainable relationships founded on trust, performance and transparency.
                     </p>
                 </div>
             </div>
@@ -231,7 +231,7 @@ include_once ('elements/header.php');
                         To be recognized as a trusted global leader in financial markets, admired for our integrity, innovation and long-term value creation.
                     </p>
                     <p class=" text-justify">
-                        We aspire to become the preferred partner for individuals, corporates, and institutions worldwide, leading the way in digital transformation and next-generation trading technologies. By setting benchmarks in regulation, compliance, and ethical business practices, we aim to expand access to global markets while strengthening financial security and resilience. Ultimately, we seek to build a lasting legacy of growth and innovation that endures across generations
+                        We aspire to become the preferred partner for individuals, corporates and institutions worldwide, leading the way in digital transformation and next-generation trading technologies. By setting benchmarks in regulation, compliance and ethical business practices, we aim to expand access to global markets while strengthening financial security and resilience. Ultimately, we seek to build a lasting legacy of growth and innovation that endures across generations
                     </p>
                 </div>
              </div>
@@ -368,7 +368,7 @@ include_once ('elements/header.php');
                         Regulated & Secure Trading
                     </h5>
                     <p class="text-gray">
-                        Licensed by the <b>FSC, Mauritius</b>, Zed Capital ensures fund safety, transparency, and full client protection through strict regulatory standards and secure trading systems.
+                        Licensed by the <b>FSC, Mauritius</b>, Zed Capital ensures fund safety, transparency and full client protection through strict regulatory standards and secure trading systems.
                     </p>
                 </div>
             </div>
@@ -378,7 +378,7 @@ include_once ('elements/header.php');
                         Global Market Access
                     </h5>
                     <p class="text-gray">
-                        Trade <b>forex, commodities, indices, stocks, and crypto CFDs</b> with tight spreads, fast execution and deep liquidity across global markets - all from one platform.
+                        Trade <b>forex, commodities, indices, stocks and crypto CFDs</b> with tight spreads, fast execution and deep liquidity across global markets - all from one platform.
                     </p>
                 </div>
             </div>
@@ -409,7 +409,7 @@ include_once ('elements/header.php');
                 <div class="card-background">
                     <h5 class="fw-bold mb-4 text-hover-effect">Comprehensive Trading Platforms</h5>
                     <p class="text-gray">
-                        Access leading-edge trading platforms such as MetaTrader 5 (MT5), renowned for their robust functionality, advanced charting tools, and automated trading.
+                        Access leading-edge trading platforms such as MetaTrader 5 (MT5), renowned for their robust functionality, advanced charting tools and automated trading.
                     </p>
                 </div>
             </div>
@@ -417,7 +417,7 @@ include_once ('elements/header.php');
                 <div class="card-background">
                     <h5 class="fw-bold mb-4 text-hover-effect">Wide Range of Instruments</h5>
                     <p class="text-gray">
-                        Trade a diverse range of forex currency pairs, commodities, indices, and cryptocurrencies, catering to diverse trading strategies and preferences.
+                        Trade a diverse range of forex currency pairs, commodities, indices and cryptocurrencies, catering to diverse trading strategies and preferences.
                     </p>
                 </div>
             </div>
@@ -425,7 +425,7 @@ include_once ('elements/header.php');
                 <div class="card-background">
                     <h5 class="fw-bold mb-4 text-hover-effect">Educational Resources</h5>
                     <p class="text-gray">
-                        Enhance your trading skills with our comprehensive educational resources, including webinars, tutorials, market analysis, and expert insights.
+                        Enhance your trading skills with our comprehensive educational resources, including webinars, tutorials, market analysis and expert insights.
                     </p>
                 </div>
             </div>
@@ -543,7 +543,7 @@ include_once ('elements/header.php');
                     </ul>
 
                     <p class="mt-4">
-                        This ensures that every client operates in a secure, compliant, and trustworthy environment.
+                        This ensures that every client operates in a secure, compliant and trustworthy environment.
                     </p>
                 </div>
             </div>
@@ -663,7 +663,7 @@ include_once ('elements/header.php');
     <div class="container">
         <div class="row">
             <h2 class="h2 fw-bold">The Strength of Our Global Presence</h2>
-            <p class="text-gray">We connect traders worldwide with transparent pricing, advanced technology, and trusted global access.</p>
+            <p class="text-gray">We connect traders worldwide with transparent pricing, advanced technology and trusted global access.</p>
         </div>
         
         <div class="row presence-stats mt-5">
@@ -753,7 +753,7 @@ include_once ('elements/header.php');
             <!-- Right Paragraph -->
             <div class="col-md-7">
                 <p class="text-gray">
-                    Their hands-on experience revealed the daily challenges, roadblocks, and pain points that traders face—issues the industry had yet to solve.
+                    Their hands-on experience revealed the daily challenges, roadblocks and pain points that traders face—issues the industry had yet to solve.
                     Driven by a vision to eliminate these obstacles, they set out to create Zed Capital: a company built by traders, for traders.
                     Zed Capital solves current trading problems and constantly innovates to stay one step ahead, delivering cutting-edge solutions to empower its clients worldwide.
                 </p>

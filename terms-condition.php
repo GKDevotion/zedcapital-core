@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Terms & Conditions | Zed Academy – Learn. Trade. Succeed.",
-    "description" => "Read Zed Academy's Terms & Conditions. Understand our rules, user responsibilities, and guidelines for using our trading and educational platform safely.",
+    "description" => "Read Zed Academy's Terms & Conditions. Understand our rules, user responsibilities and guidelines for using our trading and educational platform safely.",
     "keyword" => "terms and conditions, user agreement, trading platform rules, Zed Academy policies, online trading terms, Zed Academy terms and conditions for users, online trading platform user agreement and policies, rules and regulations for using Zed Academy, terms and conditions for trading courses and mentorship, legal policies for secure online trading education"
 ];
 include_once ('elements/header.php');
@@ -117,7 +117,7 @@ include_once ('elements/header.php');
           <p>Zed Capital International Ltd is licensed and supervised by the Financial Services Commission (FSC), Mauritius as an investment dealer.</p>
           <p>Registered office: [Insert registered office address, Mauritius].</p>
           <p>Contact: <a href="mailto:support@zedcapital.com">support@zedcapital.com</a> | Tel: +230 655 5223 | Website: <a href="https://zedcapital.com">https://zedcapital.com</a></p>
-          <p>These Terms govern access to and use of our website(s), client portal, and trading platforms (including MetaTrader 5) and related products/services.</p>
+          <p>These Terms govern access to and use of our website(s), client portal and trading platforms (including MetaTrader 5) and related products/services.</p>
         </section>
 
         <section id="scope-acceptance" class="terms-section" data-aos="fade-up">
@@ -144,7 +144,7 @@ include_once ('elements/header.php');
         <section id="eligibility" class="terms-section" data-aos="fade-up">
           <h2>4. Eligibility & Client Categorisation</h2>
           <ul class="policy-list">
-            <li>You confirm you are at least 18, have legal capacity, and are not resident in a restricted jurisdiction.</li>
+            <li>You confirm you are at least 18, have legal capacity and are not resident in a restricted jurisdiction.</li>
             <li>We classify clients (Retail/Professional/Eligible Counterparty) based on your information. Protections vary by category.</li>
             <li>We may decline or discontinue onboarding at our discretion.</li>
           </ul>
@@ -153,8 +153,8 @@ include_once ('elements/header.php');
         <section id="kyc-aml" class="terms-section" data-aos="fade-up">
           <h2>5. KYC/AML & Ongoing Monitoring</h2>
           <ul class="policy-list">
-            <li>Provide accurate identity, contact, PEP, tax, and source-of-funds info and keep it updated.</li>
-            <li>We conduct verification, sanctions/PEP screening, monitoring, and ongoing reviews as required by law.</li>
+            <li>Provide accurate identity, contact, PEP, tax and source-of-funds info and keep it updated.</li>
+            <li>We conduct verification, sanctions/PEP screening, monitoring and ongoing reviews as required by law.</li>
             <li>Additional documents may be requested; Accounts may be suspended or closed if checks cannot be completed.</li>
             <li>Communications may be recorded as permitted by law.</li>
           </ul>

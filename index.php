@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Client Fund Security | Safe & Transparent Trading with Zed Academy",
-    "description" => "Learn about client fund security measures. Protect your investments with segregated accounts, transparent policies, and reliable trading practices.",
+    "description" => "Learn about client fund security measures. Protect your investments with segregated accounts, transparent policies and reliable trading practices.",
     "keyword" => "client fund security, secure trading funds, protected investments, Zed Academy safety, fund protection, how Zed Academy ensures client fund security, safe and secure trading fund policies, segregated client accounts for fund protection, transparent trading practices to protect funds, fund security measures for traders, client fund protection in online trading platforms, ensure investment safety with secure fund policies"
 ];
 
@@ -105,7 +105,7 @@ include_once('elements/header.php');
                     <p class="mb-0 pb-2">STP Broker</p>
                 </h5>
                 <p class="mb-0 text-gray">
-                    Trade with full confidence through our licensed STP broker, regulated, transparent, and committed to fair pricing and reliability.
+                    Trade with full confidence through our licensed STP broker, regulated, transparent and committed to fair pricing and reliability.
                 </p>
             </div>
 
@@ -596,10 +596,10 @@ include_once('elements/header.php');
             <div class="col-md-12 section-title" data-aos="fade-up" data-aos-duration="800">
                 <h2 class="h2">Institutional-Grade MT5, On Every Device</h2>
                 <p class="fs-5 text-gray m-0 mx-auto text-center mt-3">
-                    Consistent pricing, advanced order types, and audit-ready security controls.
+                    Consistent pricing, advanced order types and audit-ready security controls.
                 </p>
                 <p class="fs-5 text-gray m-0 mx-auto text-center">
-                    Access MT5 across Windows, macOS, iOS, and Android with unified login.
+                    Access MT5 across Windows, macOS, iOS and Android with unified login.
                 </p>
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/meta-trader-5-logo.webp" class="fluid-img meta-trader-logo mt-5" alt="MetaTrader 5">
             </div>
@@ -891,7 +891,7 @@ include_once('elements/header.php');
 <div class="container" id="market_access">
     <h2 class="h2 text-center">Global Multi-Asset Access</h2>
     <p class="text-center mb-5 text-muted">
-        One account. Stocks, metals, indices, FX, commodities, and crypto.
+        One account. Stocks, metals, indices, FX, commodities and crypto.
     </p>
 
     <div class="row g-4">
@@ -905,7 +905,7 @@ include_once('elements/header.php');
                         <h3 class="text-hover-effect">Stocks</h3>
                     </div>
                     <div class="px-5">
-                        <p class="text-start text-gray">Invest in global leaders like Apple, Tesla, and Microsoft for long-term growth.</p>
+                        <p class="text-start text-gray">Invest in global leaders like Apple, Tesla and Microsoft for long-term growth.</p>
                     </div>
                 </div>
                 <img src="<?php echo getBaseUrl(); ?>/assets/images/apple-logo.png" class="icon apple" alt="Apple">
@@ -1085,7 +1085,7 @@ include_once('elements/header.php');
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            Safe MT5 copy-trading tools that consistently and quickly copy deals between accounts.  The master account is chosen, risk is established (fixed lots or percentage equity), and you can halt or disengage at any time. Tools only. No fund handling or financial advice.
+                            Safe MT5 copy-trading tools that consistently and quickly copy deals between accounts.  The master account is chosen, risk is established (fixed lots or percentage equity) and you can halt or disengage at any time. Tools only. No fund handling or financial advice.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
@@ -1108,7 +1108,7 @@ include_once('elements/header.php');
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            MT5 Web Trading puts the full MT5 experience in your browser -no downloads, no installs. Log in with your Zed Capital account to get real-time pricing, one-click orders, advanced charts, depth of market, and full order types, all synced across your devices. Fast, secure, and ready to trade anywhere.
+                            MT5 Web Trading puts the full MT5 experience in your browser -no downloads, no installs. Log in with your Zed Capital account to get real-time pricing, one-click orders, advanced charts, depth of market and full order types, all synced across your devices. Fast, secure and ready to trade anywhere.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 openMT5WebTrader">
@@ -1131,7 +1131,7 @@ include_once('elements/header.php');
                     </div>
                     <div class="col-md-12 set-m-bottom">
                         <p class="text-gray text-start">
-                            A secure, role-based CRM that centralises lead management, KYC/AML, MT5 account syncing, deposit/withdrawals, support tickets, and IB/affiliate payouts, powered by automation, audit trails, and real-time performance dashboards for faster onboarding and higher retention.
+                            A secure, role-based CRM that centralises lead management, KYC/AML, MT5 account syncing, deposit/withdrawals, support tickets and IB/affiliate payouts, powered by automation, audit trails and real-time performance dashboards for faster onboarding and higher retention.
                         </p>
                     </div>
                     <div class="col-md-12 create-account-btn mt-4 openLiveAccount">
@@ -1887,7 +1887,7 @@ include_once('elements/header.php');
             <div class="col-md-6 security-text" data-aos="fade-up" data-aos-duration="800">
                 <h2 class="mb-4">Fund Security</h2>
                 <p class="trust-text text-gray mb-4" data-aos="fade-up" data-aos-delay="500">
-                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, Strategic risk Management, and bank-level data security, we ensure your capital remains protected at all times.
+                    At Zed Capital, the safety of your funds is our highest priority. Client deposits are kept in segregated accounts with top-tier banks, safeguarded under FSC regulation. With negative balance protection, Strategic risk Management and bank-level data security, we ensure your capital remains protected at all times.
                 </p>
                 <ul class="arrow-list">
                     <li class="mb-1 fs-5 px-4" data-aos="fade-up" data-aos-delay="500">

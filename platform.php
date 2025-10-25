@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "MetaTrader 5 | The Professional Trading Platform for Investors",
-    "description" => "MetaTrader 5 is the platform of professionals. Access advanced trading tools, real-time charts, and multi-asset markets to trade confidently.",
+    "description" => "MetaTrader 5 is the platform of professionals. Access advanced trading tools, real-time charts and multi-asset markets to trade confidently.",
     "keyword" => "MetaTrader 5, MT5 platform, professional trading platform, advanced trading tools, forex and stock trading, MetaTrader 5 platform for professional traders, best trading platform for forex and stocks, advanced trading tools with MetaTrader 5, automated trading and expert advisors in MT5, trade multiple markets using MetaTrader 5"
 ];
 include_once('elements/header.php');
@@ -747,7 +747,7 @@ include_once ('elements/feature-trading-icons.php');
                             <div class="col-sm-12 col-12 pt-0 pt-md-5" data-aos="fade-up" data-aos-duration="800">
                                 <ul class="web-trading-arrow-list">
                                     <li class="">
-                                        MetaTrader 5 Web Trader gives you full market access, real-time pricing, and complete account control from any device, powered by Zed Capital International Ltd.
+                                        MetaTrader 5 Web Trader gives you full market access, real-time pricing and complete account control from any device, powered by Zed Capital International Ltd.
                                     </li>
                                 </ul>
                             </div>
@@ -769,7 +769,7 @@ include_once ('elements/feature-trading-icons.php');
                                     <b>No Installation Needed: </b>Access instantly from any modern browser.
                                 </li>
                                 <li>
-                                    <b>Cross-Platform Access: </b>Trade seamlessly across desktop, mobile, and tablet.
+                                    <b>Cross-Platform Access: </b>Trade seamlessly across desktop, mobile and tablet.
                                 </li>
                             </ul>
                         </div>

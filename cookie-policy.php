@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Cookies Policy | Zed Academy - Privacy & Website Cookie Usage",
-    "description" => "Read Zed Academy's Cookies Policy to understand how cookies are used, stored, and managed on our website to enhance your experience while ensuring privacy.",
+    "description" => "Read Zed Academy's Cookies Policy to understand how cookies are used, stored and managed on our website to enhance your experience while ensuring privacy.",
     "keyword" => "Zed Academy cookies policy and data usage, how Zed Academy uses cookies and tracking tools, managing website cookies and user preferences, online cookies policy for educational and trading websites, privacy practices and cookie usage for Zed Academy, website cookie management and user experience optimization, understanding cookies for trading and educational platforms"
 ];
 include_once ('elements/header.php');
@@ -76,7 +76,7 @@ include_once ('elements/header.php');
     <!-- How We Use Cookies -->
     <section class="policy-section" data-aos="fade-left">
       <h2>2) How We Use Cookies</h2>
-      <p>Cookies help us provide, protect, and improve the Website by enabling core functionality, remembering preferences, and analyzing usage.</p>
+      <p>Cookies help us provide, protect and improve the Website by enabling core functionality, remembering preferences and analyzing usage.</p>
       <ul>
         <li><strong>Strictly Necessary Cookies</strong> – essential for site operation (secure login, fraud prevention).</li>
         <li><strong>Functionality Cookies</strong> – remember choices like language or login details.</li>

@@ -1,7 +1,7 @@
 <?php
 $seoArr = [
     "title" => "Global Currency Converter | Live Exchange Rates - Zed Academy",
-    "description" => "Use Zed Academy's Global Currency Converter for live exchange rates. Convert currencies instantly with accurate, real-time rates for forex, USD, EUR, GBP, and more.",
+    "description" => "Use Zed Academy's Global Currency Converter for live exchange rates. Convert currencies instantly with accurate, real-time rates for forex, USD, EUR, GBP and more.",
     "keyword" => "currency converter, live exchange rates, forex converter, USD to EUR converter, global currency conversion, global currency converter with live exchange rates, real-time forex and international currency conversion, convert USD, EUR, GBP, JPY online instantly, Zed Academy currency converter for traders and travelers, live foreign exchange rates calculator online, accurate currency conversion tool with global rates, convert multiple currencies instantly with real-time data"
 ];
 include_once ('elements/header.php');
@@ -48,7 +48,7 @@ include_once ('elements/header.php');
             <p class="p-content mt-10">Within seconds, find the most recent exchange rate for any significant currency
                 pair. The best tool for traders investing in foreign stock exchanges with multiple currencies is our
                 cryptocurrency and currency converter. Accurately convert several base currencies, digital currencies,
-                gold, and silver to the target currency.</p>
+                gold and silver to the target currency.</p>
         </div>
 
         <div class="col-md-6 offset-3 text-center mt-3">

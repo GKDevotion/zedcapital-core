@@ -13,7 +13,7 @@
                         </h2>
                         <div id="amfaq1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                The American financial market is the largest and most liquid in the world, driven by advanced infrastructure, regulatory strength, and innovation. With institutions like the NYSE, NASDAQ, and CME, it influences global economic policies, capital flows, and investment trends.
+                                The American financial market is the largest and most liquid in the world, driven by advanced infrastructure, regulatory strength and innovation. With institutions like the NYSE, NASDAQ and CME, it influences global economic policies, capital flows and investment trends.
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                         </h2>
                         <div id="amfaq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                The U.S. market is composed of several key segments — equities, fixed income (bonds), currencies (forex), commodities & derivatives, and private capital (venture capital and private equity). Each segment offers unique opportunities for investors with varying risk and return profiles.
+                                The U.S. market is composed of several key segments — equities, fixed income (bonds), currencies (forex), commodities & derivatives and private capital (venture capital and private equity). Each segment offers unique opportunities for investors with varying risk and return profiles.
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                         </h2>
                         <div id="amfaq3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                U.S. equities are backed by strong corporate governance, transparency, and consistent innovation. They provide high liquidity, long-term growth potential, and exposure to globally leading industries like technology, energy, and healthcare.
+                                U.S. equities are backed by strong corporate governance, transparency and consistent innovation. They provide high liquidity, long-term growth potential and exposure to globally leading industries like technology, energy and healthcare.
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                         </h2>
                         <div id="amfaq5" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                The U.S. dollar is used in over 80% of global forex transactions due to the size, stability, and depth of the American economy. Federal Reserve policies and global trade practices reinforce the dollar’s dominance in international markets.
+                                The U.S. dollar is used in over 80% of global forex transactions due to the size, stability and depth of the American economy. Federal Reserve policies and global trade practices reinforce the dollar’s dominance in international markets.
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                         </h2>
                         <div id="amfaq1" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                U.S. exchanges like the CME and CBOT set global benchmark prices for key commodities such as oil, gold, and agricultural products. Derivatives—futures and options—allow investors to hedge risk, diversify portfolios, and speculate strategically.
+                                U.S. exchanges like the CME and CBOT set global benchmark prices for key commodities such as oil, gold and agricultural products. Derivatives—futures and options—allow investors to hedge risk, diversify portfolios and speculate strategically.
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                         </h2>
                         <div id="amfaq2" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Investors can access diverse instruments including equities, ETFs, bonds, commodities, and private assets. The market provides both long-term growth and short-term tactical trading opportunities, particularly during economic data releases and Federal Reserve decisions.
+                                Investors can access diverse instruments including equities, ETFs, bonds, commodities and private assets. The market provides both long-term growth and short-term tactical trading opportunities, particularly during economic data releases and Federal Reserve decisions.
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                         </h2>
                         <div id="amfaq3" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Major risks include market volatility, regulatory changes, and global geopolitical or economic shocks. Zed Capital emphasizes risk management, diversification, and continuous analysis to safeguard client portfolios.
+                                Major risks include market volatility, regulatory changes and global geopolitical or economic shocks. Zed Capital emphasizes risk management, diversification and continuous analysis to safeguard client portfolios.
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                         </h2>
                         <div id="amfaq4" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Zed Capital provides institutional-grade insights, customized strategies, and global perspectives. Our team combines research-driven analysis with disciplined execution to align investment opportunities with each client’s objectives.
+                                Zed Capital provides institutional-grade insights, customized strategies and global perspectives. Our team combines research-driven analysis with disciplined execution to align investment opportunities with each client’s objectives.
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                         </h2>
                         <div id="amfaq10" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                The U.S. market continues to be a hub for innovation, liquidity, and growth. Despite short-term volatility, its structural strength and global influence make it a cornerstone for diversified investment portfolios.
+                                The U.S. market continues to be a hub for innovation, liquidity and growth. Despite short-term volatility, its structural strength and global influence make it a cornerstone for diversified investment portfolios.
                             </div>
                         </div>
                     </div>
