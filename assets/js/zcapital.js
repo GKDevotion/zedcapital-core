@@ -368,18 +368,18 @@ if ($("#market-slides").length > 0) {
     const zoom = 2.2;
 
     const markets = [
-        { name: 'New York', slug: 'us', flag: 'US', lat: 40.7128, lng: -74.0060, open: 13, close: 22 },
-        { name: 'London', slug: 'gb', flag: 'GB', lat: 51.5074, lng: -1.1278, open: 8, close: 17 },
-        { name: 'Tokyo', slug: 'jp', flag: 'JP', lat: 35.6895, lng: 139.6917, open: 0, close: 9 },
-        { name: 'Sydney', slug: 'au', flag: 'AU', lat: -33.8688, lng: 151.2093, open: 22, close: 7 },
-        { name: 'Frankfurt', slug: 'de', flag: 'DE', lat: 52.1109, lng: 11.6821, open: 7, close: 16 },
-        { name: 'Zurich', slug: 'ch', flag: 'CH', lat: 47.3769, lng: 8.5417, open: 8, close: 17 },
-        { name: 'Toronto', slug: 'ca', flag: 'CA', lat: 43.6532, lng: -79.3832, open: 13, close: 22 },
-        { name: 'Hong Kong', slug: 'hk', flag: 'HK', lat: 22.3193, lng: 114.1694, open: 1, close: 10 },
-        { name: 'Shanghai', slug: 'cn', flag: 'CN', lat: 31.2304, lng: 121.4737, open: 1, close: 9 },
-        { name: 'Shenzhen', slug: 'cn', flag: 'CN', lat: 22.5431, lng: 114.0579, open: 1, close: 9 },
-        { name: 'Euronext', slug: 'nl', flag: 'NL', lat: 53.3676, lng: 4.9041, open: 7, close: 16 },
-        { name: 'Mumbai', slug: 'in', flag: 'IN', lat: 19.0760, lng: 72.8777, open: 3.5, close: 12.5 }
+        { name: 'New York', slug: 'us', flag: 'US', lat: 40.7128, lng: -74.0060, open: 14.5, close: 21 },
+        { name: 'London', slug: 'gb', flag: 'GB', lat: 51.5074, lng: -1.1278, open: 8, close: 16.5 },
+        { name: 'Tokyo', slug: 'jp', flag: 'JP', lat: 35.6895, lng: 139.6917, open: 0, close: 6 },
+        { name: 'Sydney', slug: 'au', flag: 'AU', lat: -33.8688, lng: 151.2093, open: 0, close: 6 },
+        { name: 'Frankfurt', slug: 'de', flag: 'DE', lat: 52.1109, lng: 11.6821, open: 7, close: 19 },
+        { name: 'Zurich', slug: 'ch', flag: 'CH', lat: 47.3769, lng: 8.5417, open: 8, close: 16.5 },
+        { name: 'Toronto', slug: 'ca', flag: 'CA', lat: 43.6532, lng: -79.3832, open: 14.5, close: 21 },
+        { name: 'Hong Kong', slug: 'hk', flag: 'HK', lat: 22.3193, lng: 114.1694, open: 1.5, close: 8 },
+        { name: 'Shanghai', slug: 'cn', flag: 'CN', lat: 31.2304, lng: 121.4737, open: 1.5, close: 7 },
+        { name: 'Shenzhen', slug: 'cn', flag: 'CN', lat: 22.5431, lng: 114.0579, open: 1.5, close: 7 },
+        { name: 'Euronext', slug: 'nl', flag: 'NL', lat: 53.3676, lng: 4.9041, open: 8, close: 16.5 },
+        { name: 'Mumbai', slug: 'in', flag: 'IN', lat: 19.0760, lng: 72.8777, open: 3.5, close: 10 }
     ];
 
     renderMarkets();
@@ -391,7 +391,7 @@ if ($("#market-slides").length > 0) {
         const utcHour = now.getUTCHours() + now.getUTCMinutes() / 60;
         const open = market.open, close = market.close;
 
-        if( ( now.getDay() == 6 || now.getDay() == 0 ) && market.flag == "IN" ){
+        if( ( now.getDay() == 6 || now.getDay() == 0 ) ){//&& market.flag == "IN" 
             return false;
         } else {
             return ( utcHour >= open && utcHour < close ) || ( close < open && ( utcHour >= open || utcHour < close ) );

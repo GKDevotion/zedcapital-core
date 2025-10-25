@@ -400,7 +400,7 @@ include_once ('elements/header.php');
                         Regulatory Assurance
                     </p>
                     <p class="text-gray" style="width: 90%;">
-                        Fully licensed under FSC Mauritius, ensuring compliance with international standards. Client funds are safeguarded in segregated accounts with leading banking institutions.
+                        Fully licensed under FSC Mauritius and the regulatory number is GB24203133. ensuring compliance with international standards. Client funds are safeguarded in segregated accounts with leading banking institutions.
                     </p>
                 </div>
 
