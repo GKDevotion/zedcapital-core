@@ -389,8 +389,7 @@ if ($("#market-slides").length > 0) {
     function checkMarketOpen(market) {
         const now = new Date();
         const utcHour = now.getUTCHours() + now.getUTCMinutes() / 60;
-        const open = market.open,
-            close = market.close;
+        const open = market.open, close = market.close;
 
         if( ( now.getDay() == 6 || now.getDay() == 0 ) && market.flag == "IN" ){
             return false;
