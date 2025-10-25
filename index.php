@@ -1630,8 +1630,7 @@ include_once('elements/header.php');
 
     .static-marker {
         position: absolute;
-        width: 30px;
-        height: 30px;
+        background-size: 35px 35px !important;
         border-radius: 50%;
         background-size: cover;
         background-position: center;
