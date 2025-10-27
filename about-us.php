@@ -519,7 +519,7 @@ include_once ('elements/header.php');
             <!-- Left Image -->
             <div class="col-md-7">
                 <div class="regulatory-left">
-                    <img src="<?php echo getBaseUrl(); ?>/assets/images/regulatory-assurance.webp" alt="Regulatory Assurance">
+                    <img src="<?php echo getBaseUrl(); ?>/assets/images/regulatory-assurance.png" alt="Regulatory Assurance">
                 </div>
             </div>
             <!-- Right Text -->

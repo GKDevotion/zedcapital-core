@@ -358,7 +358,7 @@ include_once ('elements/header.php');
         <!-- Brent -->
         <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/brent-oil.webp" class="w-75" alt="Brent Oil" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/brent-oil.png" class="w-75" alt="Brent Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title text-green">Brent</div>
                 <div class="market-title fw-bold d-none">XBRUSD</div>
                 <div class="d-flex justify-content-between px-5 mt-4">
@@ -392,7 +392,7 @@ include_once ('elements/header.php');
         <!-- NGAS -->
         <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/natural-gas.webp" class="w-75" alt="natural Gas" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/natural-gas.png" class="w-75" alt="natural Gas" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">NGAS</div>
                 <div class="market-title fw-bold d-none">XYIUSD</div>
                 <div class="d-flex justify-content-between px-5 mt-4">
@@ -426,7 +426,7 @@ include_once ('elements/header.php');
         <!-- WTI -->
         <div class="col-12 col-sm-4 col-xxl px-3" data-aos="fade-up" data-aos-duration="800" >
             <div class="commodoties-card w-100" data-aos="fade-up" data-aos-duration="400" >
-                <img src="<?php echo getBaseUrl(); ?>/assets/images/wti-oil.webp" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="<?php echo getBaseUrl(); ?>/assets/images/wti-oil.png" class="w-75" alt="WTI Oil" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="metal-title  text-green">WTI</div>
                 <div class="market-title fw-bold d-none">XTIUSD</div>
                 <div class="d-flex justify-content-between px-5 mt-4">
