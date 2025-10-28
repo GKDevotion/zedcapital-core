@@ -458,6 +458,13 @@ include_once ('elements/header.php');
         </div>
         
     </div>
+    
+    <!-- Button -->
+    <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="850">
+        <a href="javascript:void(0)" class="btn btn-danger px-4 py-2 mt-4 rounded-pill loginLiveAccount" title="Read More">
+            Click here to view the Commodity
+        </a>
+    </div>
 
 </div>
 

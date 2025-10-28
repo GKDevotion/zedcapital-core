@@ -864,7 +864,7 @@ include_once ('elements/header.php');
 
     <!-- Button -->
     <div class="text-center mt-4 mb-5" data-aos="fade-up" data-aos-duration="800" >
-        <a href="#" class="btn btn-danger px-4 py-2 mt-4 rounded-pill" title="Read More">
+        <a href="javascript:void(0)" class="btn btn-danger px-4 py-2 mt-4 rounded-pill loginLiveAccount" title="Read More">
         Click here to view the indices
         </a>
     </div>
